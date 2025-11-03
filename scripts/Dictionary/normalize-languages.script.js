@@ -99,7 +99,7 @@ const languages = [
 ];
 
 const dictionaryPath =
-	"/home/himanshu-soni/Developer/work/qubitron/bet-flux/Dictionary";
+	"/home/himanshu-soni/Developer/work/qubitron/betflux/Dictionary";
 
 // Load all language files
 const languageData = {};
