@@ -150,6 +150,7 @@ interface ProviderCarouselSectionProps {
 	firstRowFilter: string;
 	secondRowFilter: string;
 	providers?: Array<{ name: string; count: number; icon_url?: string }>; // Optional override for providers
+	onViewAllClick?: () => void;
 }
 
 export const ProviderCarouselSection = memo(function ProviderCarouselSection({
@@ -160,6 +161,7 @@ export const ProviderCarouselSection = memo(function ProviderCarouselSection({
 	firstRowFilter,
 	secondRowFilter,
 	providers: overrideProviders,
+	onViewAllClick,
 }: ProviderCarouselSectionProps) {
 	const tCommon = useTranslations("common");
 
@@ -199,34 +201,24 @@ export const ProviderCarouselSection = memo(function ProviderCarouselSection({
 		[overrideProviders, secondRowProvidersRaw, maxProviders]
 	);
 
-	// For infinite scroll, duplicate
-	const shouldUseInfiniteScroll = useMemo(
-		() => !overrideProviders,
-		[overrideProviders]
-	);
+	// Duplicate providers for infinite scroll
 	const displayFirstRow = useMemo(
-		() =>
-			shouldUseInfiniteScroll
-				? [
-						...firstRowProviders,
-						...firstRowProviders,
-						...firstRowProviders,
-						...firstRowProviders,
-				  ]
-				: firstRowProviders,
-		[shouldUseInfiniteScroll, firstRowProviders]
+		() => [
+			...firstRowProviders,
+			...firstRowProviders,
+			...firstRowProviders,
+			...firstRowProviders,
+		],
+		[firstRowProviders]
 	);
 	const displaySecondRow = useMemo(
-		() =>
-			shouldUseInfiniteScroll
-				? [
-						...secondRowProviders,
-						...secondRowProviders,
-						...secondRowProviders,
-						...secondRowProviders,
-				  ]
-				: secondRowProviders,
-		[shouldUseInfiniteScroll, secondRowProviders]
+		() => [
+			...secondRowProviders,
+			...secondRowProviders,
+			...secondRowProviders,
+			...secondRowProviders,
+		],
+		[secondRowProviders]
 	);
 
 	if (
@@ -261,6 +253,7 @@ export const ProviderCarouselSection = memo(function ProviderCarouselSection({
 					overflow: hidden;
 					position: relative;
 					width: 100%;
+					padding: 2px 0px;
 				}
 
 				.infinite-scroll-track {
@@ -370,71 +363,52 @@ export const ProviderCarouselSection = memo(function ProviderCarouselSection({
 							size="sm"
 							className="text-xs sm:text-sm"
 						>
-							<Link href={viewAllUrl}>{tCommon("viewAll")}</Link>
+							<Link
+								href={viewAllUrl}
+								onClick={() => onViewAllClick?.()}
+							>
+								{tCommon("viewAll")}
+							</Link>
 						</Button>
 					</div>
 				</div>
 
-				{/* DUAL ROW CONTAINER - Infinite scroll for regular browsing, static grid for search results */}
+				{/* DUAL ROW CONTAINER - Infinite scroll */}
 				<div className="space-y-3 sm:space-y-4">
-					{shouldUseInfiniteScroll ? (
-						<>
-							{/* FIRST ROW - Casino Providers */}
-							<div className="infinite-scroll-container">
-								<div className="infinite-scroll-track scroll-right-to-left">
-									{displayFirstRow.map((provider, index) => (
-										<div
-											key={`row1-${provider.name}-${index}`}
-											className="provider-item"
-										>
-											<ProviderGridCard
-												name={provider.name}
-												gameCount={provider.count}
-												iconUrl={provider.icon_url}
-											/>
-										</div>
-									))}
+					{/* FIRST ROW - Casino Providers */}
+					<div className="infinite-scroll-container">
+						<div className="infinite-scroll-track scroll-right-to-left">
+							{displayFirstRow.map((provider, index) => (
+								<div
+									key={`row1-${provider.name}-${index}`}
+									className="provider-item"
+								>
+									<ProviderGridCard
+										name={provider.name}
+										gameCount={provider.count}
+										iconUrl={provider.icon_url}
+									/>
 								</div>
-							</div>
-							{/* SECOND ROW - Slot Providers */}
-							<div className="infinite-scroll-container">
-								<div className="infinite-scroll-track scroll-left-to-right">
-									{displaySecondRow.map((provider, index) => (
-										<div
-											key={`row2-${provider.name}-${index}`}
-											className="provider-item"
-										>
-											<ProviderGridCard
-												name={provider.name}
-												gameCount={provider.count}
-												iconUrl={provider.icon_url}
-											/>
-										</div>
-									))}
-								</div>
-							</div>
-						</>
-					) : (
-						/* SEARCH RESULTS - Static Grid Layout */
-						<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3 sm:gap-4">
-							{firstRowProviders.map((provider, index) => (
-								<ProviderGridCard
-									key={`search-row1-${provider.name}-${index}`}
-									name={provider.name}
-									gameCount={provider.count}
-									iconUrl={provider.icon_url}
-								/>
-							))}
-							{secondRowProviders.map((provider, index) => (
-								<ProviderGridCard
-									key={`search-row2-${provider.name}-${index}`}
-									name={provider.name}
-									gameCount={provider.count}
-									iconUrl={provider.icon_url}
-								/>
 							))}
 						</div>
-					)}
+					</div>
+					{/* SECOND ROW - Slot Providers */}
+					<div className="infinite-scroll-container">
+						<div className="infinite-scroll-track scroll-left-to-right">
+							{displaySecondRow.map((provider, index) => (
+								<div
+									key={`row2-${provider.name}-${index}`}
+									className="provider-item"
+								>
+									<ProviderGridCard
+										name={provider.name}
+										gameCount={provider.count}
+										iconUrl={provider.icon_url}
+									/>
+								</div>
+							))}
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
