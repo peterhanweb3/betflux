@@ -18,6 +18,7 @@ import {
 	SidebarHeader,
 	// SidebarRail,
 	SidebarMenuButton,
+	useSidebar,
 } from "@/components/ui/sidebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGift, faPaperPlane } from "@fortawesome/pro-light-svg-icons";
@@ -29,9 +30,11 @@ import { useDynamicAuth } from "@/hooks/useDynamicAuth";
 const ProtectedActionButtons = memo(function ProtectedActionButtons({
 	onAuthedAction,
 	tSidebar,
+	onNavigate,
 }: {
 	onAuthedAction: (tab: "deposit" | "withdraw") => void;
 	tSidebar: ReturnType<typeof useTranslations>;
+	onNavigate: () => void;
 }) {
 	const { primaryWallet, setShowAuthFlow } = useDynamicContext();
 
@@ -42,8 +45,9 @@ const ProtectedActionButtons = memo(function ProtectedActionButtons({
 				return;
 			}
 			onAuthedAction(tab);
+			onNavigate();
 		},
-		[primaryWallet, setShowAuthFlow, onAuthedAction]
+		[primaryWallet, setShowAuthFlow, onAuthedAction, onNavigate]
 	);
 
 	return (
@@ -78,6 +82,16 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 
 	// Auth state to tailor navigation
 	const { isLoggedIn } = useDynamicAuth();
+
+	// Sidebar state for mobile navigation
+	const { isMobile, setOpenMobile } = useSidebar();
+
+	// Close sidebar on mobile when navigating
+	const handleMobileNavigation = useCallback(() => {
+		if (isMobile) {
+			setOpenMobile(false);
+		}
+	}, [isMobile, setOpenMobile]);
 
 	// Store subscriptions using selectors to avoid global store re-renders
 	const allGames = useAppStore((state) => state.game.list.games) as
@@ -121,7 +135,12 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 			{/* Sidebar Header with logo and title */}
 			{/* <div className="flex items-center group-data-[collapsible=icon]:p-1 group-data-[collapsible=icon]:pt-3 p-4"> */}
 			<div className="group-data-[collapsible=icon]:hidden flex items-center p-4">
-				<Link href="/" aria-label="Bet Flux Home" className="m-auto">
+				<Link
+					href="/"
+					aria-label="Bet Flux Home"
+					className="m-auto"
+					onClick={handleMobileNavigation}
+				>
 					<Image
 						src="/assets/site/betflux-logo.png"
 						alt="BetFlux Logo"
@@ -130,11 +149,6 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 						priority
 						className="h-12 w-auto"
 					/>
-					{/* <img
-						src="/assets/site/betflux-logo-icon.png"
-						alt="BetFlux  Logo"
-						className=" hidden group-data-[collapsible=icon]:block"
-					/> */}
 				</Link>
 			</div>
 			<SidebarHeader className="border-b border-border/20 py-2 px-4 pr-7 bg-card/20">
@@ -143,6 +157,7 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 					<ProtectedActionButtons
 						onAuthedAction={(tab) => updateUrlParams(tab)}
 						tSidebar={tSidebar}
+						onNavigate={handleMobileNavigation}
 					/>
 				</div>
 
@@ -156,6 +171,7 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 							href="https://t.me/betflux_bot/betflux"
 							target="_blank"
 							rel="noopener noreferrer"
+							onClick={handleMobileNavigation}
 						>
 							<FontAwesomeIcon
 								icon={faPaperPlane}
@@ -186,7 +202,7 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 						className="w-full bg-primary hover:bg-primary/90 text-foreground/80 font-semibold shadow-lg shadow-primary/40 animate-daily-bonus-pulse transition-all duration-300"
 						asChild
 					>
-						<Link href="/bonus">
+						<Link href="/bonus" onClick={handleMobileNavigation}>
 							<FontAwesomeIcon
 								icon={faGift}
 								fontSize={16}

@@ -158,8 +158,8 @@ const StableSidebarComponent = ({
 			{/* Sidebar Header with logo and title */}
 			<div className="flex items-center p-4">
 				<Image
-					src="/assets/site/meme-win-logo.png"
-					alt="Meme Win Logo"
+					src="/assets/site/betflux-logo.png"
+					alt="BetFlux Logo"
 					width={192}
 					height={48}
 					priority={false}
@@ -194,7 +194,7 @@ const StableSidebarComponent = ({
 						className="w-full shadow-lg shadow-accent/30 transition-all duration-300 text-foreground bg-sky-600"
 						asChild
 					>
-						<a href="https://t.me/memewin_bot/memewin">
+						<a href="https://t.me/betflux_bot/betflux">
 							<FontAwesomeIcon
 								icon={faPaperPlane}
 								fontSize={16}

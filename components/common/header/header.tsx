@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 // Local Components & Hooks
-// import { ThemeToggle } from "../../theme/theme-toggle";
+import { ThemeToggle } from "../../theme/theme-toggle";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { SearchModal } from "@/components/features/search/search-modal";
@@ -27,8 +27,10 @@ import { useAppStore } from "@/store/store";
 import { useSidebar } from "../../ui/sidebar";
 import { useTranslations } from "@/lib/locale-provider";
 import { LanguageChangerModal } from "@/components/common/language-changer-modal";
+import { useRefreshLimiter } from "@/hooks/use-refresh-limiter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+	faBars,
 	faChartLineUp,
 	faChevronDown,
 	faComment,
@@ -36,20 +38,24 @@ import {
 	faHome,
 	faMagnifyingGlass,
 	faRightFromBracket,
-	faSquareList,
+	// faSquareList,
 	faUser,
 	faUsers,
 	faWallet,
+	faArrowsRotate,
+	faGift,
 } from "@fortawesome/pro-light-svg-icons";
 import MobileLoginDropdown from "./mobile-login-dropdown";
 
 export function PageHeader({ className }: { className?: string }) {
 	const tHeader = useTranslations("header");
+	const tNavigation = useTranslations("navigation");
 	// const tApp = useTranslations("app");
 	const [searchOpen, setSearchOpen] = useState(false);
 	const [emailModalOpen, setEmailModalOpen] = useState(false);
 	const [languageModalOpen, setLanguageModalOpen] = useState(false);
-	const { user, isLoggedIn, isLoading, logout } = useDynamicAuth();
+	const { user, isLoggedIn, isLoading, logout, refreshUserData } =
+		useDynamicAuth();
 	const { setShowAuthFlow } = useDynamicContext();
 	const openTransactionModal = useAppStore(
 		(state) => state.uiDefinition.modal.openTransactionModal
@@ -62,6 +68,9 @@ export function PageHeader({ className }: { className?: string }) {
 	const { toggleSidebar, open } = useSidebar();
 	const router = useRouter();
 
+	// Initialize refresh limiter with 10 second cooldown
+	const { isRefreshing, canRefresh, handleRefresh } = useRefreshLimiter(10);
+
 	const handleLogout = () => {
 		logout();
 		// router.push("/"); // Redirect to home after logout
@@ -69,6 +78,12 @@ export function PageHeader({ className }: { className?: string }) {
 
 	const handleCashirClick = () => {
 		openTransactionModal("walletInfo");
+	};
+
+	const handleRefreshUserInfo = async () => {
+		await handleRefresh(async () => {
+			await refreshUserData();
+		});
 	};
 
 	const UserMenu = () => (
@@ -128,11 +143,15 @@ export function PageHeader({ className }: { className?: string }) {
 						<FontAwesomeIcon icon={faUsers} fontSize={20} />
 						<span>{tHeader("affiliate")}</span>
 					</DropdownMenuItem>
+					<DropdownMenuItem onClick={() => router.push("/bonus")}>
+						<FontAwesomeIcon icon={faGift} fontSize={20} />
+						<span>{tHeader("turnoverBonus")}</span>
+					</DropdownMenuItem>
 				</DropdownMenuGroup>
 				<DropdownMenuSeparator />
 				<DropdownMenuGroup className="block lg:hidden">
 					<DropdownMenuItem>
-						{/* <ThemeToggle className="flex " /> */}
+						<ThemeToggle className="flex " />
 						<DropdownMenu>
 							<DropdownMenuTrigger asChild>
 								<Button
@@ -273,7 +292,7 @@ export function PageHeader({ className }: { className?: string }) {
 			{/* Left Side: Brand Logo & Title */}
 			<div className="flex items-center gap-2 cursor-pointer">
 				<Button
-					className="p-2 !size-auto"
+					className="p-2"
 					variant={"outline"}
 					size="icon"
 					onClick={() => {
@@ -281,12 +300,25 @@ export function PageHeader({ className }: { className?: string }) {
 					}}
 				>
 					{/* <MenuSquare className="w-4 h-4" /> */}
-					<FontAwesomeIcon icon={faSquareList} className="w-5 h-5" />
+					<FontAwesomeIcon icon={faBars} className="w-6 h-6" />
 					<span className="sr-only">{tHeader("toggleSidebar")}</span>
+				</Button>
+
+				<Button
+					className="hidden lg:flex"
+					variant="outline"
+					size="icon"
+					onClick={() => router.replace(isLoggedIn ? "/lobby" : "/")}
+					aria-label={
+						isLoggedIn ? tNavigation("lobby") : tNavigation("home")
+					}
+				>
+					{/* <Search className="w-4 h-4" /> */}
+					<FontAwesomeIcon icon={faHome} className="w-4 h-4" />
 				</Button>
 				{!isLoggedIn && (
 					<Button
-						className="md:hidden"
+						className="lg:hidden"
 						variant="outline"
 						size="icon"
 						onClick={() => setSearchOpen(true)}
@@ -302,19 +334,20 @@ export function PageHeader({ className }: { className?: string }) {
 			</div>
 
 			<Button
-				className=""
+				className="flex lg:hidden "
 				variant="outline"
 				size="icon"
-				onClick={() => router.replace("/")}
-				aria-label="Search"
+				onClick={() => router.replace(isLoggedIn ? "/lobby" : "/")}
+				aria-label={
+					isLoggedIn ? tNavigation("lobby") : tNavigation("home")
+				}
 			>
 				{/* <Search className="w-4 h-4" /> */}
-				{/* <FontAwesomeIcon icon={faMagnifyingGlass} fontSize={16} /> */}
 				<FontAwesomeIcon icon={faHome} className="w-4 h-4" />
 			</Button>
 
 			{/* Center: Global search (desktop only) */}
-			<div className="hidden md:flex flex-1 max-w mr-6">
+			<div className="hidden xl:flex flex-1 max-w mr-6">
 				<Input
 					placeholder={tHeader("searchPlaceholder")}
 					className="w-full"
@@ -328,19 +361,6 @@ export function PageHeader({ className }: { className?: string }) {
 			{/* Right Side: User Actions & Theme */}
 			<div className="flex ml-auto lg:ml-0 items-center gap-3">
 				{/* Mobile search trigger - First in mobile */}
-				<Button
-					className="hidden "
-					variant="outline"
-					size="icon"
-					onClick={() => setSearchOpen(true)}
-					aria-label="Search"
-				>
-					{/* <Search className="w-4 h-4" /> */}
-					<FontAwesomeIcon
-						icon={faMagnifyingGlass}
-						className="w-4 h-4"
-					/>
-				</Button>
 
 				{/* Live Chat Button - Second in mobile, always visible regardless of auth status */}
 				{/* {!isLoading && (
@@ -364,6 +384,25 @@ export function PageHeader({ className }: { className?: string }) {
 					<LoadingSkeletons />
 				) : isLoggedIn ? (
 					<>
+						{/* Refresh Button */}
+						<Button
+							variant="outline"
+							size="icon"
+							onClick={handleRefreshUserInfo}
+							disabled={!canRefresh || isRefreshing}
+							className="relative"
+							aria-label="Refresh user info"
+						>
+							<FontAwesomeIcon
+								icon={faArrowsRotate}
+								className={cn(
+									"w-4 h-4",
+									isRefreshing && "animate-spin"
+								)}
+							/>
+							<span className="sr-only">Refresh</span>
+						</Button>
+
 						{/* Wallet Control - Single Button (merged) */}
 						<Button
 							onClick={() => openTransactionModal("walletInfo")}
