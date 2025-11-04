@@ -1,5 +1,3 @@
-// TODO: add the transaltion key form the max button tooltip text & all the other texts used in tooltip for Tip Panel in all languages
-
 "use client";
 
 import Image from "next/image";
@@ -132,7 +130,7 @@ export const TipPanel = memo(
 											"focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]",
 											"aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
 											isBalanceInsufficient
-												? "border-destructive"
+												? "text-destructive"
 												: ""
 										)}
 									>
