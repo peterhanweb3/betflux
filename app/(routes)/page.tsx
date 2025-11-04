@@ -114,6 +114,9 @@ export default function HomePage() {
 		}
 	}, [primaryWallet, setDynamicLoaded]);
 
+	const [hasHandledLoginRedirect, setHasHandledLoginRedirect] =
+		useState(false);
+
 	const handleReferralRedirect = useCallback(() => {
 		if (typeof window === "undefined") {
 			return;
@@ -130,11 +133,21 @@ export default function HomePage() {
 	}, [router]);
 
 	useEffect(() => {
-		if (!isLoggedIn) {
+		if (!isLoggedIn || hasHandledLoginRedirect) {
 			return;
 		}
-		handleReferralRedirect();
-	}, [handleReferralRedirect, isLoggedIn]);
+
+		// Check if dynamic_authentication_token exists in localStorage
+		// This token is set when user successfully logs in
+		const authToken = localStorage.getItem("dynamic_authentication_token");
+
+		if (authToken) {
+			// User is logged in and has valid token
+			// Mark that we've handled the redirect to prevent loops
+			setHasHandledLoginRedirect(true);
+			handleReferralRedirect();
+		}
+	}, [handleReferralRedirect, isLoggedIn, hasHandledLoginRedirect]);
 
 	// --- 3. Assemble the Page ---
 	const isLoading = gameStatus !== "success";
