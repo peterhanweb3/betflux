@@ -77,6 +77,21 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head>
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=G-4GHMTR2431"
+				></script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+  						window.dataLayer = window.dataLayer || [];
+  						function gtag(){dataLayer.push(arguments);}
+  						gtag('js', new Date());					
+  						gtag('config', 'G-4GHMTR2431');
+  					`,
+					}}
+				/>
+
 				{/* Viewport optimization for mobile */}
 				<meta
 					name="viewport"
