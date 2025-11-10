@@ -7,18 +7,18 @@ import {
 
 // Generate SEO Metadata for Privacy Policy Page
 export const metadata: Metadata = generateSEOMetadata({
-	title: "Privacy Policy | betflux.games – Crypto Wallet Casino Security",
+	title: "Privacy Policy | HyperBetz.games – Crypto Wallet Casino Security",
 	description:
-		"Learn how betflux.games protects wallet addresses and crypto data with SSL, AML, and GDPR-compliant privacy for secure blockchain gaming.",
+		"Learn how HyperBetz.games protects wallet addresses and crypto data with SSL, AML, and GDPR-compliant privacy for secure blockchain gaming.",
 	keywords: [
-		"BetFlux privacy policy",
-		"BetFlux crypto casino",
-		"BetFlux data protection",
-		"BetFlux wallet security",
+		"HyperBetz privacy policy",
+		"HyperBetz crypto casino",
+		"HyperBetz data protection",
+		"HyperBetz wallet security",
 		"crypto gambling privacy",
 		"GDPR crypto casino",
 		"blockchain casino policy",
-		"BetFlux games secure",
+		"HyperBetz games secure",
 		"crypto betting privacy",
 	],
 	path: "/privacy",
