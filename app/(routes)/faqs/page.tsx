@@ -137,6 +137,26 @@ export default function FAQsPage() {
 		};
 	}, [faqCategories]);
 
+	// Generate FAQ schema for SEO (rich snippets in Google)
+	const faqSchema = useMemo(() => {
+		const allQuestions = faqCategories.flatMap(category =>
+			category.items.map(item => ({
+				"@type": "Question",
+				"name": item.question,
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": item.answer
+				}
+			}))
+		);
+
+		return {
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": allQuestions
+		};
+	}, [faqCategories]);
+
 	return (
 		<div className="container mx-auto space-y-8 consistent-padding-x consistent-padding-y">
 			<JsonLd data={faqSchema} />

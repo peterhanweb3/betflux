@@ -480,21 +480,6 @@ export default function ResponsibleGamblingPage() {
 					/>
 				</ContentSection>
 			</SectionCard>
-
-			{/* Final Message */}
-			<SectionCard variant="primary">
-				<ContentSection>
-					<p className="mb-4 text-lg font-semibold">
-						{t("responsibleGambling.finalMessage.paragraph1")}
-					</p>
-					<p className="mb-4">
-						{t("responsibleGambling.finalMessage.paragraph2")}
-					</p>
-					<p className="text-sm">
-						{t("responsibleGambling.finalMessage.contact")}
-					</p>
-				</ContentSection>
-			</SectionCard>
 		</div>
 	);
 }

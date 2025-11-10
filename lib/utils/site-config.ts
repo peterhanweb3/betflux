@@ -7,9 +7,9 @@
 
 // Site name mapping based on domain
 const DOMAIN_TO_SITE_NAME: Record<string, string> = {
-  'betflux.games': 'BetFlux',
-  'www.betflux.games': 'BetFlux',
-  'localhost': 'BetFlux', // Default for local development
+  'hyperbetz.games': 'HyperBetz',
+  'www.hyperbetz.games': 'HyperBetz',
+  'localhost': 'HyperBetz', // Default for local development
   // Add your other domains here:
   // 'site2.com': 'Site2Name',
   // 'site3.com': 'Site3Name',
@@ -32,7 +32,7 @@ export function getSiteName(): string {
   }
 
   // 3. Fallback to default
-  return 'BetFlux';
+  return 'HyperBetz';
 }
 
 /**

@@ -6,11 +6,9 @@ import { ThemeColorProvider } from "@/components/theme/theme-color-provider";
 import { LocaleProvider } from "@/lib/locale-provider";
 import { IOSViewportFix } from "@/components/common/ios-viewport-fix";
 import { ServiceWorkerRegister } from "@/components/common/service-worker-register";
+import { SEOTemplates } from "@/lib/seo/seo-provider";
 import { JsonLd } from "@/components/seo/json-ld";
-import {
-	generateOrganizationSchema,
-	generateWebsiteSchema,
-} from "@/lib/seo/schema-generator";
+import { generateOrganizationSchema, generateWebsiteSchema } from "@/lib/seo/schema-generator";
 // Avoid bundling public images via import to skip sharp at build time
 import "./globals.css";
 
@@ -86,7 +84,7 @@ export default async function RootLayout({
 
 	// Get user's locale from cookies for proper HTML lang attribute (SEO)
 	const cookieStore = await cookies();
-	const locale = cookieStore.get("NEXT_LOCALE")?.value || "en";
+	const locale = cookieStore.get('NEXT_LOCALE')?.value || 'en';
 
 	return (
 		<html lang={locale} suppressHydrationWarning>
