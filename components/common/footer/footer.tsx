@@ -186,7 +186,7 @@ export function Footer() {
 				},
 				// {
 				// 	label: t("footer.sections.support.links.contact"),
-				// 	href: "mailto:support@betflux.games",
+				// 	href: "mailto:support@hyperbetz.games",
 				// 	icon: Mail,
 				// },
 			],
@@ -233,6 +233,7 @@ export function Footer() {
 								</h3>
 								<ul className="space-y-2.5">
 									{section.links.map((link, linkIndex) => {
+										const Icon = link.icon;
 										return (
 											<li key={linkIndex}>
 												<Link
@@ -329,13 +330,13 @@ export function Footer() {
 								href="/"
 								className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
 							>
-								BetFlux
+								HyperBetz
 							</Link>
 							<p className="text-sm tracking-wider max-w-3xl text-muted-foreground">
 								A multi-award-winning crypto gaming platform.
-								With a player-centric approach, BetFlux
+								With a player-centric approach, HyperBetz
 								satisfies millions of gamblers globally.
-								BetFlux prioritizes its community, ensuring a
+								HyperBetz prioritizes its community, ensuring a
 								continuously engaging and entertaining
 								experience.
 							</p>
