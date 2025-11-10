@@ -1842,7 +1842,7 @@
 				"title": "14. Responsible Gaming",
 				"items": [
 					"{siteName} promotes responsible gambling. You may request: Self-exclusion, Deposit limits, or Temporary suspension.",
-					"If you suspect gambling harm, contact support@betflux.games for immediate assistance.",
+					"If you suspect gambling harm, contact support@hyperbetz.games for immediate assistance.",
 					"Underage gambling (under 18 or the local legal age) is strictly prohibited. Accounts found to belong to minors will be closed and funds handled per policy."
 				]
 			},
@@ -1861,7 +1861,7 @@
 			},
 			"disputes": {
 				"title": "17. Dispute Resolution & Governing Law",
-				"content": "In case of dispute, contact support@betflux.games. We aim to resolve complaints quickly; escalate to management if needed."
+				"content": "In case of dispute, contact support@hyperbetz.games. We aim to resolve complaints quickly; escalate to management if needed."
 			},
 			"amendments": {
 				"title": "18. Amendments",
@@ -1878,8 +1878,8 @@
 			"contact": {
 				"title": "20. Contact",
 				"intro": "For support, complaints, or legal notices:",
-				"supportEmail": "General Support: support@betflux.games",
-				"affiliateEmail": "Affiliate Inquiries: affiliates@betflux.games",
+				"supportEmail": "General Support: support@hyperbetz.games",
+				"affiliateEmail": "Affiliate Inquiries: affiliates@hyperbetz.games",
 				"registeredOffice": "Registered office: {siteName} N.V., Heelsumstraat 51, Willemstad, Curaçao"
 			}
 		}
@@ -1934,7 +1934,7 @@
 			"selfExclusion": {
 				"title": "Self-Exclusion & Time-Outs",
 				"description": "Suspend access to your account instantly for a chosen period or permanently if you need a longer break.",
-				"contact": "Activate via your profile or contact support@betflux.games for immediate assistance."
+				"contact": "Activate via your profile or contact support@hyperbetz.games for immediate assistance."
 			},
 			"coolingOff": {
 				"title": "Cooling-Off Periods",
@@ -2034,14 +2034,14 @@
 		"finalMessage": {
 			"paragraph1": "Responsible gambling keeps the fun alive.",
 			"paragraph2": "Lean on our tools, seek support early, and remember that taking a break is always an option.",
-			"contact": "Need help from {siteName}? Email support@betflux.games any time."
+			"contact": "Need help from {siteName}? Email support@hyperbetz.games any time."
 		}
 	},
 	"faqs": {
 		"title": "Frequently Asked Questions",
 		"subtitle": "Everything you need to know about {siteName}",
-		"introTitle": "FAQs – BetFlux",
-		"intro": "Welcome to the BetFlux FAQ Center, where you’ll find quick answers to the most common questions about our crypto gaming platform. If you can’t find your answer here, our 24/7 support team is always ready to help at betflux.games",
+		"introTitle": "FAQs – HyperBetz",
+		"intro": "Welcome to the HyperBetz FAQ Center, where you’ll find quick answers to the most common questions about our crypto gaming platform. If you can’t find your answer here, our 24/7 support team is always ready to help at hyperbetz.games",
 		"lastUpdated": "Last updated: January 2025",
 		"blockchainTransparency": {
 			"title": "Blockchain Transparency",
@@ -2056,7 +2056,7 @@
 				"items": {
 					"0": {
 						"question": "Can I register on your website {siteName}?",
-						"answer": "Yes — registration is open to anyone 18 years or older (or the legal age of majority in your jurisdiction).You must also ensure that online gaming is legal where you reside. betflux.games, you don’t need traditional sign-ups or passwords.Simply connect your wallet via Dynamic.xyz to start playing instantly.For legal and compliance details, please review our Terms & Conditions",
+						"answer": "Yes — registration is open to anyone 18 years or older (or the legal age of majority in your jurisdiction).You must also ensure that online gaming is legal where you reside. HyperBetz.games, you don’t need traditional sign-ups or passwords.Simply connect your wallet via Dynamic.xyz to start playing instantly.For legal and compliance details, please review our Terms & Conditions",
 						"reminder": "Gambling can be addictive. Please play responsibly and know your limits."
 					},
 					"1": {
