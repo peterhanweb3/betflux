@@ -9,7 +9,6 @@ import { JsonLd } from "@/components/seo/json-ld";
 interface FAQItemProps {
 	question: string;
 	answer: string | string[];
-	reminder?: string;
 }
 
 function FAQItem({ question, answer, reminder }: FAQItemProps) {
@@ -76,22 +75,13 @@ function FAQItem({ question, answer, reminder }: FAQItemProps) {
 				/>
 			</button>
 			{isOpen && (
-				<div className="px-4 pb-4 pt-2 text-muted-foreground">
+				<div className="px-4 pb-4 pt-2 text-muted-foreground space-y-2">
 					{Array.isArray(answer) ? (
-						<ul className="space-y-2 list-disc">
-							{answer.map((paragraph, index) =>
-								renderParagraph(paragraph, index)
-							)}
-						</ul>
+						answer.map((paragraph, index) => (
+							<p key={index}>{paragraph}</p>
+						))
 					) : (
-						<p className="mb-2">{answer}</p>
-					)}
-					{reminder && (
-						<div className="mt-4 p-3 bg-amber-500/10 border border-amber-500/30 rounded-lg">
-							<p className="text-sm text-amber-600 dark:text-amber-400 font-medium">
-								{reminder}
-							</p>
-						</div>
+						<p>{answer}</p>
 					)}
 				</div>
 			)}
@@ -109,14 +99,11 @@ export default function FAQsPage() {
 				const answer = t(
 					`faqs.categories.accountRegistration.items.${i}.answer`
 				);
-				const reminderKey = `faqs.categories.accountRegistration.items.${i}.reminder`;
-				const reminder = t(reminderKey);
 				return {
 					question: t(
 						`faqs.categories.accountRegistration.items.${i}.question`
 					),
 					answer: answer.includes("|") ? answer.split("|") : answer,
-					reminder: reminder !== reminderKey ? reminder : undefined,
 				};
 			}),
 		},
@@ -131,7 +118,6 @@ export default function FAQsPage() {
 						`faqs.categories.depositsWithdrawals.items.${i}.question`
 					),
 					answer: answer.includes("|") ? answer.split("|") : answer,
-					reminder: undefined,
 				};
 			}),
 		},
@@ -146,7 +132,6 @@ export default function FAQsPage() {
 						`faqs.categories.gamesSecurity.items.${i}.question`
 					),
 					answer: answer.includes("|") ? answer.split("|") : answer,
-					reminder: undefined,
 				};
 			}),
 		},
@@ -161,7 +146,6 @@ export default function FAQsPage() {
 						`faqs.categories.responsibleGambling.items.${i}.question`
 					),
 					answer: answer.includes("|") ? answer.split("|") : answer,
-					reminder: undefined,
 				};
 			}),
 		},
@@ -197,61 +181,24 @@ export default function FAQsPage() {
 				title={t("faqs.introTitle")}
 				icon={HelpCircle}
 			>
-				{t("faqs.intro")
-					.split("|")
-					.map((paragraph, index) => (
-						<p
-							key={index}
-							className={
-								index === 0
-									? "text-base mb-2"
-									: "text-base mb-4"
-							}
-						>
-							{paragraph}
-						</p>
-					))}
-				<p className="text-sm text-muted-foreground mt-4">
+				<p className="text-base mb-2">{t("faqs.intro")}</p>
+				<p className="text-sm text-muted-foreground">
 					{t("faqs.lastUpdated")}
 				</p>
 			</SectionCard>
 
-			{faqCategories.map((category, categoryIndex) => (
-				<div key={categoryIndex} className="space-y-4">
-					<h2 className="text-2xl font-semibold text-foreground">
-						{category.title}
-					</h2>
-					<div className="space-y-3">
-						{category.items.map((item, itemIndex) => (
-							<FAQItem
-								key={itemIndex}
-								question={item.question}
-								answer={item.answer}
-								reminder={item.reminder}
-							/>
-						))}
-					</div>
-				</div>
-			))}
-
 			{/* Blockchain Transparency Section */}
 			<SectionCard title={t("faqs.blockchainTransparency.title")}>
-				{t("faqs.blockchainTransparency.paragraph1")
-					.split("|")
-					.map((paragraph, index) => (
-						<p key={index} className="mb-4">
-							{paragraph}
-						</p>
-					))}
+				<p className="mb-4">
+					{t("faqs.blockchainTransparency.paragraph1")}
+				</p>
 				<p className="mb-4">
 					{t("faqs.blockchainTransparency.paragraph2")}
 				</p>
 				<div className="space-y-2">
-					{t("faqs.blockchainTransparency.explorersTitle") && (
-						<p className="font-semibold">
-							{t("faqs.blockchainTransparency.explorersTitle")}
-						</p>
-					)}
+					<p className="font-semibold">
+						{t("faqs.blockchainTransparency.explorersTitle")}
+					</p>
 					<ul className="list-disc list-inside space-y-1 ml-4">
 						<li>
 							<a
@@ -290,16 +237,35 @@ export default function FAQsPage() {
 				</p>
 			</SectionCard>
 
+			{faqCategories.map((category, categoryIndex) => (
+				<div key={categoryIndex} className="space-y-4">
+					<h2 className="text-2xl font-semibold text-foreground">
+						{category.title}
+					</h2>
+					<div className="space-y-3">
+						{category.items.map((item, itemIndex) => (
+							<FAQItem
+								key={itemIndex}
+								question={item.question}
+								answer={item.answer}
+								reminder={item.reminder}
+							/>
+						))}
+					</div>
+				</div>
+			))}
+
 			<SectionCard title={t("faqs.needMoreHelp.title")} variant="primary">
 				<p className="mb-4">{t("faqs.needMoreHelp.intro")}</p>
 				<div className="space-y-2">
-					{t("faqs.needMoreHelp.contactTitle") && (
-						<p className="font-semibold">
-							{t("faqs.needMoreHelp.contactTitle")}
-						</p>
-					)}
+					<p className="font-semibold">
+						{t("faqs.needMoreHelp.contactTitle")}
+					</p>
 					<p className="text-primary font-medium">
-						{t("faqs.needMoreHelp.liveChat")}
+						💬 {t("faqs.needMoreHelp.liveChat")}
+					</p>
+					<p className="text-primary font-medium">
+						📧 support@hyperbetz.games
 					</p>
 				</div>
 			</SectionCard>
