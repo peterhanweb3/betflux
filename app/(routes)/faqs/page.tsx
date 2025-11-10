@@ -153,21 +153,21 @@ export default function FAQsPage() {
 
 	// Generate FAQ schema for SEO (rich snippets in Google)
 	const faqSchema = useMemo(() => {
-		const allQuestions = faqCategories.flatMap((category) =>
-			category.items.map((item) => ({
+		const allQuestions = faqCategories.flatMap(category =>
+			category.items.map(item => ({
 				"@type": "Question",
-				name: item.question,
-				acceptedAnswer: {
+				"name": item.question,
+				"acceptedAnswer": {
 					"@type": "Answer",
-					text: item.answer,
-				},
+					"text": item.answer
+				}
 			}))
 		);
 
 		return {
 			"@context": "https://schema.org",
 			"@type": "FAQPage",
-			mainEntity: allQuestions,
+			"mainEntity": allQuestions
 		};
 	}, [faqCategories]);
 
