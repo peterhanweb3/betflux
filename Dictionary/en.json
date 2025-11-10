@@ -1551,17 +1551,17 @@
 	},
 	"privacy": {
 		"title": "Privacy Policy",
-		"subtitle": "How {siteName} collects, uses, and protects your data",
+		"subtitle": "How {siteName}.games collects, uses, and protects your data",
 		"lastUpdated": "January 2025",
 		"intro": {
-			"paragraph1": "{siteName} ('{siteName}', 'we', 'us', or 'our') runs the {siteName} crypto-casino platform. This Privacy Policy explains how we collect, use, store and protect personal and transaction data when you use our website, mobile apps, or related services (the 'Services').",
+			"paragraph1": "{siteName} ('{siteName}.games', 'we', 'us', or 'our') runs the {siteName} crypto-casino platform. This Privacy Policy explains how we collect, use, store and protect personal and transaction data when you use our website, mobile apps, or related services (the 'Services').",
 			"paragraph2": "{siteName} operates as a crypto-wallet-only casino: all deposits and withdrawals are made using cryptocurrency wallets. We are committed to protecting your privacy while meeting regulatory obligations (such as AML/KYC requirements) and ensuring a safe, fair gaming environment.",
-			"paragraph3": "By accessing or using {siteName} you accept the terms of this Privacy Policy."
+			"paragraph3": "By accessing or using {siteName}.games you accept the terms of this Privacy Policy."
 		},
 		"sections": {
 			"scope": {
 				"title": "1. Scope & Acceptance",
-				"content": "This policy applies to all users of {siteName}. We may update this policy; updates take effect when posted on the site. Continued use following a change means you accept the new policy."
+				"content": "This policy applies to all users of {siteName}.games. We may update this policy; updates take effect when posted on the site. Continued use following a change means you accept the new policy."
 			},
 			"dataCollection": {
 				"title": "2. What Data We Collect",
@@ -1593,6 +1593,7 @@
 			"purposes": {
 				"title": "3. Why We Collect Data – Lawful Bases & Purposes",
 				"intro": "We process your data for lawful and specific purposes:",
+				"outro": "When we rely on consent (e.g., marketing), you can withdraw that consent anytime.",
 				"items": {
 					"0": {
 						"title": "Service provision & contract performance",
@@ -1672,22 +1673,32 @@
 		"title": "Terms & Conditions",
 		"subtitle": "User Agreement and Platform Rules",
 		"lastUpdated": "January 2025",
-		"intro": "By using {siteName}, you agree to these Terms & Conditions. Please read carefully before using our platform.",
+		"intro": {
+			"paragraph1": "By registering or connecting your wallet on www.{siteName}.games, you enter into a binding agreement with {siteName} N.V.",
+			"paragraph2": "If you do not agree with any of these terms, do not access, use, or register on our Website. Read these Terms carefully. If you are uncertain about your rights or obligations, consult a legal advisor in your jurisdiction before using the Website."
+		},
 		"sections": {
-			"0": {
-				"title": "1. Acceptance of Terms",
-				"content": "By accessing and using {siteName}, you accept and agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.",
-				"hasPoints": "false"
+			"ownership": {
+				"title": "1. {siteName}.Games Ownership",
+				"content1": "{siteName}.games is owned and operated by {siteName} N.V. ('{siteName}', 'We', 'Our', 'Us').",
+				"content2": "{siteName}.games is a crypto-wallet-only casino. All deposits, wagers, and withdrawals are processed through users' cryptocurrency wallets. We support wallet login through Dynamic.xyz and compatible wallet connectors (e.g., WalletConnect / MetaMask)."
 			},
-			"1": {
-				"title": "2. Eligibility",
-				"content": "You must be at least 18 years old (or the legal gambling age in your jurisdiction) to use {siteName}. By using our platform, you confirm that you meet this requirement.",
-				"hasPoints": "false"
+			"notice": {
+				"title": "2. Important Notice",
+				"content1": "2.1 By registering or connecting your wallet on www.{siteName}.games (the 'Website'), you enter into a binding agreement with {siteName} N.V. and agree to: (i) these Terms and Conditions; (ii) our Privacy Policy; (iii) our Cookie Policy; (iv) our Affiliate Terms; and (v) our Responsible Gaming Policy.",
+				"content2": "2.2 If you do not agree with any of these terms, do not access, use, or register on our Website.",
+				"content3": "2.3 Read these Terms carefully. If you are uncertain about your rights or obligations, consult a legal advisor in your jurisdiction before using the Website."
 			},
-			"2": {
-				"title": "3. Account Registration",
-				"content": "You are responsible for maintaining the confidentiality of your account credentials. {siteName} is not liable for unauthorized access to your account.",
-				"hasPoints": "false"
+			"general": {
+				"title": "3. General Terms",
+				"items": [
+					"Upon registration or wallet connection, you ('User', 'Player', 'You', or 'Your') agree to comply with all {siteName} rules and policies.",
+					"This Agreement is a legally binding contract between you and {siteName}.games.",
+					"These Terms become effective the moment you connect your wallet and start using the site.",
+					"{siteName} reserves the right to amend or update these Terms at any time. Changes will be published on the Website; continued use constitutes acceptance.",
+					"In the event of conflict, these Terms prevail over any other rules, promotions, or external materials.",
+					"Only the English version of these Terms is legally binding. Translations are for convenience only."
+				]
 			},
 			"3": {
 				"title": "4. Deposits and Withdrawals",
