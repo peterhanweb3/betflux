@@ -274,12 +274,12 @@ export default function PrivacyPage() {
 				<p>{t("privacy.sections.contact.intro")}</p>
 				<div className="mt-4">
 					<Link
-						href="https://hyperbetz.games"
+						href="https://betflux.games"
 						className="text-primary hover:underline font-medium"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						🌐 https://hyperbetz.games
+						🌐 https://betflux.games
 					</Link>
 				</div>
 			</SectionCard>

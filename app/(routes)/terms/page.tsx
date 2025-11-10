@@ -33,7 +33,7 @@ export default function TermsPage() {
 				lastUpdated={t("terms.lastUpdated")}
 			/>
 
-			{/* 1. HyperBetz.games Ownership */}
+			{/* 1. betflux.games Ownership */}
 			<SectionCard title={t("terms.sections.ownership.title")}>
 				<ContentSection>
 					<p>{t("terms.sections.ownership.content1")}</p>
@@ -408,12 +408,12 @@ export default function TermsPage() {
 					<p>{t("terms.sections.contact.intro")}</p>
 					<div className="mt-4">
 						<Link
-							href="https://hyperbetz.games"
+							href="https://betflux.games"
 							className="text-primary hover:underline font-medium"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							🌐 https://hyperbetz.games
+							🌐 https://betflux.games
 						</Link>
 					</div>
 				</ContentSection>

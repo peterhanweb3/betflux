@@ -186,7 +186,7 @@ export function Footer() {
 				},
 				// {
 				// 	label: t("footer.sections.support.links.contact"),
-				// 	href: "mailto:support@hyperbetz.games",
+				// 	href: "mailto:support@betflux.games",
 				// 	icon: Mail,
 				// },
 			],
@@ -196,22 +196,22 @@ export function Footer() {
 	const socialLinks = [
 		{
 			icon: Twitter,
-			href: "https://twitter.com/hyperbetz",
+			href: "https://twitter.com/betflux",
 			label: "Twitter",
 		},
 		{
 			icon: Facebook,
-			href: "https://facebook.com/hyperbetz",
+			href: "https://facebook.com/betflux",
 			label: "Facebook",
 		},
 		{
 			icon: Instagram,
-			href: "https://instagram.com/hyperbetz",
+			href: "https://instagram.com/betflux",
 			label: "Instagram",
 		},
 		{
 			icon: Youtube,
-			href: "https://youtube.com/@hyperbetz",
+			href: "https://youtube.com/@betflux",
 			label: "YouTube",
 		},
 	];
@@ -329,13 +329,13 @@ export function Footer() {
 								href="/"
 								className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
 							>
-								HyperBetz
+								BetFlux
 							</Link>
 							<p className="text-sm tracking-wider max-w-3xl text-muted-foreground">
 								A multi-award-winning crypto gaming platform.
-								With a player-centric approach, HyperBetz
+								With a player-centric approach, BetFlux
 								satisfies millions of gamblers globally.
-								HyperBetz prioritizes its community, ensuring a
+								BetFlux prioritizes its community, ensuring a
 								continuously engaging and entertaining
 								experience.
 							</p>

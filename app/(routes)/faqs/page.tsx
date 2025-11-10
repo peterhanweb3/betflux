@@ -265,7 +265,7 @@ export default function FAQsPage() {
 						💬 {t("faqs.needMoreHelp.liveChat")}
 					</p>
 					<p className="text-primary font-medium">
-						📧 support@hyperbetz.games
+						📧 support@betflux.games
 					</p>
 				</div>
 			</SectionCard>

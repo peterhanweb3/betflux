@@ -28,8 +28,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     .join(' ');
 
   return generateSEOMetadata({
-    title: `${categoryName} Game Providers - HyperBetz`,
-    description: `Discover the best ${categoryName} game providers on HyperBetz. Play games from top providers with exciting features and big wins.`,
+    title: `${categoryName} Game Providers - BetFlux`,
+    description: `Discover the best ${categoryName} game providers on BetFlux. Play games from top providers with exciting features and big wins.`,
     keywords: [categoryName, 'providers', 'game providers', 'casino', 'online gaming'],
     path: `/providers/${category}`,
     pageType: 'providers',

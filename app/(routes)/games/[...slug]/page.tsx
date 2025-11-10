@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const providerName = slugToProviderDisplayName(decodeURIComponent(slug[0]));
 
     return generateSEOMetadata({
-      title: `${providerName} Games - Play Online Casino Games - HyperBetz`,
-      description: `Explore all ${providerName} games on HyperBetz. Play slots, live casino, and more from ${providerName} with amazing features and big wins.`,
+      title: `${providerName} Games - Play Online Casino Games - BetFlux`,
+      description: `Explore all ${providerName} games on BetFlux. Play slots, live casino, and more from ${providerName} with amazing features and big wins.`,
       keywords: [providerName, 'games', 'casino games', 'online slots', 'live casino'],
       path: `/games/${slug[0]}`,
       pageType: 'game',
@@ -40,8 +40,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const categoryName = categoryMap[category] || category.charAt(0).toUpperCase() + category.slice(1).toLowerCase();
 
     return generateSEOMetadata({
-      title: `${providerName} ${categoryName} Games - HyperBetz`,
-      description: `Play ${categoryName} games from ${providerName} on HyperBetz. Enjoy the best ${categoryName} gaming experience with top features and rewards.`,
+      title: `${providerName} ${categoryName} Games - BetFlux`,
+      description: `Play ${categoryName} games from ${providerName} on BetFlux. Enjoy the best ${categoryName} gaming experience with top features and rewards.`,
       keywords: [providerName, categoryName, 'games', 'casino', 'online gaming'],
       path: `/games/${slug[0]}/${slug[1]}`,
       pageType: 'game',
@@ -51,8 +51,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   // Fallback
   return generateSEOMetadata({
-    title: 'Games - HyperBetz',
-    description: 'Explore all games on HyperBetz',
+    title: 'Games - BetFlux',
+    description: 'Explore all games on BetFlux',
     keywords: ['games', 'casino', 'online gaming'],
     path: '/games',
     pageType: 'game',

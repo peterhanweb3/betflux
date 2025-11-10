@@ -1,5 +1,5 @@
 {
-	"defaultDomain": "https://hyperbetz.games",
+	"defaultDomain": "https://betflux.games",
 	"defaultLang": "en",
 	"defaultCountry": "global",
 	"environment": "production",
@@ -11,8 +11,8 @@
 			"hreflang": "en",
 			"countryCode": "INT",
 			"timezone": "UTC",
-			"metaTitleSuffix": " | Hyperbetz",
-			"canonicalBase": "https://hyperbetz.games",
+			"metaTitleSuffix": " | Betflux",
+			"canonicalBase": "https://betflux.games",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -28,8 +28,8 @@
 			"hreflang": "en-us",
 			"countryCode": "US",
 			"timezone": "America/New_York",
-			"metaTitleSuffix": " | Hyperbetz USA",
-			"canonicalBase": "https://hyperbetz.games/us",
+			"metaTitleSuffix": " | Betflux USA",
+			"canonicalBase": "https://betflux.games/us",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -45,8 +45,8 @@
 			"hreflang": "en-gb",
 			"countryCode": "GB",
 			"timezone": "Europe/London",
-			"metaTitleSuffix": " | Hyperbetz UK",
-			"canonicalBase": "https://hyperbetz.games/uk",
+			"metaTitleSuffix": " | Betflux UK",
+			"canonicalBase": "https://betflux.games/uk",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -62,8 +62,8 @@
 			"hreflang": "en-in",
 			"countryCode": "IN",
 			"timezone": "Asia/Kolkata",
-			"metaTitleSuffix": " | Hyperbetz India",
-			"canonicalBase": "https://hyperbetz.games/in",
+			"metaTitleSuffix": " | Betflux India",
+			"canonicalBase": "https://betflux.games/in",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -79,8 +79,8 @@
 			"hreflang": "en-za",
 			"countryCode": "ZA",
 			"timezone": "Africa/Johannesburg",
-			"metaTitleSuffix": " | Hyperbetz South Africa",
-			"canonicalBase": "https://hyperbetz.games/za",
+			"metaTitleSuffix": " | Betflux South Africa",
+			"canonicalBase": "https://betflux.games/za",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -96,8 +96,8 @@
 			"hreflang": "en-ng",
 			"countryCode": "NG",
 			"timezone": "Africa/Lagos",
-			"metaTitleSuffix": " | Hyperbetz Nigeria",
-			"canonicalBase": "https://hyperbetz.games/ng",
+			"metaTitleSuffix": " | Betflux Nigeria",
+			"canonicalBase": "https://betflux.games/ng",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -113,8 +113,8 @@
 			"hreflang": "de-de",
 			"countryCode": "DE",
 			"timezone": "Europe/Berlin",
-			"metaTitleSuffix": " | Hyperbetz Deutschland",
-			"canonicalBase": "https://hyperbetz.games/de",
+			"metaTitleSuffix": " | Betflux Deutschland",
+			"canonicalBase": "https://betflux.games/de",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -130,8 +130,8 @@
 			"hreflang": "ja-jp",
 			"countryCode": "JP",
 			"timezone": "Asia/Tokyo",
-			"metaTitleSuffix": " | Hyperbetz Japan",
-			"canonicalBase": "https://hyperbetz.games/jp",
+			"metaTitleSuffix": " | Betflux Japan",
+			"canonicalBase": "https://betflux.games/jp",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -147,8 +147,8 @@
 			"hreflang": "pt-br",
 			"countryCode": "BR",
 			"timezone": "America/Sao_Paulo",
-			"metaTitleSuffix": " | Hyperbetz Brasil",
-			"canonicalBase": "https://hyperbetz.games/br",
+			"metaTitleSuffix": " | Betflux Brasil",
+			"canonicalBase": "https://betflux.games/br",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -161,15 +161,15 @@
 	},
 
 	"defaults": {
-		"siteName": "Hyperbetz",
-		"organization": "Hyperbetz Gaming",
+		"siteName": "Betflux",
+		"organization": "Betflux Gaming",
 		"description": "Your Gateway to Fun and Rewards - Experience the best online gaming with crypto, slots, live casino, and sports betting.",
-		"author": "Hyperbetz Team",
-		"favicon": "/assets/site/Hyperbetz-logo.png",
-		"logo": "/assets/site/Hyperbetz-logo.png",
+		"author": "Betflux Team",
+		"favicon": "/assets/site/Betflux-logo.png",
+		"logo": "/assets/site/Betflux-logo.png",
 		"logoWidth": 1200,
 		"logoHeight": 630,
-		"twitterHandle": "@hyperbetz",
+		"twitterHandle": "@betflux",
 		"facebookAppId": "",
 		"enableAISEO": true,
 		"enableAEO": true,
@@ -181,28 +181,28 @@
 	"schemaDefaults": {
 		"organization": {
 			"@type": "Organization",
-			"name": "Hyperbetz Gaming",
-			"url": "https://hyperbetz.games",
-			"logo": "https://hyperbetz.games/assets/site/Hyperbetz-logo.png",
+			"name": "Betflux Gaming",
+			"url": "https://betflux.games",
+			"logo": "https://betflux.games/assets/site/Betflux-logo.png",
 			"description": "Leading online gaming platform offering crypto gaming, slots, live casino, and sports betting worldwide.",
 			"sameAs": [
-				"https://twitter.com/hyperbetz",
-				"https://facebook.com/hyperbetz",
-				"https://instagram.com/hyperbetz"
+				"https://twitter.com/betflux",
+				"https://facebook.com/betflux",
+				"https://instagram.com/betflux"
 			],
 			"contactPoint": {
 				"@type": "ContactPoint",
 				"contactType": "customer support",
-				"email": "support@hyperbetz.games"
+				"email": "support@betflux.games"
 			}
 		},
 		"website": {
 			"@type": "WebSite",
-			"name": "Hyperbetz",
-			"url": "https://hyperbetz.games",
+			"name": "Betflux",
+			"url": "https://betflux.games",
 			"potentialAction": {
 				"@type": "SearchAction",
-				"target": "https://hyperbetz.games/search?q={search_term_string}",
+				"target": "https://betflux.games/search?q={search_term_string}",
 				"query-input": "required name=search_term_string"
 			}
 		}
@@ -210,8 +210,8 @@
 
 	"pageDefaults": {
 		"home": {
-			"title": "HyperBetz – Global Casino for Slots, Sports & Live Games",
-			"description": "Play at HyperBetz – a trusted online casino with 5000+ slots, live tables & sports betting. Secure play, fast payouts & daily rewards.",
+			"title": "BetFlux – Global Casino for Slots, Sports & Live Games",
+			"description": "Play at BetFlux – a trusted online casino with 5000+ slots, live tables & sports betting. Secure play, fast payouts & daily rewards.",
 			"keywords": [
 				"gaming",
 				"rewards",
@@ -241,32 +241,32 @@
 		},
 		"game": {
 			"title": "{gameName} - Play Now",
-			"description": "Play {gameName} at Hyperbetz. Experience thrilling gameplay, exciting features, and amazing rewards.",
+			"description": "Play {gameName} at Betflux. Experience thrilling gameplay, exciting features, and amazing rewards.",
 			"keywords": ["play {gameName}", "{gameName} game", "online gaming"],
 			"ogType": "website",
 			"schemaType": "Game"
 		},
 		"profile": {
 			"title": "My Profile - Account Settings",
-			"description": "Manage your Hyperbetz account, view your gaming history, and update your preferences.",
+			"description": "Manage your Betflux account, view your gaming history, and update your preferences.",
 			"keywords": ["profile", "account", "settings", "gaming history"],
 			"ogType": "profile",
 			"schemaType": "ProfilePage"
 		},
 		"affiliate": {
-			"title": "Join the HyperBetz Affiliate Program – Earn Lifetime Commissions",
-			"description": "Partner with HyperBetz & earn lifetime income for every player you refer. Easy setup & global reach.",
+			"title": "Join the BetFlux Affiliate Program – Earn Lifetime Commissions",
+			"description": "Partner with BetFlux & earn lifetime income for every player you refer. Easy setup & global reach.",
 			"keywords": [
-				"HyperBetz affiliate program",
+				"BetFlux affiliate program",
 				"crypto casino affiliate",
-				"HyperBetz partners",
+				"BetFlux partners",
 				"referral rewards",
 				"commission earnings",
 				"revenue share crypto casino",
 				"blockchain affiliate network",
 				"earn crypto commissions",
 				"gaming affiliate marketing",
-				"HyperBetz referrals",
+				"BetFlux referrals",
 				"crypto partnership program",
 				"casino affiliate dashboard",
 				"play and earn referrals",
@@ -276,10 +276,10 @@
 			"schemaType": "WebPage"
 		},
 		"providers": {
-			"title": "Game Providers at HyperBetz – Top Casino Studios",
-			"description": "Explore 50+ trusted providers on HyperBetz – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
+			"title": "Game Providers at BetFlux – Top Casino Studios",
+			"description": "Explore 50+ trusted providers on BetFlux – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
 			"keywords": [
-				"HyperBetz game providers",
+				"BetFlux game providers",
 				"crypto casino providers",
 				"best slot developers",
 				"blockchain casino games",
@@ -293,16 +293,16 @@
 				"NetEnt games",
 				"casino software partners",
 				"provably fair providers",
-				"HyperBetz live dealers"
+				"BetFlux live dealers"
 			],
 			"ogType": "website",
 			"schemaType": "CollectionPage"
 		},
 		"about": {
-			"title": "About HyperBetz – Our Story & Mission",
-			"description": "Learn about HyperBetz - our mission, values, and commitment to providing a safe, fair, and exciting gaming experience.",
+			"title": "About BetFlux – Our Story & Mission",
+			"description": "Learn about BetFlux - our mission, values, and commitment to providing a safe, fair, and exciting gaming experience.",
 			"keywords": [
-				"about hyperbetz",
+				"about betflux",
 				"online casino platform",
 				"gaming platform",
 				"casino about us",
@@ -313,10 +313,10 @@
 			"schemaType": "WebPage"
 		},
 		"bonus": {
-			"title": "Turnover Bonus Program – Earn Rewards | HyperBetz",
-			"description": "Join HyperBetz Turnover Bonus Program. Earn up to 20% bonus on your gaming activity. Automatic rewards, transparent calculations.",
+			"title": "Turnover Bonus Program – Earn Rewards | BetFlux",
+			"description": "Join BetFlux Turnover Bonus Program. Earn up to 20% bonus on your gaming activity. Automatic rewards, transparent calculations.",
 			"keywords": [
-				"HyperBetz bonuses",
+				"BetFlux bonuses",
 				"crypto casino bonus",
 				"turnover bonus",
 				"reload bonus",
@@ -324,7 +324,7 @@
 				"wagering rewards",
 				"crypto cashback",
 				"play to earn casino",
-				"HyperBetz promotions",
+				"BetFlux promotions",
 				"crypto gambling bonuses",
 				"VIP rewards",
 				"blockchain casino offers",
@@ -336,8 +336,8 @@
 			"schemaType": "WebPage"
 		},
 		"privacy": {
-			"title": "Privacy Policy – Data Protection | HyperBetz",
-			"description": "HyperBetz Privacy Policy. Learn how we collect, use, and protect your personal data in our crypto-casino platform.",
+			"title": "Privacy Policy – Data Protection | BetFlux",
+			"description": "BetFlux Privacy Policy. Learn how we collect, use, and protect your personal data in our crypto-casino platform.",
 			"keywords": [
 				"privacy policy",
 				"data protection",
@@ -349,8 +349,8 @@
 			"schemaType": "WebPage"
 		},
 		"terms": {
-			"title": "Terms & Conditions – User Agreement | HyperBetz",
-			"description": "Read HyperBetz Terms & Conditions. Understand your rights, responsibilities, and our platform rules.",
+			"title": "Terms & Conditions – User Agreement | BetFlux",
+			"description": "Read BetFlux Terms & Conditions. Understand your rights, responsibilities, and our platform rules.",
 			"keywords": [
 				"terms and conditions",
 				"user agreement",
@@ -362,8 +362,8 @@
 			"schemaType": "WebPage"
 		},
 		"responsibleGambling": {
-			"title": "Responsible Gambling – Player Protection | HyperBetz",
-			"description": "HyperBetz promotes responsible gambling. Access tools, resources, and support for safe gaming.",
+			"title": "Responsible Gambling – Player Protection | BetFlux",
+			"description": "BetFlux promotes responsible gambling. Access tools, resources, and support for safe gaming.",
 			"keywords": [
 				"responsible gambling",
 				"player protection",
@@ -375,8 +375,8 @@
 			"schemaType": "WebPage"
 		},
 		"faqs": {
-			"title": "FAQs – Frequently Asked Questions | HyperBetz",
-			"description": "Find answers to common questions about HyperBetz crypto-casino. Learn about deposits, withdrawals, games, and bonuses.",
+			"title": "FAQs – Frequently Asked Questions | BetFlux",
+			"description": "Find answers to common questions about BetFlux crypto-casino. Learn about deposits, withdrawals, games, and bonuses.",
 			"keywords": [
 				"FAQs",
 				"frequently asked questions",
@@ -393,7 +393,7 @@
 		"production": {
 			"allow": ["/"],
 			"disallow": ["/api/", "/admin/", "/_next/", "/private/"],
-			"sitemap": "https://hyperbetz.games/sitemap.xml"
+			"sitemap": "https://betflux.games/sitemap.xml"
 		},
 		"staging": {
 			"allow": [],
@@ -428,8 +428,8 @@
 		"enabled": true,
 		"androidAppId": "",
 		"iosAppId": "",
-		"appName": "Hyperbetz",
-		"appDeepLinkScheme": "hyperbetz://",
+		"appName": "Betflux",
+		"appDeepLinkScheme": "betflux://",
 		"pwaEnabled": true
 	},
 
@@ -437,7 +437,7 @@
 		"enablePreconnect": true,
 		"enableDNSPrefetch": true,
 		"enablePreload": true,
-		"criticalResources": ["/assets/site/Hyperbetz-logo.png"],
+		"criticalResources": ["/assets/site/Betflux-logo.png"],
 		"externalDomains": [
 			"https://fonts.googleapis.com",
 			"https://fonts.gstatic.com"
@@ -446,7 +446,7 @@
 
 	"socialMedia": {
 		"twitter": {
-			"handle": "@hyperbetz",
+			"handle": "@betflux",
 			"cardType": "summary_large_image"
 		},
 		"facebook": {
@@ -454,7 +454,7 @@
 			"pages": []
 		},
 		"instagram": {
-			"handle": "hyperbetz"
+			"handle": "betflux"
 		}
 	},
 

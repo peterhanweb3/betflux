@@ -1716,7 +1716,7 @@
 					"You will not use the Service for illegal or commercial purposes.",
 					"You accept that cryptocurrency value may fluctuate and you bear all market risk."
 				],
-				"outro": "5.2 If you breach these warranties, HyperBetz may suspend or terminate access and withhold funds where permitted by law."
+				"outro": "5.2 If you breach these warranties, BetFlux may suspend or terminate access and withhold funds where permitted by law."
 			},
 			"5": {
 				"title": "6. Bonuses and Promotions",
@@ -1730,14 +1730,14 @@
 			},
 			"kyc": {
 				"title": "8. No Routine Identity Verification (No KYC)",
-				"content1": "8.1 HyperBetz does not perform routine identity verification (KYC) as a condition of normal play. Users can connect a wallet via Dynamic.xyz and start playing without providing identity documents.",
-				"content2": "8.2 Notwithstanding the above, HyperBetz reserves the right to request information or suspend transactions if required to:",
+				"content1": "8.1 BetFlux does not perform routine identity verification (KYC) as a condition of normal play. Users can connect a wallet via Dynamic.xyz and start playing without providing identity documents.",
+				"content2": "8.2 Notwithstanding the above, BetFlux reserves the right to request information or suspend transactions if required to:",
 				"items": [
 					"Comply with a lawful order from the competent authorities:",
 					"Prevent, investigate, or remediate fraud, money-laundering, or other illegal activity",
 					"Or protect the security and integrity of the platform."
 				],
-				"content3": "8.3 If you refuse to provide such information when legally required, HyperBetz may restrict or close your account and delay or withhold withdrawals to the extent permitted by law."
+				"content3": "8.3 If you refuse to provide such information when legally required, BetFlux may restrict or close your account and delay or withhold withdrawals to the extent permitted by law."
 			},
 			"9": {
 				"title": "9. Intellectual Property",
@@ -1753,75 +1753,75 @@
 				"title": "11. Playing Rules & Game Settlement",
 				"items": [
 					"Bets are accepted only once you receive on-screen confirmation. Bets placed with insufficient balance are void.",
-					"HyperBetz's internal logs and blockchain records are authoritative in case of disputes.",
-					"If an event is canceled, suspended, or otherwise compromised, HyperBetz will settle or void bets according to published game and market rules.",
+					"BetFlux's internal logs and blockchain records are authoritative in case of disputes.",
+					"If an event is canceled, suspended, or otherwise compromised, BetFlux will settle or void bets according to published game and market rules.",
 					"For provably-fair games, verification tools and server seeds (where applicable) are made available per game; server logs are final."
 				]
 			},
 			"errors": {
 				"title": "12. Errors, Interruptions & Limits",
-				"intro": "HyperBetz is not liable for losses caused by:",
+				"intro": "BetFlux is not liable for losses caused by:",
 				"items": [
 					"Internet or device failures",
 					"Blockchain delays, forks, or network congestion",
 					"Software bugs or third-party service outages"
 				],
-				"outro1": "HyperBetz reserves the right to void bets, adjust balances, or cancel transactions when errors or exploits are detected.",
+				"outro1": "BetFlux reserves the right to void bets, adjust balances, or cancel transactions when errors or exploits are detected.",
 				"outro2": "We may set wagering limits, maximum wins, and other controls to protect users and the platform."
 			},
 			"suspension": {
 				"title": "13. Suspension, Closure & Fund Handling",
-				"intro": "HyperBetz may suspend or close accounts where:",
+				"intro": "BetFlux may suspend or close accounts where:",
 				"items": [
 					"Terms are violated",
 					"Abuse, fraud, or suspicious behavior is detected",
 					"Legal or regulatory obligations require it"
 				],
 				"outro1": "On account closure, pending wagers may be canceled and remaining funds handled per applicable law and platform policy.",
-				"outro2": "HyperBetz may retain funds where necessary to resolve disputes, comply with lawful requests, or remediate losses."
+				"outro2": "BetFlux may retain funds where necessary to resolve disputes, comply with lawful requests, or remediate losses."
 			},
 			"responsibleGaming": {
 				"title": "14. Responsible Gaming",
 				"items": [
 					"{siteName} promotes responsible gambling. You may request: Self-exclusion, Deposit limits, or Temporary suspension.",
-					"If you suspect gambling harm, contact support@hyperbetz.games for immediate assistance.",
+					"If you suspect gambling harm, contact support@betflux.games for immediate assistance.",
 					"Underage gambling (under 18 or the local legal age) is strictly prohibited. Accounts found to belong to minors will be closed and funds handled per policy."
 				]
 			},
 			"ip": {
 				"title": "15. Intellectual Property",
-				"content1": "All trademarks, logos, site content, software, and game assets on HyperBetz are owned or licensed by HyperBetz. Unauthorized copying, scraping, or redistribution is prohibited.",
+				"content1": "All trademarks, logos, site content, software, and game assets on BetFlux are owned or licensed by BetFlux. Unauthorized copying, scraping, or redistribution is prohibited.",
 				"content2": "You are granted a limited, revocable license to access the Service for personal entertainment only."
 			},
 			"liability": {
 				"title": "16. Limitation of Liability",
 				"items": [
-					"To the fullest extent permitted by law, HyperBetz will not be liable for indirect, special, consequential or incidental losses, including lost profits or opportunity costs.",
+					"To the fullest extent permitted by law, BetFlux will not be liable for indirect, special, consequential or incidental losses, including lost profits or opportunity costs.",
 					"Our aggregate liability for any claim related to these Terms shall not exceed the value of your last deposit or an amount specified by applicable law.",
 					"Nothing in these Terms limits liability for death or personal injury caused by negligence where applicable law prohibits such limitation."
 				]
 			},
 			"disputes": {
 				"title": "17. Dispute Resolution & Governing Law",
-				"content": "In case of dispute, contact support@hyperbetz.games. We aim to resolve complaints quickly; escalate to management if needed."
+				"content": "In case of dispute, contact support@betflux.games. We aim to resolve complaints quickly; escalate to management if needed."
 			},
 			"amendments": {
 				"title": "18. Amendments",
-				"content": "HyperBetz may amend these Terms at any time. Updated Terms will be posted on the Website. Continued use constitutes acceptance."
+				"content": "BetFlux may amend these Terms at any time. Updated Terms will be posted on the Website. Continued use constitutes acceptance."
 			},
 			"miscellaneous": {
 				"title": "19. Miscellaneous",
 				"items": [
-					"These Terms constitute the entire agreement between you and HyperBetz regarding the Service.",
+					"These Terms constitute the entire agreement between you and BetFlux regarding the Service.",
 					"If any clause is found unenforceable, it will be modified to the minimum extent necessary and the remaining provisions will remain in effect.",
-					"You may not assign your rights under these Terms. HyperBetz may assign or subcontract rights and obligations."
+					"You may not assign your rights under these Terms. BetFlux may assign or subcontract rights and obligations."
 				]
 			},
 			"contact": {
 				"title": "20. Contact",
 				"intro": "For support, complaints, or legal notices:",
-				"supportEmail": "General Support: support@hyperbetz.games",
-				"affiliateEmail": "Affiliate Inquiries: affiliates@hyperbetz.games",
+				"supportEmail": "General Support: support@betflux.games",
+				"affiliateEmail": "Affiliate Inquiries: affiliates@betflux.games",
 				"registeredOffice": "Registered office: {siteName} N.V., Heelsumstraat 51, Willemstad, Curaçao"
 			}
 		}
@@ -1876,7 +1876,7 @@
 			"selfExclusion": {
 				"title": "Self-Exclusion & Time-Outs",
 				"description": "Suspend access to your account instantly for a chosen period or permanently if you need a longer break.",
-				"contact": "Activate via your profile or contact support@hyperbetz.games for immediate assistance."
+				"contact": "Activate via your profile or contact support@betflux.games for immediate assistance."
 			},
 			"coolingOff": {
 				"title": "Cooling-Off Periods",
@@ -1976,7 +1976,7 @@
 		"finalMessage": {
 			"paragraph1": "Responsible gambling keeps the fun alive.",
 			"paragraph2": "Lean on our tools, seek support early, and remember that taking a break is always an option.",
-			"contact": "Need help from {siteName}? Email support@hyperbetz.games any time."
+			"contact": "Need help from {siteName}? Email support@betflux.games any time."
 		}
 	},
 	"faqs": {

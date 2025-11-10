@@ -6,15 +6,15 @@ import {
 } from "@/lib/seo/schema-generator";
 
 export const metadata: Metadata = generateSEOMetadata({
-	title: "Terms & Conditions | HyperBetz.games – Crypto Casino Rules",
+	title: "Terms & Conditions | betflux.games – Crypto Casino Rules",
 	description:
-		"Read HyperBetz.games Terms & Conditions. Learn about wallet login (Dynamic.xyz), crypto deposits, withdrawals, fair play, and responsible gaming policies.",
+		"Read betflux.games Terms & Conditions. Learn about wallet login (Dynamic.xyz), crypto deposits, withdrawals, fair play, and responsible gaming policies.",
 	keywords: [
-		"HyperBetz Terms and Conditions",
-		"HyperBetz crypto casino rules",
+		"BetFlux Terms and Conditions",
+		"BetFlux crypto casino rules",
 		"Dynamic.xyz wallet login",
-		"HyperBetz withdrawal policy",
-		"HyperBetz fair play",
+		"BetFlux withdrawal policy",
+		"BetFlux fair play",
 	],
 	path: "/terms",
 	pageType: "terms",
@@ -23,10 +23,10 @@ export const metadata: Metadata = generateSEOMetadata({
 	schemas: [
 		generateOrganizationSchema(),
 		generateWebPageSchema({
-			title: "Terms & Conditions - HyperBetz",
-			url: "https://hyperbetz.games/terms",
+			title: "Terms & Conditions - BetFlux",
+			url: "https://betflux.games/terms",
 			description:
-				"HyperBetz Terms & Conditions - User agreement and platform rules.",
+				"BetFlux Terms & Conditions - User agreement and platform rules.",
 		}),
 	],
 });
