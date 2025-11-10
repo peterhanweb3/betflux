@@ -1,0 +1,477 @@
+{
+	"defaultDomain": "https://hyperbetz.games",
+	"defaultLang": "en",
+	"defaultCountry": "global",
+	"environment": "production",
+
+	"regions": {
+		"global": {
+			"language": "en",
+			"currency": "USD",
+			"hreflang": "en",
+			"countryCode": "INT",
+			"timezone": "UTC",
+			"metaTitleSuffix": " | Hyperbetz",
+			"canonicalBase": "https://hyperbetz.games",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "gaming",
+				"rewards": "rewards",
+				"casino": "casino",
+				"betting": "betting"
+			}
+		},
+		"us": {
+			"language": "en",
+			"currency": "USD",
+			"hreflang": "en-us",
+			"countryCode": "US",
+			"timezone": "America/New_York",
+			"metaTitleSuffix": " | Hyperbetz USA",
+			"canonicalBase": "https://hyperbetz.games/us",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "gaming",
+				"rewards": "rewards",
+				"casino": "casino",
+				"betting": "betting"
+			}
+		},
+		"uk": {
+			"language": "en",
+			"currency": "GBP",
+			"hreflang": "en-gb",
+			"countryCode": "GB",
+			"timezone": "Europe/London",
+			"metaTitleSuffix": " | Hyperbetz UK",
+			"canonicalBase": "https://hyperbetz.games/uk",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "gaming",
+				"rewards": "rewards",
+				"casino": "casino",
+				"betting": "betting"
+			}
+		},
+		"in": {
+			"language": "en",
+			"currency": "INR",
+			"hreflang": "en-in",
+			"countryCode": "IN",
+			"timezone": "Asia/Kolkata",
+			"metaTitleSuffix": " | Hyperbetz India",
+			"canonicalBase": "https://hyperbetz.games/in",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "gaming",
+				"rewards": "rewards",
+				"casino": "casino",
+				"betting": "betting"
+			}
+		},
+		"za": {
+			"language": "en",
+			"currency": "ZAR",
+			"hreflang": "en-za",
+			"countryCode": "ZA",
+			"timezone": "Africa/Johannesburg",
+			"metaTitleSuffix": " | Hyperbetz South Africa",
+			"canonicalBase": "https://hyperbetz.games/za",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "gaming",
+				"rewards": "rewards",
+				"casino": "casino",
+				"betting": "betting"
+			}
+		},
+		"ng": {
+			"language": "en",
+			"currency": "NGN",
+			"hreflang": "en-ng",
+			"countryCode": "NG",
+			"timezone": "Africa/Lagos",
+			"metaTitleSuffix": " | Hyperbetz Nigeria",
+			"canonicalBase": "https://hyperbetz.games/ng",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "gaming",
+				"rewards": "rewards",
+				"casino": "casino",
+				"betting": "betting"
+			}
+		},
+		"de": {
+			"language": "de",
+			"currency": "EUR",
+			"hreflang": "de-de",
+			"countryCode": "DE",
+			"timezone": "Europe/Berlin",
+			"metaTitleSuffix": " | Hyperbetz Deutschland",
+			"canonicalBase": "https://hyperbetz.games/de",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "Spielen",
+				"rewards": "Belohnungen",
+				"casino": "Kasino",
+				"betting": "Wetten"
+			}
+		},
+		"jp": {
+			"language": "ja",
+			"currency": "JPY",
+			"hreflang": "ja-jp",
+			"countryCode": "JP",
+			"timezone": "Asia/Tokyo",
+			"metaTitleSuffix": " | Hyperbetz Japan",
+			"canonicalBase": "https://hyperbetz.games/jp",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "ゲーム",
+				"rewards": "報酬",
+				"casino": "カジノ",
+				"betting": "ベッティング"
+			}
+		},
+		"br": {
+			"language": "pt",
+			"currency": "BRL",
+			"hreflang": "pt-br",
+			"countryCode": "BR",
+			"timezone": "America/Sao_Paulo",
+			"metaTitleSuffix": " | Hyperbetz Brasil",
+			"canonicalBase": "https://hyperbetz.games/br",
+			"gtmId": "",
+			"ga4Id": "",
+			"localizedTerms": {
+				"gaming": "jogos",
+				"rewards": "recompensas",
+				"casino": "cassino",
+				"betting": "apostas"
+			}
+		}
+	},
+
+	"defaults": {
+		"siteName": "Hyperbetz",
+		"organization": "Hyperbetz Gaming",
+		"description": "Your Gateway to Fun and Rewards - Experience the best online gaming with crypto, slots, live casino, and sports betting.",
+		"author": "Hyperbetz Team",
+		"favicon": "/assets/site/Hyperbetz-logo.png",
+		"logo": "/assets/site/Hyperbetz-logo.png",
+		"logoWidth": 1200,
+		"logoHeight": 630,
+		"twitterHandle": "@hyperbetz",
+		"facebookAppId": "",
+		"enableAISEO": true,
+		"enableAEO": true,
+		"enableGEO": true,
+		"enableAISO": true,
+		"enableASO": true
+	},
+
+	"schemaDefaults": {
+		"organization": {
+			"@type": "Organization",
+			"name": "Hyperbetz Gaming",
+			"url": "https://hyperbetz.games",
+			"logo": "https://hyperbetz.games/assets/site/Hyperbetz-logo.png",
+			"description": "Leading online gaming platform offering crypto gaming, slots, live casino, and sports betting worldwide.",
+			"sameAs": [
+				"https://twitter.com/hyperbetz",
+				"https://facebook.com/hyperbetz",
+				"https://instagram.com/hyperbetz"
+			],
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"contactType": "customer support",
+				"email": "support@hyperbetz.games"
+			}
+		},
+		"website": {
+			"@type": "WebSite",
+			"name": "Hyperbetz",
+			"url": "https://hyperbetz.games",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://hyperbetz.games/search?q={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		}
+	},
+
+	"pageDefaults": {
+		"home": {
+			"title": "HyperBetz – Global Casino for Slots, Sports & Live Games",
+			"description": "Play at HyperBetz – a trusted online casino with 5000+ slots, live tables & sports betting. Secure play, fast payouts & daily rewards.",
+			"keywords": [
+				"gaming",
+				"rewards",
+				"crypto",
+				"slots",
+				"live casino",
+				"sports betting",
+				"online gaming",
+				"betting",
+				"jackpots"
+			],
+			"ogType": "website",
+			"schemaType": "WebPage"
+		},
+		"lobby": {
+			"title": "Game Lobby - Browse All Games",
+			"description": "Explore our extensive collection of games including slots, live casino, table games, and more. Find your favorite games and start winning!",
+			"keywords": [
+				"game lobby",
+				"casino games",
+				"slots",
+				"table games",
+				"live casino"
+			],
+			"ogType": "website",
+			"schemaType": "CollectionPage"
+		},
+		"game": {
+			"title": "{gameName} - Play Now",
+			"description": "Play {gameName} at Hyperbetz. Experience thrilling gameplay, exciting features, and amazing rewards.",
+			"keywords": ["play {gameName}", "{gameName} game", "online gaming"],
+			"ogType": "website",
+			"schemaType": "Game"
+		},
+		"profile": {
+			"title": "My Profile - Account Settings",
+			"description": "Manage your Hyperbetz account, view your gaming history, and update your preferences.",
+			"keywords": ["profile", "account", "settings", "gaming history"],
+			"ogType": "profile",
+			"schemaType": "ProfilePage"
+		},
+		"affiliate": {
+			"title": "Join the HyperBetz Affiliate Program – Earn Lifetime Commissions",
+			"description": "Partner with HyperBetz & earn lifetime income for every player you refer. Easy setup & global reach.",
+			"keywords": [
+				"HyperBetz affiliate program",
+				"crypto casino affiliate",
+				"HyperBetz partners",
+				"referral rewards",
+				"commission earnings",
+				"revenue share crypto casino",
+				"blockchain affiliate network",
+				"earn crypto commissions",
+				"gaming affiliate marketing",
+				"HyperBetz referrals",
+				"crypto partnership program",
+				"casino affiliate dashboard",
+				"play and earn referrals",
+				"passive income crypto casino"
+			],
+			"ogType": "website",
+			"schemaType": "WebPage"
+		},
+		"providers": {
+			"title": "Game Providers at HyperBetz – Top Casino Studios",
+			"description": "Explore 50+ trusted providers on HyperBetz – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
+			"keywords": [
+				"HyperBetz game providers",
+				"crypto casino providers",
+				"best slot developers",
+				"blockchain casino games",
+				"live casino studios",
+				"crypto game suppliers",
+				"Habanero",
+				"Yggdrasil",
+				"Pragmatic Play",
+				"Playtech",
+				"PG Soft",
+				"NetEnt games",
+				"casino software partners",
+				"provably fair providers",
+				"HyperBetz live dealers"
+			],
+			"ogType": "website",
+			"schemaType": "CollectionPage"
+		},
+		"about": {
+			"title": "About HyperBetz – Our Story & Mission",
+			"description": "Learn about HyperBetz - our mission, values, and commitment to providing a safe, fair, and exciting gaming experience.",
+			"keywords": [
+				"about hyperbetz",
+				"online casino platform",
+				"gaming platform",
+				"casino about us",
+				"fair play casino",
+				"responsible gaming"
+			],
+			"ogType": "website",
+			"schemaType": "WebPage"
+		},
+		"bonus": {
+			"title": "Turnover Bonus Program – Earn Rewards | HyperBetz",
+			"description": "Join HyperBetz Turnover Bonus Program. Earn up to 20% bonus on your gaming activity. Automatic rewards, transparent calculations.",
+			"keywords": [
+				"HyperBetz bonuses",
+				"crypto casino bonus",
+				"turnover bonus",
+				"reload bonus",
+				"daily rewards",
+				"wagering rewards",
+				"crypto cashback",
+				"play to earn casino",
+				"HyperBetz promotions",
+				"crypto gambling bonuses",
+				"VIP rewards",
+				"blockchain casino offers",
+				"exclusive casino deals",
+				"live casino bonuses",
+				"crypto gaming incentives"
+			],
+			"ogType": "website",
+			"schemaType": "WebPage"
+		},
+		"privacy": {
+			"title": "Privacy Policy – Data Protection | HyperBetz",
+			"description": "HyperBetz Privacy Policy. Learn how we collect, use, and protect your personal data in our crypto-casino platform.",
+			"keywords": [
+				"privacy policy",
+				"data protection",
+				"user privacy",
+				"crypto privacy",
+				"GDPR compliance"
+			],
+			"ogType": "website",
+			"schemaType": "WebPage"
+		},
+		"terms": {
+			"title": "Terms & Conditions – User Agreement | HyperBetz",
+			"description": "Read HyperBetz Terms & Conditions. Understand your rights, responsibilities, and our platform rules.",
+			"keywords": [
+				"terms and conditions",
+				"user agreement",
+				"terms of service",
+				"legal terms",
+				"casino rules"
+			],
+			"ogType": "website",
+			"schemaType": "WebPage"
+		},
+		"responsibleGambling": {
+			"title": "Responsible Gambling – Player Protection | HyperBetz",
+			"description": "HyperBetz promotes responsible gambling. Access tools, resources, and support for safe gaming.",
+			"keywords": [
+				"responsible gambling",
+				"player protection",
+				"gambling awareness",
+				"self-exclusion",
+				"safe gambling"
+			],
+			"ogType": "website",
+			"schemaType": "WebPage"
+		},
+		"faqs": {
+			"title": "FAQs – Frequently Asked Questions | HyperBetz",
+			"description": "Find answers to common questions about HyperBetz crypto-casino. Learn about deposits, withdrawals, games, and bonuses.",
+			"keywords": [
+				"FAQs",
+				"frequently asked questions",
+				"help",
+				"support",
+				"crypto casino FAQ"
+			],
+			"ogType": "website",
+			"schemaType": "FAQPage"
+		}
+	},
+
+	"robotsRules": {
+		"production": {
+			"allow": ["/"],
+			"disallow": ["/api/", "/admin/", "/_next/", "/private/"],
+			"sitemap": "https://hyperbetz.games/sitemap.xml"
+		},
+		"staging": {
+			"allow": [],
+			"disallow": ["/"],
+			"sitemap": null
+		}
+	},
+
+	"aeo": {
+		"enabled": true,
+		"generateFAQs": true,
+		"generateHowTo": true,
+		"enableSpeakable": true,
+		"targetFeaturedSnippets": true
+	},
+
+	"aiso": {
+		"enabled": true,
+		"aiPlatforms": [
+			"google-sge",
+			"chatgpt",
+			"perplexity",
+			"bing-copilot",
+			"gemini"
+		],
+		"structuredAnswers": true,
+		"entityMarkup": true,
+		"semanticContext": true
+	},
+
+	"aso": {
+		"enabled": true,
+		"androidAppId": "",
+		"iosAppId": "",
+		"appName": "Hyperbetz",
+		"appDeepLinkScheme": "hyperbetz://",
+		"pwaEnabled": true
+	},
+
+	"performance": {
+		"enablePreconnect": true,
+		"enableDNSPrefetch": true,
+		"enablePreload": true,
+		"criticalResources": ["/assets/site/Hyperbetz-logo.png"],
+		"externalDomains": [
+			"https://fonts.googleapis.com",
+			"https://fonts.gstatic.com"
+		]
+	},
+
+	"socialMedia": {
+		"twitter": {
+			"handle": "@hyperbetz",
+			"cardType": "summary_large_image"
+		},
+		"facebook": {
+			"appId": "",
+			"pages": []
+		},
+		"instagram": {
+			"handle": "hyperbetz"
+		}
+	},
+
+	"analytics": {
+		"ga4": {
+			"enabled": true,
+			"measurementId": ""
+		},
+		"gtm": {
+			"enabled": false,
+			"containerId": ""
+		},
+		"customEvents": {
+			"pageView": true,
+			"gamePlay": true,
+			"registration": true,
+			"deposit": true
+		}
+	}
+}
