@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import { cookies } from "next/headers";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { ThemeColorProvider } from "@/components/theme/theme-color-provider";
 import { LocaleProvider } from "@/lib/locale-provider";
 import { IOSViewportFix } from "@/components/common/ios-viewport-fix";
 import { ServiceWorkerRegister } from "@/components/common/service-worker-register";
+import { SEOTemplates } from "@/lib/seo/seo-provider";
+import { JsonLd } from "@/components/seo/json-ld";
+import { generateOrganizationSchema, generateWebsiteSchema } from "@/lib/seo/schema-generator";
 // Avoid bundling public images via import to skip sharp at build time
 import "./globals.css";
 
@@ -69,14 +73,26 @@ export const metadata: Metadata = {
 	},
 };
 
-export default function RootLayout({
+export default async function RootLayout({
 	children,
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
+	// Generate SEO schemas for rich snippets
+	const organizationSchema = generateOrganizationSchema();
+	const websiteSchema = generateWebsiteSchema();
+
+	// Get user's locale from cookies for proper HTML lang attribute (SEO)
+	const cookieStore = await cookies();
+	const locale = cookieStore.get('NEXT_LOCALE')?.value || 'en';
+
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html lang={locale} suppressHydrationWarning>
 			<head>
+				{/* SEO: Structured Data for Knowledge Graph & Rich Snippets */}
+				<JsonLd data={organizationSchema} />
+				<JsonLd data={websiteSchema} />
+
 				<script
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=G-4GHMTR2431"

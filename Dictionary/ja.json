@@ -7,7 +7,7 @@
 		"viewAll": "すべて表示"
 	},
 	"app": {
-		"name": "BetFlux"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "サイドバーの切り替え",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "出金成功！",
-			"successMessage": "🎉 BetFluxから{withdrawAmount}{tokenSymbol}を出金しました！ 🚀 {shareUrl}で勝利の連鎖に参加しよう",
+			"successMessage": "🎉 {siteName}から{withdrawAmount}{tokenSymbol}を出金しました！ 🚀 {shareUrl}で勝利の連鎖に参加しよう",
 			"withdrawnAmount": "出金額",
 			"shareText": "共有",
 			"subText": "🚀 勝利の連鎖に参加しよう！ 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "スクリーンショットが失敗しました。再試行するか、別のブラウザを使用してください。",
 			"shareFailed": "共有に失敗しました。もう一度お試しください。",
 			"status": "完了",
-			"userName": "BetFluxプレイヤー"
+			"userName": "{siteName}プレイヤー"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "出金が確認されました！",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "カジノ",
 				"badge": "590+ ゲーム",
-				"desc": "BetFluxオリジナルやトッププロバイダーのカジノゲームをお楽しみください。",
+				"desc": "{siteName}オリジナルやトッププロバイダーのカジノゲームをお楽しみください。",
 				"link": "カジノへ行く"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "完了",
 			"statusOnChain": "オンチェーン",
 			"claimAmount": "請求額",
-			"logoAlt": "BetFluxロゴ",
+			"logoAlt": "{siteName}ロゴ",
 			"backgroundAlt": "クレーム成功の背景",
 			"creatingMagic": "魔法を作成しています...",
 			"downloadShare": "ダウンロードして共有",

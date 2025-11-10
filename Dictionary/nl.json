@@ -7,7 +7,7 @@
 		"viewAll": "Alles bekijken"
 	},
 	"app": {
-		"name": "Betflux"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Zijbalk wisselen",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Opname Geslaagd!",
-			"successMessage": "🎉 Zojuist {withdrawAmount} {tokenSymbol} opgenomen van BetFlux! 🚀 Sluit je aan bij de winnende reeks op {shareUrl}",
+			"successMessage": "🎉 Zojuist {withdrawAmount} {tokenSymbol} opgenomen van {siteName}! 🚀 Sluit je aan bij de winnende reeks op {shareUrl}",
 			"withdrawnAmount": "Opgenomen Bedrag",
 			"shareText": "Delen",
 			"subText": "🚀 SLUIT JE AAN BIJ DE WINNENDE REEKS! 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "Schermafbeelding mislukt. Probeer het opnieuw of gebruik een andere browser.",
 			"shareFailed": "Delen mislukt. Probeer het alstublieft opnieuw.",
 			"status": "Voltooid",
-			"userName": "BetFlux-speler"
+			"userName": "{siteName}-speler"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Opname Bevestigd!",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ SPELLEN",
-				"desc": "Geniet van BetFlux Originals en andere casinospellen van top providers.",
+				"desc": "Geniet van {siteName} Originals en andere casinospellen van top providers.",
 				"link": "Ga naar Casino"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "Voltooid",
 			"statusOnChain": "On-Chain",
 			"claimAmount": "Claimbedrag",
-			"logoAlt": "BetFlux-logo",
+			"logoAlt": "{siteName}-logo",
 			"backgroundAlt": "Claim succes achtergrond",
 			"creatingMagic": "Magie maken...",
 			"downloadShare": "Downloaden en delen",

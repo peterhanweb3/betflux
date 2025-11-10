@@ -7,7 +7,7 @@
 		"viewAll": "مشاهده همه"
 	},
 	"app": {
-		"name": "BetFlux"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "تغییر نوار کناری",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "برداشت موفق!",
-			"successMessage": "🎉 همین الان {withdrawAmount} {tokenSymbol} از BetFlux برداشت کردم! 🚀 در {shareUrl} به زنجیره پیروزی بپیوندید",
+			"successMessage": "🎉 همین الان {withdrawAmount} {tokenSymbol} از {siteName} برداشت کردم! 🚀 در {shareUrl} به زنجیره پیروزی بپیوندید",
 			"withdrawnAmount": "مبلغ برداشت شده",
 			"shareText": "اشتراک‌گذاری",
 			"subText": "🚀 به زنجیره پیروزی بپیوندید! 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "گرفتن اسکرین‌شات با شکست مواجه شد. لطفاً دوباره تلاش کنید یا مرورگر دیگری استفاده کنید.",
 			"shareFailed": "اشتراک‌گذاری ناموفق بود. لطفا دوباره تلاش کنید.",
 			"status": "کامل شد",
-			"userName": "بازیکن BetFlux"
+			"userName": "بازیکن {siteName}"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "برداشت تایید شد!",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "کازینو",
 				"badge": "+۵۹۰ بازی",
-				"desc": "از بازی‌های اصلی BetFlux و سایر بازی‌های کازینو از ارائه‌دهندگان برتر لذت ببرید.",
+				"desc": "از بازی‌های اصلی {siteName} و سایر بازی‌های کازینو از ارائه‌دهندگان برتر لذت ببرید.",
 				"link": "رفتن به کازینو"
 			},
 			"slots": {

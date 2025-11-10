@@ -444,15 +444,6 @@ export default function ResponsibleGamblingPage() {
 					</p>
 				</ContentSection>
 			</SectionCard>
-
-			{/* <div className="flex justify-center">
-				<Link href="/profile">
-					<Button size="lg" className="gap-2">
-						<Settings className="size-4" />
-						{t("responsibleGambling.manageSettingsButton")}
-					</Button>
-				</Link>
-			</div> */}
 		</div>
 	);
 }

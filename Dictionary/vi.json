@@ -7,7 +7,7 @@
 		"viewAll": "Xem tất cả"
 	},
 	"app": {
-		"name": "BetFlux"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Chuyển đổi thanh bên",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Rút tiền thành công!",
-			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ BetFlux! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
+			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ {siteName}! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
 			"withdrawnAmount": "Số tiền đã rút",
 			"shareText": "Chia sẻ",
 			"subText": "🚀 HÃY THAM GIA CHUỖI THẮNG! 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "Chụp màn hình không thành công. Vui lòng thử lại hoặc sử dụng trình duyệt khác.",
 			"shareFailed": "Không thể chia sẻ. Vui lòng thử lại.",
 			"status": "Hoàn thành",
-			"userName": "Người chơi BetFlux"
+			"userName": "Người chơi {siteName}"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Rút tiền đã được xác nhận!",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "Sòng bạc",
 				"badge": "Hơn 590 TRÒ CHƠI",
-				"desc": "Thưởng thức các trò chơi gốc của BetFlux và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
+				"desc": "Thưởng thức các trò chơi gốc của {siteName} và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
 				"link": "Đến Casino"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "Hoàn thành",
 			"statusOnChain": "trên chuỗi",
 			"claimAmount": "Số tiền yêu cầu bồi thường",
-			"logoAlt": "Logo BetFlux",
+			"logoAlt": "Logo {siteName}",
 			"backgroundAlt": "Xác nhận nền tảng thành công",
 			"creatingMagic": "Đang tạo phép thuật...",
 			"downloadShare": "Tải xuống & chia sẻ",

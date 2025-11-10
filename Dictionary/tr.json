@@ -7,7 +7,7 @@
 		"viewAll": "Tümünü Gör"
 	},
 	"app": {
-		"name": "BetFlux"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Kenar Çubuğunu Aç/Kapat",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Çekim Başarılı!",
-			"successMessage": "🎉 BetFlux'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
+			"successMessage": "🎉 {siteName}'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
 			"withdrawnAmount": "Çekilen Miktar",
 			"shareText": "Paylaş",
 			"subText": "🚀 KAZANMA SERİSİNE KATIL! 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "Ekran görüntüsü alınamadı. Lütfen tekrar deneyin veya farklı bir tarayıcı kullanın.",
 			"shareFailed": "Paylaşım başarısız. Lütfen tekrar deneyin.",
 			"status": "Tamamlandı",
-			"userName": "BetFlux Oyuncusu"
+			"userName": "{siteName} Oyuncusu"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Çekim Onaylandı!",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "Kumarhane",
 				"badge": "590+ OYUN",
-				"desc": "BetFlux Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
+				"desc": "{siteName} Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
 				"link": "Casinoya Git"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "Tamamlandı",
 			"statusOnChain": "zincir içi",
 			"claimAmount": "Talep Miktarı",
-			"logoAlt": "BetFlux Logosu",
+			"logoAlt": "{siteName} Logosu",
 			"backgroundAlt": "Talep başarısı arka planı",
 			"creatingMagic": "Sihir Oluşturuluyor...",
 			"downloadShare": "İndir ve Paylaş",
