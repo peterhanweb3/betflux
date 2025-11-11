@@ -13,6 +13,7 @@ import Link from "next/link";
 export default function PrivacyPage() {
 	const t = useT();
 
+	const siteDomain = window?.location?.hostname || "betflux.games";
 	return (
 		<div className="container mx-auto space-y-8 consistent-padding-x consistent-padding-y">
 			<PageHeader
@@ -274,12 +275,12 @@ export default function PrivacyPage() {
 				<p>{t("privacy.sections.contact.intro")}</p>
 				<div className="mt-4">
 					<Link
-						href="https://betflux.games"
+						href={`https://${siteDomain}`}
 						className="text-primary hover:underline font-medium"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						🌐 https://betflux.games
+						{`🌐 https://${siteDomain}`}
 					</Link>
 				</div>
 			</SectionCard>

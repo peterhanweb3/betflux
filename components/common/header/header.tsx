@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 // Local Components & Hooks
-import { ThemeToggle } from "../../theme/theme-toggle";
+// import { ThemeToggle } from "../../theme/theme-toggle";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { SearchModal } from "@/components/features/search/search-modal";
@@ -171,7 +171,7 @@ export function PageHeader({ className }: { className?: string }) {
 				<DropdownMenuSeparator />
 				<DropdownMenuGroup className="block lg:hidden">
 					<DropdownMenuItem>
-						<ThemeToggle className="flex " />
+						{/* <ThemeToggle className="flex " /> */}
 						<DropdownMenu>
 							<DropdownMenuTrigger asChild>
 								<Button

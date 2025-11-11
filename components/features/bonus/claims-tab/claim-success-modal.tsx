@@ -210,7 +210,7 @@ export const ClaimSuccessModal = (props: ClaimSuccessModalProps) => {
 								{/* Logo */}
 								<div className="flex items-center gap-2">
 									<img
-										src="/assets/site/betflux-logo.png"
+										src="/assets/site/Betflux-logo.png"
 										alt={t("logoAlt")}
 										width={200}
 										height={32}

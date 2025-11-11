@@ -1,3 +1,5 @@
+// TODO: add the transaltion key form the max button tooltip text & all the other texts used in tooltip for Tip Panel in all languages
+
 "use client";
 
 import Image from "next/image";

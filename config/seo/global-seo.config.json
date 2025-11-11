@@ -161,9 +161,9 @@
 	},
 
 	"defaults": {
-		"siteName": "Hyperbetz",
-		"siteTLD": ".games",
-		"organization": "Hyperbetz Gaming",
+		"siteName": "Betflux",
+		"siteDomain": "betflux.games",
+		"organization": "Betflux Gaming",
 		"description": "Your Gateway to Fun and Rewards - Experience the best online gaming with crypto, slots, live casino, and sports betting.",
 		"author": "Betflux Team",
 		"favicon": "/assets/site/Betflux-logo.png",
@@ -241,8 +241,8 @@
 			"schemaType": "CollectionPage"
 		},
 		"game": {
-			"title": "All Games on HyperBetz – Slots, Poker & Live Casino",
-			"description": "Discover the full HyperBetz game list – slots, poker & live casino from top providers. Play instantly, win securely.",
+			"title": "All Games on BetFlux – Slots, Poker & Live Casino",
+			"description": "Discover the full BetFlux game list – slots, poker & live casino from top providers. Play instantly, win securely.",
 			"keywords": ["play {gameName}", "{gameName} game", "online gaming"],
 			"ogType": "website",
 			"schemaType": "Game"
@@ -255,19 +255,19 @@
 			"schemaType": "ProfilePage"
 		},
 		"affiliate": {
-			"title": "Join the HyperBetz Affiliate Program – Earn Lifetime Commissions.",
-			"description": "Partner with HyperBetz & earn lifetime income for every player you refer. Easy setup & global reach.",
+			"title": "Join the BetFlux Affiliate Program – Earn Lifetime Commissions.",
+			"description": "Partner with BetFlux & earn lifetime income for every player you refer. Easy setup & global reach.",
 			"keywords": [
-				"HyperBetz affiliate program",
+				"BetFlux affiliate program",
 				"crypto casino affiliate",
-				"HyperBetz partners",
+				"BetFlux partners",
 				"referral rewards",
 				"commission earnings",
 				"revenue share crypto casino",
 				"blockchain affiliate network",
 				"earn crypto commissions",
 				"gaming affiliate marketing",
-				"HyperBetz referrals",
+				"BetFlux referrals",
 				"crypto partnership program",
 				"casino affiliate dashboard",
 				"play and earn referrals",
@@ -277,10 +277,10 @@
 			"schemaType": "WebPage"
 		},
 		"providers": {
-			"title": "Game Providers at HyperBetz – Top Casino Studios",
-			"description": "Explore 50+ trusted providers on HyperBetz – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
+			"title": "Game Providers at BetFlux – Top Casino Studios",
+			"description": "Explore 50+ trusted providers on BetFlux – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
 			"keywords": [
-				"HyperBetz game providers",
+				"BetFlux game providers",
 				"crypto casino providers",
 				"best slot developers",
 				"blockchain casino games",
@@ -294,7 +294,7 @@
 				"NetEnt games",
 				"casino software partners",
 				"provably fair providers",
-				"HyperBetz live dealers"
+				"BetFlux live dealers"
 			],
 			"ogType": "website",
 			"schemaType": "CollectionPage"
@@ -314,10 +314,10 @@
 			"schemaType": "WebPage"
 		},
 		"bonus": {
-			"title": "HyperBetz Turnover Bonus – Earn Rewards While You Play",
-			"description": "Join the HyperBetz Turnover Bonus Program & earn daily rewards as you play slots & live games.",
+			"title": "BetFlux Turnover Bonus – Earn Rewards While You Play",
+			"description": "Join the BetFlux Turnover Bonus Program & earn daily rewards as you play slots & live games.",
 			"keywords": [
-				"HyperBetz bonuses",
+				"BetFlux bonuses",
 				"crypto casino bonus",
 				"turnover bonus",
 				"reload bonus",
@@ -325,7 +325,7 @@
 				"wagering rewards",
 				"crypto cashback",
 				"play to earn casino",
-				"HyperBetz promotions",
+				"BetFlux promotions",
 				"crypto gambling bonuses",
 				"VIP rewards",
 				"blockchain casino offers",

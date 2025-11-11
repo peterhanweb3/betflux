@@ -90,7 +90,11 @@ const isBonusActive = (pathname: string) => {
 const createGamesLink = (filterType: string, filterValue: string) => {
 	if (filterType === "provider_name") {
 		// Convert provider name to SEO-friendly slug
-		const slug = filterValue.toLowerCase().trim().replace(/\s+/g, '-').replace(/\./g, '');
+		const slug = filterValue
+			.toLowerCase()
+			.trim()
+			.replace(/\s+/g, "-")
+			.replace(/\./g, "");
 		return `/games/${slug}`;
 	}
 	// Fallback for other filter types
@@ -111,7 +115,7 @@ const createProvidersLink = (filterType: string, filterValue: string) => {
 			return `/games/sbo`;
 		}
 		// Convert category to SEO-friendly slug
-		const slug = filterValue.toLowerCase().trim().replace(/\s+/g, '-');
+		const slug = filterValue.toLowerCase().trim().replace(/\s+/g, "-");
 		return `/providers/${slug}`;
 	}
 	// Fallback
@@ -322,6 +326,14 @@ export const getNavData = ({
 			url: createGamesLink("provider_name", provider.name),
 			count: provider.count, // Use the real, calculated count
 		})),
+
+		// --- About Section ---
+		// aboutSection: {
+		// 	title: "navigation.about",
+		// 	url: "/about",
+		// 	icon: faUsers,
+		// 	isActive: pathname === "/about",
+		// },
 
 		// --- Static Daily Bonus Section ---
 		dailyBonus: {

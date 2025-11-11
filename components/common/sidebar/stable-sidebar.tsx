@@ -158,7 +158,7 @@ const StableSidebarComponent = ({
 			{/* Sidebar Header with logo and title */}
 			<div className="flex items-center p-4">
 				<Image
-					src="/assets/site/betflux-logo.png"
+					src="/assets/site/Betflux-logo.png"
 					alt="BetFlux Logo"
 					width={192}
 					height={48}

@@ -85,7 +85,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 						priority
 						width={800}
 						height={800}
-						src="/assets/site/betflux-logo.png"
+						src="/assets/site/Betflux-logo.png"
 						alt="BetFlux Logo"
 						className="w-[80%] mx-auto"
 					/>

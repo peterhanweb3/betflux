@@ -71,7 +71,7 @@ export default function AboutPage() {
 				</div>
 			</div>
 
-			{/* What Makes HyperBetz Different */}
+			{/* What Makes BetFlux Different */}
 			<div className="rounded-lg border border-border bg-card p-6">
 				<h2 className="mb-4 text-xl font-semibold">
 					{t("about.whatMakesUsDifferent.title")}
@@ -131,7 +131,7 @@ export default function AboutPage() {
 				</div>
 			</div>
 
-			{/* Join the HyperBetz Community */}
+			{/* Join the BetFlux Community */}
 			<div className="rounded-lg border border-border bg-card p-6">
 				<h2 className="mb-4 text-xl font-semibold">
 					{t("about.joinCommunity.title")}

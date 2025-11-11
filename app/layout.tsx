@@ -8,7 +8,10 @@ import { IOSViewportFix } from "@/components/common/ios-viewport-fix";
 import { ServiceWorkerRegister } from "@/components/common/service-worker-register";
 import { SEOTemplates } from "@/lib/seo/seo-provider";
 import { JsonLd } from "@/components/seo/json-ld";
-import { generateOrganizationSchema, generateWebsiteSchema } from "@/lib/seo/schema-generator";
+import {
+	generateOrganizationSchema,
+	generateWebsiteSchema,
+} from "@/lib/seo/schema-generator";
 // Avoid bundling public images via import to skip sharp at build time
 import "./globals.css";
 
@@ -22,56 +25,8 @@ const poppins = Poppins({
 	adjustFontFallback: true, // Reduce layout shift
 });
 
-export const metadata: Metadata = {
-	metadataBase: new URL("https://betflux.games"),
-	title: "BetFlux - Your Gateway to Fun and Rewards",
-	description:
-		"Join BetFlux for an exciting gaming experience with amazing rewards!",
-	keywords: [
-		"gaming",
-		"rewards",
-		"fun",
-		"crypto",
-		"slots",
-		"live casino",
-		"sports betting",
-		"online gaming",
-		"betting",
-		"jackpots",
-	],
-	authors: [
-		{
-			name: "BetFlux",
-			url: "https://betflux.games",
-		},
-	],
-	openGraph: {
-		title: "BetFlux - Your Gateway to Fun and Rewards",
-		description:
-			"Join BetFlux for an exciting gaming experience with amazing rewards!",
-		url: "https://betflux.games",
-		siteName: "BetFlux",
-		images: [
-			{
-				url: "/assets/site/betflux-logo.png",
-				width: 1200,
-				height: 630,
-				alt: "BetFlux - Your Gateway to Fun and Rewards",
-			},
-		],
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: "BetFlux - Your Gateway to Fun and Rewards",
-		description:
-			"Join BetFlux for an exciting gaming experience with amazing rewards!",
-	},
-	icons: {
-		icon: "/assets/site/betflux-logo.png",
-		shortcut: "/assets/site/betflux-logo.png",
-		apple: "/assets/site/betflux-logo.png",
-	},
-};
+// Global SEO metadata from centralized SEO system
+export const metadata: Metadata = SEOTemplates.home().metadata;
 
 export default async function RootLayout({
 	children,
@@ -84,7 +39,7 @@ export default async function RootLayout({
 
 	// Get user's locale from cookies for proper HTML lang attribute (SEO)
 	const cookieStore = await cookies();
-	const locale = cookieStore.get('NEXT_LOCALE')?.value || 'en';
+	const locale = cookieStore.get("NEXT_LOCALE")?.value || "en";
 
 	return (
 		<html lang={locale} suppressHydrationWarning>
@@ -100,11 +55,11 @@ export default async function RootLayout({
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
-  						window.dataLayer = window.dataLayer || [];
-  						function gtag(){dataLayer.push(arguments);}
-  						gtag('js', new Date());					
+	  						window.dataLayer = window.dataLayer || [];
+	  						function gtag(){dataLayer.push(arguments);}
+	  						gtag('js', new Date());
   						gtag('config', 'G-4GHMTR2431');
-  					`,
+						`,
 					}}
 				/>
 
@@ -147,7 +102,7 @@ export default async function RootLayout({
 				{/* Preload critical logo for LCP */}
 				<link
 					rel="preload"
-					href="/assets/site/betflux-logo.png"
+					href="/assets/site/Betflux-logo.png"
 					as="image"
 					type="image/png"
 					fetchPriority="high"

@@ -168,9 +168,7 @@ export default function HomePage() {
 		isLoggedIn,
 		hasHandledLoginRedirect,
 		handleReferralRedirect,
-	]);
-
-	// --- 3. Assemble the Page ---
+	]); // --- 3. Assemble the Page ---
 	const isLoading = gameStatus !== "success";
 	const [isClient, setIsClient] = useState(false);
 	const deferredSecondary = useDeferredRender({ delay: 250, timeout: 1400 });
