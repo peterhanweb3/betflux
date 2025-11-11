@@ -4,29 +4,36 @@ import {
 	generateOrganizationSchema,
 	generateWebPageSchema,
 } from "@/lib/seo/schema-generator";
+import {
+	interpolateSiteName,
+	interpolateSiteTLD,
+} from "@/lib/utils/site-config";
+
+const siteName = interpolateSiteName(`{siteName}`);
+const siteTLD = interpolateSiteTLD(`{siteTLD}`);
 
 export const metadata: Metadata = generateSEOMetadata({
-	title: "Responsible Gambling | betflux.games – Play Smart, Stay Safe",
-	description:
-		"Learn about responsible gambling at betflux.games. Stay in control, play responsibly, and get support through global help organizations.",
+	title: `Responsible Gambling | ${siteName}${siteTLD} – Play Smart, Stay Safe`,
+	description: `Learn about responsible gambling at ${siteName}${siteTLD}. Stay in control, play responsibly, and get support through global help organizations.`,
 	keywords: [
-		"BetFlux Responsible Gambling",
-		"BetFlux play safe",
+		`${siteName} Responsible Gambling`,
+		`${siteName} play safe`,
 		"crypto casino responsible gaming",
 		"gambling help",
-		"BetFlux self exclusion",
+		`${siteName} self exclusion`,
 	],
 	path: "/responsible-gambling",
 	pageType: "responsibleGambling",
+	ogTitle: `Responsible Gambling | ${siteName}${siteTLD} – Play Smart, Stay Safe`,
+	ogDescription: `${siteName}${siteTLD}promotes responsible crypto gaming. Learn to play safely, control habits, and access global gambling support organizations.`,
 	ogType: "website",
 	ogImage: "/assets/seo/og.png",
 	schemas: [
 		generateOrganizationSchema(),
 		generateWebPageSchema({
-			title: "Responsible Gambling at betflux.games",
-			url: "https://betflux.games/responsible-gambling",
-			description:
-				"betflux.games promotes responsible crypto gaming. Learn to play safely, control habits, and access global gambling support organizations.",
+			title: `Responsible Gambling at ${siteName}${siteTLD}`,
+			url: `https://${siteName.toLowerCase()}${siteTLD}/responsible-gambling`,
+			description: `${siteName}${siteTLD} promotes responsible crypto gaming. Learn to play safely, control habits, and access global gambling support organizations.`,
 		}),
 	],
 });
