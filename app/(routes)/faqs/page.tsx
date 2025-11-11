@@ -11,53 +11,8 @@ interface FAQItemProps {
 	answer: string | string[];
 }
 
-function FAQItem({ question, answer, reminder }: FAQItemProps) {
+function FAQItem({ question, answer }: FAQItemProps) {
 	const [isOpen, setIsOpen] = useState(false);
-
-	// Helper function to render paragraph content with bullet points
-	const renderParagraph = (text: string, index: number) => {
-		// Check if the paragraph should be a bullet point
-		// Bullet points start with "Go to", "Choose", "Copy", "Send", "Refresh", "Clear", etc.
-		const bulletKeywords = [
-			"Go to",
-			"Choose",
-			"Copy",
-			"Send",
-			"Once confirmed",
-			"Reconnect",
-			"If you've lost",
-			"Check your",
-			"Confirm that",
-			"If it's been",
-			"Refresh",
-			"Clear your",
-			"If the issue",
-			"Enter your",
-			"Double-check",
-			"Withdrawals are",
-			"GamCare:",
-			"Gambling Therapy:",
-			"Gamblers Anonymous:",
-		];
-
-		const shouldBeBullet = bulletKeywords.some((keyword) =>
-			text.trim().startsWith(keyword)
-		);
-
-		if (shouldBeBullet) {
-			return (
-				<li key={index} className="ml-4">
-					{text}
-				</li>
-			);
-		}
-
-		return (
-			<p key={index} className="mb-2">
-				{text}
-			</p>
-		);
-	};
 
 	return (
 		<div className="border border-border rounded-lg overflow-hidden bg-card">
@@ -92,82 +47,93 @@ function FAQItem({ question, answer, reminder }: FAQItemProps) {
 export default function FAQsPage() {
 	const t = useT();
 
-	const faqCategories = [
-		{
-			title: t("faqs.categories.accountRegistration.title"),
-			items: Array.from({ length: 4 }).map((_, i) => {
-				const answer = t(
-					`faqs.categories.accountRegistration.items.${i}.answer`
-				);
-				return {
-					question: t(
-						`faqs.categories.accountRegistration.items.${i}.question`
-					),
-					answer: answer.includes("|") ? answer.split("|") : answer,
-				};
-			}),
-		},
-		{
-			title: t("faqs.categories.depositsWithdrawals.title"),
-			items: Array.from({ length: 5 }).map((_, i) => {
-				const answer = t(
-					`faqs.categories.depositsWithdrawals.items.${i}.answer`
-				);
-				return {
-					question: t(
-						`faqs.categories.depositsWithdrawals.items.${i}.question`
-					),
-					answer: answer.includes("|") ? answer.split("|") : answer,
-				};
-			}),
-		},
-		{
-			title: t("faqs.categories.gamesSecurity.title"),
-			items: Array.from({ length: 4 }).map((_, i) => {
-				const answer = t(
-					`faqs.categories.gamesSecurity.items.${i}.answer`
-				);
-				return {
-					question: t(
-						`faqs.categories.gamesSecurity.items.${i}.question`
-					),
-					answer: answer.includes("|") ? answer.split("|") : answer,
-				};
-			}),
-		},
-		{
-			title: t("faqs.categories.responsibleGambling.title"),
-			items: Array.from({ length: 2 }).map((_, i) => {
-				const answer = t(
-					`faqs.categories.responsibleGambling.items.${i}.answer`
-				);
-				return {
-					question: t(
-						`faqs.categories.responsibleGambling.items.${i}.question`
-					),
-					answer: answer.includes("|") ? answer.split("|") : answer,
-				};
-			}),
-		},
-	];
+	const faqCategories = useMemo(
+		() => [
+			{
+				title: t("faqs.categories.accountRegistration.title"),
+				items: Array.from({ length: 4 }).map((_, i) => {
+					const answer = t(
+						`faqs.categories.accountRegistration.items.${i}.answer`
+					);
+					return {
+						question: t(
+							`faqs.categories.accountRegistration.items.${i}.question`
+						),
+						answer: answer.includes("|")
+							? answer.split("|")
+							: answer,
+					};
+				}),
+			},
+			{
+				title: t("faqs.categories.depositsWithdrawals.title"),
+				items: Array.from({ length: 5 }).map((_, i) => {
+					const answer = t(
+						`faqs.categories.depositsWithdrawals.items.${i}.answer`
+					);
+					return {
+						question: t(
+							`faqs.categories.depositsWithdrawals.items.${i}.question`
+						),
+						answer: answer.includes("|")
+							? answer.split("|")
+							: answer,
+					};
+				}),
+			},
+			{
+				title: t("faqs.categories.gamesSecurity.title"),
+				items: Array.from({ length: 4 }).map((_, i) => {
+					const answer = t(
+						`faqs.categories.gamesSecurity.items.${i}.answer`
+					);
+					return {
+						question: t(
+							`faqs.categories.gamesSecurity.items.${i}.question`
+						),
+						answer: answer.includes("|")
+							? answer.split("|")
+							: answer,
+					};
+				}),
+			},
+			{
+				title: t("faqs.categories.responsibleGambling.title"),
+				items: Array.from({ length: 2 }).map((_, i) => {
+					const answer = t(
+						`faqs.categories.responsibleGambling.items.${i}.answer`
+					);
+					return {
+						question: t(
+							`faqs.categories.responsibleGambling.items.${i}.question`
+						),
+						answer: answer.includes("|")
+							? answer.split("|")
+							: answer,
+					};
+				}),
+			},
+		],
+		[t]
+	);
 
 	// Generate FAQ schema for SEO (rich snippets in Google)
 	const faqSchema = useMemo(() => {
-		const allQuestions = faqCategories.flatMap(category =>
-			category.items.map(item => ({
+		const allQuestions = faqCategories.flatMap((category) =>
+			category.items.map((item) => ({
 				"@type": "Question",
-				"name": item.question,
-				"acceptedAnswer": {
+				name: item.question,
+				acceptedAnswer: {
 					"@type": "Answer",
-					"text": item.answer
-				}
+					text: item.answer,
+				},
 			}))
 		);
 
 		return {
 			"@context": "https://schema.org",
 			"@type": "FAQPage",
-			"mainEntity": allQuestions
+			mainEntity: allQuestions,
 		};
 	}, [faqCategories]);
 
@@ -248,7 +214,6 @@ export default function FAQsPage() {
 								key={itemIndex}
 								question={item.question}
 								answer={item.answer}
-								reminder={item.reminder}
 							/>
 						))}
 					</div>
