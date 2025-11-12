@@ -142,13 +142,17 @@ export function NavMain({
 	}, [isMobile, setOpenMobile]);
 
 	const { providers: limitedProviders, remaining: remainingProvidersCount } =
-		useMemo(
-			() =>
-				providers.length
-					? getShuffledProvidersWithCache()
-					: { providers: [], remaining: 0 },
-			[providers.length, getShuffledProvidersWithCache]
-		);
+		useMemo(() => {
+			const ShuffledProvidersResult = getShuffledProvidersWithCache();
+			return providers.length
+				? {
+						...ShuffledProvidersResult,
+						remaining:
+							providers.length -
+							ShuffledProvidersResult.providers.length,
+				  }
+				: { providers: [], remaining: 0 };
+		}, [providers.length, getShuffledProvidersWithCache]);
 
 	const launchSpecificGame = (name: string) => {
 		handleMobileNavigation();
@@ -172,7 +176,8 @@ export function NavMain({
 			gameType: game.own_game_type,
 			gpId: String(game.gp_id),
 		}).toString();
-		router.push(`/play/${game.game_id}?${qp}`);
+		window.open(`/play/${game.game_id}?${qp}`, "_blank");
+		// router.push(`/play/${game.game_id}?${qp}`);
 	};
 
 	const handleStaticCategoryClick = (
