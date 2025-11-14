@@ -114,7 +114,7 @@ export function Footer() {
 			links: [
 				{
 					label: t("footer.sections.company.links.about"),
-					href: "/about",
+					href: "/about-us",
 					icon: Info,
 				},
 				{
@@ -136,7 +136,7 @@ export function Footer() {
 			links: [
 				{
 					label: t("footer.sections.legal.links.privacy"),
-					href: "/privacy",
+					href: "/privacy-policy",
 					icon: Shield,
 				},
 				{
