@@ -3,14 +3,14 @@
 		"loading": "読み込み中...",
 		"save": "保存",
 		"cancel": "キャンセル",
-		"confirm": "確定",
+		"confirm": "確認",
 		"viewAll": "すべて表示"
 	},
 	"app": {
 		"name": "{siteName}"
 	},
 	"header": {
-		"toggleSidebar": "サイドバーを切り替える",
+		"toggleSidebar": "サイドバーの切り替え",
 		"searchPlaceholder": "ゲーム、プロバイダーを検索...",
 		"liveChat": "ライブチャット",
 		"player": "プレイヤー",
@@ -23,7 +23,7 @@
 		"affiliate": "紹介ボーナス",
 		"logout": "ログアウト",
 		"balance": "残高",
-		"turnoverBonus": "ターオーバーボーナス"
+		"turnoverBonus": "ターンオーバーボーナス"
 	},
 	"navigation": {
 		"home": "ホーム",
@@ -33,7 +33,7 @@
 		"settings": "設定",
 		"promotions": "プロモーション",
 		"affiliate": "紹介ボーナス",
-		"bonus": "ターオーバーボーナス",
+		"bonus": "ターンオーバーボーナス",
 		"providers": "プロバイダー",
 		"lobby": "ロビー",
 		"about": "会社概要"
@@ -42,7 +42,7 @@
 		"language": "言語",
 		"welcome": "ようこそ、{name}さん！",
 		"settingUp": "設定中",
-		"profileBtn": "プロフィールを見る",
+		"profileBtn": "プロフィールを表示",
 		"currentBalance": "現在の残高",
 		"availableFunds": "利用可能な資金",
 		"totalDeposits": "合計入金額",
@@ -50,7 +50,7 @@
 		"walletAddress": "ウォレットアドレス",
 		"copySuccess": "ウォレットアドレスがクリップボードにコピーされました！",
 		"copyFailed": "ウォレットアドレスのコピーに失敗しました",
-		"notConnected": "未接続",
+		"notConnected": "接続されていません",
 		"myProfile": "マイプロフィール",
 		"history": {
 			"title": "履歴"
@@ -59,15 +59,15 @@
 		"pendingRegistration": "登録保留中",
 		"noEmailProvided": "メールアドレスが提供されていません",
 		"balanceOverview": "残高概要",
-		"gettingStarted": "開始する",
-		"verifyEmail": "メールアドレスを確認する",
-		"completeEmailVerification": "メールアドレスの確認を完了する",
-		"verifyPhone": "電話番号を確認する",
-		"addPhoneVerification": "電話番号の確認を追加する",
+		"gettingStarted": "はじめに",
+		"verifyEmail": "メールアドレスの確認",
+		"completeEmailVerification": "メール認証を完了してください",
+		"verifyPhone": "電話番号の確認",
+		"addPhoneVerification": "電話認証の追加",
 		"firstDeposit": "初回入金",
 		"makeFirstDeposit": "初回入金を行う",
-		"placeBetOrTrade": "ベットを行う / 取引を行う",
-		"startFirstGame": "初めてのゲームを開始する",
+		"placeBetOrTrade": "ベットを置く / 取引を行う",
+		"startFirstGame": "最初のゲームを開始する",
 		"recentActivity": "最近のアクティビティ",
 		"transactionHistory": "取引履歴",
 		"activityGameWinDiceRoll": "ゲーム勝利 - ダイスロール",
@@ -78,11 +78,11 @@
 		"deposit": "入金",
 		"loggedOutTitle": "おっと！ログアウトされています",
 		"loggedOutSubtitle": "プロフィールを表示するにはログインしてください",
-		"goHome": "ホームへ移動",
+		"goHome": "ホームへ",
 		"withdrawal": "出金",
 		"transactions": {
 			"title": "取引履歴",
-			"trackDepositsWithdrawals": "入金と出金を追跡する",
+			"trackDepositsWithdrawals": "入出金を追跡する",
 			"filters": "フィルター",
 			"refresh": "更新",
 			"advancedFilters": "高度なフィルター",
@@ -103,15 +103,15 @@
 			"allStatuses": "すべてのステータス",
 			"success": "成功",
 			"pending": "保留中",
-			"rejected": "拒否されました",
+			"rejected": "拒否",
 			"clearAll": "すべてクリア",
 			"cancel": "キャンセル",
 			"applyFilters": "フィルターを適用",
 			"activeFilters": "有効なフィルター:",
 			"statusLabel": "ステータス",
 			"dateLabel": "日付",
-			"statsTotalTransactions": "合計{total}件の取引",
-			"pageOf": "{total}ページ中の{current}ページ",
+			"statsTotalTransactions": "合計 {total} 件の取引",
+			"pageOf": "ページ {current}/{total}",
 			"live": "ライブ",
 			"tabs": {
 				"all": "すべて",
@@ -121,13 +121,13 @@
 			"errorLoadingTransactions": "取引の読み込みエラー",
 			"tryAgain": "再試行",
 			"noTransactionsFound": "取引が見つかりません",
-			"noTransactionsAvailableSelectedPeriod": "選択された期間の取引はありません。",
-			"noDepositsFoundSelectedPeriod": "選択された期間の入金は見つかりません。",
-			"noWithdrawalsFoundSelectedPeriod": "選択された期間の出金は見つかりません。",
+			"noTransactionsAvailableSelectedPeriod": "選択した期間の取引はありません。",
+			"noDepositsFoundSelectedPeriod": "選択した期間に入金はありません。",
+			"noWithdrawalsFoundSelectedPeriod": "選択した期間に出金はありません。",
 			"show": "表示",
-			"ofTransactions": "{count}件の取引のうち",
-			"showingRangeOfTotal": "{total}件中{from}から{to}件を表示",
-			"pageShort": "{current}/{total}ページ"
+			"ofTransactions": "{count} 件の取引のうち",
+			"showingRangeOfTotal": "{total}件中{from}～{to}件を表示中",
+			"pageShort": "ページ {current}/{total}"
 		},
 		"betHistory": {
 			"title": "ベット履歴",
@@ -150,12 +150,12 @@
 			"allProviders": "すべてのプロバイダー",
 			"status": "ステータス",
 			"allStatuses": "すべてのステータス",
-			"outstanding": "未処理",
-			"win": "勝利",
-			"lose": "敗北",
+			"outstanding": "未確定",
+			"win": "勝ち",
+			"lose": "負け",
 			"draw": "引き分け",
 			"void": "無効",
-			"bonusWin": "ボーナス勝利",
+			"bonusWin": "ボーナス勝ち",
 			"clearAll": "すべてクリア",
 			"cancel": "キャンセル",
 			"applyFilters": "フィルターを適用",
@@ -165,19 +165,19 @@
 			"dateLabel": "日付",
 			"totalBets": "合計ベット数",
 			"totalProfitLoss": "合計損益",
-			"pageOf": "{total}ページ中の{current}ページ",
+			"pageOf": "ページ {current}/{total}",
 			"live": "ライブ",
 			"errorLoadingBets": "ベット履歴の読み込みエラー",
 			"failedToLoadBetHistory": "ベット履歴の読み込みに失敗しました。もう一度お試しください。",
 			"tryAgain": "再試行",
 			"noBetsFound": "ベットが見つかりません",
-			"noBetsFoundSelectedPeriod": "選択された期間およびフィルターのベット履歴は見つかりません。",
+			"noBetsFoundSelectedPeriod": "選択した期間とフィルターに一致するベット履歴は見つかりませんでした。",
 			"show": "表示",
-			"ofBets": "{count}件のベットのうち",
-			"showingRangeOfTotal": "{total}件中{from}から{to}件を表示",
-			"totalBet": "合計ベット",
+			"ofBets": "{count} 件のベットのうち",
+			"showingRangeOfTotal": "{total}件中{from}～{to}件を表示中",
+			"totalBet": "合計ベット額",
 			"totalWin": "合計勝利額",
-			"net": "純額",
+			"net": "純損益",
 			"tableHeaders": {
 				"date": "日付",
 				"game": "ゲーム",
@@ -191,11 +191,11 @@
 				"gameType": "ゲームタイプ",
 				"vendor": "ベンダー",
 				"lastUpdate": "最終更新",
-				"netResult": "純利益",
+				"netResult": "純損益",
 				"betId": "ベットID"
 			},
 			"errorLoading": "読み込みエラー",
-			"noBetsFoundDescription": "ここにベット履歴を表示するには、ゲームを開始してください。",
+			"noBetsFoundDescription": "ゲームをプレイし始めると、ここにベット履歴が表示されます。",
 			"betHistory": "ベット履歴",
 			"hideAmounts": "金額を非表示",
 			"showAmounts": "金額を表示",
@@ -208,12 +208,12 @@
 			"gameType": "ゲームタイプ",
 			"vendor": "ベンダー",
 			"lastUpdate": "最終更新",
-			"netResult": "純利益",
+			"netResult": "純損益",
 			"totalWagered": "合計賭け金",
-			"totalWon": "合計勝利額",
+			"totalWon": "合計勝利金",
 			"netProfit": "純利益",
 			"winRate": "勝率",
-			"showingResults": "{total}件中{start}から{end}件の結果を表示",
+			"showingResults": "{total}件の結果のうち{start}～{end}件を表示中",
 			"firstPage": "最初のページ",
 			"previousPage": "前のページ",
 			"nextPage": "次のページ",
@@ -246,11 +246,11 @@
 		},
 		"imageDialog": {
 			"title": "画像を共有 🎰",
-			"description": "チャットルームに見せる準備はいいですか？",
+			"description": "チャットルームに見せる準備はできましたか？",
 			"previewLabel": "プレビュー",
 			"statusReady": "共有準備完了",
 			"roomLabel": "🎰 カジノチャット",
-			"shareNotice": "あなたの画像はチャットルームのすべてのプレイヤーと共有されます",
+			"shareNotice": "あなたの画像はチャットルームのすべてのプレイヤーに共有されます",
 			"closeAria": "ダイアログを閉じる",
 			"cancelAria": "画像のアップロードをキャンセル",
 			"sendAria": "画像をチャットに送信",
@@ -273,18 +273,18 @@
 			"gifCategories": {
 				"trending": "トレンド",
 				"reactions": "リアクション",
-				"gaming": "ゲーム",
+				"gaming": "ゲーミング",
 				"casino": "カジノ",
 				"celebration": "お祝い",
 				"sports": "スポーツ"
 			},
 			"searchResults": "検索結果",
-			"availableToTag": "タグ付けできるユーザー 🎯",
+			"availableToTag": "タグ付け可能なユーザー 🎯",
 			"clickOrTab": "クリックまたはタブで選択",
 			"noUsers": "ユーザーが見つかりません",
 			"noUsersMatching": "一致するユーザーがいません",
-			"startTyping": "検索を開始するには入力してください",
-			"typeAt": "入力",
+			"startTyping": "入力を開始して検索",
+			"typeAt": "タイプ",
 			"toSeeSuggestions": "で候補を表示 🎰",
 			"errors": {
 				"emojisLoad": "絵文字の読み込みに失敗しました",
@@ -294,7 +294,7 @@
 		},
 		"messages": {
 			"emptyTitle": "まだメッセージはありません...",
-			"emptySubtitle": "会話を始めて、大勝利を収めましょう！ 🎰",
+			"emptySubtitle": "会話を始めて大勝利を目指しましょう！ 🎰",
 			"loadingHistory": "チャット履歴を読み込み中...",
 			"loadingHistorySubtitle": "最近のメッセージを取得中 📜",
 			"historyError": "チャット履歴の読み込みに失敗しました"
@@ -305,15 +305,15 @@
 			"gifAlt": "GIF",
 			"imageAlt": "アップロードされた画像",
 			"rainTitle": "マネーレイン！ 🌧️💰",
-			"recipients": "→ {count}人の{count, plural, one {受け取り人} other {受け取り人}}",
-			"eachTo": "各{amount} {currency}を以下へ: {list}",
-			"replyCount": "{count}件の{count, plural, one {返信} other {返信}}",
+			"recipients": "→ {count}人の受信者",
+			"eachTo": "それぞれに{amount} {currency}を: {list}",
+			"replyCount": "{count}件の返信",
 			"loadingHistory": "チャット履歴を読み込み中..."
 		},
 		"system": {
-			"slashDisabled": "スラッシュコマンドは一時的に無効になっています。通常のメッセージを使用してください。",
-			"rateLimit": "レート制限を超過しました。次のメッセージを送信するまで{seconds}秒お待ちください。",
-			"cannotTagSelf": "メッセージ内で自分自身をタグ付けすることはできません。",
+			"slashDisabled": "スラッシュコマンドは一時的に無効です。通常のメッセージを使用してください。",
+			"rateLimit": "レート制限を超えました。次のメッセージを送信するまで{seconds}秒お待ちください。",
+			"cannotTagSelf": "メッセージで自分をタグ付けすることはできません。",
 			"processingImage": "画像を処理中...",
 			"failedUploadPrefix": "画像のアップロードに失敗しました: {message}",
 			"unknownError": "不明なエラー"
@@ -329,10 +329,10 @@
 		"navigation": "ナビゲーション",
 		"games": "ゲーム",
 		"providers": "プロバイダー",
-		"trendingNow": "今トレンド",
+		"trendingNow": "トレンド",
 		"allProviders": "すべてのプロバイダー",
 		"allTopProviders": "すべてのトッププロバイダー",
-		"hotBadge": "ホット"
+		"hotBadge": "人気"
 	},
 	"search": {
 		"title": "ゲームを検索",
@@ -341,18 +341,18 @@
 		"clear": "クリア",
 		"recent": "最近:",
 		"popular": "人気:",
-		"favoritesTry": "お試しください — お気に入り",
-		"hotPicks": "おすすめ",
-		"resultsCount": "{count}件の{count, plural, one {ゲーム} other {ゲーム}}が見つかりました",
-		"noResults": "結果なし",
-		"filterApplied": "{count}件の{count, plural, one {プロバイダー} other {プロバイダー}}でフィルタリング済み",
+		"favoritesTry": "お試しください — あなたのお気に入り",
+		"hotPicks": "注目ピック",
+		"resultsCount": "{count}件のゲームが見つかりました",
+		"noResults": "結果がありません",
+		"filterApplied": "{count}件のプロバイダーでフィルタリング",
 		"suggestions": {
 			"category": "カテゴリ",
 			"provider": "プロバイダー"
 		},
 		"sections": {
 			"topProviders": "トッププロバイダー",
-			"selectedProviders": "選択されたプロバイダー",
+			"selectedProviders": "選択したプロバイダー",
 			"categories": "カテゴリ",
 			"games": "ゲーム",
 			"providers": "プロバイダー"
@@ -390,11 +390,11 @@
 			"label": "カテゴリ:"
 		},
 		"view": {
-			"toggleAria": "表示モードの切り替え",
+			"toggleAria": "表示モード切り替え",
 			"gridAria": "グリッド表示",
 			"listAria": "リスト表示"
 		},
-		"loadMore": "さらに読み込む"
+		"loadMore": "もっと読み込む"
 	},
 	"commonExtra": {
 		"connecting": "接続中...",
@@ -406,9 +406,9 @@
 		"topProviders": "トップゲームプロバイダー"
 	},
 	"lobby": {
-		"yourFavorites": "お気に入り",
-		"featuredCasinoGames": "おすすめのカジノゲーム",
-		"hotPicks": "おすすめ",
+		"yourFavorites": "あなたのお気に入り",
+		"featuredCasinoGames": "注目のカジノゲーム",
+		"hotPicks": "注目ピック",
 		"slots": "スロット",
 		"sports": "スポーツ",
 		"realTimeScoreboard": "リアルタイムスコアボード"
@@ -416,30 +416,30 @@
 	"affiliate": {
 		"title": "紹介ボーナスプログラム",
 		"loginPromptTitle": "紹介ボーナスプログラム",
-		"loginPromptSubtitle": "ログインして、紹介の統計、ボーナス、報酬の請求を確認してください。",
-		"goHome": "ホームへ移動",
+		"loginPromptSubtitle": "ログインして、紹介統計、ボーナスを表示し、報酬を請求してください。",
+		"goHome": "ホームへ",
 		"tabs": {
 			"dashboard": "ダッシュボード",
-			"rates": "コミッション率",
-			"calculator": "計算ツール"
+			"rates": "コミッションレート",
+			"calculator": "計算機"
 		},
 		"refresh": "更新",
 		"refreshing": "更新中...",
 		"refreshAllSuccess": "すべてのデータが正常に更新されました！",
-		"refreshPartial": "部分的に更新されました: {total}セクション中{success}セクションが更新されました",
+		"refreshPartial": "部分的に更新: {success}/{total}セクションが更新されました",
 		"refreshFailed": "データの更新に失敗しました。もう一度お試しください。",
 		"dashboard": {
 			"title": "アフィリエイトダッシュボード",
 			"subtitle": "紹介、収益、コミッションのパフォーマンスを追跡する",
 			"performanceOverview": "パフォーマンス概要",
 			"referralManagement": "紹介管理",
-			"termsAndCommission": "規約とコミッション体系",
+			"termsAndCommission": "規約とコミッション構造",
 			"unclaimedEarnings": "未請求の収益",
 			"claim": "請求",
 			"claiming": "請求中...",
-			"totalIncome": "合計収益",
+			"totalIncome": "総収入",
 			"claimButtonTitle": "ボーナスを請求",
-			"totalReferrals": "合計紹介数",
+			"totalReferrals": "総紹介数",
 			"usersUnit": "ユーザー",
 			"yourReferralLinks": "あなたの紹介リンク",
 			"referralLinksSubtitle": "これらのリンクを共有して新しいユーザーを紹介し、コミッションを獲得しましょう",
@@ -448,14 +448,14 @@
 			"fullReferralHelp": "ユーザーがクリックしてあなたの紹介コードで登録できる直接リンク",
 			"referralCodeOnly": "紹介コードのみ",
 			"yourReferralId": "あなたの紹介ID",
-			"referralIdHelp": "登録時にユーザーが手動で入力できるようにこのコードを共有してください",
+			"referralIdHelp": "登録時にユーザーが手動で入力するためのこのコードを共有してください",
 			"copyFullSuccess": "完全な紹介リンクがクリップボードにコピーされました！",
 			"copyIdSuccess": "紹介IDがクリップボードにコピーされました！"
 		},
 		"referrals": {
 			"title": "私の紹介",
-			"subtitle": "あなたのアフィリエイトリンクを通じて紹介されたすべてのユーザーを追跡および管理します",
-			"totalReferrals": "合計紹介数",
+			"subtitle": "アフィリエイトリンクを通じて紹介されたすべてのユーザーを追跡および管理する",
+			"totalReferrals": "総紹介数",
 			"monitorHelp": "紹介者のアクティビティ、入金、ゲームパターンを監視する",
 			"sort": {
 				"placeholder": "並べ替え...",
@@ -468,31 +468,31 @@
 				"nickname": "ニックネーム",
 				"totalWager": "合計賭け金",
 				"lastLogin": "最終ログイン",
-				"registered": "登録済み",
+				"registered": "登録日",
 				"lastDeposit": "最終入金",
 				"depositDate": "入金日",
 				"tier": "ティア"
 			},
 			"empty": {
-				"title": "紹介者が見つかりません",
-				"subtitle": "ここに表示するには、ユーザーの紹介を開始してください。"
+				"title": "紹介が見つかりません",
+				"subtitle": "ユーザーの紹介を開始して、ここに表示させましょう。"
 			},
 			"pagination": {
-				"showing": "{total}件の結果のうち{from}から{to}件を表示",
+				"showing": "{total}件の結果のうち{from}～{to}件を表示中",
 				"prev": "前へ",
 				"next": "次へ"
 			}
 		},
 		"rates": {
-			"title": "コミッション率体系",
-			"subtitle": "ティアレベルとゲームカテゴリごとの収益率",
+			"title": "コミッションレート構造",
+			"subtitle": "ティアレベルおよびゲームカテゴリ別の収益率",
 			"overview": {
 				"title": "概要",
-				"body": "紹介ボーナスは、スロット、ライブカジノ、スポーツブック、宝くじでの紹介プレイヤーの賭け金ターンオーバーに基づいてアフィリエイトに報酬を与えます。コミッションは24時間ごとに計算され、異なるターンオーバーティアに基づいて収益が決定されます。"
+				"body": "紹介ボーナスは、紹介されたプレイヤーのスロット、ライブカジノ、スポーツブック、宝くじでの賭け金ターンオーバーに基づいてアフィリエイトに報酬を与えます。コミッションは24時間ごとに計算され、収益は異なるターンオーバーティアに基づいています。"
 			},
 			"calculation": {
 				"title": "コミッションの計算方法",
-				"desc": "コミッションは、紹介プレイヤーの合計賭け金に基づいて24時間ごとに計算されます。\n例:",
+				"desc": "コミッションは、紹介されたプレイヤーの総賭け金に基づいて24時間ごとに計算されます。\n例:",
 				"exampleTitle": "ティア {tier}:",
 				"wagerIn": "{gameType}で{amount}を賭ける"
 			},
@@ -504,27 +504,27 @@
 				"sports": "スポーツ",
 				"tierPrefix": "ティア",
 				"commissionLevel": "コミッションレベル",
-				"dailyWager": "1日の賭け金ボリューム"
+				"dailyWager": "1日の賭け金量"
 			},
 			"claim": {
 				"title": "請求と出金",
 				"points": {
-					"0": "コミッションは計算後に出金可能です。",
-					"1": "未請求のコミッションに有効期限はなく、請求されるまで蓄積されます。",
-					"2": "出金は、最小限度額や処理時間など、プラットフォームの標準ルールに従います。"
+					"0": "コミッションは計算されると出金可能です。",
+					"1": "未請求のコミッションには有効期限がなく、請求されるまで蓄積されます。",
+					"2": "出金は、最低限度額や処理時間など、プラットフォームの標準ルールに従います。"
 				}
 			},
 			"system": {
-				"title": "システム時間と操作",
+				"title": "システム時間と運用",
 				"dailyTimeframeLabel": "1日の時間枠:",
-				"dailyTimeframeValue": "毎日00:00 UTCから23:59 UTCまで。",
+				"dailyTimeframeValue": "00:00 UTCから23:59 UTC（毎日）。",
 				"claimDailyLabel": "毎日の請求:",
 				"claimDailyValue": "毎日14:00 UTCに利用可能（あなたの現地時間: {local}）。",
-				"note": "注：異なるタイムゾーンのプロバイダーと協力していますが、一貫性を確保し混乱を避けるために、すべての計算はUTCに従います。"
+				"note": "注意: 異なるタイムゾーンのプロバイダーと協力していますが、すべての計算は一貫性を確保し混乱を避けるためにUTCに従います。"
 			},
 			"amendments": {
 				"title": "修正",
-				"body": "当社はいつでもこれらの規約を更新することができます。変更は掲載直後に有効になり、引き続き参加することは新しい規約に同意したことを意味します。"
+				"body": "当社はいつでもこれらの条件を更新することがあります。変更は掲載されると直ちに有効となり、継続的な参加は新しい条件に同意したことを意味します。"
 			},
 			"footer": {
 				"schedule": "コミッションスケジュール:",
@@ -533,72 +533,72 @@
 			}
 		},
 		"calculator": {
-			"title": "収益計算ツール",
-			"subtitle": "紹介者の賭け金に基づいてコミッション収益を推定する",
+			"title": "収益計算機",
+			"subtitle": "紹介者の賭け金額に基づいてコミッション収益を見積もる",
 			"interactive": {
 				"title": "インタラクティブツール:",
-				"body": "異なる賭け金を入力して、すべてのティアでの潜在的な収益を確認してください"
+				"body": "異なる賭け金額を入力して、すべてのティアでの潜在的な収益を確認してください"
 			},
 			"potentialEarnings": "潜在的な収益",
-			"basedOnRate": "コミッション率{percentage}%に基づく",
+			"basedOnRate": "{percentage}%のコミッションレートに基づく",
 			"tier": "ティア {level}",
 			"commissionLevel": "コミッションレベル {level}",
-			"enterWager": "賭け金を入力 (USD)",
+			"enterWager": "賭け金額を入力 (USD)",
 			"wagerPlaceholder": "例: 1000",
-			"calcFor": "賭け金${amount}の収益を計算中",
+			"calcFor": "${amount}の賭け金の収益を計算中",
 			"totalPotential": "合計潜在収益:",
-			"combinedAtTier": "ティア {level}でのすべてのゲームタイプからの合計収益"
+			"combinedAtTier": "ティア {level}のすべてのゲームタイプからの合計収益"
 		}
 	},
 	"bonus": {
-		"title": "ターオーバーボーナスプログラム",
-		"loginPromptTitle": "ターオーバーボーナスプログラム",
-		"loginPromptSubtitle": "ログインして、ボーナス統計と報酬の請求を確認してください。",
-		"goHome": "ホームへ移動",
+		"title": "ターンオーバーボーナスプログラム",
+		"loginPromptTitle": "ターンオーバーボーナスプログラム",
+		"loginPromptSubtitle": "ログインしてボーナス統計を表示し、報酬を請求してください。",
+		"goHome": "ホームへ",
 		"tabs": {
 			"dashboard": "ダッシュボード",
 			"claims": "請求",
-			"rates": "ボーナス率",
-			"calculator": "計算ツール"
+			"rates": "ボーナスレート",
+			"calculator": "計算機"
 		},
 		"refresh": "更新",
 		"refreshing": "更新中...",
 		"refreshAllSuccess": "すべてのデータが正常に更新されました！",
-		"refreshPartial": "部分的に更新されました: {total}セクション中{success}セクションが更新されました",
+		"refreshPartial": "部分的に更新: {success}/{total}セクションが更新されました",
 		"refreshFailed": "データの更新に失敗しました。もう一度お試しください。",
 		"dashboard": {
 			"title": "ボーナスダッシュボード",
-			"subtitle": "賭け金、ボーナス、報酬の獲得を追跡する",
+			"subtitle": "賭け金、ボーナス、報酬の収益を追跡する",
 			"claimButtonTitle": "請求",
 			"performanceOverview": "ボーナス概要",
-			"bonusRatesTitle": "ボーナス率体系",
+			"bonusRatesTitle": "ボーナスレート構造",
 			"totalIncome": "合計ボーナス",
 			"pendingBonus": "保留中のボーナス",
 			"lastClaim": "最終請求",
-			"unclaimedEarnings": "請求可能額",
+			"unclaimedEarnings": "請求可能",
 			"claim": {
 				"title": "請求と出金",
 				"points": {
-					"0": "コミッションは計算後に出金可能です。",
-					"1": "未請求のコミッションに有効期限はなく、請求されるまで蓄積されます。",
-					"2": "出金は、プラットフォームの標準ルール（最小限度額や処理時間など）に従います。"
+					"0": "コミッションは計算されると出金可能です。",
+					"1": "未請求のコミッションには有効期限がなく、請求されるまで蓄積されます。",
+					"2": "出金は、最低限度額や処理時間など、プラットフォームの標準ルールに従います。"
 				}
 			},
 			"claiming": "請求中...",
 			"section2": {
-				"title": "資格",
+				"title": "参加資格",
 				"content": "参加するには:"
 			},
 			"section3": {
 				"title": "ターンオーバーティアとレート",
-				"content": "ボーナスはあなたの1日の賭け金に基づいて計算されます:",
-				"noteTitle": "注",
-				"noteContent": "ティアは毎日14:00 UTCに評価されます。前日の賭け金ボリュームが今日のボーナス率を決定します。レートはすべてのゲームタイプ（スロット、ライブカジノ、スポーツ）に適用されます。"
+				"content": "ボーナスは1日の賭け金額に基づいて計算されます:",
+				"noteTitle": "注意",
+				"noteContent": "ティアは毎日14:00 UTCに評価されます。前日の賭け金量が今日のボーナスレートを決定します。レートはすべてのゲームタイプ（スロット、ライブカジノ、スポーツ）に適用されます。"
 			}
 		},
 		"claims": {
 			"title": "請求履歴",
-			"subtitle": "ボーナスの請求と賭け金の活動を追跡する",
+			"subtitle": "ボーナスの請求と賭け活動を追跡する",
 			"tableHeaders": {
 				"date": "ベット日",
 				"slots": "スロット",
@@ -622,28 +622,28 @@
 			"toNextTier": "次のティアに到達するまで",
 			"empty": {
 				"title": "まだボーナスの請求はありません",
-				"subtitle": "ボーナスを獲得するためにプレイを開始しましょう！"
+				"subtitle": "プレイを開始してボーナスを獲得しましょう！"
 			}
 		},
 		"rates": {
 			"title": "ターンオーバーティアとレート",
-			"subtitle": "賭け金レベルとゲームカテゴリごとのボーナス率",
+			"subtitle": "賭け金レベルとゲームカテゴリ別のボーナス率",
 			"overview": {
 				"title": "概要",
-				"body": "ターンオーバーボーナスは、スロット、ライブカジノ、スポーツブック、宝くじでの賭け金に基づいてユーザーに報酬を与えます。ボーナスは24時間ごとに計算され、ユーザーは賭けを行った翌日に請求できます。賭け金額に応じて異なるレートが設定された7つのティアがあります。"
+				"body": "ターンオーバーボーナスは、スロット、ライブカジノ、スポーツブック、宝くじでの賭け金に基づいてユーザーに報酬を与えます。ボーナスは24時間ごとに計算され、ユーザーは賭けの翌日に請求できます。7つのティアがあり、それぞれ賭け金額に応じて異なるレートがあります。"
 			},
 			"eligibility": {
-				"title": "資格",
+				"title": "参加資格",
 				"content": "参加するには:",
 				"points": {
-					"0": "アクティブなアカウントが必要です。",
-					"1": "スロット、ライブカジノ、スポーツブック、宝くじで賭けを行います。",
-					"2": "各ティアの最低賭け金要件を満たします。"
+					"0": "有効なアカウントを持っている必要があります。",
+					"1": "スロット、ライブカジノ、スポーツブック、宝くじで賭けをすること。",
+					"2": "各ティアの最低賭け金要件を満たすこと。"
 				}
 			},
 			"calculation": {
 				"title": "ボーナスの計算方法",
-				"desc": "ボーナスは、あなたの合計賭け金に基づいて24時間ごとに計算されます。例:",
+				"desc": "ボーナスは24時間ごとに合計賭け金に基づいて計算されます。例:",
 				"exampleTitle": "ティア {tier}:",
 				"wagerIn": "{gameType}で{amount}を賭ける"
 			},
@@ -655,27 +655,27 @@
 				"sports": "スポーツ",
 				"tierPrefix": "ティア",
 				"commissionLevel": "ボーナスレベル",
-				"dailyWager": "1日の賭け金ボリューム"
+				"dailyWager": "1日の賭け金量"
 			},
 			"claim": {
 				"title": "ボーナスの請求と出金",
 				"points": {
-					"0": "ボーナスは賭けを行った24時間後に請求可能になります。",
-					"1": "未請求のボーナスは蓄積され、期限切れになりません。",
-					"2": "請求および出金プロセスは、プラットフォーム固有のポリシーに基づいて異なる場合があります。"
+					"0": "ボーナスは賭けから24時間後に請求可能になります。",
+					"1": "未請求のボーナスは蓄積され、有効期限はありません。",
+					"2": "請求と出金のプロセスは、プラットフォーム固有のポリシーによって異なる場合があります。"
 				}
 			},
 			"system": {
-				"title": "システム時間と操作",
+				"title": "システム時間と運用",
 				"dailyTimeframeLabel": "1日の時間枠:",
-				"dailyTimeframeValue": "毎日00:00 UTCから23:59 UTCまで。",
+				"dailyTimeframeValue": "00:00 UTCから23:59 UTC（毎日）。",
 				"claimDailyLabel": "毎日の請求:",
 				"claimDailyValue": "毎日14:00 UTCに利用可能（あなたの現地時間: {local}）。",
-				"note": "注：異なるタイムゾーンのプロバイダーと協力していますが、一貫性を確保し混乱を避けるために、すべての計算はUTCに従います。"
+				"note": "注意: 異なるタイムゾーンのプロバイダーと協力していますが、すべての計算は一貫性を確保し混乱を避けるためにUTCに従います。"
 			},
 			"amendments": {
 				"title": "修正と失格",
-				"body": "当社はいつでもこれらの規約を更新することができ、変更は掲載時に有効になります。システムエラー、誤算、または不正行為が疑われる場合、公平性を確保するために必要に応じてボーナスやアカウントを調整または失格にする権利を留保します"
+				"body": "当社はいつでもこれらの条件を更新することがあり、変更は掲載されると有効になります。システムエラー、計算ミス、または不正行為が疑われる場合、公正を確保するために必要に応じてボーナスやアカウントを調整または失格にする権利を留保します。"
 			},
 			"footer": {
 				"schedule": "ボーナススケジュール:",
@@ -684,31 +684,31 @@
 			}
 		},
 		"calculator": {
-			"title": "ボーナス計算ツール",
-			"subtitle": "あなたの賭け金に基づいてボーナス獲得額を推定する",
+			"title": "ボーナス計算機",
+			"subtitle": "賭け金額に基づいてボーナス収益を見積もる",
 			"interactive": {
 				"title": "インタラクティブツール:",
-				"body": "異なる賭け金を入力して、すべてのティアでの潜在的なボーナスを確認してください"
+				"body": "異なる賭け金額を入力して、すべてのティアでの潜在的なボーナスを確認してください"
 			},
 			"potentialEarnings": "潜在的なボーナス",
-			"basedOnRate": "ボーナス率{percentage}%に基づく",
+			"basedOnRate": "{percentage}%のボーナスレートに基づく",
 			"tier": "ティア {level}",
 			"commissionLevel": "ボーナスレベル {level}",
-			"enterWager": "賭け金を入力 (USD)",
+			"enterWager": "賭け金額を入力 (USD)",
 			"wagerPlaceholder": "例: 1000",
-			"calcFor": "賭け金${amount}のボーナスを計算中",
+			"calcFor": "${amount}の賭け金のボーナスを計算中",
 			"totalPotential": "合計潜在ボーナス:",
-			"combinedAtTier": "ティア {level}でのすべてのゲームタイプからの合計ボーナス"
+			"combinedAtTier": "ティア {level}のすべてのゲームタイプからの合計ボーナス"
 		},
 		"claimSuccessModal": {
 			"title": "請求成功",
 			"statusCompleted": "完了",
 			"statusOnChain": "オンチェーン",
 			"claimAmount": "請求額",
-			"logoAlt": "{siteName}のロゴ",
+			"logoAlt": "{siteName} ロゴ",
 			"backgroundAlt": "請求成功の背景",
 			"creatingMagic": "魔法を作成中...",
-			"downloadShare": "ダウンロードと共有",
+			"downloadShare": "ダウンロード＆シェア",
 			"spreadTheWin": "勝利を広めよう",
 			"socialX": "X",
 			"socialFacebook": "Facebook",
@@ -716,10 +716,10 @@
 			"socialTelegram": "Telegram",
 			"socialReddit": "Reddit",
 			"socialMore": "もっと",
-			"shareText": "{amount}ボーナスを請求しました！一緒に参加しましょう: {url}",
+			"shareText": "{amount}のボーナスを請求しました！私に参加してください: {url}",
 			"referralLinkCopied": "紹介リンクがコピーされました！",
 			"referralLinkCopyFailed": "紹介リンクのコピーに失敗しました",
-			"screenshotFailed": "スクリーンショットに失敗しました。もう一度お試しいただくか、別のブラウザをご利用ください。",
+			"screenshotFailed": "スクリーンショットに失敗しました。もう一度試すか、別のブラウザを使用してください。",
 			"shareTextCopied": "共有テキストがクリップボードにコピーされました！",
 			"shareFailed": "共有に失敗しました。もう一度お試しください。"
 		}
@@ -728,10 +728,10 @@
 		"title": "デバッグページ"
 	},
 	"getLobby": {
-		"enteringLobby": "ロビーに入っています...",
-		"connectingWait": "接続するまでお待ちください。",
+		"enteringLobby": "ロビーに入室中...",
+		"connectingWait": "接続しています。しばらくお待ちください。",
 		"invalidSession": "セッションが無効か、プロバイダーが見つかりません。もう一度お試しください。",
-		"failedPrefix": "ロビーへの入場に失敗しました: {message}",
+		"failedPrefix": "ロビーへの入室に失敗しました: {message}",
 		"launchFailedTitle": "起動失敗",
 		"returnHome": "ホームに戻る"
 	},
@@ -743,15 +743,15 @@
 	},
 	"modalsIdle": {
 		"badgeLimitedTime": "期間限定オファー",
-		"headline": "200%ウェルカムボーナスを獲得！",
-		"subheadline": "今すぐ暗号ウォレットを接続して、初回入金で最大{amount}のボーナスを獲得しましょう！",
+		"headline": "200%ウェルカムボーナスをゲット！",
+		"subheadline": "今すぐ暗号ウォレットを接続して、初回入金で最大{amount}のボーナスを受け取りましょう！",
 		"featureDepositMatch": "200%入金マッチ",
 		"featureZeroFees": "取引手数料ゼロ",
 		"featureInstantWithdrawals": "即時出金",
 		"featureNoKyc": "KYC不要",
 		"ctaClaim": "今すぐボーナスを請求！",
-		"offerExpires": "オファーの有効期限まで:",
-		"disclaimer": "規約が適用されます。ギャンブルにはリスクが伴います。責任を持ってプレイしてください。18歳以上",
+		"offerExpires": "オファー終了まで:",
+		"disclaimer": "利用規約が適用されます。ギャンブルにはリスクが伴います。責任を持ってプレイしてください。18歳以上",
 		"closeAria": "モーダルを閉じる",
 		"bannerAlt": "プロモーションバナー",
 		"ctaOk": "ウォレットを接続してベットを開始",
@@ -759,7 +759,7 @@
 		"balance": "残高",
 		"max": "最大",
 		"deposit": "入金",
-		"ethereum": "Ethereum"
+		"ethereum": "イーサリアム"
 	},
 	"modalsSmall": {
 		"close": "閉じる",
@@ -771,51 +771,51 @@
 	},
 	"auth": {
 		"email": {
-			"title": "メールアドレスでログイン",
-			"description": "6桁のコードを送信します",
+			"title": "メールログイン",
+			"description": "6桁のコードをお送りします",
 			"emailLabel": "メールアドレス",
 			"emailPlaceholder": "name@email.com",
 			"cancel": "キャンセル",
 			"sending": "送信中",
 			"continue": "続行",
 			"enterCodeTitle": "コードを入力",
-			"sentTo": "{email}に送信されました",
+			"sentTo": "{email} に送信しました",
 			"changeEmail": "メールアドレスを変更",
 			"resendCode": "コードを再送信",
 			"resendIn": "{seconds}秒後に再送信",
 			"verifying": "確認中",
 			"successTitle": "ログインしました",
-			"successSubtitle": "設定を行っています...",
-			"modalAria": "メール確認モーダル",
+			"successSubtitle": "設定中です…",
+			"modalAria": "メール認証モーダル",
 			"errors": {
 				"invalidEmail": "有効なメールアドレスを入力してください",
-				"sendFailed": "確認コードの送信に失敗しました。",
-				"invalidCode": "6桁の確認コードを入力してください"
+				"sendFailed": "認証コードの送信に失敗しました。",
+				"invalidCode": "6桁の認証コードを入力してください"
 			}
 		},
 		"setNickname": {
 			"title": "ニックネームを設定",
-			"subtitle": "これは一度限りの設定であり、変更できません",
+			"subtitle": "これは一度きりの設定で、変更はできません",
 			"logoutAria": "ログアウト",
 			"inputPlaceholder": "ユニークなニックネームを選択してください",
 			"referrerCheckbox": "紹介者IDを持っています",
 			"referrerPlaceholder": "紹介者IDを入力",
-			"referrerHelp": "オプション。これはボーナスプログラムのためにあなたのアカウントを紹介者にリンクします。",
+			"referrerHelp": "任意。これにより、あなたのアカウントがボーナスプログラムの紹介者とリンクされます。",
 			"status": {
-				"checking": "利用可能性を確認中...",
+				"checking": "利用可能か確認中...",
 				"available": "ニックネームは利用可能です！",
 				"taken": "このニックネームは既に使用されています。"
 			},
 			"register": "登録してプレイ",
 			"termsTitle": "利用規約:",
-			"termsBody": "ウォレットでこの文書に署名するか、またはこのWeb3アプリケーションを引き続き使用することにより、アプリケーションの利用規約に同意したものとみなされます。利用規約への同意の署名は、ブロックチェーン取引ではなく、費用はかかりません。",
+			"termsBody": "ウォレットでこの文書に署名するか、このWeb3アプリケーションを引き続き使用することにより、アプリケーションの利用規約に同意したことになります。利用規約への同意の署名はブロックチェーン取引ではなく、費用はかかりません。",
 			"errors": {
-				"verifyNicknameFailed": "ニックネームを確認できませんでした。もう一度お試しください。",
+				"verifyNicknameFailed": "ニックネームの確認ができませんでした。もう一度お試しください。",
 				"registerFailed": "登録に失敗しました: {message}"
 			}
 		},
 		"walletConnect": {
-			"loginWithEmail": "メールアドレスでログイン",
+			"loginWithEmail": "メールでログイン",
 			"connectWalletBtn": "ウォレットを接続",
 			"loginWithWallet": "ウォレットでログイン",
 			"player": "プレイヤー",
@@ -852,13 +852,13 @@
 			"switching": "切り替え中...",
 			"walletNotConnected": "ウォレットが接続されていません。",
 			"failedToSwitch": "ネットワークの切り替えに失敗しました。ウォレットからお試しください。",
-			"altLogo": "ネットワークのロゴ"
+			"altLogo": "ネットワークロゴ"
 		},
 		"tokenList": {
 			"dialogTitle": "トークンを選択",
 			"instantDeposit": "即時入金",
 			"yourWalletBalance": "あなたのウォレット残高",
-			"searchPlaceholder": "名前を検索するか、アドレスを貼り付け",
+			"searchPlaceholder": "名前を検索またはアドレスを貼り付け",
 			"emptySearch": "検索に一致するトークンが見つかりません。",
 			"emptyOwned": "残高のあるトークンが見つかりません。",
 			"searchResults": "検索結果",
@@ -873,12 +873,12 @@
 			"swap": "スワップ"
 		},
 		"depositPanel": {
-			"youPay": "あなたが支払う金額",
+			"youPay": "支払額",
 			"resetForm": "フォームをリセット",
 			"enterAmount": "金額を入力",
 			"selectToken": "トークンを選択",
 			"max": "最大",
-			"maxButtonToolTipText": "ガス料金をカバーし、取引の失敗を避けるために、{gasReservationAmount} {selectedTokenSymbol}が予約されています",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol}は、ガス代をカバーし、取引の失敗を避けるために予約されています",
 			"balance": "残高:",
 			"calculating": "計算中...",
 			"approxUsd": "約 ${amount} USD",
@@ -890,8 +890,8 @@
 			"errors": {
 				"selectTokenAndAmount": "トークンを選択し、金額を入力してください",
 				"insufficientBalance": "この取引には残高が不足しています",
-				"amountTooHighGas": "ガス料金を考慮すると金額が高すぎます",
-				"checkForm": "フォームを確認してもう一度お試しください",
+				"amountTooHighGas": "ガス代を考慮すると金額が高すぎます",
+				"checkForm": "フォームを確認して、もう一度お試しください",
 				"pendingDeposit": "保留中の入金があります。完了するまでお待ちください"
 			},
 			"status": {
@@ -905,20 +905,20 @@
 			}
 		},
 		"tipPanel": {
-			"youTip": "あなたがチップする金額",
+			"youTip": "チップ額",
 			"resetForm": "フォームをリセット",
 			"enterAmount": "金額を入力",
 			"selectToken": "トークンを選択",
 			"minPrefix": "最小",
 			"balance": "残高:",
 			"max": "最大",
-			"maxButtonToolTipText": "ガス料金をカバーし、取引の失敗を避けるために、{gasReservationAmount} {selectedTokenSymbol}が予約されています",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol}は、ガス代をカバーし、取引の失敗を避けるために予約されています",
 			"approxUsd": "約 ${amount} USD",
-			"tipPanelWarningText": "チップは任意であり、返金できません。",
+			"tipPanelWarningText": "チップは任意であり、返金不可です。",
 			"emailWalletAddress": "メールウォレットアドレス",
 			"errors": {
 				"selectTokenAndAmount": "トークンを選択し、金額を入力してください。",
-				"insufficientBalance": "残高不足です。",
+				"insufficientBalance": "残高が不足しています。",
 				"belowMinimum": "金額は少なくとも{min}である必要があります。",
 				"missingWallet": "チップウォレットを取得できません。後でもう一度お試しください。",
 				"checkForm": "チップの詳細を確認してください。"
@@ -943,8 +943,8 @@
 		"tipPending": {
 			"submittedTitle": "チップ保留中",
 			"submittedDesc": "あなたのチップはオンチェーンで確認中です。",
-			"confirmedTitle": "チップ確定！",
-			"confirmedDesc": "あなたのチップは正常に配信されました。",
+			"confirmedTitle": "チップ確認済み！",
+			"confirmedDesc": "あなたのチップは正常に届けられました。",
 			"viewOnExplorer": "エクスプローラーで表示",
 			"newTipPending": "別のチップを送信",
 			"newTipConfirmed": "別のチップを送信"
@@ -956,7 +956,7 @@
 			"confirming": "確認中...",
 			"approving": "承認中...",
 			"insufficientBalance": "スワップのための残高が不足しています",
-			"sameToken": "同じトークンをスワップすることはできません",
+			"sameToken": "同じトークンはスワップできません",
 			"approveAndSwap": "承認してスワップ",
 			"swap": "スワップ",
 			"slippageTolerance": "スリッページ許容度",
@@ -964,21 +964,21 @@
 			"set": "設定",
 			"currentSlippage": "現在のスリッページ",
 			"swapSuccessful": "スワップ成功！",
-			"transactionConfirmed": "あなたの取引が提出されました",
+			"transactionConfirmed": "取引が送信されました",
 			"hash": "ハッシュ",
 			"newSwap": "新しいスワップ",
-			"youPay": "あなたが支払う金額",
+			"youPay": "支払額",
 			"max": "最大",
-			"maxButtonToolTipText": "ガス料金をカバーし、取引の失敗を避けるために、{gasReservationAmount} {selectedTokenSymbol}が予約されています",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol}は、ガス代をカバーし、取引の失敗を避けるために予約されています",
 			"low": "低い",
 			"amountPlaceholder": "0",
 			"selectToken": "トークンを選択",
-			"youReceive": "あなたが受け取る金額",
+			"youReceive": "受取額",
 			"gettingBestQuote": "最適な見積もりを取得中...",
 			"gas": "ガス",
 			"minimumReceived": "最小受取額",
 			"slippageToleranceLabel": "スリッページ許容度",
-			"gasFee": "ガス料金",
+			"gasFee": "ガス代",
 			"priceWarning": "価格はリアルタイムで更新され、取引が確認される前に変更される場合があります",
 			"emailWalletAddress": "メールウォレットアドレス",
 			"walletAddress": "ウォレットアドレス",
@@ -986,8 +986,8 @@
 			"errors": {
 				"selectTokenAndAmount": "トークンを選択し、金額を入力してください",
 				"insufficientBalance": "この取引には残高が不足しています",
-				"amountTooHighGas": "ガス料金を考慮すると金額が高すぎます",
-				"checkForm": "フォームを確認してもう一度お試しください",
+				"amountTooHighGas": "ガス代を考慮すると金額が高すぎます",
+				"checkForm": "フォームを確認して、もう一度お試しください",
 				"pendingDeposit": "保留中の入金があります。完了するまでお待ちください"
 			},
 			"status": {
@@ -1001,12 +1001,12 @@
 			}
 		},
 		"depositPending": {
-			"confirmedTitle": "入金確定！",
-			"submittedTitle": "取引提出済み",
+			"confirmedTitle": "入金確認済み！",
+			"submittedTitle": "取引送信済み",
 			"failedTitle": "取引失敗",
-			"confirmedDesc": "あなたの残高が更新されました。",
-			"submittedDesc": "ブロックチェーンの確認を待っています。これには数分かかる場合があります。",
-			"failedDesc": "あなたの取引は失敗しました。もう一度お試しください。",
+			"confirmedDesc": "残高が更新されました。",
+			"submittedDesc": "ブロックチェーンの確認を待っています。これには数分かかることがあります。",
+			"failedDesc": "取引に失敗しました。もう一度お試しください。",
 			"viewOnExplorer": "エクスプローラーで表示",
 			"newDepositConfirmed": "別の入金を行う",
 			"newDepositPending": "新しい入金を開始",
@@ -1015,7 +1015,7 @@
 		"withdrawPanel": {
 			"resetForm": "フォームをリセット",
 			"networkNotSupported": "出金はArbitrum、Polygon、BNBでのみサポートされています",
-			"youWithdraw": "あなたが出金する金額",
+			"youWithdraw": "出金額",
 			"loading": "読み込み中...",
 			"amount": "金額",
 			"max": "最大",
@@ -1028,7 +1028,7 @@
 			"emailWalletAddress": "メールウォレットアドレス",
 			"walletAddress": "ウォレットアドレス",
 			"errors": {
-				"pendingWithdrawal": "すでに保留中の出金があります",
+				"pendingWithdrawal": "既に保留中の出金があります",
 				"invalidAddress": "無効なアドレス",
 				"enterAmount": "金額を入力",
 				"networkNotSupported": "ネットワークはサポートされていません"
@@ -1036,48 +1036,48 @@
 			"status": {
 				"processing": "処理中...",
 				"insufficientBalance": "残高不足",
-				"pendingWithdrawal": "すでに保留中の出金があります"
+				"pendingWithdrawal": "既に保留中の出金があります"
 			},
 			"buttons": {
-				"withdraw": "出金 {amount} {symbol}",
+				"withdraw": "{amount} {symbol}を出金",
 				"minimum": "最小 {amount} {symbol}"
 			}
 		},
 		"withdrawSuccess": {
 			"title": "出金成功！",
-			"successMessage": "🎉 {siteName}から{withdrawAmount} {tokenSymbol}を出金しました！ 🚀 {shareUrl}で連勝に加わりましょう",
-			"withdrawnAmount": "出金された金額",
+			"successMessage": "🎉 {siteName}から{withdrawAmount} {tokenSymbol}を出金しました！ 🚀 {shareUrl}で勝利の連鎖に参加しよう",
+			"withdrawnAmount": "出金額",
 			"shareText": "共有",
-			"subText": "🚀 連勝に加わりましょう！ 🚀",
+			"subText": "🚀 勝利の連鎖に参加しよう！ 🚀",
 			"generating": "生成中...",
 			"screenshot": "スクリーンショットを撮る",
 			"download": "画像をダウンロード",
 			"close": "閉じる",
 			"copiedToClipboard": "共有リンクが正常にコピーされました",
-			"userName": "{siteName} プレイヤー",
+			"userName": "{siteName}プレイヤー",
 			"status": "完了",
-			"entryPrice": "出金金額",
+			"entryPrice": "出金額",
 			"lastPrice": "トークンシンボル",
 			"referralCode": "紹介コード",
-			"screenshotFailed": "スクリーンショットに失敗しました。もう一度お試しいただくか、別のブラウザをご利用ください。",
+			"screenshotFailed": "スクリーンショットに失敗しました。もう一度試すか、別のブラウザを使用してください。",
 			"shareFailed": "共有に失敗しました。もう一度お試しください。"
 		},
 		"withdrawPending": {
-			"confirmedTitle": "出金確定！",
-			"submittedTitle": "取引提出済み",
-			"confirmedDesc": "あなたの資金が送金中です。",
+			"confirmedTitle": "出金確認済み！",
+			"submittedTitle": "取引送信済み",
+			"confirmedDesc": "資金は送金中です。",
 			"submittedDesc": "ブロックチェーンの確認を待っています...",
 			"viewOnExplorer": "エクスプローラーで表示",
-			"manualApproval": "この出金は手動承認が必要です。",
+			"manualApproval": "この出金には手動承認が必要です。",
 			"newWithdrawalConfirmed": "別の出金を行う",
 			"newWithdrawalPending": "新しい出金を開始"
 		},
 		"withdrawSummary": {
-			"youWillReceive": "あなたが受け取る金額"
+			"youWillReceive": "受取額"
 		}
 	},
 	"navUser": {
-		"upgradeToPro": "Proにアップグレード",
+		"upgradeToPro": "プロにアップグレード",
 		"account": "アカウント",
 		"billing": "請求",
 		"notifications": "通知",
@@ -1086,28 +1086,28 @@
 	"games": {
 		"pageTitle": "すべてのゲーム",
 		"playNow": "今すぐプレイ",
-		"byProvider": "{name}による",
-		"count": "{count}ゲーム",
-		"noResults": "基準に一致するゲームが見つかりません。",
+		"byProvider": "{name} 提供",
+		"count": "{count} ゲーム",
+		"noResults": "基準に一致するゲームが見つかりませんでした。",
 		"errorLoading": "ゲームを読み込めませんでした。後でもう一度お試しください。",
 		"slots": "スロット",
 		"sports": "スポーツ",
 		"liveCasino": "ライブカジノ",
-		"explore": "探索",
-		"exploreSubtitle": "素晴らしいゲーム体験を発見",
+		"explore": "探検",
+		"exploreSubtitle": "素晴らしいゲーム体験を発見する",
 		"poker": "ポーカー",
 		"lottery": "宝くじ",
 		"futures": "先物",
 		"vr": "VR",
 		"swap": "スワップ",
 		"slotsDescription": "リールを回して巨大なジャックポットを獲得",
-		"liveCasinoDescription": "ライブディーラーとのリアルタイムカジノアクションを体験",
+		"liveCasinoDescription": "ライブディーラーとリアルタイムのカジノアクションを体験",
 		"sportsDescription": "お気に入りのチームやスポーツイベントにベット",
-		"pokerDescription": "クラシックポーカーゲームでスキルを試す",
-		"lotteryDescription": "宝くじとインスタントウィンゲームで運を試す",
-		"futuresDescription": "市場の動きを取引し予測する",
-		"vrDescription": "仮想現実ゲームに没入する",
-		"swapDescription": "トークンと暗号通貨をシームレスに交換",
+		"pokerDescription": "クラシックなポーカーゲームでスキルを試す",
+		"lotteryDescription": "宝くじやインスタントウィンゲームで運試し",
+		"futuresDescription": "市場の動きを取引・予測",
+		"vrDescription": "バーチャルリアリティゲームに没頭",
+		"swapDescription": "トークンや暗号通貨をシームレスに交換",
 		"categories": {
 			"slot": {
 				"title": "スロットゲーム"
@@ -1130,8 +1130,8 @@
 		"pageTitle": "すべてのゲームプロバイダー",
 		"searchPlaceholder": "プロバイダーを検索...",
 		"empty": "検索に一致するプロバイダーが見つかりません。",
-		"logoAlt": "{name}のロゴ",
-		"filteredBy": "カテゴリで絞り込み:",
+		"logoAlt": "{name} ロゴ",
+		"filteredBy": "カテゴリでフィルタリング:",
 		"clearFilter": "フィルターをクリア",
 		"categories": {
 			"slot": {
@@ -1154,72 +1154,72 @@
 	"hero": {
 		"guest": {
 			"title": "アクションに参加",
-			"subtitle": "今すぐサインアップして、限定ウェルカムボーナスを獲得しましょう！",
+			"subtitle": "今すぐ登録して限定ウェルカムボーナスをゲット！",
 			"cta": "今すぐ登録"
 		},
 		"welcome": {
 			"title1": "ウェルカムボーナス",
 			"title2": "最大590%",
 			"subtitle": "+ 225フリースピン",
-			"cta": "入金して獲得"
+			"cta": "入金してゲット"
 		},
 		"jackpot": {
 			"title1": "メガジャックポット",
 			"title2": "$1,000,000",
-			"subtitle": "今すぐプレイして大勝利を",
+			"subtitle": "今すぐプレイして大勝利",
 			"cta": "今すぐプレイ"
 		},
 		"cards": {
 			"casino": {
 				"title": "カジノ",
 				"badge": "590+ ゲーム",
-				"desc": "{siteName}オリジナルやトッププロバイダーのカジノゲームをお楽しみください。",
+				"desc": "{siteName}オリジナルやトッププロバイダーの他のカジノゲームをお楽しみください。",
 				"link": "カジノへ"
 			},
 			"slots": {
 				"title": "スロット",
 				"badge": "5292 ゲーム",
-				"desc": "リールを回して、プレミアムスロットコレクションで巨大なジャックポットを当てましょう。",
+				"desc": "プレミアムスロットコレクションでリールを回して巨大なジャックポットを当てよう。",
 				"link": "スロットへ"
 			},
 			"sports": {
 				"title": "スポーツ",
 				"badge": "3 ゲーム",
-				"desc": "お気に入りのチームやスポーツイベントに、競争力のあるオッズでベットしましょう。",
+				"desc": "競争力のあるオッズでお気に入りのチームやスポーツイベントにベットしよう。",
 				"link": "スポーツへ"
 			},
 			"crypto": {
-				"title": "クリプトと獲得",
+				"title": "暗号＆収益",
 				"badge": "60% APR",
-				"desc": "魅力的なレートで、暗号通貨をステーク、取引、獲得しましょう。",
-				"link": "クリプトへ"
+				"desc": "魅力的なレートで暗号通貨をステーク、トレード、そして稼ごう。",
+				"link": "暗号へ"
 			}
 		},
 		"layout3": {
 			"headerTitle": "ゲームスポットライト",
-			"headerSubtitle": "厳選されたコレクションで、素晴らしいゲームを発見し、新しい冒険を探求しましょう",
+			"headerSubtitle": "素晴らしいゲームを発見し、厳選されたコレクションで新しい冒険を探検しよう",
 			"slider1Title": "注目ゲーム",
 			"slider1Badge": "スタッフのおすすめ",
-			"slider2Title": "さらに探索",
+			"slider2Title": "もっと探検",
 			"slider2Badge": "トレンド",
 			"featuredGameLabel": "注目ゲーム"
 		},
-		"ctaExploreGames": "ゲームを探索",
+		"ctaExploreGames": "ゲームを探検",
 		"ctaJoinAffiliate": "アフィリエイトに参加"
 	},
 	"betting": {
 		"live": {
 			"winRate": "勝率",
-			"biggestWin": "最大の勝利",
+			"biggestWin": "最大勝利",
 			"bigWins50": "大勝利 (50+)",
 			"recentWins": "最近の勝利",
 			"header": {
 				"title": "ライブベッティングアクティビティ",
-				"subtitle": "リアルタイムのベッティングアクティビティ • {count}件のゲームが読み込まれました"
+				"subtitle": "リアルタイムベッティングアクティビティ • {count} ゲームが読み込まれました"
 			},
 			"status": {
 				"live": "ライブ",
-				"paused": "一時停止中"
+				"paused": "一時停止"
 			},
 			"actions": {
 				"pause": "一時停止",
@@ -1239,7 +1239,7 @@
 				"multiplier": "マルチプライヤー",
 				"profit": "利益"
 			},
-			"empty": "ベッティング記録が見つかりません"
+			"empty": "ベット記録が見つかりません"
 		}
 	},
 	"fontChanger": {
@@ -1248,31 +1248,31 @@
 		"current": "現在",
 		"browseGoogleFonts": "Googleフォントを閲覧",
 		"uploadCustomFont": "カスタムフォントをアップロード",
-		"quickUploadFontFile": "クイックフォントファイルアップロード",
+		"quickUploadFontFile": "フォントファイルをクイックアップロード",
 		"resetToDefault": "デフォルトにリセット",
 		"googleFonts": {
 			"title": "Googleフォント",
 			"searchFonts": "フォントを検索...",
 			"preview": "プレビュー",
-			"previewText": "素早い茶色のキツネは怠惰な犬を飛び越えます",
+			"previewText": "速い茶色のキツネが怠惰な犬を飛び越える",
 			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
 			"applyFont": "フォントを適用",
 			"clearPreview": "プレビューをクリア",
 			"previewWith": "{font}でテキストをプレビュー",
-			"noFontsFound": "\"{searchTerm}\"に一致するフォントは見つかりませんでした"
+			"noFontsFound": "「{searchTerm}」に一致するフォントが見つかりません"
 		},
 		"customUpload": {
 			"title": "カスタムフォントをアップロード",
 			"description": "独自のフォントファイルをアップロードしてウェブサイトをカスタマイズ",
 			"fontFile": "フォントファイル",
-			"dragDropArea": "フォントファイルをここにドラッグアンドドロップするか、",
+			"dragDropArea": "フォントファイルをここにドラッグ＆ドロップするか、",
 			"clickToUpload": "クリックしてアップロード",
 			"supportedFormats": "サポートされている形式: .woff, .woff2, .ttf, .otf",
 			"maxFileSize": "最大ファイルサイズ: 10MB",
 			"fontName": "フォント名",
-			"fontNamePlaceholder": "フォントの名前を入力",
+			"fontNamePlaceholder": "フォントの名前を入力してください",
 			"previewYourFont": "フォントをプレビュー",
-			"uploadAndApply": "アップロードしてフォントを適用",
+			"uploadAndApply": "アップロードして適用",
 			"cancel": "キャンセル",
 			"uploading": "アップロード中...",
 			"errors": {
@@ -1285,7 +1285,7 @@
 		},
 		"messages": {
 			"fontAppliedSuccess": "フォント「{fontName}」が正常に適用されました！",
-			"fontUploadedSuccess": "フォント「{fontName}」が正常にアップロードされ、適用されました！",
+			"fontUploadedSuccess": "フォント「{fontName}」がアップロードされ、正常に適用されました！",
 			"fontResetSuccess": "フォントがデフォルトにリセットされました",
 			"invalidFileType": "有効なフォントファイル（.woff, .woff2, .ttf, .otf）をアップロードしてください",
 			"uploadFailed": "フォントファイルの読み込みに失敗しました"
@@ -1293,50 +1293,51 @@
 	},
 	"about": {
 		"title": "🎮 {siteName}について",
-		"subtitle": "{siteName}では、ゲームは暇つぶしではありません。それは本当の興奮です。大勝利を収めた瞬間や、すべてがうまくいく瞬間、それが私たちのすべてです。",
+		"subtitle": "{siteName}では、ゲームは単なる娯楽ではありません — それは体験です。",
 		"meta": {
 			"title": "{siteName}について | 信頼できるグローバルオンラインカジノプラットフォーム",
-			"description": "{siteName}について学ぶ：スロット、ライブカジノ、スポーツベッティング、ポーカーを提供する安全なグローバルカジノプラットフォーム。公平で迅速、そして真のプレイヤーのために構築されています。"
+			"description": "安全でグローバルなカジノプラットフォーム{siteName}について学びましょう。スロット、ライブカジノ、スポーツベッティング、ポーカーを提供しています。公正で、速く、本物のプレイヤーのために作られています。"
 		},
 		"intro": {
-			"paragraph1": "私たちは、ゲームにもっと多くを求めるプレイヤーのために{siteName}を構築しました。より速いスピード。より公平なゲーム。より大きなスリル。ライブカジノゲーム、スポーツベッティング、ポーカー、またはハイステークススロットでのジャックポットを追いかけることに夢中であっても、あなたはすべてここで見つけることができ、私たちは物事を合法に保つことに頼ることができます。",
-			"paragraph2": "初日から、私たちは{siteName}を本物のように感じさせたいと考えていました。単なる別のウェブサイトではなく、ログインするたびに安全でエキサイティングなゲーム体験を得られる場所です。"
+			"paragraph1": "{siteName}では、ゲームは単なる娯楽ではありません — それは体験です。|私たちは、運だけを期待するのではなく、スピード、公平性、そして世界クラスのゲーム環境を求めるプレイヤーのためにこのプラットフォームを構築しました。",
+			"paragraph2": "初日から、私たちの目標は明確でした：リアルで、安全で、エキサイティングなゲーム空間を作ること。ライブカジノゲーム、スポーツベッティング、ポーカー、または高報酬のスロットのためにここにいるかどうかにかかわらず、{siteName}は信頼できる一つの名前の下にすべてをまとめています。"
 		},
 		"whoWeAre": {
-			"title": "💎 私たちは誰ですか",
-			"paragraph1": "{siteName}は、世界中のプレイヤーと何千ものトップカジノおよびベッティングゲームを結びつけます。私たちは業界最大手のPragmatic Play、Red Tiger、Microgaming、KA Gamingと協力しており、スマートフォンでもラップトップでも、すべてのゲームがスムーズに動作し、素晴らしく見えるようにしています。",
-			"paragraph2": "すべてのスピン、すべてのディール、すべてのボーナス—すべてがあなたに本物のゲームの興奮を与えるように設定されています。そして、私たちは物事をシンプルに保ちます。ごまかしや、ずるいルールはありません。ただ正直で、明確なプレイだけです。"
+			"title": "💎 私たちについて",
+			"paragraph1": "{siteName}は、プレイヤーを何千もの高品質なカジノおよびベッティングゲームに接続するグローバルなオンラインゲームプラットフォームです。|私たちは、Pragmatic Play、Red Tiger、Microgaming、KA Gamingなど、業界で最も尊敬されているプロバイダーと協力して、すべてのデバイスでシームレスな体験を提供します。",
+			"paragraph2": "すべての機能、すべてのスピン、そしてすべての配られるカードは、すべてを透明かつ公正に保ちながら、本物のゲームのスリルに近づけるように設計されています。"
 		},
 		"mission": {
 			"title": "🎯 私たちの使命",
-			"paragraph1": "私たちは、オンラインゲームをシンプル、安全、そして実際に楽しいものにしたいと考えています。",
-			"paragraph2": "私たちは物事を個人的に保ちます。迅速な入金、迅速な出金。目に優しいクリーンな外観。必要なときに実際に役立つサポート。|{siteName}では、あなたは常にスポットライトの中にいます。あなたの信頼が、私たちが改善し続ける原動力です。"
+			"paragraph1": "オンラインゲームを誰にとってもシンプルで、安全で、やりがいのあるものにすること。|私たちは、ゲームは機械的ではなく、個人的に感じるべきだと信じています。そのため、迅速な取引、スムーズなデザイン、そして24時間年中無休で利用可能な信頼できるカスタマーサポートに重点を置いています。",
+			"paragraph2": "{siteName}では、常にプレイヤーが第一です。あなたの信頼が、私たちが日々改善し続ける原動力です。"
 		},
 		"whatMakesUsDifferent": {
-			"title": "🏆 {siteName}の独自性",
+			"title": "🏆 {siteName}が違う理由",
 			"features": [
-				"5,000以上のゲーム—スロット、ポーカー、スポーツ、ライブカジノ",
-				"即時で信頼性の高い入金と出金",
-				"すべてのゲームが公平性のためにRNG認定を受けています",
-				"どこでも機能するクリーンなデザイン",
-				"常に新しいボーナスとプロモーション"
+				"スロット、ポーカー、スポーツ、ライブカジノにわたる5,000以上のゲーム",
+				"即時入出金による安全な取引",
+				"RNG認定ゲームによる検証済みの公正なプレイ",
+				"デスクトップとモバイルで完璧に機能するクリーンなデザイン",
+				"アクティブなプレイヤーのためのエキサイティングなボーナスとプロモーション"
 			],
-			"closing": "私たちはゲームを提供するだけでなく、あなたが安全で、つながりを感じ、次の挑戦に立ち向かう準備ができていると感じる場所を構築するためにここにいます。"
+			"closing": "私たちは単にゲームをホストするだけではありません — すべてのプレイヤーが安全で、つながりがあり、自信を持って感じられる環境を作ります。"
 		},
 		"fairGaming": {
 			"title": "🌍 公正で責任あるゲーミング",
-			"paragraph1": "私たちは公平性を真剣に受け止めています。それは、国際基準を遵守し、物事を明確に保つことを意味します—18歳以上のプレイヤーのみ、例外はありません。",
-			"paragraph2": "私たちはすべてのゲームの公平性をテストし、暗号化技術があなたの情報を安全かつ確実に保ちます。"
+			"paragraph1": "私たちは、ゲーミングは常に責任があり、透明であるべきだと信じています。|そのため、{siteName}は厳格な国際的なゲーミング基準と年齢ポリシーに従います。",
+			"ageRestriction": "18歳以上のプレイヤーのみが登録してプレイできます。",
+			"paragraph2": "すべてのゲームは公平性がテストされており、私たちの暗号化技術はあなたの個人情報と財務情報を完全に安全に保ちます。"
 		},
 		"promise": {
 			"title": "🤝 私たちの約束",
-			"paragraph1": "私たちは埋もれるためにここにいるのではありません。私たちはオンラインゲームの基準をより高く設定するためにここにいます。",
-			"paragraph2": "{siteName}でプレイするとき、あなたは信頼と新しいアイデアに基づいて構築されたプラットフォームを使用しています。すべての更新、新しい機能、またはパートナーシップは、あなたの体験をより良いものにすることを目指しています。"
+			"paragraph1": "私たちは別のカジノサイトになるためにここにいるのではありません — オンラインゲームの新しい基準を確立するためにここにいます。|{siteName}でプレイするとき、あなたは信頼、革新、そして真の価値に基づいて構築されたプラットフォームでプレイします。",
+			"paragraph2": "私たちが追加するすべてのアップデート、すべての機能、そしてすべてのパートナーシップは、一つの目標に焦点を当てています：プレイヤーに最高のゲーム体験を提供すること。"
 		},
 		"joinCommunity": {
-			"title": "🚀 {siteName}コミュニティに参加",
-			"paragraph1": "オンラインゲームは急速に進化しており、{siteName}はすでに時代の先を行っています—より速く、よりスマートに、よりやりがいのあるものに。",
-			"paragraph2": "今すぐ参加してください。ウェルカムボーナスを獲得してください。世界中の多くのプレイヤーが{siteName}を頼りにしている理由をご覧ください。",
+			"title": "🚀 {siteName}コミュニティに参加しよう",
+			"paragraph1": "オンラインゲームの未来はここにあります — そしてそれはこれまで以上に速く、賢く、そしてやりがいがあります。",
+			"paragraph2": "今日{siteName}に参加し、ウェルカムボーナスを請求し、世界中のプレイヤーが{siteName}に切り替えている理由を確認してください。",
 			"tagline": "🎯 プレイ。勝利。体験。{siteName}。"
 		}
 	},
@@ -1348,16 +1349,16 @@
 					"about": "会社概要",
 					"providers": "プロバイダー",
 					"affiliate": "紹介ボーナス",
-					"bonus": "ターオーバーボーナス"
+					"bonus": "ターンオーバーボーナス"
 				}
 			},
 			"legal": {
-				"title": "法的事項",
+				"title": "法務",
 				"links": {
 					"privacy": "プライバシーポリシー",
 					"terms": "利用規約",
 					"gambling": "責任あるギャンブル",
-					"faqs": "FAQ"
+					"faqs": "よくある質問"
 				}
 			},
 			"games": {
@@ -1378,449 +1379,445 @@
 			}
 		},
 		"seoContent": {
-			"title": "説明",
-			"paragraph1": "ようこそ{siteName}へ。ここでは、クリプトとカジノゲームの本当の興奮が出会います。オンラインプレイの世界で何か新鮮なものを探しているなら、あなたはそれを見つけました。{siteName}は、スピード、セキュリティ、そして何よりも、実際に楽しませてくれるゲームを求める人々のために作られています—スロットを回すのが好きでも、ライブテーブルが好きでも、スポーツベットが好きでも、他の場所では見つけられないクリプト専用ゲームを試したい場合でも。",
-			"paragraph2": "すべてがブロックチェーン上で実行されるため、すべての結果を信頼できます。結果はランダムであり、その場で検証されます。ごまかしはありません。ただ純粋な勝利と本物の興奮だけです。ハイローラーですか？戦略ファンですか？あるいは、ただ少しリラックスしてプレイしたいだけかもしれません。あなたのスタイルに合ったものがここにあります。",
-			"paragraph3": "始めるのはこれ以上ないほど簡単です—即時入金、迅速な出金、Dynamic.xyzウォレットでログインし、途中でユニークなボーナスを獲得しましょう。{siteName}は物事を動かし続けます。待つことはありません。頭痛の種もありません。カナダ、ヨーロッパ、アジアなど、どこにいても、当社のマルチチェーン設定はあなたの現地のクリプトオプションにぴったり合います。",
-			"paragraph4": "何千もの人々がすでに知っています。これはオンラインギャンブルのよりスマートな方法です。ここでは、勝利を追いかけることだけではありません—プライバシー、公平性、そしてプレイヤーが何を求めているかを実際に理解しているコミュニティの一員であることです。{siteName}は単なる別のオンラインカジノではありません。これは、より多くを期待する人々のために再構築されたWeb3ギャンブルです。",
-			"tagline": "では、よりスマートにプレイし、より安全に賭け、そして大ヒットする準備はできていますか？ {siteName}に向かいましょう。",
-			"showMore": "もっと表示",
+			"title": "{siteName} — 暗号カジノエンターテイメントの究極の目的地",
+			"paragraph1": "革新と興奮が出会う世界最高の暗号パワーカジノ、{siteName}でオンラインゲームの未来に足を踏み入れましょう。本物のプレイヤーのために設計された当社のプラットフォームは、スロット、ライブカジノテーブル、スポーツベッティング、暗号ゲームにわたって、高速で安全、そして透明な体験を提供します。",
+			"paragraph2": "{siteName}でのすべてのスピン、カード、および賭けは、ブロックチェーンの公平性に基づいて構築されており、すべての結果が真にランダムで改ざん不可能であることを保証するためにリアルタイムで検証されます。ハイステークスのアクションからカジュアルなプレイまで、当社のゲームはスリルを求める人から戦略のプロまで、あらゆる種類のギャンブラーに対応しています。",
+			"paragraph3": "即時入金と超高速出金、Dynamic.xyzウォレットログイン、および独占的なターンオーバーボーナスにより、{siteName}はあなたのゲームがスムーズで、やりがいがあり、安全であることを保証します。|カナダ、ヨーロッパ、またはアジアにいるかどうかにかかわらず、当社のマルチチェーンシステムはグローバルなプレイヤーをサポートし、各地域のローカルな暗号カジノのトレンドに最適化しています。",
+			"paragraph4": "公正なプレイ、プライバシー、および利益が一体となる、よりスマートなプレイ方法を発見している何千人ものプレイヤーに参加してください。|{siteName}は単なるカジノではありません。|それはWeb3ギャンブルの次の進化です — 大胆な人のために構築され、暗号によって動かされ、世界中のプレイヤーから信頼されています。",
+			"tagline": "🎯 スマートにプレイ。安全にベット。大きく勝つ — {siteName}でのみ。",
+			"showMore": "もっと見る",
 			"showLess": "少なく表示"
 		},
 		"copyright": "© {year} {siteName}. 全著作権所有。",
 		"followUs": "フォローしてください:",
 		"disclaimer": {
-			"line1": "18歳以上のみ | 責任を持ってギャンブルを",
-			"line2": "ギャンブルは依存症になる可能性があります。責任を持ってプレイし、失っても構わない金額だけを賭けてください。",
-			"line3": "ギャンブルの問題があると思われる場合は、助けを求めてください。"
+			"line1": "18歳以上のみ | 責任を持ってギャンブルをしてください",
+			"line2": "ギャンブルは中毒性があります。責任を持ってプレイし、失うことができる金額のみを賭けてください。",
+			"line3": "ギャンブルの問題があると感じる場合は、助けを求めてください。"
 		},
-		"description": "{siteName}は、クリプトスロット、ライブテーブル、スポーツベッティングの頼りになる場所です。あなたが本当に信頼できるブロックチェーンゲームに飛び込み、数秒でウォレットに直接賞金を獲得し、毎日新しいボーナスを受け取ります。それは速く、安全で、完全に分散化されています—{siteName}は世界中のプレイヤーのためにオンラインゲームを一段上に引き上げます。賢くプレイし、大きく勝ちましょう。{siteName}を信頼してください。"
+		"description": "{siteName} — スロット、ライブテーブル、スポーツベッティングのための信頼できる暗号カジノ。|証明可能な公正なブロックチェーンゲームをプレイし、即時のウォレットベースの支払いを楽しんで、毎日のカジノボーナスをアンロックしましょう。|高速、安全、そして分散型 — {siteName}は世界中のプレイヤーに次世代のゲームを提供します。|🎯 スマートにプレイ。大きく勝つ。{siteName}を信頼してください。"
 	},
 	"privacy": {
-		"title": "🔒 プライバシーポリシー — {siteName}",
-		"subtitle": "{siteName}がSSL、AML、GDPR準拠のプライバシーでウォレットアドレスとクリプトデータを保護し、安全なブロックチェーンゲームを実現する方法。",
-		"lastUpdated": "最終更新日: 2025年1月",
-		"meta": {
-			"title": "プライバシーポリシー | {siteName} – 暗号ウォレットカジノのセキュリティ",
-			"description": "{siteName}がSSL、AML、GDPR準拠のプライバシーでウォレットアドレスとクリプトデータを保護し、安全なブロックチェーンゲームを実現する方法を学ぶ。",
-			"keywords": "{siteName}プライバシーポリシー, {siteName}クリプトカジノ, {siteName}データ保護, {siteName}ウォレットセキュリティ, クリプトギャンブルプライバシー, GDPRクリプトカジノ, ブロックチェーンカジノポリシー, {siteName}ゲームのセキュリティ, クリプトベッティングプライバシー",
-			"ogTitle": "プライバシーとデータ保護 | {siteName}（クリプトカジノ）",
-			"ogDescription": "{siteName}が高度な暗号化とGDPR準拠の保護により、あなたの暗号ウォレットと取引データをどのように保護しているかを探る。"
-		},
+		"title": "プライバシーポリシー",
+		"subtitle": "{siteName}があなたのデータを収集、使用、保護する方法",
+		"lastUpdated": "2025年1月",
 		"intro": {
-			"paragraph1": "{siteName}（「{siteName}」、「私たち」、「当社」、または「私たちの」）では、{siteName}クリプトカジノプラットフォームを運営しています。ウェブサイト、モバイルアプリ、または関連サービス（「サービス」）を使用する際に、あなたの個人データおよび取引データがどのように扱われるかをご説明します。",
-			"paragraph2": "{siteName}はクリプトウォレット専用のカジノです。つまり、すべての入金と出金は暗号通貨ウォレットを介して行われます。私たちはあなたのプライバシーを真剣に受け止め、それを保護するために最善を尽くし、同時にルール（AML/KYC要件など）に従い、プラットフォームをすべての人にとって安全で公平に保ちます。",
-			"paragraph3": "{siteName}を使用する場合、あなたはこのプライバシーポリシーに同意したものとみなされます。"
+			"paragraph1": "{siteName}（「{siteName}」、「当社」、「私たち」、または「私たちの」）は、{siteName}暗号カジノプラットフォームを運営しています。このプライバシーポリシーは、当社のウェブサイト、モバイルアプリ、または関連サービス（「サービス」）を使用する際に、個人データおよび取引データを収集、使用、保存、および保護する方法を説明します。",
+			"paragraph2": "{siteName}は暗号ウォレットのみのカジノとして運営されています。すべての入出金は暗号通貨ウォレットを使用して行われます。私たちは、規制上の義務（AML / KYC要件など）を満たし、安全で公正なゲーム環境を確保しながら、あなたのプライバシーを保護することに尽力しています。",
+			"paragraph3": "{siteName}にアクセスまたは使用することにより、このプライバシーポリシーの条件に同意したことになります。"
 		},
 		"sections": {
 			"scope": {
-				"title": "適用範囲と同意",
-				"content": "このポリシーは、{siteName}を使用するすべての人を対象としています。時々更新することがあります。更新された場合、新しいポリシーがサイトで公開され、その後も引き続き{siteName}を使用する場合、変更に同意したものとみなされます。"
+				"title": "1. 範囲と受諾",
+				"content": "このポリシーは、{siteName}のすべてのユーザーに適用されます。当社はこのポリシーを更新することがあります。更新はサイトに掲載された時点で有効になります。変更後も継続して使用することは、新しいポリシーに同意したことを意味します。"
 			},
 			"dataCollection": {
-				"title": "収集するデータ",
-				"intro": "私たちはクリプトウォレット専用であるため、収集するデータはそれを反映しています。収集するものは次のとおりです:",
+				"title": "2. 収集するデータ",
+				"intro": "暗号ウォレットのみで運営しているため、収集するデータの種類はそのモデルを反映しています。当社は以下を収集します:",
 				"accountData": {
-					"title": "A. アカウントと識別データ（必要な場合）",
-					"email": "メールアドレス（提供した場合）、表示名、アカウントID。",
-					"kyc": "注意: クリプトウォレットは通常、匿名性を保ちますが、規制によりあなたの身元（KYC）を尋ねる必要がある場合があります。必要な場合にのみ尋ね、明確にします。"
+					"title": "A. アカウントと本人確認データ（必要な場合）",
+					"email": "メールアドレス（提供された場合）、表示名、アカウントID。",
+					"kyc": "重要：暗号ウォレットはオンチェーンでの匿名性を可能にしますが、特定の取引や規制上のトリガーにより本人確認が必要になる場合があります。必要な場合にのみ、明確にKYCを要求します。"
 				},
 				"walletData": {
 					"title": "B. ウォレットと取引データ",
-					"addresses": "あなたが接続またはここで使用する暗号ウォレットアドレス。",
-					"transactions": "オンチェーンの取引ハッシュとタイムスタンプ（入金と出金の場合）。",
-					"metadata": "支払いを調整し、不正行為を発見するために必要な取引の詳細。"
+					"addresses": "{siteName}に接続または使用する暗号通貨ウォレットアドレス。",
+					"transactions": "オンチェーンの取引ハッシュとタイムスタンプ（入金/出金）。",
+					"metadata": "支払いを照合し、不正行為を防止するために必要な取引メタデータ。"
 				},
 				"technicalData": {
-					"title": "C. 技術データと利用状況データ",
-					"ip": "IPアドレス、IPに基づくおおよその位置、デバイスの種類、ブラウザ、オペレーティングシステム。",
-					"session": "セッションログ、タイムスタンプ、プレイされたゲーム、賭け金、結果、訪問したページ。",
-					"cookies": "サイトをより良く、よりスムーズにするためのクッキーと分析。"
+					"title": "C. 技術データと使用状況データ",
+					"ip": "IPアドレス、IPから導出されたおおよその地理的位置、デバイスタイプ、ブラウザ、OS。",
+					"session": "セッションログ、タイムスタンプ、訪問したページ、ゲームアクティビティ、賭け金と結果。",
+					"cookies": "サイトのパフォーマンスとユーザーエクスペリエンスを向上させるためのCookieと分析データ。"
 				},
 				"securityData": {
 					"title": "D. セキュリティとリスクデータ",
-					"fraud": "不正信号、デバイスのフィンガープリント、不正防止パートナーからのリスクスコア。",
-					"disputes": "紛争、チャージバック、コンプライアンスチェックの記録（発生した場合）。",
-					"note": "法律で要求され、明確な許可を得ない限り、人種、宗教、健康などの機密性の高い情報は収集しません。"
+					"fraud": "不正信号、デバイスフィンガープリント、不正防止ベンダーからのリスクスコア。",
+					"disputes": "紛争解決、チャージバック（該当する場合）、およびコンプライアンスチェックの記録。",
+					"note": "法的に要求され、明確な同意がある場合を除き、機密カテゴリ（人種、宗教、健康など）は収集しません。"
 				}
 			},
 			"purposes": {
-				"title": "データを収集する理由",
-				"intro": "私たちは明確で合法的な理由でのみあなたのデータを使用します:",
-				"items": [
-					{
-						"title": "サービスを運営するため",
-						"description": "アカウントの設定と管理、ウォレットの入金/出金の処理、賞金の支払い。"
+				"title": "3. データ収集の理由 – 合法的な根拠と目的",
+				"intro": "当社は、合法的かつ特定の目的のためにあなたのデータを処理します:",
+				"outro": "同意に依存する場合（例：マーケティング）、いつでもその同意を撤回できます。",
+				"items": {
+					"0": {
+						"title": "サービスの提供と契約の履行",
+						"description": "アカウントの作成と維持、暗号ウォレットを介した入出金の処理、賞金の支払い。"
 					},
-					{
-						"title": "セキュリティのため",
-						"description": "乱用、詐欺、マネーロンダリングを発見し、阻止するため。"
+					"1": {
+						"title": "セキュリティと不正防止",
+						"description": "乱用とマネーロンダリングを検出し、防止する。"
 					},
-					{
-						"title": "物事をスムーズに実行し続けるため",
-						"description": "分析、製品のアップグレード、カスタマーサポート。"
+					"2": {
+						"title": "法的義務の遵守",
+						"description": "必要な場合にAML / KYC要件を満たす。"
 					},
-					{
-						"title": "マーケティングのため（あなたが同意した場合）",
-						"description": "ニュースレター、プロモーションオファー—後でいつでも拒否したり、考えを変えたりするオプションがあります。"
+					"3": {
+						"title": "プラットフォームの運用と改善",
+						"description": "分析、製品開発、カスタマーサポート。"
 					},
-					{
-						"title": "プラットフォームを保護するため",
-						"description": "および誤用を調査するため。"
+					"4": {
+						"title": "マーケティング（同意がある場合）",
+						"description": "ニュースレター、プロモーションオファー — オプトインした場合のみ。"
+					},
+					"5": {
+						"title": "正当な利益",
+						"description": "プラットフォームの完全性を維持し、不正使用を調査する。"
 					}
-				],
-				"outro": "マーケティングなどのために同意を与えた場合、いつでもそれを取り消すことができます。"
+				}
 			},
 			"cryptoWallet": {
-				"title": "暗号ウォレットとオンチェーンデータ",
-				"points": [
-					"私たちは、アカウントへの入金または引き落とし、取引の監査、または法的要件を満たすために必要な期間のみ、ウォレットアドレスとオンチェーン取引情報を保存します。",
-					"オンチェーンデータは本質的に公開されています。私たちはブロックチェーン活動を隠すことはできませんが、あなたのアカウントを正確に保つために、それを私たち自身の記録と組み合わせます。",
-					"カストディアルウォレット（サードパーティプロバイダー経由など）を接続する場合、取引を処理できるように、彼らが私たちとデータを共有することに同意したものとみなされます。"
-				]
+				"title": "4. 暗号ウォレットの仕様とオンチェーンデータ",
+				"points": {
+					"0": "ウォレットアドレスとオンチェーン取引データは、ユーザーアカウントの入出金、取引の監査、およびコンプライアンス義務を満たすために必要な範囲でのみ保存されます。",
+					"1": "オンチェーンデータは本質的に公開されています — {siteName}はブロックチェーンの可視性を制御しません。アカウントを照合するために、オンチェーンデータとオフチェーンレコードを組み合わせます。",
+					"2": "カストディアルウォレットサービス（第三者）に接続する場合、取引処理のためにそれらのプロバイダーが当社と共有するデータに同意したことになります。"
+				}
 			},
 			"dataSharing": {
-				"title": "データを共有する場合",
-				"intro": "私たちはいくつかのケースでのみあなたの情報を共有します:",
-				"items": [
-					"法律で要求された場合、または違法行為を阻止するために規制当局または法執行機関と。",
-					"事業譲渡（合併や買収など）がある場合、関連会社またはサードパーティと—ただし、常に適切な保護措置を講じます。",
-					"プラットフォームとユーザーの安全を保つために不正防止ネットワークと。"
-				],
-				"noSelling": "私たちはあなたの個人情報を広告主に販売することはありません。"
+				"title": "5. データ共有の時期",
+				"intro": "当社はあなたの情報を共有することがあります:",
+				"items": {
+					"0": "法的手続きによって強制された場合、または違法行為を防止するために規制当局または法執行機関と。",
+					"1": "事業譲渡（合併、買収）における関連会社または第三者と — 常に適切な保護措置を講じます。",
+					"2": "プラットフォームとユーザーを保護するために不正防止ネットワークと。"
+				},
+				"noSelling": "当社はあなたの個人データを広告主に販売しません。"
 			},
 			"security": {
-				"title": "セキュリティ対策",
-				"intro": "私たちはあなたが期待するセキュリティ対策を使用しています:",
-				"items": [
-					"転送中のデータにはTLS/SSL暗号化、機密情報には暗号化されたストレージ。",
-					"アクセス制御、詳細なログ記録、ロールベースの権限。",
-					"定期的なセキュリティ監査と脆弱性チェック。",
-					"当社のスタッフ向けの多要素認証（MFA）—そしてあなた自身のセキュリティのために有効にすることもできます。"
-				],
-				"warning": "覚えておいてください：ウォレットの秘密鍵とアカウントの詳細を安全に保管してください。私たちはあなたの秘密鍵を尋ねることは決してありません。"
+				"title": "6. セキュリティ対策",
+				"intro": "当社は業界標準のセキュリティ対策を使用しています:",
+				"items": {
+					"0": "転送中のTLS / SSL暗号化。機密データの暗号化ストレージ。",
+					"1": "アクセス制御、ロギング、および役割ベースの権限。",
+					"2": "定期的なセキュリティ監査と脆弱性テスト。",
+					"3": "スタッフ向けの多要素認証（MFA）およびユーザー向けのオプション。"
+				},
+				"warning": "ウォレットの秘密鍵とアカウントの認証情報を安全に保管する必要があります。当社は秘密鍵を要求することはありません。"
 			},
 			"cookies": {
-				"title": "クッキーと追跡",
-				"content": "私たちは、サイトを機能させ、トラフィックを分析し、（同意した場合）マーケティングのためにクッキーと類似のツールを使用します。ブラウザの設定でクッキーを制御できますが、不可欠なクッキーをオフにすると、一部の機能が動作しなくなる場合があります。"
+				"title": "7. Cookieと追跡",
+				"content": "当社は、必要なサイト機能、分析、および（同意がある場合）マーケティングのためにCookieおよび同様の技術を使用します。ブラウザでCookieを制御できますが、必須のCookieを無効にすると機能が壊れる可能性があります。"
 			},
 			"minAge": {
-				"title": "子供と最低年齢",
-				"content": "{siteName}を使用するには、18歳以上である必要があります（または現地の法律で定められた最低年齢）。私たちは未成年者のユーザーを積極的にブロックし、未成年者が登録したことが判明した場合、そのデータを削除します。"
+				"title": "8. 子供と最低年齢",
+				"content": "当社のサービスを使用するには、18歳以上（または現地の法律で要求される場合はそれ以上）である必要があります。未成年者の使用を積極的に防止し、未成年者の登録が確認された場合はデータを削除します。"
 			},
 			"breach": {
-				"title": "侵害通知",
-				"content": "あなたの権利を危険にさらすデータ侵害が発生した場合、法律で義務付けられているように、あなたと関連当局に通知し、迅速に問題を解決するために取り組みます。"
+				"title": "9. 違反通知",
+				"content": "あなたの権利にリスクをもたらすデータ侵害が発生した場合、法律で要求されるとおり、影響を受けるユーザーおよび関連当局に通知し、是正措置を講じます。"
 			},
 			"changes": {
-				"title": "このポリシーへの変更",
-				"content": "私たちはこのプライバシーポリシーを変更することができます。大きな更新がある場合は、サイトに掲載し、意味がある場合には直接お知らせします。"
+				"title": "10. このポリシーの変更",
+				"content": "当社はこのプライバシーポリシーを変更することがあります。重大な変更はサイトに掲載され、適切な場合はあなたに通知されます。"
 			},
 			"contact": {
-				"title": "連絡先",
-				"intro": "質問やリクエストがありますか？",
-				"link": "🌐 https://{siteDomain}"
+				"title": "11. 連絡先",
+				"intro": "質問またはリクエスト:"
 			}
 		}
 	},
 	"terms": {
 		"title": "利用規約",
-		"subtitle": "ユーザー同意書とプラットフォームルール",
+		"subtitle": "ユーザー契約とプラットフォーム規則",
 		"lastUpdated": "2025年1月",
 		"intro": {
-			"paragraph1": "www.{siteDomain}に登録またはウォレットを接続することにより、あなたは{siteName} N.V.との拘束力のある契約を締結します。",
-			"paragraph2": "これらの規約のいずれかに同意しない場合は、当社のウェブサイトにアクセス、使用、または登録しないでください。これらの規約を注意深くお読みください。ご自身の権利または義務について不明な点がある場合は、ウェブサイトを使用する前に、ご自身の管轄区域の法律顧問にご相談ください。"
+			"paragraph1": "www.{siteDomain}に登録するか、ウォレットを接続することにより、{siteName} N.V.との拘束力のある契約を締結したことになります。",
+			"paragraph2": "これらのいずれかの条件に同意しない場合は、当社のウェブサイトにアクセス、使用、または登録しないでください。これらの規約を注意深くお読みください。ご自身の権利または義務について不確かな場合は、ウェブサイトを使用する前に、お住まいの管轄区域の法律顧問にご相談ください。"
 		},
 		"sections": {
 			"ownership": {
 				"title": "1. {siteName}の所有権",
-				"content1": "{siteName}は{siteName} N.V.（'{siteName}'、'当社'、'私たちの'、'私たち'）によって所有および運営されています。",
-				"content2": "{siteName}はクリプトウォレット専用カジノです。すべての入金、賭け、出金はユーザーの暗号通貨ウォレットを介して処理されます。Dynamic.xyzおよび互換性のあるウォレットコネクタ（例：WalletConnect / MetaMask）を介したウォレットログインをサポートしています。"
+				"content1": "{siteName}は、{siteName} N.V.（「{siteName}」、「当社」、「私たちの」、「私たち」）によって所有および運営されています。",
+				"content2": "{siteName}は暗号ウォレットのみのカジノです。すべての入金、賭け金、および出金は、ユーザーの暗号通貨ウォレットを介して処理されます。Dynamic.xyzおよび互換性のあるウォレットコネクタ（例：WalletConnect / MetaMask）を介したウォレットログインをサポートしています。"
 			},
 			"notice": {
-				"title": "2. 重要な通知",
-				"content1": "2.1 www.{siteDomain}（「ウェブサイト」）に登録またはウォレットを接続することにより、あなたは{siteName} N.V.との拘束力のある契約を締結し、次のことに同意します: (i) これらの利用規約; (ii) 当社のプライバシーポリシー; (iii) 当社のクッキーポリシー; (iv) 当社のアフィリエイト規約; および (v) 当社の責任あるゲーミングポリシー。",
-				"content2": "2.2 これらの規約のいずれかに同意しない場合は、当社のウェブサイトにアクセス、使用、または登録しないでください。",
-				"content3": "2.3 これらの規約を注意深くお読みください。ご自身の権利または義務について不明な点がある場合は、ウェブサイトを使用する前に、ご自身の管轄区域の法律顧問にご相談ください。"
+				"title": "2. 重要なお知らせ",
+				"content1": "2.1 www.{siteDomain}（「ウェブサイト」）に登録するか、ウォレットを接続することにより、{siteName} N.V.との拘束力のある契約を締結し、以下に同意したことになります：（i）これらの利用規約。（ii）当社のプライバシーポリシー。（iii）当社のCookieポリシー。（iv）当社のアフィリエイト規約。および（v）当社の責任あるゲーミングポリシー。",
+				"content2": "2.2 これらのいずれかの条件に同意しない場合は、当社のウェブサイトにアクセス、使用、または登録しないでください。",
+				"content3": "2.3 これらの規約を注意深くお読みください。ご自身の権利または義務について不確かな場合は、ウェブサイトを使用する前に、お住まいの管轄区域の法律顧問にご相談ください。"
 			},
 			"general": {
 				"title": "3. 一般規約",
 				"items": [
-					"登録またはウォレット接続時に、あなた（「ユーザー」、「プレイヤー」、「あなた」、または「あなたの」）は、すべての{siteName}のルールとポリシーを遵守することに同意します。",
-					"この同意書は、あなたと{siteName}との間の法的に拘束力のある契約です。",
-					"これらの規約は、あなたがウォレットを接続し、サイトの使用を開始した瞬間に有効になります。",
-					"{siteName}は、いつでもこれらの規約を修正または更新する権利を留保します。変更はウェブサイトで公開されます。継続的な使用は、同意を構成します。",
-					"矛盾がある場合、これらの規約は、その他のルール、プロモーション、または外部資料よりも優先されます。",
-					"これらの規約の英語版のみが法的に拘束力を持ちます。翻訳は便宜のためのみです。"
+					"登録またはウォレット接続時に、あなた（「ユーザー」、「プレイヤー」、「あなた」、または「あなたの」）は、すべての{siteName}の規則およびポリシーに従うことに同意します。",
+					"本契約は、あなたと{siteName}との間の法的に拘束力のある契約です。",
+					"これらの規約は、ウォレットを接続してサイトの使用を開始した瞬間に有効になります。",
+					"{siteName}は、いつでもこれらの規約を修正または更新する権利を留保します。変更はウェブサイトに公開されます。継続的な使用は、承諾を構成します。",
+					"紛争が発生した場合、これらの規約は、他の規則、プロモーション、または外部資料よりも優先されます。",
+					"これらの規約の英語版のみが法的に拘束力があります。翻訳は便宜上のものです。"
 				]
 			},
 			"account": {
-				"title": "4. アカウント、ウォレットログインとセキュリティ",
-				"intro": "{siteName}は、アカウントを保護するためのウォレットベースの認証とセキュリティ対策にDynamic.xyzを使用しています。",
+				"title": "4. アカウント、ウォレットログイン、セキュリティ",
+				"intro": "{siteName}は、ウォレットベースの認証と、アカウントを保護するためのセキュリティ対策にDynamic.xyzを使用しています。",
 				"walletLogin": {
-					"title": "4.1 ウォレットログイン (Dynamic.xyz)",
+					"title": "4.1 ウォレットログイン（Dynamic.xyz）",
 					"items": [
-						"{siteName}は、ウォレットベースのログインと認証にDynamic.xyz（またはその他のサポートされているコネクタ）を使用しています。ウォレットを接続することにより、あなたはそのウォレットの合法的な所有者であることを確認し、{siteName}がそのウォレットをあなたのアカウントとして認識することを許可します。",
-						"私たちはあなたの秘密鍵を要求することはありません。あなたはウォレットの資格情報とデバイスを安全に保つ必要があります。{siteName}は、侵害されたウォレットまたは漏洩した秘密鍵によって引き起こされた損失について責任を負いません。"
+						"{siteName}は、ウォレットベースのログインと認証にDynamic.xyz（またはその他のサポートされているコネクタ）を使用します。ウォレットを接続することにより、あなたはそのウォレットの合法的な所有者であることを確認し、{siteName}がそのウォレットをあなたのアカウントとして認識することを許可します。",
+						"当社はあなたの秘密鍵を要求することはありません。ウォレットの認証情報とデバイスを安全に保管する必要があります。{siteName}は、侵害されたウォレットまたは漏洩した秘密鍵によって生じた損失について責任を負いません。"
 					]
 				},
 				"registration": {
-					"title": "4.2 登録の詳細",
+					"title": "4.2 登録詳細",
 					"items": [
-						"アカウント通信のために連絡先の詳細（メールアドレス、ユーザー名）を提供するように求められる場合があります。あなたは正確な情報を提供し、それを最新の状態に保つ必要があります。",
-						"あなたは、接続されたウォレットを使用して行われたすべてのアクションについて責任を負います。"
+						"アカウントの連絡のために、連絡先の詳細（メールアドレス、ユーザー名）を提供するように求められる場合があります。正確な情報を提供し、最新の状態に保つ必要があります。",
+						"接続されたウォレットを使用して行われたすべての行動について、あなたが責任を負います。"
 					]
 				},
 				"security": {
-					"title": "4.3 複数のアカウントとセキュリティ",
+					"title": "4.3 複数アカウントとセキュリティ",
 					"items": [
-						"個人のアカウントは1つのみ許可されています。複数のアカウントまたは制限を回避しようとする試みは、アカウントの停止および資金の没収につながる可能性があります。",
-						"提供されているプラットフォームのセキュリティ機能（例えば、関連サービスのための2FA）を有効にし、あなた自身のウォレットを保護してください。",
-						"不正アクセスを疑う場合は、すぐにサポートに通知してください。"
+						"個人ごとに1つのアカウントのみが許可されます。複数アカウントまたは制限を回避しようとする試みは、アカウントの停止および資金の没収につながる可能性があります。",
+						"提供されているプラットフォームのセキュリティ機能（例えば、関連サービスのための2FA）を有効にし、ご自身のウォレットを保護してください。",
+						"不正アクセスが疑われる場合は、直ちにサポートに通知してください。"
 					]
 				}
 			},
 			"eligibility": {
-				"title": "5. 資格とユーザーの保証",
-				"intro": "5.1 あなたは次のことを表明し、保証します:",
+				"title": "5. 適格性とユーザーの保証",
+				"intro": "5.1 あなたは以下を表明し、保証します:",
 				"items": [
-					"あなたは18歳以上であること（またはあなたの管轄区域での最低法定ギャンブル年齢）。",
-					"あなたはあなたの所在地でオンラインクリプトギャンブルサービスを使用することが法的に許可されていること。",
-					"あなたは接続するウォレットの合法的な所有者であること。",
-					"あなたは地域の制限を回避するためにVPNや位置情報のなりすましを使用しないこと。",
-					"あなたはサービスを違法または商業目的で使用しないこと。",
-					"あなたは暗号通貨の価値が変動する可能性があることを受け入れ、すべての市場リスクを負うこと。"
+					"あなたは少なくとも18歳（またはあなたの管轄区域における最低法定ギャンブル年齢）です。",
+					"あなたがいる場所でオンライン暗号ギャンブルサービスを合法的に使用することが許可されています。",
+					"あなたは接続するウォレットの合法的な所有者です。",
+					"地域の制限を回避するためにVPNや位置情報の偽装を使用しません。",
+					"違法または商業目的でサービスを使用しません。",
+					"暗号通貨の価値が変動する可能性があり、すべての市場リスクを負うことを受け入れます。"
 				],
-				"outro": "5.2 これらの保証に違反した場合、{siteName}は法律で許可されている範囲でアクセスを停止または終了し、資金を差し控える場合があります。"
+				"outro": "5.2 これらの保証に違反した場合、{siteName}はアクセスを停止または終了し、法律で許可されている場合は資金を保留することがあります。"
 			},
 			"restricted": {
 				"title": "6. 制限された管轄区域",
-				"content1": "6.1 {siteName}は、クリプトギャンブルが禁止または制限されている管轄区域からのプレイヤーを受け入れません。これには、以下が含まれますが、これらに限定されません:",
-				"content2": "米国（および米国の領土）、英国、フランス、オランダ、スペイン、ドイツ、オーストラリア、オーストリア、コモロ、イラン、北朝鮮、スーダン、シリア、およびFATFブラックリストに記載されているすべての管轄区域。",
+				"content1": "6.1 {siteName}は、暗号ギャンブルが禁止または制限されている管轄区域からのプレイヤーを受け入れません。これには、以下が含まれますが、これらに限定されません:",
+				"content2": "米国（および米国の領土）、英国、フランス、オランダ、スペイン、ドイツ、オーストラリア、オーストリア、コモロ、イラン、北朝鮮、スーダン、シリア、およびFATFのブラックリストに記載されている管轄区域。",
 				"content3": "6.2 VPNまたはプロキシを介して制限された管轄区域からサービスにアクセスしようとすることは、これらの規約の違反であり、アカウントの閉鎖および資金の没収につながる可能性があります。"
 			},
 			"crypto": {
-				"title": "7. クリプトの入金と出金",
+				"title": "7. 暗号通貨の入出金",
 				"policy": {
-					"title": "7.1 クリプト専用ポリシー",
+					"title": "7.1 暗号通貨のみのポリシー",
 					"items": [
-						"{siteName}は、サポートされている暗号通貨（例：BTC、ETH、USDT、TRX、BNB）でのみ入金と出金を受け入れます。法定通貨、カード、または銀行振込による入金は受け付けていません。",
-						"すべての入金は、あなたが管理するウォレットから行われる必要があります。サードパーティのウォレットからの入金は禁止されています。"
+						"{siteName}は、サポートされている暗号通貨（例：BTC、ETH、USDT、TRX、BNB）でのみ入出金を受け付けます。法定通貨、カード、または銀行振込による入金は受け付けません。",
+						"すべての入金は、あなたが管理するウォレットから行う必要があります。第三者のウォレットからの入金は禁止されています。"
 					]
 				},
 				"deposits": {
 					"title": "7.2 入金",
 					"items": [
-						"入金は、必要なブロックチェーンの確認後にクレジットされます。ネットワーク（ガス）料金はあなたが支払う必要があります。",
-						"{siteName}は、ブロックされたアドレスまたは制限されたソースから発信されたと思われる入金を拒否または取り消す場合があります。"
+						"入金は、必要なブロックチェーンの確認後にクレジットされます。ネットワーク（ガス）手数料はあなたが支払う必要があります。",
+						"{siteName}は、ブロックされたアドレスまたは制限されたソースから発生したと思われる入金を拒否または取り消すことがあります。"
 					]
 				},
 				"withdrawals": {
 					"title": "7.3 出金",
 					"items": [
-						"出金は、あなたが提供したウォレットアドレスに処理されます。{siteName}は、処理前に宛先ウォレットを確認するようにあなたに要求する場合があります。",
-						"あなたは出金をカバーするのに十分なクリアされた残高を持っている必要があります。不正行為または異常な活動が疑われる場合、出金が遅延する場合があります。"
+						"出金は、あなたが提供するウォレットアドレスに処理されます。{siteName}は、処理前に宛先ウォレットを確認するように要求することがあります。",
+						"出金をカバーするのに十分なクリアされた残高が必要です。不正使用または異常な活動が疑われる場合、出金が遅れることがあります。"
 					]
 				},
 				"chargebacks": {
 					"title": "7.4 チャージバックと取り消し",
 					"items": [
-						"クリプト取引はオンチェーンで最終的です。{siteName}がサードパーティのサービスプロバイダーからのチャージバックまたは取り消しにより損失を被る場合（オンチェーンではまれ）、当社は金額を回収するか、管理手数料を請求する権利を留保します。"
+						"暗号通貨の取引はオンチェーンで最終的です。{siteName}が第三者のサービスプロバイダーからのチャージバックまたは取り消し（オンチェーンでは稀）によって損失を被った場合、当社は金額を回収するか、管理手数料を請求する権利を留保します。"
 					]
 				}
 			},
 			"kyc": {
-				"title": "8. 定期的な身元確認なし（KYCなし）",
-				"content1": "8.1 {siteName}は、通常のプレイの条件として定期的な身元確認（KYC）を実行しません。ユーザーはDynamic.xyzを介してウォレットを接続し、身元証明書を提供せずにプレイを開始できます。",
-				"content2": "8.2 上記にかかわらず、{siteName}は、次の目的で情報または取引の停止を要求する権利を留保します:",
+				"title": "8. 定期的な本人確認なし（KYCなし）",
+				"content1": "8.1 {siteName}は、通常のプレイの条件として定期的な本人確認（KYC）を行いません。ユーザーはDynamic.xyzを介してウォレットを接続し、本人確認書類を提供することなくプレイを開始できます。",
+				"content2": "8.2 上記にかかわらず、{siteName}は、以下を要求する場合、情報を提供するか、取引を停止する権利を留保します:",
 				"items": [
-					"管轄当局からの合法的な命令を遵守するため:",
-					"不正行為、マネーロンダリング、その他の違法行為を防止、調査、または是正するため",
-					"またはプラットフォームのセキュリティと整合性を保護するため。"
+					"管轄当局からの合法的な命令に従うため:",
+					"詐欺、マネーロンダリング、またはその他の違法行為を防止、調査、または是正するため",
+					"またはプラットフォームのセキュリティと完全性を保護するため。"
 				],
-				"content3": "8.3 法的に要求されたときにそのような情報の提供を拒否した場合、{siteName}は、法律で許可されている範囲であなたのアカウントを制限または閉鎖し、出金を遅延または差し控える場合があります。"
+				"content3": "8.3 法的に要求された場合にそのような情報を提供することを拒否した場合、{siteName}は、法律で許可されている範囲でアカウントを制限または閉鎖し、出金を遅延または保留することがあります。"
 			},
 			"fairPlay": {
-				"title": "9. フェアプレイ、禁止されている行為とセキュリティ",
-				"intro": "あなたは次のことをしてはなりません:",
+				"title": "9. 公正なプレイ、禁止行為、セキュリティ",
+				"intro": "以下の行為をしてはなりません:",
 				"items": [
-					"ボット、スクリプト、自動プレイツール、または不正なソフトウェアを使用すること。",
+					"ボット、スクリプト、自動プレイツール、またはその他の無許可のソフトウェアを使用すること。",
 					"他のプレイヤーと共謀したり、ゲームの結果を操作したりすること。",
 					"ボーナスやプロモーションを悪用するために複数のアカウントを作成すること。",
-					"オンチェーン取引を取り消したり、改ざんしたりしようとすること。",
+					"オンチェーン取引を逆転または改ざんしようとすること。",
 					"ゲームのバグやプラットフォームの脆弱性を悪用すること。"
 				],
-				"outro1": "不正行為、共謀、またはプラットフォームの悪用が判明したアカウントは、停止、閉鎖、または残高が没収される場合があります。",
-				"outro2": "{siteName}は、プラットフォームの整合性を保護するために技術的および行動的な監視を実装しています。"
+				"outro1": "不正行為、共謀、またはプラットフォームを悪用していると判断されたアカウントは、停止、閉鎖、または残高が没収される場合があります。",
+				"outro2": "{siteName}は、プラットフォームの完全性を保護するために技術的および行動的な監視を実施しています。"
 			},
 			"bonuses": {
 				"title": "10. ボーナスとプロモーション",
 				"items": [
-					"すべてのボーナスオファーとプロモーションは、各オファーに記載されている特定のボーナス規約の対象となります。",
-					"ボーナスの乱用（複数のアカウントや急速なボーナスの切り替えを含む）は、ボーナスの拒否、取り消し、没収、およびアカウントの閉鎖につながる可能性があります。",
-					"ボーナスから派生した資金を出金する前に、プロモーションごとに指定されたボーナス賭け条件を満たす必要があります。"
+					"すべてのボーナスオファーとプロモーションは、各オファーで述べられている特定のボーナス規約の対象となります。",
+					"ボーナスの乱用（複数アカウントや迅速なボーナス切り替えを含む）は、ボーナスの拒否、取り消し、または没収、およびアカウントの閉鎖につながる可能性があります。",
+					"ボーナスから派生した資金を引き出す前に、プロモーションごとに指定されたボーナスの賭け条件を満たす必要があります。"
 				]
 			},
 			"playingRules": {
-				"title": "11. プレイのルールとゲームの決済",
+				"title": "11. プレイルールとゲームの決済",
 				"items": [
-					"ベットは、画面上の確認を受け取った後にのみ受け入れられます。残高不足で置かれたベットは無効です。",
-					"紛争が発生した場合、{siteName}の内部ログとブロックチェーン記録が権威となります。",
-					"イベントがキャンセル、停止、またはその他の方法で損なわれた場合、{siteName}は公開されたゲームおよび市場のルールに従ってベットを決済または無効にします。",
-					"証明可能な公平なゲームの場合、検証ツールとサーバーシード（該当する場合）はゲームごとに利用可能になります。サーバーログが最終的なものとなります。"
+					"ベットは、画面上の確認を受け取った場合にのみ受け付けられます。残高が不十分な状態で置かれたベットは無効です。",
+					"{siteName}の内部ログとブロックチェーンの記録は、紛争の場合に権威を持ちます。",
+					"イベントがキャンセル、中断、またはその他の方法で侵害された場合、{siteName}は公開されたゲームおよび市場のルールに従ってベットを決済または無効にします。",
+					"証明可能な公正なゲームについては、検証ツールとサーバーシード（該当する場合）がゲームごとに利用可能になります。サーバーログは最終的なものです。"
 				]
 			},
 			"errors": {
-				"title": "12. エラー、中断と制限",
-				"intro": "{siteName}は、次の原因による損失について責任を負いません:",
+				"title": "12. エラー、中断、制限",
+				"intro": "{siteName}は、以下の原因による損失について責任を負いません:",
 				"items": [
 					"インターネットまたはデバイスの障害",
 					"ブロックチェーンの遅延、フォーク、またはネットワークの混雑",
-					"ソフトウェアのバグまたはサードパーティのサービスの停止"
+					"ソフトウェアのバグまたは第三者のサービスの中断"
 				],
-				"outro1": "{siteName}は、エラーや悪用が検出された場合、ベットを無効にしたり、残高を調整したり、取引をキャンセルしたりする権利を留保します。",
-				"outro2": "私たちは、ユーザーとプラットフォームを保護するために、賭けの制限、最大勝利額、その他の制御を設定する場合があります。"
+				"outro1": "エラーや悪用が検出された場合、{siteName}はベットを無効にし、残高を調整し、または取引をキャンセルする権利を留保します。",
+				"outro2": "当社は、ユーザーとプラットフォームを保護するために、賭け金制限、最大勝利額、およびその他の制御を設定することがあります。"
 			},
 			"suspension": {
-				"title": "13. 停止、閉鎖と資金の取り扱い",
-				"intro": "{siteName}は、次の場合にアカウントを停止または閉鎖する場合があります:",
+				"title": "13. 停止、閉鎖、資金の取り扱い",
+				"intro": "以下の場合、{siteName}はアカウントを停止または閉鎖することがあります:",
 				"items": [
-					"規約が違反された場合",
+					"規約に違反した場合",
 					"乱用、詐欺、または疑わしい行動が検出された場合",
 					"法的または規制上の義務が必要とする場合"
 				],
-				"outro1": "アカウント閉鎖時、保留中の賭けはキャンセルされ、残りの資金は適用される法律およびプラットフォームのポリシーに従って処理される場合があります。",
-				"outro2": "{siteName}は、紛争を解決したり、合法的な要求を遵守したり、損失を是正したりするために必要な場合、資金を保持する場合があります。"
+				"outro1": "アカウント閉鎖時に、保留中の賭け金はキャンセルされ、残りの資金は適用される法律およびプラットフォームのポリシーに従って処理される場合があります。",
+				"outro2": "{siteName}は、紛争の解決、合法的な要求への準拠、または損失の是正のために必要な場合、資金を保持することがあります。"
 			},
 			"responsibleGaming": {
 				"title": "14. 責任あるゲーミング",
 				"items": [
-					"{siteName}は責任あるギャンブルを推進しています。あなたは次のものを要求することができます: 自己排除、入金制限、または一時停止。",
-					"ギャンブルによる危害を疑う場合は、直ちに支援を受けるために{siteDomain}にアクセスしてください。",
-					"未成年者のギャンブル（18歳未満または現地の法定年齢未満）は固く禁じられています。未成年者に属すると判明したアカウントは閉鎖され、資金はポリシーに従って処理されます。"
+					"{siteName}は責任あるギャンブルを推進しています。以下を要求することができます：自己除外、入金制限、または一時停止。",
+					"ギャンブルによる害が疑われる場合は、{siteDomain}にアクセスして即時の支援を受けてください。",
+					"未成年者のギャンブル（18歳未満または現地の法定年齢）は固く禁じられています。未成年者のものであると判明したアカウントは閉鎖され、資金はポリシーに従って処理されます。"
 				]
 			},
 			"ip": {
 				"title": "15. 知的財産",
-				"content1": "{siteName}上のすべての商標、ロゴ、サイトコンテンツ、ソフトウェア、およびゲームアセットは、{siteName}によって所有またはライセンスされています。不正なコピー、スクレイピング、または再配布は禁止されています。",
-				"content2": "あなたは、個人的な娯楽のためだけにサービスにアクセスするための限定的で取消可能なライセンスを付与されます。"
+				"content1": "{siteName}上のすべての商標、ロゴ、サイトコンテンツ、ソフトウェア、およびゲーム資産は、{siteName}が所有またはライセンス供与しています。無断でのコピー、スクレイピング、または再配布は禁止されています。",
+				"content2": "あなたは、個人的な娯楽のためにのみサービスにアクセスするための限定的で取り消し可能なライセンスを付与されます。"
 			},
 			"liability": {
 				"title": "16. 責任の制限",
 				"items": [
-					"法律で許可されている最大限の範囲で、{siteName}は、逸失利益や機会費用を含む間接的、特別、結果的、または付随的な損失について責任を負いません。",
-					"これらの規約に関連するいかなる請求に対する当社の総責任は、あなたの最後の入金の価値、または適用法で指定された金額を超えないものとします。",
-					"これらの規約のいかなるものも、適用法がそのような制限を禁止している場合の過失によって引き起こされた死亡または人身傷害に対する責任を制限するものではありません。"
+					"法律で許可される最大限の範囲で、{siteName}は、間接的、特別、結果的または付随的な損失（逸失利益または機会費用を含む）について責任を負いません。",
+					"これらの規約に関連するいかなる請求に対する当社の総責任は、最後の入金額または適用法で指定された金額を超えないものとします。",
+					"これらの規約のいかなる条項も、適用法がそのような制限を禁止する場合、過失によって引き起こされた死亡または人身傷害に対する責任を制限するものではありません。"
 				]
 			},
 			"disputes": {
 				"title": "17. 紛争解決と準拠法",
-				"content": "紛争が発生した場合は、{siteDomain}にアクセスしてください。私たちは苦情を迅速に解決することを目指しています。必要に応じてマネジメントにエスカレートしてください。"
+				"content": "紛争の場合は、{siteDomain}にアクセスしてください。私たちは苦情を迅速に解決することを目指しています。必要な場合は管理者にエスカレートしてください。"
 			},
 			"amendments": {
 				"title": "18. 修正",
-				"content": "{siteName}はいつでもこれらの規約を修正することができます。更新された規約はウェブサイトに掲載されます。継続的な使用は、同意を構成します。"
+				"content": "{siteName}は、いつでもこれらの規約を修正することがあります。更新された規約はウェブサイトに掲載されます。継続的な使用は、承諾を構成します。"
 			},
 			"miscellaneous": {
 				"title": "19. その他",
 				"items": [
 					"これらの規約は、サービスに関するあなたと{siteName}との間の完全な合意を構成します。",
-					"いずれかの条項が執行不能であると判明した場合、それは最小限必要な範囲で修正され、残りの規定は引き続き有効となります。",
-					"あなたはこれらの規約に基づくあなたの権利を譲渡することはできません。{siteName}は、権利と義務を譲渡または下請けすることができます。"
+					"いずれかの条項が執行不能であると判断された場合、それは必要最小限の範囲で修正され、残りの条項は引き続き有効です。",
+					"あなたはこれらの規約に基づく権利を譲渡することはできません。{siteName}は権利と義務を譲渡または下請けに出すことがあります。"
 				]
 			},
 			"contact": {
 				"title": "20. 連絡先",
 				"intro": "サポート、苦情、または法的通知については:",
-				"supportEmail": "一般的なサポート: {siteDomain}にアクセス",
-				"affiliateEmail": "アフィリエイトに関するお問い合わせ: {siteDomain}にアクセス",
-				"registeredOffice": "登録事務所: {siteDomain} N.V., Heelsumstraat 51, Willemstad, Curaçao"
+				"supportEmail": "一般サポート: {siteDomain}にアクセスしてください",
+				"affiliateEmail": "アフィリエイトに関するお問い合わせ: {siteDomain}にアクセスしてください",
+				"registeredOffice": "登録事務所: {siteName} N.V., Heelsumstraat 51, Willemstad, Curaçao"
 			}
 		}
 	},
 	"responsibleGambling": {
-		"title": "{siteName}における責任あるギャンブル",
-		"subtitle": "{siteName}では、ゲームが安全で楽しく、いつでもやめられるものであることを望んでいます。私たちはバランスを保つことに重点を置いています—楽しみのためにプレイし、お金を稼いだり、財政を立て直したりするためではありません。",
+		"title": "責任あるギャンブル – {siteName}",
+		"subtitle": "{siteName}での責任あるギャンブルについて学びましょう。自制心を保ち、責任を持ってプレイし、世界的な支援団体を通じてサポートを受けましょう。",
 		"lastUpdated": "最終更新日: 2025年1月",
 		"intro": {
-			"title": "{siteName}における責任あるギャンブル",
-			"paragraph1": "{siteName}では、ゲームが安全で楽しく、いつでもやめられるものであることを望んでいます。私たちはバランスを保つことに重点を置いています—楽しみのためにプレイし、お金を稼いだり、財政を立て直したりするためではありません。",
-			"paragraph2": "18歳未満、またはお住まいの地域の法定年齢未満の方は、当社のプラットフォームを使用できません。私たちはこれを真剣に受け止めています。"
+			"title": "🎯 責任あるギャンブル – {siteName}",
+			"paragraph1": "{siteName}では、ゲームが安全で、楽しく、責任あるエンターテイメントであり続けることを保証することに尽力しています。|私たちはコミュニティに、賢くプレイし、自制心を保ち、ギャンブルを収入源や財政回復の手段としてではなく、レジャー活動として扱うことを奨励しています。",
+			"paragraph2": "18歳未満（または管轄区域における最低法定ギャンブル年齢）のすべての個人が当社のプラットフォームにアクセスまたは使用することを固く禁じます。"
 		},
 		"mission": {
-			"title": "私たちの使命",
-			"paragraph1": "私たちは、明確で正直、安全なゲームを信じています。{siteName}は、あなたが賢明な選択をし、ギャンブルが問題になるのを防ぐのを助けるために存在します。",
-			"paragraph2": "私たちにとって重要なことは次のとおりです:",
+			"title": "⚖️ 私たちの使命",
+			"paragraph1": "{siteName}は、透明で、安全で、コミュニティ主導の環境を提供することにより、責任あるゲーミングを推進しています。|私たちの使命は、プレイヤーが情報に基づいた決定を下し、ギャンブルが問題になるのを防ぐのを助けることです。",
+			"paragraph2": "私たちは以下を信じています:",
 			"beliefs": {
-				"0": "ギャンブルはエンターテイメントです。金持ちになるための方法ではありません。",
-				"1": "自分自身を知り、制限を設定し、やりすぎないようにしてください。",
-				"2": "私たちは、あなたがコントロールを維持するのを助けるためのツールとリソースを提供します。"
+				"0": "ギャンブルは娯楽であり、お金を稼ぐ方法ではありません。",
+				"1": "自己認識と節度を促進すること。",
+				"2": "危険な行動を防ぐためのサポートツールとリソースを提供すること。"
 			}
 		},
 		"understanding": {
-			"title": "責任あるギャンブルが本当に意味すること",
-			"paragraph1": "オンラインギャンブルは最近どこにでもあります。そのため、時間やお金、あるいは最初にプレイを始めた理由さえも見失いやすくなります。|責任あるギャンブルとは、自分の境界を知り、冷静さを保ち、物事が手に負えなくなるのを防ぐことを意味します。",
-			"paragraph2": "覚えておくべきいくつかのこと:",
+			"title": "🧠 責任あるギャンブルを理解する",
+			"paragraph1": "オンラインギャンブルはこれまで以上にアクセスしやすくなりましたが、それはまた、時間、バランス、またはモチベーションを見失いやすいことも意味します。|責任あるギャンブルとは、自分の限界を知り、情報を得て、プレイをコントロールし続けることです。",
+			"paragraph2": "あなたの体験を楽しく安全に保つために、覚えておいてください:",
 			"tips": {
-				"0": "利益のためではなく、楽しみのためにプレイしてください。",
-				"1": "損失を取り戻そうとしないでください。必要に応じて休憩を取ってください。",
-				"2": "自分自身のために支出と時間の制限を設定し、それを守ってください。",
-				"3": "疲れているとき、ストレスを感じているとき、または動揺しているときは、決してギャンブルをしないでください。",
-				"4": "請求やその他の必要なもののための資金を使用しないでください。",
-				"5": "楽しくなくなったら、離れてください。"
+				"0": "利益のためではなく、楽しみのためにプレイする。",
+				"1": "損失を追わないでください — 必要なときに休憩を取ってください。",
+				"2": "支出と時間に個人的な制限を設定する。",
+				"3": "ストレス、疲れ、または動揺しているときは決してギャンブルをしないでください。",
+				"4": "他の費用のために意図されたお金でギャンブルを避ける。",
+				"5": "ギャンブルが楽しくなくなった場合は、一歩下がる時です。"
 			}
 		},
 		"selfCheck": {
-			"title": "クイックセルフチェック: あなたはまだコントロールできていますか？",
-			"intro": "自分に正直になってください:",
+			"title": "🧩 自己チェック: 責任を持ってギャンブルをしていますか？",
+			"intro": "これらの質問に正直に答えてください:",
 			"questions": {
-				"0": "ギャンブルで時間を忘れてしまいますか？",
-				"1": "人間関係や仕事に悪影響を与えましたか？",
+				"0": "意図したよりも長くギャンブルをしたことがありますか？",
+				"1": "ギャンブルがあなたの人間関係や仕事に影響を与えたことがありますか？",
 				"2": "プレイできないときにイライラしますか？",
-				"3": "退屈やストレスから逃れるためにギャンブルをしていますか？",
-				"4": "プレイし続けるためだけに、お金やクリプトを借りましたか？",
-				"5": "損失を取り戻そうと、もっと賭けて追いかけていますか？"
+				"3": "ストレスや退屈から逃れるためにギャンブルをしますか？",
+				"4": "ギャンブルを続けるために暗号通貨やお金を借りたことがありますか？",
+				"5": "より多く賭けることで以前の損失を取り戻そうとすることがよくありますか？"
 			},
-			"warning": "いくつか「はい」と答えた場合は、プレイ方法を再考し、助けを求める時かもしれません。"
+			"warning": "これらのいくつかに「はい」と答えた場合は、ギャンブルの習慣を見直し、支援を求める必要があるかもしれません。"
 		},
 		"tools": {
-			"title": "{siteName}があなたが順調に進むのを助ける方法",
-			"intro": "私たちはあなたが楽しむことを望んでいますが、安全を維持することも望んでいます。|私たちが提供するものは次のとおりです:",
+			"title": "🛡️ {siteName}が自制心を保つのに役立つもの",
+			"intro": "私たちはすべてのプレイヤーが安全かつ責任を持ってギャンブルを楽しんでほしいと願っています。|当社のプラットフォームには、ゲームプレイを管理するのに役立ついくつかのツールとリソースが含まれています。",
 			"selfExclusion": {
-				"title": "自己排除",
-				"description": "休憩が必要ですか？あなたは一時的または永久にあなたのアカウントをブロックするように要求することができます。この間、あなたはプレイしたり、プロモーションメールを受け取ったりすることはできません。{siteName}にご連絡いただければ、プライベートで対応いたします。"
+				"title": "🔹 自己除外",
+				"description": "アカウントから一時的または永久的な自己除外を要求できます。この期間中、アクセスは制限され、プロモーション資料は受け取れません。|自己除外を開始するには、{siteDomain}にお問い合わせください — 当社のチームが内密にサポートします。"
 			},
 			"coolingOff": {
-				"title": "クーリングオフ期間",
-				"paragraph1": "物事が手に負えなくなっていると感じたら、24時間、1週間、または1ヶ月間休憩を取ってください。この間、あなたはウォレットを接続してプレイすることはできません。",
+				"title": "🔹 クーリングオフ期間",
+				"paragraph1": "圧倒されたり、休憩が必要な場合は？|以下のクーリングオフ期間を取ることができます:",
 				"periods": {
 					"0": "24時間",
 					"1": "1週間",
 					"2": "1ヶ月"
 				},
-				"paragraph2": "この間、あなたはウォレットを接続してプレイすることはできません。"
+				"paragraph2": "この期間中、ゲームプレイのためにウォレットの接続が無効になります。"
 			},
 			"depositAwareness": {
-				"title": "入金と損失の認識",
-				"description": "すべてがクリプトウォレットを介して実行されるため、すべての入金とベットをブロックチェーン上で直接見ることができます。常に自分がどこに立っているかを知るために、あなたのアクティビティに目を光らせてください。"
+				"title": "🔹 入金と損失の認識",
+				"description": "{siteName}は暗号ウォレットのみで運営されているため、プレイヤーはすべての入金と取引をオンチェーンで簡単に監視できます。|総プレイ量を把握するために、定期的にウォレットのアクティビティを確認することをお勧めします。"
 			}
 		},
 		"underagePrevention": {
-			"title": "未成年者の保護",
-			"paragraph1": "18歳未満のギャンブルは禁止です。私たちは真剣に受け止めています。",
-			"tipsTitle": "保護者の方へ、いくつかのヒント:",
+			"title": "👶 未成年者のギャンブル防止",
+			"paragraph1": "18歳未満の者によるギャンブルは固く禁じられています。|私たちは未成年者のギャンブルを真剣に受け止め、積極的に阻止しています。",
+			"tipsTitle": "保護者向けのヒント:",
 			"tips": {
-				"0": "パスワードを使用するか、デバイスをロックしてください。",
-				"1": "共有されたコンピューターやスマートフォンにウォレット情報を保存しないでください。",
-				"2": "席を離れるときは、必ずログアウトしてください。",
-				"3": "NetNannyやGamBlockなどのツールを使用して、ギャンブルサイトをブロックしてください。",
-				"4": "お子様のオンラインアクティビティをチェックしてください。"
+				"0": "デバイスにパスワードを使用するか、アクセスをロックする。",
+				"1": "共有デバイスにウォレットの認証情報や回復フレーズを保存しない。",
+				"2": "デバイスを放置する際は{siteName}からログアウトする。",
+				"3": "NetNannyやGamBlockなどのコンテンツフィルターを使用してアクセスを制限する。",
+				"4": "子供のオンライン活動を定期的に監視する。"
 			},
-			"warning": "未成年者がプレイしていることが判明した場合、私たちは彼らのアカウントをシャットダウンし、賞金をキャンセルします。"
+			"warning": "未成年者のギャンブルが検出された場合、アカウントは直ちに閉鎖され、すべての賞金は没収されます。"
 		},
 		"helpSupport": {
-			"title": "サポートが必要ですか？あなたは一人ではありません",
-			"intro": "ギャンブルがあなたの気分、人間関係、または財政を傷つけ始めた場合は、助けを求めてください。どこにいても役立つ可能性のある組織をいくつか紹介します:",
+			"title": "❤️ ヘルプとサポート",
+			"intro": "ギャンブルがあなたの精神的、感情的、または経済的な健康に影響を与えていると感じた場合、あなたは一人ではありません。|以下は、無料で秘密厳守のヘルプを提供する信頼できる世界的な組織です:",
 			"organizations": {
 				"0": {
 					"name": "GamCare",
@@ -1835,7 +1832,7 @@
 					"url": "https://www.gamblersanonymous.org"
 				},
 				"3": {
-					"name": "National Council on Problem Gambling",
+					"name": "National Council on Problem Gambling (NCPG)",
 					"url": "https://www.ncpgambling.org"
 				},
 				"4": {
@@ -1843,102 +1840,109 @@
 					"url": "https://www.gamtalk.org"
 				}
 			},
-			"paragraph2": "彼らはセルフテスト、ライブチャット、および地元のサポートグループを提供しています。"
+			"paragraph2": "これらのリソースは、自己評価ツール、オンラインチャット、および世界中の地域のサポートグループを提供しています。"
 		},
 		"principles": {
-			"title": "{siteName}が責任を果たす方法",
-			"intro": "私たちはこれらの原則を遵守しています:",
+			"title": "⚙️ {siteName}における責任あるゲーミングの原則",
+			"intro": "{siteName}では、これらの核となる原則を支持しています:",
 			"items": {
 				"0": {
-					"title": "透明性",
-					"description": "すべてのゲームは証明可能な公平性を持ち、ブロックチェーンで検証されています。"
+					"title": "透明性:",
+					"description": "すべてのゲームと結果は証明可能な公正さであり、ブロックチェーンで検証されています。"
 				},
 				"1": {
-					"title": "セキュリティ",
-					"description": "あなたのセッションは常にDynamic.xyzウォレットログインによって保護されています。パスワードもKYCもありません。"
+					"title": "セキュリティ:",
+					"description": "すべてのセッションはDynamic.xyzウォレットログインを通じて保護されています — パスワードやKYCは不要です。"
 				},
 				"2": {
-					"title": "自律性",
-					"description": "あなたが責任者です。いつでも切断できます。"
+					"title": "自律性:",
+					"description": "あなたは自分のゲームプレイをコントロールできます。いつでも切断できます。"
 				},
 				"3": {
-					"title": "教育",
-					"description": "私たちはあなたがリスクを理解し、情報を提供し続けるのを助けます。"
+					"title": "教育:",
+					"description": "私たちは意識を高め、プレイヤーがリスクを理解するのを助けます。"
 				},
 				"4": {
-					"title": "コミュニティサポート",
-					"description": "私たちのチームは24時間年中無休であなたのためにここにいます。"
+					"title": "コミュニティサポート:",
+					"description": "当社のサポートチームは24時間年中無休で、健康的なゲーム習慣に向けてあなたをガイドします。"
 				}
 			}
 		},
 		"playSmart": {
-			"title": "最終的な考察",
-			"intro": "ギャンブルは楽しく、社会的で、バランスが取れているべきです。プレイする前に、時間制限を設定してください。損失を追いかけたり、動揺しているときにプレイしたりしないでください。賞金は素敵なボーナスとして扱い、給料として扱わないでください。賢くプレイし、助けが必要な場合は恐れずに求めてください。",
+			"title": "🎮 覚えておいてください — スマートにプレイ",
+			"intro": "ギャンブルは常に楽しく、社交的で、バランスが取れているべきです。|これらの重要なリマインダーを心に留めておいてください:",
 			"reminders": {
-				"0": "ギャンブルは楽しく、社会的で、バランスが取れているべきです。",
-				"1": "プレイする前に、時間制限を設定してください。",
-				"2": "損失を追いかけたり、動揺しているときにプレイしたりしないでください。",
-				"3": "賞金は素敵なボーナスとして扱い、給料として扱わないでください。",
-				"4": "賢くプレイし、助けが必要な場合は恐れずに求めてください。"
+				"0": "始める前に時間制限を設定する。",
+				"1": "損失を追ったり、感情的なストレスの下でプレイしたりしないでください。",
+				"2": "賞金は収入ではなく、ボーナスとして扱う。",
+				"3": "ギャンブルを仕事や人間関係から切り離しておく。",
+				"4": "楽しみがなくなったらプレイをやめる。"
 			}
 		},
 		"finalMessage": {
-			"paragraph1": "ギャンブルをあなたの仕事や人間関係に波及させないでください。楽しくなくなったら、ただ立ち去ってください。|{siteName}では、私たちはあなたの幸福を気にしています。賢明な選択をし、安全にプレイし、自分自身に注意を払ってください。",
-			"paragraph2": "ギャンブルをあなたの仕事や人間関係に波及させないでください。楽しくなくなったら、ただ立ち去ってください。",
-			"contact": "助け、アドバイスが必要な場合、または休憩を取りたい場合は、いつでも{siteName}にご連絡ください。"
+			"paragraph1": "{siteName}では、あなたの幸福が最優先事項です。|私たちはすべてのプレイヤーに、意識的で情報に基づいた選択をし、安全なゲーム体験を楽しんでもらうことを奨励しています。",
+			"paragraph2": "アドバイス、支援、または自己除外のサポートが必要な場合は、",
+			"contact": "📧 {siteDomain}までご連絡ください"
 		}
 	},
 	"faqs": {
-		"title": "FAQ – {siteName}",
-		"subtitle": "{siteName}に関する一般的な質問への回答を見つける。ウォレットログイン、入金、出金、フェアプレイ、ブロックチェーンの透明性について学ぶ。",
+		"title": "よくある質問 – {siteName}",
+		"subtitle": "{siteName}に関する一般的な質問への回答を見つけましょう。ウォレットログイン、入出金、公正なプレイ、ブロックチェーンの透明性について学びましょう。",
+		"introTitle": "よくある質問 – {siteName}",
+		"intro": "{siteName}のFAQセンターへようこそ。ここでは、当社の暗号ゲーミングプラットフォームに関する最も一般的な質問への迅速な回答を見つけることができます。|ここで回答が見つからない場合は、24時間年中無休のサポートチームが{siteName}でいつでもお手伝いします。",
 		"lastUpdated": "最終更新日: 2025年1月",
-		"introTitle": "FAQ {siteName}",
-		"intro": "ようこそ{siteName} FAQセンターへ。ここでは、当社のクリプトゲームプラットフォームに関する最も一般的な質問への迅速な回答が見つかります。|ここで回答が見つからない場合は、当社の24時間年中無休のサポートチームがいつでも{siteName}でお手伝いいたします。",
+		"blockchainTransparency": {
+			"title": "🧩 ブロックチェーンの透明性",
+			"paragraph1": "{siteName}はイーサリアムベースのスマートコントラクトによって動いており、すべてのベット、取引、報酬がオンチェーンで透明に記録されることを保証します。|すべてのデータとゲームロジックは不変であり、検証可能であり、真の公平性と監査可能性を保証します。",
+			"paragraph2": "次のような公開エクスプローラーを通じて、すべてのプラットフォーム取引を追跡できます:",
+			"explorersTitle": "",
+			"guarantee": "これにより、操作や偏りが起こり得ないことが保証されます — 決して。"
+		},
 		"categories": {
 			"accountRegistration": {
 				"title": "🔹 アカウントと登録",
 				"items": {
 					"0": {
-						"question": "1. ウェブサイトに登録できますか？",
-						"answer": "はい — 登録は18歳以上（またはあなたの管轄区域での法定成人年齢）の方なら誰でも可能です。|また、お住まいの地域でオンラインゲームが合法であることを確認する必要があります。|{siteName}では、従来のサインアップやパスワードは必要ありません。|Dynamic.xyzを介してウォレットを接続するだけで、すぐにプレイを開始できます。|👉 法的およびコンプライアンスの詳細については、利用規約をご確認ください。",
-						"reminder": "リマインダー: ギャンブルは依存症になる可能性があります。責任を持ってプレイし、ご自身の限界を知ってください。"
+						"question": "1. ウェブサイトで登録できますか？",
+						"answer": "はい — 18歳以上（または管轄区域における法定成人年齢）であれば誰でも登録できます。|また、お住まいの地域でオンラインゲーミングが合法であることを確認する必要があります。|{siteName}では、従来のサインアップやパスワードは必要ありません。|Dynamic.xyzを介してウォレットを接続するだけで、すぐにプレイを開始できます。|👉 法的およびコンプライアンスの詳細については、利用規約をご確認ください。",
+						"reminder": "注意：ギャンブルは中毒性があります。責任を持ってプレイし、自分の限界を知ってください。"
 					},
 					"1": {
-						"question": "2. ログイン情報を忘れた場合はどうなりますか？",
-						"answer": "{siteName}はDynamic.xyzを介したウォレットベースのログインを使用しているため、従来のパスワードは使用しません。|アカウントに再度アクセスするには:|最初に利用したのと同じアドレスを使用してウォレットを再接続してください。|ウォレットへのアクセスを失った場合は、シードフレーズまたはバックアップ方法で復元してください（私たちは秘密鍵を保管または制御することはありません）。|セキュリティ上の理由により、{siteName}はあなたのウォレットの資格情報をリセットまたは回復することはできません。"
+						"question": "2. ログイン情報を忘れた場合はどうすればよいですか？",
+						"answer": "{siteName}はDynamic.xyzを介したウォレットベースのログインを使用しているため、従来のパスワードは使用しません。|アカウントに再度アクセスするには:|最初に使ったのと同じアドレスでウォレットを再接続してください。|ウォレットへのアクセスを失った場合は、シードフレーズまたはバックアップ方法で復元してください（当社は秘密鍵を保存または管理することはありません）。|セキュリティ上の理由から、{siteName}はあなたのウォレット認証情報をリセットまたは回復することはできません。"
 					},
 					"2": {
 						"question": "3. ユーザー名やリンクされたウォレットを変更できますか？",
-						"answer": "あなたの{siteName}アカウントはあなたのウォレットアドレスに紐付けられています。|新しいウォレットを使用するには、新しいウォレットを接続するだけですが、以前のゲーム履歴、VIPステータス、およびボーナスは自動的に転送されないことに注意してください。"
+						"answer": "あなたの{siteName}アカウントはウォレットアドレスに紐付けられています。|新しいウォレットを使用するには、新しいウォレットを接続するだけです — ただし、以前のゲーム履歴、VIPステータス、ボーナスは自動的に転送されないことに注意してください。"
 					},
 					"3": {
-						"question": "4. VIPメンバーになるにはどうすればよいですか？",
-						"answer": "私たちのVIPプログラムは招待制で排他的です。|あなたが{siteName}コミュニティでプレイし、交流するにつれて、あなたのゲーム活動は自動的に追跡されます。|資格がある場合、プラットフォーム内の通知または{siteName}チームからのダイレクトメッセージを介して公式の招待状を受け取ります。|VIPは、限定ボーナス、より迅速な出金、およびパーソナライズされた報酬にアクセスできます。"
+						"question": "4. どうすればVIPメンバーになれますか？",
+						"answer": "当社のVIPプログラムは招待制です。|あなたがプレイし、{siteName}コミュニティと関わるにつれて、あなたのゲームアクティビティは自動的に追跡されます。|資格を得ると、プラットフォーム内の通知または{siteName}チームからのダイレクトメッセージで公式の招待状が届きます。|VIPは、限定ボーナス、より速い出金、パーソナライズされた報酬へのアクセスをお楽しみいただけます。"
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "💰 入金と出金",
+				"title": "💰 入出金",
 				"items": {
 					"0": {
-						"question": "5. クリプトを入金するにはどうすればよいですか？",
-						"answer": "{siteName}での入金は迅速かつ簡単です:|メインダッシュボードの「マイウォレット」に移動します。|入金を選択し、ご希望の暗号通貨（例：BTC、ETH、USDT、BNB）を選択します。|独自のウォレットアドレスをコピーするか、QRコードをスキャンします。|外部ウォレットから表示されたアドレスにクリプトを送信します。|ブロックチェーンで確認されると、資金は自動的に{siteName}の残高に表示されます。|⚠️ サポートされている暗号通貨を正しいアドレスネットワーク（例：ERC20、TRC20、BEP20）にのみ送信するようにしてください。"
+						"question": "5. 暗号通貨を入金するにはどうすればよいですか？",
+						"answer": "{siteName}での入金は迅速かつ簡単です:|メインダッシュボードの「マイウォレット」に移動します。|入金を選択し、お好みの暗号通貨（例：BTC、ETH、USDT、BNB）を選択します。|固有のウォレットアドレスをコピーするか、QRコードをスキャンします。|外部ウォレットから表示されたアドレスに暗号通貨を送信します。|ブロックチェーンで確認されると、資金は自動的に{siteName}の残高に表示されます。|⚠️ サポートされている暗号通貨のみを正しいアドレスネットワーク（例：ERC20、TRC20、BEP20）に送信するようにしてください。"
 					},
 					"1": {
 						"question": "6. 入金にはどのくらい時間がかかりますか？",
-						"answer": "入金は通常、ブロックチェーンの混雑と取引手数料に応じて、5〜10分以内に確認されます。|取引ハッシュ（TXID）を使用して、ブロックエクスプローラー（例：Etherscan.ioまたはBscScan.com）で取引の進行状況を追跡できます。|残高に表示されるには、通常最低3回の確認が必要です。"
+						"answer": "入金は通常、ブロックチェーンの混雑状況と取引手数料に応じて5〜10分以内に確認されます。|取引ハッシュ（TXID）を使用して、ブロックエクスプローラー（例：Etherscan.ioまたはBscScan.com）を通じて取引の進行状況を追跡できます。|通常、入金が残高に表示されるには最低3回の確認が必要です。"
 					},
 					"2": {
 						"question": "7. 最低出金額はいくらですか？",
-						"answer": "最低出金額は、使用している暗号通貨によって異なります。|各コインには、独自のネットワーク料金と最小しきい値があります。|これらの値は、「マイウォレット」の「出金」セクションに表示されます。"
+						"answer": "最低出金額は、使用している暗号通貨によって異なります。|各コインには独自のネットワーク手数料と最低しきい値があります。|これらの値は、「マイウォレット」の出金セクションに表示されます。"
 					},
 					"3": {
-						"question": "8. 賞金を出金するにはどうすればよいですか？",
-						"answer": "クリプトを出金するには:|「マイウォレット」→「出金」に移動します。|宛先ウォレットアドレスと出金したい金額を入力します。|確認する前に、アドレスとネットワークタイプを再確認してください。|出金は即座に処理されますが、ブロックチェーンネットワークの活動に応じて数分かかる場合があります。|💡 受け取り側のウォレットが、出金元のネットワークをサポートしていることを常に確認してください。"
+						"question": "8. 賞金を引き出すにはどうすればよいですか？",
+						"answer": "暗号通貨を引き出すには:|「マイウォレット」→「出金」に移動します。|宛先ウォレットアドレスと引き出したい金額を入力します。|確認する前にアドレスとネットワークの種類を再確認してください。|出金は即座に処理されますが、ブロックチェーンネットワークの活動状況によっては数分かかる場合があります。|💡 常に、受け取りウォレットが引き出しているネットワークをサポートしていることを確認してください。"
 					},
 					"4": {
-						"question": "9. 取引が遅延した場合はどうなりますか？",
-						"answer": "ブロックチェーン取引は、ネットワークの混雑やガス料金の低さにより、時間がかかる場合があります。|入金または出金が到着しない場合は:|ブロックチェーンエクスプローラーでTXIDを確認してください。|正しいネットワークとアドレスを使用したことを確認してください。|1時間以上経過している場合は、TXIDとウォレットの詳細を添えて{siteName}に連絡してください。"
+						"question": "9. 取引が遅延した場合はどうすればよいですか？",
+						"answer": "ブロックチェーンの取引は、ネットワークの混雑や低いガス料金のために時間がかかることがあります。|入金または出金が届かない場合:|ブロックチェーンエクスプローラーでTXIDを確認してください。|正しいネットワークとアドレスを使用したことを確認してください。|1時間以上経過しても届かない場合は、TXIDとウォレットの詳細を添えて{siteDomain}にお問い合わせください。"
 					}
 				}
 			},
@@ -1946,20 +1950,20 @@
 				"title": "🎮 ゲーム、公平性、セキュリティ",
 				"items": {
 					"0": {
-						"question": "10. {siteName}のゲームは公平ですか？",
-						"answer": "はい — {siteName}のすべてのゲームは、証明可能な公平な技術と検証済みのスマートコントラクトを使用して構築されています。|すべてのベット、結果、ペイアウトは、ブロックチェーン上で独立して検証できます。|私たちは、ランダム性、公平性、開放性を保証する透明で改ざん防止されたシステムで運営されています。|Etherscanまたはそれぞれのネットワークエクスプローラーを介して、ゲームの結果と取引の証明をオンチェーンで表示できます。"
+						"question": "10. {siteName}のゲームは公正ですか？",
+						"answer": "はい — すべての{siteName}ゲームは、証明可能な公正技術と検証済みスマートコントラクトを使用して構築されています。|すべてのベット、結果、および支払いは、ブロックチェーン上で独立して検証できます。|私たちは、ランダム性、公平性、およびオープン性を保証する透明で改ざん不可能なシステムで運営しています。|Etherscanまたはそれぞれのネットワークエクスプローラーを通じて、ゲームの結果と取引の証明をオンチェーンで表示できます。"
 					},
 					"1": {
-						"question": "11. ゲームがフリーズしたりクラッシュしたりした場合はどうすればよいですか？",
-						"answer": "ゲームが応答しなくなった場合は:|ページを更新してください。|ブラウザのキャッシュをクリアし、ウォレットを再接続してください。|問題が解決しない場合は、ライブチャットまたは{siteName}経由でサポートチームに連絡してください。|私たちのチームは、影響を受けた場合、あなたのゲームセッションまたは残高の復元を支援します。"
+						"question": "11. ゲームがフリーズまたはクラッシュした場合はどうすればよいですか？",
+						"answer": "ゲームが応答しなくなった場合:|ページを更新してください。|ブラウザのキャッシュをクリアし、ウォレットを再接続してください。|問題が解決しない場合は、ライブチャットまたは{siteDomain}を介してサポートチームにお問い合わせください。|当社のチームが、影響を受けたゲームセッションまたは残高の復元を支援します。"
 					},
 					"2": {
 						"question": "12. 複数のウォレットやアカウントを使用できますか？",
-						"answer": "いいえ。|各プレイヤーは、メインアカウントとして1つのウォレットアドレスを使用することが許可されています。|ボーナスを請求したり、プロモーションを悪用したりするために複数のアカウントを作成したり、ウォレットのローテーションを使用したりすることは固く禁じられており、アカウントの制限または残高の没収につながる可能性があります。"
+						"answer": "いいえ。|各プレイヤーは、主要なアカウントとして1つのウォレットアドレスを使用することが許可されています。|ボーナスを請求したり、プロモーションを悪用したりするために複数のアカウントを作成したり、ウォレットをローテーションしたりすることは固く禁じられており、アカウントの制限や残高の没収につながる可能性があります。"
 					},
 					"3": {
-						"question": "13. 個人データは安全ですか？",
-						"answer": "はい。|{siteName}では、個人データを収集しません — あなたの身元は安全に保たれます。|アクセスはDynamic.xyzを介して管理され、デジタルアイデンティティの完全なプライバシーと所有権が保証されます。|パスワード、メール、機密文書は当社には保存されません。|あなたのウォレット = あなたのアイデンティティです。"
+						"question": "13. 私の個人データは安全ですか？",
+						"answer": "はい。|{siteName}では、個人データを収集しません — あなたの身元は安全に保たれます。|アクセスはDynamic.xyzを介して管理され、完全なプライバシーとデジタルアイデンティティの所有権が保証されます。|パスワード、メールアドレス、機密文書は当社によって保存されません。|あなたのウォレット = あなたのアイデンティティ。"
 					}
 				}
 			},
@@ -1968,437 +1972,20 @@
 				"items": {
 					"0": {
 						"question": "14. {siteName}は責任あるギャンブルをサポートしていますか？",
-						"answer": "もちろんです。|私たちはすべてのプレイヤーに節度をもってゲームを楽しむことを奨励しています。|{siteName}に連絡することで、いつでも自己排除期間をリクエストしたり、クーリングオフ休憩を取ったりすることができます。|ギャンブルがあなたの人生に影響を与えていると感じた場合は、リソースと支援組織のために責任あるギャンブルのページにアクセスしてください。"
+						"answer": "もちろんです。|私たちはすべてのプレイヤーに節度を持ってゲームを楽しんでもらうことを奨励しています。|{siteDomain}に連絡することで、いつでも自己除外期間を要求したり、クーリングオフ休憩を取ったりすることができます。|ギャンブルがあなたの生活に影響を与えていると感じる場合は、責任あるギャンブルのページにアクセスして、リソースや支援団体をご覧ください。"
 					},
 					"1": {
-						"question": "15. ギャンブルの問題を疑う場合はどうすればよいですか？",
-						"answer": "ギャンブルが手に負えなくなっていると感じた場合は、休憩を取り、これらの信頼できる組織のいずれかに連絡して秘密の助けを求めてください:|GamCare: https://www.gamcare.org.uk|Gambling Therapy: https://www.gamblingtherapy.org|Gamblers Anonymous: https://www.gamblersanonymous.org|私たちのサポートチームは、あなたのアカウントへのアクセスを安全に制限する方法についてもご案内できます。"
+						"question": "15. ギャンブルの問題が疑われる場合はどうすればよいですか？",
+						"answer": "ギャンブルが手に負えなくなっていると感じる場合は、休憩を取り、以下の信頼できる組織に連絡して秘密厳守の助けを求めてください:|GamCare: GamCare - National Gambling Helpline の創設者|Gambling Therapy: Gambling Therapy - 問題ギャンブルに関するアドバイスとサポート|Gamblers Anonymous: GA Gävle - 月曜日|当社のサポートチームも、アカウントへのアクセスを安全に制限する方法についてご案内できます。"
 					}
 				}
-			},
-			"blockchainTransparency": {
-				"title": "🧩 ブロックチェーンの透明性",
-				"paragraph1": "{siteName}は、Ethereumベースのスマートコントラクトによって強化されており、すべてのベット、取引、報酬がオンチェーンで透過的に記録されることを保証しています。|すべてのデータとゲームロジックは不変で検証可能であり、真の公平性と監査可能性を保証します。|次のような公開エクスプローラーを通じて、すべてのプラットフォーム取引を追跡できます:|Etherscan.io|BscScan.com|TronScan.org",
-				"paragraph2": "",
-				"explorersTitle": "",
-				"guarantee": "これにより、操作やバイアスが発生しないことが保証されます — 永遠に。"
-			},
-			"needMoreHelp": {
-				"title": "💬 さらにサポートが必要ですか？",
-				"intro": "私たちのサポートチームは、以下を介して24時間年中無休であなたを支援できます:",
-				"contactTitle": "",
-				"liveChat": "💬 ライブチャット（ウォレット接続済みダッシュボード内で利用可能）"
 			}
-		}
-	},
-	"termsAndConditions": {
-		"title": "⚖️ 利用規約 — {siteName}",
-		"subtitle": "{siteName}の利用規約を読む。ウォレットログイン (Dynamic.xyz)、クリプトの入金、出金、フェアプレイ、および責任あるゲーミングポリシーについて学ぶ。",
-		"lastUpdated": "最終更新日: 2025年1月",
-		"meta": {
-			"title": "利用規約 | {siteName} – クリプトカジノのルール",
-			"description": "{siteName}の利用規約を読む。ウォレットログイン (Dynamic.xyz)、クリプトの入金、出金、フェアプレイ、および責任あるゲーミングポリシーについて学ぶ。",
-			"keywords": "{siteName}利用規約, {siteName}クリプトカジノのルール, Dynamic.xyzウォレットログイン, {siteName}出金ポリシー, {siteName}フェアプレイ",
-			"h1": "利用規約 – {siteName}クリプトウォレットカジノ",
-			"ogTitle": "利用規約 | {siteName}（クリプトウォレットカジノ）",
-			"ogDescription": "{siteName}の利用規約を確認する。Dynamic.xyzウォレットログイン、クリプトの入金、出金、およびプラットフォームのルールを理解する。"
 		},
-		"sections": {
-			"ownership": {
-				"number": "1",
-				"title": "{siteName}の所有権",
-				"clauses": [
-					{
-						"number": "1.1",
-						"content": "{siteName}は{siteName} N.V.（「{siteName}」、「当社」、「私たちの」、「私たち」）によって所有および運営されています。"
-					},
-					{
-						"number": "1.2",
-						"content": "{siteName}はクリプトウォレット専用カジノです。すべての入金、賭け、出金はユーザーの暗号通貨ウォレットを介して処理されます。Dynamic.xyzおよび互換性のあるウォレットコネクタ（例：WalletConnect / MetaMask）を介したウォレットログインをサポートしています。"
-					}
-				]
-			},
-			"importantNotice": {
-				"number": "2",
-				"title": "重要な通知",
-				"clauses": [
-					{
-						"number": "2.1",
-						"content": "www.{siteDomain}（「ウェブサイト」）に登録またはウォレットを接続することにより、あなたは{siteName} N.V.との拘束力のある契約を締結し、次のことに同意します: (i) これらの利用規約; (ii) 当社のプライバシーポリシー; (iii) 当社のクッキーポリシー; (iv) 当社のアフィリエイト規約; および (v) 当社の責任あるゲーミングポリシー。"
-					},
-					{
-						"number": "2.2",
-						"content": "これらの規約のいずれかに同意しない場合は、当社のウェブサイトにアクセス、使用、または登録しないでください。"
-					},
-					{
-						"number": "2.3",
-						"content": "これらの規約を注意深くお読みください。ご自身の権利または義務について不明な点がある場合は、ウェブサイトを使用する前に、ご自身の管轄区域の法律顧問にご相談ください。"
-					}
-				]
-			},
-			"generalTerms": {
-				"number": "3",
-				"title": "一般規約",
-				"clauses": [
-					{
-						"number": "3.1",
-						"content": "登録またはウォレット接続時に、あなた（「ユーザー」、「プレイヤー」、「あなた」、または「あなたの」）は、すべての{siteName}のルールとポリシーを遵守することに同意します。"
-					},
-					{
-						"number": "3.2",
-						"content": "この同意書は、あなたと{siteName}との間の法的に拘束力のある契約です。"
-					},
-					{
-						"number": "3.3",
-						"content": "これらの規約は、あなたがウォレットを接続し、サイトの使用を開始した瞬間に有効になります。"
-					},
-					{
-						"number": "3.4",
-						"content": "{siteName}は、いつでもこれらの規約を修正または更新する権利を留保します。変更はウェブサイトで公開されます。継続的な使用は、同意を構成します。"
-					},
-					{
-						"number": "3.5",
-						"content": "矛盾がある場合、これらの規約は、その他のルール、プロモーション、または外部資料よりも優先されます。"
-					},
-					{
-						"number": "3.6",
-						"content": "これらの規約の英語版のみが法的に拘束力を持ちます。翻訳は便宜のためのみです。"
-					}
-				]
-			},
-			"accountSecurity": {
-				"number": "4",
-				"title": "アカウント、ウォレットログインとセキュリティ",
-				"walletLogin": {
-					"title": "4.1 ウォレットログイン (Dynamic.xyz)",
-					"clauses": [
-						{
-							"number": "4.1.1",
-							"content": "{siteName}は、ウォレットベースのログインと認証にDynamic.xyz（またはその他のサポートされているコネクタ）を使用しています。ウォレットを接続することにより、あなたはそのウォレットの合法的な所有者であることを確認し、{siteName}がそのウォレットをあなたのアカウントとして認識することを許可します。"
-						},
-						{
-							"number": "4.1.2",
-							"content": "私たちはあなたの秘密鍵を要求することはありません。あなたはウォレットの資格情報とデバイスを安全に保つ必要があります。{siteName}は、侵害されたウォレットまたは漏洩した秘密鍵によって引き起こされた損失について責任を負いません。"
-						}
-					]
-				},
-				"registration": {
-					"title": "4.2 登録の詳細",
-					"clauses": [
-						{
-							"number": "4.2.1",
-							"content": "アカウント通信のために連絡先の詳細（メールアドレス、ユーザー名）を提供するように求められる場合があります。あなたは正確な情報を提供し、それを最新の状態に保つ必要があります。"
-						},
-						{
-							"number": "4.2.2",
-							"content": "あなたは、接続されたウォレットを使用して行われたすべてのアクションについて責任を負います。"
-						}
-					]
-				},
-				"multipleAccounts": {
-					"title": "4.3 複数のアカウントとセキュリティ",
-					"clauses": [
-						{
-							"number": "4.3.1",
-							"content": "個人のアカウントは1つのみ許可されています。複数のアカウントまたは制限を回避しようとする試みは、アカウントの停止および資金の没収につながる可能性があります。"
-						},
-						{
-							"number": "4.3.2",
-							"content": "提供されているプラットフォームのセキュリティ機能（例えば、関連サービスのための2FA）を有効にし、あなた自身のウォレットを保護してください。"
-						},
-						{
-							"number": "4.3.3",
-							"content": "不正アクセスを疑う場合は、すぐにサポートに通知してください。"
-						}
-					]
-				}
-			},
-			"eligibility": {
-				"number": "5",
-				"title": "資格とユーザーの保証",
-				"clauses": [
-					{
-						"number": "5.1",
-						"content": "あなたは次のことを表明し、保証します:|• あなたは18歳以上であること（またはあなたの管轄区域での最低法定ギャンブル年齢）。|• あなたはあなたの所在地でオンラインクリプトギャンブルサービスを使用することが法的に許可されていること。|• あなたは接続するウォレットの合法的な所有者であること。|• あなたは地域の制限を回避するためにVPNや位置情報のなりすましを使用しないこと。|• あなたはサービスを違法または商業目的で使用しないこと。|• あなたは暗号通貨の価値が変動する可能性があることを受け入れ、すべての市場リスクを負うこと。"
-					},
-					{
-						"number": "5.2",
-						"content": "これらの保証に違反した場合、{siteName}は法律で許可されている範囲でアクセスを停止または終了し、資金を差し控える場合があります。"
-					}
-				]
-			},
-			"restrictedJurisdictions": {
-				"number": "6",
-				"title": "制限された管轄区域",
-				"clauses": [
-					{
-						"number": "6.1",
-						"content": "{siteName}は、クリプトギャンブルが禁止または制限されている管轄区域からのプレイヤーを受け入れません。これには、以下が含まれますが、これらに限定されません:|米国（および米国の領土）、英国、フランス、オランダ、スペイン、ドイツ、オーストラリア、オーストリア、コモロ、イラン、北朝鮮、スーダン、シリア、およびFATFブラックリストに記載されているすべての管轄区域。"
-					},
-					{
-						"number": "6.2",
-						"content": "VPNまたはプロキシを介して制限された管轄区域からサービスにアクセスしようとすることは、これらの規約の違反であり、アカウントの閉鎖および資金の没収につながる可能性があります。"
-					}
-				]
-			},
-			"cryptoTransactions": {
-				"number": "7",
-				"title": "クリプトの入金と出金",
-				"cryptoOnly": {
-					"title": "7.1 クリプト専用ポリシー",
-					"clauses": [
-						{
-							"number": "7.1.1",
-							"content": "{siteName}は、サポートされている暗号通貨（例：BTC、ETH、USDT、TRX、BNB）でのみ入金と出金を受け入れます。法定通貨、カード、または銀行振込による入金は受け付けていません。"
-						},
-						{
-							"number": "7.1.2",
-							"content": "すべての入金は、あなたが管理するウォレットから行われる必要があります。サードパーティのウォレットからの入金は禁止されています。"
-						}
-					]
-				},
-				"deposits": {
-					"title": "7.2 入金",
-					"clauses": [
-						{
-							"number": "7.2.1",
-							"content": "入金は、必要なブロックチェーンの確認後にクレジットされます。ネットワーク（ガス）料金はあなたが支払う必要があります。"
-						},
-						{
-							"number": "7.2.2",
-							"content": "{siteName}は、ブロックされたアドレスまたは制限されたソースから発信されたと思われる入金を拒否または取り消す場合があります。"
-						}
-					]
-				},
-				"withdrawals": {
-					"title": "7.3 出金",
-					"clauses": [
-						{
-							"number": "7.3.1",
-							"content": "出金は、あなたが提供したウォレットアドレスに処理されます。{siteName}は、処理前に宛先ウォレットを確認するようにあなたに要求する場合があります。"
-						},
-						{
-							"number": "7.3.2",
-							"content": "あなたは出金をカバーするのに十分なクリアされた残高を持っている必要があります。不正行為または異常な活動が疑われる場合、出金が遅延する場合があります。"
-						}
-					]
-				},
-				"chargebacks": {
-					"title": "7.4 チャージバックと取り消し",
-					"clauses": [
-						{
-							"number": "7.4.1",
-							"content": "クリプト取引はオンチェーンで最終的です。{siteName}がサードパーティのサービスプロバイダーからのチャージバックまたは取り消しにより損失を被る場合（オンチェーンではまれ）、当社は金額を回収するか、管理手数料を請求する権利を留保します。"
-						}
-					]
-				}
-			},
-			"noKyc": {
-				"number": "8",
-				"title": "定期的な身元確認なし（KYCなし）",
-				"clauses": [
-					{
-						"number": "8.1",
-						"content": "{siteName}は、通常のプレイの条件として定期的な身元確認（KYC）を実行しません。ユーザーはDynamic.xyzを介してウォレットを接続し、身元証明書を提供せずにプレイを開始できます。"
-					},
-					{
-						"number": "8.2",
-						"content": "条項8.1にかかわらず、{siteName}は、次の目的で情報または取引の停止を要求する権利を留保します:|• 管轄当局からの合法的な命令を遵守するため;|• 不正行為、マネーロンダリング、その他の違法行為を防止、調査、または是正するため; または|• プラットフォームのセキュリティと整合性を保護するため。"
-					},
-					{
-						"number": "8.3",
-						"content": "法的に要求されたときにそのような情報の提供を拒否した場合、{siteName}は、法律で許可されている範囲であなたのアカウントを制限または閉鎖し、出金を遅延または差し控える場合があります。"
-					}
-				]
-			},
-			"fairPlay": {
-				"number": "9",
-				"title": "フェアプレイ、禁止されている行為とセキュリティ",
-				"clauses": [
-					{
-						"number": "9.1",
-						"content": "あなたは次のことをしてはなりません:|• ボット、スクリプト、自動プレイツール、または不正なソフトウェアを使用すること。|• 他のプレイヤーと共謀したり、ゲームの結果を操作したりすること。|• ボーナスやプロモーションを悪用するために複数のアカウントを作成すること。|• オンチェーン取引を取り消したり、改ざんしたりしようとすること。|• ゲームのバグやプラットフォームの脆弱性を悪用すること。"
-					},
-					{
-						"number": "9.2",
-						"content": "不正行為、共謀、またはプラットフォームの悪用が判明したアカウントは、停止、閉鎖、または残高が没収される場合があります。"
-					},
-					{
-						"number": "9.3",
-						"content": "{siteName}は、プラットフォームの整合性を保護するために技術的および行動的な監視を実装しています。"
-					}
-				]
-			},
-			"bonuses": {
-				"number": "10",
-				"title": "ボーナスとプロモーション",
-				"clauses": [
-					{
-						"number": "10.1",
-						"content": "すべてのボーナスオファーとプロモーションは、各オファーに記載されている特定のボーナス規約の対象となります。"
-					},
-					{
-						"number": "10.2",
-						"content": "ボーナスの乱用（複数のアカウントや急速なボーナスの切り替えを含む）は、ボーナスの拒否、取り消し、没収、およびアカウントの閉鎖につながる可能性があります。"
-					},
-					{
-						"number": "10.3",
-						"content": "ボーナスから派生した資金を出金する前に、プロモーションごとに指定されたボーナス賭け条件を満たす必要があります。"
-					}
-				]
-			},
-			"gameRules": {
-				"number": "11",
-				"title": "プレイのルールとゲームの決済",
-				"clauses": [
-					{
-						"number": "11.1",
-						"content": "ベットは、画面上の確認を受け取った後にのみ受け入れられます。残高不足で置かれたベットは無効です。"
-					},
-					{
-						"number": "11.2",
-						"content": "紛争が発生した場合、{siteName}の内部ログとブロックチェーン記録が権威となります。"
-					},
-					{
-						"number": "11.3",
-						"content": "イベントがキャンセル、停止、またはその他の方法で損なわれた場合、{siteName}は公開されたゲームおよび市場のルールに従ってベットを決済または無効にします。"
-					},
-					{
-						"number": "11.4",
-						"content": "証明可能な公平なゲームの場合、検証ツールとサーバーシード（該当する場合）はゲームごとに利用可能になります。サーバーログが最終的なものとなります。"
-					}
-				]
-			},
-			"errors": {
-				"number": "12",
-				"title": "エラー、中断と制限",
-				"clauses": [
-					{
-						"number": "12.1",
-						"content": "{siteName}は、次の原因による損失について責任を負いません:|• インターネットまたはデバイスの障害;|• ブロックチェーンの遅延、フォーク、またはネットワークの混雑;|• ソフトウェアのバグまたはサードパーティのサービスの停止。"
-					},
-					{
-						"number": "12.2",
-						"content": "{siteName}は、エラーや悪用が検出された場合、ベットを無効にしたり、残高を調整したり、取引をキャンセルしたりする権利を留保します。"
-					},
-					{
-						"number": "12.3",
-						"content": "私たちは、ユーザーとプラットフォームを保護するために、賭けの制限、最大勝利額、その他の制御を設定する場合があります。"
-					}
-				]
-			},
-			"suspension": {
-				"number": "13",
-				"title": "停止、閉鎖と資金の取り扱い",
-				"clauses": [
-					{
-						"number": "13.1",
-						"content": "{siteName}は、次の場合にアカウントを停止または閉鎖する場合があります:|• 規約が違反された場合;|• 乱用、詐欺、または疑わしい行動が検出された場合;|• 法的または規制上の義務が必要とする場合。"
-					},
-					{
-						"number": "13.2",
-						"content": "アカウント閉鎖時、保留中の賭けはキャンセルされ、残りの資金は適用される法律およびプラットフォームのポリシーに従って処理される場合があります。"
-					},
-					{
-						"number": "13.3",
-						"content": "{siteName}は、紛争を解決したり、合法的な要求を遵守したり、損失を是正したりするために必要な場合、資金を保持する場合があります。"
-					}
-				]
-			},
-			"responsibleGaming": {
-				"number": "14",
-				"title": "責任あるゲーミング",
-				"clauses": [
-					{
-						"number": "14.1",
-						"content": "{siteName}は責任あるギャンブルを推進しています。あなたは次のものを要求することができます:|• 自己排除;|• 入金制限;|• 一時停止。"
-					},
-					{
-						"number": "14.2",
-						"content": "ギャンブルによる危害を疑う場合は、直ちに支援を受けるために{siteName}にご連絡ください。"
-					},
-					{
-						"number": "14.3",
-						"content": "未成年者のギャンブル（18歳未満または現地の法定年齢未満）は固く禁じられています。未成年者に属すると判明したアカウントは閉鎖され、資金はポリシーに従って処理されます。"
-					}
-				]
-			},
-			"intellectualProperty": {
-				"number": "15",
-				"title": "知的財産",
-				"clauses": [
-					{
-						"number": "15.1",
-						"content": "{siteName}上のすべての商標、ロゴ、サイトコンテンツ、ソフトウェア、およびゲームアセットは、{siteName}によって所有またはライセンスされています。不正なコピー、スクレイピング、または再配布は禁止されています。"
-					},
-					{
-						"number": "15.2",
-						"content": "あなたは、個人的な娯楽のためだけにサービスにアクセスするための限定的で取消可能なライセンスを付与されます。"
-					}
-				]
-			},
-			"liability": {
-				"number": "16",
-				"title": "責任の制限",
-				"clauses": [
-					{
-						"number": "16.1",
-						"content": "法律で許可されている最大限の範囲で、{siteName}は、逸失利益や機会費用を含む間接的、特別、結果的、または付随的な損失について責任を負いません。"
-					},
-					{
-						"number": "16.2",
-						"content": "これらの規約に関連するいかなる請求に対する当社の総責任は、あなたの最後の入金の価値、または適用法で指定された金額を超えないものとします。"
-					},
-					{
-						"number": "16.3",
-						"content": "これらの規約のいかなるものも、適用法がそのような制限を禁止している場合の過失によって引き起こされた死亡または人身傷害に対する責任を制限するものではありません。"
-					}
-				]
-			},
-			"disputes": {
-				"number": "17",
-				"title": "紛争解決と準拠法",
-				"clauses": [
-					{
-						"number": "17.1",
-						"content": "紛争が発生した場合は、{siteName}にご連絡ください。私たちは苦情を迅速に解決することを目指しています。必要に応じてマネジメントにエスカレートしてください。"
-					}
-				]
-			},
-			"amendments": {
-				"number": "18",
-				"title": "修正",
-				"clauses": [
-					{
-						"number": "18.1",
-						"content": "{siteName}はいつでもこれらの規約を修正することができます。更新された規約はウェブサイトに掲載されます。継続的な使用は、同意を構成します。"
-					}
-				]
-			},
-			"miscellaneous": {
-				"number": "19",
-				"title": "その他",
-				"clauses": [
-					{
-						"number": "19.1",
-						"content": "これらの規約は、サービスに関するあなたと{siteName}との間の完全な合意を構成します。"
-					},
-					{
-						"number": "19.2",
-						"content": "いずれかの条項が執行不能であると判明した場合、それは最小限必要な範囲で修正され、残りの規定は引き続き有効となります。"
-					},
-					{
-						"number": "19.3",
-						"content": "あなたはこれらの規約に基づくあなたの権利を譲渡することはできません。{siteName}は、権利と義務を譲渡または下請けすることができます。"
-					}
-				]
-			},
-			"contact": {
-				"number": "20",
-				"title": "連絡先",
-				"content": "サポート、苦情、または法的通知については:",
-				"link": "🌐 https://{siteDomain}"
-			}
+		"needMoreHelp": {
+			"title": "💬 さらにヘルプが必要ですか？",
+			"intro": "当社のサポートチームは24時間年中無休で、以下を介してサポートを提供しています:",
+			"contactTitle": "",
+			"liveChat": "💬 ライブチャット（ウォレット接続ダッシュボード内で利用可能）"
 		}
 	}
 }

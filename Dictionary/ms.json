@@ -12,7 +12,7 @@
 	"header": {
 		"toggleSidebar": "Togol Bar Sisi",
 		"searchPlaceholder": "Cari permainan, penyedia...",
-		"liveChat": "Chat Langsung",
+		"liveChat": "Sembang Langsung",
 		"player": "Pemain",
 		"vip": "VIP",
 		"profile": "Profil",
@@ -20,8 +20,8 @@
 		"wallet": "Deposit/Pengeluaran",
 		"cashier": "Juruwang",
 		"winLoss": "Menang/Kalah",
-		"affiliate": "Afiliasi",
-		"logout": "Log Keluar",
+		"affiliate": "Bonus Rujukan",
+		"logout": "Log keluar",
 		"balance": "Baki",
 		"turnoverBonus": "Bonus Perolehan"
 	},
@@ -32,10 +32,11 @@
 		"wallet": "Dompet",
 		"settings": "Tetapan",
 		"promotions": "Promosi",
-		"affiliate": "Afiliasi",
+		"affiliate": "Bonus Rujukan",
+		"bonus": "Bonus Perolehan",
 		"providers": "Penyedia",
 		"lobby": "Lobi",
-		"bonus": "Bonus Perolehan"
+		"about": "Tentang Kami"
 	},
 	"profile": {
 		"language": "Bahasa",
@@ -43,13 +44,13 @@
 		"settingUp": "Menyediakan",
 		"profileBtn": "Lihat Profil",
 		"currentBalance": "Baki Semasa",
-		"availableFunds": "Dana Tersedia",
+		"availableFunds": "Dana tersedia",
 		"totalDeposits": "Jumlah Deposit",
 		"totalWithdrawals": "Jumlah Pengeluaran",
 		"walletAddress": "Alamat Dompet",
 		"copySuccess": "Alamat dompet disalin ke papan keratan!",
 		"copyFailed": "Gagal menyalin alamat dompet",
-		"notConnected": "Tidak bersambung",
+		"notConnected": "Tidak disambungkan",
 		"myProfile": "Profil Saya",
 		"history": {
 			"title": "Sejarah"
@@ -57,7 +58,7 @@
 		"logout": "Log Keluar",
 		"pendingRegistration": "Pendaftaran Belum Selesai",
 		"noEmailProvided": "Tiada e-mel diberikan",
-		"balanceOverview": "Gambaran Baki",
+		"balanceOverview": "Gambaran Keseluruhan Baki",
 		"gettingStarted": "Bermula",
 		"verifyEmail": "Sahkan e-mel anda",
 		"completeEmailVerification": "Lengkapkan pengesahan e-mel",
@@ -65,7 +66,7 @@
 		"addPhoneVerification": "Tambah pengesahan telefon",
 		"firstDeposit": "Deposit Pertama",
 		"makeFirstDeposit": "Buat deposit pertama anda",
-		"placeBetOrTrade": "Letak Pertaruhan / Buat Dagangan",
+		"placeBetOrTrade": "Letakkan Pertaruhan / Buat Perdagangan",
 		"startFirstGame": "Mulakan permainan pertama anda",
 		"recentActivity": "Aktiviti Terkini",
 		"transactionHistory": "Sejarah Transaksi",
@@ -75,15 +76,15 @@
 		"oneDayAgo": "1 hari yang lalu",
 		"twoDaysAgo": "2 hari yang lalu",
 		"deposit": "Deposit",
-		"loggedOutTitle": "Alamak! Anda telah log keluar",
+		"loggedOutTitle": "Oops! Anda Telah Log Keluar",
 		"loggedOutSubtitle": "Sila log masuk untuk melihat profil anda",
-		"goHome": "Kembali ke Laman Utama",
+		"goHome": "Pergi ke Laman Utama",
 		"withdrawal": "Pengeluaran",
 		"transactions": {
 			"title": "Sejarah Transaksi",
 			"trackDepositsWithdrawals": "Jejaki deposit dan pengeluaran anda",
 			"filters": "Penapis",
-			"refresh": "Segarkan",
+			"refresh": "Segar semula",
 			"advancedFilters": "Penapis Lanjutan",
 			"searchTransactionComingSoon": "Cari Transaksi (Akan Datang)",
 			"searchPlaceholderDisabled": "Fungsi carian akan dilaksanakan di peringkat API...",
@@ -93,7 +94,7 @@
 			"last7Days": "7 Hari Terakhir",
 			"last30Days": "30 Hari Terakhir",
 			"last90Days": "90 Hari Terakhir",
-			"thisMonth": "Bulan Ini",
+			"thisMonth": "Bulan ini",
 			"lastMonth": "Bulan Lepas",
 			"customRange": "Julat Tersuai",
 			"fromDate": "Dari Tarikh",
@@ -101,7 +102,7 @@
 			"transactionStatus": "Status Transaksi",
 			"allStatuses": "Semua Status",
 			"success": "Berjaya",
-			"pending": "Menunggu",
+			"pending": "Belum selesai",
 			"rejected": "Ditolak",
 			"clearAll": "Kosongkan Semua",
 			"cancel": "Batal",
@@ -110,7 +111,7 @@
 			"statusLabel": "Status",
 			"dateLabel": "Tarikh",
 			"statsTotalTransactions": "{total} jumlah transaksi",
-			"pageOf": "Halaman {current} dari {total}",
+			"pageOf": "Halaman {current} daripada {total}",
 			"live": "Langsung",
 			"tabs": {
 				"all": "Semua",
@@ -118,12 +119,12 @@
 				"withdrawals": "Pengeluaran"
 			},
 			"errorLoadingTransactions": "Ralat Memuatkan Transaksi",
-			"tryAgain": "Cuba Lagi",
-			"noTransactionsFound": "Tiada Transaksi Ditemui",
+			"tryAgain": "Cuba lagi",
+			"noTransactionsFound": "Tiada Transaksi Dijumpai",
 			"noTransactionsAvailableSelectedPeriod": "Tiada transaksi tersedia untuk tempoh yang dipilih.",
 			"noDepositsFoundSelectedPeriod": "Tiada deposit ditemui untuk tempoh yang dipilih.",
 			"noWithdrawalsFoundSelectedPeriod": "Tiada pengeluaran ditemui untuk tempoh yang dipilih.",
-			"show": "Tunjuk",
+			"show": "Tunjukkan",
 			"ofTransactions": "daripada {count} transaksi",
 			"showingRangeOfTotal": "Menunjukkan {from}-{to} daripada {total}",
 			"pageShort": "Halaman {current}/{total}"
@@ -132,7 +133,7 @@
 			"title": "Sejarah Pertaruhan",
 			"trackBetsResults": "Jejaki pertaruhan dan keputusan permainan anda",
 			"filters": "Penapis",
-			"refresh": "Segarkan",
+			"refresh": "Segar semula",
 			"advancedFilters": "Penapis Lanjutan",
 			"dateRange": "Julat Tarikh",
 			"selectDateRange": "Pilih julat tarikh",
@@ -140,7 +141,7 @@
 			"last7Days": "7 Hari Terakhir",
 			"last30Days": "30 Hari Terakhir",
 			"last90Days": "90 Hari Terakhir",
-			"thisMonth": "Bulan Ini",
+			"thisMonth": "Bulan ini",
 			"lastMonth": "Bulan Lepas",
 			"customRange": "Julat Tersuai",
 			"fromDate": "Dari Tarikh",
@@ -149,7 +150,7 @@
 			"allProviders": "Semua Penyedia",
 			"status": "Status",
 			"allStatuses": "Semua Status",
-			"outstanding": "Belum Selesai",
+			"outstanding": "Tertunggak",
 			"win": "Menang",
 			"lose": "Kalah",
 			"draw": "Seri",
@@ -164,14 +165,14 @@
 			"dateLabel": "Tarikh",
 			"totalBets": "Jumlah Pertaruhan",
 			"totalProfitLoss": "Jumlah Untung/Rugi",
-			"pageOf": "Halaman {current} dari {total}",
+			"pageOf": "Halaman {current} daripada {total}",
 			"live": "Langsung",
 			"errorLoadingBets": "Ralat Memuatkan Sejarah Pertaruhan",
 			"failedToLoadBetHistory": "Gagal memuatkan sejarah pertaruhan. Sila cuba lagi.",
-			"tryAgain": "Cuba Lagi",
-			"noBetsFound": "Tiada Pertaruhan Ditemui",
+			"tryAgain": "Cuba lagi",
+			"noBetsFound": "Tiada Pertaruhan Dijumpai",
 			"noBetsFoundSelectedPeriod": "Tiada sejarah pertaruhan ditemui untuk tempoh dan penapis yang dipilih.",
-			"show": "Tunjuk",
+			"show": "Tunjukkan",
 			"ofBets": "daripada {count} pertaruhan",
 			"showingRangeOfTotal": "Menunjukkan {from}-{to} daripada {total}",
 			"totalBet": "Jumlah Pertaruhan",
@@ -194,7 +195,7 @@
 				"betId": "ID Pertaruhan"
 			},
 			"errorLoading": "Ralat Memuatkan",
-			"noBetsFoundDescription": "Mula bermain untuk melihat sejarah pertaruhan anda di sini.",
+			"noBetsFoundDescription": "Mula bermain permainan untuk melihat sejarah pertaruhan anda di sini.",
 			"betHistory": "Sejarah Pertaruhan",
 			"hideAmounts": "Sembunyikan Jumlah",
 			"showAmounts": "Tunjukkan Jumlah",
@@ -220,7 +221,7 @@
 		}
 	},
 	"chat": {
-		"title": "Chat Langsung",
+		"title": "Sembang Langsung",
 		"placeholder": "Taip mesej anda...",
 		"send": "Hantar",
 		"input": {
@@ -237,7 +238,7 @@
 			"preview": {
 				"winIn": "Menang {amount} {currency} dalam {game}",
 				"gifAlt": "Pratonton GIF",
-				"imageAlt": "Pratonton Imej",
+				"imageAlt": "Pratonton imej",
 				"emoji": "Mesej emoji",
 				"rain": "Hujan: {amount} {currency}",
 				"system": "Sistem: {content}"
@@ -245,15 +246,15 @@
 		},
 		"imageDialog": {
 			"title": "Kongsi Imej Anda 🎰",
-			"description": "Bersedia untuk tunjukkan kepada bilik chat?",
+			"description": "Bersedia untuk ditunjukkan kepada bilik sembang?",
 			"previewLabel": "Pratonton",
 			"statusReady": "Sedia untuk Dikongsi",
-			"roomLabel": "🎰 Chat Kasino",
-			"shareNotice": "Imej anda akan dikongsi dengan semua pemain di dalam bilik chat",
+			"roomLabel": "🎰 Sembang Kasino",
+			"shareNotice": "Imej anda akan dikongsi dengan semua pemain di dalam bilik sembang",
 			"closeAria": "Tutup dialog",
 			"cancelAria": "Batal muat naik imej",
-			"sendAria": "Hantar imej ke chat",
-			"send": "Hantar ke Chat"
+			"sendAria": "Hantar imej ke sembang",
+			"send": "Hantar ke Sembang"
 		},
 		"picker": {
 			"searchEmojis": "Cari emoji...",
@@ -264,20 +265,20 @@
 			},
 			"loadingEmojis": "Memuatkan emoji...",
 			"loadingGifs": "Memuatkan GIF...",
-			"retry": "Cuba Semula",
+			"retry": "Cuba lagi",
 			"recent": "Terkini",
 			"noEmojis": "Tiada emoji ditemui",
 			"noGifs": "Tiada GIF ditemui",
 			"tryDifferent": "Cuba istilah carian yang berbeza",
 			"gifCategories": {
-				"trending": "Trend",
+				"trending": "Tren",
 				"reactions": "Reaksi",
 				"gaming": "Permainan",
 				"casino": "Kasino",
 				"celebration": "Sambutan",
 				"sports": "Sukan"
 			},
-			"searchResults": "Hasil Carian",
+			"searchResults": "Keputusan Carian",
 			"availableToTag": "Pengguna tersedia untuk ditag 🎯",
 			"clickOrTab": "Klik atau Tab untuk memilih",
 			"noUsers": "Tiada pengguna ditemui",
@@ -300,8 +301,8 @@
 		},
 		"message": {
 			"you": "Anda",
-			"winTitle": "Kemenangan besar dalam \"{game}\"! 🎰",
-			"gifAlt": "Gif",
+			"winTitle": "Kemenangan Besar dalam \"{game}\"! 🎰",
+			"gifAlt": "GIF",
 			"imageAlt": "Imej yang dimuat naik",
 			"rainTitle": "Hujan Wang! 🌧️💰",
 			"recipients": "→ {count} {count, plural, one {penerima} other {penerima}}",
@@ -310,40 +311,40 @@
 			"loadingHistory": "Memuatkan sejarah sembang..."
 		},
 		"system": {
-			"slashDisabled": "Perintah slash dilumpuhkan sementara. Sila gunakan mesej biasa.",
-			"rateLimit": "Had kadar dicapai. Sila tunggu {seconds} saat sebelum menghantar mesej lain.",
-			"cannotTagSelf": "Anda tidak boleh menanda diri sendiri dalam mesej.",
+			"slashDisabled": "Perintah slash dilumpuhkan buat sementara waktu. Sila gunakan mesej biasa.",
+			"rateLimit": "Had kadar melebihi. Sila tunggu {seconds} saat sebelum menghantar mesej lain.",
+			"cannotTagSelf": "Anda tidak boleh menandai diri anda dalam mesej.",
 			"processingImage": "Memproses imej...",
 			"failedUploadPrefix": "Gagal memuat naik imej: {message}",
 			"unknownError": "Ralat tidak diketahui"
 		}
 	},
 	"sidebar": {
-		"quest": "MISI",
+		"quest": "PENCARIAN",
 		"spin": "PUTAR",
-		"deposit": "Deposit",
+		"deposit": "DEPOSIT",
 		"withdraw": "PENGELUARAN",
 		"playOnTelegram": "Main di Telegram",
 		"dailyBonus": "Bonus Harian",
 		"navigation": "Navigasi",
 		"games": "Permainan",
 		"providers": "Penyedia",
-		"trendingNow": "Trending Sekarang",
+		"trendingNow": "Tren Sekarang",
 		"allProviders": "Semua Penyedia",
 		"allTopProviders": "Semua Penyedia Teratas",
-		"hotBadge": "Popular"
+		"hotBadge": "Panas"
 	},
 	"search": {
 		"title": "Cari permainan",
-		"subtitle": "Cari mengikut nama, penyedia, atau kategori",
+		"subtitle": "Cari mengikut nama, penyedia atau kategori",
 		"placeholder": "Cari permainan, penyedia, kategori...",
 		"clear": "Kosongkan",
 		"recent": "Terkini:",
 		"popular": "Popular:",
 		"favoritesTry": "Anda boleh cuba — Kegemaran anda",
-		"hotPicks": "Pilihan popular",
+		"hotPicks": "Pilihan hangat",
 		"resultsCount": "Menemui {count} {count, plural, one {permainan} other {permainan}}",
-		"noResults": "Tiada hasil",
+		"noResults": "Tiada keputusan",
 		"filterApplied": "Ditapis oleh {count} {count, plural, one {penyedia} other {penyedia}}",
 		"suggestions": {
 			"category": "Kategori",
@@ -362,17 +363,17 @@
 		"gameTypes": {
 			"blackjack": "Blackjack",
 			"roulette": "Rolet",
-			"crash": "Kemalangan"
+			"crash": "Crash"
 		}
 	},
 	"query": {
 		"sort": {
-			"label": "Susun mengikut",
+			"label": "Isih mengikut",
 			"a-z": "A-Z",
 			"z-a": "Z-A"
 		},
 		"filters": {
-			"filter": "Tapis",
+			"filter": "Penapis",
 			"optionsTitle": "Pilihan Penapis",
 			"clearAll": "Kosongkan Semua Penapis",
 			"activeLabel": "Aktif:"
@@ -393,12 +394,12 @@
 			"gridAria": "Paparan grid",
 			"listAria": "Paparan senarai"
 		},
-		"loadMore": "Muat Lagi"
+		"loadMore": "Muatkan Lagi"
 	},
 	"commonExtra": {
 		"connecting": "Menyambung...",
-		"offline": "Luar Talian",
-		"online": "Dalam Talian",
+		"offline": "Luar talian",
+		"online": "Dalam talian",
 		"clear": "Kosongkan"
 	},
 	"home": {
@@ -407,28 +408,28 @@
 	"lobby": {
 		"yourFavorites": "Kegemaran Anda",
 		"featuredCasinoGames": "Permainan Kasino Pilihan",
-		"hotPicks": "Pilihan Popular",
+		"hotPicks": "Pilihan Panas",
 		"slots": "Slot",
 		"sports": "Sukan",
 		"realTimeScoreboard": "Papan Skor Masa Nyata"
 	},
 	"affiliate": {
-		"title": "Program Afiliasi",
-		"loginPromptTitle": "Program Rujukan",
+		"title": "Program Bonus Rujukan",
+		"loginPromptTitle": "Program Bonus Rujukan",
 		"loginPromptSubtitle": "Log masuk untuk melihat statistik rujukan, bonus dan menuntut ganjaran anda.",
-		"goHome": "Kembali ke Laman Utama",
+		"goHome": "Pergi ke Laman Utama",
 		"tabs": {
 			"dashboard": "Papan Pemuka",
 			"rates": "Kadar Komisen",
 			"calculator": "Kalkulator"
 		},
-		"refresh": "Segarkan",
-		"refreshing": "Menyegarkan...",
-		"refreshAllSuccess": "Semua data berjaya disegarkan!",
-		"refreshPartial": "Disegarkan sebahagian: {success}/{total} bahagian dikemas kini",
-		"refreshFailed": "Gagal menyegarkan data. Sila cuba lagi.",
+		"refresh": "Segar semula",
+		"refreshing": "Menyegarkan semula...",
+		"refreshAllSuccess": "Semua data berjaya disegarkan semula!",
+		"refreshPartial": "Sebahagiannya disegarkan semula: {success}/{total} bahagian dikemas kini",
+		"refreshFailed": "Gagal menyegarkan semula data. Sila cuba lagi.",
 		"dashboard": {
-			"title": "Papan Pemuka Afiliasi",
+			"title": "Papan Pemuka Gabungan",
 			"subtitle": "Jejaki rujukan, pendapatan dan prestasi komisen anda",
 			"performanceOverview": "Gambaran Prestasi",
 			"referralManagement": "Pengurusan Rujukan",
@@ -437,34 +438,34 @@
 			"claim": "Tuntut",
 			"claiming": "Menuntut...",
 			"totalIncome": "Jumlah Pendapatan",
+			"claimButtonTitle": "Tuntut Bonus",
 			"totalReferrals": "Jumlah Rujukan",
 			"usersUnit": "pengguna",
 			"yourReferralLinks": "Pautan Rujukan Anda",
-			"referralLinksSubtitle": "Kongsi pautan ini untuk merujuk pengguna baru dan mendapat komisen",
+			"referralLinksSubtitle": "Kongsi pautan ini untuk merujuk pengguna baharu dan memperoleh komisen",
 			"completeReferralLink": "Pautan Rujukan Lengkap",
 			"fullReferralPlaceholder": "Pautan rujukan penuh akan muncul di sini",
-			"fullReferralHelp": "Pautan terus yang boleh diklik oleh pengguna untuk mendaftar dengan kod rujukan anda",
+			"fullReferralHelp": "Pautan terus yang boleh diklik pengguna untuk mendaftar dengan kod rujukan anda",
 			"referralCodeOnly": "Kod Rujukan Sahaja",
 			"yourReferralId": "ID rujukan anda",
 			"referralIdHelp": "Kongsi kod ini untuk pengguna masukkan secara manual semasa pendaftaran",
 			"copyFullSuccess": "Pautan rujukan penuh disalin ke papan keratan!",
-			"copyIdSuccess": "ID rujukan disalin ke papan keratan!",
-			"claimButtonTitle": "Tuntut Bonus anda"
+			"copyIdSuccess": "ID rujukan disalin ke papan keratan!"
 		},
 		"referrals": {
 			"title": "Rujukan Saya",
-			"subtitle": "Jejaki dan uruskan semua pengguna yang dirujuk melalui pautan afiliasi anda",
+			"subtitle": "Jejaki dan urus semua pengguna yang dirujuk melalui pautan gabungan anda",
 			"totalReferrals": "jumlah rujukan",
 			"monitorHelp": "Pantau aktiviti, deposit dan corak permainan rujukan anda",
 			"sort": {
-				"placeholder": "Susun mengikut...",
-				"nicknameAsc": "Nama Samaran (A-Z)",
-				"nicknameDesc": "Nama Samaran (Z-A)",
+				"placeholder": "Isih mengikut...",
+				"nicknameAsc": "Nama Panggilan (A-Z)",
+				"nicknameDesc": "Nama Panggilan (Z-A)",
 				"lastLogin": "Log Masuk Terakhir",
 				"unclaimedAmount": "Jumlah Belum Dituntut"
 			},
 			"table": {
-				"nickname": "Nama Samaran",
+				"nickname": "Nama Panggilan",
 				"totalWager": "Jumlah Pertaruhan",
 				"lastLogin": "Log Masuk Terakhir",
 				"registered": "Berdaftar",
@@ -478,25 +479,25 @@
 			},
 			"pagination": {
 				"showing": "Menunjukkan {from} hingga {to} daripada {total} keputusan",
-				"prev": "Sebelumnya",
+				"prev": "Sebelum ini",
 				"next": "Seterusnya"
 			}
 		},
 		"rates": {
 			"title": "Struktur Kadar Komisen",
-			"subtitle": "Peratusan pendapatan mengikut peringkat dan kategori permainan",
-			"howItWorks": {
-				"title": "Bagaimana Peringkat Komisen Berfungsi",
-				"body": "Peringkat komisen anda ditentukan oleh jumlah pertaruhan harian rujukan anda. Peringkat yang lebih tinggi menawarkan kadar komisen yang lebih baik untuk semua jenis permainan."
+			"subtitle": "Peratusan pendapatan mengikut tahap peringkat dan kategori permainan",
+			"overview": {
+				"title": "Gambaran keseluruhan",
+				"body": "Bonus Rujukan memberi ganjaran kepada ahli gabungan berdasarkan pusing ganti pertaruhan daripada pemain yang dirujuk dalam Slot, Kasino Langsung, Buku Sukan dan Loteri. Komisen dikira setiap 24 jam, dengan pendapatan berdasarkan peringkat pusing ganti yang berbeza."
 			},
 			"calculation": {
 				"title": "Bagaimana Komisen Dikira",
-				"desc": "Komisen dikira setiap 24 jam berdasarkan jumlah pertaruhan pemain yang dirujuk. Contoh:",
+				"desc": "Komisen dikira setiap 24 jam berdasarkan jumlah pertaruhan pemain yang dirujuk. \nContoh:",
 				"exampleTitle": "Peringkat {tier}:",
 				"wagerIn": "Pertaruhan {amount} dalam {gameType}"
 			},
 			"table": {
-				"tierLevel": "Peringkat",
+				"tierLevel": "Tahap Peringkat",
 				"wagerRange": "Julat Pertaruhan",
 				"slots": "Slot",
 				"liveCasino": "Kasino Langsung",
@@ -506,33 +507,29 @@
 				"dailyWager": "Jumlah pertaruhan harian"
 			},
 			"claim": {
-				"title": "Menuntut dan Pengeluaran",
+				"title": "Menuntut dan Mengeluarkan",
 				"points": {
-					"0": "Komisen tersedia untuk pengeluaran sebaik sahaja dikira.",
-					"1": "Tiada tarikh luput untuk komisen yang belum dituntut—ia akan terkumpul sehingga dituntut.",
+					"0": "Komisen tersedia untuk pengeluaran setelah dikira.",
+					"1": "Tiada tamat tempoh untuk komisen yang tidak dituntut—ia terkumpul sehingga dituntut.",
 					"2": "Pengeluaran mengikut peraturan standard platform, seperti had minimum dan masa pemprosesan."
 				}
 			},
 			"system": {
-				"title": "Waktu dan Operasi Sistem",
-				"dailyTimeframeLabel": "Rangka Masa Harian:",
+				"title": "Masa dan Operasi Sistem",
+				"dailyTimeframeLabel": "Jangka Masa Harian:",
 				"dailyTimeframeValue": "00:00 UTC hingga 23:59 UTC (setiap hari).",
-				"claimDailyLabel": "Tuntutan Harian:",
+				"claimDailyLabel": "Tuntut Setiap Hari:",
 				"claimDailyValue": "Tersedia setiap hari pada 14:00 UTC (Waktu Tempatan Anda: {local}).",
 				"note": "Nota: Walaupun kami bekerja dengan penyedia dari zon waktu yang berbeza, semua pengiraan mengikut UTC untuk memastikan konsistensi dan mengelakkan kekeliruan."
 			},
 			"amendments": {
 				"title": "Pindaan",
-				"body": "Kami boleh mengemas kini terma ini pada bila-bila masa. Perubahan berkuat kuasa serta-merta selepas disiarkan, dan penyertaan berterusan bermakna anda menerima terma baru."
+				"body": "Kami boleh mengemas kini syarat ini pada bila-bila masa. Perubahan berkuat kuasa serta-merta selepas disiarkan, dan penyertaan berterusan bermakna anda menerima syarat baharu."
 			},
 			"footer": {
 				"schedule": "Jadual Komisen:",
 				"availableDaily": "Tersedia setiap hari pada",
 				"localTimeLabel": "(Waktu Tempatan Anda: {time})"
-			},
-			"overview": {
-				"title": "Gambaran Keseluruhan",
-				"body": "Program Affiliate memberi ganjaran kepada ahli berdasarkan perolehan pertaruhan daripada pemain yang dirujuk dalam Slot, Kasino Langsung, Buku Sukan dan Loteri. Komisen dikira setiap 24 jam, dengan pendapatan berdasarkan peringkat perolehan yang berbeza."
 			}
 		},
 		"calculator": {
@@ -550,7 +547,181 @@
 			"wagerPlaceholder": "contohnya, 1000",
 			"calcFor": "Mengira pendapatan untuk pertaruhan ${amount}",
 			"totalPotential": "Jumlah Potensi Pendapatan:",
-			"combinedAtTier": "Pendapatan gabungan dari semua jenis permainan di Peringkat {level}"
+			"combinedAtTier": "Pendapatan gabungan daripada semua jenis permainan di Peringkat {level}"
+		}
+	},
+	"bonus": {
+		"title": "Program Bonus Perolehan",
+		"loginPromptTitle": "Program Bonus Perolehan",
+		"loginPromptSubtitle": "Log masuk untuk melihat statistik bonus anda dan menuntut ganjaran anda.",
+		"goHome": "Pergi ke Laman Utama",
+		"tabs": {
+			"dashboard": "Papan Pemuka",
+			"claims": "Tuntutan",
+			"rates": "Kadar Bonus",
+			"calculator": "Kalkulator"
+		},
+		"refresh": "Segar semula",
+		"refreshing": "Menyegarkan semula...",
+		"refreshAllSuccess": "Semua data berjaya disegarkan semula!",
+		"refreshPartial": "Sebahagiannya disegarkan semula: {success}/{total} bahagian dikemas kini",
+		"refreshFailed": "Gagal menyegarkan semula data. Sila cuba lagi.",
+		"dashboard": {
+			"title": "Papan Pemuka Bonus",
+			"subtitle": "Jejaki pertaruhan, bonus dan pendapatan ganjaran anda",
+			"claimButtonTitle": "Tuntut",
+			"performanceOverview": "Gambaran Bonus",
+			"bonusRatesTitle": "Struktur Kadar Bonus",
+			"totalIncome": "Jumlah Bonus",
+			"pendingBonus": "Bonus Belum Selesai",
+			"lastClaim": "Tuntutan Terakhir",
+			"unclaimedEarnings": "Tersedia untuk Dituntut",
+			"claim": {
+				"title": "Menuntut dan Mengeluarkan",
+				"points": {
+					"0": "Komisen tersedia untuk pengeluaran setelah dikira.",
+					"1": "Tiada tamat tempoh untuk komisen yang tidak dituntut—ia terkumpul sehingga dituntut.",
+					"2": "Pengeluaran mengikut peraturan standard platform, seperti had minimum dan masa pemprosesan."
+				}
+			},
+			"claiming": "Menuntut...",
+			"section2": {
+				"title": "Kelayakan",
+				"content": "Untuk mengambil bahagian:"
+			},
+			"section3": {
+				"title": "Peringkat dan Kadar Perolehan",
+				"content": "Bonus dikira berdasarkan jumlah pertaruhan harian anda:",
+				"noteTitle": "Nota",
+				"noteContent": "Peringkat dinilai setiap hari pada 14:00 UTC. Jumlah pertaruhan hari sebelumnya menentukan kadar bonus hari ini. Kadar dikenakan untuk semua jenis permainan: Slot, Kasino Langsung dan Sukan."
+			}
+		},
+		"claims": {
+			"title": "Sejarah Tuntutan",
+			"subtitle": "Jejaki tuntutan bonus dan aktiviti pertaruhan anda",
+			"tableHeaders": {
+				"date": "Tarikh Pertaruhan",
+				"slots": "Slot",
+				"liveCasino": "Kasino Langsung",
+				"sports": "Sukan",
+				"total": "Jumlah",
+				"tier": "Peringkat",
+				"unclaimed": "Belum Dituntut",
+				"token": "Token"
+			},
+			"tierPrefix": "Peringkat",
+			"availableToClaim": "Tersedia untuk Dituntut",
+			"totalBonus": "Jumlah Bonus",
+			"claimed": "Dituntut",
+			"progressPercentage": "Kemajuan",
+			"progressTitle": "Kemajuan Anda",
+			"currentTier": "Peringkat Semasa",
+			"nextTier": "Peringkat Seterusnya",
+			"wagerProgress": "Kemajuan Pertaruhan",
+			"totalWagered": "Jumlah Dipertaruhkan Hari Ini",
+			"toNextTier": "untuk mencapai peringkat seterusnya",
+			"empty": {
+				"title": "Belum Ada Tuntutan Bonus",
+				"subtitle": "Mula bermain untuk mendapatkan bonus!"
+			}
+		},
+		"rates": {
+			"title": "Peringkat dan Kadar Perolehan",
+			"subtitle": "Peratusan bonus mengikut tahap pertaruhan dan kategori permainan",
+			"overview": {
+				"title": "Gambaran keseluruhan",
+				"body": "Bonus Perolehan memberi ganjaran kepada pengguna berdasarkan pertaruhan mereka dalam Slot, Kasino Langsung, Buku Sukan dan Loteri. Bonus dikira setiap 24 jam, dan pengguna boleh menuntutnya pada hari berikutnya selepas bertaruh. Terdapat tujuh peringkat, setiap satu dengan kadar yang berbeza bergantung pada jumlah pertaruhan."
+			},
+			"eligibility": {
+				"title": "Kelayakan",
+				"content": "Untuk mengambil bahagian:",
+				"points": {
+					"0": "Anda mesti mempunyai akaun aktif.",
+					"1": "Letakkan pertaruhan dalam Slot, Kasino Langsung, Buku Sukan dan Loteri.",
+					"2": "Memenuhi syarat pertaruhan minimum untuk setiap peringkat."
+				}
+			},
+			"calculation": {
+				"title": "Bagaimana Bonus Dikira",
+				"desc": "Bonus dikira setiap 24 jam berdasarkan jumlah pertaruhan anda. Contoh:",
+				"exampleTitle": "Peringkat {tier}:",
+				"wagerIn": "Pertaruhan {amount} dalam {gameType}"
+			},
+			"table": {
+				"tierLevel": "Tahap Peringkat",
+				"wagerRange": "Julat Pertaruhan",
+				"slots": "Slot",
+				"liveCasino": "Kasino Langsung",
+				"sports": "Sukan",
+				"tierPrefix": "PERINGKAT",
+				"commissionLevel": "Tahap Bonus",
+				"dailyWager": "Jumlah pertaruhan harian"
+			},
+			"claim": {
+				"title": "Menuntut dan Mengeluarkan Bonus",
+				"points": {
+					"0": "Bonus menjadi layak untuk dituntut 24 jam selepas pertaruhan.",
+					"1": "Bonus yang tidak dituntut akan terkumpul dan tidak akan luput.",
+					"2": "Proses menuntut dan mengeluarkan mungkin berbeza-beza berdasarkan dasar khusus platform."
+				}
+			},
+			"system": {
+				"title": "Masa dan Operasi Sistem",
+				"dailyTimeframeLabel": "Jangka Masa Harian:",
+				"dailyTimeframeValue": "00:00 UTC hingga 23:59 UTC (setiap hari).",
+				"claimDailyLabel": "Tuntut Setiap Hari:",
+				"claimDailyValue": "Tersedia setiap hari pada 14:00 UTC (Waktu Tempatan Anda: {local}).",
+				"note": "Nota: walaupun kami bekerja dengan penyedia dari zon waktu yang berbeza, semua pengiraan mengikut UTC untuk memastikan konsistensi dan mengelakkan kekeliruan."
+			},
+			"amendments": {
+				"title": "Pindaan dan Pembatalan Kelayakan",
+				"body": "Kami boleh mengemas kini syarat ini pada bila-bila masa, dan perubahan berkuat kuasa selepas disiarkan. Jika ralat sistem, salah kira atau penipuan disyaki, kami berhak untuk melaraskan atau membatalkan kelayakan bonus dan akaun yang diperlukan untuk memastikan keadilan"
+			},
+			"footer": {
+				"schedule": "Jadual Bonus:",
+				"availableDaily": "Tersedia setiap hari pada",
+				"localTimeLabel": "(Waktu Tempatan Anda: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Kalkulator Bonus",
+			"subtitle": "Anggarkan pendapatan bonus anda berdasarkan jumlah pertaruhan anda",
+			"interactive": {
+				"title": "Alat Interaktif:",
+				"body": "Masukkan jumlah pertaruhan yang berbeza untuk melihat potensi bonus di semua peringkat"
+			},
+			"potentialEarnings": "Potensi Bonus",
+			"basedOnRate": "Berdasarkan kadar bonus {percentage}%",
+			"tier": "Peringkat {level}",
+			"commissionLevel": "Tahap Bonus {level}",
+			"enterWager": "Masukkan Jumlah Pertaruhan (USD)",
+			"wagerPlaceholder": "contohnya, 1000",
+			"calcFor": "Mengira bonus untuk pertaruhan ${amount}",
+			"totalPotential": "Jumlah Potensi Bonus:",
+			"combinedAtTier": "Bonus gabungan daripada semua jenis permainan di Peringkat {level}"
+		},
+		"claimSuccessModal": {
+			"title": "Tuntutan Berjaya",
+			"statusCompleted": "Selesai",
+			"statusOnChain": "Atas Rantaian",
+			"claimAmount": "Jumlah Tuntutan",
+			"logoAlt": "Logo {siteName}",
+			"backgroundAlt": "Latar belakang kejayaan tuntutan",
+			"creatingMagic": "Mencipta Keajaiban...",
+			"downloadShare": "Muat Turun & Kongsi",
+			"spreadTheWin": "SEBARKAN KEMENANGAN",
+			"socialX": "X",
+			"socialFacebook": "Facebook",
+			"socialWhatsApp": "WhatsApp",
+			"socialTelegram": "Telegram",
+			"socialReddit": "Reddit",
+			"socialMore": "Lagi",
+			"shareText": "Saya baru sahaja menuntut bonus {amount}! Sertai saya: {url}",
+			"referralLinkCopied": "Pautan rujukan disalin!",
+			"referralLinkCopyFailed": "Gagal menyalin pautan rujukan",
+			"screenshotFailed": "Tangkapan skrin gagal. Sila cuba lagi atau gunakan pelayar lain.",
+			"shareTextCopied": "Teks kongsi disalin ke papan keratan!",
+			"shareFailed": "Perkongsian gagal. Sila cuba lagi."
 		}
 	},
 	"debug": {
@@ -559,7 +730,7 @@
 	"getLobby": {
 		"enteringLobby": "Memasuki Lobi...",
 		"connectingWait": "Sila tunggu sementara kami menyambungkan anda.",
-		"invalidSession": "Sesi anda tidak sah atau penyedia tiada. Sila cuba lagi.",
+		"invalidSession": "Sesi anda tidak sah atau pembekal tiada. Sila cuba lagi.",
 		"failedPrefix": "Gagal memasuki lobi: {message}",
 		"launchFailedTitle": "Pelancaran Gagal",
 		"returnHome": "Kembali ke Laman Utama"
@@ -573,16 +744,16 @@
 	"modalsIdle": {
 		"badgeLimitedTime": "TAWARAN MASA TERHAD",
 		"headline": "Dapatkan Bonus Selamat Datang 200%!",
-		"subheadline": "Sambungkan dompet kripto anda sekarang dan terima bonus sehingga {amount} pada deposit pertama anda!",
+		"subheadline": "Sambungkan dompet kripto anda sekarang dan terima sehingga {amount} bonus pada deposit pertama anda!",
 		"featureDepositMatch": "Padanan Deposit 200%",
-		"featureZeroFees": "Sifar Yuran Transaksi",
+		"featureZeroFees": "Yuran Transaksi Sifar",
 		"featureInstantWithdrawals": "Pengeluaran Segera",
 		"featureNoKyc": "Tiada KYC Diperlukan",
 		"ctaClaim": "TUNTUT BONUS SEKARANG!",
 		"offerExpires": "Tawaran tamat dalam:",
 		"disclaimer": "T&S Terpakai. Perjudian melibatkan risiko. Bermain dengan bertanggungjawab. 18+",
 		"closeAria": "Tutup modal",
-		"bannerAlt": "Banner Promosi",
+		"bannerAlt": "Sepanduk Promosi",
 		"ctaOk": "Sambungkan Dompet & Mula Bertaruh",
 		"enterAmount": "Masukkan Jumlah",
 		"balance": "Baki",
@@ -592,18 +763,18 @@
 	},
 	"modalsSmall": {
 		"close": "Tutup",
-		"firstDepositBoost": "Bonus Tambahan Deposit Pertama",
+		"firstDepositBoost": "Peningkatan Bonus Deposit Pertama",
 		"bonus": "Bonus",
 		"min": "Min",
-		"sec": "Saat",
+		"sec": "Saa",
 		"deposit": "Deposit"
 	},
 	"auth": {
 		"email": {
 			"title": "Log Masuk E-mel",
 			"description": "Kami akan menghantar kod 6 digit kepada anda",
-			"emailLabel": "Alamat E-mel",
-			"emailPlaceholder": "nama@emel.com",
+			"emailLabel": "Alamat emel",
+			"emailPlaceholder": "nama@email.com",
 			"cancel": "Batal",
 			"sending": "Menghantar",
 			"continue": "Teruskan",
@@ -613,8 +784,8 @@
 			"resendCode": "Hantar semula kod",
 			"resendIn": "Hantar semula dalam {seconds}s",
 			"verifying": "Mengesahkan",
-			"successTitle": "Anda berjaya masuk",
-			"successSubtitle": "Menyediakan...",
+			"successTitle": "Anda telah masuk",
+			"successSubtitle": "Menyediakan perkara...",
 			"modalAria": "Modal Pengesahan E-mel",
 			"errors": {
 				"invalidEmail": "Sila masukkan alamat e-mel yang sah",
@@ -623,58 +794,58 @@
 			}
 		},
 		"setNickname": {
-			"title": "Tetapkan Nama Samaran Anda",
+			"title": "Tetapkan Nama Panggilan Anda",
 			"subtitle": "Ini adalah persediaan sekali sahaja dan tidak boleh diubah",
-			"logoutAria": "Log Keluar",
-			"inputPlaceholder": "Pilih nama samaran unik anda",
-			"referrerCheckbox": "Saya ada ID perujuk",
+			"logoutAria": "Log keluar",
+			"inputPlaceholder": "Pilih nama panggilan unik anda",
+			"referrerCheckbox": "Saya mempunyai ID perujuk",
 			"referrerPlaceholder": "Masukkan ID perujuk",
-			"referrerHelp": "Pilihan. Ini menghubungkan akaun anda kepada perujuk untuk program bonus.",
+			"referrerHelp": "Pilihan. Ini memautkan akaun anda kepada perujuk untuk program bonus.",
 			"status": {
-				"checking": "Menyemak ketersediaan...",
-				"available": "Nama samaran tersedia!",
-				"taken": "Nama samaran ini telah digunakan."
+				"checking": "Memeriksa ketersediaan...",
+				"available": "Nama panggilan tersedia!",
+				"taken": "Nama panggilan ini telah diambil."
 			},
 			"register": "Daftar dan Main",
 			"termsTitle": "Terma & Syarat:",
 			"termsBody": "Dengan menandatangani dokumen ini dengan Dompet anda dan/atau terus menggunakan Aplikasi Web3 ini, anda menerima terma penggunaan aplikasi. Menandatangani persetujuan anda kepada Terma Penggunaan bukanlah transaksi blockchain dan tidak menanggung sebarang kos.",
 			"errors": {
-				"verifyNicknameFailed": "Tidak dapat mengesahkan nama samaran. Sila cuba lagi.",
+				"verifyNicknameFailed": "Tidak dapat mengesahkan nama panggilan. Sila cuba lagi.",
 				"registerFailed": "Pendaftaran gagal: {message}"
 			}
 		},
 		"walletConnect": {
-			"loginWithEmail": "Log Masuk dengan E-mel",
+			"loginWithEmail": "Log Masuk Dengan E-mel",
 			"connectWalletBtn": "Sambungkan Dompet",
+			"loginWithWallet": "Log Masuk Dengan Dompet",
 			"player": "Pemain",
 			"walletConnected": "Dompet Disambungkan",
 			"emailConnected": "E-mel Disambungkan",
 			"disconnect": "Putuskan sambungan",
 			"walletAddress": "Alamat Dompet",
-			"balance": "Baki",
-			"loginWithWallet": "Log masuk dengan Dompet"
+			"balance": "Baki"
 		}
 	},
 	"walletProvider": {
 		"transactionModal": {
+			"title": "DOMPET",
 			"tabs": {
 				"deposit": "Deposit",
+				"tip": "Tip",
 				"withdraw": "Pengeluaran",
 				"swap": "Tukar",
 				"walletInfo": "Dompet",
-				"tip": "Petua",
-				"emailWallet": "Dompet e -mel",
+				"emailWallet": "Dompet E-mel",
 				"wallet": "Dompet"
 			},
 			"mobileDropdown": {
 				"emailWallet": "Dompet E-mel",
 				"wallet": "Dompet",
 				"deposit": "Deposit",
+				"tip": "Tip",
 				"withdraw": "Pengeluaran",
-				"swap": "Tukar",
-				"tip": "Petua"
-			},
-			"title": "Dompet"
+				"swap": "Tukar"
+			}
 		},
 		"networkSelector": {
 			"placeholder": "Pilih Rangkaian",
@@ -688,11 +859,11 @@
 			"instantDeposit": "Deposit Segera",
 			"yourWalletBalance": "Baki Dompet Anda",
 			"searchPlaceholder": "Cari nama atau tampal alamat",
-			"emptySearch": "Tiada token yang sepadan dengan carian anda ditemui.",
+			"emptySearch": "Tiada token ditemui yang sepadan dengan carian anda.",
 			"emptyOwned": "Tiada token dengan baki ditemui.",
-			"searchResults": "Hasil Carian",
+			"searchResults": "Keputusan Carian",
 			"yourTokens": "Token Anda",
-			"otherResults": "Hasil Lain"
+			"otherResults": "Keputusan Lain"
 		},
 		"tabsSidebar": {
 			"walletInfo": "Dompet",
@@ -707,11 +878,12 @@
 			"enterAmount": "Masukkan Jumlah",
 			"selectToken": "Pilih token",
 			"max": "Maks",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} dikhaskan untuk menampung yuran gas dan mengelakkan kegagalan transaksi",
 			"balance": "Baki:",
 			"calculating": "Mengira...",
-			"approxUsd": "~ $ __ ph_0__ usd",
+			"approxUsd": "~ ${amount} USD",
 			"minPrefix": "Min:",
-			"ratesMayVary": "Kadar mungkin berbeza",
+			"ratesMayVary": "Kadar mungkin berbeza-beza",
 			"emailWalletAddress": "Alamat Dompet E-mel",
 			"walletAddress": "Alamat Dompet",
 			"minimumIs": "Minimum ialah {min}",
@@ -720,18 +892,62 @@
 				"insufficientBalance": "Baki tidak mencukupi untuk transaksi ini",
 				"amountTooHighGas": "Jumlah terlalu tinggi apabila mengambil kira yuran gas",
 				"checkForm": "Sila semak borang dan cuba lagi",
-				"pendingDeposit": "Anda mempunyai deposit yang sedang menunggu. Sila tunggu ia selesai"
+				"pendingDeposit": "Anda mempunyai deposit yang belum selesai. Sila tunggu sehingga ia selesai"
 			},
 			"status": {
 				"processing": "Memproses...",
 				"awaitingApproval": "Menunggu Kelulusan",
 				"calculatingRate": "Mengira Kadar...",
-				"insufficientBalance": "Baki Tidak Mencukupi"
+				"insufficientBalance": "Baki tidak mencukupi"
 			},
 			"buttons": {
-				"depositUsd": "Deposit $ __ ph_0__"
+				"depositUsd": "Deposit ${amount}"
+			}
+		},
+		"tipPanel": {
+			"youTip": "Anda Tip",
+			"resetForm": "Set Semula Borang",
+			"enterAmount": "Masukkan jumlah",
+			"selectToken": "Pilih token",
+			"minPrefix": "Minimum",
+			"balance": "Baki:",
+			"max": "Maks",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} dikhaskan untuk menampung yuran gas dan mengelakkan kegagalan transaksi",
+			"approxUsd": "~ ${amount} USD",
+			"tipPanelWarningText": "Tip adalah sukarela dan tidak boleh dikembalikan.",
+			"emailWalletAddress": "Alamat Dompet E-mel",
+			"errors": {
+				"selectTokenAndAmount": "Sila pilih token dan masukkan jumlah.",
+				"insufficientBalance": "Baki tidak mencukupi.",
+				"belowMinimum": "Jumlah mestilah sekurang-kurangnya {min}.",
+				"missingWallet": "Tidak dapat mengambil dompet tip. Sila cuba lagi kemudian.",
+				"checkForm": "Sila sahkan butiran tip anda."
 			},
-			"maxButtonToolTipText": "__Ph_0__ __ph_1__ dikhaskan untuk menampung yuran gas dan elakkan kegagalan transaksi"
+			"status": {
+				"processing": "Menghantar tip...",
+				"awaitingApproval": "Menunggu kelulusan...",
+				"calculatingRate": "Mengira...",
+				"insufficientBalance": "Baki tidak mencukupi",
+				"fetchingWallet": "Menyediakan dompet tip..."
+			},
+			"prompts": {
+				"selectToken": "Pilih token",
+				"enterAmount": "Masukkan jumlah"
+			},
+			"buttons": {
+				"tipUsd": "Tip ${amount}",
+				"tip": "Tip"
+			},
+			"minimumIs": "Tip minimum ialah {min}"
+		},
+		"tipPending": {
+			"submittedTitle": "Tip Menunggu",
+			"submittedDesc": "Tip anda sedang disahkan di rantaian.",
+			"confirmedTitle": "Tip Disahkan!",
+			"confirmedDesc": "Tip anda telah dihantar dengan jayanya.",
+			"viewOnExplorer": "Lihat di penjelajah",
+			"newTipPending": "Hantar tip lain",
+			"newTipConfirmed": "Hantar tip lain"
 		},
 		"swapPanel": {
 			"selectTokens": "Pilih token",
@@ -748,11 +964,12 @@
 			"set": "Tetapkan",
 			"currentSlippage": "Gelinciran semasa",
 			"swapSuccessful": "Pertukaran Berjaya!",
-			"transactionConfirmed": "Transaksi anda telah disahkan",
+			"transactionConfirmed": "Transaksi anda telah diserahkan",
 			"hash": "Hash",
-			"newSwap": "Pertukaran Baru",
+			"newSwap": "Pertukaran Baharu",
 			"youPay": "Anda bayar",
 			"max": "Maks",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} dikhaskan untuk menampung yuran gas dan mengelakkan kegagalan transaksi",
 			"low": "Rendah",
 			"amountPlaceholder": "0",
 			"selectToken": "Pilih Token",
@@ -771,35 +988,34 @@
 				"insufficientBalance": "Baki tidak mencukupi untuk transaksi ini",
 				"amountTooHighGas": "Jumlah terlalu tinggi apabila mengambil kira yuran gas",
 				"checkForm": "Sila semak borang dan cuba lagi",
-				"pendingDeposit": "Anda mempunyai deposit yang sedang menunggu. Sila tunggu ia selesai"
+				"pendingDeposit": "Anda mempunyai deposit yang belum selesai. Sila tunggu sehingga ia selesai"
 			},
 			"status": {
 				"processing": "Memproses...",
 				"awaitingApproval": "Menunggu Kelulusan",
 				"calculatingRate": "Mengira Kadar...",
-				"insufficientBalance": "Baki Tidak Mencukupi"
+				"insufficientBalance": "Baki tidak mencukupi"
 			},
 			"buttons": {
-				"depositUsd": "Deposit $ __ ph_0__"
-			},
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} adalah dijadikan sandaran untuk menampung yuran gas dan mengelakkan kegagalan transaksi"
+				"depositUsd": "Deposit ${amount}"
+			}
 		},
 		"depositPending": {
 			"confirmedTitle": "Deposit Disahkan!",
 			"submittedTitle": "Transaksi Dihantar",
+			"failedTitle": "Transaksi Gagal",
 			"confirmedDesc": "Baki anda telah dikemas kini.",
 			"submittedDesc": "Menunggu pengesahan blockchain. Ini mungkin mengambil masa beberapa minit.",
+			"failedDesc": "Transaksi anda telah gagal. Sila cuba lagi.",
 			"viewOnExplorer": "Lihat di Explorer",
 			"newDepositConfirmed": "Buat Deposit Lain",
-			"newDepositPending": "Mulakan deposit baru",
-			"failedTitle": "Transaksi gagal",
-			"failedDesc": "Urus niaga anda telah gagal. ",
+			"newDepositPending": "Mulakan deposit baharu",
 			"newDepositFailed": "Cuba lagi"
 		},
 		"withdrawPanel": {
 			"resetForm": "Set Semula Borang",
-			"networkNotSupported": "Pengeluaran hanya disokong di Arbitrum, Polygon, dan BNB",
-			"youWithdraw": "Anda Keluarkan",
+			"networkNotSupported": "Pengeluaran hanya disokong di Arbitrum, Polygon dan BNB",
+			"youWithdraw": "Anda Mengeluarkan",
 			"loading": "Memuatkan...",
 			"amount": "Jumlah",
 			"max": "Maks",
@@ -808,28 +1024,28 @@
 			"insufficientBalance": "Baki tidak mencukupi",
 			"minimumIs": "Minimum ialah {min}",
 			"minLabel": "Min:",
+			"calculating": "Mengira",
 			"emailWalletAddress": "Alamat Dompet E-mel",
 			"walletAddress": "Alamat Dompet",
 			"errors": {
-				"pendingWithdrawal": "Anda sudah mempunyai pengeluaran yang sedang menunggu",
+				"pendingWithdrawal": "Anda sudah mempunyai pengeluaran yang belum selesai",
 				"invalidAddress": "Alamat Tidak Sah",
 				"enterAmount": "Masukkan Jumlah",
 				"networkNotSupported": "Rangkaian Tidak Disokong"
 			},
 			"status": {
 				"processing": "Memproses...",
-				"insufficientBalance": "Baki Tidak Mencukupi",
-				"pendingWithdrawal": "Sudah Mempunyai Pengeluaran Menunggu"
+				"insufficientBalance": "Baki tidak mencukupi",
+				"pendingWithdrawal": "Sudah Ada Pengeluaran Belum Selesai"
 			},
 			"buttons": {
 				"withdraw": "Keluarkan {amount} {symbol}",
-				"minimum": "Minimum __ph_0__ __ph_1__"
-			},
-			"calculating": "Mengira"
+				"minimum": "Minimum {amount} {symbol}"
+			}
 		},
 		"withdrawSuccess": {
 			"title": "Pengeluaran Berjaya!",
-			"successMessage": "🎉 Baru sahaja mengeluarkan {withdrawAmount} {tokenSymbol} dari {siteName}! 🚀 Sertai rentetan kemenangan di {shareUrl}",
+			"successMessage": "🎉 Baru sahaja mengeluarkan {withdrawAmount} {tokenSymbol} daripada {siteName}! 🚀 Sertai rentetan kemenangan di {shareUrl}",
 			"withdrawnAmount": "Jumlah Dikeluarkan",
 			"shareText": "Kongsi",
 			"subText": "🚀 SERTAI RENTETAN KEMENANGAN! 🚀",
@@ -837,14 +1053,14 @@
 			"screenshot": "Ambil Tangkapan Skrin",
 			"download": "Muat Turun Imej",
 			"close": "Tutup",
-			"copiedToClipboard": "Pautan Kongsi berjaya disalin",
+			"copiedToClipboard": "Pautan Kongsi Berjaya Disalin",
+			"userName": "Pemain {siteName}",
+			"status": "Selesai",
 			"entryPrice": "Jumlah Pengeluaran",
 			"lastPrice": "Simbol Token",
 			"referralCode": "Kod Rujukan",
-			"screenshotFailed": "Tangkapan layar gagal. Sila cuba lagi atau guna pelayar yang lain.",
-			"shareFailed": "Perkongsian gagal. Sila cuba lagi.",
-			"status": "Selesai",
-			"userName": "Pemain {siteName}"
+			"screenshotFailed": "Tangkapan skrin gagal. Sila cuba lagi atau gunakan pelayar lain.",
+			"shareFailed": "Perkongsian gagal. Sila cuba lagi."
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Pengeluaran Disahkan!",
@@ -854,88 +1070,43 @@
 			"viewOnExplorer": "Lihat di Explorer",
 			"manualApproval": "Pengeluaran ini memerlukan kelulusan manual.",
 			"newWithdrawalConfirmed": "Buat Pengeluaran Lain",
-			"newWithdrawalPending": "Mulakan Pengeluaran Baru"
+			"newWithdrawalPending": "Mulakan Pengeluaran Baharu"
 		},
 		"withdrawSummary": {
 			"youWillReceive": "Anda Akan Terima"
-		},
-		"tipPanel": {
-			"approxUsd": "~  USD",
-			"balance": "Baki:",
-			"buttons": {
-				"tip": "Petua",
-				"tipUsd": "Tip"
-			},
-			"emailWalletAddress": "Alamat Dompet E-mel",
-			"enterAmount": "Masukkan jumlah",
-			"errors": {
-				"belowMinimum": "Jumlah mestilah sekurang-kurangnya {min}.",
-				"checkForm": "Sila semak butiran tip anda.",
-				"insufficientBalance": "Baki tidak mencukupi.",
-				"missingWallet": "Tidak dapat mengambil dompet tip. Sila cuba lagi nanti.",
-				"selectTokenAndAmount": "Sila pilih token dan masukkan jumlah."
-			},
-			"max": "Maks",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} ditempah untuk menampung yuran gas dan mengelakkan kegagalan transaksi",
-			"minimumIs": "Jumlah tip minima ialah {min}",
-			"minPrefix": "Minimum",
-			"prompts": {
-				"enterAmount": "Masukkan jumlah",
-				"selectToken": "Pilih token"
-			},
-			"resetForm": "Tetapkan semula borang",
-			"selectToken": "Pilih token",
-			"status": {
-				"awaitingApproval": "Menunggu kelulusan...",
-				"calculatingRate": "Mengira...",
-				"fetchingWallet": "Menyiapkan dompet tip...",
-				"insufficientBalance": "Baki tidak mencukupi",
-				"processing": "Menghantar tip..."
-			},
-			"tipPanelWarningText": "Tip adalah sukarela dan tidak boleh dikembalikan.",
-			"youTip": "Tip anda"
-		},
-		"tipPending": {
-			"confirmedDesc": "Petua anda berjaya dihantar.",
-			"confirmedTitle": "Tip Disahkan!",
-			"newTipConfirmed": "Hantar petua lain",
-			"newTipPending": "Hantar tip lain",
-			"submittedDesc": "Tip anda sedang disahkan pada rantaian.",
-			"submittedTitle": "Tip Belum Selesai",
-			"viewOnExplorer": "Lihat pada peneroka"
 		}
 	},
 	"navUser": {
-		"upgradeToPro": "Naik Taraf ke Pro",
+		"upgradeToPro": "Naik taraf kepada Pro",
 		"account": "Akaun",
 		"billing": "Pengebilan",
 		"notifications": "Pemberitahuan",
-		"logout": "Log Keluar"
+		"logout": "Log keluar"
 	},
 	"games": {
 		"pageTitle": "Semua Permainan",
 		"playNow": "Main Sekarang",
 		"byProvider": "Oleh {name}",
 		"count": "{count} Permainan",
-		"noResults": "Tiada permainan yang sepadan dengan kriteria anda ditemui.",
-		"errorLoading": "Tidak dapat memuatkan permainan. Sila cuba lagi nanti.",
+		"noResults": "Tiada permainan ditemui yang sepadan dengan kriteria anda.",
+		"errorLoading": "Tidak dapat memuatkan permainan. Sila cuba lagi kemudian.",
 		"slots": "Slot",
 		"sports": "Sukan",
 		"liveCasino": "Kasino Langsung",
-		"explore": "Teroka",
+		"explore": "Terokai",
 		"exploreSubtitle": "Temui pengalaman permainan yang menakjubkan",
 		"poker": "Poker",
 		"lottery": "Loteri",
-		"futures": "Niaga Hadapan",
-		"vr": "Vr",
+		"futures": "Niaga hadapan",
+		"vr": "VR",
 		"swap": "Tukar",
-		"slotsDescription": "Putar gelendong dan menangi jackpot besar",
-		"liveCasinoDescription": "Alami aksi kasino masa nyata dengan pengedar langsung",
+		"slotsDescription": "Putar kekili dan menangi jackpot besar",
+		"liveCasinoDescription": "Alami aksi kasino masa nyata dengan peniaga langsung",
 		"sportsDescription": "Bertaruh pada pasukan dan acara sukan kegemaran anda",
 		"pokerDescription": "Uji kemahiran anda dalam permainan poker klasik",
-		"lotteryDescription": "Cuba nasib anda dengan loteri dan permainan menang segera",
+		"lotteryDescription": "Cuba nasib anda dengan loteri dan permainan kemenangan segera",
 		"futuresDescription": "Berdagang dan ramalkan pergerakan pasaran",
-		"vrDescription": "Hayati diri anda dalam permainan realiti maya",
+		"vrDescription": "Tenggelamkan diri anda dalam permainan realiti maya",
 		"swapDescription": "Tukar token dan mata wang kripto dengan lancar",
 		"categories": {
 			"slot": {
@@ -957,8 +1128,8 @@
 	},
 	"providers": {
 		"pageTitle": "Semua Penyedia Permainan",
-		"searchPlaceholder": "Cari penyedia...",
-		"empty": "Tiada penyedia yang sepadan dengan carian anda ditemui.",
+		"searchPlaceholder": "Cari pembekal...",
+		"empty": "Tiada pembekal ditemui yang sepadan dengan carian anda.",
 		"logoAlt": "Logo {name}",
 		"filteredBy": "Ditapis mengikut kategori:",
 		"clearFilter": "Kosongkan penapis",
@@ -984,7 +1155,7 @@
 		"guest": {
 			"title": "Sertai Aksi",
 			"subtitle": "Daftar sekarang dan dapatkan bonus selamat datang eksklusif!",
-			"cta": "Daftar Sekarang"
+			"cta": "Daftar sekarang"
 		},
 		"welcome": {
 			"title1": "Bonus Selamat Datang",
@@ -994,7 +1165,7 @@
 		},
 		"jackpot": {
 			"title1": "Jackpot Mega",
-			"title2": "$ 1,000,000",
+			"title2": "$1,000,000",
 			"subtitle": "Main Sekarang & Menang Besar",
 			"cta": "Main Sekarang"
 		},
@@ -1002,39 +1173,39 @@
 			"casino": {
 				"title": "Kasino",
 				"badge": "590+ PERMAINAN",
-				"desc": "Nikmati {siteName} Originals dan permainan kasino lain dari penyedia teratas.",
+				"desc": "Nikmati {siteName} Originals dan permainan kasino lain daripada penyedia teratas.",
 				"link": "Pergi ke Kasino"
 			},
 			"slots": {
 				"title": "Slot",
 				"badge": "5292 PERMAINAN",
-				"desc": "Putar gelendong dan menangi jackpot besar dengan koleksi slot premium kami.",
+				"desc": "Putar kekili dan dapatkan jackpot besar dengan koleksi slot premium kami.",
 				"link": "Pergi ke Slot"
 			},
 			"sports": {
 				"title": "Sukan",
 				"badge": "3 PERMAINAN",
-				"desc": "Bertaruh pada pasukan dan acara sukan kegemaran anda dengan odds yang kompetitif.",
+				"desc": "Bertaruh pada pasukan dan acara sukan kegemaran anda dengan kemungkinan yang kompetitif.",
 				"link": "Pergi ke Sukan"
 			},
 			"crypto": {
-				"title": "Kripto & Jana",
-				"badge": "60% Apr",
-				"desc": "Staking, berdagang, dan jana pendapatan dengan mata wang kripto pada kadar yang menarik.",
+				"title": "Kripto & Peroleh",
+				"badge": "60% APR",
+				"desc": "Pertaruhan, berdagang dan peroleh dengan mata wang kripto pada kadar yang menarik.",
 				"link": "Pergi ke Kripto"
 			}
 		},
 		"layout3": {
 			"headerTitle": "Tumpuan Permainan",
-			"headerSubtitle": "Temui permainan yang menakjubkan dan terokai pengembaraan baru dalam koleksi kami yang dipilih susun",
+			"headerSubtitle": "Temui permainan yang menakjubkan dan terokai pengembaraan baharu dalam koleksi pilihan kami",
 			"slider1Title": "Permainan Pilihan",
-			"slider1Badge": "Pilihan Staf",
-			"slider2Title": "Lebih Banyak untuk Diterokai",
-			"slider2Badge": "Trend",
+			"slider1Badge": "Pilihan Kakitangan",
+			"slider2Title": "Lagi untuk Diterokai",
+			"slider2Badge": "Tren",
 			"featuredGameLabel": "Permainan Pilihan"
 		},
 		"ctaExploreGames": "Terokai Permainan",
-		"ctaJoinAffiliate": "Sertai Program Ahli Gabungan"
+		"ctaJoinAffiliate": "Sertai Gabungan"
 	},
 	"betting": {
 		"live": {
@@ -1052,7 +1223,7 @@
 			},
 			"actions": {
 				"pause": "Jeda",
-				"resume": "Sambung"
+				"resume": "Sambung semula"
 			},
 			"tabs": {
 				"all": "Semua",
@@ -1063,7 +1234,7 @@
 				"game": "Nama Permainan",
 				"time": "Masa",
 				"provider": "Penyedia",
-				"nickname": "Nama Samaran",
+				"nickname": "Nama Panggilan",
 				"bet": "Pertaruhan",
 				"multiplier": "Pengganda",
 				"profit": "Keuntungan"
@@ -1075,24 +1246,24 @@
 		"changeFont": "Tukar Fon",
 		"fontSettings": "Tetapan Fon",
 		"current": "Semasa",
-		"browseGoogleFonts": "Layari Google Fonts",
+		"browseGoogleFonts": "Layari Fon Google",
 		"uploadCustomFont": "Muat Naik Fon Tersuai",
-		"quickUploadFontFile": "Muat Naik Fail Fon Pantas",
-		"resetToDefault": "Tetapkan Semula ke Lalai",
+		"quickUploadFontFile": "Muat Naik Cepat Fail Fon",
+		"resetToDefault": "Tetapkan Semula kepada Lalai",
 		"googleFonts": {
 			"title": "Fon Google",
 			"searchFonts": "Cari fon...",
 			"preview": "Pratonton",
-			"previewText": "Harimau tangkas itu melompat ke atas anjing pemalas.",
-			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890",
+			"previewText": "The quick brown fox jumps over the lazy dog",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
 			"applyFont": "Gunakan Fon",
 			"clearPreview": "Kosongkan Pratonton",
-			"previewWith": "Pratonton teks dengan {font}",
-			"noFontsFound": "Tiada fon yang sepadan dengan \"{searchTerm}\" ditemui"
+			"previewWith": "Teks pratonton dengan {font}",
+			"noFontsFound": "Tiada fon ditemui yang sepadan dengan \"{searchTerm}\""
 		},
 		"customUpload": {
 			"title": "Muat Naik Fon Tersuai",
-			"description": "Muat naik fail fon anda sendiri untuk menyesuaikan laman web",
+			"description": "Muat naik fail fon anda sendiri untuk menyesuaikan tapak web",
 			"fontFile": "Fail Fon",
 			"dragDropArea": "Seret dan lepas fail fon anda di sini, atau",
 			"clickToUpload": "klik untuk memuat naik",
@@ -1115,183 +1286,706 @@
 		"messages": {
 			"fontAppliedSuccess": "Fon \"{fontName}\" berjaya digunakan!",
 			"fontUploadedSuccess": "Fon \"{fontName}\" berjaya dimuat naik dan digunakan!",
-			"fontResetSuccess": "Fon ditetapkan semula ke lalai",
+			"fontResetSuccess": "Fon ditetapkan semula kepada lalai",
 			"invalidFileType": "Sila muat naik fail fon yang sah (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Gagal membaca fail fon"
 		}
 	},
-	"bonus": {
-		"title": "Program Bonus Perolehan",
-		"loginPromptTitle": "Program Bonus Perolehan",
-		"loginPromptSubtitle": "Log masuk untuk melihat statistik bonus anda dan tuntut ganjaran anda.",
-		"goHome": "Pergi ke Laman Utama",
-		"tabs": {
-			"dashboard": "Papan Pemuka",
-			"claims": "Tuntutan",
-			"rates": "Kadar Bonus",
-			"calculator": "Kalkulator"
+	"about": {
+		"title": "🎮 Tentang {siteName}",
+		"subtitle": "Di {siteName}, permainan bukan sekadar hobi — ia adalah satu pengalaman.",
+		"meta": {
+			"title": "Tentang {siteName} | Platform Kasino Dalam Talian Global Dipercayai",
+			"description": "Ketahui tentang {siteName} — platform kasino global yang selamat, menawarkan slot, kasino langsung, pertaruhan sukan dan poker. Adil, pantas dan dibina untuk pemain sebenar."
 		},
-		"refresh": "Segar semula",
-		"refreshing": "Sedang memuat semula...",
-		"refreshAllSuccess": "Semua data berjaya disegarkan!",
-		"refreshPartial": "Dikemas kini sebahagian: {success}/{total} bahagian dikemas kini",
-		"refreshFailed": "Gagal untuk menyegarkan data. Sila cuba lagi.",
-		"dashboard": {
-			"title": "Papan Pemuka Bonus",
-			"subtitle": "Jejaki pertaruhan, bonus, dan pendapatan ganjaran anda",
-			"performanceOverview": "Gambaran Keseluruhan Bonus",
-			"bonusRatesTitle": "Struktur Kadar Bonus",
-			"totalIncome": "Jumlah Bonus",
-			"pendingBonus": "Bonus Tertunda",
-			"lastClaim": "Tuntutan Terakhir",
-			"unclaimedEarnings": "Tersedia untuk dituntut",
-			"claim": {
-				"title": "Menuntut dan Menarik",
-				"points": {
-					"0": "Komisen tersedia untuk pengeluaran sebaik sahaja dikira.",
-					"1": "Tiada tarikh luput untuk komisen yang belum dituntut—ia terkumpul sehingga dituntut.",
-					"2": "Pengeluaran mengikuti peraturan standard platform, seperti had minimum dan masa pemprosesan."
+		"intro": {
+			"paragraph1": "Di {siteName}, permainan bukan sekadar hobi — ia adalah satu pengalaman.|Kami membina platform ini untuk pemain yang mengharapkan lebih daripada sekadar nasib — pemain yang mahukan kelajuan, keadilan dan persekitaran permainan bertaraf dunia.",
+			"paragraph2": "Dari hari pertama, matlamat kami jelas: untuk mencipta ruang permainan yang terasa nyata, selamat dan menarik. Sama ada anda berada di sini untuk permainan kasino langsung, pertaruhan sukan, poker atau slot ganjaran tinggi, {siteName} menyatukan semuanya di bawah satu nama yang dipercayai."
+		},
+		"whoWeAre": {
+			"title": "💎 Siapa Kami",
+			"paragraph1": "{siteName} ialah platform permainan dalam talian global yang menghubungkan pemain kepada beribu-ribu permainan kasino dan pertaruhan berkualiti tinggi.|Kami bekerjasama dengan penyedia yang paling dihormati dalam industri — termasuk Pragmatic Play, Red Tiger, Microgaming dan KA Gaming — untuk memberikan pengalaman yang lancar pada setiap peranti.",
+			"paragraph2": "Setiap ciri, setiap putaran, dan setiap kad yang diuruskan direka untuk membawa anda lebih dekat kepada keseronokan permainan sebenar — sambil mengekalkan segala-galanya telus dan adil."
+		},
+		"mission": {
+			"title": "🎯 Misi Kami",
+			"paragraph1": "Untuk menjadikan permainan dalam talian mudah, selamat dan bermanfaat untuk semua orang.|Kami percaya permainan harus terasa peribadi — bukan mekanikal — jadi kami memberi tumpuan kepada transaksi yang pantas, reka bentuk yang lancar dan sokongan pelanggan yang boleh dipercayai tersedia 24/7.",
+			"paragraph2": "Di {siteName}, pemain sentiasa diutamakan. Kepercayaan anda adalah pendorong kami untuk terus menambah baik setiap hari."
+		},
+		"whatMakesUsDifferent": {
+			"title": "🏆 Apa yang Membuat {siteName} Berbeza",
+			"features": [
+				"5,000+ permainan merentasi slot, poker, sukan dan kasino langsung",
+				"Transaksi selamat dengan deposit dan pengeluaran segera",
+				"Permainan adil yang disahkan melalui permainan yang diperakui RNG",
+				"Reka bentuk bersih yang berfungsi dengan sempurna pada desktop dan mudah alih",
+				"Bonus dan promosi menarik untuk pemain aktif"
+			],
+			"closing": "Kami bukan sahaja menganjurkan permainan — kami mencipta persekitaran di mana setiap pemain berasa selamat, berhubung dan yakin."
+		},
+		"fairGaming": {
+			"title": "🌍 Permainan Adil & Bertanggungjawab",
+			"paragraph1": "Kami percaya bahawa permainan harus sentiasa bertanggungjawab dan telus.|Itulah sebabnya {siteName} mengikut piawaian permainan antarabangsa yang ketat dan dasar umur.",
+			"ageRestriction": "Hanya pemain berumur 18 tahun ke atas boleh mendaftar dan bermain.",
+			"paragraph2": "Semua permainan diuji untuk keadilan, dan teknologi penyulitan kami memastikan maklumat peribadi dan kewangan anda benar-benar selamat."
+		},
+		"promise": {
+			"title": "🤝 Janji Kami",
+			"paragraph1": "Kami bukan di sini untuk menjadi tapak kasino lain — kami di sini untuk menetapkan standard baharu untuk permainan dalam talian.|Apabila anda bermain di {siteName}, anda bermain di platform yang dibina atas kepercayaan, inovasi dan nilai sebenar.",
+			"paragraph2": "Setiap kemas kini, setiap ciri dan setiap perkongsian yang kami tambah tertumpu pada satu matlamat: memberikan pemain pengalaman permainan terbaik yang mungkin."
+		},
+		"joinCommunity": {
+			"title": "🚀 Sertai Komuniti {siteName}",
+			"paragraph1": "Masa depan permainan dalam talian ada di sini — dan ia lebih pantas, lebih bijak dan lebih bermanfaat berbanding sebelum ini.",
+			"paragraph2": "Sertai {siteName} hari ini, tuntut bonus selamat datang anda, dan lihat mengapa pemain di seluruh dunia beralih ke {siteName}.",
+			"tagline": "🎯 Main. Menang. Alami. {siteName}."
+		}
+	},
+	"footer": {
+		"sections": {
+			"company": {
+				"title": "Syarikat",
+				"links": {
+					"about": "Tentang Kami",
+					"providers": "Penyedia",
+					"affiliate": "Bonus Rujukan",
+					"bonus": "Bonus Perolehan"
 				}
 			},
-			"claiming": "Sedang dituntut...",
-			"section2": {
-				"title": "Kelayakan",
-				"content": "Untuk menyertai:"
+			"legal": {
+				"title": "Undang-undang",
+				"links": {
+					"privacy": "Dasar Privasi",
+					"terms": "Terma & Syarat",
+					"gambling": "Perjudian Bertanggungjawab",
+					"faqs": "Soalan Lazim"
+				}
 			},
-			"section3": {
-				"title": "Tahap dan Kadar Pertanian",
-				"content": "Bonus dikira berdasarkan jumlah pertaruhan harian anda:",
-				"noteTitle": "Catatan",
-				"noteContent": "Tahap dinilai setiap hari pada 14:00 UTC. Jumlah pertaruhan hari sebelumnya menentukan kadar bonus hari ini. Kadar ini berlaku untuk semua jenis permainan: Slots, Kasino Langsung, dan Sukan."
+			"games": {
+				"title": "Permainan",
+				"links": {
+					"lobby": "Lobi Permainan",
+					"slots": "Slot",
+					"live": "Kasino Langsung",
+					"sports": "Pertaruhan Sukan"
+				}
 			},
-			"claimButtonTitle": "Tuntut"
-		},
-		"claims": {
-			"title": "Sejarah Tuntutan",
-			"subtitle": "Jejak tuntutan bonus dan aktiviti pertaruhan anda",
-			"tableHeaders": {
-				"date": "Tarikh Pertaruhan",
-				"slots": "Slot",
-				"liveCasino": "Kasino Langsung",
-				"sports": "Sukan",
-				"total": "Jumlah",
-				"tier": "Peringkat",
-				"unclaimed": "Belum Dituntut",
-				"token": "Token"
-			},
-			"tierPrefix": "Tahap",
-			"availableToClaim": "Tersedia untuk dituntut",
-			"totalBonus": "Jumlah Bonus",
-			"claimed": "Dituntut",
-			"progressPercentage": "Kemajuan",
-			"progressTitle": "Kemajuan Anda",
-			"currentTier": "Peringkat Semasa",
-			"nextTier": "Tahap Seterusnya",
-			"wagerProgress": "Kemajuan Pertaruhan",
-			"totalWagered": "Jumlah Dipertaruhkan Hari Ini",
-			"toNextTier": "untuk mencapai tingkatan seterusnya",
-			"empty": {
-				"title": "Tiada Tuntutan Bonus Lagi",
-				"subtitle": "Mulakan bermain untuk memperoleh bonus!"
+			"support": {
+				"title": "Sokongan",
+				"links": {
+					"help": "Pusat Bantuan",
+					"contact": "Hubungi Kami"
+				}
 			}
 		},
-		"rates": {
-			"title": "Tahap dan Kadar Pertanian",
-			"subtitle": "Peratus bonus mengikut tahap pertaruhan dan kategori permainan",
-			"overview": {
-				"title": "Gambaran Keseluruhan",
-				"body": "Bonus Farming memberi ganjaran kepada pengguna berdasarkan pertaruhan mereka dalam Slot, Kasino Langsung, Buku Sukan, dan Loteri. Bonus dikira setiap 24 jam, dan pengguna boleh menuntutnya pada hari berikutnya selepas bertaruh. Terdapat tujuh peringkat, masing-masing dengan kadar yang berbeza bergantung kepada jumlah pertaruhan."
+		"seoContent": {
+			"title": "{siteName} — Destinasi Terunggul Anda untuk Hiburan Kasino Kripto",
+			"paragraph1": "Melangkah ke masa depan permainan dalam talian dengan {siteName}, kasino berkuasa kripto terulung di dunia di mana inovasi bertemu keseronokan. Direka untuk pemain sebenar, platform kami memberikan pengalaman yang pantas, selamat dan telus merentasi slot, meja kasino langsung, pertaruhan sukan dan permainan kripto.",
+			"paragraph2": "Setiap putaran, kad dan pertaruhan di {siteName} dibina di atas keadilan blockchain, disahkan dalam masa nyata untuk memastikan setiap hasil adalah benar-benar rawak dan kalis gangguan. Daripada aksi berisiko tinggi kepada permainan kasual, permainan kami memenuhi setiap jenis penjudi — daripada pencari keseronokan kepada profesional strategi.",
+			"paragraph3": "Dengan deposit segera dan pengeluaran sepantas kilat, log masuk dompet Dynamic.xyz, dan bonus pusing ganti eksklusif, {siteName} memastikan permainan anda kekal lancar, bermanfaat dan selamat.|Sama ada anda berada di Kanada, Eropah atau Asia, sistem berbilang rantaian kami menyokong pemain global sambil mengoptimumkan arah aliran kasino kripto tempatan di setiap rantau.",
+			"paragraph4": "Sertai beribu-ribu pemain yang menemui cara yang lebih bijak untuk bermain — di mana permainan adil, privasi dan keuntungan bersatu.|{siteName} bukan sekadar kasino.|Ia adalah evolusi perjudian Web3 yang seterusnya — dibina untuk yang berani, dikuasakan oleh kripto, dan dipercayai oleh pemain di seluruh dunia.",
+			"tagline": "🎯 Main Pintar. Bertaruh Selamat. Menang Besar — Hanya di {siteName}.",
+			"showMore": "Tunjukkan lebih banyak",
+			"showLess": "Tunjukkan kurang"
+		},
+		"copyright": "© {year} {siteName}. Hak cipta terpelihara.",
+		"followUs": "Ikuti kami:",
+		"disclaimer": {
+			"line1": "18+ Sahaja | Berjudi Secara Bertanggungjawab",
+			"line2": "Perjudian boleh menjadi ketagihan. Sila bermain secara bertanggungjawab dan hanya bertaruh apa yang anda mampu untuk kalah.",
+			"line3": "Jika anda rasa anda mempunyai masalah perjudian, sila dapatkan bantuan."
+		},
+		"description": "{siteName} — kasino kripto dipercayai anda untuk slot, meja langsung dan pertaruhan sukan.|Main permainan blockchain yang terbukti adil, nikmati pembayaran berasaskan dompet segera dan buka kunci bonus kasino harian.|Pantas, selamat dan terdesentralisasi — {siteName} membawa permainan peringkat seterusnya kepada pemain di seluruh dunia.|🎯 Main Pintar. Menang Besar. Percayai {siteName}."
+	},
+	"privacy": {
+		"title": "Dasar Privasi",
+		"subtitle": "Bagaimana {siteName} mengumpul, menggunakan dan melindungi data anda",
+		"lastUpdated": "Januari 2025",
+		"intro": {
+			"paragraph1": "{siteName} ('{siteName}', 'kami', 'kita', atau 'milik kami') menjalankan platform kasino-kripto {siteName}. Dasar Privasi ini menerangkan cara kami mengumpul, menggunakan, menyimpan dan melindungi data peribadi dan transaksi apabila anda menggunakan tapak web, aplikasi mudah alih atau perkhidmatan berkaitan kami ('Perkhidmatan').",
+			"paragraph2": "{siteName} beroperasi sebagai kasino dompet-kripto sahaja: semua deposit dan pengeluaran dibuat menggunakan dompet mata wang kripto. Kami komited untuk melindungi privasi anda sambil memenuhi kewajipan kawal selia (seperti keperluan AML/KYC) dan memastikan persekitaran permainan yang selamat dan adil.",
+			"paragraph3": "Dengan mengakses atau menggunakan {siteName}, anda menerima terma Dasar Privasi ini."
+		},
+		"sections": {
+			"scope": {
+				"title": "1. Skop & Penerimaan",
+				"content": "Dasar ini terpakai kepada semua pengguna {siteName}. Kami mungkin mengemas kini dasar ini; kemas kini berkuat kuasa apabila disiarkan di tapak. Penggunaan berterusan berikutan perubahan bermakna anda menerima dasar baharu."
+			},
+			"dataCollection": {
+				"title": "2. Data Apa yang Kami Kumpul",
+				"intro": "Oleh kerana kami beroperasi dengan dompet kripto sahaja, jenis data yang kami kumpul mencerminkan model itu. Kami mengumpul:",
+				"accountData": {
+					"title": "A. Data Akaun & Identiti (apabila diperlukan)",
+					"email": "E-mel (jika diberikan), nama paparan, ID akaun.",
+					"kyc": "Penting: Walaupun dompet kripto membolehkan kerahsiaan di rantaian, urus niaga tertentu atau pencetus kawal selia mungkin memerlukan pengesahan identiti. Kami akan meminta KYC dengan jelas hanya apabila perlu."
+				},
+				"walletData": {
+					"title": "B. Data Dompet & Transaksi",
+					"addresses": "Alamat dompet mata wang kripto yang anda sambungkan atau gunakan dengan {siteName}.",
+					"transactions": "Hash transaksi dan cap masa di rantaian (deposit/pengeluaran).",
+					"metadata": "Metadata transaksi yang diperlukan untuk menyelaraskan pembayaran dan mencegah penipuan."
+				},
+				"technicalData": {
+					"title": "C. Data Teknikal & Penggunaan",
+					"ip": "Alamat IP, geolokasi anggaran yang diperoleh daripada IP, jenis peranti, penyemak imbas, OS.",
+					"session": "Log sesi, cap masa, halaman yang dilawati, aktiviti permainan, pertaruhan dan hasil.",
+					"cookies": "Kuki dan data analitik untuk meningkatkan prestasi tapak dan pengalaman pengguna."
+				},
+				"securityData": {
+					"title": "D. Data Keselamatan & Risiko",
+					"fraud": "Isyarat penipuan, cap jari peranti, skor risiko daripada vendor anti-penipuan.",
+					"disputes": "Rekod penyelesaian pertikaian, caj balik (jika berkenaan), dan semakan pematuhan.",
+					"note": "Kami tidak mengumpul kategori sensitif (bangsa, agama, kesihatan, dll.) melainkan dikehendaki oleh undang-undang dan dengan persetujuan yang jelas."
+				}
+			},
+			"purposes": {
+				"title": "3. Mengapa Kami Mengumpul Data – Asas & Tujuan Undang-undang",
+				"intro": "Kami memproses data anda untuk tujuan yang sah dan khusus:",
+				"outro": "Apabila kami bergantung pada persetujuan (contohnya, pemasaran), anda boleh menarik balik persetujuan itu pada bila-bila masa.",
+				"items": {
+					"0": {
+						"title": "Penyediaan perkhidmatan & prestasi kontrak",
+						"description": "untuk membuat dan menyelenggara akaun, memproses deposit/pengeluaran melalui dompet kripto, membayar kemenangan."
+					},
+					"1": {
+						"title": "Pencegahan keselamatan & penipuan",
+						"description": "mengesan dan mencegah penyalahgunaan dan pengubahan wang haram."
+					},
+					"2": {
+						"title": "Pematuhan terhadap kewajipan undang-undang",
+						"description": "memenuhi keperluan AML/KYC apabila perlu."
+					},
+					"3": {
+						"title": "Operasi & penambahbaikan platform",
+						"description": "analitik, pembangunan produk, sokongan pelanggan."
+					},
+					"4": {
+						"title": "Pemasaran (dengan persetujuan)",
+						"description": "surat berita, tawaran promosi — hanya jika anda memilih untuk menyertai."
+					},
+					"5": {
+						"title": "Kepentingan yang sah",
+						"description": "memelihara integriti platform dan menyiasat penyalahgunaan."
+					}
+				}
+			},
+			"cryptoWallet": {
+				"title": "4. Spesifik Dompet Kripto & Data Atas Rantaian",
+				"points": {
+					"0": "Alamat dompet dan data transaksi on-chain disimpan hanya setakat yang perlu untuk mengkredit/mendebit akaun pengguna, mengaudit transaksi dan memenuhi kewajipan pematuhan.",
+					"1": "Data on-chain adalah bersifat awam — {siteName} tidak mengawal keterlihatan blockchain. Kami menggabungkan data on-chain dengan rekod luar rantaian untuk menyelaraskan akaun.",
+					"2": "Jika anda menyambungkan perkhidmatan dompet jagaan (pihak ketiga), anda bersetuju dengan sebarang data yang dikongsi oleh pembekal tersebut dengan kami untuk pemprosesan transaksi."
+				}
+			},
+			"dataSharing": {
+				"title": "5. Bila Kami Berkongsi Data",
+				"intro": "Kami mungkin berkongsi maklumat anda:",
+				"items": {
+					"0": "Dengan pengawal selia atau penguatkuasa undang-undang apabila dipaksa oleh proses undang-undang atau untuk mencegah aktiviti haram.",
+					"1": "Dengan ahli gabungan atau pihak ketiga dalam pemindahan perniagaan (penggabungan, pemerolehan) — sentiasa dengan perlindungan yang sesuai.",
+					"2": "Dengan rangkaian pencegahan penipuan untuk melindungi platform dan pengguna kami."
+				},
+				"noSelling": "Kami tidak menjual data peribadi anda kepada pengiklan."
+			},
+			"security": {
+				"title": "6. Langkah Keselamatan",
+				"intro": "Kami menggunakan langkah-langkah keselamatan standard industri:",
+				"items": {
+					"0": "Penyulitan TLS/SSL dalam transit; storan yang disulitkan untuk data sensitif.",
+					"1": "Kawalan akses, pembalakan dan keistimewaan berasaskan peranan.",
+					"2": "Audit keselamatan berkala dan ujian kerentanan.",
+					"3": "Pengesahan pelbagai faktor (MFA) untuk kakitangan dan pilihan untuk pengguna."
+				},
+				"warning": "Anda mesti memastikan kunci peribadi dompet dan bukti kelayakan akaun anda selamat. Kami tidak pernah meminta kunci peribadi."
+			},
+			"cookies": {
+				"title": "7. Kuki & Penjejakan",
+				"content": "Kami menggunakan kuki dan teknologi serupa untuk fungsi tapak yang diperlukan, analitik, dan (dengan persetujuan) pemasaran. Anda boleh mengawal kuki dalam penyemak imbas anda, tetapi melumpuhkan kuki penting boleh merosakkan fungsi."
+			},
+			"minAge": {
+				"title": "8. Kanak-kanak & Umur Minimum",
+				"content": "Anda mesti berumur 18+ (atau lebih tua jika dikehendaki oleh undang-undang tempatan) untuk menggunakan Perkhidmatan kami. Kami secara aktif menghalang penggunaan di bawah umur dan akan memadamkan data jika pendaftaran orang bawah umur dikenal pasti."
+			},
+			"breach": {
+				"title": "9. Pemberitahuan Pelanggaran",
+				"content": "Sekiranya berlaku pelanggaran data yang menimbulkan risiko kepada hak anda, kami akan memberitahu pengguna yang terjejas dan pihak berkuasa yang berkaitan seperti yang dikehendaki oleh undang-undang, dan kami akan mengambil langkah untuk memulihkannya."
+			},
+			"changes": {
+				"title": "10. Perubahan kepada Dasar ini",
+				"content": "Kami boleh mengubah suai Dasar Privasi ini. Perubahan material akan disiarkan di tapak dan, jika sesuai, diberitahu kepada anda."
+			},
+			"contact": {
+				"title": "11. Hubungi",
+				"intro": "Soalan atau permintaan:"
+			}
+		}
+	},
+	"terms": {
+		"title": "Terma & Syarat",
+		"subtitle": "Perjanjian Pengguna dan Peraturan Platform",
+		"lastUpdated": "Januari 2025",
+		"intro": {
+			"paragraph1": "Dengan mendaftar atau menyambungkan dompet anda di www.{siteDomain}, anda memeterai perjanjian yang mengikat dengan {siteName} N.V.",
+			"paragraph2": "Jika anda tidak bersetuju dengan mana-mana terma ini, jangan akses, gunakan atau daftar di Laman Web kami. Baca Terma ini dengan teliti. Jika anda tidak pasti tentang hak atau kewajipan anda, rujuk penasihat undang-undang di bidang kuasa anda sebelum menggunakan Laman Web."
+		},
+		"sections": {
+			"ownership": {
+				"title": "1. Pemilikan {siteName}",
+				"content1": "{siteName} dimiliki dan dikendalikan oleh {siteName} N.V. ('{siteName}', 'Kami', 'Milik Kami', 'Kita').",
+				"content2": "{siteName} ialah kasino dompet kripto sahaja. Semua deposit, pertaruhan dan pengeluaran diproses melalui dompet mata wang kripto pengguna. Kami menyokong log masuk dompet melalui Dynamic.xyz dan penyambung dompet yang serasi (contohnya, WalletConnect / MetaMask)."
+			},
+			"notice": {
+				"title": "2. Notis Penting",
+				"content1": "2.1 Dengan mendaftar atau menyambungkan dompet anda di www.{siteDomain} ('Laman Web'), anda memeterai perjanjian yang mengikat dengan {siteName} N.V. dan bersetuju untuk: (i) Terma dan Syarat ini; (ii) Dasar Privasi kami; (iii) Dasar Kuki kami; (iv) Terma Gabungan kami; dan (v) Dasar Perjudian Bertanggungjawab kami.",
+				"content2": "2.2 Jika anda tidak bersetuju dengan mana-mana terma ini, jangan akses, gunakan, atau daftar di Laman Web kami.",
+				"content3": "2.3 Baca Terma ini dengan teliti. Jika anda tidak pasti tentang hak atau kewajipan anda, rujuk penasihat undang-undang di bidang kuasa anda sebelum menggunakan Laman Web."
+			},
+			"general": {
+				"title": "3. Syarat Am",
+				"items": [
+					"Selepas pendaftaran atau sambungan dompet, anda ('Pengguna', 'Pemain', 'Anda', atau 'Milik Anda') bersetuju untuk mematuhi semua peraturan dan dasar {siteName}.",
+					"Perjanjian ini adalah kontrak yang mengikat secara sah antara anda dan {siteName}.",
+					"Terma ini berkuat kuasa sebaik sahaja anda menyambungkan dompet anda dan mula menggunakan tapak.",
+					"{siteName} berhak untuk meminda atau mengemas kini Terma ini pada bila-bila masa. Perubahan akan diterbitkan di Laman Web; penggunaan berterusan merupakan penerimaan.",
+					"Sekiranya berlaku konflik, Terma ini mengatasi mana-mana peraturan, promosi atau bahan luaran lain.",
+					"Hanya versi Bahasa Inggeris Terma ini yang mengikat secara sah. Terjemahan adalah untuk kemudahan sahaja."
+				]
+			},
+			"account": {
+				"title": "4. Akaun, Log Masuk Dompet & Keselamatan",
+				"intro": "{siteName} menggunakan Dynamic.xyz untuk pengesahan berasaskan dompet dan langkah keselamatan untuk melindungi akaun anda.",
+				"walletLogin": {
+					"title": "4.1 Log Masuk Dompet (Dynamic.xyz)",
+					"items": [
+						"{siteName} menggunakan Dynamic.xyz (atau penyambung lain yang disokong) untuk log masuk dan pengesahan berasaskan dompet. Dengan menyambungkan dompet, anda mengesahkan bahawa anda adalah pemilik sah dompet itu dan memberi kuasa kepada {siteName} untuk mengiktiraf dompet itu sebagai akaun anda.",
+						"Kami tidak pernah meminta kunci peribadi anda. Anda mesti memastikan bukti kelayakan dompet dan peranti anda selamat. {siteName} tidak bertanggungjawab atas kerugian yang disebabkan oleh dompet yang terjejas atau kunci peribadi yang bocor."
+					]
+				},
+				"registration": {
+					"title": "4.2 Butiran Pendaftaran",
+					"items": [
+						"Anda mungkin diminta untuk memberikan butiran hubungan (e-mel, nama pengguna) untuk komunikasi akaun. Anda mesti memberikan maklumat yang tepat dan sentiasa mengemas kininya.",
+						"Anda bertanggungjawab untuk semua tindakan yang diambil menggunakan dompet anda yang disambungkan."
+					]
+				},
+				"security": {
+					"title": "4.3 Berbilang Akaun & Keselamatan",
+					"items": [
+						"Hanya satu akaun bagi setiap individu dibenarkan. Berbilang akaun atau percubaan untuk memintas had boleh mengakibatkan penggantungan akaun dan pelucuthakan dana.",
+						"Dayakan sebarang ciri keselamatan platform yang ditawarkan (contohnya, 2FA untuk perkhidmatan yang berkaitan) dan selamatkan dompet anda sendiri.",
+						"Beritahu sokongan dengan segera jika anda mengesyaki akses tanpa kebenaran."
+					]
+				}
 			},
 			"eligibility": {
-				"title": "Kelayakan",
-				"content": "Untuk mengambil bahagian:",
-				"points": {
-					"0": "Anda mesti mempunyai akaun aktif.",
-					"1": "Letakkan pertaruhan di Slot, Kasino Langsung, Buku Sukan dan Loteri.",
-					"2": "Memenuhi keperluan pertaruhan minimum untuk setiap peringkat."
+				"title": "5. Kelayakan & Jaminan Pengguna",
+				"intro": "5.1 Anda menyatakan dan menjamin bahawa:",
+				"items": [
+					"Anda berumur sekurang-kurangnya 18 tahun (atau umur perjudian sah minimum di bidang kuasa anda).",
+					"Anda dibenarkan secara sah untuk menggunakan perkhidmatan perjudian kripto dalam talian di mana anda berada.",
+					"Anda adalah pemilik sah dompet yang anda sambungkan.",
+					"Anda tidak akan menggunakan VPN atau penipuan lokasi untuk memintas sekatan serantau.",
+					"Anda tidak akan menggunakan Perkhidmatan untuk tujuan haram atau komersial.",
+					"Anda menerima bahawa nilai mata wang kripto mungkin berubah-ubah dan anda menanggung semua risiko pasaran."
+				],
+				"outro": "5.2 Jika anda melanggar jaminan ini, {siteName} boleh menggantung atau menamatkan akses dan menahan dana jika dibenarkan oleh undang-undang."
+			},
+			"restricted": {
+				"title": "6. Bidang Kuasa Terhad",
+				"content1": "6.1 {siteName} tidak menerima pemain dari bidang kuasa di mana perjudian kripto dilarang atau disekat. Ini termasuk, tetapi tidak terhad kepada:",
+				"content2": "Amerika Syarikat (dan wilayah A.S.), United Kingdom, Perancis, Belanda, Sepanyol, Jerman, Australia, Austria, Comoros, Iran, Korea Utara, Sudan, Syria, dan mana-mana bidang kuasa yang disenaraikan dalam senarai hitam FATF.",
+				"content3": "6.2 Mencuba untuk mengakses Perkhidmatan dari bidang kuasa yang terhad, termasuk melalui VPN atau proksi, adalah pelanggaran Terma ini dan boleh menyebabkan penutupan akaun dan pelucuthakan dana."
+			},
+			"crypto": {
+				"title": "7. Deposit & Pengeluaran Kripto",
+				"policy": {
+					"title": "7.1 Dasar Kripto Sahaja",
+					"items": [
+						"{siteName} menerima deposit dan pengeluaran dalam mata wang kripto yang disokong sahaja (contohnya, BTC, ETH, USDT, TRX, BNB). Tiada deposit fiat, kad atau pindahan bank diterima.",
+						"Semua deposit mesti berasal dari dompet yang anda kawal. Deposit dari dompet pihak ketiga adalah dilarang."
+					]
+				},
+				"deposits": {
+					"title": "7.2 Deposit",
+					"items": [
+						"Deposit dikreditkan selepas pengesahan blockchain yang diperlukan. Yuran rangkaian (gas) perlu dibayar oleh anda.",
+						"{siteName} boleh menolak atau membalikkan deposit yang nampaknya berasal dari alamat yang disekat atau sumber terhad."
+					]
+				},
+				"withdrawals": {
+					"title": "7.3 Pengeluaran",
+					"items": [
+						"Pengeluaran diproses ke alamat dompet yang anda berikan. {siteName} mungkin meminta anda mengesahkan dompet destinasi sebelum memproses.",
+						"Anda mesti mempunyai baki yang telah dijelaskan yang mencukupi untuk menampung pengeluaran. Pengeluaran mungkin ditangguhkan untuk menyiasat penyalahgunaan yang disyaki atau aktiviti luar biasa."
+					]
+				},
+				"chargebacks": {
+					"title": "7.4 Caj Balik & Pembalikan",
+					"items": [
+						"Transaksi kripto adalah muktamad di rantaian. Jika {siteName} mengalami kerugian kerana caj balik atau pembalikan daripada penyedia perkhidmatan pihak ketiga (jarang berlaku di rantaian), kami berhak untuk menuntut semula amaun atau mengenakan yuran pentadbiran."
+					]
 				}
 			},
-			"calculation": {
-				"title": "Bagaimana Bonus Dikirakan",
-				"desc": "Bonus dikira setiap 24 jam berdasarkan jumlah pertaruhan anda. Contoh:",
-				"exampleTitle": "Tahap {tier}:",
-				"wagerIn": "Pertaruhkan {amount} dalam {gameType}"
+			"kyc": {
+				"title": "8. Tiada Pengesahan Identiti Rutin (Tiada KYC)",
+				"content1": "8.1 {siteName} tidak melakukan pengesahan identiti rutin (KYC) sebagai syarat permainan biasa. Pengguna boleh menyambungkan dompet melalui Dynamic.xyz dan mula bermain tanpa memberikan dokumen identiti.",
+				"content2": "8.2 Walau apa pun yang dinyatakan di atas, {siteName} berhak untuk meminta maklumat atau menggantung transaksi jika diperlukan untuk:",
+				"items": [
+					"Mematuhi perintah yang sah daripada pihak berkuasa yang berwibawa:",
+					"Mencegah, menyiasat, atau memulihkan penipuan, pengubahan wang haram, atau aktiviti haram lain",
+					"Atau melindungi keselamatan dan integriti platform."
+				],
+				"content3": "8.3 Jika anda enggan memberikan maklumat sedemikian apabila dikehendaki oleh undang-undang, {siteName} boleh menyekat atau menutup akaun anda dan menangguhkan atau menahan pengeluaran setakat yang dibenarkan oleh undang-undang."
 			},
-			"table": {
-				"tierLevel": "Tahap Tahap",
-				"wagerRange": "Julat Pertaruhan",
-				"slots": "Slot",
-				"liveCasino": "Kasino Langsung",
-				"sports": "Sukan",
-				"tierPrefix": "TINGKAT",
-				"commissionLevel": "Tahap bonus",
-				"dailyWager": "Jumlah pertaruhan harian"
+			"fairPlay": {
+				"title": "9. Permainan Adil, Tingkah Laku Dilarang & Keselamatan",
+				"intro": "Anda tidak boleh:",
+				"items": [
+					"Gunakan bot, skrip, alat main automatik, atau sebarang perisian yang tidak dibenarkan.",
+					"Bersekongkol dengan pemain lain atau memanipulasi hasil permainan.",
+					"Buat berbilang akaun untuk mengeksploitasi bonus atau promosi.",
+					"Cuba untuk membalikkan atau mengganggu transaksi di rantaian.",
+					"Mengeksploitasi pepijat permainan atau kelemahan platform."
+				],
+				"outro1": "Akaun yang didapati menipu, bersekongkol atau mengeksploitasi platform mungkin digantung, ditutup atau baki dilucuthakkan.",
+				"outro2": "{siteName} melaksanakan pemantauan teknikal dan tingkah laku untuk melindungi integriti platform."
 			},
-			"claim": {
-				"title": "Menuntut dan Mengeluarkan Bonus",
-				"points": {
-					"0": "Bonus layak dituntut 24 jam selepas pertaruhan.",
-					"1": "Bonus yang tidak dituntut akan terkumpul dan tidak akan luput.",
-					"2": "Proses tuntutan dan pengeluaran mungkin berbeza berdasarkan dasar khusus platform."
-				}
+			"bonuses": {
+				"title": "10. Bonus & Promosi",
+				"items": [
+					"Semua tawaran bonus dan promosi tertakluk kepada Terma Bonus khusus yang dinyatakan dengan setiap tawaran.",
+					"Penyalahgunaan bonus (termasuk berbilang akaun atau penukaran bonus yang pantas) boleh membawa kepada penafian, pembalikan atau pelucuthakan bonus dan penutupan akaun.",
+					"Keperluan pertaruhan bonus mesti dipenuhi sebelum mengeluarkan dana yang diperoleh daripada bonus, seperti yang dinyatakan bagi setiap promosi."
+				]
 			},
-			"system": {
-				"title": "Masa dan Operasi Sistem",
-				"dailyTimeframeLabel": "Rangka masa harian:",
-				"dailyTimeframeValue": "00:00 UTC hingga 23:59 UTC (setiap hari).",
-				"claimDailyLabel": "Tuntutan Harian:",
-				"claimDailyValue": "Tersedia setiap hari pada pukul 14:00 UTC (Waktu Tempatan Anda: {local}).",
-				"note": "Nota: walaupun kami bekerja dengan penyedia dari zon masa yang berbeza, semua pengiraan mengikut UTC untuk memastikan konsistensi dan mengelakkan kekeliruan."
+			"playingRules": {
+				"title": "11. Peraturan Permainan & Penyelesaian Permainan",
+				"items": [
+					"Pertaruhan diterima hanya setelah anda menerima pengesahan di skrin. Pertaruhan yang dibuat dengan baki yang tidak mencukupi adalah tidak sah.",
+					"Log dalaman {siteName} dan rekod blockchain adalah berwibawa sekiranya berlaku pertikaian.",
+					"Jika acara dibatalkan, digantung atau terjejas, {siteName} akan menyelesaikan atau membatalkan pertaruhan mengikut peraturan permainan dan pasaran yang diterbitkan.",
+					"Untuk permainan yang terbukti adil, alat pengesahan dan benih pelayan (jika berkenaan) disediakan bagi setiap permainan; log pelayan adalah muktamad."
+				]
+			},
+			"errors": {
+				"title": "12. Ralat, Gangguan & Had",
+				"intro": "{siteName} tidak bertanggungjawab atas kerugian yang disebabkan oleh:",
+				"items": [
+					"Kegagalan internet atau peranti",
+					"Kelewatan blockchain, fork atau kesesakan rangkaian",
+					"Pepijat perisian atau gangguan perkhidmatan pihak ketiga"
+				],
+				"outro1": "{siteName} berhak untuk membatalkan pertaruhan, melaraskan baki atau membatalkan transaksi apabila ralat atau eksploitasi dikesan.",
+				"outro2": "Kami mungkin menetapkan had pertaruhan, kemenangan maksimum dan kawalan lain untuk melindungi pengguna dan platform."
+			},
+			"suspension": {
+				"title": "13. Penggantungan, Penutupan & Pengendalian Dana",
+				"intro": "{siteName} boleh menggantung atau menutup akaun di mana:",
+				"items": [
+					"Syarat dilanggar",
+					"Penyalahgunaan, penipuan atau tingkah laku yang mencurigakan dikesan",
+					"Kewajipan undang-undang atau peraturan memerlukannya"
+				],
+				"outro1": "Selepas penutupan akaun, pertaruhan yang belum selesai boleh dibatalkan dan baki dana dikendalikan mengikut undang-undang dan dasar platform yang berkenaan.",
+				"outro2": "{siteName} boleh mengekalkan dana jika perlu untuk menyelesaikan pertikaian, mematuhi permintaan yang sah atau memulihkan kerugian."
+			},
+			"responsibleGaming": {
+				"title": "14. Perjudian Bertanggungjawab",
+				"items": [
+					"{siteName} mempromosikan perjudian yang bertanggungjawab. Anda boleh meminta: Pengecualian diri, Had deposit, atau Penggantungan sementara.",
+					"Jika anda mengesyaki bahaya perjudian, lawati {siteDomain} untuk bantuan segera.",
+					"Perjudian di bawah umur (di bawah 18 tahun atau umur sah tempatan) adalah dilarang sama sekali. Akaun yang didapati milik orang bawah umur akan ditutup dan dana dikendalikan mengikut polisi."
+				]
+			},
+			"ip": {
+				"title": "15. Harta Intelek",
+				"content1": "Semua tanda dagangan, logo, kandungan tapak, perisian dan aset permainan di {siteName} dimiliki atau dilesenkan oleh {siteName}. Penyalinan, pengikisan atau pengedaran semula tanpa kebenaran adalah dilarang.",
+				"content2": "Anda diberikan lesen terhad yang boleh dibatalkan untuk mengakses Perkhidmatan untuk hiburan peribadi sahaja."
+			},
+			"liability": {
+				"title": "16. Batasan Liabiliti",
+				"items": [
+					"Setakat yang dibenarkan oleh undang-undang, {siteName} tidak akan bertanggungjawab ke atas kerugian tidak langsung, khas, berbangkit atau sampingan, termasuk kehilangan keuntungan atau kos peluang.",
+					"Liabiliti agregat kami untuk sebarang tuntutan yang berkaitan dengan Terma ini tidak akan melebihi nilai deposit terakhir anda atau amaun yang ditentukan oleh undang-undang yang terpakai.",
+					"Tiada apa-apa dalam Terma ini yang mengehadkan liabiliti untuk kematian atau kecederaan peribadi yang disebabkan oleh kecuaian di mana undang-undang yang terpakai melarang pengehadan sedemikian."
+				]
+			},
+			"disputes": {
+				"title": "17. Penyelesaian Pertikaian & Undang-undang yang Mentadbir",
+				"content": "Sekiranya berlaku pertikaian, lawati {siteDomain}. Kami berhasrat untuk menyelesaikan aduan dengan cepat; tingkatkan kepada pengurusan jika perlu."
 			},
 			"amendments": {
-				"title": "Pindaan dan Pembatalan",
-				"body": "Kami boleh mengemaskini syarat ini pada bila-bila masa, dan perubahan akan berkuatkuasa setelah disiarkan. Jika terdapat kesilapan sistem, pengiraan salah, atau penipuan yang disyaki, kami berhak untuk menyesuaikan atau membatalkan bonus dan akaun seperti yang diperlukan untuk memastikan keadilan"
+				"title": "18. Pindaan",
+				"content": "{siteName} boleh meminda Terma ini pada bila-bila masa. Terma yang dikemas kini akan disiarkan di Laman Web. Penggunaan berterusan merupakan penerimaan."
 			},
-			"footer": {
-				"schedule": "Jadual Bonus:",
-				"availableDaily": "Tersedia setiap hari pada",
-				"localTimeLabel": "(Waktu Tempatan Anda: {time})"
+			"miscellaneous": {
+				"title": "19. Pelbagai",
+				"items": [
+					"Syarat-syarat ini merupakan keseluruhan perjanjian antara anda dan {siteName} mengenai Perkhidmatan.",
+					"Jika mana-mana klausa didapati tidak boleh dikuatkuasakan, ia akan diubah suai kepada tahap minimum yang perlu dan peruntukan yang selebihnya akan terus berkuat kuasa.",
+					"Anda tidak boleh menyerahkan hak anda di bawah Terma ini. {siteName} boleh menyerahkan atau subkontrak hak dan kewajipan."
+				]
+			},
+			"contact": {
+				"title": "20. Hubungi",
+				"intro": "Untuk sokongan, aduan atau notis undang-undang:",
+				"supportEmail": "Sokongan Am: lawati {siteDomain}",
+				"affiliateEmail": "Pertanyaan Gabungan: lawati {siteDomain}",
+				"registeredOffice": "Pejabat berdaftar: {siteName} N.V., Heelsumstraat 51, Willemstad, Curaçao"
+			}
+		}
+	},
+	"responsibleGambling": {
+		"title": "Perjudian Bertanggungjawab – {siteName}",
+		"subtitle": "Ketahui tentang perjudian yang bertanggungjawab di {siteName}. Kekal dalam kawalan, bermain secara bertanggungjawab dan dapatkan sokongan melalui organisasi bantuan global.",
+		"lastUpdated": "Kemas Kini Terakhir: Januari 2025",
+		"intro": {
+			"title": "🎯 Perjudian Bertanggungjawab – {siteName}",
+			"paragraph1": "Di {siteName}, kami komited untuk memastikan bahawa permainan kekal sebagai bentuk hiburan yang selamat, menyeronokkan dan bertanggungjawab.|Kami menggalakkan komuniti kami untuk bermain dengan bijak, kekal dalam kawalan dan menganggap perjudian sebagai aktiviti riadah — bukan sebagai sumber pendapatan atau pemulihan kewangan.",
+			"paragraph2": "Kami melarang sama sekali semua individu di bawah umur 18 tahun (atau umur perjudian sah minimum di bidang kuasa mereka) daripada mengakses atau menggunakan platform kami."
+		},
+		"mission": {
+			"title": "⚖️ Misi Kami",
+			"paragraph1": "{siteName} menggalakkan permainan yang bertanggungjawab dengan menawarkan persekitaran yang telus, selamat dan dipacu komuniti.|Misi kami adalah untuk membantu pemain membuat keputusan termaklum dan untuk mengelakkan perjudian daripada menjadi masalah.",
+			"paragraph2": "Kami percaya pada:",
+			"beliefs": {
+				"0": "Perjudian sebagai hiburan, bukan cara untuk mendapatkan wang.",
+				"1": "Mempromosikan kesedaran diri dan kesederhanaan.",
+				"2": "Menyediakan alat sokongan dan sumber untuk mencegah tingkah laku berisiko."
 			}
 		},
-		"calculator": {
-			"title": "Kalkulator Bonus",
-			"subtitle": "Anggarkan pendapatan bonus anda berdasarkan jumlah pertaruhan anda",
-			"interactive": {
-				"title": "Alat Interaktif:",
-				"body": "Masukkan jumlah pertaruhan yang berbeza untuk melihat bonus yang berpotensi merentasi semua peringkat"
-			},
-			"potentialEarnings": "Bonus Berpotensi",
-			"basedOnRate": "Berdasarkan kadar bonus {percentage}%",
-			"tier": "Tahap {level}",
-			"commissionLevel": "Tahap Bonus {level}",
-			"enterWager": "Masukkan Jumlah Pertaruhan (USD)",
-			"wagerPlaceholder": "cth, 1000",
-			"calcFor": "Mengira bonus untuk pertaruhan ${amount}",
-			"totalPotential": "Jumlah Bonus Potensi:",
-			"combinedAtTier": "Bonus gabungan daripada semua jenis permainan di Tahap {level}"
+		"understanding": {
+			"title": "🧠 Memahami Perjudian Bertanggungjawab",
+			"paragraph1": "Perjudian dalam talian lebih mudah diakses berbanding sebelum ini — tetapi itu juga bermakna lebih mudah untuk hilang jejak masa, baki atau motivasi.|Perjudian yang bertanggungjawab bermakna mengetahui had anda, sentiasa bermaklumat dan mengekalkan kawalan ke atas permainan anda.",
+			"paragraph2": "Untuk memastikan pengalaman anda menyeronokkan dan selamat, ingat:",
+			"tips": {
+				"0": "Bermain untuk keseronokan, bukan keuntungan.",
+				"1": "Jangan kejar kerugian — berehat apabila perlu.",
+				"2": "Tetapkan had peribadi untuk perbelanjaan dan masa.",
+				"3": "Jangan sekali-kali berjudi jika anda tertekan, letih atau marah.",
+				"4": "Elakkan berjudi dengan wang yang bertujuan untuk perbelanjaan lain.",
+				"5": "Jika perjudian tidak lagi menyeronokkan, sudah tiba masanya untuk berundur."
+			}
 		},
-		"claimSuccessModal": {
-			"title": "Tuntut Kejayaan",
-			"statusCompleted": "Selesai",
-			"statusOnChain": "On-Chain",
-			"claimAmount": "Jumlah Tuntutan",
-			"logoAlt": "Logo {siteName}",
-			"backgroundAlt": "Tuntut latar belakang kejayaan",
-			"creatingMagic": "Mencipta Sihir...",
-			"downloadShare": "Muat Turun & Kongsi",
-			"spreadTheWin": "SEBARKAN KEMENANGAN",
-			"socialX": "X",
-			"socialFacebook": "Facebook",
-			"socialWhatsApp": "WhatsApp",
-			"socialTelegram": "Telegram",
-			"socialReddit": "Reddit",
-			"socialMore": "More",
-			"shareText": "I just claimed {amount} bonus! Join me: {url}",
-			"referralLinkCopied": "Pautan rujukan disalin!",
-			"referralLinkCopyFailed": "Gagal menyalin pautan rujukan",
-			"screenshotFailed": "Tangkapan skrin gagal. Sila cuba lagi atau gunakan penyemak imbas lain.",
-			"shareTextCopied": "Kongsi teks yang disalin ke papan klip!",
-			"shareFailed": "Kongsi gagal. Sila cuba lagi."
+		"selfCheck": {
+			"title": "🧩 Semakan Sendiri: Adakah Anda Berjudi Secara Bertanggungjawab?",
+			"intro": "Tanya diri anda soalan-soalan ini dengan jujur:",
+			"questions": {
+				"0": "Adakah anda pernah berjudi lebih lama daripada yang dimaksudkan?",
+				"1": "Adakah perjudian telah menjejaskan hubungan atau kerja anda?",
+				"2": "Adakah anda berasa jengkel apabila anda tidak boleh bermain?",
+				"3": "Adakah anda berjudi untuk melepaskan diri daripada tekanan atau kebosanan?",
+				"4": "Pernahkah anda meminjam kripto atau wang untuk terus berjudi?",
+				"5": "Adakah anda sering cuba mendapatkan semula kerugian sebelumnya dengan bertaruh lebih banyak?"
+			},
+			"warning": "Jika anda menjawab \"ya\" kepada beberapa soalan ini, anda mungkin perlu menyemak tabiat perjudian anda dan mendapatkan bantuan."
+		},
+		"tools": {
+			"title": "🛡️ Apa yang {siteName} Tawarkan untuk Membantu Anda Kekal Mengawal",
+			"intro": "Kami mahu semua pemain menikmati perjudian dengan selamat dan bertanggungjawab.|Platform kami merangkumi beberapa alat dan sumber yang direka untuk membantu anda mengurus permainan anda.",
+			"selfExclusion": {
+				"title": "🔹 Pengecualian Diri",
+				"description": "Anda boleh meminta pengecualian diri sementara atau kekal daripada akaun anda. Dalam tempoh ini, akses anda akan disekat, dan anda tidak akan menerima bahan promosi.|Untuk memulakan pengecualian diri, hubungi {siteDomain} — pasukan kami akan membantu anda secara sulit."
+			},
+			"coolingOff": {
+				"title": "🔹 Tempoh Bertenang",
+				"paragraph1": "Rasa terbeban atau hanya perlukan rehat?|Anda boleh mengambil tempoh bertenang selama:",
+				"periods": {
+					"0": "24 jam",
+					"1": "1 minggu",
+					"2": "1 bulan"
+				},
+				"paragraph2": "Dalam masa ini, sambungan dompet anda akan dilumpuhkan untuk permainan."
+			},
+			"depositAwareness": {
+				"title": "🔹 Kesedaran Deposit & Kerugian",
+				"description": "Memandangkan {siteName} beroperasi secara eksklusif melalui dompet kripto, pemain boleh memantau semua deposit dan transaksi di rantaian dengan mudah.|Kami menggalakkan anda untuk menyemak aktiviti dompet anda secara berkala untuk sentiasa mengetahui jumlah permainan keseluruhan anda."
+			}
+		},
+		"underagePrevention": {
+			"title": "👶 Pencegahan Perjudian Bawah Umur",
+			"paragraph1": "Perjudian oleh sesiapa di bawah umur 18 tahun adalah dilarang sama sekali.|Kami mengambil serius perjudian bawah umur dan secara aktif tidak menggalakkannya.",
+			"tipsTitle": "Petua untuk Ibu Bapa dan Penjaga:",
+			"tips": {
+				"0": "Gunakan kata laluan atau kunci akses pada peranti.",
+				"1": "Elakkan menyimpan bukti kelayakan dompet atau frasa pemulihan pada peranti yang dikongsi.",
+				"2": "Log keluar dari {siteName} apabila meninggalkan peranti anda tanpa pengawasan.",
+				"3": "Gunakan penapis kandungan seperti NetNanny atau GamBlock untuk menyekat akses.",
+				"4": "Pantau aktiviti dalam talian kanak-kanak secara berkala."
+			},
+			"warning": "Jika perjudian di bawah umur dikesan, akaun akan ditutup serta-merta dan sebarang kemenangan akan dilucuthakkan."
+		},
+		"helpSupport": {
+			"title": "❤️ Bantuan dan Sokongan",
+			"intro": "Jika anda pernah merasakan perjudian menjejaskan kesihatan mental, emosi atau kewangan anda, anda tidak bersendirian.|Di bawah adalah organisasi global yang dipercayai yang memberikan bantuan percuma dan sulit:",
+			"organizations": {
+				"0": {
+					"name": "GamCare",
+					"url": "https://www.gamcare.org.uk"
+				},
+				"1": {
+					"name": "Terapi Perjudian",
+					"url": "https://www.gamblingtherapy.org"
+				},
+				"2": {
+					"name": "Gamblers Anonymous",
+					"url": "https://www.gamblersanonymous.org"
+				},
+				"3": {
+					"name": "Majlis Kebangsaan mengenai Masalah Perjudian (NCPG)",
+					"url": "https://www.ncpgambling.org"
+				},
+				"4": {
+					"name": "GamTalk",
+					"url": "https://www.gamtalk.org"
+				}
+			},
+			"paragraph2": "Sumber-sumber ini menawarkan alat penilaian kendiri, sembang dalam talian, dan kumpulan sokongan tempatan di seluruh dunia."
+		},
+		"principles": {
+			"title": "⚙️ Prinsip Permainan Bertanggungjawab di {siteName}",
+			"intro": "Di {siteName}, kami menegakkan prinsip teras ini:",
+			"items": {
+				"0": {
+					"title": "Ketelusan:",
+					"description": "Setiap permainan dan hasil boleh dibuktikan adil dan disahkan oleh blockchain."
+				},
+				"1": {
+					"title": "Keselamatan:",
+					"description": "Semua sesi dilindungi melalui log masuk dompet Dynamic.xyz — tiada kata laluan atau KYC diperlukan."
+				},
+				"2": {
+					"title": "Autonomi:",
+					"description": "Anda mengawal permainan anda; anda boleh memutuskan sambungan pada bila-bila masa."
+				},
+				"3": {
+					"title": "Pendidikan:",
+					"description": "Kami menggalakkan kesedaran dan membantu pemain memahami risiko."
+				},
+				"4": {
+					"title": "Sokongan Komuniti:",
+					"description": "Pasukan sokongan kami tersedia 24/7 untuk membimbing anda ke arah tabiat permainan yang sihat."
+				}
+			}
+		},
+		"playSmart": {
+			"title": "🎮 Ingat — Main Pintar",
+			"intro": "Perjudian harus sentiasa menyeronokkan, sosial dan seimbang.|Ingatlah peringatan utama ini:",
+			"reminders": {
+				"0": "Tetapkan had masa sebelum anda bermula.",
+				"1": "Jangan sekali-kali mengejar kerugian atau bermain di bawah tekanan emosi.",
+				"2": "Anggap kemenangan sebagai bonus, bukan pendapatan.",
+				"3": "Asingkan perjudian daripada kerja dan perhubungan anda.",
+				"4": "Berhenti bermain apabila keseronokan berhenti."
+			}
+		},
+		"finalMessage": {
+			"paragraph1": "Di {siteName}, kesejahteraan anda adalah keutamaan kami.|Kami menggalakkan setiap pemain untuk membuat pilihan yang sedar, termaklum dan menikmati pengalaman permainan yang selamat.",
+			"paragraph2": "Jika anda memerlukan nasihat, bantuan atau sokongan pengecualian diri, hubungi kami di",
+			"contact": "📧 {siteDomain}"
+		}
+	},
+	"faqs": {
+		"title": "Soalan Lazim – {siteName}",
+		"subtitle": "Cari jawapan kepada soalan lazim {siteName}. Ketahui tentang log masuk dompet, deposit, pengeluaran, permainan adil dan ketelusan blockchain.",
+		"introTitle": "Soalan Lazim – {siteName}",
+		"intro": "Selamat datang ke Pusat Soalan Lazim {siteName}, di mana anda akan menemui jawapan pantas kepada soalan paling biasa tentang platform permainan kripto kami.|Jika anda tidak dapat mencari jawapan anda di sini, pasukan sokongan 24/7 kami sentiasa bersedia untuk membantu di {siteName}.",
+		"lastUpdated": "Kemas Kini Terakhir: Januari 2025",
+		"blockchainTransparency": {
+			"title": "🧩 Ketelusan Blockchain",
+			"paragraph1": "{siteName} dikuasakan oleh kontrak pintar berasaskan Ethereum, memastikan setiap pertaruhan, transaksi dan ganjaran direkodkan secara telus di rantaian.|Semua data dan logik permainan tidak boleh diubah dan boleh disahkan, memastikan keadilan dan kebolehauditan yang sebenar.",
+			"paragraph2": "Anda boleh menjejaki semua transaksi platform melalui penjelajah awam seperti:",
+			"explorersTitle": "",
+			"guarantee": "Ini menjamin bahawa tiada manipulasi atau berat sebelah boleh berlaku — selama-lamanya."
+		},
+		"categories": {
+			"accountRegistration": {
+				"title": "🔹 Akaun & Pendaftaran",
+				"items": {
+					"0": {
+						"question": "1. Bolehkah saya mendaftar di laman web anda?",
+						"answer": "Ya — pendaftaran terbuka kepada sesiapa yang berumur 18 tahun ke atas (atau umur sah majoriti di bidang kuasa anda).|Anda juga mesti memastikan bahawa permainan dalam talian adalah sah di tempat anda tinggal.|Di {siteName}, anda tidak memerlukan pendaftaran atau kata laluan tradisional.|Hanya sambungkan dompet anda melalui Dynamic.xyz untuk mula bermain serta-merta.|👉 Untuk butiran undang-undang dan pematuhan, sila semak Terma & Syarat kami.",
+						"reminder": "Peringatan: Perjudian boleh menjadi ketagihan. Sila bermain secara bertanggungjawab dan ketahui had anda."
+					},
+					"1": {
+						"question": "2. Bagaimana jika saya terlupa butiran log masuk saya?",
+						"answer": "Memandangkan {siteName} menggunakan log masuk berasaskan dompet melalui Dynamic.xyz, anda tidak menggunakan kata laluan tradisional.|Untuk mengakses akaun anda semula:|Sambung semula dompet anda menggunakan alamat yang sama yang anda gunakan pada asalnya.|Jika anda telah kehilangan akses kepada dompet anda, sila pulihkannya dengan frasa benih atau kaedah sandaran anda (kami tidak pernah menyimpan atau mengawal kunci peribadi).|{siteName} tidak boleh menetapkan semula atau memulihkan bukti kelayakan dompet anda atas sebab keselamatan."
+					},
+					"2": {
+						"question": "3. Bolehkah saya menukar nama pengguna atau dompet yang dipautkan saya?",
+						"answer": "Akaun {siteName} anda terikat pada alamat dompet anda.|Untuk menggunakan dompet baharu, hanya sambungkan dompet baharu — tetapi ambil perhatian bahawa sejarah permainan, status VIP dan bonus anda sebelum ini tidak akan dipindahkan secara automatik."
+					},
+					"3": {
+						"question": "4. Bagaimana saya boleh menjadi ahli VIP?",
+						"answer": "Program VIP kami adalah eksklusif dan jemputan sahaja.|Semasa anda bermain dan melibatkan diri dengan komuniti {siteName}, aktiviti permainan anda dijejaki secara automatik.|Setelah layak, anda akan menerima jemputan rasmi melalui pemberitahuan dalam platform atau mesej terus daripada pasukan {siteName}.|VIP menikmati akses kepada bonus eksklusif, pengeluaran lebih pantas dan ganjaran yang diperibadikan."
+					}
+				}
+			},
+			"depositsWithdrawals": {
+				"title": "💰 Deposit & Pengeluaran",
+				"items": {
+					"0": {
+						"question": "5. Bagaimana saya mendepositkan kripto?",
+						"answer": "Mendeposit di {siteName} adalah pantas dan mudah:|Pergi ke \"Dompet Saya\" pada papan pemuka utama.|Pilih Deposit dan pilih mata wang kripto pilihan anda (cth., BTC, ETH, USDT, BNB).|Salin alamat dompet unik anda atau imbas kod QR.|Hantar kripto anda dari dompet luaran anda ke alamat yang dipaparkan.|Setelah disahkan pada blockchain, dana anda akan muncul dalam baki {siteName} anda secara automatik.|⚠️ Pastikan anda hanya menghantar mata wang kripto yang disokong ke rangkaian alamat yang betul (cth., ERC20, TRC20, BEP20)."
+					},
+					"1": {
+						"question": "6. Berapa lama masa yang diambil untuk deposit?",
+						"answer": "Deposit biasanya disahkan dalam masa 5–10 minit, bergantung pada kesesakan blockchain dan yuran transaksi.|Anda boleh menjejaki kemajuan transaksi anda melalui penjelajah blok (cth., Etherscan.io atau BscScan.com) menggunakan hash transaksi anda (TXID).|Minimum 3 pengesahan biasanya diperlukan untuk deposit anda muncul dalam baki anda."
+					},
+					"2": {
+						"question": "7. Apakah jumlah pengeluaran minimum?",
+						"answer": "Jumlah pengeluaran minimum bergantung pada mata wang kripto yang anda gunakan.|Setiap syiling mempunyai yuran rangkaian dan ambang minimumnya sendiri.|Nilai ini dipaparkan dalam bahagian Pengeluaran di bawah \"Dompet Saya.\""
+					},
+					"3": {
+						"question": "8. Bagaimana saya mengeluarkan kemenangan saya?",
+						"answer": "Untuk mengeluarkan kripto anda:|Pergi ke \"Dompet Saya\" → \"Pengeluaran.\"|Masukkan alamat dompet destinasi anda dan jumlah yang anda ingin keluarkan.|Periksa semula alamat dan jenis rangkaian anda sebelum mengesahkan.|Pengeluaran diproses serta-merta, tetapi mungkin mengambil masa beberapa minit bergantung pada aktiviti rangkaian blockchain.|💡 Sentiasa pastikan dompet penerima anda menyokong rangkaian yang anda keluarkan."
+					},
+					"4": {
+						"question": "9. Bagaimana jika transaksi saya ditangguhkan?",
+						"answer": "Transaksi Blockchain kadangkala mengambil masa lebih lama disebabkan oleh kesesakan rangkaian atau yuran gas yang rendah.|Jika deposit atau pengeluaran anda belum sampai:|Semak TXID anda pada penjelajah blockchain.|Sahkan bahawa anda menggunakan rangkaian dan alamat yang betul.|Jika sudah lebih daripada satu jam, hubungi {siteDomain} dengan butiran TXID dan dompet anda."
+					}
+				}
+			},
+			"gamesSecurity": {
+				"title": "🎮 Permainan, Keadilan & Keselamatan",
+				"items": {
+					"0": {
+						"question": "10. Adakah permainan {siteName} adil?",
+						"answer": "Ya — semua permainan {siteName} dibina menggunakan teknologi yang terbukti adil dan kontrak pintar yang disahkan.|Setiap pertaruhan, keputusan dan pembayaran boleh disahkan secara bebas pada blockchain.|Kami beroperasi pada sistem yang telus dan kalis gangguan yang menjamin keacakan, keadilan dan keterbukaan.|Anda boleh melihat hasil permainan dan bukti transaksi di rantaian melalui Etherscan atau penjelajah rangkaian masing-masing."
+					},
+					"1": {
+						"question": "11. Apa yang perlu saya lakukan jika permainan membeku atau ranap?",
+						"answer": "Jika permainan anda berhenti bertindak balas:|Segarkan semula halaman.|Kosongkan cache penyemak imbas anda dan sambung semula dompet anda.|Jika isu berterusan, hubungi pasukan sokongan kami melalui Sembang Langsung atau {siteDomain}.|Pasukan kami akan membantu anda memulihkan sesi permainan atau baki anda jika terjejas."
+					},
+					"2": {
+						"question": "12. Bolehkah saya menggunakan lebih daripada satu dompet atau akaun?",
+						"answer": "Tidak.|Setiap pemain dibenarkan menggunakan satu alamat dompet sebagai akaun utama mereka.|Membuat berbilang akaun atau menggunakan putaran dompet untuk menuntut bonus atau mengeksploitasi promosi adalah dilarang sama sekali dan boleh mengakibatkan sekatan akaun atau pelucuthakan baki."
+					},
+					"3": {
+						"question": "13. Adakah data peribadi saya selamat?",
+						"answer": "Ya.|Di {siteName}, kami tidak mengumpul data peribadi — identiti anda kekal selamat.|Akses diuruskan melalui Dynamic.xyz, memastikan privasi penuh dan pemilikan identiti digital anda.|Tiada kata laluan, e-mel atau dokumen sensitif disimpan oleh kami.|Dompet anda = identiti anda."
+					}
+				}
+			},
+			"responsibleGambling": {
+				"title": "🧠 Perjudian Bertanggungjawab",
+				"items": {
+					"0": {
+						"question": "14. Adakah {siteName} menyokong perjudian yang bertanggungjawab?",
+						"answer": "Sudah tentu.|Kami menggalakkan setiap pemain untuk menikmati permainan secara sederhana.|Anda boleh meminta tempoh pengecualian diri atau berehat seketika pada bila-bila masa dengan menghubungi {siteDomain}.|Jika anda merasakan perjudian menjejaskan kehidupan anda, lawati halaman Perjudian Bertanggungjawab kami untuk mendapatkan sumber dan organisasi bantuan."
+					},
+					"1": {
+						"question": "15. Apa yang perlu saya lakukan jika saya mengesyaki masalah perjudian?",
+						"answer": "Jika anda merasakan perjudian anda semakin tidak terkawal, berehat dan hubungi salah satu organisasi yang dipercayai ini untuk mendapatkan bantuan sulit:|GamCare: GamCare - Pengasas Talian Bantuan Perjudian Kebangsaan|Terapi Perjudian: Terapi Perjudian - Nasihat dan sokongan untuk masalah perjudian|Gamblers Anonymous: GA Gävle - Isnin|Pasukan sokongan kami juga boleh membimbing anda tentang cara mengehadkan akses kepada akaun anda dengan selamat."
+					}
+				}
+			}
+		},
+		"needMoreHelp": {
+			"title": "💬 Perlukan Bantuan Lanjut?",
+			"intro": "Pasukan sokongan kami tersedia 24/7 untuk membantu anda melalui:",
+			"contactTitle": "",
+			"liveChat": "💬 Sembang Langsung (tersedia di dalam papan pemuka yang disambungkan dengan dompet anda)"
 		}
 	}
 }
