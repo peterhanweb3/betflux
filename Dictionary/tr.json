@@ -1014,7 +1014,7 @@
 		},
 		"withdrawPanel": {
 			"resetForm": "Formu Sıfırla",
-			"networkNotSupported": "Para çekme işlemleri yalnızca Arbitrum, Polygon ve BNB'de desteklenmektedir",
+			"networkNotSupported": "Para çekme işlemleri yalnızca Arbitrum, Polygon, Optimism ve BNB'de desteklenmektedir",
 			"youWithdraw": "Siz Çekersiniz",
 			"loading": "Yükleniyor...",
 			"amount": "Tutar",

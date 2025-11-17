@@ -1014,7 +1014,7 @@
 		},
 		"withdrawPanel": {
 			"resetForm": "Formulier resetten",
-			"networkNotSupported": "Opnames worden alleen ondersteund op Arbitrum, Polygon en BNB",
+			"networkNotSupported": "Opnames worden alleen ondersteund op Arbitrum, Polygon, Optimism en BNB",
 			"youWithdraw": "Jij neemt op",
 			"loading": "Laden...",
 			"amount": "Bedrag",

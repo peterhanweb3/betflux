@@ -1014,7 +1014,7 @@
 		},
 		"withdrawPanel": {
 			"resetForm": "Set Semula Borang",
-			"networkNotSupported": "Pengeluaran hanya disokong di Arbitrum, Polygon dan BNB",
+			"networkNotSupported": "Pengeluaran hanya disokong pada Arbitrum, Polygon, Optimism dan BNB",
 			"youWithdraw": "Anda Mengeluarkan",
 			"loading": "Memuatkan...",
 			"amount": "Jumlah",

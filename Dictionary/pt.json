@@ -1014,7 +1014,7 @@
 		},
 		"withdrawPanel": {
 			"resetForm": "Redefinir Formulário",
-			"networkNotSupported": "Saques são suportados apenas em Arbitrum, Polygon e BNB",
+			"networkNotSupported": "Saques são suportados apenas em Arbitrum, Polygon, Optimism e BNB",
 			"youWithdraw": "Você Saca",
 			"loading": "Carregando...",
 			"amount": "Valor",

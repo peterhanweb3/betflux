@@ -1,1824 +1,1824 @@
+
 {
 	"common": {
-		"loading": "جارٍ التحميل...",
-		"save": "حفظ",
-		"cancel": "إلغاء",
-		"confirm": "تأكيد",
-		"viewAll": "عرض الكل"
+		"loading": "Cargando...",
+		"save": "Guardar",
+		"cancel": "Cancelar",
+		"confirm": "Confirmar",
+		"viewAll": "Ver todo"
 	},
 	"app": {
 		"name": "{siteName}"
 	},
 	"header": {
-		"toggleSidebar": "تبديل الشريط الجانبي",
-		"searchPlaceholder": "ابحث عن الألعاب، المزودين...",
-		"liveChat": "محادثة مباشرة",
-		"player": "لاعب",
+		"toggleSidebar": "Alternar barra lateral",
+		"searchPlaceholder": "Buscar juegos, proveedores...",
+		"liveChat": "Chat en vivo",
+		"player": "Jugador",
 		"vip": "VIP",
-		"profile": "الملف الشخصي",
-		"statistics": "الإحصائيات",
-		"wallet": "إيداع/سحب",
-		"cashier": "أمين الصندوق",
-		"winLoss": "ربح/خسارة",
-		"affiliate": "مكافأة الإحالة",
-		"logout": "تسجيل الخروج",
-		"balance": "الرصيد",
-		"turnoverBonus": "مكافأة الدوران"
+		"profile": "Perfil",
+		"statistics": "Estadísticas",
+		"wallet": "Depositar/Retirar",
+		"cashier": "Cajero",
+		"winLoss": "Ganancia/Pérdida",
+		"affiliate": "Bono de referido",
+		"logout": "Cerrar sesión",
+		"balance": "Saldo",
+		"turnoverBonus": "Bono por volumen de apuestas"
 	},
 	"navigation": {
-		"home": "الرئيسية",
-		"games": "الألعاب",
-		"profile": "الملف الشخصي",
-		"wallet": "المحفظة",
-		"settings": "الإعدادات",
-		"promotions": "العروض الترويجية",
-		"affiliate": "مكافأة الإحالة",
-		"bonus": "مكافأة الدوران",
-		"providers": "المزودون",
-		"lobby": "البهو",
-		"about": "معلومات عنا"
+		"home": "Inicio",
+		"games": "Juegos",
+		"profile": "Perfil",
+		"wallet": "Billetera",
+		"settings": "Ajustes",
+		"promotions": "Promociones",
+		"affiliate": "Bono de referido",
+		"bonus": "Bono por volumen de apuestas",
+		"providers": "Proveedores",
+		"lobby": "Lobby",
+		"about": "Sobre nosotros"
 	},
 	"profile": {
-		"language": "اللغة",
-		"welcome": "أهلاً بك، {name}!",
-		"settingUp": "قيد الإعداد",
-		"profileBtn": "عرض الملف الشخصي",
-		"currentBalance": "الرصيد الحالي",
-		"availableFunds": "الأموال المتاحة",
-		"totalDeposits": "إجمالي الإيداعات",
-		"totalWithdrawals": "إجمالي السحوبات",
-		"walletAddress": "عنوان المحفظة",
-		"copySuccess": "تم نسخ عنوان المحفظة إلى الحافظة!",
-		"copyFailed": "فشل نسخ عنوان المحفظة",
-		"notConnected": "غير متصل",
-		"myProfile": "ملفي الشخصي",
+		"language": "Idioma",
+		"welcome": "¡Bienvenido, {name}!",
+		"settingUp": "Configurando",
+		"profileBtn": "Ver perfil",
+		"currentBalance": "Saldo actual",
+		"availableFunds": "Fondos disponibles",
+		"totalDeposits": "Depósitos totales",
+		"totalWithdrawals": "Retiros totales",
+		"walletAddress": "Dirección de la billetera",
+		"copySuccess": "¡Dirección de la billetera copiada al portapapeles!",
+		"copyFailed": "Error al copiar la dirección de la billetera",
+		"notConnected": "No conectado",
+		"myProfile": "Mi perfil",
 		"history": {
-			"title": "السجل"
+			"title": "Historial"
 		},
-		"logout": "تسجيل الخروج",
-		"pendingRegistration": "التسجيل معلق",
-		"noEmailProvided": "لم يتم تقديم بريد إلكتروني",
-		"balanceOverview": "نظرة عامة على الرصيد",
-		"gettingStarted": "البدء",
-		"verifyEmail": "تحقق من بريدك الإلكتروني",
-		"completeEmailVerification": "إكمال التحقق من البريد الإلكتروني",
-		"verifyPhone": "تحقق من رقم هاتفك",
-		"addPhoneVerification": "إضافة التحقق من الهاتف",
-		"firstDeposit": "الإيداع الأول",
-		"makeFirstDeposit": "قم بأول إيداع لك",
-		"placeBetOrTrade": "ضع رهانًا / قم بصفقة",
-		"startFirstGame": "ابدأ أول لعبة لك",
-		"recentActivity": "النشاط الأخير",
-		"transactionHistory": "سجل المعاملات",
-		"activityGameWinDiceRoll": "ربح في لعبة - رمي النرد",
-		"activityGameLossBlackjack": "خسارة في لعبة - بلاك جاك",
-		"twoHoursAgo": "قبل ساعتين",
-		"oneDayAgo": "قبل يوم واحد",
-		"twoDaysAgo": "قبل يومين",
-		"deposit": "إيداع",
-		"loggedOutTitle": "عفوًا! لقد سجلت الخروج",
-		"loggedOutSubtitle": "يرجى تسجيل الدخول لعرض ملفك الشخصي",
-		"goHome": "اذهب إلى الصفحة الرئيسية",
-		"withdrawal": "سحب",
+		"logout": "Cerrar sesión",
+		"pendingRegistration": "Registro pendiente",
+		"noEmailProvided": "No se ha proporcionado correo electrónico",
+		"balanceOverview": "Resumen de saldo",
+		"gettingStarted": "Para empezar",
+		"verifyEmail": "Verifica tu correo electrónico",
+		"completeEmailVerification": "Completa la verificación de correo electrónico",
+		"verifyPhone": "Verifica tu número de teléfono",
+		"addPhoneVerification": "Añadir verificación de teléfono",
+		"firstDeposit": "Primer depósito",
+		"makeFirstDeposit": "Realiza tu primer depósito",
+		"placeBetOrTrade": "Realizar apuesta / Hacer operación",
+		"startFirstGame": "Comienza tu primer juego",
+		"recentActivity": "Actividad reciente",
+		"transactionHistory": "Historial de transacciones",
+		"activityGameWinDiceRoll": "Victoria en juego - Tirada de dados",
+		"activityGameLossBlackjack": "Derrota en juego - Blackjack",
+		"twoHoursAgo": "Hace 2 horas",
+		"oneDayAgo": "Hace 1 día",
+		"twoDaysAgo": "Hace 2 días",
+		"deposit": "Depósito",
+		"loggedOutTitle": "¡Vaya! Has cerrado sesión",
+		"loggedOutSubtitle": "Inicia sesión para ver tu perfil",
+		"goHome": "Ir al inicio",
+		"withdrawal": "Retiro",
 		"transactions": {
-			"title": "سجل المعاملات",
-			"trackDepositsWithdrawals": "تتبع إيداعاتك وسحوباتك",
-			"filters": "مرشحات",
-			"refresh": "تحديث",
-			"advancedFilters": "مرشحات متقدمة",
-			"searchTransactionComingSoon": "بحث عن معاملة (قريبًا)",
-			"searchPlaceholderDisabled": "سيتم تنفيذ وظيفة البحث على مستوى واجهة برمجة التطبيقات...",
-			"dateRange": "نطاق التاريخ",
-			"selectDateRange": "حدد نطاق التاريخ",
-			"today": "اليوم",
-			"last7Days": "آخر 7 أيام",
-			"last30Days": "آخر 30 يومًا",
-			"last90Days": "آخر 90 يومًا",
-			"thisMonth": "هذا الشهر",
-			"lastMonth": "الشهر الماضي",
-			"customRange": "نطاق مخصص",
-			"fromDate": "من تاريخ",
-			"toDate": "إلى تاريخ",
-			"transactionStatus": "حالة المعاملة",
-			"allStatuses": "كل الحالات",
-			"success": "ناجحة",
-			"pending": "معلقة",
-			"rejected": "مرفوضة",
-			"clearAll": "مسح الكل",
-			"cancel": "إلغاء",
-			"applyFilters": "تطبيق المرشحات",
-			"activeFilters": "المرشحات النشطة:",
-			"statusLabel": "الحالة",
-			"dateLabel": "التاريخ",
-			"statsTotalTransactions": "{total} إجمالي المعاملات",
-			"pageOf": "صفحة {current} من {total}",
-			"live": "مباشر",
+			"title": "Historial de transacciones",
+			"trackDepositsWithdrawals": "Rastrea tus depósitos y retiros",
+			"filters": "Filtros",
+			"refresh": "Actualizar",
+			"advancedFilters": "Filtros avanzados",
+			"searchTransactionComingSoon": "Búsqueda de transacciones (próximamente)",
+			"searchPlaceholderDisabled": "La funcionalidad de búsqueda se implementará a nivel de API...",
+			"dateRange": "Rango de fechas",
+			"selectDateRange": "Seleccionar rango de fechas",
+			"today": "Hoy",
+			"last7Days": "Últimos 7 días",
+			"last30Days": "Últimos 30 días",
+			"last90Days": "Últimos 90 días",
+			"thisMonth": "Este mes",
+			"lastMonth": "Mes pasado",
+			"customRange": "Rango personalizado",
+			"fromDate": "Desde",
+			"toDate": "Hasta",
+			"transactionStatus": "Estado de la transacción",
+			"allStatuses": "Todos los estados",
+			"success": "Éxito",
+			"pending": "Pendiente",
+			"rejected": "Rechazado",
+			"clearAll": "Limpiar todo",
+			"cancel": "Cancelar",
+			"applyFilters": "Aplicar filtros",
+			"activeFilters": "Filtros activos:",
+			"statusLabel": "Estado",
+			"dateLabel": "Fecha",
+			"statsTotalTransactions": "{total} transacciones en total",
+			"pageOf": "Página {current} de {total}",
+			"live": "En vivo",
 			"tabs": {
-				"all": "الكل",
-				"deposits": "الإيداعات",
-				"withdrawals": "السحوبات"
+				"all": "Todo",
+				"deposits": "Depósitos",
+				"withdrawals": "Retiros"
 			},
-			"errorLoadingTransactions": "خطأ في تحميل المعاملات",
-			"tryAgain": "حاول مرة أخرى",
-			"noTransactionsFound": "لم يتم العثور على معاملات",
-			"noTransactionsAvailableSelectedPeriod": "لا توجد معاملات متاحة للفترة المحددة.",
-			"noDepositsFoundSelectedPeriod": "لم يتم العثور على إيداعات للفترة المحددة.",
-			"noWithdrawalsFoundSelectedPeriod": "لم يتم العثور على سحوبات للفترة المحددة.",
-			"show": "عرض",
-			"ofTransactions": "من {count} معاملات",
-			"showingRangeOfTotal": "عرض {from}-{to} من {total}",
-			"pageShort": "صفحة {current}/{total}"
+			"errorLoadingTransactions": "Error al cargar las transacciones",
+			"tryAgain": "Intentar de nuevo",
+			"noTransactionsFound": "No se encontraron transacciones",
+			"noTransactionsAvailableSelectedPeriod": "No hay transacciones disponibles para el período seleccionado.",
+			"noDepositsFoundSelectedPeriod": "No se encontraron depósitos para el período seleccionado.",
+			"noWithdrawalsFoundSelectedPeriod": "No se encontraron retiros para el período seleccionado.",
+			"show": "Mostrar",
+			"ofTransactions": "de {count} transacciones",
+			"showingRangeOfTotal": "Mostrando {from}-{to} de {total}",
+			"pageShort": "Página {current}/{total}"
 		},
 		"betHistory": {
-			"title": "سجل الرهانات",
-			"trackBetsResults": "تتبع رهاناتك ونتائج ألعابك",
-			"filters": "مرشحات",
-			"refresh": "تحديث",
-			"advancedFilters": "مرشحات متقدمة",
-			"dateRange": "نطاق التاريخ",
-			"selectDateRange": "حدد نطاق التاريخ",
-			"today": "اليوم",
-			"last7Days": "آخر 7 أيام",
-			"last30Days": "آخر 30 يومًا",
-			"last90Days": "آخر 90 يومًا",
-			"thisMonth": "هذا الشهر",
-			"lastMonth": "الشهر الماضي",
-			"customRange": "نطاق مخصص",
-			"fromDate": "من تاريخ",
-			"toDate": "إلى تاريخ",
-			"provider": "المزود",
-			"allProviders": "كل المزودين",
-			"status": "الحالة",
-			"allStatuses": "كل الحالات",
-			"outstanding": "معلقة",
-			"win": "ربح",
-			"lose": "خسارة",
-			"draw": "تعادل",
-			"void": "لاغية",
-			"bonusWin": "ربح مكافأة",
-			"clearAll": "مسح الكل",
-			"cancel": "إلغاء",
-			"applyFilters": "تطبيق المرشحات",
-			"activeFilters": "المرشحات النشطة",
-			"statusLabel": "الحالة",
-			"providerLabel": "المزود",
-			"dateLabel": "التاريخ",
-			"totalBets": "إجمالي الرهانات",
-			"totalProfitLoss": "إجمالي الربح/الخسارة",
-			"pageOf": "صفحة {current} من {total}",
-			"live": "مباشر",
-			"errorLoadingBets": "خطأ في تحميل سجل الرهانات",
-			"failedToLoadBetHistory": "فشل تحميل سجل الرهانات. يرجى المحاولة مرة أخرى.",
-			"tryAgain": "حاول مرة أخرى",
-			"noBetsFound": "لم يتم العثور على رهانات",
-			"noBetsFoundSelectedPeriod": "لم يتم العثور على سجل رهانات للفترة المحددة والمرشحات.",
-			"show": "عرض",
-			"ofBets": "من {count} رهانات",
-			"showingRangeOfTotal": "عرض {from}-{to} من {total}",
-			"totalBet": "إجمالي الرهان",
-			"totalWin": "إجمالي الربح",
-			"net": "الصافي",
+			"title": "Historial de apuestas",
+			"trackBetsResults": "Rastrea tus apuestas y resultados de juegos",
+			"filters": "Filtros",
+			"refresh": "Actualizar",
+			"advancedFilters": "Filtros avanzados",
+			"dateRange": "Rango de fechas",
+			"selectDateRange": "Seleccionar rango de fechas",
+			"today": "Hoy",
+			"last7Days": "Últimos 7 días",
+			"last30Days": "Últimos 30 días",
+			"last90Days": "Últimos 90 días",
+			"thisMonth": "Este mes",
+			"lastMonth": "Mes pasado",
+			"customRange": "Rango personalizado",
+			"fromDate": "Desde",
+			"toDate": "Hasta",
+			"provider": "Proveedor",
+			"allProviders": "Todos los proveedores",
+			"status": "Estado",
+			"allStatuses": "Todos los estados",
+			"outstanding": "Pendiente",
+			"win": "Ganar",
+			"lose": "Perder",
+			"draw": "Empate",
+			"void": "Anulado",
+			"bonusWin": "Ganancia de bono",
+			"clearAll": "Limpiar todo",
+			"cancel": "Cancelar",
+			"applyFilters": "Aplicar filtros",
+			"activeFilters": "Filtros activos",
+			"statusLabel": "Estado",
+			"providerLabel": "Proveedor",
+			"dateLabel": "Fecha",
+			"totalBets": "Apuestas totales",
+			"totalProfitLoss": "Ganancia/Pérdida total",
+			"pageOf": "Página {current} de {total}",
+			"live": "En vivo",
+			"errorLoadingBets": "Error al cargar el historial de apuestas",
+			"failedToLoadBetHistory": "No se pudo cargar el historial de apuestas. Por favor, inténtalo de nuevo.",
+			"tryAgain": "Intentar de nuevo",
+			"noBetsFound": "No se encontraron apuestas",
+			"noBetsFoundSelectedPeriod": "No se encontró historial de apuestas para el período y filtros seleccionados.",
+			"show": "Mostrar",
+			"ofBets": "de {count} apuestas",
+			"showingRangeOfTotal": "Mostrando {from}-{to} de {total}",
+			"totalBet": "Apuesta total",
+			"totalWin": "Ganancia total",
+			"net": "Neto",
 			"tableHeaders": {
-				"date": "التاريخ",
-				"game": "اللعبة",
-				"provider": "المزود",
-				"type": "النوع",
-				"status": "الحالة",
-				"betAmount": "مبلغ الرهان",
-				"winAmount": "مبلغ الربح",
-				"hideAmounts": "إخفاء المبالغ",
-				"showAmounts": "إظهار المبالغ",
-				"gameType": "نوع اللعبة",
-				"vendor": "البائع",
-				"lastUpdate": "آخر تحديث",
-				"netResult": "النتيجة الصافية",
-				"betId": "معرف الرهان"
+				"date": "Fecha",
+				"game": "Juego",
+				"provider": "Proveedor",
+				"type": "Tipo",
+				"status": "Estado",
+				"betAmount": "Monto de la apuesta",
+				"winAmount": "Monto ganado",
+				"hideAmounts": "Ocultar montos",
+				"showAmounts": "Mostrar montos",
+				"gameType": "Tipo de juego",
+				"vendor": "Vendedor",
+				"lastUpdate": "Última actualización",
+				"netResult": "Resultado neto",
+				"betId": "ID de apuesta"
 			},
-			"errorLoading": "خطأ في التحميل",
-			"noBetsFoundDescription": "ابدأ بلعب الألعاب لرؤية سجل رهاناتك هنا.",
-			"betHistory": "سجل الرهانات",
-			"hideAmounts": "إخفاء المبالغ",
-			"showAmounts": "إظهار المبالغ",
-			"date": "التاريخ",
-			"game": "اللعبة",
-			"betId": "معرف الرهان",
-			"amount": "المبلغ",
-			"payout": "الدفع",
-			"player": "لاعب",
-			"gameType": "نوع اللعبة",
-			"vendor": "البائع",
-			"lastUpdate": "آخر تحديث",
-			"netResult": "النتيجة الصافية",
-			"totalWagered": "إجمالي المراهنات",
-			"totalWon": "إجمالي الأرباح",
-			"netProfit": "الربح الصافي",
-			"winRate": "معدل الربح",
-			"showingResults": "عرض {start}-{end} من {total} نتائج",
-			"firstPage": "الصفحة الأولى",
-			"previousPage": "الصفحة السابقة",
-			"nextPage": "الصفحة التالية",
-			"lastPage": "الصفحة الأخيرة"
+			"errorLoading": "Error al cargar",
+			"noBetsFoundDescription": "Comienza a jugar para ver tu historial de apuestas aquí.",
+			"betHistory": "Historial de apuestas",
+			"hideAmounts": "Ocultar montos",
+			"showAmounts": "Mostrar montos",
+			"date": "Fecha",
+			"game": "Juego",
+			"betId": "ID de apuesta",
+			"amount": "Monto",
+			"payout": "Pago",
+			"player": "Jugador",
+			"gameType": "Tipo de juego",
+			"vendor": "Vendedor",
+			"lastUpdate": "Última actualización",
+			"netResult": "Resultado neto",
+			"totalWagered": "Total apostado",
+			"totalWon": "Total ganado",
+			"netProfit": "Ganancia neta",
+			"winRate": "Tasa de victorias",
+			"showingResults": "Mostrando {start}-{end} de {total} resultados",
+			"firstPage": "Primera página",
+			"previousPage": "Página anterior",
+			"nextPage": "Página siguiente",
+			"lastPage": "Última página"
 		}
 	},
 	"chat": {
-		"title": "محادثة مباشرة",
-		"placeholder": "اكتب رسالتك...",
-		"send": "إرسال",
+		"title": "Chat en vivo",
+		"placeholder": "Escribe tu mensaje...",
+		"send": "Enviar",
 		"input": {
-			"replyPlaceholder": "الرد على {username}..."
+			"replyPlaceholder": "Responder a {username}..."
 		},
 		"reply": {
-			"replyingTo": "الرد على {username}",
+			"replyingTo": "Respondiendo a {username}",
 			"types": {
-				"win": "ربح {amount} {currency}",
-				"gif": "رسالة GIF",
-				"image": "صورة",
-				"default": "رسالة"
+				"win": "Ganó {amount} {currency}",
+				"gif": "Mensaje GIF",
+				"image": "Imagen",
+				"default": "Mensaje"
 			},
 			"preview": {
-				"winIn": "ربح {amount} {currency} في {game}",
-				"gifAlt": "معاينة GIF",
-				"imageAlt": "معاينة الصورة",
-				"emoji": "رسالة إيموجي",
-				"rain": "مطر: {amount} {currency}",
-				"system": "نظام: {content}"
+				"winIn": "Ganó {amount} {currency} en {game}",
+				"gifAlt": "Vista previa de GIF",
+				"imageAlt": "Vista previa de imagen",
+				"emoji": "Mensaje de emoji",
+				"rain": "Lluvia: {amount} {currency}",
+				"system": "Sistema: {content}"
 			}
 		},
 		"imageDialog": {
-			"title": "شارك صورتك 🎰",
-			"description": "هل أنت مستعد للعرض في غرفة الدردشة؟",
-			"previewLabel": "معاينة",
-			"statusReady": "جاهز للمشاركة",
-			"roomLabel": "🎰 دردشة الكازينو",
-			"shareNotice": "ستتم مشاركة صورتك مع جميع اللاعبين في غرفة الدردشة",
-			"closeAria": "إغلاق الحوار",
-			"cancelAria": "إلغاء تحميل الصورة",
-			"sendAria": "إرسال الصورة إلى الدردشة",
-			"send": "إرسال إلى الدردشة"
+			"title": "Comparte tu imagen 🎰",
+			"description": "¿Listo para mostrar a la sala de chat?",
+			"previewLabel": "Vista previa",
+			"statusReady": "Listo para compartir",
+			"roomLabel": "🎰 Chat del casino",
+			"shareNotice": "Tu imagen se compartirá con todos los jugadores en la sala de chat",
+			"closeAria": "Cerrar diálogo",
+			"cancelAria": "Cancelar subida de imagen",
+			"sendAria": "Enviar imagen al chat",
+			"send": "Enviar al chat"
 		},
 		"picker": {
-			"searchEmojis": "ابحث عن الرموز التعبيرية...",
-			"searchGifs": "ابحث عن صور GIF...",
+			"searchEmojis": "Buscar emojis...",
+			"searchGifs": "Buscar GIFs...",
 			"tabs": {
-				"emojis": "الرموز التعبيرية",
-				"gifs": "صور GIF"
+				"emojis": "Emojis",
+				"gifs": "GIFs"
 			},
-			"loadingEmojis": "جارٍ تحميل الرموز التعبيرية...",
-			"loadingGifs": "جارٍ تحميل صور GIF...",
-			"retry": "إعادة المحاولة",
-			"recent": "الأخيرة",
-			"noEmojis": "لم يتم العثور على رموز تعبيرية",
-			"noGifs": "لم يتم العثور على صور GIF",
-			"tryDifferent": "جرب مصطلح بحث مختلف",
+			"loadingEmojis": "Cargando emojis...",
+			"loadingGifs": "Cargando GIFs...",
+			"retry": "Reintentar",
+			"recent": "Recientes",
+			"noEmojis": "No se encontraron emojis",
+			"noGifs": "No se encontraron GIFs",
+			"tryDifferent": "Prueba con un término de búsqueda diferente",
 			"gifCategories": {
-				"trending": "شائعة",
-				"reactions": "ردود الفعل",
-				"gaming": "ألعاب",
-				"casino": "كازينو",
-				"celebration": "احتفال",
-				"sports": "رياضة"
+				"trending": "Tendencias",
+				"reactions": "Reacciones",
+				"gaming": "Juegos",
+				"casino": "Casino",
+				"celebration": "Celebración",
+				"sports": "Deportes"
 			},
-			"searchResults": "نتائج البحث",
-			"availableToTag": "المستخدمون المتاحون للإشارة إليهم 🎯",
-			"clickOrTab": "انقر أو Tab للتحديد",
-			"noUsers": "لم يتم العثور على مستخدمين",
-			"noUsersMatching": "لا يوجد مستخدمون مطابقون",
-			"startTyping": "ابدأ الكتابة للبحث",
-			"typeAt": "اكتب",
-			"toSeeSuggestions": "لرؤية الاقتراحات 🎰",
+			"searchResults": "Resultados de búsqueda",
+			"availableToTag": "Usuarios disponibles para etiquetar 🎯",
+			"clickOrTab": "Haz clic o pulsa Tab para seleccionar",
+			"noUsers": "No se encontraron usuarios",
+			"noUsersMatching": "No se encontraron usuarios que coincidan",
+			"startTyping": "Empieza a escribir para buscar",
+			"typeAt": "Escribe",
+			"toSeeSuggestions": "para ver sugerencias 🎰",
 			"errors": {
-				"emojisLoad": "فشل تحميل الرموز التعبيرية",
-				"emojisSearch": "فشل البحث عن الرموز التعبيرية",
-				"gifsLoad": "فشل تحميل صور GIF"
+				"emojisLoad": "Error al cargar los emojis",
+				"emojisSearch": "Error al buscar emojis",
+				"gifsLoad": "Error al cargar los GIFs"
 			}
 		},
 		"messages": {
-			"emptyTitle": "لا توجد رسائل بعد...",
-			"emptySubtitle": "ابدأ المحادثة واربح الكثير! 🎰",
-			"loadingHistory": "جارٍ تحميل سجل الدردشة...",
-			"loadingHistorySubtitle": "جارٍ جلب الرسائل الأخيرة 📜",
-			"historyError": "فشل تحميل سجل الدردشة"
+			"emptyTitle": "Aún no hay mensajes...",
+			"emptySubtitle": "¡Inicia la conversación y gana a lo grande! 🎰",
+			"loadingHistory": "Cargando historial del chat...",
+			"loadingHistorySubtitle": "Obteniendo mensajes recientes 📜",
+			"historyError": "Error al cargar el historial del chat"
 		},
 		"message": {
-			"you": "أنت",
-			"winTitle": "ربح كبير في \"{game}\"! 🎰",
+			"you": "Tú",
+			"winTitle": "¡Gran victoria en \"{game}\"! 🎰",
 			"gifAlt": "GIF",
-			"imageAlt": "صورة محملة",
-			"rainTitle": "مطر المال! 🌧️💰",
-			"recipients": "→ {count} {count, plural, one {مستلم} other {مستلمون}}",
-			"eachTo": "{amount} {currency} لكل من: {list}",
-			"replyCount": "{count} {count, plural, one {رد} other {ردود}}",
-			"loadingHistory": "جارٍ تحميل سجل الدردشة..."
+			"imageAlt": "Imagen subida",
+			"rainTitle": "¡Lluvia de dinero! 🌧️💰",
+			"recipients": "→ {count} {count, plural, one {destinatario} other {destinatarios}}",
+			"eachTo": "{amount} {currency} para cada uno de: {list}",
+			"replyCount": "{count} {count, plural, one {respuesta} other {respuestas}}",
+			"loadingHistory": "Cargando historial del chat..."
 		},
 		"system": {
-			"slashDisabled": "أوامر الشرطة المائلة معطلة مؤقتًا. يرجى استخدام الرسائل العادية.",
-			"rateLimit": "تم تجاوز حد المعدل. يرجى الانتظار {seconds} ثوانٍ قبل إرسال رسالة أخرى.",
-			"cannotTagSelf": "لا يمكنك الإشارة إلى نفسك في الرسائل.",
-			"processingImage": "جارٍ معالجة الصورة...",
-			"failedUploadPrefix": "فشل تحميل الصورة: {message}",
-			"unknownError": "خطأ غير معروف"
+			"slashDisabled": "Los comandos de barra están temporalmente desactivados. Por favor, usa mensajes normales.",
+			"rateLimit": "Límite de velocidad excedido. Por favor, espera {seconds} segundos antes de enviar otro mensaje.",
+			"cannotTagSelf": "No puedes etiquetarte a ti mismo en los mensajes.",
+			"processingImage": "Procesando imagen...",
+			"failedUploadPrefix": "Error al subir la imagen: {message}",
+			"unknownError": "Error desconocido"
 		}
 	},
 	"sidebar": {
-		"quest": "مهمة",
-		"spin": "لف",
-		"deposit": "إيداع",
-		"withdraw": "سحب",
-		"playOnTelegram": "العب على Telegram",
-		"dailyBonus": "مكافأة يومية",
-		"navigation": "التنقل",
-		"games": "الألعاب",
-		"providers": "المزودون",
-		"trendingNow": "شائع الآن",
-		"allProviders": "كل المزودين",
-		"allTopProviders": "كل أفضل المزودين",
-		"hotBadge": "ساخن"
+		"quest": "MISIÓN",
+		"spin": "GIRAR",
+		"deposit": "DEPOSITAR",
+		"withdraw": "RETIRAR",
+		"playOnTelegram": "Jugar en Telegram",
+		"dailyBonus": "Bono diario",
+		"navigation": "Navegación",
+		"games": "Juegos",
+		"providers": "Proveedores",
+		"trendingNow": "Tendencias actuales",
+		"allProviders": "Todos los proveedores",
+		"allTopProviders": "Todos los proveedores principales",
+		"hotBadge": "Popular"
 	},
 	"search": {
-		"title": "ابحث عن الألعاب",
-		"subtitle": "ابحث بالاسم، المزود، أو الفئة",
-		"placeholder": "ابحث عن الألعاب، المزودين، الفئات...",
-		"clear": "مسح",
-		"recent": "الأخيرة:",
-		"popular": "الشائعة:",
-		"favoritesTry": "يمكنك تجربة — مفضلاتك",
-		"hotPicks": "اختيارات ساخنة",
-		"resultsCount": "تم العثور على {count} {count, plural, one {لعبة} other {ألعاب}}",
-		"noResults": "لا توجد نتائج",
-		"filterApplied": "تمت التصفية بواسطة {count} {count, plural, one {مزود} other {مزودين}}",
+		"title": "Buscar juegos",
+		"subtitle": "Busca por nombre, proveedor o categoría",
+		"placeholder": "Buscar juegos, proveedores, categorías...",
+		"clear": "Limpiar",
+		"recent": "Recientes:",
+		"popular": "Populares:",
+		"favoritesTry": "Puedes probar — Tus favoritos",
+		"hotPicks": "Selecciones populares",
+		"resultsCount": "{count, plural, one {Se encontró {count} juego} other {Se encontraron {count} juegos}}",
+		"noResults": "No hay resultados",
+		"filterApplied": "Filtrado por {count} {count, plural, one {proveedor} other {proveedores}}",
 		"suggestions": {
-			"category": "فئة",
-			"provider": "مزود"
+			"category": "Categoría",
+			"provider": "Proveedor"
 		},
 		"sections": {
-			"topProviders": "أفضل المزودين",
-			"selectedProviders": "المزودون المختارون",
-			"categories": "الفئات",
-			"games": "الألعاب",
-			"providers": "المزودون"
+			"topProviders": "Proveedores principales",
+			"selectedProviders": "Proveedores seleccionados",
+			"categories": "Categorías",
+			"games": "Juegos",
+			"providers": "Proveedores"
 		},
 		"results": {
-			"found": "تم العثور على {games} ألعاب، {categories} فئات، و {providers} مزودين"
+			"found": "Se encontraron {games} juegos, {categories} categorías y {providers} proveedores"
 		},
 		"gameTypes": {
-			"blackjack": "بلاك جاك",
-			"roulette": "روليت",
-			"crash": "تحطم"
+			"blackjack": "Blackjack",
+			"roulette": "Ruleta",
+			"crash": "Crash"
 		}
 	},
 	"query": {
 		"sort": {
-			"label": "فرز حسب",
-			"a-z": "أ-ي",
-			"z-a": "ي-أ"
+			"label": "Ordenar por",
+			"a-z": "A-Z",
+			"z-a": "Z-A"
 		},
 		"filters": {
-			"filter": "مرشح",
-			"optionsTitle": "خيارات المرشح",
-			"clearAll": "مسح كل المرشحات",
-			"activeLabel": "نشط:"
+			"filter": "Filtro",
+			"optionsTitle": "Opciones de filtro",
+			"clearAll": "Limpiar todos los filtros",
+			"activeLabel": "Activo:"
 		},
-		"searchPlaceholderGeneric": "بحث...",
+		"searchPlaceholderGeneric": "Buscar...",
 		"providersDropdown": {
-			"title": "المزودون",
-			"selected": "{count} محدد",
-			"searchPlaceholder": "ابحث عن المزودين...",
-			"empty": "لم يتم العثور على مزود.",
-			"clear": "مسح مرشحات المزود"
+			"title": "Proveedores",
+			"selected": "{count} seleccionados",
+			"searchPlaceholder": "Buscar proveedores...",
+			"empty": "No se encontró ningún proveedor.",
+			"clear": "Limpiar filtros de proveedores"
 		},
 		"category": {
-			"label": "الفئة:"
+			"label": "Categoría:"
 		},
 		"view": {
-			"toggleAria": "تبديل وضع العرض",
-			"gridAria": "عرض شبكي",
-			"listAria": "عرض قائمة"
+			"toggleAria": "Alternar modo de vista",
+			"gridAria": "Vista de cuadrícula",
+			"listAria": "Vista de lista"
 		},
-		"loadMore": "تحميل المزيد"
+		"loadMore": "Cargar más"
 	},
 	"commonExtra": {
-		"connecting": "جارٍ الاتصال...",
-		"offline": "غير متصل",
-		"online": "متصل",
-		"clear": "مسح"
+		"connecting": "Conectando...",
+		"offline": "Desconectado",
+		"online": "En línea",
+		"clear": "Limpiar"
 	},
 	"home": {
-		"topProviders": "أفضل مزودي الألعاب"
+		"topProviders": "Proveedores de juegos principales"
 	},
 	"lobby": {
-		"yourFavorites": "مفضلاتك",
-		"featuredCasinoGames": "ألعاب الكازينو المميزة",
-		"hotPicks": "اختيارات ساخنة",
-		"slots": "سلوتس",
-		"sports": "رياضة",
-		"realTimeScoreboard": "لوحة النتائج في الوقت الفعلي"
+		"yourFavorites": "Tus favoritos",
+		"featuredCasinoGames": "Juegos de casino destacados",
+		"hotPicks": "Selecciones populares",
+		"slots": "Tragamonedas",
+		"sports": "Deportes",
+		"realTimeScoreboard": "Marcador en tiempo real"
 	},
 	"affiliate": {
-		"title": "برنامج مكافأة الإحالة",
-		"loginPromptTitle": "برنامج مكافأة الإحالة",
-		"loginPromptSubtitle": "سجل الدخول لعرض إحصائيات الإحالة والمكافآت والمطالبة بالجوائز.",
-		"goHome": "اذهب إلى الصفحة الرئيسية",
+		"title": "Programa de bonos de referido",
+		"loginPromptTitle": "Programa de bonos de referido",
+		"loginPromptSubtitle": "Inicia sesión para ver tus estadísticas de referidos, bonos y reclamar recompensas.",
+		"goHome": "Ir al inicio",
 		"tabs": {
-			"dashboard": "لوحة التحكم",
-			"rates": "معدلات العمولة",
-			"calculator": "الحاسبة"
+			"dashboard": "Panel de control",
+			"rates": "Tasas de comisión",
+			"calculator": "Calculadora"
 		},
-		"refresh": "تحديث",
-		"refreshing": "جارٍ التحديث...",
-		"refreshAllSuccess": "تم تحديث جميع البيانات بنجاح!",
-		"refreshPartial": "تم التحديث جزئيًا: تم تحديث {success}/{total} أقسام",
-		"refreshFailed": "فشل تحديث البيانات. يرجى المحاولة مرة أخرى.",
+		"refresh": "Actualizar",
+		"refreshing": "Actualizando...",
+		"refreshAllSuccess": "¡Todos los datos se actualizaron correctamente!",
+		"refreshPartial": "Actualizado parcialmente: {success}/{total} secciones actualizadas",
+		"refreshFailed": "Error al actualizar los datos. Por favor, inténtalo de nuevo.",
 		"dashboard": {
-			"title": "لوحة تحكم الإحالة",
-			"subtitle": "تتبع إحالاتك وأرباحك وأداء عمولتك",
-			"performanceOverview": "نظرة عامة على الأداء",
-			"referralManagement": "إدارة الإحالة",
-			"termsAndCommission": "الشروط وهيكل العمولة",
-			"unclaimedEarnings": "الأرباح غير المطالب بها",
-			"claim": "مطالبة",
-			"claiming": "جارٍ المطالبة...",
-			"totalIncome": "إجمالي الدخل",
-			"claimButtonTitle": "المطالبة بالمكافأة",
-			"totalReferrals": "إجمالي الإحالات",
-			"usersUnit": "مستخدمين",
-			"yourReferralLinks": "روابط الإحالة الخاصة بك",
-			"referralLinksSubtitle": "شارك هذه الروابط لإحالة مستخدمين جدد وكسب العمولات",
-			"completeReferralLink": "رابط الإحالة الكامل",
-			"fullReferralPlaceholder": "سيظهر رابط الإحالة الكامل هنا",
-			"fullReferralHelp": "رابط مباشر يمكن للمستخدمين النقر عليه للتسجيل باستخدام رمز الإحالة الخاص بك",
-			"referralCodeOnly": "رمز الإحالة فقط",
-			"yourReferralId": "معرف الإحالة الخاص بك",
-			"referralIdHelp": "شارك هذا الرمز ليدخله المستخدمون يدويًا أثناء التسجيل",
-			"copyFullSuccess": "تم نسخ رابط الإحالة الكامل إلى الحافظة!",
-			"copyIdSuccess": "تم نسخ معرف الإحالة إلى الحافظة!"
+			"title": "Panel de afiliados",
+			"subtitle": "Rastrea tus referidos, ganancias y rendimiento de comisiones",
+			"performanceOverview": "Resumen de rendimiento",
+			"referralManagement": "Gestión de referidos",
+			"termsAndCommission": "Términos y estructura de comisiones",
+			"unclaimedEarnings": "Ganancias no reclamadas",
+			"claim": "Reclamar",
+			"claiming": "Reclamando...",
+			"totalIncome": "Ingresos totales",
+			"claimButtonTitle": "Reclamar bono",
+			"totalReferrals": "Referidos totales",
+			"usersUnit": "usuarios",
+			"yourReferralLinks": "Tus enlaces de referido",
+			"referralLinksSubtitle": "Comparte estos enlaces para referir nuevos usuarios y ganar comisiones",
+			"completeReferralLink": "Enlace de referido completo",
+			"fullReferralPlaceholder": "El enlace de referido completo aparecerá aquí",
+			"fullReferralHelp": "Enlace directo que los usuarios pueden hacer clic para registrarse con tu código de referido",
+			"referralCodeOnly": "Solo código de referido",
+			"yourReferralId": "Tu ID de referido",
+			"referralIdHelp": "Comparte este código para que los usuarios lo introduzcan manualmente durante el registro",
+			"copyFullSuccess": "¡Enlace de referido completo copiado al portapapeles!",
+			"copyIdSuccess": "¡ID de referido copiado al portapapeles!"
 		},
 		"referrals": {
-			"title": "إحالاتي",
-			"subtitle": "تتبع وإدارة جميع المستخدمين المحالين من خلال روابط الإحالة الخاصة بك",
-			"totalReferrals": "إجمالي الإحالات",
-			"monitorHelp": "راقب نشاط إحالاتك وإيداعاتهم وأنماط لعبهم",
+			"title": "Mis referidos",
+			"subtitle": "Rastrea y gestiona todos los usuarios referidos a través de tus enlaces de afiliado",
+			"totalReferrals": "referidos en total",
+			"monitorHelp": "Monitorea la actividad, depósitos y patrones de juego de tus referidos",
 			"sort": {
-				"placeholder": "فرز حسب...",
-				"nicknameAsc": "اللقب (أ-ي)",
-				"nicknameDesc": "اللقب (ي-أ)",
-				"lastLogin": "آخر تسجيل دخول",
-				"unclaimedAmount": "المبلغ غير المطالب به"
+				"placeholder": "Ordenar por...",
+				"nicknameAsc": "Apodo (A-Z)",
+				"nicknameDesc": "Apodo (Z-A)",
+				"lastLogin": "Último inicio de sesión",
+				"unclaimedAmount": "Monto no reclamado"
 			},
 			"table": {
-				"nickname": "اللقب",
-				"totalWager": "إجمالي الرهان",
-				"lastLogin": "آخر تسجيل دخول",
-				"registered": "مسجل",
-				"lastDeposit": "آخر إيداع",
-				"depositDate": "تاريخ الإيداع",
-				"tier": "المستوى"
+				"nickname": "Apodo",
+				"totalWager": "Apuesta total",
+				"lastLogin": "Último inicio de sesión",
+				"registered": "Registrado",
+				"lastDeposit": "Último depósito",
+				"depositDate": "Fecha de depósito",
+				"tier": "Nivel"
 			},
 			"empty": {
-				"title": "لم يتم العثور على إحالات",
-				"subtitle": "ابدأ بإحالة المستخدمين لرؤيتهم هنا."
+				"title": "No se encontraron referidos",
+				"subtitle": "Comienza a referir usuarios para verlos aquí."
 			},
 			"pagination": {
-				"showing": "عرض {from} إلى {to} من {total} نتائج",
-				"prev": "السابق",
-				"next": "التالي"
+				"showing": "Mostrando {from} a {to} de {total} resultados",
+				"prev": "Anterior",
+				"next": "Siguiente"
 			}
 		},
 		"rates": {
-			"title": "هيكل معدل العمولة",
-			"subtitle": "نسب الأرباح حسب مستوى الطبقة وفئة اللعبة",
+			"title": "Estructura de tasas de comisión",
+			"subtitle": "Porcentajes de ganancias por nivel y categoría de juego",
 			"overview": {
-				"title": "نظرة عامة",
-				"body": "تكافئ مكافأة الإحالة الشركاء بناءً على حجم المراهنات من اللاعبين المحالين في السلوتس، الكازينو المباشر، المراهنات الرياضية واليانصيب. يتم احتساب العمولات كل 24 ساعة، مع أرباح تعتمد على مستويات مختلفة من حجم المراهنات."
+				"title": "Resumen",
+				"body": "El bono de referido recompensa a los afiliados según el volumen de apuestas de los jugadores referidos en tragamonedas, casino en vivo, apuestas deportivas y lotería. Las comisiones se calculan cada 24 horas, con ganancias basadas en diferentes niveles de volumen de apuestas."
 			},
 			"calculation": {
-				"title": "كيف يتم حساب العمولات",
-				"desc": "يتم احتساب العمولات كل 24 ساعة بناءً على إجمالي رهانات اللاعبين المحالين.\nأمثلة:",
-				"exampleTitle": "المستوى {tier}:",
-				"wagerIn": "رهان {amount} في {gameType}"
+				"title": "Cómo se calculan las comisiones",
+				"desc": "Las comisiones se calculan cada 24 horas en función de las apuestas totales de los jugadores referidos. \nEjemplos:",
+				"exampleTitle": "Nivel {tier}:",
+				"wagerIn": "Apostar {amount} en {gameType}"
 			},
 			"table": {
-				"tierLevel": "مستوى الطبقة",
-				"wagerRange": "نطاق الرهان",
-				"slots": "سلوتس",
-				"liveCasino": "كازينو مباشر",
-				"sports": "رياضة",
-				"tierPrefix": "المستوى",
-				"commissionLevel": "مستوى العمولة",
-				"dailyWager": "حجم الرهان اليومي"
+				"tierLevel": "Nivel",
+				"wagerRange": "Rango de apuesta",
+				"slots": "Tragamonedas",
+				"liveCasino": "Casino en vivo",
+				"sports": "Deportes",
+				"tierPrefix": "NIVEL",
+				"commissionLevel": "Nivel de comisión",
+				"dailyWager": "Volumen diario de apuestas"
 			},
 			"claim": {
-				"title": "المطالبة والسحب",
+				"title": "Reclamar y retirar",
 				"points": {
-					"0": "العمولات متاحة للسحب بمجرد حسابها.",
-					"1": "لا يوجد تاريخ انتهاء للعمولات غير المطالب بها - تتراكم حتى يتم المطالبة بها.",
-					"2": "تتبع عمليات السحب القواعد القياسية للمنصة، مثل الحدود الدنيا وأوقات المعالجة."
+					"0": "Las comisiones están disponibles para retirar una vez calculadas.",
+					"1": "No hay vencimiento para las comisiones no reclamadas; se acumulan hasta que se reclaman.",
+					"2": "Los retiros siguen las reglas estándar de la plataforma, como límites mínimos y tiempos de procesamiento."
 				}
 			},
 			"system": {
-				"title": "وقت النظام والعمليات",
-				"dailyTimeframeLabel": "الإطار الزمني اليومي:",
-				"dailyTimeframeValue": "00:00 UTC إلى 23:59 UTC (كل يوم).",
-				"claimDailyLabel": "المطالبة اليومية:",
-				"claimDailyValue": "متاحة يوميًا في الساعة 14:00 UTC (التوقيت المحلي الخاص بك: {local}).",
-				"note": "ملاحظة: بينما نعمل مع مزودين من مناطق زمنية مختلفة، تتبع جميع الحسابات التوقيت العالمي المنسق لضمان الاتساق وتجنب الارتباك."
+				"title": "Hora del sistema y operaciones",
+				"dailyTimeframeLabel": "Marco de tiempo diario:",
+				"dailyTimeframeValue": "00:00 UTC a 23:59 UTC (todos los días).",
+				"claimDailyLabel": "Reclamar diariamente:",
+				"claimDailyValue": "Disponible diariamente a las 14:00 UTC (Tu hora local: {local}).",
+				"note": "Nota: Aunque trabajamos con proveedores de diferentes zonas horarias, todos los cálculos siguen el UTC para garantizar la coherencia y evitar confusiones."
 			},
 			"amendments": {
-				"title": "التعديلات",
-				"body": "قد نقوم بتحديث هذه الشروط في أي وقت. تدخل التغييرات حيز التنفيذ فور نشرها، وتعني المشاركة المستمرة أنك تقبل الشروط الجديدة."
+				"title": "Modificaciones",
+				"body": "Podemos actualizar estos términos en cualquier momento. Los cambios entran en vigor inmediatamente después de su publicación, y la participación continua significa que aceptas los nuevos términos."
 			},
 			"footer": {
-				"schedule": "جدول العمولة:",
-				"availableDaily": "متاحة يوميًا في",
-				"localTimeLabel": "(التوقيت المحلي الخاص بك: {time})"
+				"schedule": "Horario de comisiones:",
+				"availableDaily": "Disponible diariamente a las",
+				"localTimeLabel": "(Tu hora local: {time})"
 			}
 		},
 		"calculator": {
-			"title": "حاسبة الأرباح",
-			"subtitle": "قدّر أرباح عمولتك بناءً على مبالغ رهانات إحالاتك",
+			"title": "Calculadora de ganancias",
+			"subtitle": "Estima tus ganancias por comisiones en función de los montos de apuesta de tus referidos",
 			"interactive": {
-				"title": "أداة تفاعلية:",
-				"body": "أدخل مبالغ رهان مختلفة لرؤية الأرباح المحتملة عبر جميع المستويات"
+				"title": "Herramienta interactiva:",
+				"body": "Introduce diferentes montos de apuesta para ver las ganancias potenciales en todos los niveles"
 			},
-			"potentialEarnings": "الأرباح المحتملة",
-			"basedOnRate": "بناءً على معدل عمولة {percentage}%",
-			"tier": "المستوى {level}",
-			"commissionLevel": "مستوى العمولة {level}",
-			"enterWager": "أدخل مبلغ الرهان (USD)",
-			"wagerPlaceholder": "على سبيل المثال، 1000",
-			"calcFor": "حساب الأرباح لرهان ${amount}",
-			"totalPotential": "إجمالي الأرباح المحتملة:",
-			"combinedAtTier": "الأرباح المجمعة من جميع أنواع الألعاب في المستوى {level}"
+			"potentialEarnings": "Ganancias potenciales",
+			"basedOnRate": "Basado en una tasa de comisión del {percentage}%",
+			"tier": "Nivel {level}",
+			"commissionLevel": "Nivel de comisión {level}",
+			"enterWager": "Introduce el monto de la apuesta (USD)",
+			"wagerPlaceholder": "p. ej., 1000",
+			"calcFor": "Calculando ganancias para una apuesta de ${amount}",
+			"totalPotential": "Ganancias potenciales totales:",
+			"combinedAtTier": "Ganancias combinadas de todos los tipos de juegos en el Nivel {level}"
 		}
 	},
 	"bonus": {
-		"title": "برنامج مكافأة الدوران",
-		"loginPromptTitle": "برنامج مكافأة الدوران",
-		"loginPromptSubtitle": "سجل الدخول لعرض إحصائيات مكافأتك والمطالبة بجوائزك.",
-		"goHome": "اذهب إلى الصفحة الرئيسية",
+		"title": "Programa de bonos por volumen de apuestas",
+		"loginPromptTitle": "Programa de bonos por volumen de apuestas",
+		"loginPromptSubtitle": "Inicia sesión para ver tus estadísticas de bonos y reclamar tus recompensas.",
+		"goHome": "Ir al inicio",
 		"tabs": {
-			"dashboard": "لوحة التحكم",
-			"claims": "المطالبات",
-			"rates": "معدلات المكافأة",
-			"calculator": "الحاسبة"
+			"dashboard": "Panel de control",
+			"claims": "Reclamaciones",
+			"rates": "Tasas de bonificación",
+			"calculator": "Calculadora"
 		},
-		"refresh": "تحديث",
-		"refreshing": "جارٍ التحديث...",
-		"refreshAllSuccess": "تم تحديث جميع البيانات بنجاح!",
-		"refreshPartial": "تم التحديث جزئيًا: تم تحديث {success}/{total} أقسام",
-		"refreshFailed": "فشل تحديث البيانات. يرجى المحاولة مرة أخرى.",
+		"refresh": "Actualizar",
+		"refreshing": "Actualizando...",
+		"refreshAllSuccess": "¡Todos los datos se actualizaron correctamente!",
+		"refreshPartial": "Actualizado parcialmente: {success}/{total} secciones actualizadas",
+		"refreshFailed": "Error al actualizar los datos. Por favor, inténtalo de nuevo.",
 		"dashboard": {
-			"title": "لوحة تحكم المكافآت",
-			"subtitle": "تتبع رهاناتك ومكافآتك وأرباح جوائزك",
-			"claimButtonTitle": "مطالبة",
-			"performanceOverview": "نظرة عامة على المكافآت",
-			"bonusRatesTitle": "هيكل معدل المكافأة",
-			"totalIncome": "إجمالي المكافأة",
-			"pendingBonus": "مكافأة معلقة",
-			"lastClaim": "آخر مطالبة",
-			"unclaimedEarnings": "متاح للمطالبة",
+			"title": "Panel de bonos",
+			"subtitle": "Rastrea tus apuestas, bonos y ganancias de recompensas",
+			"claimButtonTitle": "Reclamar",
+			"performanceOverview": "Resumen de bonos",
+			"bonusRatesTitle": "Estructura de tasas de bonificación",
+			"totalIncome": "Bono total",
+			"pendingBonus": "Bono pendiente",
+			"lastClaim": "Última reclamación",
+			"unclaimedEarnings": "Disponible para reclamar",
 			"claim": {
-				"title": "المطالبة والسحب",
+				"title": "Reclamar y retirar",
 				"points": {
-					"0": "العمولات متاحة للسحب بمجرد حسابها.",
-					"1": "لا يوجد تاريخ انتهاء للعمولات غير المطالب بها - تتراكم حتى يتم المطالبة بها.",
-					"2": "تتبع عمليات السحب القواعد القياسية للمنصة، مثل الحدود الدنيا وأوقات المعالجة."
+					"0": "Las comisiones están disponibles para retirar una vez calculadas.",
+					"1": "No hay vencimiento para las comisiones no reclamadas; se acumulan hasta que se reclaman.",
+					"2": "Los retiros siguen las reglas estándar de la plataforma, como límites mínimos y tiempos de procesamiento."
 				}
 			},
-			"claiming": "جارٍ المطالبة...",
+			"claiming": "Reclamando...",
 			"section2": {
-				"title": "الأهلية",
-				"content": "للمشاركة:"
+				"title": "Elegibilidad",
+				"content": "Para participar:"
 			},
 			"section3": {
-				"title": "مستويات ومعدلات الدوران",
-				"content": "يتم حساب المكافآت بناءً على مبالغ رهاناتك اليومية:",
-				"noteTitle": "ملاحظة",
-				"noteContent": "يتم تقييم المستويات يوميًا في الساعة 14:00 بالتوقيت العالمي المنسق. يحدد حجم رهانك في اليوم السابق معدل مكافأتك اليوم. تنطبق الأسعار على جميع أنواع الألعاب: السلوتس، الكازينو المباشر، والرياضة."
+				"title": "Niveles y tasas de volumen de apuestas",
+				"content": "Los bonos se calculan en función de los montos diarios de tus apuestas:",
+				"noteTitle": "Nota",
+				"noteContent": "Los niveles se evalúan diariamente a las 14:00 UTC. El volumen de apuestas del día anterior determina la tasa de bonificación de hoy. Las tasas se aplican a todos los tipos de juegos: Tragamonedas, Casino en vivo y Deportes."
 			}
 		},
 		"claims": {
-			"title": "سجل المطالبات",
-			"subtitle": "تتبع مطالبات المكافآت ونشاط المراهنة الخاص بك",
+			"title": "Historial de reclamaciones",
+			"subtitle": "Rastrea tus reclamaciones de bonos y actividad de apuestas",
 			"tableHeaders": {
-				"date": "تاريخ المراهنة",
-				"slots": "سلوتس",
-				"liveCasino": "كازينو مباشر",
-				"sports": "رياضة",
-				"total": "المجموع",
-				"tier": "المستوى",
-				"unclaimed": "غير مطالب به",
-				"token": "رمز"
+				"date": "Fecha de apuesta",
+				"slots": "Tragamonedas",
+				"liveCasino": "Casino en vivo",
+				"sports": "Deportes",
+				"total": "Total",
+				"tier": "Nivel",
+				"unclaimed": "No reclamado",
+				"token": "Token"
 			},
-			"tierPrefix": "المستوى",
-			"availableToClaim": "متاح للمطالبة",
-			"totalBonus": "إجمالي المكافأة",
-			"claimed": "تمت المطالبة به",
-			"progressPercentage": "التقدم",
-			"progressTitle": "تقدمك",
-			"currentTier": "المستوى الحالي",
-			"nextTier": "المستوى التالي",
-			"wagerProgress": "تقدم الرهان",
-			"totalWagered": "إجمالي المراهنات اليوم",
-			"toNextTier": "للوصول إلى المستوى التالي",
+			"tierPrefix": "Nivel",
+			"availableToClaim": "Disponible para reclamar",
+			"totalBonus": "Bono total",
+			"claimed": "Reclamado",
+			"progressPercentage": "Progreso",
+			"progressTitle": "Tu progreso",
+			"currentTier": "Nivel actual",
+			"nextTier": "Siguiente nivel",
+			"wagerProgress": "Progreso de apuesta",
+			"totalWagered": "Total apostado hoy",
+			"toNextTier": "para alcanzar el siguiente nivel",
 			"empty": {
-				"title": "لا توجد مطالبات مكافآت بعد",
-				"subtitle": "ابدأ اللعب لكسب المكافآت!"
+				"title": "Aún no hay reclamaciones de bonos",
+				"subtitle": "¡Comienza a jugar para ganar bonos!"
 			}
 		},
 		"rates": {
-			"title": "مستويات ومعدلات الدوران",
-			"subtitle": "نسب المكافآت حسب مستوى الرهان وفئة اللعبة",
+			"title": "Niveles y tasas de volumen de apuestas",
+			"subtitle": "Porcentajes de bonificación por nivel de apuesta y categoría de juego",
 			"overview": {
-				"title": "نظرة عامة",
-				"body": "تكافئ مكافأة الدوران المستخدمين بناءً على رهاناتهم في السلوتس، الكازينو المباشر، المراهنات الرياضية واليانصيب. يتم حساب المكافآت كل 24 ساعة، ويمكن للمستخدمين المطالبة بها في اليوم التالي بعد المراهنة. هناك سبعة مستويات، لكل منها معدلات مختلفة اعتمادًا على مبلغ الرهان."
+				"title": "Resumen",
+				"body": "El bono por volumen de apuestas recompensa a los usuarios en función de sus apuestas en tragamonedas, casino en vivo, apuestas deportivas y lotería. Los bonos se calculan cada 24 horas y los usuarios pueden reclamarlos al día siguiente de apostar. Hay siete niveles, cada uno con diferentes tasas según el monto de la apuesta."
 			},
 			"eligibility": {
-				"title": "الأهلية",
-				"content": "للمشاركة:",
+				"title": "Elegibilidad",
+				"content": "Para participar:",
 				"points": {
-					"0": "يجب أن يكون لديك حساب نشط.",
-					"1": "ضع رهانات في السلوتس، الكازينو المباشر، المراهنات الرياضية واليانصيب.",
-					"2": "تلبية متطلبات الرهان الدنيا لكل مستوى."
+					"0": "Debes tener una cuenta activa.",
+					"1": "Realiza apuestas en tragamonedas, casino en vivo, apuestas deportivas y lotería.",
+					"2": "Cumple con los requisitos mínimos de apuesta para cada nivel."
 				}
 			},
 			"calculation": {
-				"title": "كيف يتم حساب المكافآت",
-				"desc": "يتم حساب المكافآت كل 24 ساعة بناءً على إجمالي رهاناتك. أمثلة:",
-				"exampleTitle": "المستوى {tier}:",
-				"wagerIn": "رهان {amount} في {gameType}"
+				"title": "Cómo se calculan los bonos",
+				"desc": "Los bonos se calculan cada 24 horas en función de tus apuestas totales. Ejemplos:",
+				"exampleTitle": "Nivel {tier}:",
+				"wagerIn": "Apostar {amount} en {gameType}"
 			},
 			"table": {
-				"tierLevel": "مستوى الطبقة",
-				"wagerRange": "نطاق الرهان",
-				"slots": "سلوتس",
-				"liveCasino": "كازينو مباشر",
-				"sports": "رياضة",
-				"tierPrefix": "المستوى",
-				"commissionLevel": "مستوى المكافأة",
-				"dailyWager": "حجم الرهان اليومي"
+				"tierLevel": "Nivel",
+				"wagerRange": "Rango de apuesta",
+				"slots": "Tragamonedas",
+				"liveCasino": "Casino en vivo",
+				"sports": "Deportes",
+				"tierPrefix": "NIVEL",
+				"commissionLevel": "Nivel de bonificación",
+				"dailyWager": "Volumen diario de apuestas"
 			},
 			"claim": {
-				"title": "المطالبة وسحب المكافآت",
+				"title": "Reclamar y retirar bonos",
 				"points": {
-					"0": "تصبح المكافآت مؤهلة للمطالبة بعد 24 ساعة من الرهان.",
-					"1": "ستتراكم المكافآت غير المطالب بها ولا تنتهي صلاحيتها.",
-					"2": "قد تختلف عملية المطالبة والسحب بناءً على سياسات المنصة المحددة."
+					"0": "Los bonos son elegibles para reclamar 24 horas después de la apuesta.",
+					"1": "Los bonos no reclamados se acumularán y no caducan.",
+					"2": "El proceso de reclamación y retiro puede variar según las políticas específicas de la plataforma."
 				}
 			},
 			"system": {
-				"title": "وقت النظام والعمليات",
-				"dailyTimeframeLabel": "الإطار الزمني اليومي:",
-				"dailyTimeframeValue": "00:00 UTC إلى 23:59 UTC (كل يوم).",
-				"claimDailyLabel": "المطالبة اليومية:",
-				"claimDailyValue": "متاحة يوميًا في الساعة 14:00 UTC (التوقيت المحلي الخاص بك: {local}).",
-				"note": "ملاحظة: بينما نعمل مع مزودين من مناطق زمنية مختلفة، تتبع جميع الحسابات التوقيت العالمي المنسق لضمان الاتساق وتجنب الارتباك."
+				"title": "Hora del sistema y operaciones",
+				"dailyTimeframeLabel": "Marco de tiempo diario:",
+				"dailyTimeframeValue": "00:00 UTC a 23:59 UTC (todos los días).",
+				"claimDailyLabel": "Reclamar diariamente:",
+				"claimDailyValue": "Disponible diariamente a las 14:00 UTC (Tu hora local: {local}).",
+				"note": "Nota: aunque trabajamos con proveedores de diferentes zonas horarias, todos los cálculos siguen el UTC para garantizar la coherencia y evitar confusiones."
 			},
 			"amendments": {
-				"title": "التعديلات وعدم الأهلية",
-				"body": "قد نقوم بتحديث هذه الشروط في أي وقت، وتدخل التغييرات حيز التنفيذ عند النشر. إذا تم الشك في وجود أخطاء في النظام أو حسابات خاطئة أو غش، فإننا نحتفظ بالحق في تعديل أو استبعاد المكافآت والحسابات حسب الضرورة لضمان العدالة"
+				"title": "Modificaciones y descalificaciones",
+				"body": "Podemos actualizar estos términos en cualquier momento, y los cambios entran en vigor al publicarse. Si se sospechan errores del sistema, errores de cálculo o trampas, nos reservamos el derecho de ajustar o descalificar bonos y cuentas según sea necesario para garantizar la equidad"
 			},
 			"footer": {
-				"schedule": "جدول المكافآت:",
-				"availableDaily": "متاحة يوميًا في",
-				"localTimeLabel": "(التوقيت المحلي الخاص بك: {time})"
+				"schedule": "Horario de bonos:",
+				"availableDaily": "Disponible diariamente a las",
+				"localTimeLabel": "(Tu hora local: {time})"
 			}
 		},
 		"calculator": {
-			"title": "حاسبة المكافآت",
-			"subtitle": "قدّر أرباح مكافأتك بناءً على مبالغ رهاناتك",
+			"title": "Calculadora de bonos",
+			"subtitle": "Estima tus ganancias de bonos en función de los montos de tus apuestas",
 			"interactive": {
-				"title": "أداة تفاعلية:",
-				"body": "أدخل مبالغ رهان مختلفة لرؤية المكافآت المحتملة عبر جميع المستويات"
+				"title": "Herramienta interactiva:",
+				"body": "Introduce diferentes montos de apuesta para ver los bonos potenciales en todos los niveles"
 			},
-			"potentialEarnings": "المكافأة المحتملة",
-			"basedOnRate": "بناءً على معدل مكافأة {percentage}%",
-			"tier": "المستوى {level}",
-			"commissionLevel": "مستوى المكافأة {level}",
-			"enterWager": "أدخل مبلغ الرهان (USD)",
-			"wagerPlaceholder": "على سبيل المثال، 1000",
-			"calcFor": "حساب المكافأة لرهان ${amount}",
-			"totalPotential": "إجمالي المكافأة المحتملة:",
-			"combinedAtTier": "المكافأة المجمعة من جميع أنواع الألعاب في المستوى {level}"
+			"potentialEarnings": "Bono potencial",
+			"basedOnRate": "Basado en una tasa de bonificación del {percentage}%",
+			"tier": "Nivel {level}",
+			"commissionLevel": "Nivel de bonificación {level}",
+			"enterWager": "Introduce el monto de la apuesta (USD)",
+			"wagerPlaceholder": "p. ej., 1000",
+			"calcFor": "Calculando bono para una apuesta de ${amount}",
+			"totalPotential": "Bono potencial total:",
+			"combinedAtTier": "Bono combinado de todos los tipos de juegos en el Nivel {level}"
 		},
 		"claimSuccessModal": {
-			"title": "نجاح المطالبة",
-			"statusCompleted": "مكتمل",
-			"statusOnChain": "على السلسلة",
-			"claimAmount": "مبلغ المطالبة",
-			"logoAlt": "شعار {siteName}",
-			"backgroundAlt": "خلفية نجاح المطالبة",
-			"creatingMagic": "خلق السحر...",
-			"downloadShare": "تنزيل ومشاركة",
-			"spreadTheWin": "انشر الفوز",
+			"title": "Reclamación exitosa",
+			"statusCompleted": "Completado",
+			"statusOnChain": "En cadena",
+			"claimAmount": "Monto de la reclamación",
+			"logoAlt": "Logo de {siteName}",
+			"backgroundAlt": "Fondo de reclamación exitosa",
+			"creatingMagic": "Creando magia...",
+			"downloadShare": "Descargar y compartir",
+			"spreadTheWin": "¡COMPARTE LA VICTORIA!",
 			"socialX": "X",
 			"socialFacebook": "Facebook",
 			"socialWhatsApp": "WhatsApp",
 			"socialTelegram": "Telegram",
 			"socialReddit": "Reddit",
-			"socialMore": "المزيد",
-			"shareText": "لقد طالبت للتو بمكافأة {amount}! انضم إلي: {url}",
-			"referralLinkCopied": "تم نسخ رابط الإحالة!",
-			"referralLinkCopyFailed": "فشل نسخ رابط الإحالة",
-			"screenshotFailed": "فشل التقاط لقطة شاشة. يرجى المحاولة مرة أخرى أو استخدام متصفح مختلف.",
-			"shareTextCopied": "تم نسخ نص المشاركة إلى الحافظة!",
-			"shareFailed": "فشلت المشاركة. يرجى المحاولة مرة أخرى."
+			"socialMore": "Más",
+			"shareText": "¡Acabo de reclamar un bono de {amount}! Únete a mí: {url}",
+			"referralLinkCopied": "¡Enlace de referido copiado!",
+			"referralLinkCopyFailed": "Error al copiar el enlace de referido",
+			"screenshotFailed": "Error en la captura de pantalla. Por favor, inténtalo de nuevo o usa un navegador diferente.",
+			"shareTextCopied": "¡Texto para compartir copiado al portapapeles!",
+			"shareFailed": "Error al compartir. Por favor, inténtalo de nuevo."
 		}
 	},
 	"debug": {
-		"title": "صفحة التصحيح"
+		"title": "Página de depuración"
 	},
 	"getLobby": {
-		"enteringLobby": "جارٍ الدخول إلى البهو...",
-		"connectingWait": "يرجى الانتظار بينما نقوم بتوصيلك.",
-		"invalidSession": "جلستك غير صالحة أو المزود مفقود. يرجى المحاولة مرة أخرى.",
-		"failedPrefix": "فشل الدخول إلى البهو: {message}",
-		"launchFailedTitle": "فشل الإطلاق",
-		"returnHome": "العودة إلى الصفحة الرئيسية"
+		"enteringLobby": "Entrando al lobby...",
+		"connectingWait": "Por favor, espera mientras te conectamos.",
+		"invalidSession": "Tu sesión no es válida o falta el proveedor. Por favor, inténtalo de nuevo.",
+		"failedPrefix": "Error al entrar al lobby: {message}",
+		"launchFailedTitle": "Lanzamiento fallido",
+		"returnHome": "Volver al inicio"
 	},
 	"play": {
-		"connecting": "جارٍ الاتصال بخادم اللعبة...",
-		"invalidSession": "جلستك غير صالحة أو انتهت صلاحيتها. يرجى تسجيل الدخول والمحاولة مرة أخرى.",
-		"launchFailedTitle": "فشل الإطلاق",
-		"returnHome": "العودة إلى الصفحة الرئيسية"
+		"connecting": "Conectando al servidor del juego...",
+		"invalidSession": "Tu sesión no es válida o ha caducado. Por favor, inicia sesión e inténtalo de nuevo.",
+		"launchFailedTitle": "Lanzamiento fallido",
+		"returnHome": "Volver al inicio"
 	},
 	"modalsIdle": {
-		"badgeLimitedTime": "عرض لفترة محدودة",
-		"headline": "احصل على مكافأة ترحيبية بنسبة 200%!",
-		"subheadline": "اربط محفظتك الرقمية الآن واحصل على مكافأة تصل إلى {amount} على إيداعك الأول!",
-		"featureDepositMatch": "مطابقة إيداع 200%",
-		"featureZeroFees": "رسوم معاملات صفرية",
-		"featureInstantWithdrawals": "سحوبات فورية",
-		"featureNoKyc": "لا يلزم التحقق من الهوية",
-		"ctaClaim": "طالب بالمكافأة الآن!",
-		"offerExpires": "العرض ينتهي في:",
-		"disclaimer": "تطبق الشروط والأحكام. تنطوي المقامرة على مخاطر. العب بمسؤولية. +18",
-		"closeAria": "إغلاق النافذة",
-		"bannerAlt": "بانر ترويجي",
-		"ctaOk": "اربط المحفظة وابدأ الرهان",
-		"enterAmount": "أدخل المبلغ",
-		"balance": "الرصيد",
-		"max": "الحد الأقصى",
-		"deposit": "إيداع",
-		"ethereum": "إيثريوم"
+		"badgeLimitedTime": "OFERTA POR TIEMPO LIMITADO",
+		"headline": "¡Obtén un bono de bienvenida del 200%!",
+		"subheadline": "¡Conecta tu billetera de criptomonedas ahora y recibe hasta {amount} de bono en tu primer depósito!",
+		"featureDepositMatch": "Bono del 200% por depósito",
+		"featureZeroFees": "Cero comisiones de transacción",
+		"featureInstantWithdrawals": "Retiros instantáneos",
+		"featureNoKyc": "No se requiere KYC",
+		"ctaClaim": "¡RECLAMA EL BONO AHORA!",
+		"offerExpires": "La oferta expira en:",
+		"disclaimer": "Se aplican términos y condiciones. El juego implica riesgos. Juega de forma responsable. 18+",
+		"closeAria": "Cerrar modal",
+		"bannerAlt": "Banner promocional",
+		"ctaOk": "Conecta la billetera y empieza a apostar",
+		"enterAmount": "Introduce el monto",
+		"balance": "Saldo",
+		"max": "Máx",
+		"deposit": "Depósito",
+		"ethereum": "Ethereum"
 	},
 	"modalsSmall": {
-		"close": "إغلاق",
-		"firstDepositBoost": "تعزيز مكافأة الإيداع الأول",
-		"bonus": "مكافأة",
-		"min": "دقيقة",
-		"sec": "ثانية",
-		"deposit": "إيداع"
+		"close": "Cerrar",
+		"firstDepositBoost": "Bono de impulso del primer depósito",
+		"bonus": "Bono",
+		"min": "Mín",
+		"sec": "Seg",
+		"deposit": "Depósito"
 	},
 	"auth": {
 		"email": {
-			"title": "تسجيل الدخول بالبريد الإلكتروني",
-			"description": "سنرسل لك رمزًا مكونًا من 6 أرقام",
-			"emailLabel": "عنوان البريد الإلكتروني",
-			"emailPlaceholder": "name@email.com",
-			"cancel": "إلغاء",
-			"sending": "جارٍ الإرسال",
-			"continue": "متابعة",
-			"enterCodeTitle": "أدخل الرمز",
-			"sentTo": "تم الإرسال إلى {email}",
-			"changeEmail": "تغيير البريد الإلكتروني",
-			"resendCode": "إعادة إرسال الرمز",
-			"resendIn": "إعادة الإرسال في {seconds} ثانية",
-			"verifying": "جارٍ التحقق",
-			"successTitle": "لقد دخلت",
-			"successSubtitle": "جارٍ إعداد الأشياء...",
-			"modalAria": "نافذة التحقق من البريد الإلكتروني",
+			"title": "Inicio de sesión con correo electrónico",
+			"description": "Te enviaremos un código de 6 dígitos",
+			"emailLabel": "Dirección de correo electrónico",
+			"emailPlaceholder": "nombre@email.com",
+			"cancel": "Cancelar",
+			"sending": "Enviando",
+			"continue": "Continuar",
+			"enterCodeTitle": "Introduce el código",
+			"sentTo": "Enviado a {email}",
+			"changeEmail": "Cambiar correo electrónico",
+			"resendCode": "Reenviar código",
+			"resendIn": "Reenviar en {seconds}s",
+			"verifying": "Verificando",
+			"successTitle": "¡Has entrado!",
+			"successSubtitle": "Configurando todo...",
+			"modalAria": "Modal de verificación de correo electrónico",
 			"errors": {
-				"invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
-				"sendFailed": "فشل إرسال رمز التحقق.",
-				"invalidCode": "يرجى إدخال رمز تحقق مكون من 6 أرقام"
+				"invalidEmail": "Por favor, introduce una dirección de correo electrónico válida",
+				"sendFailed": "Error al enviar el código de verificación.",
+				"invalidCode": "Por favor, introduce un código de verificación de 6 dígitos"
 			}
 		},
 		"setNickname": {
-			"title": "اختر لقبك",
-			"subtitle": "هذا إعداد لمرة واحدة ولا يمكن تغييره",
-			"logoutAria": "تسجيل الخروج",
-			"inputPlaceholder": "اختر لقبك الفريد",
-			"referrerCheckbox": "لدي معرف مُحيل",
-			"referrerPlaceholder": "أدخل معرف المُحيل",
-			"referrerHelp": "اختياري. يربط هذا حسابك بالمُحيل لبرامج المكافآت.",
+			"title": "Elige tu apodo",
+			"subtitle": "Esta es una configuración única y no se puede cambiar",
+			"logoutAria": "Cerrar sesión",
+			"inputPlaceholder": "Elige tu apodo único",
+			"referrerCheckbox": "Tengo un ID de referido",
+			"referrerPlaceholder": "Introduce el ID de referido",
+			"referrerHelp": "Opcional. Esto vincula tu cuenta al referido para programas de bonos.",
 			"status": {
-				"checking": "جارٍ التحقق من التوافر...",
-				"available": "اللقب متاح!",
-				"taken": "هذا اللقب مستخدم بالفعل."
+				"checking": "Comprobando disponibilidad...",
+				"available": "¡El apodo está disponible!",
+				"taken": "Este apodo ya está en uso."
 			},
-			"register": "تسجيل واللعب",
-			"termsTitle": "الشروط والأحكام:",
-			"termsBody": "من خلال توقيع هذا المستند باستخدام محفظتك و/أو الاستمرار في استخدام هذا التطبيق Web3، فإنك تقبل شروط استخدام التطبيق. توقيع موافقتك على شروط الاستخدام ليس معاملة بلوك تشين ولا يترتب عليه أي تكلفة.",
+			"register": "Registrarse y jugar",
+			"termsTitle": "Términos y condiciones:",
+			"termsBody": "Al firmar este documento con tu billetera y/o continuar usando esta aplicación Web3, aceptas los términos de uso de la aplicación. Firmar tu consentimiento a los Términos de uso no es una transacción de blockchain y no tiene costo.",
 			"errors": {
-				"verifyNicknameFailed": "تعذر التحقق من اللقب. يرجى المحاولة مرة أخرى.",
-				"registerFailed": "فشل التسجيل: {message}"
+				"verifyNicknameFailed": "No se pudo verificar el apodo. Por favor, inténtalo de nuevo.",
+				"registerFailed": "Registro fallido: {message}"
 			}
 		},
 		"walletConnect": {
-			"loginWithEmail": "تسجيل الدخول بالبريد الإلكتروني",
-			"connectWalletBtn": "ربط المحفظة",
-			"loginWithWallet": "تسجيل الدخول بالمحفظة",
-			"player": "لاعب",
-			"walletConnected": "المحفظة متصلة",
-			"emailConnected": "البريد الإلكتروني متصل",
-			"disconnect": "قطع الاتصال",
-			"walletAddress": "عنوان المحفظة",
-			"balance": "الرصيد"
+			"loginWithEmail": "Iniciar sesión con correo electrónico",
+			"connectWalletBtn": "Conectar billetera",
+			"loginWithWallet": "Iniciar sesión con billetera",
+			"player": "Jugador",
+			"walletConnected": "Billetera conectada",
+			"emailConnected": "Correo electrónico conectado",
+			"disconnect": "Desconectar",
+			"walletAddress": "Dirección de la billetera",
+			"balance": "Saldo"
 		}
 	},
 	"walletProvider": {
 		"transactionModal": {
-			"title": "المحفظة",
+			"title": "BILLETERA",
 			"tabs": {
-				"deposit": "إيداع",
-				"tip": "بقشيش",
-				"withdraw": "سحب",
-				"swap": "تبديل",
-				"walletInfo": "المحفظة",
-				"emailWallet": "محفظة البريد الإلكتروني",
-				"wallet": "المحفظة"
+				"deposit": "Depósito",
+				"tip": "Propina",
+				"withdraw": "Retirar",
+				"swap": "Intercambiar",
+				"walletInfo": "Billetera",
+				"emailWallet": "Billetera de correo",
+				"wallet": "Billetera"
 			},
 			"mobileDropdown": {
-				"emailWallet": "محفظة البريد الإلكتروني",
-				"wallet": "المحفظة",
-				"deposit": "إيداع",
-				"tip": "بقشيش",
-				"withdraw": "سحب",
-				"swap": "تبديل"
+				"emailWallet": "Billetera de correo",
+				"wallet": "Billetera",
+				"deposit": "Depósito",
+				"tip": "Propina",
+				"withdraw": "Retirar",
+				"swap": "Intercambiar"
 			}
 		},
 		"networkSelector": {
-			"placeholder": "اختر الشبكة",
-			"switching": "جارٍ التبديل...",
-			"walletNotConnected": "المحفظة غير متصلة.",
-			"failedToSwitch": "فشل تبديل الشبكة. يرجى المحاولة من محفظتك.",
-			"altLogo": "شعار الشبكة"
+			"placeholder": "Seleccionar red",
+			"switching": "Cambiando...",
+			"walletNotConnected": "Billetera no conectada.",
+			"failedToSwitch": "Error al cambiar de red. Por favor, inténtalo desde tu billetera.",
+			"altLogo": "Logo de la red"
 		},
 		"tokenList": {
-			"dialogTitle": "اختر رمزًا",
-			"instantDeposit": "إيداع فوري",
-			"yourWalletBalance": "رصيد محفظتك",
-			"searchPlaceholder": "ابحث بالاسم أو الصق العنوان",
-			"emptySearch": "لم يتم العثور على رموز مطابقة لبحثك.",
-			"emptyOwned": "لم يتم العثور على رموز ذات رصيد.",
-			"searchResults": "نتائج البحث",
-			"yourTokens": "رموزك",
-			"otherResults": "نتائج أخرى"
+			"dialogTitle": "Selecciona un token",
+			"instantDeposit": "Depósito instantáneo",
+			"yourWalletBalance": "Saldo de tu billetera",
+			"searchPlaceholder": "Busca un nombre o pega una dirección",
+			"emptySearch": "No se encontraron tokens que coincidan con tu búsqueda.",
+			"emptyOwned": "No se encontraron tokens con saldo.",
+			"searchResults": "Resultados de búsqueda",
+			"yourTokens": "Tus tokens",
+			"otherResults": "Otros resultados"
 		},
 		"tabsSidebar": {
-			"walletInfo": "المحفظة",
-			"emailWallet": "محفظة البريد الإلكتروني",
-			"deposit": "إيداع",
-			"withdraw": "سحب",
-			"swap": "تبديل"
+			"walletInfo": "Billetera",
+			"emailWallet": "Billetera de correo",
+			"deposit": "Depósito",
+			"withdraw": "Retirar",
+			"swap": "Intercambiar"
 		},
 		"depositPanel": {
-			"youPay": "أنت تدفع",
-			"resetForm": "إعادة تعيين النموذج",
-			"enterAmount": "أدخل المبلغ",
-			"selectToken": "اختر الرمز",
-			"max": "الحد الأقصى",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} محجوز لتغطية رسوم الغاز وتجنب فشل المعاملة",
-			"balance": "الرصيد:",
-			"calculating": "جارٍ الحساب...",
-			"approxUsd": "~ ${amount} دولار أمريكي",
-			"minPrefix": "الحد الأدنى:",
-			"ratesMayVary": "قد تختلف الأسعار",
-			"emailWalletAddress": "عنوان محفظة البريد الإلكتروني",
-			"walletAddress": "عنوان المحفظة",
-			"minimumIs": "الحد الأدنى هو {min}",
+			"youPay": "Tú pagas",
+			"resetForm": "Restablecer formulario",
+			"enterAmount": "Introduce el monto",
+			"selectToken": "Seleccionar token",
+			"max": "Máx",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} se reserva para cubrir las tarifas de gas y evitar fallos en la transacción",
+			"balance": "Saldo:",
+			"calculating": "Calculando...",
+			"approxUsd": "~ ${amount} USD",
+			"minPrefix": "Mín:",
+			"ratesMayVary": "Las tasas pueden variar",
+			"emailWalletAddress": "Dirección de la billetera de correo",
+			"walletAddress": "Dirección de la billetera",
+			"minimumIs": "El mínimo es {min}",
 			"errors": {
-				"selectTokenAndAmount": "يرجى اختيار رمز وإدخال مبلغ",
-				"insufficientBalance": "رصيد غير كافٍ لهذه المعاملة",
-				"amountTooHighGas": "المبلغ مرتفع جدًا عند حساب رسوم الغاز",
-				"checkForm": "يرجى التحقق من النموذج والمحاولة مرة أخرى",
-				"pendingDeposit": "لديك إيداع معلق. يرجى الانتظار حتى يكتمل"
+				"selectTokenAndAmount": "Por favor, selecciona un token e introduce un monto",
+				"insufficientBalance": "Saldo insuficiente para esta transacción",
+				"amountTooHighGas": "El monto es demasiado alto al tener en cuenta las tarifas de gas",
+				"checkForm": "Por favor, revisa el formulario e inténtalo de nuevo",
+				"pendingDeposit": "Tienes un depósito pendiente. Por favor, espera a que se complete"
 			},
 			"status": {
-				"processing": "جارٍ المعالجة...",
-				"awaitingApproval": "في انتظار الموافقة",
-				"calculatingRate": "جارٍ حساب السعر...",
-				"insufficientBalance": "رصيد غير كافٍ"
+				"processing": "Procesando...",
+				"awaitingApproval": "Esperando aprobación",
+				"calculatingRate": "Calculando tasa...",
+				"insufficientBalance": "Saldo insuficiente"
 			},
 			"buttons": {
-				"depositUsd": "إيداع ${amount}"
+				"depositUsd": "Depositar ${amount}"
 			}
 		},
 		"tipPanel": {
-			"youTip": "أنت تعطي بقشيشًا",
-			"resetForm": "إعادة تعيين النموذج",
-			"enterAmount": "أدخل المبلغ",
-			"selectToken": "اختر الرمز",
-			"minPrefix": "الحد الأدنى",
-			"balance": "الرصيد:",
-			"max": "الحد الأقصى",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} محجوز لتغطية رسوم الغاز وتجنب فشل المعاملة",
-			"approxUsd": "~ ${amount} دولار أمريكي",
-			"tipPanelWarningText": "البقشيش طوعي وغير قابل للاسترداد.",
-			"emailWalletAddress": "عنوان محفظة البريد الإلكتروني",
+			"youTip": "Tú das propina",
+			"resetForm": "Restablecer formulario",
+			"enterAmount": "Introduce el monto",
+			"selectToken": "Seleccionar token",
+			"minPrefix": "Mínimo",
+			"balance": "Saldo:",
+			"max": "Máx",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} se reserva para cubrir las tarifas de gas y evitar fallos en la transacción",
+			"approxUsd": "~ ${amount} USD",
+			"tipPanelWarningText": "Las propinas son voluntarias y no reembolsables.",
+			"emailWalletAddress": "Dirección de la billetera de correo",
 			"errors": {
-				"selectTokenAndAmount": "يرجى اختيار رمز وإدخال مبلغ.",
-				"insufficientBalance": "رصيد غير كافٍ.",
-				"belowMinimum": "يجب أن يكون المبلغ على الأقل {min}.",
-				"missingWallet": "تعذر جلب محفظة البقشيش. يرجى المحاولة مرة أخرى لاحقًا.",
-				"checkForm": "يرجى التحقق من تفاصيل البقشيش."
+				"selectTokenAndAmount": "Por favor, selecciona un token e introduce un monto.",
+				"insufficientBalance": "Saldo insuficiente.",
+				"belowMinimum": "El monto debe ser de al menos {min}.",
+				"missingWallet": "No se puede obtener la billetera de propinas. Por favor, inténtalo de nuevo más tarde.",
+				"checkForm": "Por favor, verifica los detalles de tu propina."
 			},
 			"status": {
-				"processing": "جارٍ إرسال البقشيش...",
-				"awaitingApproval": "في انتظار الموافقة...",
-				"calculatingRate": "جارٍ الحساب...",
-				"insufficientBalance": "رصيد غير كافٍ",
-				"fetchingWallet": "جارٍ إعداد محفظة البقشيش..."
+				"processing": "Enviando propina...",
+				"awaitingApproval": "Esperando aprobación...",
+				"calculatingRate": "Calculando...",
+				"insufficientBalance": "Saldo insuficiente",
+				"fetchingWallet": "Preparando billetera de propinas..."
 			},
 			"prompts": {
-				"selectToken": "اختر الرمز",
-				"enterAmount": "أدخل المبلغ"
+				"selectToken": "Seleccionar token",
+				"enterAmount": "Introduce el monto"
 			},
 			"buttons": {
-				"tipUsd": "بقشيش ${amount}",
-				"tip": "بقشيش"
+				"tipUsd": "Dar ${amount} de propina",
+				"tip": "Propina"
 			},
-			"minimumIs": "الحد الأدنى للبقشيش هو {min}"
+			"minimumIs": "La propina mínima es {min}"
 		},
 		"tipPending": {
-			"submittedTitle": "البقشيش معلق",
-			"submittedDesc": "جارٍ تأكيد البقشيش على السلسلة.",
-			"confirmedTitle": "تم تأكيد البقشيش!",
-			"confirmedDesc": "تم توصيل البقشيش بنجاح.",
-			"viewOnExplorer": "عرض على المستكشف",
-			"newTipPending": "إرسال بقشيش آخر",
-			"newTipConfirmed": "إرسال بقشيش آخر"
+			"submittedTitle": "Propina pendiente",
+			"submittedDesc": "Tu propina se está confirmando en la cadena.",
+			"confirmedTitle": "¡Propina confirmada!",
+			"confirmedDesc": "Tu propina se entregó correctamente.",
+			"viewOnExplorer": "Ver en el explorador",
+			"newTipPending": "Enviar otra propina",
+			"newTipConfirmed": "Enviar otra propina"
 		},
 		"swapPanel": {
-			"selectTokens": "اختر الرموز",
-			"enterAmount": "أدخل المبلغ",
-			"gettingQuote": "جارٍ الحصول على عرض سعر...",
-			"confirming": "جارٍ التأكيد...",
-			"approving": "جارٍ الموافقة...",
-			"insufficientBalance": "رصيد غير كافٍ للتبديل",
-			"sameToken": "لا يمكن تبديل نفس الرمز",
-			"approveAndSwap": "الموافقة والتبديل",
-			"swap": "تبديل",
-			"slippageTolerance": "تحمل الانزلاق",
-			"custom": "مخصص",
-			"set": "تعيين",
-			"currentSlippage": "الانزلاق الحالي",
-			"swapSuccessful": "تم التبديل بنجاح!",
-			"transactionConfirmed": "تم تقديم معاملتك",
-			"hash": "التجزئة",
-			"newSwap": "تبديل جديد",
-			"youPay": "أنت تدفع",
-			"max": "الحد الأقصى",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} محجوز لتغطية رسوم الغاز وتجنب فشل المعاملة",
-			"low": "منخفض",
+			"selectTokens": "Seleccionar tokens",
+			"enterAmount": "Introduce el monto",
+			"gettingQuote": "Obteniendo cotización...",
+			"confirming": "Confirmando...",
+			"approving": "Aprobando...",
+			"insufficientBalance": "Saldo insuficiente para el intercambio",
+			"sameToken": "No se puede intercambiar el mismo token",
+			"approveAndSwap": "Aprobar e intercambiar",
+			"swap": "Intercambiar",
+			"slippageTolerance": "Tolerancia de deslizamiento",
+			"custom": "Personalizado",
+			"set": "Establecer",
+			"currentSlippage": "Deslizamiento actual",
+			"swapSuccessful": "¡Intercambio exitoso!",
+			"transactionConfirmed": "Tu transacción ha sido enviada",
+			"hash": "Hash",
+			"newSwap": "Nuevo intercambio",
+			"youPay": "Tú pagas",
+			"max": "Máx",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} se reserva para cubrir las tarifas de gas y evitar fallos en la transacción",
+			"low": "Bajo",
 			"amountPlaceholder": "0",
-			"selectToken": "اختر الرمز",
-			"youReceive": "أنت تستلم",
-			"gettingBestQuote": "جارٍ الحصول على أفضل عرض سعر...",
-			"gas": "غاز",
-			"minimumReceived": "الحد الأدنى المستلم",
-			"slippageToleranceLabel": "تحمل الانزلاق",
-			"gasFee": "رسوم الغاز",
-			"priceWarning": "يتم تحديث الأسعار في الوقت الفعلي وقد تتغير قبل تأكيد معاملتك",
-			"emailWalletAddress": "عنوان محفظة البريد الإلكتروني",
-			"walletAddress": "عنوان المحفظة",
-			"minimumIs": "الحد الأدنى هو {min}",
+			"selectToken": "Seleccionar token",
+			"youReceive": "Tú recibes",
+			"gettingBestQuote": "Obteniendo la mejor cotización...",
+			"gas": "Gas",
+			"minimumReceived": "Mínimo recibido",
+			"slippageToleranceLabel": "Tolerancia de deslizamiento",
+			"gasFee": "Tarifa de gas",
+			"priceWarning": "Los precios se actualizan en tiempo real y pueden cambiar antes de que se confirme tu transacción",
+			"emailWalletAddress": "Dirección de la billetera de correo",
+			"walletAddress": "Dirección de la billetera",
+			"minimumIs": "El mínimo es {min}",
 			"errors": {
-				"selectTokenAndAmount": "يرجى اختيار رمز وإدخال مبلغ",
-				"insufficientBalance": "رصيد غير كافٍ لهذه المعاملة",
-				"amountTooHighGas": "المبلغ مرتفع جدًا عند حساب رسوم الغاز",
-				"checkForm": "يرجى التحقق من النموذج والمحاولة مرة أخرى",
-				"pendingDeposit": "لديك إيداع معلق. يرجى الانتظار حتى يكتمل"
+				"selectTokenAndAmount": "Por favor, selecciona un token e introduce un monto",
+				"insufficientBalance": "Saldo insuficiente para esta transacción",
+				"amountTooHighGas": "El monto es demasiado alto al tener en cuenta las tarifas de gas",
+				"checkForm": "Por favor, revisa el formulario e inténtalo de nuevo",
+				"pendingDeposit": "Tienes un depósito pendiente. Por favor, espera a que se complete"
 			},
 			"status": {
-				"processing": "جارٍ المعالجة...",
-				"awaitingApproval": "في انتظار الموافقة",
-				"calculatingRate": "جارٍ حساب السعر...",
-				"insufficientBalance": "رصيد غير كافٍ"
+				"processing": "Procesando...",
+				"awaitingApproval": "Esperando aprobación",
+				"calculatingRate": "Calculando tasa...",
+				"insufficientBalance": "Saldo insuficiente"
 			},
 			"buttons": {
-				"depositUsd": "إيداع ${amount}"
+				"depositUsd": "Depositar ${amount}"
 			}
 		},
 		"depositPending": {
-			"confirmedTitle": "تم تأكيد الإيداع!",
-			"submittedTitle": "تم تقديم المعاملة",
-			"failedTitle": "فشلت المعاملة",
-			"confirmedDesc": "تم تحديث رصيدك.",
-			"submittedDesc": "في انتظار تأكيد البلوك تشين. قد يستغرق هذا بضع دقائق.",
-			"failedDesc": "فشلت معاملتك. يرجى المحاولة مرة أخرى.",
-			"viewOnExplorer": "عرض على المستكشف",
-			"newDepositConfirmed": "قم بإيداع آخر",
-			"newDepositPending": "ابدأ إيداعًا جديدًا",
-			"newDepositFailed": "حاول مرة أخرى"
+			"confirmedTitle": "¡Depósito confirmado!",
+			"submittedTitle": "Transacción enviada",
+			"failedTitle": "Transacción fallida",
+			"confirmedDesc": "Tu saldo ha sido actualizado.",
+			"submittedDesc": "Esperando la confirmación de la blockchain. Esto puede tardar unos minutos.",
+			"failedDesc": "Tu transacción ha fallado. Por favor, inténtalo de nuevo.",
+			"viewOnExplorer": "Ver en el explorador",
+			"newDepositConfirmed": "Realizar otro depósito",
+			"newDepositPending": "Iniciar un nuevo depósito",
+			"newDepositFailed": "Intentar de nuevo"
 		},
 		"withdrawPanel": {
-			"resetForm": "إعادة تعيين النموذج",
-			"networkNotSupported": "السحوبات مدعومة فقط على Arbitrum و Polygon و BNB",
-			"youWithdraw": "أنت تسحب",
-			"loading": "جارٍ التحميل...",
-			"amount": "المبلغ",
-			"max": "الحد الأقصى",
-			"balance": "الرصيد:",
-			"available": "المتاح:",
-			"insufficientBalance": "رصيد غير كافٍ",
-			"minimumIs": "الحد الأدنى هو {min}",
-			"minLabel": "الحد الأدنى:",
-			"calculating": "جارٍ الحساب",
-			"emailWalletAddress": "عنوان محفظة البريد الإلكتروني",
-			"walletAddress": "عنوان المحفظة",
+			"resetForm": "Restablecer formulario",
+			"networkNotSupported": "Los retiros solo son compatibles con Arbitrum, Polygon, Optimism y BNB",
+			"youWithdraw": "Tú retiras",
+			"loading": "Cargando...",
+			"amount": "Monto",
+			"max": "Máx",
+			"balance": "Saldo:",
+			"available": "Disponible:",
+			"insufficientBalance": "Saldo insuficiente",
+			"minimumIs": "El mínimo es {min}",
+			"minLabel": "Mín:",
+			"calculating": "Calculando",
+			"emailWalletAddress": "Dirección de la billetera de correo",
+			"walletAddress": "Dirección de la billetera",
 			"errors": {
-				"pendingWithdrawal": "لديك بالفعل سحب معلق",
-				"invalidAddress": "عنوان غير صالح",
-				"enterAmount": "أدخل المبلغ",
-				"networkNotSupported": "الشبكة غير مدعومة"
+				"pendingWithdrawal": "Ya tienes un retiro pendiente",
+				"invalidAddress": "Dirección no válida",
+				"enterAmount": "Introduce el monto",
+				"networkNotSupported": "Red no compatible"
 			},
 			"status": {
-				"processing": "جارٍ المعالجة...",
-				"insufficientBalance": "رصيد غير كافٍ",
-				"pendingWithdrawal": "لديك بالفعل سحب معلق"
+				"processing": "Procesando...",
+				"insufficientBalance": "Saldo insuficiente",
+				"pendingWithdrawal": "Ya tienes un retiro pendiente"
 			},
 			"buttons": {
-				"withdraw": "سحب {amount} {symbol}",
-				"minimum": "الحد الأدنى {amount} {symbol}"
+				"withdraw": "Retirar {amount} {symbol}",
+				"minimum": "Mínimo {amount} {symbol}"
 			}
 		},
 		"withdrawSuccess": {
-			"title": "تم السحب بنجاح!",
-			"successMessage": "🎉 سحبت للتو {withdrawAmount} {tokenSymbol} من {siteName}! 🚀 انضم إلى سلسلة الانتصارات في {shareUrl}",
-			"withdrawnAmount": "المبلغ المسحوب",
-			"shareText": "مشاركة",
-			"subText": "🚀 انضم إلى سلسلة الانتصارات! 🚀",
-			"generating": "جارٍ الإنشاء...",
-			"screenshot": "التقاط لقطة شاشة",
-			"download": "تنزيل الصورة",
-			"close": "إغلاق",
-			"copiedToClipboard": "تم نسخ رابط المشاركة بنجاح",
-			"userName": "لاعب {siteName}",
-			"status": "مكتمل",
-			"entryPrice": "مبلغ السحب",
-			"lastPrice": "رمز العملة",
-			"referralCode": "رمز الإحالة",
-			"screenshotFailed": "فشل التقاط لقطة الشاشة. يرجى المحاولة مرة أخرى أو استخدام متصفح مختلف.",
-			"shareFailed": "فشلت المشاركة. يرجى المحاولة مرة أخرى."
+			"title": "¡Retiro exitoso!",
+			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de {siteName}! 🚀 Únete a la racha de victorias en {shareUrl}",
+			"withdrawnAmount": "Monto retirado",
+			"shareText": "Compartir",
+			"subText": "🚀 ¡ÚNETE A LA RACHA DE VICTORIAS! 🚀",
+			"generating": "Generando...",
+			"screenshot": "Tomar captura de pantalla",
+			"download": "Descargar imagen",
+			"close": "Cerrar",
+			"copiedToClipboard": "Enlace para compartir copiado correctamente",
+			"userName": "Jugador de {siteName}",
+			"status": "Completado",
+			"entryPrice": "Monto del retiro",
+			"lastPrice": "Símbolo del token",
+			"referralCode": "Código de referido",
+			"screenshotFailed": "Error en la captura de pantalla. Por favor, inténtalo de nuevo o usa un navegador diferente.",
+			"shareFailed": "Error al compartir. Por favor, inténtalo de nuevo."
 		},
 		"withdrawPending": {
-			"confirmedTitle": "تم تأكيد السحب!",
-			"submittedTitle": "تم تقديم المعاملة",
-			"confirmedDesc": "أموالك في الطريق.",
-			"submittedDesc": "في انتظار تأكيد البلوك تشين...",
-			"viewOnExplorer": "عرض على المستكشف",
-			"manualApproval": "يتطلب هذا السحب موافقة يدوية.",
-			"newWithdrawalConfirmed": "قم بسحب آخر",
-			"newWithdrawalPending": "ابدأ سحبًا جديدًا"
+			"confirmedTitle": "¡Retiro confirmado!",
+			"submittedTitle": "Transacción enviada",
+			"confirmedDesc": "Tus fondos están en camino.",
+			"submittedDesc": "Esperando la confirmación de la blockchain...",
+			"viewOnExplorer": "Ver en el explorador",
+			"manualApproval": "Este retiro requiere aprobación manual.",
+			"newWithdrawalConfirmed": "Realizar otro retiro",
+			"newWithdrawalPending": "Iniciar un nuevo retiro"
 		},
 		"withdrawSummary": {
-			"youWillReceive": "سوف تتلقى"
+			"youWillReceive": "Recibirás"
 		}
 	},
 	"navUser": {
-		"upgradeToPro": "الترقية إلى Pro",
-		"account": "الحساب",
-		"billing": "الفواتير",
-		"notifications": "الإشعارات",
-		"logout": "تسجيل الخروج"
+		"upgradeToPro": "Actualizar a Pro",
+		"account": "Cuenta",
+		"billing": "Facturación",
+		"notifications": "Notificaciones",
+		"logout": "Cerrar sesión"
 	},
 	"games": {
-		"pageTitle": "كل الألعاب",
-		"playNow": "العب الآن",
-		"byProvider": "بواسطة {name}",
-		"count": "{count} ألعاب",
-		"noResults": "لم يتم العثور على ألعاب تطابق معاييرك.",
-		"errorLoading": "تعذر تحميل الألعاب. يرجى المحاولة مرة أخرى لاحقًا.",
-		"slots": "سلوتس",
-		"sports": "رياضة",
-		"liveCasino": "كازينو مباشر",
-		"explore": "استكشف",
-		"exploreSubtitle": "اكتشف تجارب ألعاب مذهلة",
-		"poker": "بوكر",
-		"lottery": "يانصيب",
-		"futures": "العقود الآجلة",
-		"vr": "الواقع الافتراضي",
-		"swap": "تبديل",
-		"slotsDescription": "أدر البكرات واربح جوائز كبرى ضخمة",
-		"liveCasinoDescription": "جرب إثارة الكازينو في الوقت الفعلي مع الموزعين المباشرين",
-		"sportsDescription": "راهن على فرقك المفضلة والأحداث الرياضية",
-		"pokerDescription": "اختبر مهاراتك في ألعاب البوكر الكلاسيكية",
-		"lotteryDescription": "جرب حظك مع اليانصيب وألعاب الفوز الفوري",
-		"futuresDescription": "تداول وتوقع تحركات السوق",
-		"vrDescription": "انغمس في ألعاب الواقع الافتراضي",
-		"swapDescription": "تبادل الرموز والعملات المشفرة بسلاسة",
+		"pageTitle": "Todos los juegos",
+		"playNow": "Jugar ahora",
+		"byProvider": "Por {name}",
+		"count": "{count} juegos",
+		"noResults": "No se encontraron juegos que coincidan con tus criterios.",
+		"errorLoading": "No se pudieron cargar los juegos. Por favor, inténtalo de nuevo más tarde.",
+		"slots": "Tragamonedas",
+		"sports": "Deportes",
+		"liveCasino": "Casino en vivo",
+		"explore": "Explorar",
+		"exploreSubtitle": "Descubre experiencias de juego increíbles",
+		"poker": "Póker",
+		"lottery": "Lotería",
+		"futures": "Futuros",
+		"vr": "RV",
+		"swap": "Intercambiar",
+		"slotsDescription": "Gira los carretes y gana enormes jackpots",
+		"liveCasinoDescription": "Experimenta la acción del casino en tiempo real con crupieres en vivo",
+		"sportsDescription": "Apuesta en tus equipos y eventos deportivos favoritos",
+		"pokerDescription": "Pon a prueba tus habilidades en juegos clásicos de póker",
+		"lotteryDescription": "Prueba tu suerte con la lotería y los juegos de ganancia instantánea",
+		"futuresDescription": "Opera y predice los movimientos del mercado",
+		"vrDescription": "Sumérgete en los juegos de realidad virtual",
+		"swapDescription": "Intercambia tokens y criptomonedas sin problemas",
 		"categories": {
 			"slot": {
-				"title": "ألعاب السلوتس"
+				"title": "Juegos de tragamonedas"
 			},
 			"liveCasino": {
-				"title": "ألعاب الكازينو المباشر"
+				"title": "Juegos de casino en vivo"
 			},
 			"sports": {
-				"title": "ألعاب المراهنات الرياضية"
+				"title": "Juegos de apuestas deportivas"
 			},
 			"rng": {
-				"title": "ألعاب RNG"
+				"title": "Juegos RNG"
 			},
 			"other": {
-				"title": "ألعاب {category}"
+				"title": "Juegos de {category}"
 			}
 		}
 	},
 	"providers": {
-		"pageTitle": "كل مزودي الألعاب",
-		"searchPlaceholder": "ابحث عن مزود...",
-		"empty": "لم يتم العثور على مزودين يطابقون بحثك.",
-		"logoAlt": "شعار {name}",
-		"filteredBy": "تمت التصفية حسب الفئة:",
-		"clearFilter": "مسح المرشح",
+		"pageTitle": "Todos los proveedores de juegos",
+		"searchPlaceholder": "Buscar un proveedor...",
+		"empty": "No se encontraron proveedores que coincidan con tu búsqueda.",
+		"logoAlt": "Logo de {name}",
+		"filteredBy": "Filtrado por categoría:",
+		"clearFilter": "Limpiar filtro",
 		"categories": {
 			"slot": {
-				"title": "مزودو ألعاب السلوتس"
+				"title": "Proveedores de juegos de tragamonedas"
 			},
 			"liveCasino": {
-				"title": "مزودو الكازينو المباشر"
+				"title": "Proveedores de casino en vivo"
 			},
 			"sports": {
-				"title": "مزودو المراهنات الرياضية"
+				"title": "Proveedores de apuestas deportivas"
 			},
 			"rng": {
-				"title": "مزودو ألعاب RNG"
+				"title": "Proveedores de juegos RNG"
 			},
 			"other": {
-				"title": "مزودو ألعاب {category}"
+				"title": "Proveedores de juegos de {category}"
 			}
 		}
 	},
 	"hero": {
 		"guest": {
-			"title": "انضم إلى الإثارة",
-			"subtitle": "سجل الآن واحصل على مكافأة ترحيبية حصرية!",
-			"cta": "سجل الآن"
+			"title": "Únete a la acción",
+			"subtitle": "¡Regístrate ahora y obtén un bono de bienvenida exclusivo!",
+			"cta": "Regístrate ahora"
 		},
 		"welcome": {
-			"title1": "مكافأة ترحيبية",
-			"title2": "تصل إلى 590%",
-			"subtitle": "+ 225 لفة مجانية",
-			"cta": "أودع واحصل عليها"
+			"title1": "Bono de bienvenida",
+			"title2": "Hasta 590%",
+			"subtitle": "+ 225 Giros gratis",
+			"cta": "Deposita y obtén"
 		},
 		"jackpot": {
-			"title1": "الجائزة الكبرى",
+			"title1": "Mega Jackpot",
 			"title2": "$1,000,000",
-			"subtitle": "العب الآن واربح الكثير",
-			"cta": "العب الآن"
+			"subtitle": "Juega ahora y gana a lo grande",
+			"cta": "Jugar ahora"
 		},
 		"cards": {
 			"casino": {
-				"title": "كازينو",
-				"badge": "+590 لعبة",
-				"desc": "استمتع بألعاب {siteName} الأصلية وألعاب الكازينو الأخرى من أفضل المزودين.",
-				"link": "اذهب إلى الكازينو"
+				"title": "Casino",
+				"badge": "590+ JUEGOS",
+				"desc": "Disfruta de los originales de {siteName} y otros juegos de casino de los mejores proveedores.",
+				"link": "Ir al casino"
 			},
 			"slots": {
-				"title": "سلوتس",
-				"badge": "5292 لعبة",
-				"desc": "أدر البكرات وحقق جوائز كبرى ضخمة مع مجموعتنا المتميزة من السلوتس.",
-				"link": "اذهب إلى السلوتس"
+				"title": "Tragamonedas",
+				"badge": "5292 JUEGOS",
+				"desc": "Gira los carretes y consigue enormes jackpots con nuestra colección de tragamonedas premium.",
+				"link": "Ir a las tragamonedas"
 			},
 			"sports": {
-				"title": "رياضة",
-				"badge": "3 ألعاب",
-				"desc": "راهن على فرقك المفضلة والأحداث الرياضية بفرص تنافسية.",
-				"link": "اذهب إلى الرياضة"
+				"title": "Deportes",
+				"badge": "3 JUEGOS",
+				"desc": "Apuesta en tus equipos y eventos deportivos favoritos con cuotas competitivas.",
+				"link": "Ir a deportes"
 			},
 			"crypto": {
-				"title": "كريبتو واكسب",
-				"badge": "60% APR",
-				"desc": "قم بالتحصيص والتداول والكسب بالعملات المشفرة بأسعار جذابة.",
-				"link": "اذهب إلى الكريبتو"
+				"title": "Cripto y Gana",
+				"badge": "60% TAE",
+				"desc": "Apuesta, comercia y gana con criptomonedas a tasas atractivas.",
+				"link": "Ir a cripto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "لعبة في دائرة الضوء",
-			"headerSubtitle": "اكتشف ألعابًا مذهلة واستكشف مغامرات جديدة في مجموعتنا المنسقة",
-			"slider1Title": "الألعاب المميزة",
-			"slider1Badge": "اختيارات الفريق",
-			"slider2Title": "المزيد للاستكشاف",
-			"slider2Badge": "شائع",
-			"featuredGameLabel": "لعبة مميزة"
+			"headerTitle": "Juego destacado",
+			"headerSubtitle": "Descubre juegos increíbles y explora nuevas aventuras en nuestra colección seleccionada",
+			"slider1Title": "Juegos destacados",
+			"slider1Badge": "Selecciones del personal",
+			"slider2Title": "Más para explorar",
+			"slider2Badge": "Tendencias",
+			"featuredGameLabel": "Juego destacado"
 		},
-		"ctaExploreGames": "استكشف الألعاب",
-		"ctaJoinAffiliate": "انضم كشريك"
+		"ctaExploreGames": "Explorar juegos",
+		"ctaJoinAffiliate": "Únete como afiliado"
 	},
 	"betting": {
 		"live": {
-			"winRate": "معدل الربح",
-			"biggestWin": "أكبر ربح",
-			"bigWins50": "أرباح كبيرة (50+)",
-			"recentWins": "الأرباح الأخيرة",
+			"winRate": "Tasa de victorias",
+			"biggestWin": "Mayor ganancia",
+			"bigWins50": "Grandes ganancias (50+)",
+			"recentWins": "Ganancias recientes",
 			"header": {
-				"title": "نشاط الرهان المباشر",
-				"subtitle": "نشاط الرهان في الوقت الفعلي • تم تحميل {count} ألعاب"
+				"title": "Actividad de apuestas en vivo",
+				"subtitle": "Actividad de apuestas en tiempo real • {count} juegos cargados"
 			},
 			"status": {
-				"live": "مباشر",
-				"paused": "متوقف مؤقتًا"
+				"live": "EN VIVO",
+				"paused": "Pausado"
 			},
 			"actions": {
-				"pause": "إيقاف مؤقت",
-				"resume": "استئناف"
+				"pause": "Pausar",
+				"resume": "Reanudar"
 			},
 			"tabs": {
-				"all": "الكل",
-				"wins": "الأرباح",
-				"losses": "الخسائر"
+				"all": "Todo",
+				"wins": "Victorias",
+				"losses": "Derrotas"
 			},
 			"table": {
-				"game": "اسم اللعبة",
-				"time": "الوقت",
-				"provider": "المزود",
-				"nickname": "اللقب",
-				"bet": "الرهان",
-				"multiplier": "المضاعف",
-				"profit": "الربح"
+				"game": "Nombre del juego",
+				"time": "Hora",
+				"provider": "Proveedor",
+				"nickname": "Apodo",
+				"bet": "Apuesta",
+				"multiplier": "Multiplicador",
+				"profit": "Ganancia"
 			},
-			"empty": "لم يتم العثور على سجلات رهان"
+			"empty": "No se encontraron registros de apuestas"
 		}
 	},
 	"fontChanger": {
-		"changeFont": "تغيير الخط",
-		"fontSettings": "إعدادات الخط",
-		"current": "الحالي",
-		"browseGoogleFonts": "تصفح خطوط جوجل",
-		"uploadCustomFont": "تحميل خط مخصص",
-		"quickUploadFontFile": "تحميل سريع لملف الخط",
-		"resetToDefault": "إعادة التعيين إلى الافتراضي",
+		"changeFont": "Cambiar fuente",
+		"fontSettings": "Ajustes de fuente",
+		"current": "Actual",
+		"browseGoogleFonts": "Explorar fuentes de Google",
+		"uploadCustomFont": "Subir fuente personalizada",
+		"quickUploadFontFile": "Subida rápida de archivo de fuente",
+		"resetToDefault": "Restablecer a predeterminado",
 		"googleFonts": {
-			"title": "خطوط جوجل",
-			"searchFonts": "ابحث عن الخطوط...",
-			"preview": "معاينة",
-			"previewText": "النص السريع البني يقفز فوق الكلب الكسول",
+			"title": "Fuentes de Google",
+			"searchFonts": "Buscar fuentes...",
+			"preview": "Vista previa",
+			"previewText": "El rápido zorro marrón salta sobre el perro perezoso",
 			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
-			"applyFont": "تطبيق الخط",
-			"clearPreview": "مسح المعاينة",
-			"previewWith": "معاينة النص بخط {font}",
-			"noFontsFound": "لم يتم العثور على خطوط تطابق \"{searchTerm}\""
+			"applyFont": "Aplicar fuente",
+			"clearPreview": "Limpiar vista previa",
+			"previewWith": "Vista previa de texto con {font}",
+			"noFontsFound": "No se encontraron fuentes que coincidan con \"{searchTerm}\""
 		},
 		"customUpload": {
-			"title": "تحميل خط مخصص",
-			"description": "قم بتحميل ملف الخط الخاص بك لتخصيص الموقع",
-			"fontFile": "ملف الخط",
-			"dragDropArea": "اسحب وأفلت ملف الخط هنا، أو",
-			"clickToUpload": "انقر للتحميل",
-			"supportedFormats": "التنسيقات المدعومة: .woff, .woff2, .ttf, .otf",
-			"maxFileSize": "الحد الأقصى لحجم الملف: 10 ميجابايت",
-			"fontName": "اسم الخط",
-			"fontNamePlaceholder": "أدخل اسمًا لخطك",
-			"previewYourFont": "معاينة خطك",
-			"uploadAndApply": "تحميل وتطبيق الخط",
-			"cancel": "إلغاء",
-			"uploading": "جارٍ التحميل...",
+			"title": "Subir fuente personalizada",
+			"description": "Sube tu propio archivo de fuente para personalizar el sitio web",
+			"fontFile": "Archivo de fuente",
+			"dragDropArea": "Arrastra y suelta tu archivo de fuente aquí, o",
+			"clickToUpload": "haz clic para subir",
+			"supportedFormats": "Formatos compatibles: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Tamaño máximo de archivo: 10MB",
+			"fontName": "Nombre de la fuente",
+			"fontNamePlaceholder": "Introduce un nombre para tu fuente",
+			"previewYourFont": "Vista previa de tu fuente",
+			"uploadAndApply": "Subir y aplicar fuente",
+			"cancel": "Cancelar",
+			"uploading": "Subiendo...",
 			"errors": {
-				"invalidFileType": "يرجى تحميل ملف خط صالح (.woff, .woff2, .ttf, .otf)",
-				"fileTooLarge": "حجم الملف يتجاوز الحد الأقصى 10 ميجابايت",
-				"uploadFailed": "فشل تحميل ملف الخط",
-				"enterFontName": "يرجى اختيار ملف خط وتقديم اسم",
-				"readFileFailed": "فشل قراءة ملف الخط"
+				"invalidFileType": "Por favor, sube un archivo de fuente válido (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "El tamaño del archivo excede el límite de 10MB",
+				"uploadFailed": "Error al subir el archivo de fuente",
+				"enterFontName": "Por favor, selecciona un archivo de fuente y proporciona un nombre",
+				"readFileFailed": "Error al leer el archivo de fuente"
 			}
 		},
 		"messages": {
-			"fontAppliedSuccess": "تم تطبيق الخط \"{fontName}\" بنجاح!",
-			"fontUploadedSuccess": "تم تحميل وتطبيق الخط \"{fontName}\" بنجاح!",
-			"fontResetSuccess": "تمت إعادة تعيين الخط إلى الافتراضي",
-			"invalidFileType": "يرجى تحميل ملف خط صالح (.woff, .woff2, .ttf, .otf)",
-			"uploadFailed": "فشل قراءة ملف الخط"
+			"fontAppliedSuccess": "¡Fuente \"{fontName}\" aplicada correctamente!",
+			"fontUploadedSuccess": "¡Fuente \"{fontName}\" subida y aplicada correctamente!",
+			"fontResetSuccess": "Fuente restablecida a la predeterminada",
+			"invalidFileType": "Por favor, sube un archivo de fuente válido (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Error al leer el archivo de fuente"
 		}
 	},
 	"about": {
-		"title": "🎮 حول {siteName}",
-		"subtitle": "في {siteName}، الألعاب ليست مجرد هواية - إنها تجربة.",
+		"title": "🎮 Sobre {siteName}",
+		"subtitle": "En {siteName}, jugar no es solo un pasatiempo, es una experiencia.",
 		"meta": {
-			"title": "حول {siteName} | منصة كازينو عالمية موثوقة عبر الإنترنت",
-			"description": "تعرف على {siteName} - منصة كازينو عالمية آمنة تقدم السلوتس، الكازينو المباشر، المراهنات الرياضية، والبوكر. عادلة وسريعة ومصممة للاعبين الحقيقيين."
+			"title": "Sobre {siteName} | Plataforma de casino en línea global de confianza",
+			"description": "Conoce más sobre {siteName}, una plataforma de casino global y segura que ofrece tragamonedas, casino en vivo, apuestas deportivas y póker. Justo, rápido y creado para jugadores reales."
 		},
 		"intro": {
-			"paragraph1": "في {siteName}، الألعاب ليست مجرد هواية - إنها تجربة.|لقد بنينا هذه المنصة للاعبين الذين يتوقعون أكثر من مجرد حظ - لاعبون يريدون السرعة والعدالة وبيئة ألعاب عالمية المستوى.",
-			"paragraph2": "منذ اليوم الأول، كان هدفنا واضحًا: إنشاء مساحة ألعاب تبدو حقيقية وآمنة ومثيرة. سواء كنت هنا لألعاب الكازينو المباشرة أو المراهنات الرياضية أو البوكر أو السلوتس ذات المكافآت العالية، فإن {siteName} يجمع كل ذلك تحت اسم واحد موثوق به."
+			"paragraph1": "En {siteName}, jugar no es solo un pasatiempo, es una experiencia.|Construimos esta plataforma para jugadores que esperan más que solo suerte, jugadores que quieren velocidad, equidad y un entorno de juego de clase mundial.",
+			"paragraph2": "Desde el primer día, nuestro objetivo ha sido claro: crear un espacio de juego que se sienta real, seguro y emocionante. Ya sea que estés aquí por juegos de casino en vivo, apuestas deportivas, póker o tragamonedas de alta recompensa, {siteName} lo reúne todo bajo un nombre de confianza."
 		},
 		"whoWeAre": {
-			"title": "💎 من نحن",
-			"paragraph1": "{siteName} هي منصة ألعاب عالمية عبر الإنترنت تربط اللاعبين بآلاف ألعاب الكازينو والرهان عالية الجودة.|نحن نعمل مع أكثر المزودين احترامًا في الصناعة - بما في ذلك Pragmatic Play و Red Tiger و Microgaming و KA Gaming - لتقديم تجربة سلسة على كل جهاز.",
-			"paragraph2": "كل ميزة، كل دورة، وكل بطاقة يتم توزيعها مصممة لتقريبك من إثارة الألعاب الحقيقية - مع الحفاظ على كل شيء شفافًا وعادلًا."
+			"title": "💎 Quiénes somos",
+			"paragraph1": "{siteName} es una plataforma de juegos en línea global que conecta a los jugadores con miles de juegos de casino y apuestas de alta calidad.|Trabajamos con los proveedores más respetados de la industria, incluidos Pragmatic Play, Red Tiger, Microgaming y KA Gaming, para ofrecer una experiencia perfecta en todos los dispositivos.",
+			"paragraph2": "Cada función, cada giro y cada carta repartida está diseñada para acercarte a la emoción del juego real, manteniendo todo transparente y justo."
 		},
 		"mission": {
-			"title": "🎯 مهمتنا",
-			"paragraph1": "جعل الألعاب عبر الإنترنت بسيطة وآمنة ومجزية للجميع.|نحن نؤمن بأن الألعاب يجب أن تبدو شخصية - وليست ميكانيكية - لذلك نركز على المعاملات السريعة والتصميم السلس ودعم العملاء الموثوق به المتاح على مدار الساعة طوال أيام الأسبوع.",
-			"paragraph2": "في {siteName}، يأتي اللاعبون دائمًا في المقام الأول. ثقتك هي ما يدفعنا إلى الاستمرار في التحسن كل يوم."
+			"title": "🎯 Nuestra misión",
+			"paragraph1": "Hacer que los juegos en línea sean simples, seguros y gratificantes para todos.|Creemos que el juego debe sentirse personal, no mecánico, por lo que nos enfocamos en transacciones rápidas, un diseño fluido y un soporte al cliente confiable disponible 24/7.",
+			"paragraph2": "En {siteName}, los jugadores siempre son lo primero. Tu confianza es lo que nos impulsa a seguir mejorando cada día."
 		},
 		"whatMakesUsDifferent": {
-			"title": "🏆 ما الذي يجعل {siteName} مختلفًا",
+			"title": "🏆 Qué hace diferente a {siteName}",
 			"features": [
-				"+5000 لعبة عبر السلوتس والبوكر والرياضة والكازينو المباشر",
-				"معاملات آمنة مع إيداعات وسحوبات فورية",
-				"لعب عادل معتمد من خلال ألعاب معتمدة من RNG",
-				"تصميم نظيف يعمل بشكل مثالي على سطح المكتب والجوال",
-				"مكافآت وعروض ترويجية مثيرة للاعبين النشطين"
+				"Más de 5,000 juegos en tragamonedas, póker, deportes y casino en vivo",
+				"Transacciones seguras con depósitos y retiros instantáneos",
+				"Juego justo verificado a través de juegos certificados por RNG",
+				"Diseño limpio que funciona perfectamente en escritorio y móvil",
+				"Bonos y promociones emocionantes para jugadores activos"
 			],
-			"closing": "نحن لا نستضيف الألعاب فقط - نحن نخلق بيئة يشعر فيها كل لاعب بالأمان والتواصل والثقة."
+			"closing": "No solo alojamos juegos, creamos un entorno donde cada jugador se siente seguro, conectado y con confianza."
 		},
-
 		"fairGaming": {
-			"title": "🌍 الألعاب العادلة والمسؤولة",
-			"paragraph1": "نحن نؤمن بأن الألعاب يجب أن تكون دائمًا مسؤولة وشفافة.|لهذا السبب يتبع {siteName} معايير وسياسات الألعاب الدولية الصارمة.",
-			"ageRestriction": "يمكن للاعبين الذين تبلغ أعمارهم 18 عامًا أو أكثر فقط التسجيل واللعب.",
-			"paragraph2": "يتم اختبار جميع الألعاب من أجل العدالة، وتحافظ تقنية التشفير لدينا على معلوماتك الشخصية والمالية آمنة تمامًا."
+			"title": "🌍 Juego justo y responsable",
+			"paragraph1": "Creemos que el juego siempre debe ser responsable y transparente.|Es por eso que {siteName} sigue estrictos estándares internacionales de juego y políticas de edad.",
+			"ageRestriction": "Solo los jugadores de 18 años o más pueden registrarse y jugar.",
+			"paragraph2": "Todos los juegos son probados para garantizar su equidad, y nuestra tecnología de encriptación mantiene tu información personal y financiera completamente segura."
 		},
 		"promise": {
-			"title": "🤝 وعدنا",
-			"paragraph1": "لسنا هنا لنكون موقع كازينو آخر - نحن هنا لوضع معيار جديد للألعاب عبر الإنترنت.|عندما تلعب على {siteName}، فإنك تلعب على منصة مبنية على الثقة والابتكار والقيمة الحقيقية.",
-			"paragraph2": "كل تحديث، كل ميزة، وكل شراكة نضيفها تركز على هدف واحد: منح اللاعبين أفضل تجربة لعب ممكنة."
+			"title": "🤝 Nuestra promesa",
+			"paragraph1": "No estamos aquí para ser otro sitio de casino, estamos aquí para establecer un nuevo estándar para los juegos en línea.|Cuando juegas en {siteName}, juegas en una plataforma construida sobre la confianza, la innovación y el valor real.",
+			"paragraph2": "Cada actualización, cada función y cada asociación que agregamos se centra en un objetivo: brindar a los jugadores la mejor experiencia de juego posible."
 		},
 		"joinCommunity": {
-			"title": "🚀 انضم إلى مجتمع {siteName}",
-			"paragraph1": "مستقبل الألعاب عبر الإنترنت هنا - وهو أسرع وأذكى وأكثر مكافأة من أي وقت مضى.",
-			"paragraph2": "انضم إلى {siteName} اليوم، واحصل على مكافأة الترحيب الخاصة بك، وشاهد لماذا ينتقل اللاعبون حول العالم إلى {siteName}.",
-			"tagline": "🎯 العب. اربح. جرب. {siteName}."
+			"title": "🚀 Únete a la comunidad de {siteName}",
+			"paragraph1": "El futuro de los juegos en línea está aquí, y es más rápido, más inteligente y más gratificante que nunca.",
+			"paragraph2": "Únete a {siteName} hoy, reclama tu bono de bienvenida y descubre por qué los jugadores de todo el mundo se están cambiando a {siteName}.",
+			"tagline": "🎯 Juega. Gana. Experimenta. {siteName}."
 		}
 	},
 	"footer": {
 		"sections": {
 			"company": {
-				"title": "الشركة",
+				"title": "Empresa",
 				"links": {
-					"about": "معلومات عنا",
-					"providers": "المزودون",
-					"affiliate": "مكافأة الإحالة",
-					"bonus": "مكافأة الدوران"
+					"about": "Sobre nosotros",
+					"providers": "Proveedores",
+					"affiliate": "Bono de referido",
+					"bonus": "Bono por volumen de apuestas"
 				}
 			},
 			"legal": {
-				"title": "قانوني",
+				"title": "Legal",
 				"links": {
-					"privacy": "سياسة الخصوصية",
-					"terms": "الشروط والأحكام",
-					"gambling": "المقامرة المسؤولة",
-					"faqs": "الأسئلة الشائعة"
+					"privacy": "Política de privacidad",
+					"terms": "Términos y condiciones",
+					"gambling": "Juego responsable",
+					"faqs": "Preguntas frecuentes"
 				}
 			},
 			"games": {
-				"title": "الألعاب",
+				"title": "Juegos",
 				"links": {
-					"lobby": "بهو الألعاب",
-					"slots": "سلوتس",
-					"live": "كازينو مباشر",
-					"sports": "المراهنات الرياضية"
+					"lobby": "Lobby de juegos",
+					"slots": "Tragamonedas",
+					"live": "Casino en vivo",
+					"sports": "Apuestas deportivas"
 				}
 			},
 			"support": {
-				"title": "الدعم",
+				"title": "Soporte",
 				"links": {
-					"help": "مركز المساعدة",
-					"contact": "اتصل بنا"
+					"help": "Centro de ayuda",
+					"contact": "Contáctanos"
 				}
 			}
 		},
 		"seoContent": {
-			"title": "{siteName} - وجهتك النهائية لترفيه الكازينو بالعملات المشفرة",
-			"paragraph1": "ادخل إلى مستقبل الألعاب عبر الإنترنت مع {siteName}، الكازينو الرائد في العالم الذي يعمل بالعملات المشفرة حيث يلتقي الابتكار بالإثارة. مصممة للاعبين الحقيقيين، تقدم منصتنا تجربة سريعة وآمنة وشفافة عبر السلوتس وطاولات الكازينو المباشرة والمراهنات الرياضية وألعاب العملات المشفرة.",
-			"paragraph2": "كل دورة وبطاقة ورهان في {siteName} مبني على عدالة البلوك تشين، ويتم التحقق منه في الوقت الفعلي لضمان أن كل نتيجة عشوائية حقًا ومقاومة للعبث. من الإثارة عالية المخاطر إلى اللعب العادي، تلبي ألعابنا كل أنواع المقامرين - من الباحثين عن الإثارة إلى محترفي الاستراتيجية.",
-			"paragraph3": "مع الإيداعات الفورية والسحوبات السريعة، وتسجيل الدخول بمحفظة Dynamic.xyz، ومكافآت الدوران الحصرية، يضمن {siteName} بقاء ألعابك سلسة ومجزية وآمنة.|سواء كنت في كندا أو أوروبا أو آسيا، يدعم نظامنا متعدد السلاسل اللاعبين العالميين مع تحسين اتجاهات كازينو العملات المشفرة المحلية في كل منطقة.",
-			"paragraph4": "انضم إلى آلاف اللاعبين الذين يكتشفون طريقة أذكى للعب - حيث يجتمع اللعب النظيف والخصوصية والربح معًا.|{siteName} ليس مجرد كازينو.|إنه التطور التالي لمقامرة Web3 - مصمم للجرأة، ومدعوم بالعملات المشفرة، وموثوق به من قبل اللاعبين في جميع أنحاء العالم.",
-			"tagline": "🎯 العب بذكاء. راهن بأمان. اربح الكثير - فقط في {siteName}.",
-			"showMore": "عرض المزيد",
-			"showLess": "عرض أقل"
+			"title": "{siteName} — Tu destino definitivo para el entretenimiento de cripto casino",
+			"paragraph1": "Adéntrate en el futuro de los juegos en línea con {siteName}, el principal casino impulsado por criptomonedas del mundo donde la innovación se encuentra con la emoción. Diseñada para jugadores reales, nuestra plataforma ofrece una experiencia rápida, segura y transparente en tragamonedas, mesas de casino en vivo, apuestas deportivas y juegos de criptomonedas.",
+			"paragraph2": "Cada giro, carta y apuesta en {siteName} se basa en la equidad de la blockchain, verificada en tiempo real para garantizar que cada resultado sea verdaderamente aleatorio y a prueba de manipulaciones. Desde la acción de altas apuestas hasta el juego casual, nuestros juegos satisfacen a todo tipo de jugador, desde los buscadores de emociones hasta los profesionales de la estrategia.",
+			"paragraph3": "Con depósitos instantáneos y retiros ultrarrápidos, inicio de sesión con billetera Dynamic.xyz y bonos exclusivos por volumen de apuestas, {siteName} se asegura de que tu juego sea fluido, gratificante y seguro.|Ya sea que estés en Canadá, Europa o Asia, nuestro sistema multicadena es compatible con jugadores globales mientras se optimiza para las tendencias locales de cripto casinos en cada región.",
+			"paragraph4": "Únete a miles de jugadores que descubren una forma más inteligente de jugar, donde el juego justo, la privacidad y las ganancias se unen.|{siteName} no es solo un casino.|Es la próxima evolución de los juegos de azar Web3, creado para los audaces, impulsado por criptomonedas y confiado por jugadores de todo el mundo.",
+			"tagline": "🎯 Juega inteligentemente. Apuesta seguro. Gana a lo grande — Solo en {siteName}.",
+			"showMore": "Mostrar más",
+			"showLess": "Mostrar menos"
 		},
-		"copyright": "© {year} {siteName}. جميع الحقوق محفوظة.",
-		"followUs": "تابعنا:",
+		"copyright": "© {year} {siteName}. Todos los derechos reservados.",
+		"followUs": "Síguenos:",
 		"disclaimer": {
-			"line1": "+18 فقط | قامر بمسؤولية",
-			"line2": "يمكن أن تكون المقامرة إدمانية. يرجى اللعب بمسؤولية والمراهنة فقط بما يمكنك تحمل خسارته.",
-			"line3": "إذا شعرت أن لديك مشكلة في المقامرة، فيرجى طلب المساعدة."
+			"line1": "Solo para mayores de 18 años | Juega de forma responsable",
+			"line2": "El juego puede ser adictivo. Por favor, juega de forma responsable y apuesta solo lo que puedas permitirte perder.",
+			"line3": "Si sientes que tienes un problema con el juego, busca ayuda."
 		},
-		"description": "{siteName} - كازينو العملات المشفرة الموثوق به للسلوتس والطاولات المباشرة والمراهنات الرياضية.|العب ألعاب بلوك تشين عادلة بشكل يمكن إثباته، واستمتع بالدفعات الفورية المستندة إلى المحفظة، وافتح مكافآت الكازينو اليومية.|سريع وآمن ولامركزي - يجلب {siteName} الألعاب من المستوى التالي للاعبين في جميع أنحاء العالم.|🎯 العب بذكاء. اربح الكثير. ثق بـ {siteName}."
+		"description": "{siteName} — tu cripto casino de confianza para tragamonedas, mesas en vivo y apuestas deportivas.|Juega juegos de blockchain probadamente justos, disfruta de pagos instantáneos basados en billetera y desbloquea bonos de casino diarios.|Rápido, seguro y descentralizado — {siteName} lleva los juegos de siguiente nivel a jugadores de todo el mundo.|🎯 Juega inteligentemente. Gana a lo grande. Confía en {siteName}."
 	},
 	"privacy": {
-		"title": "سياسة الخصوصية",
-		"subtitle": "كيف يقوم {siteName} بجمع بياناتك واستخدامها وحمايتها",
-		"lastUpdated": "يناير 2025",
+		"title": "Política de privacidad",
+		"subtitle": "Cómo {siteName} recopila, usa y protege tus datos",
+		"lastUpdated": "Enero de 2025",
 		"intro": {
-			"paragraph1": "تدير {siteName} ('{siteName}'، 'نحن'، 'نا'، أو 'خاصتنا') منصة الكازينو بالعملات المشفرة {siteName}. توضح سياسة الخصوصية هذه كيف نقوم بجمع واستخدام وتخزين وحماية البيانات الشخصية وبيانات المعاملات عند استخدامك لموقعنا الإلكتروني أو تطبيقات الهاتف المحمول أو الخدمات ذات الصلة ('الخدمات').",
-			"paragraph2": "يعمل {siteName} ككازينو يعتمد على محافظ العملات المشفرة فقط: تتم جميع الإيداعات والسحوبات باستخدام محافظ العملات المشفرة. نحن ملتزمون بحماية خصوصيتك مع تلبية الالتزامات التنظيمية (مثل متطلبات مكافحة غسيل الأموال/اعرف عميلك) وضمان بيئة ألعاب آمنة وعادلة.",
-			"paragraph3": "من خلال الوصول إلى {siteName} أو استخدامه، فإنك تقبل شروط سياسة الخصوصية هذه."
+			"paragraph1": "{siteName} ('{siteName}', 'nosotros' o 'nuestro') opera la plataforma de cripto casino {siteName}. Esta Política de privacidad explica cómo recopilamos, usamos, almacenamos y protegemos los datos personales y de transacciones cuando utilizas nuestro sitio web, aplicaciones móviles o servicios relacionados (los 'Servicios').",
+			"paragraph2": "{siteName} opera como un casino solo con billetera de criptomonedas: todos los depósitos y retiros se realizan utilizando billeteras de criptomonedas. Estamos comprometidos a proteger tu privacidad mientras cumplimos con las obligaciones regulatorias (como los requisitos AML/KYC) y garantizamos un entorno de juego seguro y justo.",
+			"paragraph3": "Al acceder o usar {siteName}, aceptas los términos de esta Política de privacidad."
 		},
 		"sections": {
 			"scope": {
-				"title": "1. النطاق والقبول",
-				"content": "تنطبق هذه السياسة على جميع مستخدمي {siteName}. قد نقوم بتحديث هذه السياسة؛ تدخل التحديثات حيز التنفيذ عند نشرها على الموقع. يعني استمرار الاستخدام بعد التغيير أنك تقبل السياسة الجديدة."
+				"title": "1. Alcance y aceptación",
+				"content": "Esta política se aplica a todos los usuarios de {siteName}. Podemos actualizar esta política; las actualizaciones entran en vigor cuando se publican en el sitio. El uso continuado después de un cambio significa que aceptas la nueva política."
 			},
 			"dataCollection": {
-				"title": "2. ما هي البيانات التي نجمعها",
-				"intro": "نظرًا لأننا نعمل بمحافظ العملات المشفرة فقط، فإن أنواع البيانات التي نجمعها تعكس هذا النموذج. نحن نجمع:",
+				"title": "2. Qué datos recopilamos",
+				"intro": "Debido a que operamos solo con billeteras de criptomonedas, los tipos de datos que recopilamos reflejan ese modelo. Recopilamos:",
 				"accountData": {
-					"title": "أ. بيانات الحساب والهوية (عند الاقتضاء)",
-					"email": "البريد الإلكتروني (إذا تم توفيره)، اسم العرض، معرف الحساب.",
-					"kyc": "هام: بينما تتيح محافظ العملات المشفرة عدم الكشف عن الهوية على السلسلة، قد تتطلب بعض المعاملات أو المحفزات التنظيمية التحقق من الهوية. سنطلب بوضوح التحقق من الهوية فقط عند الضرورة."
+					"title": "A. Datos de cuenta e identidad (cuando se requiera)",
+					"email": "Correo electrónico (si se proporciona), nombre de usuario, ID de cuenta.",
+					"kyc": "Importante: Si bien las billeteras de criptomonedas permiten el anonimato en la cadena, ciertas transacciones o activadores regulatorios pueden requerir verificación de identidad. Solicitaremos claramente KYC solo cuando sea necesario."
 				},
 				"walletData": {
-					"title": "ب. بيانات المحفظة والمعاملات",
-					"addresses": "عناوين محافظ العملات المشفرة التي تربطها أو تستخدمها مع {siteName}.",
-					"transactions": "تجزئة المعاملات على السلسلة والطوابع الزمنية (الإيداعات/السحوبات).",
-					"metadata": "البيانات الوصفية للمعاملات اللازمة لتسوية المدفوعات ومنع الاحتيال."
+					"title": "B. Datos de billetera y transacciones",
+					"addresses": "Direcciones de billetera de criptomonedas que conectas o usas con {siteName}.",
+					"transactions": "Hashes de transacciones en cadena y marcas de tiempo (depósitos/retiros).",
+					"metadata": "Metadatos de transacciones necesarios para conciliar pagos y prevenir fraudes."
 				},
 				"technicalData": {
-					"title": "ج. البيانات الفنية وبيانات الاستخدام",
-					"ip": "عنوان IP، الموقع الجغرافي التقريبي المشتق من IP، نوع الجهاز، المتصفح، نظام التشغيل.",
-					"session": "سجلات الجلسة، الطوابع الزمنية، الصفحات التي تمت زيارتها، نشاط اللعبة، الرهانات والنتائج.",
-					"cookies": "ملفات تعريف الارتباط وبيانات التحليلات لتحسين أداء الموقع وتجربة المستخدم."
+					"title": "C. Datos técnicos y de uso",
+					"ip": "Dirección IP, geolocalización aproximada derivada de la IP, tipo de dispositivo, navegador, sistema operativo.",
+					"session": "Registros de sesión, marcas de tiempo, páginas visitadas, actividad de juego, apuestas y resultados.",
+					"cookies": "Cookies y datos de análisis para mejorar el rendimiento del sitio y la experiencia del usuario."
 				},
 				"securityData": {
-					"title": "د. بيانات الأمان والمخاطر",
-					"fraud": "إشارات الاحتيال، بصمات الأصابع للأجهزة، درجات المخاطر من بائعي مكافحة الاحتيال.",
-					"disputes": "سجلات حل النزاعات، عمليات رد المبالغ المدفوعة (إن وجدت)، وفحوصات الامتثال.",
-					"note": "نحن لا نجمع فئات حساسة (العرق، الدين، الصحة، إلخ) ما لم يكن ذلك مطلوبًا قانونًا وبموافقة واضحة."
+					"title": "D. Datos de seguridad y riesgo",
+					"fraud": "Señales de fraude, huellas dactilares de dispositivos, puntuaciones de riesgo de proveedores antifraude.",
+					"disputes": "Registros de resolución de disputas, devoluciones de cargo (si corresponde) y verificaciones de cumplimiento.",
+					"note": "No recopilamos categorías sensibles (raza, religión, salud, etc.) a menos que se requiera legalmente y con un consentimiento claro."
 				}
 			},
 			"purposes": {
-				"title": "3. لماذا نجمع البيانات - الأسس القانونية والأغراض",
-				"intro": "نقوم بمعالجة بياناتك لأغراض قانونية ومحددة:",
-				"outro": "عندما نعتمد على الموافقة (على سبيل المثال، التسويق)، يمكنك سحب هذه الموافقة في أي وقت.",
+				"title": "3. Por qué recopilamos datos – Bases legales y propósitos",
+				"intro": "Procesamos tus datos para fines legales y específicos:",
+				"outro": "Cuando nos basamos en el consentimiento (p. ej., marketing), puedes retirar ese consentimiento en cualquier momento.",
 				"items": {
 					"0": {
-						"title": "توفير الخدمة وأداء العقد",
-						"description": "لإنشاء الحسابات وصيانتها، ومعالجة الإيداعات/السحوبات عبر محافظ العملات المشفرة، ودفع الأرباح."
+						"title": "Provisión de servicios y ejecución de contratos",
+						"description": "para crear y mantener cuentas, procesar depósitos/retiros a través de billeteras de criptomonedas, pagar ganancias."
 					},
 					"1": {
-						"title": "الأمان ومنع الاحتيال",
-						"description": "اكتشاف ومنع إساءة الاستخدام وغسيل الأموال."
+						"title": "Seguridad y prevención de fraudes",
+						"description": "detectar y prevenir el abuso y el lavado de dinero."
 					},
 					"2": {
-						"title": "الامتثال للالتزامات القانونية",
-						"description": "تلبية متطلبات مكافحة غسيل الأموال/اعرف عميلك عند الضرورة."
+						"title": "Cumplimiento de obligaciones legales",
+						"description": "cumplir con los requisitos AML/KYC cuando sea necesario."
 					},
 					"3": {
-						"title": "عمليات المنصة وتحسينها",
-						"description": "التحليلات، تطوير المنتجات، دعم العملاء."
+						"title": "Operaciones y mejora de la plataforma",
+						"description": "análisis, desarrollo de productos, soporte al cliente."
 					},
 					"4": {
-						"title": "التسويق (بموافقة)",
-						"description": "النشرات الإخبارية، العروض الترويجية - فقط إذا اخترت الاشتراك."
+						"title": "Marketing (con consentimiento)",
+						"description": "boletines informativos, ofertas promocionales, solo si te suscribes."
 					},
 					"5": {
-						"title": "المصلحة المشروعة",
-						"description": "الحفاظ على سلامة المنصة والتحقيق في سوء الاستخدام."
+						"title": "Interés legítimo",
+						"description": "preservar la integridad de la plataforma e investigar el uso indebido."
 					}
 				}
 			},
 			"cryptoWallet": {
-				"title": "4. تفاصيل محفظة العملات المشفرة والبيانات على السلسلة",
+				"title": "4. Específicos de la billetera de criptomonedas y datos en cadena",
 				"points": {
-					"0": "يتم تخزين عناوين المحافظ وبيانات المعاملات على السلسلة فقط بالقدر اللازم لإيداع/سحب حسابات المستخدمين، ومراجعة المعاملات، وتلبية التزامات الامتثال.",
-					"1": "البيانات على السلسلة عامة بطبيعتها - لا يتحكم {siteName} في رؤية البلوك تشين. نحن نجمع بين البيانات على السلسلة والسجلات خارج السلسلة لتسوية الحسابات.",
-					"2": "إذا قمت بتوصيل خدمة محفظة احتجازية (طرف ثالث)، فإنك توافق على أي بيانات يشاركها هؤلاء المزودون معنا لمعالجة المعاملات."
+					"0": "Las direcciones de billetera y los datos de transacciones en cadena se almacenan solo en la medida necesaria para acreditar/debitar cuentas de usuario, auditar transacciones y cumplir con las obligaciones de cumplimiento.",
+					"1": "Los datos en cadena son públicos por naturaleza: {siteName} no controla la visibilidad de la blockchain. Combinamos datos en cadena con registros fuera de cadena para conciliar cuentas.",
+					"2": "Si conectas un servicio de billetera de custodia (de terceros), das tu consentimiento para que esos proveedores compartan datos con nosotros para el procesamiento de transacciones."
 				}
 			},
 			"dataSharing": {
-				"title": "5. متى نشارك البيانات",
-				"intro": "قد نشارك معلوماتك:",
+				"title": "5. Cuándo compartimos datos",
+				"intro": "Podemos compartir tu información:",
 				"items": {
-					"0": "مع المنظمين أو سلطات إنفاذ القانون عند الإجبار بموجب إجراء قانوني أو لمنع نشاط غير قانوني.",
-					"1": "مع الشركات التابعة أو الأطراف الثالثة في نقل الأعمال (الاندماج، الاستحواذ) - دائمًا مع ضمانات مناسبة.",
-					"2": "مع شبكات منع الاحتيال لحماية منصتنا ومستخدمينا."
+					"0": "Con reguladores o fuerzas del orden cuando se nos obligue por un proceso legal o para prevenir actividades ilegales.",
+					"1": "Con afiliados o terceros en una transferencia de negocio (fusión, adquisición), siempre con las salvaguardias adecuadas.",
+					"2": "Con redes de prevención de fraudes para proteger nuestra plataforma y a nuestros usuarios."
 				},
-				"noSelling": "نحن لا نبيع بياناتك الشخصية للمعلنين."
+				"noSelling": "No vendemos tus datos personales a anunciantes."
 			},
 			"security": {
-				"title": "6. تدابير الأمان",
-				"intro": "نحن نستخدم تدابير أمان قياسية في الصناعة:",
+				"title": "6. Medidas de seguridad",
+				"intro": "Utilizamos medidas de seguridad estándar de la industria:",
 				"items": {
-					"0": "تشفير TLS/SSL أثناء النقل؛ تخزين مشفر للبيانات الحساسة.",
-					"1": "ضوابط الوصول، التسجيل، والامتيازات القائمة على الأدوار.",
-					"2": "عمليات تدقيق أمنية منتظمة واختبار الثغرات الأمنية.",
-					"3": "المصادقة متعددة العوامل (MFA) للموظفين واختيارية للمستخدمين."
+					"0": "Cifrado TLS/SSL en tránsito; almacenamiento cifrado para datos sensibles.",
+					"1": "Controles de acceso, registros y privilegios basados en roles.",
+					"2": "Auditorías de seguridad regulares y pruebas de vulnerabilidad.",
+					"3": "Autenticación de múltiples factores (MFA) para el personal y opcional para los usuarios."
 				},
-				"warning": "يجب عليك الحفاظ على مفاتيحك الخاصة بالمحفظة وبيانات اعتماد حسابك آمنة. نحن لا نطلب أبدًا المفاتيح الخاصة."
+				"warning": "Debes mantener seguras las claves privadas de tu billetera y las credenciales de tu cuenta. Nunca solicitamos claves privadas."
 			},
 			"cookies": {
-				"title": "7. ملفات تعريف الارتباط والتتبع",
-				"content": "نحن نستخدم ملفات تعريف الارتباط والتقنيات المماثلة لوظائف الموقع الضرورية، والتحليلات، و(بموافقة) التسويق. يمكنك التحكم في ملفات تعريف الارتباط في متصفحك، ولكن قد يؤدي تعطيل ملفات تعريف الارتباط الأساسية إلى تعطيل الوظائف."
+				"title": "7. Cookies y seguimiento",
+				"content": "Utilizamos cookies y tecnologías similares para funciones necesarias del sitio, análisis y (con consentimiento) marketing. Puedes controlar las cookies en tu navegador, pero deshabilitar las cookies esenciales puede afectar la funcionalidad."
 			},
 			"minAge": {
-				"title": "8. الأطفال والحد الأدنى للسن",
-				"content": "يجب أن يكون عمرك 18 عامًا أو أكثر (أو أكبر إذا كان ذلك مطلوبًا بموجب القانون المحلي) لاستخدام خدماتنا. نحن نمنع بنشاط استخدام القاصرين وسنحذف البيانات إذا تم تحديد تسجيل قاصر."
+				"title": "8. Niños y edad mínima",
+				"content": "Debes tener más de 18 años (o más si lo exige la ley local) para usar nuestros Servicios. Prevenimos activamente el uso por parte de menores de edad y eliminaremos los datos si se identifica el registro de un menor."
 			},
 			"breach": {
-				"title": "9. الإخطار بالخرق",
-				"content": "في حالة حدوث خرق للبيانات يمثل خطرًا على حقوقك، سنقوم بإخطار المستخدمين المتأثرين والسلطات المختصة كما يقتضي القانون، وسنتخذ خطوات للمعالجة."
+				"title": "9. Notificación de brecha",
+				"content": "En caso de una brecha de datos que presente un riesgo para tus derechos, notificaremos a los usuarios afectados y a las autoridades pertinentes según lo exija la ley, y tomaremos medidas para remediar la situación."
 			},
 			"changes": {
-				"title": "10. التغييرات على هذه السياسة",
-				"content": "قد نقوم بتعديل سياسة الخصوصية هذه. سيتم نشر التغييرات المادية على الموقع، وعند الاقتضاء، سيتم إخطارك بها."
+				"title": "10. Cambios en esta política",
+				"content": "Podemos modificar esta Política de privacidad. Los cambios materiales se publicarán en el sitio y, cuando sea apropiado, se te notificarán."
 			},
 			"contact": {
-				"title": "11. الاتصال",
-				"intro": "للأسئلة أو الطلبات:"
+				"title": "11. Contacto",
+				"intro": "Preguntas o solicitudes:"
 			}
 		}
 	},
 	"terms": {
-		"title": "الشروط والأحكام",
-		"subtitle": "اتفاقية المستخدم وقواعد المنصة",
-		"lastUpdated": "يناير 2025",
+		"title": "Términos y condiciones",
+		"subtitle": "Acuerdo de usuario y reglas de la plataforma",
+		"lastUpdated": "Enero de 2025",
 		"intro": {
-			"paragraph1": "من خلال التسجيل أو ربط محفظتك على www.{siteDomain}، فإنك تدخل في اتفاقية ملزمة مع {siteName} N.V.",
-			"paragraph2": "إذا كنت لا توافق على أي من هذه الشروط، فلا تدخل أو تستخدم أو تسجل في موقعنا. اقرأ هذه الشروط بعناية. إذا لم تكن متأكدًا من حقوقك أو التزاماتك، فاستشر مستشارًا قانونيًا في ولايتك القضائية قبل استخدام الموقع."
+			"paragraph1": "Al registrarte o conectar tu billetera en www.{siteDomain}, celebras un acuerdo vinculante con {siteName} N.V.",
+			"paragraph2": "Si no estás de acuerdo con alguno de estos términos, no accedas, uses ni te registres en nuestro sitio web. Lee estos términos detenidamente. Si no estás seguro de tus derechos u obligaciones, consulta a un asesor legal en tu jurisdicción antes de usar el sitio web."
 		},
 		"sections": {
 			"ownership": {
-				"title": "1. ملكية {siteName}",
-				"content1": "{siteName} مملوك ومدار من قبل {siteName} N.V. ('{siteName}'، 'نحن'، 'خاصتنا').",
-				"content2": "{siteName} هو كازينو يعتمد على محافظ العملات المشفرة فقط. تتم معالجة جميع الإيداعات والرهانات والسحوبات من خلال محافظ العملات المشفرة للمستخدمين. نحن ندعم تسجيل الدخول بالمحفظة من خلال Dynamic.xyz وموصلات المحفظة المتوافقة (على سبيل المثال، WalletConnect / MetaMask)."
+				"title": "1. Propiedad de {siteName}",
+				"content1": "{siteName} es propiedad y está operado por {siteName} N.V. ('{siteName}', 'Nosotros', 'Nuestro').",
+				"content2": "{siteName} es un casino solo con billetera de criptomonedas. Todos los depósitos, apuestas y retiros se procesan a través de las billeteras de criptomonedas de los usuarios. Admitimos el inicio de sesión con billetera a través de Dynamic.xyz y conectores de billetera compatibles (p. ej., WalletConnect / MetaMask)."
 			},
 			"notice": {
-				"title": "2. إشعار هام",
-				"content1": "2.1 من خلال التسجيل أو ربط محفظتك على www.{siteDomain} ('الموقع')، فإنك تدخل في اتفاقية ملزمة مع {siteName} N.V. وتوافق على: (1) هذه الشروط والأحكام؛ (2) سياسة الخصوصية الخاصة بنا؛ (3) سياسة ملفات تعريف الارتباط الخاصة بنا؛ (4) شروط الشركاء التابعين لنا؛ و (5) سياسة اللعب المسؤول الخاصة بنا.",
-				"content2": "2.2 إذا كنت لا توافق على أي من هذه الشروط، فلا تدخل أو تستخدم أو تسجل في موقعنا.",
-				"content3": "2.3 اقرأ هذه الشروط بعناية. إذا لم تكن متأكدًا من حقوقك أو التزاماتك، فاستشر مستشارًا قانونيًا في ولايتك القضائية قبل استخدام الموقع."
+				"title": "2. Aviso importante",
+				"content1": "2.1 Al registrarte o conectar tu billetera en www.{siteDomain} (el 'Sitio web'), celebras un acuerdo vinculante con {siteName} N.V. y aceptas: (i) estos Términos y condiciones; (ii) nuestra Política de privacidad; (iii) nuestra Política de cookies; (iv) nuestros Términos de afiliados; y (v) nuestra Política de juego responsable.",
+				"content2": "2.2 Si no estás de acuerdo con alguno de estos términos, no accedas, uses ni te registres en nuestro sitio web.",
+				"content3": "2.3 Lee estos términos detenidamente. Si no estás seguro de tus derechos u obligaciones, consulta a un asesor legal en tu jurisdicción antes de usar el sitio web."
 			},
 			"general": {
-				"title": "3. الشروط العامة",
+				"title": "3. Términos generales",
 				"items": [
-					"عند التسجيل أو ربط المحفظة، فإنك ('المستخدم'، 'اللاعب'، 'أنت'، أو 'خاصتك') توافق على الامتثال لجميع قواعد وسياسات {siteName}.",
-					"هذه الاتفاقية هي عقد ملزم قانونًا بينك وبين {siteName}.",
-					"تصبح هذه الشروط سارية المفعول في اللحظة التي تربط فيها محفظتك وتبدأ في استخدام الموقع.",
-					"يحتفظ {siteName} بالحق في تعديل أو تحديث هذه الشروط في أي وقت. سيتم نشر التغييرات على الموقع؛ ويعتبر الاستخدام المستمر قبولًا.",
-					"في حالة وجود تعارض، تسود هذه الشروط على أي قواعد أو عروض ترويجية أو مواد خارجية أخرى.",
-					"النسخة الإنجليزية فقط من هذه الشروط ملزمة قانونًا. الترجمات هي للملاءمة فقط."
+					"Al registrarte o conectar tu billetera, tú ('Usuario', 'Jugador' o 'Tú') aceptas cumplir con todas las reglas y políticas de {siteName}.",
+					"Este Acuerdo es un contrato legalmente vinculante entre tú y {siteName}.",
+					"Estos Términos entran en vigor en el momento en que conectas tu billetera y comienzas a usar el sitio.",
+					"{siteName} se reserva el derecho de modificar o actualizar estos Términos en cualquier momento. Los cambios se publicarán en el Sitio web; el uso continuado constituye la aceptación.",
+					"En caso de conflicto, estos Términos prevalecen sobre cualquier otra regla, promoción o material externo.",
+					"Solo la versión en inglés de estos Términos es legalmente vinculante. Las traducciones son solo para fines de conveniencia."
 				]
 			},
 			"account": {
-				"title": "4. الحساب وتسجيل الدخول بالمحفظة والأمان",
-				"intro": "يستخدم {siteName} Dynamic.xyz للمصادقة القائمة على المحفظة وتدابير الأمان لحماية حسابك.",
+				"title": "4. Cuenta, inicio de sesión con billetera y seguridad",
+				"intro": "{siteName} utiliza Dynamic.xyz para la autenticación basada en billetera y medidas de seguridad para proteger tu cuenta.",
 				"walletLogin": {
-					"title": "4.1 تسجيل الدخول بالمحفظة (Dynamic.xyz)",
+					"title": "4.1 Inicio de sesión con billetera (Dynamic.xyz)",
 					"items": [
-						"يستخدم {siteName} Dynamic.xyz (أو موصلات مدعومة أخرى) لتسجيل الدخول والمصادقة القائمة على المحفظة. من خلال ربط محفظة، فإنك تؤكد أنك المالك الشرعي لتلك المحفظة وتفوض {siteName} بالاعتراف بتلك المحفظة كحسابك.",
-						"نحن لا نطلب أبدًا مفاتيحك الخاصة. يجب عليك الحفاظ على بيانات اعتماد محفظتك وجهازك آمنين. {siteName} غير مسؤول عن الخسائر الناجمة عن المحافظ المخترقة أو تسرب المفاتيح الخاصة."
+						"{siteName} utiliza Dynamic.xyz (u otros conectores compatibles) para el inicio de sesión y la autenticación basados en billetera. Al conectar una billetera, confirmas que eres el propietario legal de esa billetera y autorizas a {siteName} a reconocer esa billetera como tu cuenta.",
+						"Nunca solicitamos tus claves privadas. Debes mantener seguras las credenciales de tu billetera y tu dispositivo. {siteName} no se hace responsable de las pérdidas causadas por billeteras comprometidas o claves privadas filtradas."
 					]
 				},
 				"registration": {
-					"title": "4.2 تفاصيل التسجيل",
+					"title": "4.2 Detalles de registro",
 					"items": [
-						"قد يُطلب منك تقديم تفاصيل الاتصال (البريد الإلكتروني، اسم المستخدم) للتواصل بشأن الحساب. يجب عليك تقديم معلومات دقيقة وتحديثها باستمرار.",
-						"أنت مسؤول عن جميع الإجراءات التي يتم اتخاذها باستخدام محفظتك المرتبطة."
+						"Se te puede pedir que proporciones datos de contacto (correo electrónico, nombre de usuario) para la comunicación de la cuenta. Debes proporcionar información precisa y mantenerla actualizada.",
+						"Eres responsable de todas las acciones realizadas con tu billetera conectada."
 					]
 				},
 				"security": {
-					"title": "4.3 الحسابات المتعددة والأمان",
+					"title": "4.3 Múltiples cuentas y seguridad",
 					"items": [
-						"يُسمح بحساب واحد فقط لكل فرد. قد تؤدي الحسابات المتعددة أو محاولات التحايل على الحدود إلى تعليق الحساب ومصادرة الأموال.",
-						"قم بتمكين أي ميزات أمان للمنصة (على سبيل المثال، المصادقة الثنائية للخدمات المرتبطة) وقم بتأمين محفظتك الخاصة.",
-						"أبلغ الدعم فورًا إذا شككت في وجود وصول غير مصرح به."
+						"Solo se permite una cuenta por individuo. Múltiples cuentas o intentos de eludir los límites pueden resultar en la suspensión de la cuenta y la confiscación de fondos.",
+						"Habilita cualquier función de seguridad de la plataforma ofrecida (por ejemplo, 2FA para servicios asociados) y asegura tu propia billetera.",
+						"Notifica al soporte de inmediato si sospechas de un acceso no autorizado."
 					]
 				}
 			},
 			"eligibility": {
-				"title": "5. الأهلية وضمانات المستخدم",
-				"intro": "5.1 أنت تقر وتضمن ما يلي:",
+				"title": "5. Elegibilidad y garantías del usuario",
+				"intro": "5.1 Declaras y garantizas que:",
 				"items": [
-					"أن عمرك لا يقل عن 18 عامًا (أو الحد الأدنى لسن المقامرة القانوني في ولايتك القضائية).",
-					"أنك مسموح لك قانونًا باستخدام خدمات المقامرة بالعملات المشفرة عبر الإنترنت في مكان تواجدك.",
-					"أنك المالك الشرعي للمحفظة التي تربطها.",
-					"أنك لن تستخدم شبكات VPN أو انتحال الموقع لتجاوز القيود الإقليمية.",
-					"أنك لن تستخدم الخدمة لأغراض غير قانونية أو تجارية.",
-					"أنك تقبل أن قيمة العملة المشفرة قد تتقلب وأنك تتحمل جميع مخاطر السوق."
+					"Tienes al menos 18 años (o la edad mínima legal para jugar en tu jurisdicción).",
+					"Estás legalmente autorizado a usar servicios de juegos de azar con criptomonedas donde te encuentres.",
+					"Eres el propietario legal de la billetera que conectas.",
+					"No utilizarás VPN ni suplantación de ubicación para eludir las restricciones regionales.",
+					"No utilizarás el Servicio con fines ilegales o comerciales.",
+					"Aceptas que el valor de las criptomonedas puede fluctuar y asumes todo el riesgo de mercado."
 				],
-				"outro": "5.2 إذا انتهكت هذه الضمانات، فقد يقوم {siteName} بتعليق أو إنهاء الوصول وحجب الأموال حيثما يسمح القانون بذلك."
+				"outro": "5.2 Si incumples estas garantías, {siteName} puede suspender o cancelar el acceso y retener fondos cuando lo permita la ley."
 			},
 			"restricted": {
-				"title": "6. الولايات القضائية المحظورة",
-				"content1": "6.1 لا يقبل {siteName} لاعبين من الولايات القضائية التي تحظر أو تقيد المقامرة بالعملات المشفرة. وهذا يشمل، على سبيل المثال لا الحصر:",
-				"content2": "الولايات المتحدة (وأقاليم الولايات المتحدة)، المملكة المتحدة، فرنسا، هولندا، إسبانيا، ألمانيا، أستراليا، النمسا، جزر القمر، إيران، كوريا الشمالية، السودان، سوريا، وأي ولاية قضائية مدرجة في القوائم السوداء لمجموعة العمل المالي.",
-				"content3": "6.2 محاولة الوصول إلى الخدمة من ولاية قضائية محظورة، بما في ذلك عبر VPN أو وكيل، هو انتهاك لهذه الشروط وقد يؤدي إلى إغلاق الحساب ومصادرة الأموال."
+				"title": "6. Jurisdicciones restringidas",
+				"content1": "6.1 {siteName} no acepta jugadores de jurisdicciones donde los juegos de azar con criptomonedas están prohibidos o restringidos. Esto incluye, entre otros:",
+				"content2": "Estados Unidos (y territorios de EE. UU.), Reino Unido, Francia, Países Bajos, España, Alemania, Australia, Austria, Comoras, Irán, Corea del Norte, Sudán, Siria y cualquier jurisdicción que figure en las listas negras del GAFI.",
+				"content3": "6.2 Intentar acceder al Servicio desde una jurisdicción restringida, incluso a través de VPN o proxy, es un incumplimiento de estos Términos y puede dar lugar al cierre de la cuenta y la confiscación de fondos."
 			},
 			"crypto": {
-				"title": "7. إيداعات وسحوبات العملات المشفرة",
+				"title": "7. Depósitos y retiros de criptomonedas",
 				"policy": {
-					"title": "7.1 سياسة العملات المشفرة فقط",
+					"title": "7.1 Política de solo criptomonedas",
 					"items": [
-						"يقبل {siteName} الإيداعات والسحوبات بالعملات المشفرة المدعومة فقط (على سبيل المثال، BTC، ETH، USDT، TRX، BNB). لا يتم قبول الإيداعات بالعملات الورقية أو البطاقات أو التحويلات البنكية.",
-						"يجب أن تنشأ جميع الإيداعات من محافظ تتحكم فيها. يُحظر الإيداع من محافظ طرف ثالث."
+						"{siteName} acepta depósitos y retiros solo en criptomonedas compatibles (p. ej., BTC, ETH, USDT, TRX, BNB). No se aceptan depósitos en fiat, tarjeta o transferencia bancaria.",
+						"Todos los depósitos deben proceder de billeteras que controles. Se prohíben los depósitos de billeteras de terceros."
 					]
 				},
 				"deposits": {
-					"title": "7.2 الإيداعات",
+					"title": "7.2 Depósitos",
 					"items": [
-						"تتم إضافة الإيداعات بعد تأكيدات البلوك تشين المطلوبة. رسوم الشبكة (الغاز) تدفعها أنت.",
-						"قد يرفض {siteName} أو يعكس الإيداعات التي يبدو أنها تنشأ من عناوين محظورة أو مصادر مقيدة."
+						"Los depósitos se acreditan después de las confirmaciones de blockchain requeridas. Las tarifas de red (gas) corren por tu cuenta.",
+						"{siteName} puede rechazar o revertir depósitos que parezcan proceder de direcciones bloqueadas o fuentes restringidas."
 					]
 				},
 				"withdrawals": {
-					"title": "7.3 السحوبات",
+					"title": "7.3 Retiros",
 					"items": [
-						"تتم معالجة السحوبات إلى عنوان المحفظة الذي تقدمه. قد يطلب منك {siteName} تأكيد محفظة الوجهة قبل المعالجة.",
-						"يجب أن يكون لديك رصيد كافٍ لتغطية السحب. قد تتأخر السحوبات للتحقيق في إساءة استخدام مشتبه بها أو نشاط غير عادي."
+						"Los retiros se procesan a la dirección de billetera que proporciones. {siteName} puede requerir que confirmes la billetera de destino antes de procesar.",
+						"Debes tener suficiente saldo compensado para cubrir un retiro. Los retiros pueden retrasarse para investigar sospechas de abuso o actividad inusual."
 					]
 				},
 				"chargebacks": {
-					"title": "7.4 عمليات رد المبالغ المدفوعة والعكس",
+					"title": "7.4 Devoluciones de cargo y reversiones",
 					"items": [
-						"معاملات العملات المشفرة نهائية على السلسلة. إذا تكبد {siteName} خسائر بسبب عمليات رد المبالغ المدفوعة أو العكس من مزودي خدمات الطرف الثالث (نادرًا مع المعاملات على السلسلة)، فإننا نحتفظ بالحق في استرداد المبالغ أو فرض رسوم إدارية."
+						"Las transacciones de criptomonedas son finales en la cadena. Si {siteName} incurre en pérdidas debido a devoluciones de cargo o reversiones de proveedores de servicios de terceros (raro en la cadena), nos reservamos el derecho de recuperar los montos o cobrar tarifas administrativas."
 					]
 				}
 			},
 			"kyc": {
-				"title": "8. لا يوجد تحقق روتيني من الهوية (لا KYC)",
-				"content1": "8.1 لا يقوم {siteName} بالتحقق الروتيني من الهوية (KYC) كشرط للعب العادي. يمكن للمستخدمين ربط محفظة عبر Dynamic.xyz والبدء في اللعب دون تقديم مستندات هوية.",
-				"content2": "8.2 على الرغم مما سبق، يحتفظ {siteName} بالحق في طلب معلومات أو تعليق المعاملات إذا لزم الأمر من أجل:",
+				"title": "8. Sin verificación de identidad de rutina (Sin KYC)",
+				"content1": "8.1 {siteName} no realiza una verificación de identidad de rutina (KYC) como condición para el juego normal. Los usuarios pueden conectar una billetera a través de Dynamic.xyz y comenzar a jugar sin proporcionar documentos de identidad.",
+				"content2": "8.2 No obstante lo anterior, {siteName} se reserva el derecho de solicitar información o suspender transacciones si es necesario para:",
 				"items": [
-					"الامتثال لأمر قانوني من السلطات المختصة:",
-					"منع أو التحقيق في أو معالجة الاحتيال أو غسيل الأموال أو أي نشاط غير قانوني آخر",
-					"أو حماية أمن وسلامة المنصة."
+					"Cumplir con una orden legal de las autoridades competentes:",
+					"Prevenir, investigar o remediar fraudes, lavado de dinero u otra actividad ilegal",
+					"O proteger la seguridad e integridad de la plataforma."
 				],
-				"content3": "8.3 إذا رفضت تقديم هذه المعلومات عندما يكون ذلك مطلوبًا قانونًا، فقد يقيد {siteName} أو يغلق حسابك ويؤخر أو يحجب السحوبات إلى الحد الذي يسمح به القانون."
+				"content3": "8.3 Si te niegas a proporcionar dicha información cuando se requiera legalmente, {siteName} puede restringir o cerrar tu cuenta y retrasar o retener los retiros en la medida permitida por la ley."
 			},
 			"fairPlay": {
-				"title": "9. اللعب النظيف والسلوك المحظور والأمان",
-				"intro": "يجب ألا تقوم بما يلي:",
+				"title": "9. Juego justo, conducta prohibida y seguridad",
+				"intro": "No debes:",
 				"items": [
-					"استخدام الروبوتات أو البرامج النصية أو أدوات اللعب الآلي أو أي برنامج غير مصرح به.",
-					"التواطؤ مع لاعبين آخرين أو التلاعب بنتائج اللعبة.",
-					"إنشاء حسابات متعددة لاستغلال المكافآت أو العروض الترويجية.",
-					"محاولة عكس أو العبث بالمعاملات على السلسلة.",
-					"استغلال أخطاء اللعبة أو نقاط ضعف المنصة."
+					"Usar bots, scripts, herramientas de juego automatizadas o cualquier software no autorizado.",
+					"Coludir con otros jugadores o manipular los resultados del juego.",
+					"Crear múltiples cuentas para explotar bonos o promociones.",
+					"Intentar revertir o manipular transacciones en cadena.",
+					"Explotar errores del juego o vulnerabilidades de la plataforma."
 				],
-				"outro1": "قد يتم تعليق الحسابات التي يتم العثور عليها تغش أو تتواطأ أو تستغل المنصة أو إغلاقها أو مصادرة أرصدتها.",
-				"outro2": "يطبق {siteName} المراقبة الفنية والسلوكية لحماية سلامة المنصة."
+				"outro1": "Las cuentas que se encuentren haciendo trampa, coludiendo o explotando la plataforma pueden ser suspendidas, cerradas o tener sus saldos confiscados.",
+				"outro2": "{siteName} implementa un monitoreo técnico y de comportamiento para proteger la integridad de la plataforma."
 			},
 			"bonuses": {
-				"title": "10. المكافآت والعروض الترويجية",
+				"title": "10. Bonos y promociones",
 				"items": [
-					"تخضع جميع عروض المكافآت والعروض الترويجية لشروط المكافأة المحددة المذكورة مع كل عرض.",
-					"يمكن أن يؤدي إساءة استخدام المكافآت (بما في ذلك الحسابات المتعددة أو التبديل السريع للمكافآت) إلى رفض المكافآت أو عكسها أو مصادرتها وإغلاق الحسابات.",
-					"يجب تلبية متطلبات المراهنة على المكافأة قبل سحب الأموال المشتقة من المكافأة، كما هو محدد لكل عرض ترويجي."
+					"Todas las ofertas de bonos y promociones están sujetas a los Términos de bonificación específicos establecidos con cada oferta.",
+					"El abuso de bonos (incluidas múltiples cuentas o el cambio rápido de bonos) puede dar lugar a la denegación, reversión o confiscación de bonos y al cierre de cuentas.",
+					"Los requisitos de apuesta de los bonos deben cumplirse antes de retirar los fondos derivados de los bonos, según se especifica en cada promoción."
 				]
 			},
 			"playingRules": {
-				"title": "11. قواعد اللعب وتسوية اللعبة",
+				"title": "11. Reglas de juego y liquidación de juegos",
 				"items": [
-					"يتم قبول الرهانات فقط بمجرد تلقي تأكيد على الشاشة. الرهانات التي يتم وضعها برصيد غير كافٍ باطلة.",
-					"السجلات الداخلية لـ {siteName} وسجلات البلوك تشين هي المرجع في حالة النزاعات.",
-					"إذا تم إلغاء حدث أو تعليقه أو اختراقه بطريقة أخرى، فسيقوم {siteName} بتسوية أو إبطال الرهانات وفقًا لقواعد اللعبة والسوق المنشورة.",
-					"بالنسبة للألعاب التي يمكن إثبات عدالتها، تتوفر أدوات التحقق وبذور الخادم (حيثما ينطبق ذلك) لكل لعبة؛ سجلات الخادم نهائية."
+					"Las apuestas se aceptan solo una vez que recibes la confirmación en pantalla. Las apuestas realizadas con saldo insuficiente son nulas.",
+					"Los registros internos de {siteName} y los registros de la blockchain son autoritativos en caso de disputas.",
+					"Si un evento se cancela, suspende o se ve comprometido de otro modo, {siteName} liquidará o anulará las apuestas de acuerdo con las reglas publicadas del juego y del mercado.",
+					"Para los juegos probadamente justos, las herramientas de verificación y las semillas del servidor (cuando corresponda) están disponibles por juego; los registros del servidor son finales."
 				]
 			},
 			"errors": {
-				"title": "12. الأخطاء والانقطاعات والحدود",
-				"intro": "{siteName} غير مسؤول عن الخسائر الناجمة عن:",
+				"title": "12. Errores, interrupciones y límites",
+				"intro": "{siteName} no se hace responsable de las pérdidas causadas por:",
 				"items": [
-					"فشل الإنترنت أو الجهاز",
-					"تأخيرات البلوك تشين أو الانقسامات أو ازدحام الشبكة",
-					"أخطاء البرامج أو انقطاع خدمات الطرف الثالث"
+					"Fallas de Internet o del dispositivo",
+					"Retrasos en la blockchain, bifurcaciones o congestión de la red",
+					"Errores de software o interrupciones de servicios de terceros"
 				],
-				"outro1": "يحتفظ {siteName} بالحق في إبطال الرهانات أو تعديل الأرصدة أو إلغاء المعاملات عند اكتشاف أخطاء أو عمليات استغلال.",
-				"outro2": "قد نضع حدودًا للمراهنة وأقصى الأرباح وضوابط أخرى لحماية المستخدمين والمنصة."
+				"outro1": "{siteName} se reserva el derecho de anular apuestas, ajustar saldos o cancelar transacciones cuando se detecten errores o exploits.",
+				"outro2": "Podemos establecer límites de apuesta, ganancias máximas y otros controles para proteger a los usuarios y la plataforma."
 			},
 			"suspension": {
-				"title": "13. التعليق والإغلاق ومعالجة الأموال",
-				"intro": "قد يقوم {siteName} بتعليق أو إغلاق الحسابات حيث:",
+				"title": "13. Suspensión, cierre y manejo de fondos",
+				"intro": "{siteName} puede suspender o cerrar cuentas donde:",
 				"items": [
-					"تم انتهاك الشروط",
-					"تم الكشف عن إساءة استخدام أو احتيال أو سلوك مشبوه",
-					"تتطلب الالتزامات القانونية أو التنظيمية ذلك"
+					"Se violen los términos",
+					"Se detecte abuso, fraude o comportamiento sospechoso",
+					"Lo requieran obligaciones legales o regulatorias"
 				],
-				"outro1": "عند إغلاق الحساب، قد يتم إلغاء الرهانات المعلقة ومعالجة الأموال المتبقية وفقًا للقانون المعمول به وسياسة المنصة.",
-				"outro2": "قد يحتفظ {siteName} بالأموال عند الضرورة لحل النزاعات أو الامتثال للطلبات القانونية أو معالجة الخسائر."
+				"outro1": "Al cerrar la cuenta, las apuestas pendientes pueden cancelarse y los fondos restantes se manejarán según la ley aplicable y la política de la plataforma.",
+				"outro2": "{siteName} puede retener fondos cuando sea necesario para resolver disputas, cumplir con solicitudes legales o remediar pérdidas."
 			},
 			"responsibleGaming": {
-				"title": "14. اللعب المسؤول",
+				"title": "14. Juego responsable",
 				"items": [
-					"يشجع {siteName} المقامرة المسؤولة. يمكنك طلب: الاستبعاد الذاتي، حدود الإيداع، أو التعليق المؤقت.",
-					"إذا كنت تشك في وجود ضرر من المقامرة، فقم بزيارة {siteDomain} للحصول على مساعدة فورية.",
-					"يُحظر تمامًا المقامرة دون السن القانونية (أقل من 18 عامًا أو السن القانوني المحلي). سيتم إغلاق الحسابات التي يتبين أنها تخص قاصرين ومعالجة الأموال وفقًا للسياسة."
+					"{siteName} promueve el juego responsable. Puedes solicitar: autoexclusión, límites de depósito o suspensión temporal.",
+					"Si sospechas que el juego te está perjudicando, visita {siteDomain} para obtener asistencia inmediata.",
+					"El juego de menores (menores de 18 años o la edad legal local) está estrictamente prohibido. Las cuentas que se descubra que pertenecen a menores se cerrarán y los fondos se manejarán según la política."
 				]
 			},
 			"ip": {
-				"title": "15. الملكية الفكرية",
-				"content1": "جميع العلامات التجارية والشعارات ومحتوى الموقع والبرامج وأصول اللعبة على {siteName} مملوكة أو مرخصة من قبل {siteName}. يُحظر النسخ غير المصرح به أو الكشط أو إعادة التوزيع.",
-				"content2": "يتم منحك ترخيصًا محدودًا وقابلًا للإلغاء للوصول إلى الخدمة للترفيه الشخصي فقط."
+				"title": "15. Propiedad intelectual",
+				"content1": "Todas las marcas comerciales, logotipos, contenido del sitio, software y activos de juegos en {siteName} son propiedad o están licenciados por {siteName}. Se prohíbe la copia, el raspado o la redistribución no autorizados.",
+				"content2": "Se te concede una licencia limitada y revocable para acceder al Servicio solo para entretenimiento personal."
 			},
 			"liability": {
-				"title": "16. تحديد المسؤولية",
+				"title": "16. Limitación de responsabilidad",
 				"items": [
-					"إلى أقصى حد يسمح به القانون، لن يكون {siteName} مسؤولاً عن الخسائر غير المباشرة أو الخاصة أو التبعية أو العرضية، بما في ذلك الأرباح المفقودة أو تكاليف الفرصة البديلة.",
-					"يجب ألا تتجاوز مسؤوليتنا الإجمالية عن أي مطالبة تتعلق بهذه الشروط قيمة إيداعك الأخير أو مبلغًا يحدده القانون المعمول به.",
-					"لا يوجد في هذه الشروط ما يحد من المسؤولية عن الوفاة أو الإصابة الشخصية الناجمة عن الإهمال حيث يحظر القانون المعمول به هذا التحديد."
+					"En la mayor medida permitida por la ley, {siteName} no será responsable de pérdidas indirectas, especiales, consecuentes o incidentales, incluidas las pérdidas de ganancias o costos de oportunidad.",
+					"Nuestra responsabilidad total por cualquier reclamo relacionado con estos Términos no excederá el valor de tu último depósito o un monto especificado por la ley aplicable.",
+					"Nada en estos Términos limita la responsabilidad por muerte o lesiones personales causadas por negligencia cuando la ley aplicable prohíbe dicha limitación."
 				]
 			},
 			"disputes": {
-				"title": "17. حل النزاعات والقانون الحاكم",
-				"content": "في حالة وجود نزاع، قم بزيارة {siteDomain}. نهدف إلى حل الشكاوى بسرعة؛ قم بالتصعيد إلى الإدارة إذا لزم الأمر."
+				"title": "17. Resolución de disputas y ley aplicable",
+				"content": "En caso de disputa, visita {siteDomain}. Nuestro objetivo es resolver las quejas rápidamente; escala a la gerencia si es necesario."
 			},
 			"amendments": {
-				"title": "18. التعديلات",
-				"content": "قد يقوم {siteName} بتعديل هذه الشروط في أي وقت. سيتم نشر الشروط المحدثة على الموقع. يعتبر الاستخدام المستمر قبولًا."
+				"title": "18. Modificaciones",
+				"content": "{siteName} puede modificar estos Términos en cualquier momento. Los Términos actualizados se publicarán en el Sitio web. El uso continuado constituye la aceptación."
 			},
 			"miscellaneous": {
-				"title": "19. أحكام متنوعة",
+				"title": "19. Varios",
 				"items": [
-					"تشكل هذه الشروط الاتفاقية الكاملة بينك وبين {siteName} فيما يتعلق بالخدمة.",
-					"إذا تم العثور على أي بند غير قابل للتنفيذ، فسيتم تعديله إلى الحد الأدنى الضروري وستظل الأحكام المتبقية سارية المفعول.",
-					"لا يجوز لك التنازل عن حقوقك بموجب هذه الشروط. يجوز لـ {siteName} التنازل عن الحقوق والالتزامات أو التعاقد من الباطن بشأنها."
+					"Estos Términos constituyen el acuerdo completo entre tú y {siteName} con respecto al Servicio.",
+					"Si alguna cláusula se considera inaplicable, se modificará en la medida mínima necesaria y las disposiciones restantes permanecerán en vigor.",
+					"No puedes ceder tus derechos en virtud de estos Términos. {siteName} puede ceder o subcontratar derechos y obligaciones."
 				]
 			},
 			"contact": {
-				"title": "20. الاتصال",
-				"intro": "للدعم أو الشكاوى أو الإشعارات القانونية:",
-				"supportEmail": "الدعم العام: قم بزيارة {siteDomain}",
-				"affiliateEmail": "استفسارات الشركاء التابعين: قم بزيارة {siteDomain}",
-				"registeredOffice": "المكتب المسجل: {siteName} N.V., Heelsumstraat 51, Willemstad, Curaçao"
+				"title": "20. Contacto",
+				"intro": "Para soporte, quejas o avisos legales:",
+				"supportEmail": "Soporte general: visita {siteDomain}",
+				"affiliateEmail": "Consultas de afiliados: visita {siteDomain}",
+				"registeredOffice": "Oficina registrada: {siteName} N.V., Heelsumstraat 51, Willemstad, Curazao"
 			}
 		}
 	},
 	"responsibleGambling": {
-		"title": "المقامرة المسؤولة - {siteName}",
-		"subtitle": "تعرف على المقامرة المسؤولة في {siteName}. ابق متحكمًا، والعب بمسؤولية، واحصل على الدعم من خلال منظمات المساعدة العالمية.",
-		"lastUpdated": "آخر تحديث: يناير 2025",
+		"title": "Juego responsable – {siteName}",
+		"subtitle": "Aprende sobre el juego responsable en {siteName}. Mantén el control, juega de forma responsable y obtén apoyo a través de organizaciones de ayuda globales.",
+		"lastUpdated": "Última actualización: Enero de 2025",
 		"intro": {
-			"title": "🎯 المقامرة المسؤولة - {siteName}",
-			"paragraph1": "في {siteName}، نحن ملتزمون بضمان بقاء الألعاب شكلاً آمنًا وممتعًا ومسؤولًا من أشكال الترفيه.|نحن نشجع مجتمعنا على اللعب بذكاء، والبقاء متحكمين، ومعاملة المقامرة كنشاط ترفيهي - وليس كمصدر للدخل أو الانتعاش المالي.",
-			"paragraph2": "نحن نحظر بشدة على جميع الأفراد الذين تقل أعمارهم عن 18 عامًا (أو الحد الأدنى لسن المقامرة القانوني في ولايتهم القضائية) الوصول إلى منصتنا أو استخدامها."
+			"title": "🎯 Juego responsable – {siteName}",
+			"paragraph1": "En {siteName}, estamos comprometidos a garantizar que el juego siga siendo una forma de entretenimiento segura, agradable y responsable.|Alentamos a nuestra comunidad a jugar de forma inteligente, mantener el control y tratar el juego como una actividad de ocio, no como una fuente de ingresos o recuperación financiera.",
+			"paragraph2": "Prohibimos estrictamente a todas las personas menores de 18 años (o la edad mínima legal para jugar en su jurisdicción) que accedan o usen nuestra plataforma."
 		},
 		"mission": {
-			"title": "⚖️ مهمتنا",
-			"paragraph1": "يشجع {siteName} الألعاب المسؤولة من خلال توفير بيئة شفافة وآمنة وموجهة نحو المجتمع.|مهمتنا هي مساعدة اللاعبين على اتخاذ قرارات مستنيرة ومنع المقامرة من أن تصبح مشكلة.",
-			"paragraph2": "نحن نؤمن بـ:",
+			"title": "⚖️ Nuestra misión",
+			"paragraph1": "{siteName} promueve el juego responsable al ofrecer un entorno transparente, seguro y impulsado por la comunidad.|Nuestra misión es ayudar a los jugadores a tomar decisiones informadas y evitar que el juego se convierta en un problema.",
+			"paragraph2": "Creemos en:",
 			"beliefs": {
-				"0": "المقامرة كترفيه، وليست وسيلة لكسب المال.",
-				"1": "تعزيز الوعي الذاتي والاعتدال.",
-				"2": "توفير أدوات وموارد الدعم لمنع السلوك المحفوف بالمخاطر."
+				"0": "El juego como entretenimiento, no como una forma de ganar dinero.",
+				"1": "Promover la autoconciencia y la moderación.",
+				"2": "Proporcionar herramientas y recursos de apoyo para prevenir comportamientos de riesgo."
 			}
 		},
 		"understanding": {
-			"title": "🧠 فهم المقامرة المسؤولة",
-			"paragraph1": "أصبحت المقامرة عبر الإنترنت أكثر سهولة من أي وقت مضى - ولكن هذا يعني أيضًا أنه من الأسهل أن تفقد noção بالوقت أو الرصيد أو الدافع.|المقامرة المسؤولة تعني معرفة حدودك، والبقاء على اطلاع، والحفاظ على السيطرة على لعبك.",
-			"paragraph2": "للحفاظ على تجربتك ممتعة وآمنة، تذكر:",
+			"title": "🧠 Entender el juego responsable",
+			"paragraph1": "El juego en línea es más accesible que nunca, pero eso también significa que es más fácil perder la noción del tiempo, el saldo o la motivación.|El juego responsable significa conocer tus límites, mantenerte informado y mantener el control sobre tu juego.",
+			"paragraph2": "Para mantener tu experiencia divertida y segura, recuerda:",
 			"tips": {
-				"0": "العب من أجل المتعة، وليس الربح.",
-				"1": "لا تطارد الخسائر - خذ فترات راحة عند الحاجة.",
-				"2": "ضع حدودًا شخصية للإنفاق والوقت.",
-				"3": "لا تقامر أبدًا إذا كنت متوترًا أو متعبًا أو منزعجًا.",
-				"4": "تجنب المقامرة بأموال مخصصة لنفقات أخرى.",
-				"5": "إذا توقفت المقامرة عن كونها ممتعة، فقد حان الوقت للتراجع."
+				"0": "Juega por diversión, no por ganancias.",
+				"1": "No persigas las pérdidas, toma descansos cuando sea necesario.",
+				"2": "Establece límites personales de gasto y tiempo.",
+				"3": "Nunca juegues si estás estresado, cansado o molesto.",
+				"4": "Evita jugar con dinero destinado a otros gastos.",
+				"5": "Si el juego deja de ser divertido, es hora de dar un paso atrás."
 			}
 		},
 		"selfCheck": {
-			"title": "🧩 فحص ذاتي: هل تقامر بمسؤولية؟",
-			"intro": "اسأل نفسك هذه الأسئلة بصدق:",
+			"title": "🧩 Autoevaluación: ¿Estás jugando de forma responsable?",
+			"intro": "Hazte estas preguntas honestamente:",
 			"questions": {
-				"0": "هل تقامر أحيانًا لفترة أطول من المخطط لها؟",
-				"1": "هل أثرت المقامرة على علاقاتك أو عملك؟",
-				"2": "هل تشعر بالانزعاج عندما لا تستطيع اللعب؟",
-				"3": "هل تقامر للهروب من التوتر أو الملل؟",
-				"4": "هل سبق لك أن اقترضت عملات مشفرة أو أموالًا لمواصلة المقامرة؟",
-				"5": "هل تحاول غالبًا استرداد الخسائر السابقة بالمراهنة أكثر؟"
+				"0": "¿Alguna vez juegas más tiempo del previsto?",
+				"1": "¿El juego ha afectado tus relaciones o tu trabajo?",
+				"2": "¿Te sientes irritado cuando no puedes jugar?",
+				"3": "¿Juegas para escapar del estrés o el aburrimiento?",
+				"4": "¿Alguna vez has pedido prestado criptomonedas o dinero para seguir jugando?",
+				"5": "¿A menudo intentas recuperar pérdidas anteriores apostando más?"
 			},
-			"warning": "إذا أجبت بـ \"نعم\" على العديد من هذه الأسئلة، فقد تحتاج إلى مراجعة عاداتك في المقامرة وطلب المساعدة."
+			"warning": "Si respondiste \"sí\" a varias de estas preguntas, es posible que necesites revisar tus hábitos de juego y buscar ayuda."
 		},
 		"tools": {
-			"title": "🛡️ ما يقدمه {siteName} لمساعدتك على البقاء متحكمًا",
-			"intro": "نريد أن يستمتع جميع اللاعبين بالمقامرة بأمان ومسؤولية.|تتضمن منصتنا العديد من الأدوات والموارد المصممة لمساعدتك على إدارة طريقة لعبك.",
+			"title": "🛡️ Qué ofrece {siteName} para ayudarte a mantener el control",
+			"intro": "Queremos que todos los jugadores disfruten del juego de forma segura y responsable.|Nuestra plataforma incluye varias herramientas y recursos diseñados para ayudarte a gestionar tu juego.",
 			"selfExclusion": {
-				"title": "🔹 الاستبعاد الذاتي",
-				"description": "يمكنك طلب استبعاد ذاتي مؤقت أو دائم من حسابك. خلال هذه الفترة، سيتم تقييد وصولك، ولن تتلقى مواد ترويجية.|لبدء الاستبعاد الذاتي، اتصل بـ {siteDomain} - سيساعدك فريقنا بسرية."
+				"title": "🔹 Autoexclusión",
+				"description": "Puedes solicitar una autoexclusión temporal o permanente de tu cuenta. Durante este período, tu acceso estará restringido y no recibirás materiales promocionales.|Para iniciar la autoexclusión, contacta a {siteDomain}, nuestro equipo te ayudará de forma confidencial."
 			},
 			"coolingOff": {
-				"title": "🔹 فترات التهدئة",
-				"paragraph1": "هل تشعر بالإرهاق أو تحتاج فقط إلى استراحة؟|يمكنك أخذ فترة تهدئة لمدة:",
+				"title": "🔹 Períodos de enfriamiento",
+				"paragraph1": "¿Te sientes abrumado o simplemente necesitas un descanso?|Puedes tomar un período de enfriamiento de:",
 				"periods": {
-					"0": "24 ساعة",
-					"1": "أسبوع واحد",
-					"2": "شهر واحد"
+					"0": "24 horas",
+					"1": "1 semana",
+					"2": "1 mes"
 				},
-				"paragraph2": "خلال هذا الوقت، سيتم تعطيل اتصال محفظتك للعب."
+				"paragraph2": "Durante este tiempo, la conexión de tu billetera estará deshabilitada para jugar."
 			},
 			"depositAwareness": {
-				"title": "🔹 الوعي بالإيداع والخسارة",
-				"description": "نظرًا لأن {siteName} يعمل حصريًا عبر محافظ العملات المشفرة، يمكن للاعبين مراقبة جميع الإيداعات والمعاملات على السلسلة بسهولة.|نحن نشجعك على مراجعة نشاط محفظتك بانتظام للبقاء على دراية بحجم لعبك الإجمالي."
+				"title": "🔹 Conciencia de depósitos y pérdidas",
+				"description": "Dado que {siteName} opera exclusivamente a través de billeteras de criptomonedas, los jugadores pueden monitorear fácilmente todos los depósitos y transacciones en la cadena.|Te animamos a revisar la actividad de tu billetera regularmente para estar al tanto de tu volumen total de juego."
 			}
 		},
 		"underagePrevention": {
-			"title": "👶 منع المقامرة دون السن القانونية",
-			"paragraph1": "يُحظر تمامًا المقامرة من قبل أي شخص يقل عمره عن 18 عامًا.|نحن نأخذ المقامرة دون السن القانونية على محمل الجد ونشجع على عدم القيام بها بنشاط.",
-			"tipsTitle": "نصائح للآباء والأوصياء:",
+			"title": "👶 Prevención del juego de menores",
+			"paragraph1": "El juego por parte de cualquier persona menor de 18 años está estrictamente prohibido.|Nos tomamos muy en serio el juego de menores y lo desalentamos activamente.",
+			"tipsTitle": "Consejos para padres y tutores:",
 			"tips": {
-				"0": "استخدم كلمات المرور أو قفل الوصول على الأجهزة.",
-				"1": "تجنب تخزين بيانات اعتماد المحفظة أو عبارات الاسترداد على الأجهزة المشتركة.",
-				"2": "قم بتسجيل الخروج من {siteName} عند ترك جهازك دون رقابة.",
-				"3": "استخدم مرشحات المحتوى مثل NetNanny أو GamBlock لتقييد الوصول.",
-				"4": "راقب بانتظام أنشطة الأطفال عبر الإنترنت."
+				"0": "Usa contraseñas o bloquea el acceso en los dispositivos.",
+				"1": "Evita almacenar credenciales de billetera o frases de recuperación en dispositivos compartidos.",
+				"2": "Cierra la sesión de {siteName} al dejar tu dispositivo desatendido.",
+				"3": "Usa filtros de contenido como NetNanny o GamBlock para restringir el acceso.",
+				"4": "Monitorea regularmente las actividades en línea de los niños."
 			},
-			"warning": "إذا تم الكشف عن المقامرة دون السن القانونية، فسيتم إغلاق الحساب على الفور ومصادرة أي أرباح."
+			"warning": "Si se detecta juego de menores, la cuenta se cerrará de inmediato y se confiscarán las ganancias."
 		},
 		"helpSupport": {
-			"title": "❤️ المساعدة والدعم",
-			"intro": "إذا شعرت يومًا أن المقامرة تؤثر على صحتك العقلية أو العاطفية أو المالية، فأنت لست وحدك.|فيما يلي منظمات عالمية موثوقة تقدم مساعدة مجانية وسرية:",
+			"title": "❤️ Ayuda y soporte",
+			"intro": "Si alguna vez sientes que el juego está afectando tu salud mental, emocional o financiera, no estás solo.|A continuación se presentan organizaciones globales de confianza que brindan ayuda gratuita y confidencial:",
 			"organizations": {
 				"0": {
 					"name": "GamCare",
@@ -1841,152 +1841,152 @@
 					"url": "https://www.gamtalk.org"
 				}
 			},
-			"paragraph2": "توفر هذه الموارد أدوات تقييم ذاتي ودردشة عبر الإنترنت ومجموعات دعم محلية في جميع أنحاء العالم."
+			"paragraph2": "Estos recursos ofrecen herramientas de autoevaluación, chat en línea y grupos de apoyo locales en todo el mundo."
 		},
 		"principles": {
-			"title": "⚙️ مبادئ اللعب المسؤول في {siteName}",
-			"intro": "في {siteName}، نتمسك بهذه المبادئ الأساسية:",
+			"title": "⚙️ Principios de juego responsable en {siteName}",
+			"intro": "En {siteName}, mantenemos estos principios básicos:",
 			"items": {
 				"0": {
-					"title": "الشفافية:",
-					"description": "كل لعبة ونتيجة عادلة بشكل يمكن إثباته ويتم التحقق منها على البلوك تشين."
+					"title": "Transparencia:",
+					"description": "Cada juego y resultado es probadamente justo y verificado en la blockchain."
 				},
 				"1": {
-					"title": "الأمان:",
-					"description": "جميع الجلسات محمية من خلال تسجيل الدخول بمحفظة Dynamic.xyz - لا حاجة لكلمات مرور أو التحقق من الهوية."
+					"title": "Seguridad:",
+					"description": "Todas las sesiones están protegidas a través del inicio de sesión con billetera Dynamic.xyz, no se necesitan contraseñas ni KYC."
 				},
 				"2": {
-					"title": "الاستقلالية:",
-					"description": "أنت تتحكم في طريقة لعبك؛ يمكنك قطع الاتصال في أي وقت."
+					"title": "Autonomía:",
+					"description": "Tú controlas tu juego; puedes desconectarte en cualquier momento."
 				},
 				"3": {
-					"title": "التثقيف:",
-					"description": "نحن نعزز الوعي ونساعد اللاعبين على فهم المخاطر."
+					"title": "Educación:",
+					"description": "Promovemos la conciencia y ayudamos a los jugadores a comprender los riesgos."
 				},
 				"4": {
-					"title": "دعم المجتمع:",
-					"description": "فريق الدعم لدينا متاح على مدار الساعة طوال أيام الأسبوع لإرشادك نحو عادات لعب صحية."
+					"title": "Soporte comunitario:",
+					"description": "Nuestro equipo de soporte está disponible 24/7 para guiarte hacia hábitos de juego saludables."
 				}
 			}
 		},
 		"playSmart": {
-			"title": "🎮 تذكر - العب بذكاء",
-			"intro": "يجب أن تكون المقامرة دائمًا ممتعة واجتماعية ومتوازنة.|ضع هذه التذكيرات الرئيسية في الاعتبار:",
+			"title": "🎮 Recuerda: juega inteligentemente",
+			"intro": "El juego siempre debe ser divertido, social y equilibrado.|Ten en cuenta estos recordatorios clave:",
 			"reminders": {
-				"0": "حدد حدًا زمنيًا قبل أن تبدأ.",
-				"1": "لا تطارد الخسائر أبدًا أو تلعب تحت ضغط عاطفي.",
-				"2": "تعامل مع الأرباح كمكافأة، وليس كدخل.",
-				"3": "حافظ على المقامرة منفصلة عن عملك وعلاقاتك.",
-				"4": "توقف عن اللعب عندما تتوقف المتعة."
+				"0": "Establece un límite de tiempo antes de empezar.",
+				"1": "Nunca persigas las pérdidas ni juegues bajo estrés emocional.",
+				"2": "Trata las ganancias como un bono, no como un ingreso.",
+				"3": "Mantén el juego separado de tu trabajo y tus relaciones.",
+				"4": "Deja de jugar cuando deje de ser divertido."
 			}
 		},
 		"finalMessage": {
-			"paragraph1": "في {siteName}، رفاهيتك هي أولويتنا القصوى.|نحن نشجع كل لاعب على اتخاذ خيارات واعية ومستنيرة والاستمتاع بتجربة لعب آمنة.",
-			"paragraph2": "إذا كنت بحاجة إلى نصيحة أو مساعدة أو دعم للاستبعاد الذاتي، فاتصل بنا على",
+			"paragraph1": "En {siteName}, tu bienestar es nuestra máxima prioridad.|Alentamos a cada jugador a tomar decisiones conscientes e informadas y a disfrutar de una experiencia de juego segura.",
+			"paragraph2": "Si necesitas consejos, asistencia o apoyo para la autoexclusión, contáctanos en",
 			"contact": "📧 {siteDomain}"
 		}
 	},
 	"faqs": {
-		"title": "الأسئلة الشائعة - {siteName}",
-		"subtitle": "ابحث عن إجابات للأسئلة الشائعة حول {siteName}. تعرف على تسجيل الدخول بالمحفظة والإيداعات والسحوبات واللعب النظيف وشفافية البلوك تشين.",
-		"introTitle": "الأسئلة الشائعة - {siteName}",
-		"intro": "مرحبًا بك في مركز الأسئلة الشائعة لـ {siteName}، حيث ستجد إجابات سريعة على الأسئلة الأكثر شيوعًا حول منصة ألعاب العملات المشفرة الخاصة بنا.|إذا لم تتمكن من العثور على إجابتك هنا، فإن فريق الدعم لدينا المتاح على مدار الساعة طوال أيام الأسبوع جاهز دائمًا للمساعدة في {siteName}.",
-		"lastUpdated": "آخر تحديث: يناير 2025",
+		"title": "Preguntas frecuentes – {siteName}",
+		"subtitle": "Encuentra respuestas a las preguntas comunes de {siteName}. Aprende sobre el inicio de sesión con billetera, depósitos, retiros, juego justo y transparencia de la blockchain.",
+		"introTitle": "Preguntas frecuentes – {siteName}",
+		"intro": "Bienvenido al Centro de preguntas frecuentes de {siteName}, donde encontrarás respuestas rápidas a las preguntas más comunes sobre nuestra plataforma de juegos con criptomonedas.|Si no encuentras tu respuesta aquí, nuestro equipo de soporte 24/7 siempre está listo para ayudar en {siteName}.",
+		"lastUpdated": "Última actualización: Enero de 2025",
 		"blockchainTransparency": {
-			"title": "🧩 شفافية البلوك تشين",
-			"paragraph1": "{siteName} مدعوم بعقود ذكية قائمة على الإيثريوم، مما يضمن تسجيل كل رهان ومعاملة ومكافأة بشفافية على السلسلة.|جميع البيانات ومنطق اللعبة غير قابل للتغيير ويمكن التحقق منه، مما يضمن العدالة الحقيقية والقدرة على التدقيق.",
-			"paragraph2": "يمكنك تتبع جميع معاملات المنصة من خلال المستكشفات العامة مثل:",
+			"title": "🧩 Transparencia de la blockchain",
+			"paragraph1": "{siteName} funciona con contratos inteligentes basados en Ethereum, lo que garantiza que cada apuesta, transacción y recompensa se registre de forma transparente en la cadena.|Todos los datos y la lógica del juego son inmutables y verificables, lo que garantiza una verdadera equidad y auditabilidad.",
+			"paragraph2": "Puedes rastrear todas las transacciones de la plataforma a través de exploradores públicos como:",
 			"explorersTitle": "",
-			"guarantee": "هذا يضمن عدم حدوث أي تلاعب أو تحيز - على الإطلاق."
+			"guarantee": "Esto garantiza que no pueda ocurrir ninguna manipulación o sesgo, nunca."
 		},
 		"categories": {
 			"accountRegistration": {
-				"title": "🔹 الحساب والتسجيل",
+				"title": "🔹 Cuenta y registro",
 				"items": {
 					"0": {
-						"question": "1. هل يمكنني التسجيل على موقعكم؟",
-						"answer": "نعم - التسجيل مفتوح لأي شخص يبلغ من العمر 18 عامًا أو أكثر (أو السن القانوني للرشد في ولايتك القضائية).|يجب عليك أيضًا التأكد من أن الألعاب عبر الإنترنت قانونية في مكان إقامتك.|في {siteName}، لا تحتاج إلى عمليات تسجيل تقليدية أو كلمات مرور.|ما عليك سوى ربط محفظتك عبر Dynamic.xyz لبدء اللعب على الفور.|👉 للحصول على التفاصيل القانونية وتفاصيل الامتثال، يرجى مراجعة الشروط والأحكام الخاصة بنا.",
-						"reminder": "تذكير: يمكن أن تكون المقامرة إدمانية. يرجى اللعب بمسؤولية ومعرفة حدودك."
+						"question": "1. ¿Puedo registrarme en su sitio web?",
+						"answer": "Sí, el registro está abierto a cualquier persona mayor de 18 años (o la edad legal de mayoría en tu jurisdicción).|También debes asegurarte de que los juegos en línea sean legales donde resides.|En {siteName}, no necesitas registros ni contraseñas tradicionales.|Simplemente conecta tu billetera a través de Dynamic.xyz para comenzar a jugar al instante.|👉 Para obtener detalles legales y de cumplimiento, revisa nuestros Términos y condiciones.",
+						"reminder": "Recordatorio: El juego puede ser adictivo. Por favor, juega de forma responsable y conoce tus límites."
 					},
 					"1": {
-						"question": "2. ماذا لو نسيت تفاصيل تسجيل الدخول الخاصة بي؟",
-						"answer": "نظرًا لأن {siteName} يستخدم تسجيل الدخول القائم على المحفظة عبر Dynamic.xyz، فإنك لا تستخدم كلمات مرور تقليدية.|للوصول إلى حسابك مرة أخرى:|أعد توصيل محفظتك باستخدام نفس العنوان الذي استخدمته في الأصل.|إذا فقدت الوصول إلى محفظتك، فيرجى استعادتها باستخدام عبارة الاسترداد أو طريقة النسخ الاحتياطي (نحن لا نخزن أو نتحكم أبدًا في المفاتيح الخاصة).|لا يمكن لـ {siteName} إعادة تعيين أو استرداد بيانات اعتماد محفظتك لأسباب أمنية."
+						"question": "2. ¿Qué pasa si olvido mis datos de inicio de sesión?",
+						"answer": "Dado que {siteName} utiliza el inicio de sesión basado en billetera a través de Dynamic.xyz, no usas contraseñas tradicionales.|Para acceder a tu cuenta de nuevo:|Vuelve a conectar tu billetera usando la misma dirección que usaste originalmente.|Si has perdido el acceso a tu billetera, restáurala con tu frase semilla o método de respaldo (nunca almacenamos ni controlamos claves privadas).|{siteName} no puede restablecer ni recuperar las credenciales de tu billetera por razones de seguridad."
 					},
 					"2": {
-						"question": "3. هل يمكنني تغيير اسم المستخدم أو المحفظة المرتبطة؟",
-						"answer": "حسابك في {siteName} مرتبط بعنوان محفظتك.|لاستخدام محفظة جديدة، ما عليك سوى توصيل محفظة جديدة - ولكن لاحظ أن سجل الألعاب السابق وحالة VIP والمكافآت لن يتم نقلها تلقائيًا."
+						"question": "3. ¿Puedo cambiar mi nombre de usuario o billetera vinculada?",
+						"answer": "Tu cuenta de {siteName} está vinculada a la dirección de tu billetera.|Para usar una nueva billetera, simplemente conecta una nueva, pero ten en cuenta que tu historial de juego anterior, tu estado VIP y tus bonos no se transferirán automáticamente."
 					},
 					"3": {
-						"question": "4. كيف أصبح عضو VIP؟",
-						"answer": "برنامج VIP الخاص بنا حصري ويعتمد على الدعوة فقط.|أثناء اللعب والتفاعل مع مجتمع {siteName}، يتم تتبع نشاط الألعاب الخاص بك تلقائيًا.|بمجرد أن تصبح مؤهلاً، ستتلقى دعوة رسمية عبر إشعار داخل المنصة أو رسالة مباشرة من فريق {siteName}.|يتمتع أعضاء VIP بالوصول إلى مكافآت حصرية وسحوبات أسرع ومكافآت مخصصة."
+						"question": "4. ¿Cómo me convierto en miembro VIP?",
+						"answer": "Nuestro programa VIP es exclusivo y solo por invitación.|A medida que juegas e interactúas con la comunidad de {siteName}, tu actividad de juego se rastrea automáticamente.|Una vez que seas elegible, recibirás una invitación oficial a través de una notificación en la plataforma o un mensaje directo del equipo de {siteName}.|Los VIP disfrutan de acceso a bonos exclusivos, retiros más rápidos y recompensas personalizadas."
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "💰 الإيداعات والسحوبات",
+				"title": "💰 Depósitos y retiros",
 				"items": {
 					"0": {
-						"question": "5. كيف أودع العملات المشفرة؟",
-						"answer": "الإيداع في {siteName} سريع وبسيط:|اذهب إلى \"محفظتي\" في لوحة التحكم الرئيسية.|اختر إيداع وحدد العملة المشفرة المفضلة لديك (على سبيل المثال، BTC، ETH، USDT، BNB).|انسخ عنوان محفظتك الفريد أو امسح رمز الاستجابة السريعة.|أرسل عملتك المشفرة من محفظتك الخارجية إلى العنوان المعروض.|بمجرد تأكيدها على البلوك تشين، ستظهر أموالك في رصيد {siteName} تلقائيًا.|⚠️ تأكد من أنك ترسل فقط العملات المشفرة المدعومة إلى شبكة العنوان الصحيحة (على سبيل المثال، ERC20، TRC20، BEP20)."
+						"question": "5. ¿Cómo deposito criptomonedas?",
+						"answer": "Depositar en {siteName} es rápido y simple:|Ve a \"Mi billetera\" en el panel principal.|Elige Depositar y selecciona tu criptomoneda preferida (p. ej., BTC, ETH, USDT, BNB).|Copia tu dirección de billetera única o escanea el código QR.|Envía tus criptomonedas desde tu billetera externa a la dirección que se muestra.|Una vez confirmados en la blockchain, tus fondos aparecerán en tu saldo de {siteName} automáticamente.|⚠️ Asegúrate de enviar solo criptomonedas compatibles a la red de dirección correcta (p. ej., ERC20, TRC20, BEP20)."
 					},
 					"1": {
-						"question": "6. كم من الوقت تستغرق الإيداعات؟",
-						"answer": "عادة ما يتم تأكيد الإيداعات في غضون 5-10 دقائق، اعتمادًا على ازدحام البلوك تشين ورسوم المعاملات.|يمكنك تتبع تقدم معاملتك من خلال مستكشف الكتل (على سبيل المثال، Etherscan.io أو BscScan.com) باستخدام تجزئة المعاملة (TXID).|عادة ما يكون مطلوبًا ما لا يقل عن 3 تأكيدات لظهور إيداعك في رصيدك."
+						"question": "6. ¿Cuánto tardan los depósitos?",
+						"answer": "Los depósitos suelen confirmarse en 5 a 10 minutos, dependiendo de la congestión de la blockchain y las tarifas de transacción.|Puedes rastrear el progreso de tu transacción a través de un explorador de bloques (p. ej., Etherscan.io o BscScan.com) usando tu hash de transacción (TXID).|Normalmente se requiere un mínimo de 3 confirmaciones para que tu depósito aparezca en tu saldo."
 					},
 					"2": {
-						"question": "7. ما هو الحد الأدنى لمبلغ السحب؟",
-						"answer": "يعتمد الحد الأدنى لمبلغ السحب على العملة المشفرة التي تستخدمها.|لكل عملة رسوم شبكة خاصة بها وحد أدنى.|يتم عرض هذه القيم في قسم السحب تحت \"محفظتي\"."
+						"question": "7. ¿Cuál es el monto mínimo de retiro?",
+						"answer": "El monto mínimo de retiro depende de la criptomoneda que estés utilizando.|Cada moneda tiene su propia tarifa de red y umbral mínimo.|Estos valores se muestran en la sección Retirar en \"Mi billetera\"."
 					},
 					"3": {
-						"question": "8. كيف أسحب أرباحي؟",
-						"answer": "لسحب عملتك المشفرة:|اذهب إلى \"محفظتي\" ← \"سحب\".|أدخل عنوان محفظة الوجهة والمبلغ الذي ترغب في سحبه.|تحقق مرة أخرى من عنوانك ونوع الشبكة قبل التأكيد.|تتم معالجة السحوبات على الفور، ولكن قد تستغرق بضع دقائق اعتمادًا على نشاط شبكة البلوك تشين.|💡 تأكد دائمًا من أن محفظتك المستقبلة تدعم الشبكة التي تسحب منها."
+						"question": "8. ¿Cómo retiro mis ganancias?",
+						"answer": "Para retirar tus criptomonedas:|Ve a \"Mi billetera\" → \"Retirar\".|Introduce tu dirección de billetera de destino y el monto que deseas retirar.|Verifica dos veces tu dirección y tipo de red antes de confirmar.|Los retiros se procesan al instante, pero pueden tardar unos minutos dependiendo de la actividad de la red de la blockchain.|💡 Siempre asegúrate de que tu billetera receptora sea compatible con la red desde la que estás retirando."
 					},
 					"4": {
-						"question": "9. ماذا لو تأخرت معاملتي؟",
-						"answer": "تستغرق معاملات البلوك تشين أحيانًا وقتًا أطول بسبب ازدحام الشبكة أو انخفاض رسوم الغاز.|إذا لم يصل إيداعك أو سحبك:|تحقق من TXID الخاص بك على مستكشف البلوك تشين.|تأكد من أنك استخدمت الشبكة والعنوان الصحيحين.|إذا مر أكثر من ساعة، فاتصل بـ {siteDomain} مع TXID الخاص بك وتفاصيل المحفظة."
+						"question": "9. ¿Qué pasa si mi transacción se retrasa?",
+						"answer": "Las transacciones de la blockchain a veces tardan más debido a la congestión de la red o a bajas tarifas de gas.|Si tu depósito o retiro no ha llegado:|Verifica tu TXID en el explorador de la blockchain.|Confirma que usaste la red y la dirección correctas.|Si ha pasado más de una hora, contacta a {siteDomain} con tu TXID y los detalles de tu billetera."
 					}
 				}
 			},
 			"gamesSecurity": {
-				"title": "🎮 الألعاب والعدالة والأمان",
+				"title": "🎮 Juegos, equidad y seguridad",
 				"items": {
 					"0": {
-						"question": "10. هل ألعاب {siteName} عادلة؟",
-						"answer": "نعم - جميع ألعاب {siteName} مبنية باستخدام تقنية عادلة يمكن إثباتها وعقود ذكية معتمدة.|يمكن التحقق من كل رهان ونتيجة ودفع بشكل مستقل على البلوك تشين.|نحن نعمل على أنظمة شفافة ومقاومة للعبث تضمن العشوائية والعدالة والانفتاح.|يمكنك عرض نتائج اللعبة وإثباتات المعاملات على السلسلة من خلال Etherscan أو مستكشف الشبكة المعني."
+						"question": "10. ¿Son justos los juegos de {siteName}?",
+						"answer": "Sí, todos los juegos de {siteName} están construidos con tecnología probadamente justa y contratos inteligentes verificados.|Cada apuesta, resultado y pago puede verificarse de forma independiente en la blockchain.|Operamos en sistemas transparentes y a prueba de manipulaciones que garantizan la aleatoriedad, la equidad y la apertura.|Puedes ver los resultados de los juegos y las pruebas de las transacciones en la cadena a través de Etherscan o el explorador de red respectivo."
 					},
 					"1": {
-						"question": "11. ماذا أفعل إذا تجمدت اللعبة أو تعطلت؟",
-						"answer": "إذا توقفت لعبتك عن الاستجابة:|قم بتحديث الصفحة.|امسح ذاكرة التخزين المؤقت للمتصفح وأعد توصيل محفظتك.|إذا استمرت المشكلة، فاتصل بفريق الدعم لدينا عبر الدردشة المباشرة أو {siteDomain}.|سيساعدك فريقنا في استعادة جلسة اللعبة أو الرصيد إذا تأثر."
+						"question": "11. ¿Qué debo hacer si un juego se congela o se bloquea?",
+						"answer": "Si tu juego deja de responder:|Actualiza la página.|Limpia la caché de tu navegador y vuelve a conectar tu billetera.|Si el problema persiste, contacta a nuestro equipo de soporte a través del chat en vivo o {siteDomain}.|Nuestro equipo te ayudará a restaurar tu sesión de juego o tu saldo si se ha visto afectado."
 					},
 					"2": {
-						"question": "12. هل يمكنني استخدام أكثر من محفظة أو حساب واحد؟",
-						"answer": "لا.|يُسمح لكل لاعب باستخدام عنوان محفظة واحد كحسابه الأساسي.|يُحظر تمامًا إنشاء حسابات متعددة أو استخدام دورات المحفظة للمطالبة بالمكافآت أو استغلال العروض الترويجية وقد يؤدي إلى تقييد الحساب أو مصادرة الرصيد."
+						"question": "12. ¿Puedo usar más de una billetera o cuenta?",
+						"answer": "No.|A cada jugador se le permite usar una dirección de billetera como su cuenta principal.|Está estrictamente prohibido crear múltiples cuentas o usar rotaciones de billetera para reclamar bonos o explotar promociones, y puede resultar en la restricción de la cuenta o la confiscación del saldo."
 					},
 					"3": {
-						"question": "13. هل بياناتي الشخصية آمنة؟",
-						"answer": "نعم.|في {siteName}، لا نجمع بيانات شخصية - تظل هويتك آمنة.|تتم إدارة الوصول من خلال Dynamic.xyz، مما يضمن الخصوصية الكاملة وملكية هويتك الرقمية.|لا يتم تخزين أي كلمات مرور أو رسائل بريد إلكتروني أو مستندات حساسة من قبلنا.|محفظتك = هويتك."
+						"question": "13. ¿Están seguros mis datos personales?",
+						"answer": "Sí.|En {siteName}, no recopilamos datos personales, tu identidad permanece segura.|El acceso se gestiona a través de Dynamic.xyz, lo que garantiza total privacidad y propiedad de tu identidad digital.|No almacenamos contraseñas, correos electrónicos ni documentos sensibles.|Tu billetera = tu identidad."
 					}
 				}
 			},
 			"responsibleGambling": {
-				"title": "🧠 المقامرة المسؤولة",
+				"title": "🧠 Juego responsable",
 				"items": {
 					"0": {
-						"question": "14. هل يدعم {siteName} المقامرة المسؤولة؟",
-						"answer": "بالتأكيد.|نحن نشجع كل لاعب على الاستمتاع بالألعاب باعتدال.|يمكنك طلب فترة استبعاد ذاتي أو أخذ استراحة تهدئة في أي وقت عن طريق الاتصال بـ {siteDomain}.|إذا شعرت أن المقامرة تؤثر على حياتك، فقم بزيارة صفحة المقامرة المسؤولة الخاصة بنا للحصول على الموارد ومنظمات المساعدة."
+						"question": "14. ¿{siteName} apoya el juego responsable?",
+						"answer": "Absolutamente.|Alentamos a cada jugador a disfrutar del juego con moderación.|Puedes solicitar un período de autoexclusión o tomar un descanso de enfriamiento en cualquier momento contactando a {siteDomain}.|Si sientes que el juego está afectando tu vida, visita nuestra página de Juego responsable para obtener recursos y organizaciones de ayuda."
 					},
 					"1": {
-						"question": "15. ماذا أفعل إذا شككت في وجود مشكلة في المقامرة؟",
-						"answer": "إذا شعرت أن مقامرتك تخرج عن السيطرة، فخذ استراحة وتواصل مع إحدى هذه المنظمات الموثوقة للحصول على مساعدة سرية:|GamCare: GamCare - مؤسس خط المساعدة الوطني للمقامرة|Gambling Therapy: Gambling Therapy - نصائح ودعم لمشكلة المقامرة|Gamblers Anonymous: GA Gävle - الاثنين|يمكن لفريق الدعم لدينا أيضًا إرشادك بشأن تقييد الوصول إلى حسابك بأمان."
+						"question": "15. ¿Qué debo hacer si sospecho que tengo un problema con el juego?",
+						"answer": "Si sientes que tu juego se está descontrolando, tómate un descanso y contacta a una de estas organizaciones de confianza para obtener ayuda confidencial:|GamCare: GamCare - Fundador de la Línea Nacional de Ayuda para el Juego|Gambling Therapy: Gambling Therapy - Asesoramiento y apoyo para problemas de juego|Gamblers Anonymous: GA Gävle - Lunes|Nuestro equipo de soporte también puede guiarte para limitar el acceso a tu cuenta de forma segura."
 					}
 				}
 			}
 		},
 		"needMoreHelp": {
-			"title": "💬 هل تحتاج إلى مزيد من المساعدة؟",
-			"intro": "فريق الدعم لدينا متاح على مدار الساعة طوال أيام الأسبوع لمساعدتك عبر:",
+			"title": "💬 ¿Necesitas más ayuda?",
+			"intro": "Nuestro equipo de soporte está disponible 24/7 para ayudarte a través de:",
 			"contactTitle": "",
-			"liveChat": "💬 الدردشة المباشرة (متاحة داخل لوحة التحكم المرتبطة بمحفظتك)"
+			"liveChat": "💬 Chat en vivo (disponible dentro de tu panel de control conectado a la billetera)"
 		}
 	}
 }
