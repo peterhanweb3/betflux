@@ -48,8 +48,7 @@ export const PROVIDER_SLUG_MAP: Record<string, ProviderName> = {
 	playtech: "Playtech",
 	"poggi-play": "Poggi Play",
 	"pragmatic-live": "Pragmatic Live",
-	"pragmatic-slot": "Pragmatic Slot",
-	"pragmatic-play": "Pragmatic Slot", // Alias
+	"pragmatic-play": "Pragmatic Play ", // Alias
 	"red-tiger": "Red Tiger",
 	relax: "Relax",
 	"relax-gaming": "Relax", // Alias
@@ -87,7 +86,7 @@ export function slugToProviderName(
 
 	// Special case: "pragmatic-play" should return both Pragmatic providers
 	if (normalized === "pragmatic-play") {
-		return ["Pragmatic Live", "Pragmatic Slot"];
+		return ["Pragmatic Live", "Pragmatic Play "];
 	}
 
 	return PROVIDER_SLUG_MAP[normalized] || null;
