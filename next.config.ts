@@ -85,7 +85,7 @@ const nextConfig: NextConfig = {
 		// Enable optimistic client cache
 		optimisticClientCache: true,
 		// Enable CSS chunking
-		optimizeCss: true,
+		// optimizeCss: true,
 	},
 
 	// Production build optimizations - AGGRESSIVE
