@@ -34,7 +34,7 @@
 
 //   const queryParams = new URLSearchParams({
 //     vendor: game.vendor_name,
-//     gameType: game.own_game_type,
+//     gameType: game.category,
 //     gpId: String(game.gp_id),
 //   }).toString();
 //   const gameUrl = `/play/${game.game_id}?${queryParams}`;
@@ -174,7 +174,7 @@
 
 //   const queryParams = new URLSearchParams({
 //     vendor: game.vendor_name,
-//     gameType: game.own_game_type,
+//     gameType: game.category,
 //     gpId: String(game.gp_id),
 //   }).toString();
 //   const gameUrl = `/play/${game.game_id}?${queryParams}`;
@@ -250,7 +250,7 @@
 
 //   const queryParams = new URLSearchParams({
 //     vendor: game.vendor_name,
-//     gameType: game.own_game_type,
+//     gameType: game.category,
 //     gpId: String(game.gp_id),
 //   }).toString();
 //   const gameUrl = `/play/${game.game_id}?${queryParams}`;

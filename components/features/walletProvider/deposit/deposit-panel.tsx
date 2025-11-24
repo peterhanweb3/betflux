@@ -55,6 +55,7 @@ export const DepositPanel = memo(
 			isDepositDisabled,
 			resetPage,
 			isBalanceInsufficient,
+
 			// --- NEWLY ADDED STATE FOR UI ---
 			formattedBalance,
 			// usdtConversionAmount,

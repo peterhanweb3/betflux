@@ -16,7 +16,7 @@ import { headers } from "next/headers";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	// Get the current domain from headers (supports multi-TLD)
 	const headersList = await headers();
-	const host = headersList.get("host") || "betflux.games";
+	const host = headersList.get("host") || "betflux.io";
 	const protocol = host.includes("localhost") ? "http" : "https";
 	const baseUrl = `${protocol}://${host}`;
 
@@ -97,15 +97,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	});
 
 	// ============================================
-	// TIER 4: Category Combos (Priority 0.6)
+	// TIER 4: Top Provider + Category Combos (Priority 0.65)
 	// Long-tail keywords - highest conversion rate
+	// "pragmatic play slots", "evolution live casino", etc.
 	// ============================================
-	https: categories.forEach((category) => {
-		sitemapEntries.push({
-			url: `${baseUrl}/games/${category}`,
-			lastModified: new Date(),
-			changeFrequency: "weekly",
-			priority: 0.6,
+	const topProvidersForCategories = topProviders.slice(0, 15); // Top 15 × 4 = 60 combos
+	topProvidersForCategories.forEach((provider) => {
+		categories.forEach((category) => {
+			sitemapEntries.push({
+				url: `${baseUrl}/games/${provider}/${category}`,
+				lastModified: new Date(),
+				changeFrequency: "weekly",
+				priority: 0.65,
+			});
 		});
 	});
 
@@ -161,15 +165,67 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	});
 
 	// ============================================
-	// SUMMARY
-	// Total URLs: ~180
-	// - 6 core pages
-	// - 4 category pages
-	// - 20 top provider pages
-	// - 80 provider+category combos (20 × 4)
-	// - 34 secondary provider pages
-	// - 36 additional slots for future expansion
+	// TIER 6: Legal & Info Pages (Priority 0.4)
+	// Required for trust signals and compliance
 	// ============================================
+	const legalPages = [
+		{ path: "/terms-and-conditions", priority: 0.4 },
+		{ path: "/privacy-policy", priority: 0.4 },
+		{ path: "/responsible-gambling", priority: 0.4 },
+		{ path: "/faqs", priority: 0.5 },
+		{ path: "/about-us", priority: 0.4 },
+	];
+
+	legalPages.forEach((page) => {
+		sitemapEntries.push({
+			url: `${baseUrl}${page.path}`,
+			lastModified: new Date(),
+			changeFrequency: "monthly",
+			priority: page.priority,
+		});
+	});
+
+	// ============================================
+	// TIER 7: Dynamic SEO Pages (Priority 0.9)
+	// High-value landing pages for specific keywords
+	// ============================================
+	try {
+		const { getSeoPages } = await import('@/modules/seo/actions')
+		const seoPages = await getSeoPages()
+
+		seoPages.forEach((page) => {
+			if (page.published) {
+				sitemapEntries.push({
+					url: `${baseUrl}/${page.slug}`,
+					lastModified: page.updatedAt,
+					changeFrequency: 'weekly',
+					priority: 0.9,
+				})
+			}
+		})
+	} catch (error) {
+		console.error('Error fetching SEO pages for sitemap:', error)
+	}
+
+	// ============================================
+	// TIER 8: Blog Posts (Priority 0.7)
+	// Content marketing pages
+	// ============================================
+	try {
+		const { getPosts } = await import('@/modules/blog/lib/api')
+		const { posts } = await getPosts(1, 1000, '', 'published') // Fetch all published posts
+
+		posts.forEach((post) => {
+			sitemapEntries.push({
+				url: `${baseUrl}/blog/${post.slug}`,
+				lastModified: post.updatedAt,
+				changeFrequency: 'weekly',
+				priority: 0.7,
+			})
+		})
+	} catch (error) {
+		console.error('Error fetching blog posts for sitemap:', error)
+	}
 
 	return sitemapEntries;
 }

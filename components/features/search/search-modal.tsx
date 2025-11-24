@@ -736,8 +736,7 @@ export function SearchModal({ open, onOpenChange }: SearchModalProps) {
 											firstRowFilter="live casino"
 											secondRowFilter="slot"
 											isSingleRow={
-												searchResults.providers.length <
-												6
+												selectedProviders.length < 6
 											}
 											providers={searchResults.providers}
 										/>

@@ -95,8 +95,6 @@ import { useAppStore } from "@/store/store";
 import { useT } from "@/hooks/useI18n";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRefresh } from "@fortawesome/pro-light-svg-icons";
-import { ClientSEO } from "@/components/seo/client-seo";
-import { interpolateSiteName } from "@/lib/utils/site-config";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
 // import { ReferralsTab } from "@/components/features/affiliate/referral-tab";
 // import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -107,7 +105,7 @@ export default function AffiliatePage() {
 	const [isRefreshing, setIsRefreshing] = useState(false);
 	const [refreshCooldown, setRefreshCooldown] = useState(0);
 	const [activeTab, setActiveTab] = useState<string>(
-		primaryWallet ? "dashboard" : "rates"
+		primaryWallet !== null ? "dashboard" : "rates"
 	);
 	const cooldownTimerRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -168,27 +166,24 @@ export default function AffiliatePage() {
 		(state) => state.affiliate.manager.refreshAll
 	);
 
-	// Set default tab to dashboard when primaryWallet logs in
 	const prevUserRef = useRef(primaryWallet);
 	useEffect(() => {
 		prevUserRef.current = primaryWallet;
-		console.log("primaryWallet logged in, setting tab to dashboard...");
-		setActiveTab("dashboard");
+		if (primaryWallet) {
+			setActiveTab("dashboard");
+		}
 	}, [primaryWallet]);
 
-	// Refresh data when switching to dashboard tab
 	const prevActiveTabRef = useRef(activeTab);
 	useEffect(() => {
 		const prevTab = prevActiveTabRef.current;
 		prevActiveTabRef.current = activeTab;
 
-		// If switching TO dashboard tab (and primaryWallet is logged in), refresh downline data
 		if (
 			activeTab === "dashboard" &&
 			prevTab !== "dashboard" &&
 			primaryWallet
 		) {
-			console.log("Switching to dashboard tab, refreshing data...");
 			refreshAll(true).catch((error) => {
 				console.error(
 					"Failed to refresh on dashboard tab switch:",
@@ -198,9 +193,7 @@ export default function AffiliatePage() {
 		}
 	}, [activeTab, primaryWallet, refreshAll]);
 
-	// Manual refresh function
 	const handleRefresh = async () => {
-		// If already refreshing or in cooldown, do nothing
 		if (isRefreshing || refreshCooldown > 0) return;
 
 		setIsRefreshing(true);
@@ -239,17 +232,10 @@ export default function AffiliatePage() {
 			</div>
 		);
 	}
-	const siteName = interpolateSiteName(`{siteName}`);
 
 	if (!primaryWallet) {
 		return (
 			<div className="min-h-screen bg-background">
-				<ClientSEO
-					title={`Affiliate Program - Earn Commissions | ${siteName}`}
-					description={`Join the ${siteName} affiliate program and earn up to 50% commission on player wagers. Track referrals, bonuses, and claim rewards.`}
-					keywords={`affiliate program ${siteName}, casino affiliate, betting commissions, referral rewards, earn money online, ${siteName}`}
-					ogImage="/assets/seo/AFFILIATE.png"
-				/>
 				<div className="py-4 sm:py-6 space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8">
 					{/* Header Section */}
 					<div className="flex items-center justify-between flex-wrap gap-4">
@@ -333,12 +319,6 @@ export default function AffiliatePage() {
 	}
 	return (
 		<div className="min-h-screen bg-background">
-			<ClientSEO
-				title="Affiliate Program - Earn Commissions | BetFlux"
-				description="Join the BetFlux affiliate program and earn up to 50% commission on player wagers. Track referrals, bonuses, and claim rewards."
-				keywords="affiliate program, casino affiliate, betting commissions, referral rewards, earn money online"
-				ogImage="/assets/seo/og.png"
-			/>
 			<div className="py-4 sm:py-6 space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-8">
 				{/* Header Section with Refresh Button */}
 				<div className="flex items-center justify-between flex-wrap gap-4">

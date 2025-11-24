@@ -1,8 +1,9 @@
 import { Suspense } from "react";
 import { Metadata } from "next";
-import { generateSEOMetadata } from "@/lib/seo/seo-provider";
+import { generateSEOMetadata } from "@/lib/utils/seo/seo-provider";
 import { ProviderPageLayoutWrapper } from "./provider-page-layout-wrapper";
 import { Skeleton } from "@/components/ui/skeleton";
+// import { interpolateSiteName } from "@/lib/utils/site-config";
 
 const VendorPageSkeleton = () => (
 	<div className="space-y-6">
@@ -30,6 +31,7 @@ export async function generateMetadata({
 			(word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
 		)
 		.join(" ");
+	// const siteName = interpolateSiteName(`{siteName}`);
 
 	return generateSEOMetadata({
 		title: `${categoryName} Game Providers - BetFlux`,

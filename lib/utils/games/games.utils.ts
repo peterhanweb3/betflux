@@ -154,7 +154,7 @@ export const getProviderGameCounts = (
  *
  * @example
  * const result = getProvidersForCategory(games, "SLOT");
- * // Returns: [{ provider_name: "Pragmatic Play ", count: 8 }, { provider_name: "NetEnt", count: 5 }]
+ * // Returns: [{ provider_name: "Pragmatic Play", count: 8 }, { provider_name: "NetEnt", count: 5 }]
  */
 export const getProvidersForCategory = (
 	games: Game[],

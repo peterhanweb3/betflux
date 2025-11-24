@@ -25,7 +25,7 @@ import Link from "next/link";
 export default function TermsPage() {
 	const t = useT();
 
-	const siteDomain = window?.location?.hostname || "betflux.games";
+	const siteDomain = window?.location?.hostname || "betflux.io";
 	return (
 		<div className="container mx-auto space-y-8 consistent-padding-x consistent-padding-y">
 			<PageHeader
@@ -34,7 +34,7 @@ export default function TermsPage() {
 				lastUpdated={t("terms.lastUpdated")}
 			/>
 
-			{/* 1. BetFlux.games Ownership */}
+			{/* 1. BetFlux Ownership */}
 			<SectionCard title={t("terms.sections.ownership.title")}>
 				<ContentSection>
 					<p>{t("terms.sections.ownership.content1")}</p>

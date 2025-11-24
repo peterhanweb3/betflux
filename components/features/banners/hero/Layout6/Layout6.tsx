@@ -210,6 +210,7 @@ interface Layout6Props {
 	isLoading?: boolean;
 }
 
+
 export const Layout6 = ({
 	slides,
 	featuredGame,
@@ -248,7 +249,7 @@ export const Layout6 = ({
 		return null;
 	}
 
-	// Create featured games array
+	// Create featured games array 
 	const featuredGames = [mainGame, ...sideGames.slice(0, 3)];
 
 	return (

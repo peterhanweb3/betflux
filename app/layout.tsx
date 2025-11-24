@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { cookies } from "next/headers";
+import Script from "next/script";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { ThemeColorProvider } from "@/components/theme/theme-color-provider";
 import { LocaleProvider } from "@/lib/locale-provider";
 import { IOSViewportFix } from "@/components/common/ios-viewport-fix";
 import { ServiceWorkerRegister } from "@/components/common/service-worker-register";
-import { SEOTemplates } from "@/lib/seo/seo-provider";
-import { JsonLd } from "@/components/seo/json-ld";
+import { PageLoader } from "@/components/common/page-loader";
 import {
-	generateOrganizationSchema,
-	generateWebsiteSchema,
-} from "@/lib/seo/schema-generator";
+	OrganizationSchema,
+	WebsiteSchema,
+} from "@/components/seo/StructuredData";
+import { getServerMessages, type Locale } from "@/lib/i18n";
 // Avoid bundling public images via import to skip sharp at build time
 import "./globals.css";
 
@@ -25,43 +25,43 @@ const poppins = Poppins({
 	adjustFontFallback: true, // Reduce layout shift
 });
 
-// Global SEO metadata from centralized SEO system
-export const metadata: Metadata = SEOTemplates.home().metadata;
+// Root layout should NOT generate metadata - let page-specific layouts handle it
+// This prevents duplicate meta tags when nested layouts both use generateMetadata()
 
 export default async function RootLayout({
 	children,
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
-	// Generate SEO schemas for rich snippets
-	const organizationSchema = generateOrganizationSchema();
-	const websiteSchema = generateWebsiteSchema();
-
 	// Get user's locale from cookies for proper HTML lang attribute (SEO)
 	const cookieStore = await cookies();
-	const locale = cookieStore.get("NEXT_LOCALE")?.value || "en";
+	const locale = (cookieStore.get("NEXT_LOCALE")?.value || "en") as Locale;
+	const initialMessages = await getServerMessages(locale);
 
 	return (
 		<html lang={locale} suppressHydrationWarning>
 			<head>
 				{/* SEO: Structured Data for Knowledge Graph & Rich Snippets */}
-				<JsonLd data={organizationSchema} />
-				<JsonLd data={websiteSchema} />
+				{/* SEO: Structured Data for Knowledge Graph & Rich Snippets */}
+				<OrganizationSchema />
+				<WebsiteSchema />
+				{/* <meta
+					name="trustpilot-one-time-domain-verification-id"
+					content="d33fb497-a8d9-492c-8dcb-5878599febec"
+				/> */}
 
-				<script
-					async
+				<Script
 					src="https://www.googletagmanager.com/gtag/js?id=G-4GHMTR2431"
-				></script>
-				<script
-					dangerouslySetInnerHTML={{
-						__html: `
-	  						window.dataLayer = window.dataLayer || [];
-	  						function gtag(){dataLayer.push(arguments);}
-	  						gtag('js', new Date());
-  						gtag('config', 'G-4GHMTR2431');
-						`,
-					}}
+					strategy="afterInteractive"
 				/>
+				<Script id="google-analytics" strategy="afterInteractive">
+					{`
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', 'G-4GHMTR2431');
+					`}
+				</Script>
 
 				{/* Viewport optimization for mobile */}
 				<meta
@@ -120,8 +120,12 @@ export default async function RootLayout({
 					enableSystem
 					themes={["light", "dark"]} // IMPORTANT: Only manage light/dark here
 				>
-					<LocaleProvider>
+					<LocaleProvider
+						initialMessages={initialMessages}
+						initialLocale={locale}
+					>
 						<ThemeColorProvider defaultTheme="red">
+							<PageLoader />
 							<IOSViewportFix />
 							{children}
 						</ThemeColorProvider>

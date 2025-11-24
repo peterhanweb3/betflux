@@ -13,7 +13,6 @@ import { useT } from "@/hooks/useI18n";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRefresh } from "@fortawesome/pro-light-svg-icons";
 import useBonusClaims from "@/hooks/bonus/useBonusClaims";
-import { ClientSEO } from "@/components/seo/client-seo";
 
 export default function BonusPage() {
 	const t = useT();
@@ -151,16 +150,9 @@ export default function BonusPage() {
 			</div>
 		);
 	}
-
 	if (!user) {
 		return (
 			<div className="min-h-screen bg-background">
-				<ClientSEO
-					title="Turnover Bonus Program - Earn Rewards | BetFlux"
-					description="Get up to 20% bonus on your wagers with BetFlux turnover bonus program. Earn rewards on slots, live casino, and sports betting."
-					keywords="turnover bonus, casino bonus, wager rewards, betting bonus, loyalty program"
-					ogImage="/assets/seo/TURNOVER_BONUS.png"
-				/>
 				<div className="py-4 sm:py-6 space-y-6 sm:space-y-8">
 					{/* Header Section */}
 					<div className="flex items-center justify-between flex-wrap gap-4">
@@ -247,12 +239,6 @@ export default function BonusPage() {
 
 	return (
 		<div className="min-h-screen bg-background">
-			<ClientSEO
-				title="Turnover Bonus Program - Earn Rewards | BetFlux"
-				description="Get up to 20% bonus on your wagers with BetFlux turnover bonus program. Earn rewards on slots, live casino, and sports betting."
-				keywords="turnover bonus, casino bonus, wager rewards, betting bonus, loyalty program"
-				ogImage="/assets/seo/og.png"
-			/>
 			<div className="py-4 sm:py-6 space-y-6 sm:space-y-8">
 				{/* Header Section with Refresh Button */}
 				<div className="flex items-center justify-between flex-wrap gap-4">

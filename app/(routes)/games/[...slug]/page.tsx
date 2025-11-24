@@ -1,8 +1,10 @@
 import { Suspense } from "react";
 import { Metadata } from "next";
-import { generateSEOMetadata } from "@/lib/seo/seo-provider";
+import { generateSEOMetadata } from "@/lib/utils/seo/seo-provider";
 import { GamesPageLayoutWrapper } from "./games-page-layout-wrapper";
 import { QueryPageSkeleton } from "@/components/features/query-display/query-page-skeleton";
+// import { interpolateSiteName } from "@/lib/utils/site-config";
+import { PROVIDER_SLUG_MAP } from "@/lib/utils/provider-slug-mapping";
 
 interface PageProps {
 	params: Promise<{ slug: string[] }>;
@@ -15,6 +17,7 @@ export async function generateMetadata({
 	const { slugToProviderDisplayName, slugToCategory } = await import(
 		"@/lib/utils/provider-slug-mapping"
 	);
+	// const siteName = interpolateSiteName(`{siteName}`);
 
 	if (slug.length === 1) {
 		// Provider only: /games/pg-soft or /games/pragmatic-play
@@ -92,9 +95,21 @@ export default async function DynamicGamesPage({ params }: PageProps) {
 	);
 }
 
-// Generate static params for popular providers
+// Generate static params for ALL providers (SEO optimization)
 export function generateStaticParams() {
-	const popularProviders = [
+	// Get all unique provider slugs (69 providers)
+	const allProviderSlugs = Object.keys(PROVIDER_SLUG_MAP).filter(
+		// Filter out aliases to avoid duplicates
+		(slug) =>
+			!["relax-gaming", "hacksaw-gaming", "nolimit-city"].includes(slug)
+	);
+
+	const categories = ["slot", "live-casino", "sports", "rng"];
+
+	const params = [];
+
+	// Generate provider-only pages for top 50 providers (SEO focus)
+	const topProviders = [
 		"pg-soft",
 		"pragmatic-play",
 		"evolution",
@@ -102,23 +117,35 @@ export function generateStaticParams() {
 		"ka-gaming",
 		"playtech",
 		"microgaming",
+		"habanero",
+		"red-tiger",
+		"yggdrasil",
+		"sa-gaming",
+		"jili",
+		"cq9",
+		"jdb",
+		"live22",
+		"booongo",
+		"btg",
+		"relax",
+		"no-limit",
+		"fa-chai",
+		...allProviderSlugs.slice(0, 30), // Add more providers
 	];
 
-	const categories = ["slot", "live-casino", "sports", "rng"];
-
-	const params = [];
-
-	// Provider only
-	for (const provider of popularProviders) {
+	// Provider only pages (50 providers)
+	for (const provider of topProviders) {
 		params.push({ slug: [provider] });
 	}
 
-	// Provider + category
-	for (const provider of popularProviders) {
+	// Provider + category pages (top 20 providers × 4 categories = 80 pages)
+	const topProvidersForCategories = topProviders.slice(0, 20);
+	for (const provider of topProvidersForCategories) {
 		for (const category of categories) {
 			params.push({ slug: [provider, category] });
 		}
 	}
 
+	// Total: ~130 static pages for maximum SEO coverage
 	return params;
 }

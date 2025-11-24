@@ -7,8 +7,8 @@
 
 // Site name mapping based on domain
 const DOMAIN_TO_SITE_NAME: Record<string, string> = {
-	"betflux.games": "BetFlux",
-	"www.betflux.games": "BetFlux",
+	"betflux.io": "BetFlux",
+	"www.betflux.io": "BetFlux",
 	localhost: "BetFlux", // Default for local development
 	// Add your other domains here:
 	// 'site2.com': 'Site2Name',
@@ -36,7 +36,7 @@ export function getSiteName(): string {
 }
 
 /**
- * Get full site domain (e.g., "betflux.games", "www.google.com")
+ * Get full site domain (e.g., "betflux.io", "www.google.com")
  */
 export function getSiteDomain(): string {
 	// 1. Try environment variable first (highest priority)
@@ -60,7 +60,7 @@ export function getSiteDomain(): string {
 	}
 
 	// 4. Fallback to default
-	return "betflux.games";
+	return "betflux.io";
 }
 
 /**

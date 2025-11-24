@@ -1,168 +1,11 @@
 {
-	"defaultDomain": "https://betflux.games",
+	"defaultDomain": "https://betflux.io",
 	"defaultLang": "en",
-	"defaultCountry": "global",
 	"environment": "production",
-
-	"regions": {
-		"global": {
-			"language": "en",
-			"currency": "USD",
-			"hreflang": "en",
-			"countryCode": "INT",
-			"timezone": "UTC",
-			"metaTitleSuffix": " | Betflux",
-			"canonicalBase": "https://betflux.games",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"us": {
-			"language": "en",
-			"currency": "USD",
-			"hreflang": "en-us",
-			"countryCode": "US",
-			"timezone": "America/New_York",
-			"metaTitleSuffix": " | Betflux USA",
-			"canonicalBase": "https://betflux.games/us",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"uk": {
-			"language": "en",
-			"currency": "GBP",
-			"hreflang": "en-gb",
-			"countryCode": "GB",
-			"timezone": "Europe/London",
-			"metaTitleSuffix": " | Betflux UK",
-			"canonicalBase": "https://betflux.games/uk",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"in": {
-			"language": "en",
-			"currency": "INR",
-			"hreflang": "en-in",
-			"countryCode": "IN",
-			"timezone": "Asia/Kolkata",
-			"metaTitleSuffix": " | Betflux India",
-			"canonicalBase": "https://betflux.games/in",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"za": {
-			"language": "en",
-			"currency": "ZAR",
-			"hreflang": "en-za",
-			"countryCode": "ZA",
-			"timezone": "Africa/Johannesburg",
-			"metaTitleSuffix": " | Betflux South Africa",
-			"canonicalBase": "https://betflux.games/za",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"ng": {
-			"language": "en",
-			"currency": "NGN",
-			"hreflang": "en-ng",
-			"countryCode": "NG",
-			"timezone": "Africa/Lagos",
-			"metaTitleSuffix": " | Betflux Nigeria",
-			"canonicalBase": "https://betflux.games/ng",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"de": {
-			"language": "de",
-			"currency": "EUR",
-			"hreflang": "de-de",
-			"countryCode": "DE",
-			"timezone": "Europe/Berlin",
-			"metaTitleSuffix": " | Betflux Deutschland",
-			"canonicalBase": "https://betflux.games/de",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "Spielen",
-				"rewards": "Belohnungen",
-				"casino": "Kasino",
-				"betting": "Wetten"
-			}
-		},
-		"jp": {
-			"language": "ja",
-			"currency": "JPY",
-			"hreflang": "ja-jp",
-			"countryCode": "JP",
-			"timezone": "Asia/Tokyo",
-			"metaTitleSuffix": " | Betflux Japan",
-			"canonicalBase": "https://betflux.games/jp",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "ゲーム",
-				"rewards": "報酬",
-				"casino": "カジノ",
-				"betting": "ベッティング"
-			}
-		},
-		"br": {
-			"language": "pt",
-			"currency": "BRL",
-			"hreflang": "pt-br",
-			"countryCode": "BR",
-			"timezone": "America/Sao_Paulo",
-			"metaTitleSuffix": " | Betflux Brasil",
-			"canonicalBase": "https://betflux.games/br",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "jogos",
-				"rewards": "recompensas",
-				"casino": "cassino",
-				"betting": "apostas"
-			}
-		}
-	},
-
+	"metaTitleSuffix": " | BetFlux",
 	"defaults": {
-		"siteName": "Betflux",
-		"siteDomain": "betflux.games",
+		"siteName": "BetFlux",
+		"siteDomain": "betflux.io",
 		"organization": "Betflux Gaming",
 		"description": "Your Gateway to Fun and Rewards - Experience the best online gaming with crypto, slots, live casino, and sports betting.",
 		"author": "Betflux Team",
@@ -170,7 +13,7 @@
 		"logo": "/assets/site/Betflux-logo.png",
 		"logoWidth": 1200,
 		"logoHeight": 630,
-		"twitterHandle": "@betflux",
+		"twitterHandle": "@Betflux",
 		"facebookAppId": "",
 		"enableAISEO": true,
 		"enableAEO": true,
@@ -178,13 +21,12 @@
 		"enableAISO": true,
 		"enableASO": true
 	},
-
 	"schemaDefaults": {
 		"organization": {
 			"@type": "Organization",
-			"name": "Betflux Gaming",
-			"url": "https://betflux.games",
-			"logo": "https://betflux.games/assets/site/Betflux-logo.png",
+			"name": "BetFlux Gaming",
+			"url": "https://betflux.io",
+			"logo": "https://betflux.io/assets/site/Betflux-logo.png",
 			"description": "Leading online gaming platform offering crypto gaming, slots, live casino, and sports betting worldwide.",
 			"sameAs": [
 				"https://twitter.com/betflux",
@@ -194,48 +36,56 @@
 			"contactPoint": {
 				"@type": "ContactPoint",
 				"contactType": "customer support",
-				"email": "support@betflux.games"
+				"email": "support@betflux.io"
 			}
 		},
 		"website": {
 			"@type": "WebSite",
-			"name": "Betflux",
-			"url": "https://betflux.games",
+			"name": "BetFlux",
+			"url": "https://betflux.io",
 			"potentialAction": {
 				"@type": "SearchAction",
-				"target": "https://betflux.games/search?q={search_term_string}",
+				"target": "https://betflux.io/search?q={search_term_string}",
 				"query-input": "required name=search_term_string"
 			}
 		}
 	},
-
 	"pageDefaults": {
 		"home": {
 			"title": "BetFlux – Global Casino for Slots, Sports & Live Games",
 			"description": "Play at BetFlux – a trusted online casino with 5000+ slots, live tables & sports betting. Secure play, fast payouts & daily rewards.",
 			"keywords": [
-				"gaming",
-				"rewards",
-				"crypto",
-				"slots",
-				"live casino",
-				"sports betting",
-				"online gaming",
-				"betting",
-				"jackpots"
+				"crypto casino",
+				"Bitcoin casino",
+				"blockchain casino",
+				"provably fair casino",
+				"no KYC crypto casino",
+				"instant withdrawal casino",
+				"anonymous crypto casino",
+				"Ethereum casino",
+				"live dealer crypto",
+				"fast payout casino",
+				"decentralized casino",
+				"Layer-2 casino",
+				"crash games crypto",
+				"crypto sports betting"
 			],
 			"ogType": "website",
 			"schemaType": "WebPage"
 		},
 		"lobby": {
-			"title": "Game Lobby - Browse All Games",
-			"description": "Explore our extensive collection of games including slots, live casino, table games, and more. Find your favorite games and start winning!",
+			"title": "Game Lobby - 5000+ Provably Fair Crypto Games",
+			"description": "Explore 5000+ provably fair blockchain games: crypto slots, live dealer games, crash games, and sports betting. Instant play with Bitcoin, Ethereum & more.",
 			"keywords": [
-				"game lobby",
-				"casino games",
-				"slots",
-				"table games",
-				"live casino"
+				"crypto games",
+				"blockchain games",
+				"provably fair games",
+				"crypto slots",
+				"live dealer crypto",
+				"crash games",
+				"crypto sports betting",
+				"Bitcoin gambling",
+				"instant play casino"
 			],
 			"ogType": "website",
 			"schemaType": "CollectionPage"
@@ -249,7 +99,7 @@
 		},
 		"profile": {
 			"title": "My Profile - Account Settings",
-			"description": "Manage your Betflux account, view your gaming history, and update your preferences.",
+			"description": "Manage your BetFlux account, view your gaming history, and update your preferences.",
 			"keywords": ["profile", "account", "settings", "gaming history"],
 			"ogType": "profile",
 			"schemaType": "ProfilePage"
@@ -303,7 +153,7 @@
 			"title": "About BetFlux – Our Story & Mission",
 			"description": "Learn about BetFlux - our mission, values, and commitment to providing a safe, fair, and exciting gaming experience.",
 			"keywords": [
-				"about betflux",
+				"about Betflux",
 				"online casino platform",
 				"gaming platform",
 				"casino about us",
@@ -389,12 +239,11 @@
 			"schemaType": "FAQPage"
 		}
 	},
-
 	"robotsRules": {
 		"production": {
 			"allow": ["/"],
 			"disallow": ["/api/", "/admin/", "/_next/", "/private/"],
-			"sitemap": "https://betflux.games/sitemap.xml"
+			"sitemap": "https://betflux.io/sitemap.xml"
 		},
 		"staging": {
 			"allow": [],
@@ -402,7 +251,6 @@
 			"sitemap": null
 		}
 	},
-
 	"aeo": {
 		"enabled": true,
 		"generateFAQs": true,
@@ -410,7 +258,6 @@
 		"enableSpeakable": true,
 		"targetFeaturedSnippets": true
 	},
-
 	"aiso": {
 		"enabled": true,
 		"aiPlatforms": [
@@ -424,16 +271,14 @@
 		"entityMarkup": true,
 		"semanticContext": true
 	},
-
 	"aso": {
 		"enabled": true,
 		"androidAppId": "",
 		"iosAppId": "",
-		"appName": "Betflux",
+		"appName": "BetFlux",
 		"appDeepLinkScheme": "betflux://",
 		"pwaEnabled": true
 	},
-
 	"performance": {
 		"enablePreconnect": true,
 		"enableDNSPrefetch": true,
@@ -444,7 +289,6 @@
 			"https://fonts.gstatic.com"
 		]
 	},
-
 	"socialMedia": {
 		"twitter": {
 			"handle": "@betflux",
@@ -458,7 +302,6 @@
 			"handle": "betflux"
 		}
 	},
-
 	"analytics": {
 		"ga4": {
 			"enabled": true,

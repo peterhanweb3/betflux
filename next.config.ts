@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import path from "path";
 
 const nextConfig: NextConfig = {
 	// Re-enable strict mode for better development experience and catching bugs
@@ -17,13 +18,14 @@ const nextConfig: NextConfig = {
 
 	// Image optimization - AGGRESSIVE
 	images: {
-		deviceSizes: [640, 768, 1024, 1280],  // Reduced device sizes
-		imageSizes: [48, 64, 96, 128],  // Reduced image sizes
+		deviceSizes: [640, 768, 1024, 1280], // Reduced device sizes
+		imageSizes: [48, 64, 96, 128], // Reduced image sizes
 		formats: ["image/webp"], // Only WebP for better compression
-		minimumCacheTTL: 31536000,  // Cache for 1 year
+		minimumCacheTTL: 31536000, // Cache for 1 year
 		dangerouslyAllowSVG: true,
 		contentDispositionType: "attachment",
-		contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+		contentSecurityPolicy:
+			"default-src 'self'; script-src 'none'; sandbox;",
 		remotePatterns: [
 			{
 				protocol: "https",
@@ -63,6 +65,7 @@ const nextConfig: NextConfig = {
 			{ protocol: "https", hostname: "apiv2.xx88zz77.site" },
 			{ protocol: "http", hostname: "apiv2.xx88zz77.site" },
 			{ protocol: "https", hostname: "images.unsplash.com" },
+			{ protocol: "https", hostname: "**" },
 		],
 	},
 
@@ -143,6 +146,13 @@ const nextConfig: NextConfig = {
 			...config.resolve.fallback,
 			"@react-native-async-storage/async-storage": false,
 		};
+
+		// Force single React version to avoid "Invalid Hook Call" with legacy-peer-deps
+		// config.resolve.alias = {
+		// 	...config.resolve.alias,
+		// 	react: path.resolve("./node_modules/react"),
+		// 	"react-dom": path.resolve("./node_modules/react-dom"),
+		// };
 
 		// Optimize chunks in production
 		if (!isServer && process.env.NODE_ENV === "production") {

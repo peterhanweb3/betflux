@@ -40,6 +40,8 @@ export const QueryPageLayout = () => {
 		sortBy,
 	} = useAppStore((state) => state.query);
 	const { showMoreItems } = useAppStore((state) => state.query);
+
+	console.log("Active-filters:", activeFilters);
 	const {
 		handleToggleFilter,
 		handleClearFilters,
@@ -76,7 +78,7 @@ export const QueryPageLayout = () => {
 		const baseUrl =
 			typeof window !== "undefined"
 				? window.location.origin
-				: "https://betflux.games";
+				: "https://betflux.io";
 
 		const breadcrumbItems = [
 			{

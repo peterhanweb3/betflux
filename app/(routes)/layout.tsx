@@ -43,7 +43,7 @@ import { MobileBottomNavigation } from "@/components/common/mobile-bottom-naviga
 import { AppSidebar } from "@/components/common/sidebar/app-sidebar";
 import { useCrossTabLogout } from "@/hooks/use-cross-tab-logout";
 import { OfflineDetector } from "@/components/common/offline-detector";
-import { Footer } from "@/components/common/footer/footer";
+import { Footer } from "@/components/common/footer";
 
 const queryClient = new QueryClient();
 

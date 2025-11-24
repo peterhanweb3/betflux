@@ -260,10 +260,10 @@ export const createQuerySlice: AppStateCreator<QuerySlice> = (set, get) => ({
 							];
 						} else if (
 							category === "SLOT" &&
-							providerResult.includes("Pragmatic Play ")
+							providerResult.includes("Pragmatic Play")
 						) {
 							newState.activeFilters["provider_name"] = [
-								"Pragmatic Play ",
+								"Pragmatic Play",
 							];
 						} else {
 							// Use all variants if category doesn't match specific provider
