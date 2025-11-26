@@ -7,8 +7,7 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:/var/www/html/production/Live/betfluxv2/betflux/prisma/dev.db"
-"
+  url      = env("DATABASE_URL")
 }
 
 model User {
