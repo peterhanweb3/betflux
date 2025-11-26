@@ -1291,6 +1291,89 @@
 			"uploadFailed": "Nie udało się odczytać pliku czcionki"
 		}
 	},
+	"contact": {
+		"title": "Skontaktuj się z nami",
+		"subtitle": "Masz pytania lub potrzebujesz pomocy? Nasz oddany zespół wsparcia jest tutaj, aby Ci pomóc przez całą dobę.",
+		"methods": {
+			"liveChat": {
+				"title": "Czat na żywo",
+				"description": "Uzyskaj natychmiastową pomoc od naszego zespołu wsparcia za pośrednictwem czatu na żywo.",
+				"availability": "Dostępny 24/7"
+			},
+			"email": {
+				"title": "Wsparcie e-mail",
+				"description": "Wyślij do nas e-mail, a odpowiemy w ciągu 24 godzin.",
+				"availability": "Odpowiedź w ciągu 24h"
+			},
+			"support": {
+				"title": "Centrum pomocy",
+				"description": "Przeglądaj naszą obszerną bazę wiedzy w poszukiwaniu szybkich odpowiedzi.",
+				"availability": "Samoobsługa dostępna"
+			}
+		},
+		"form": {
+			"title": "Wyślij nam wiadomość",
+			"name": "Imię i nazwisko",
+			"namePlaceholder": "Wprowadź swoje imię i nazwisko",
+			"email": "Adres e-mail",
+			"emailPlaceholder": "Wprowadź swój adres e-mail",
+			"subject": "Temat",
+			"subjectPlaceholder": "Czego dotyczy Twoje zapytanie?",
+			"message": "Wiadomość",
+			"messagePlaceholder": "Opisz szczegółowo swoje zapytanie...",
+			"submit": "Wyślij wiadomość",
+			"sending": "Wysyłanie...",
+			"errors": {
+				"nameRequired": "Wprowadź swoje imię",
+				"emailRequired": "Wprowadź swój e-mail",
+				"emailInvalid": "Wprowadź prawidłowy adres e-mail",
+				"subjectRequired": "Wprowadź temat",
+				"messageRequired": "Wprowadź swoją wiadomość",
+				"messageTooShort": "Wiadomość musi mieć co najmniej 10 znaków"
+			}
+		},
+		"responseTime": {
+			"title": "Oczekiwane czasy odpowiedzi",
+			"description": "Staramy się odpowiadać na wszystkie zapytania tak szybko, jak to możliwe.",
+			"liveChat": {
+				"title": "Czat na żywo",
+				"time": "Poniżej 2 minut"
+			},
+			"email": {
+				"title": "E-mail",
+				"time": "W ciągu 24 godzin"
+			},
+			"priority": {
+				"title": "Wsparcie VIP",
+				"time": "Obsługa priorytetowa"
+			}
+		},
+		"faq": {
+			"title": "Często zadawane pytania",
+			"items": [
+				{
+					"question": "Jak zresetować hasło?",
+					"answer": "Możesz zresetować hasło, klikając link „Zapomniałem hasła” na stronie logowania. Wprowadź zarejestrowany adres e-mail i postępuj zgodnie z instrukcjami wysłanymi na Twoją skrzynkę odbiorczą."
+				},
+				{
+					"question": "Jak długo trwa przetwarzanie wypłat?",
+					"answer": "Większość wypłat kryptowalut jest przetwarzana natychmiast. W niektórych przypadkach może być wymagana ręczna weryfikacja, co może potrwać do 24 godzin."
+				},
+				{
+					"question": "Jakie kryptowaluty akceptujecie?",
+					"answer": "Akceptujemy główne kryptowaluty, w tym Bitcoin (BTC), Ethereum (ETH), USDT, USDC i kilka innych popularnych tokenów w wielu sieciach blockchain."
+				},
+				{
+					"question": "Jak mogę zweryfikować swoje konto?",
+					"answer": "Weryfikację konta można ukończyć w ustawieniach profilu. Może być konieczne dostarczenie dokumentów tożsamości w zależności od poziomu konta i limitów wypłat."
+				},
+				{
+					"question": "Czy moje dane osobowe są bezpieczne?",
+					"answer": "Tak, używamy standardowych w branży szyfrowania i środków bezpieczeństwa w celu ochrony wszystkich danych osobowych i finansowych. Nasza platforma przechodzi regularne audyty bezpieczeństwa."
+				}
+			]
+		}
+	},
 	"about": {
 		"title": "🎮 O {siteName}",
 		"subtitle": "W {siteName} granie to nie tylko rozrywka — to doświadczenie.",

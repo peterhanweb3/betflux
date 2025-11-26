@@ -1291,6 +1291,89 @@
 			"uploadFailed": "读取字体文件失败"
 		}
 	},
+	"contact": {
+		"title": "联系我们",
+		"subtitle": "有任何问题或需要帮助吗？我们专业的支持团队全天候为您服务。",
+		"methods": {
+			"liveChat": {
+				"title": "在线客服",
+				"description": "通过在线客服即时获得我们支持团队的帮助。",
+				"availability": "全天候可用"
+			},
+			"email": {
+				"title": "邮件支持",
+				"description": "发送电子邮件给我们，我们将在24小时内回复。",
+				"availability": "24小时内回复"
+			},
+			"support": {
+				"title": "帮助中心",
+				"description": "浏览我们全面的知识库以快速找到答案。",
+				"availability": "自助服务可用"
+			}
+		},
+		"form": {
+			"title": "给我们发送消息",
+			"name": "全名",
+			"namePlaceholder": "输入您的全名",
+			"email": "邮箱地址",
+			"emailPlaceholder": "输入您的邮箱地址",
+			"subject": "主题",
+			"subjectPlaceholder": "您的咨询内容是关于？",
+			"message": "消息",
+			"messagePlaceholder": "请详细描述您的咨询...",
+			"submit": "发送消息",
+			"sending": "发送中...",
+			"errors": {
+				"nameRequired": "请输入您的姓名",
+				"emailRequired": "请输入您的邮箱",
+				"emailInvalid": "请输入有效的邮箱地址",
+				"subjectRequired": "请输入主题",
+				"messageRequired": "请输入您的消息",
+				"messageTooShort": "消息必须至少包含10个字符"
+			}
+		},
+		"responseTime": {
+			"title": "预计响应时间",
+			"description": "我们努力尽快回复所有咨询。",
+			"liveChat": {
+				"title": "在线客服",
+				"time": "2分钟内"
+			},
+			"email": {
+				"title": "邮件",
+				"time": "24小时内"
+			},
+			"priority": {
+				"title": "VIP支持",
+				"time": "优先处理"
+			}
+		},
+		"faq": {
+			"title": "常见问题",
+			"items": [
+				{
+					"question": "如何重置我的密码？",
+					"answer": "您可以通过点击登录页面上的“忘记密码”链接来重置密码。输入您注册的邮箱地址，并按照发送到您收件箱的说明操作。"
+				},
+				{
+					"question": "提款处理需要多长时间？",
+					"answer": "大多数加密货币提款都会立即处理。在某些情况下，可能需要手动验证，这最多可能需要24小时。"
+				},
+				{
+					"question": "你们接受哪些加密货币？",
+					"answer": "我们接受包括比特币（BTC）、以太坊（ETH）、USDT、USDC在内的主要加密货币，以及多个区块链网络上的其他几种流行代币。"
+				},
+				{
+					"question": "如何验证我的账户？",
+					"answer": "账户验证可以通过您的个人中心设置完成。根据您的账户等级和提款限额，您可能需要提供身份证明文件。"
+				},
+				{
+					"question": "我的个人信息安全吗？",
+					"answer": "是的，我们使用行业标准的加密和安全措施来保护所有个人和财务信息。我们的平台会定期进行安全审计。"
+				}
+			]
+		}
+	},
 	"about": {
 		"title": "🎮 关于 {siteName}",
 		"subtitle": "在 {siteName}，游戏不仅仅是一种消遣——它是一种体验。",

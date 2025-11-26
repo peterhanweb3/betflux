@@ -1291,6 +1291,89 @@
 			"uploadFailed": "Yazı tipi dosyası okunamadı"
 		}
 	},
+	"contact": {
+		"title": "Bize Ulaşın",
+		"subtitle": "Sorularınız mı var veya yardıma mı ihtiyacınız var? Özel destek ekibimiz size günün her saati yardımcı olmak için burada.",
+		"methods": {
+			"liveChat": {
+				"title": "Canlı Sohbet",
+				"description": "Destek ekibimizden canlı sohbet yoluyla anında yardım alın.",
+				"availability": "7/24 Mevcut"
+			},
+			"email": {
+				"title": "E-posta Desteği",
+				"description": "Bize bir e-posta gönderin, 24 saat içinde yanıt verelim.",
+				"availability": "24 saat içinde yanıt"
+			},
+			"support": {
+				"title": "Yardım Merkezi",
+				"description": "Hızlı yanıtlar için kapsamlı bilgi bankamıza göz atın.",
+				"availability": "Self-servis mevcut"
+			}
+		},
+		"form": {
+			"title": "Bize Mesaj Gönderin",
+			"name": "Tam Ad",
+			"namePlaceholder": "Tam adınızı girin",
+			"email": "E-posta Adresi",
+			"emailPlaceholder": "E-posta adresinizi girin",
+			"subject": "Konu",
+			"subjectPlaceholder": "Sorunuz ne hakkında?",
+			"message": "Mesaj",
+			"messagePlaceholder": "Lütfen sorunuzu ayrıntılı olarak açıklayın...",
+			"submit": "Mesaj Gönder",
+			"sending": "Gönderiliyor...",
+			"errors": {
+				"nameRequired": "Lütfen adınızı girin",
+				"emailRequired": "Lütfen e-postanızı girin",
+				"emailInvalid": "Lütfen geçerli bir e-posta adresi girin",
+				"subjectRequired": "Lütfen bir konu girin",
+				"messageRequired": "Lütfen mesajınızı girin",
+				"messageTooShort": "Mesaj en az 10 karakter olmalıdır"
+			}
+		},
+		"responseTime": {
+			"title": "Beklenen Yanıt Süreleri",
+			"description": "Tüm sorulara mümkün olan en kısa sürede yanıt vermeye çalışıyoruz.",
+			"liveChat": {
+				"title": "Canlı Sohbet",
+				"time": "2 dakikadan az"
+			},
+			"email": {
+				"title": "E-posta",
+				"time": "24 saat içinde"
+			},
+			"priority": {
+				"title": "VIP Destek",
+				"time": "Öncelikli işlem"
+			}
+		},
+		"faq": {
+			"title": "Sıkça Sorulan Sorular",
+			"items": [
+				{
+					"question": "Şifremi nasıl sıfırlarım?",
+					"answer": "Giriş sayfasındaki 'Şifremi Unuttum' bağlantısına tıklayarak şifrenizi sıfırlayabilirsiniz. Kayıtlı e-posta adresinizi girin ve gelen kutunuza gönderilen talimatları izleyin."
+				},
+				{
+					"question": "Para çekme işlemlerinin işlenmesi ne kadar sürer?",
+					"answer": "Çoğu kripto para çekme işlemi anında işlenir. Bazı durumlarda, 24 saate kadar sürebilen manuel doğrulama gerekebilir."
+				},
+				{
+					"question": "Hangi kripto paraları kabul ediyorsunuz?",
+					"answer": "Bitcoin (BTC), Ethereum (ETH), USDT, USDC ve birden fazla blok zinciri ağında diğer popüler tokenler dahil olmak üzere başlıca kripto para birimlerini kabul ediyoruz."
+				},
+				{
+					"question": "Hesabımı nasıl doğrulayabilirim?",
+					"answer": "Hesap doğrulaması profil ayarlarınızdan tamamlanabilir. Hesap seviyenize ve para çekme limitlerinize bağlı olarak kimlik belgeleri sağlamanız gerekebilir."
+				},
+				{
+					"question": "Kişisel bilgilerim güvende mi?",
+					"answer": "Evet, tüm kişisel ve finansal bilgileri korumak için endüstri standardı şifreleme ve güvenlik önlemleri kullanıyoruz. Platformumuz düzenli güvenlik denetimlerinden geçmektedir."
+				}
+			]
+		}
+	},
 	"about": {
 		"title": "🎮 {siteName} Hakkında",
 		"subtitle": "{siteName}'de oyun oynamak sadece bir eğlence değil, bir deneyimdir.",

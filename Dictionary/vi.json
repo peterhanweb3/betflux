@@ -1291,6 +1291,89 @@
 			"uploadFailed": "Không thể đọc tệp phông chữ"
 		}
 	},
+	"contact": {
+		"title": "Liên hệ với chúng tôi",
+		"subtitle": "Có câu hỏi hoặc cần hỗ trợ? Đội ngũ hỗ trợ tận tâm của chúng tôi luôn sẵn sàng giúp đỡ bạn suốt ngày đêm.",
+		"methods": {
+			"liveChat": {
+				"title": "Trò chuyện trực tiếp",
+				"description": "Nhận trợ giúp ngay lập tức từ đội ngũ hỗ trợ của chúng tôi qua trò chuyện trực tiếp.",
+				"availability": "Hoạt động 24/7"
+			},
+			"email": {
+				"title": "Hỗ trợ qua email",
+				"description": "Gửi email cho chúng tôi và chúng tôi sẽ trả lời trong vòng 24 giờ.",
+				"availability": "Phản hồi trong vòng 24 giờ"
+			},
+			"support": {
+				"title": "Trung tâm trợ giúp",
+				"description": "Duyệt qua cơ sở kiến thức toàn diện của chúng tôi để tìm câu trả lời nhanh chóng.",
+				"availability": "Tự phục vụ có sẵn"
+			}
+		},
+		"form": {
+			"title": "Gửi tin nhắn cho chúng tôi",
+			"name": "Họ và tên",
+			"namePlaceholder": "Nhập họ và tên của bạn",
+			"email": "Địa chỉ email",
+			"emailPlaceholder": "Nhập địa chỉ email của bạn",
+			"subject": "Chủ đề",
+			"subjectPlaceholder": "Câu hỏi của bạn về vấn đề gì?",
+			"message": "Tin nhắn",
+			"messagePlaceholder": "Vui lòng mô tả chi tiết câu hỏi của bạn...",
+			"submit": "Gửi tin nhắn",
+			"sending": "Đang gửi...",
+			"errors": {
+				"nameRequired": "Vui lòng nhập tên của bạn",
+				"emailRequired": "Vui lòng nhập email của bạn",
+				"emailInvalid": "Vui lòng nhập một địa chỉ email hợp lệ",
+				"subjectRequired": "Vui lòng nhập một chủ đề",
+				"messageRequired": "Vui lòng nhập tin nhắn của bạn",
+				"messageTooShort": "Tin nhắn phải có ít nhất 10 ký tự"
+			}
+		},
+		"responseTime": {
+			"title": "Thời gian phản hồi dự kiến",
+			"description": "Chúng tôi cố gắng trả lời tất cả các câu hỏi càng nhanh càng tốt.",
+			"liveChat": {
+				"title": "Trò chuyện trực tiếp",
+				"time": "Dưới 2 phút"
+			},
+			"email": {
+				"title": "Email",
+				"time": "Trong vòng 24 giờ"
+			},
+			"priority": {
+				"title": "Hỗ trợ VIP",
+				"time": "Xử lý ưu tiên"
+			}
+		},
+		"faq": {
+			"title": "Câu hỏi thường gặp",
+			"items": [
+				{
+					"question": "Làm thế nào để đặt lại mật khẩu của tôi?",
+					"answer": "Bạn có thể đặt lại mật khẩu của mình bằng cách nhấp vào liên kết 'Quên mật khẩu' trên trang đăng nhập. Nhập địa chỉ email đã đăng ký của bạn và làm theo hướng dẫn được gửi đến hộp thư đến của bạn."
+				},
+				{
+					"question": "Mất bao lâu để xử lý việc rút tiền?",
+					"answer": "Hầu hết các giao dịch rút tiền điện tử được xử lý ngay lập tức. Trong một số trường hợp, có thể cần xác minh thủ công, có thể mất đến 24 giờ."
+				},
+				{
+					"question": "Bạn chấp nhận những loại tiền điện tử nào?",
+					"answer": "Chúng tôi chấp nhận các loại tiền điện tử chính bao gồm Bitcoin (BTC), Ethereum (ETH), USDT, USDC và một số token phổ biến khác trên nhiều mạng blockchain."
+				},
+				{
+					"question": "Làm thế nào để tôi có thể xác minh tài khoản của mình?",
+					"answer": "Việc xác minh tài khoản có thể được hoàn thành thông qua cài đặt hồ sơ của bạn. Bạn có thể cần cung cấp các tài liệu nhận dạng tùy thuộc vào cấp độ tài khoản và giới hạn rút tiền của bạn."
+				},
+				{
+					"question": "Thông tin cá nhân của tôi có an toàn không?",
+					"answer": "Có, chúng tôi sử dụng mã hóa và các biện pháp bảo mật tiêu chuẩn ngành để bảo vệ tất cả thông tin cá nhân và tài chính. Nền tảng của chúng tôi thường xuyên được kiểm tra bảo mật."
+				}
+			]
+		}
+	},
 	"about": {
 		"title": "🎮 Về {siteName}",
 		"subtitle": "Tại {siteName}, chơi game không chỉ là một trò tiêu khiển — đó là một trải nghiệm.",

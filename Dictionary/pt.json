@@ -1291,6 +1291,89 @@
 			"uploadFailed": "Falha ao ler o arquivo de fonte"
 		}
 	},
+	"contact": {
+		"title": "Fale Conosco",
+		"subtitle": "Tem dúvidas ou precisa de assistência? Nossa equipe de suporte dedicada está aqui para ajudá-lo 24 horas por dia.",
+		"methods": {
+			"liveChat": {
+				"title": "Chat ao Vivo",
+				"description": "Obtenha ajuda instantânea de nossa equipe de suporte através do chat ao vivo.",
+				"availability": "Disponível 24/7"
+			},
+			"email": {
+				"title": "Suporte por E-mail",
+				"description": "Envie-nos um e-mail e responderemos em até 24 horas.",
+				"availability": "Resposta em 24h"
+			},
+			"support": {
+				"title": "Central de Ajuda",
+				"description": "Navegue em nossa abrangente base de conhecimento para respostas rápidas.",
+				"availability": "Autoatendimento disponível"
+			}
+		},
+		"form": {
+			"title": "Envie-nos uma Mensagem",
+			"name": "Nome Completo",
+			"namePlaceholder": "Digite seu nome completo",
+			"email": "Endereço de E-mail",
+			"emailPlaceholder": "Digite seu endereço de e-mail",
+			"subject": "Assunto",
+			"subjectPlaceholder": "Sobre o que é sua consulta?",
+			"message": "Mensagem",
+			"messagePlaceholder": "Por favor, descreva sua consulta em detalhes...",
+			"submit": "Enviar Mensagem",
+			"sending": "Enviando...",
+			"errors": {
+				"nameRequired": "Por favor, digite seu nome",
+				"emailRequired": "Por favor, digite seu e-mail",
+				"emailInvalid": "Por favor, digite um endereço de e-mail válido",
+				"subjectRequired": "Por favor, digite um assunto",
+				"messageRequired": "Por favor, digite sua mensagem",
+				"messageTooShort": "A mensagem deve ter pelo menos 10 caracteres"
+			}
+		},
+		"responseTime": {
+			"title": "Tempos de Resposta Esperados",
+			"description": "Nós nos esforçamos para responder a todas as perguntas o mais rápido possível.",
+			"liveChat": {
+				"title": "Chat ao Vivo",
+				"time": "Menos de 2 minutos"
+			},
+			"email": {
+				"title": "E-mail",
+				"time": "Dentro de 24 horas"
+			},
+			"priority": {
+				"title": "Suporte VIP",
+				"time": "Atendimento prioritário"
+			}
+		},
+		"faq": {
+			"title": "Perguntas Frequentes",
+			"items": [
+				{
+					"question": "Como redefino minha senha?",
+					"answer": "Você pode redefinir sua senha clicando no link 'Esqueceu a senha' na página de login. Digite seu endereço de e-mail registrado e siga as instruções enviadas para sua caixa de entrada."
+				},
+				{
+					"question": "Quanto tempo as retiradas levam para serem processadas?",
+					"answer": "A maioria das retiradas de criptomoedas é processada instantaneamente. Em alguns casos, pode ser necessária uma verificação manual, o que pode levar até 24 horas."
+				},
+				{
+					"question": "Quais criptomoedas vocês aceitam?",
+					"answer": "Aceitamos as principais criptomoedas, incluindo Bitcoin (BTC), Ethereum (ETH), USDT, USDC e vários outros tokens populares em várias redes de blockchain."
+				},
+				{
+					"question": "Como posso verificar minha conta?",
+					"answer": "A verificação da conta pode ser concluída através das configurações do seu perfil. Pode ser necessário fornecer documentos de identificação, dependendo do nível da sua conta e dos limites de retirada."
+				},
+				{
+					"question": "Minhas informações pessoais estão seguras?",
+					"answer": "Sim, usamos criptografia padrão da indústria e medidas de segurança para proteger todas as informações pessoais e financeiras. Nossa plataforma passa por auditorias de segurança regulares."
+				}
+			]
+		}
+	},
 	"about": {
 		"title": "🎮 Sobre {siteName}",
 		"subtitle": "No {siteName}, jogar não é apenas um passatempo — é uma experiência.",

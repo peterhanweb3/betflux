@@ -1291,6 +1291,89 @@
 			"uploadFailed": "Lezen van lettertypebestand mislukt"
 		}
 	},
+	"contact": {
+		"title": "Neem contact met ons op",
+		"subtitle": "Heeft u vragen of heeft u hulp nodig? Ons toegewijde ondersteuningsteam staat de klok rond voor u klaar.",
+		"methods": {
+			"liveChat": {
+				"title": "Live Chat",
+				"description": "Krijg direct hulp van ons ondersteuningsteam via live chat.",
+				"availability": "24/7 beschikbaar"
+			},
+			"email": {
+				"title": "E-mailondersteuning",
+				"description": "Stuur ons een e-mail en we reageren binnen 24 uur.",
+				"availability": "Reactie binnen 24 uur"
+			},
+			"support": {
+				"title": "Helpcentrum",
+				"description": "Doorzoek onze uitgebreide kennisbank voor snelle antwoorden.",
+				"availability": "Zelfbediening beschikbaar"
+			}
+		},
+		"form": {
+			"title": "Stuur ons een bericht",
+			"name": "Volledige naam",
+			"namePlaceholder": "Voer uw volledige naam in",
+			"email": "E-mailadres",
+			"emailPlaceholder": "Voer uw e-mailadres in",
+			"subject": "Onderwerp",
+			"subjectPlaceholder": "Waar gaat uw vraag over?",
+			"message": "Bericht",
+			"messagePlaceholder": "Beschrijf uw vraag gedetailleerd...",
+			"submit": "Bericht verzenden",
+			"sending": "Verzenden...",
+			"errors": {
+				"nameRequired": "Voer uw naam in",
+				"emailRequired": "Voer uw e-mailadres in",
+				"emailInvalid": "Voer een geldig e-mailadres in",
+				"subjectRequired": "Voer een onderwerp in",
+				"messageRequired": "Voer uw bericht in",
+				"messageTooShort": "Bericht moet minimaal 10 tekens lang zijn"
+			}
+		},
+		"responseTime": {
+			"title": "Verwachte responstijden",
+			"description": "We streven ernaar om alle vragen zo snel mogelijk te beantwoorden.",
+			"liveChat": {
+				"title": "Live Chat",
+				"time": "Minder dan 2 minuten"
+			},
+			"email": {
+				"title": "E-mail",
+				"time": "Binnen 24 uur"
+			},
+			"priority": {
+				"title": "VIP-ondersteuning",
+				"time": "Prioritaire afhandeling"
+			}
+		},
+		"faq": {
+			"title": "Veelgestelde vragen",
+			"items": [
+				{
+					"question": "Hoe reset ik mijn wachtwoord?",
+					"answer": "U kunt uw wachtwoord opnieuw instellen door op de link 'Wachtwoord vergeten' op de inlogpagina te klikken. Voer uw geregistreerde e-mailadres in en volg de instructies die naar uw inbox zijn verzonden."
+				},
+				{
+					"question": "Hoe lang duurt het om opnames te verwerken?",
+					"answer": "De meeste opnames van cryptocurrency worden onmiddellijk verwerkt. In sommige gevallen kan handmatige verificatie vereist zijn, wat tot 24 uur kan duren."
+				},
+				{
+					"question": "Welke cryptocurrencies accepteert u?",
+					"answer": "We accepteren belangrijke cryptocurrencies, waaronder Bitcoin (BTC), Ethereum (ETH), USDT, USDC en verschillende andere populaire tokens op meerdere blockchain-netwerken."
+				},
+				{
+					"question": "Hoe kan ik mijn account verifiëren?",
+					"answer": "Accountverificatie kan worden voltooid via uw profielinstellingen. Mogelijk moet u identificatiedocumenten verstrekken, afhankelijk van uw accountniveau en opnamelimieten."
+				},
+				{
+					"question": "Is mijn persoonlijke informatie veilig?",
+					"answer": "Ja, we gebruiken industriestandaard versleuteling en beveiligingsmaatregelen om alle persoonlijke en financiële informatie te beschermen. Ons platform ondergaat regelmatig veiligheidsaudits."
+				}
+			]
+		}
+	},
 	"about": {
 		"title": "🎮 Over {siteName}",
 		"subtitle": "Bij {siteName} is gamen niet zomaar een tijdverdrijf - het is een ervaring.",

@@ -1291,6 +1291,89 @@
 			"uploadFailed": "Det gick inte att läsa typsnittsfilen"
 		}
 	},
+	"contact": {
+		"title": "Kontakta oss",
+		"subtitle": "Har du frågor eller behöver du hjälp? Vårt dedikerade supportteam är här för att hjälpa dig dygnet runt.",
+		"methods": {
+			"liveChat": {
+				"title": "Livechatt",
+				"description": "Få omedelbar hjälp från vårt supportteam via livechatt.",
+				"availability": "Tillgänglig dygnet runt"
+			},
+			"email": {
+				"title": "E-postsupport",
+				"description": "Skicka ett e-postmeddelande till oss så svarar vi inom 24 timmar.",
+				"availability": "Svar inom 24 timmar"
+			},
+			"support": {
+				"title": "Hjälpcenter",
+				"description": "Sök i vår omfattande kunskapsbas för snabba svar.",
+				"availability": "Självbetjäning tillgänglig"
+			}
+		},
+		"form": {
+			"title": "Skicka ett meddelande till oss",
+			"name": "Fullständigt namn",
+			"namePlaceholder": "Ange ditt fullständiga namn",
+			"email": "E-postadress",
+			"emailPlaceholder": "Ange din e-postadress",
+			"subject": "Ämne",
+			"subjectPlaceholder": "Vad handlar din förfrågan om?",
+			"message": "Meddelande",
+			"messagePlaceholder": "Beskriv din förfrågan i detalj...",
+			"submit": "Skicka meddelande",
+			"sending": "Skickar...",
+			"errors": {
+				"nameRequired": "Ange ditt namn",
+				"emailRequired": "Ange din e-postadress",
+				"emailInvalid": "Ange en giltig e-postadress",
+				"subjectRequired": "Ange ett ämne",
+				"messageRequired": "Ange ditt meddelande",
+				"messageTooShort": "Meddelandet måste vara minst 10 tecken långt"
+			}
+		},
+		"responseTime": {
+			"title": "Förväntade svarstider",
+			"description": "Vi strävar efter att svara på alla förfrågningar så snabbt som möjligt.",
+			"liveChat": {
+				"title": "Livechatt",
+				"time": "Under 2 minuter"
+			},
+			"email": {
+				"title": "E-post",
+				"time": "Inom 24 timmar"
+			},
+			"priority": {
+				"title": "VIP-support",
+				"time": "Prioriterad hantering"
+			}
+		},
+		"faq": {
+			"title": "Vanliga frågor",
+			"items": [
+				{
+					"question": "Hur återställer jag mitt lösenord?",
+					"answer": "Du kan återställa ditt lösenord genom att klicka på länken 'Glömt lösenord' på inloggningssidan. Ange din registrerade e-postadress och följ instruktionerna som skickas till din inkorg."
+				},
+				{
+					"question": "Hur lång tid tar det att behandla uttag?",
+					"answer": "De flesta uttag av kryptovalutor behandlas omedelbart. I vissa fall kan manuell verifiering krävas, vilket kan ta upp till 24 timmar."
+				},
+				{
+					"question": "Vilka kryptovalutor accepterar ni?",
+					"answer": "Vi accepterar större kryptovalutor inklusive Bitcoin (BTC), Ethereum (ETH), USDT, USDC och flera andra populära tokens över flera blockkedjenätverk."
+				},
+				{
+					"question": "Hur kan jag verifiera mitt konto?",
+					"answer": "Kontoverifiering kan slutföras via dina profilinställningar. Du kan behöva tillhandahålla identifieringshandlingar beroende på din kontonivå och uttagsgränser."
+				},
+				{
+					"question": "Är min personliga information säker?",
+					"answer": "Ja, vi använder branschstandardkryptering och säkerhetsåtgärder för att skydda all personlig och finansiell information. Vår plattform genomgår regelbundna säkerhetsrevisioner."
+				}
+			]
+		}
+	},
 	"about": {
 		"title": "🎮 Om {siteName}",
 		"subtitle": "På {siteName} är spel inte bara ett tidsfördriv – det är en upplevelse.",

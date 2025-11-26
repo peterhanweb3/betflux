@@ -1291,6 +1291,89 @@
 			"uploadFailed": "Gagal membaca fail fon"
 		}
 	},
+	"contact": {
+		"title": "Hubungi Kami",
+		"subtitle": "Ada soalan atau perlukan bantuan? Pasukan sokongan kami yang berdedikasi sedia membantu anda sepanjang masa.",
+		"methods": {
+			"liveChat": {
+				"title": "Sembang Langsung",
+				"description": "Dapatkan bantuan segera daripada pasukan sokongan kami melalui sembang langsung.",
+				"availability": "Tersedia 24/7"
+			},
+			"email": {
+				"title": "Sokongan E-mel",
+				"description": "Hantarkan e-mel kepada kami dan kami akan membalas dalam masa 24 jam.",
+				"availability": "Balasan dalam 24j"
+			},
+			"support": {
+				"title": "Pusat Bantuan",
+				"description": "Layari pangkalan pengetahuan komprehensif kami untuk jawapan pantas.",
+				"availability": "Layan diri tersedia"
+			}
+		},
+		"form": {
+			"title": "Hantarkan Mesej kepada Kami",
+			"name": "Nama Penuh",
+			"namePlaceholder": "Masukkan nama penuh anda",
+			"email": "Alamat E-mel",
+			"emailPlaceholder": "Masukkan alamat e-mel anda",
+			"subject": "Subjek",
+			"subjectPlaceholder": "Apakah pertanyaan anda?",
+			"message": "Mesej",
+			"messagePlaceholder": "Sila terangkan pertanyaan anda secara terperinci...",
+			"submit": "Hantar Mesej",
+			"sending": "Menghantar...",
+			"errors": {
+				"nameRequired": "Sila masukkan nama anda",
+				"emailRequired": "Sila masukkan e-mel anda",
+				"emailInvalid": "Sila masukkan alamat e-mel yang sah",
+				"subjectRequired": "Sila masukkan subjek",
+				"messageRequired": "Sila masukkan mesej anda",
+				"messageTooShort": "Mesej mestilah sekurang-kurangnya 10 aksara"
+			}
+		},
+		"responseTime": {
+			"title": "Masa Respons Dijangka",
+			"description": "Kami berusaha untuk membalas semua pertanyaan secepat mungkin.",
+			"liveChat": {
+				"title": "Sembang Langsung",
+				"time": "Di bawah 2 minit"
+			},
+			"email": {
+				"title": "E-mel",
+				"time": "Dalam masa 24 jam"
+			},
+			"priority": {
+				"title": "Sokongan VIP",
+				"time": "Pengendalian keutamaan"
+			}
+		},
+		"faq": {
+			"title": "Soalan Lazim",
+			"items": [
+				{
+					"question": "Bagaimana cara saya menetapkan semula kata laluan saya?",
+					"answer": "Anda boleh menetapkan semula kata laluan anda dengan mengklik pautan 'Lupa Kata Laluan' di halaman log masuk. Masukkan alamat e-mel berdaftar anda dan ikuti arahan yang dihantar ke peti masuk anda."
+				},
+				{
+					"question": "Berapa lama masa yang diambil untuk memproses pengeluaran?",
+					"answer": "Kebanyakan pengeluaran mata wang kripto diproses serta-merta. Dalam sesetengah kes, pengesahan manual mungkin diperlukan, yang boleh mengambil masa sehingga 24 jam."
+				},
+				{
+					"question": "Apakah mata wang kripto yang anda terima?",
+					"answer": "Kami menerima mata wang kripto utama termasuk Bitcoin (BTC), Ethereum (ETH), USDT, USDC, dan beberapa token popular lain di pelbagai rangkaian blockchain."
+				},
+				{
+					"question": "Bagaimana saya boleh mengesahkan akaun saya?",
+					"answer": "Pengesahan akaun boleh dilengkapkan melalui tetapan profil anda. Anda mungkin perlu menyediakan dokumen pengenalan bergantung pada peringkat akaun dan had pengeluaran anda."
+				},
+				{
+					"question": "Adakah maklumat peribadi saya selamat?",
+					"answer": "Ya, kami menggunakan penyulitan dan langkah keselamatan standard industri untuk melindungi semua maklumat peribadi dan kewangan. Platform kami menjalani audit keselamatan secara berkala."
+				}
+			]
+		}
+	},
 	"about": {
 		"title": "🎮 Tentang {siteName}",
 		"subtitle": "Di {siteName}, permainan bukan sekadar hobi — ia adalah satu pengalaman.",
