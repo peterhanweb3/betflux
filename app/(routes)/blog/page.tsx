@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Search, TrendingUp, Zap, Target } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
+import { Post } from "@/modules/blog/types/blogs.types";
 
 export const metadata = {
 	title: "Blog | BetFlux - Strategies, Tips & Platform Updates",
@@ -138,10 +139,10 @@ export default async function BlogPage({
 						</div>
 
 						<div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-							{posts.map((post, index) => (
+							{posts.map((post: Post, index: number) => (
 								<BlogCard
 									key={post.id}
-									post={post}
+									post={post as Post}
 									index={index}
 								/>
 							))}

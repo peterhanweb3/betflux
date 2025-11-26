@@ -1,10 +1,9 @@
 "use server";
 
+import { encrypt } from "@/modules/auth/lib/auth";
 import { cookies } from "next/headers";
-import { redirect } from "next/navigation";
-import { encrypt } from "./lib/auth";
-import { verifyPassword } from "./lib/password";
-import prisma from "./lib/db";
+import { verifyPassword } from "@/modules/auth/lib/password";
+import prisma from "@/modules/admin/lib/db";
 
 export async function loginAction(prevState: any, formData: FormData) {
 	const username = formData.get("username") as string;
@@ -42,7 +41,7 @@ export async function loginAction(prevState: any, formData: FormData) {
 		path: "/",
 	});
 
-	redirect("/admin");
+	return { success: true };
 }
 
 export async function logoutAction() {
@@ -53,5 +52,5 @@ export async function logoutAction() {
 		maxAge: 0,
 		path: "/",
 	});
-	redirect("/admin/login");
+	return { success: true };
 }

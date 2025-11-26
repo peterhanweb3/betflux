@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { locales } from '@/lib/i18n';
-import { decrypt } from '@/modules/blog/lib/auth';
+import { decrypt } from '@/modules/auth/lib/auth';
 
 export async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
@@ -19,7 +19,7 @@ export async function middleware(request: NextRequest) {
       if (!session || !session.id) {
         return NextResponse.redirect(new URL('/admin/login', request.url));
       }
-    } catch (error) {
+    } catch {
       return NextResponse.redirect(new URL('/admin/login', request.url));
     }
   }

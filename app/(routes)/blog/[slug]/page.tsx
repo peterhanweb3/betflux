@@ -10,6 +10,7 @@ import { Calendar, Clock, Tag, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { BlogCard } from "@/modules/blog/components/BlogCard";
+import { Post } from "@/modules/blog/types/blogs.types";
 
 export async function generateMetadata({
 	params,
@@ -44,7 +45,7 @@ export default async function BlogPostPage({
 	params: Promise<{ slug: string }>;
 }) {
 	const { slug } = await params;
-	let post;
+	let post: Post | null = null;
 	try {
 		post = await getPostBySlug(slug);
 	} catch (error) {
@@ -61,7 +62,7 @@ export default async function BlogPostPage({
 	let filteredRelated: any[] = [];
 	try {
 		const { posts: relatedPosts } = await getPosts(1, 3, "", "published");
-		filteredRelated = relatedPosts
+		filteredRelated = (relatedPosts as Post[])
 			.filter((p) => p.id !== post.id)
 			.slice(0, 3);
 	} catch (error) {

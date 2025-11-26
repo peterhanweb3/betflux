@@ -30,7 +30,7 @@ export function BlogCardsSlider({ posts }: { posts: any[] }) {
             <div className="flex items-center justify-between mb-8">
                 <div>
                     <h2 className="text-3xl font-bold mb-2">Latest from the Blog</h2>
-                    <p className="text-muted-foreground">Strategies, insights, and updates from the BetFlux team</p>
+                    <p className="text-muted-foreground">Strategies, insights, and updates from the HyperBetz team</p>
                 </div>
                 <div className="flex items-center gap-2">
                     <Button
@@ -120,7 +120,7 @@ export function BlogCardsSlider({ posts }: { posts: any[] }) {
                                         <div className="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center">
                                             <span className="text-xs font-bold text-primary">H</span>
                                         </div>
-                                        BetFlux
+                                        HyperBetz
                                     </span>
                                 </div>
                             </CardContent>
