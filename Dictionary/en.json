@@ -1435,7 +1435,9 @@
 					"about": "About Us",
 					"providers": "Providers",
 					"affiliate": "Referral Bonus",
-					"bonus": "Turnover Bonus"
+					"bonus": "Turnover Bonus",
+					"blog": "Blog",
+					"contact": "Contact Us"
 				}
 			},
 			"legal": {
