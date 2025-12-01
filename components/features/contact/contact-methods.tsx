@@ -41,7 +41,7 @@ function ContactMethodCard({
 						</div>
 					)}
 					<p className="pt-2 text-sm font-medium text-primary">
-						{title == "Email Support" ? "info@hyperbetz.com" : ""}
+						{title == "Email Support" ? "info@betflux.games" : ""}
 						{/* {action} */}
 					</p>
 				</div>
@@ -81,7 +81,7 @@ function ContactMethodsBase() {
 			title: t("contact.methods.email.title"),
 			description: t("contact.methods.email.description"),
 			// action: t("contact.methods.email.action"),
-			href: "mailto:support@hyperbetz.com",
+			href: "mailto:support@betflux.games",
 			availability: t("contact.methods.email.availability"),
 		},
 		{

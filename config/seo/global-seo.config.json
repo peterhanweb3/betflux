@@ -42,12 +42,7 @@
 		"website": {
 			"@type": "WebSite",
 			"name": "BetFlux",
-			"url": "https://betflux.io",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"target": "https://betflux.io/search?q={search_term_string}",
-				"query-input": "required name=search_term_string"
-			}
+			"url": "https://betflux.io"
 		}
 	},
 	"pageDefaults": {

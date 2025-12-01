@@ -20,15 +20,24 @@ export async function POST(request: NextRequest) {
 	}
 
 	const buffer = Buffer.from(await file.arrayBuffer());
-	const filename = Date.now() + "-" + file.name.replace(/\s/g, "-");
-	const uploadDir = path.join(process.cwd(), "public/uploads");
+
+	// Sanitize filename
+	const sanitizedName = file.name
+		.toLowerCase()
+		.replace(/[^a-z0-9.\-]/g, "-")
+		.replace(/-+/g, "-")
+		.replace(/^-|-$/g, "");
+	const filename = Date.now() + "-" + sanitizedName;
+
+	// CHANGE 1: Save to a persistent "uploads" directory in project root (not public)
+	const uploadDir = path.join(process.cwd(), "uploads");
 
 	try {
-		// Create uploads directory if it doesn't exist
 		await mkdir(uploadDir, { recursive: true });
-
 		await writeFile(path.join(uploadDir, filename), buffer);
-		return NextResponse.json({ url: `/uploads/${filename}` });
+
+		// CHANGE 2: Return a URL pointing to our new API route
+		return NextResponse.json({ url: `/api/upload/${filename}` });
 	} catch (error) {
 		console.error("Upload failed:", error);
 		return NextResponse.json({ error: "Upload failed" }, { status: 500 });
