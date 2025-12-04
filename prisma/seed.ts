@@ -14,6 +14,7 @@ async function main() {
 		},
 	});
 
+	
 	// Create tags
 	const strategyTag = await prisma.tag.upsert({
 		where: { slug: "strategy" },
