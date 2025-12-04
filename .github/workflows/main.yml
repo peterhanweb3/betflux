@@ -20,4 +20,7 @@ jobs:
           script: |
             cd /var/www/html/production/Live/betfluxv2/betflux/
             GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa_leon -o IdentitiesOnly=yes' \
-            npx prisma generate
+            git pull origin main
+            npm i
+            npm run build
+            pm2 restart web_betfluxv2
