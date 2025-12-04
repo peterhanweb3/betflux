@@ -46,7 +46,7 @@ export async function generateSEOMetadata(props: SEOProps): Promise<Metadata> {
 	const fullTitle = `${title}${config.metaTitleSuffix}`;
 
 	// Generate canonical URL
-	const canonical = !(props.nocanonical??true)
+	const canonical = !(props.nocanonical ?? true)
 		? props.canonical ||
 		  generateCanonicalURL(props.path || "/", language, config)
 		: undefined;
@@ -281,6 +281,7 @@ export const SEOTemplates = {
 			pageType: "home",
 			path: "/",
 			language,
+			nocanonical: false,
 			...customProps,
 		}),
 
