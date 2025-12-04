@@ -28,6 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		ogDescription: `Reach out to ${siteName} support for any questions or assistance. Our dedicated team is here to help you 24/7.`,
 		ogType: "website",
 		ogImage: "/assets/seo/CONTACT_US.png",
+		ogUrl: `${siteDomain}/contact-us`,
 		schemas: [
 			generateOrganizationSchema(config),
 			generateWebPageSchema(

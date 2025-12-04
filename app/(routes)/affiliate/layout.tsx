@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 	return generateSEOMetadata({
 		title: `Join the ${siteName} Affiliate Program – Earn Lifetime Commissions`,
-	description: `Partner with ${siteDomain} & earn lifetime income for every player you refer. Easy setup & global reach.`,
+		description: `Partner with ${siteDomain} & earn lifetime income for every player you refer. Easy setup & global reach.`,
 		keywords: [
 			`${siteName} affiliate program`,
 			"crypto casino affiliate",
@@ -38,12 +38,13 @@ export async function generateMetadata(): Promise<Metadata> {
 		ogDescription: `Partner with ${siteName} and earn lifetime crypto rewards. Promote a top-tier crypto casino offering slots, live games, and sports betting to a global audience.`,
 		ogType: "website",
 		ogImage: "/assets/seo/AFFILIATE.png",
+		ogUrl: `${siteDomain}/affiliate`,
 		schemas: [
 			generateOrganizationSchema(config),
 			generateWebPageSchema(
 				{
 					title: `Join the ${siteName} Affiliate Program – Earn Lifetime Commissions`,
-			url: `https://${siteDomain}/affiliate`,
+					url: `https://${siteDomain}/affiliate`,
 					description: `Partner with ${siteName} & earn lifetime income for every player you refer. Easy setup & global reach.`,
 				},
 				config

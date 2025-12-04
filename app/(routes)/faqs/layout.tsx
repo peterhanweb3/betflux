@@ -28,12 +28,13 @@ export async function generateMetadata(): Promise<Metadata> {
 		ogDescription: `Explore FAQs at ${siteName}. Learn how to connect your wallet, deposit crypto, withdraw winnings, and play provably fair blockchain games.`,
 		ogType: "website",
 		ogImage: "/assets/seo/og.png",
+		ogUrl: `${siteDomain}/faqs`,
 		schemas: [
 			generateOrganizationSchema(config),
 			generateWebPageSchema(
 				{
 					title: `FAQs – ${siteName} Crypto Casino Help Center`,
-			url: `https://${siteDomain}/faqs`,
+					url: `https://${siteDomain}/faqs`,
 					description: `Explore FAQs at ${siteName}. Learn how to connect your wallet, deposit crypto, withdraw winnings, and play provably fair blockchain games.`,
 				},
 				config

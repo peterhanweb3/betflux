@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { Metadata } from "next";
 import { generateSEOMetadata } from "@/lib/utils/seo/seo-provider";
+import { getDynamicSEOConfig } from "@/lib/utils/seo/seo-config-loader";
 import { ProviderPageLayoutWrapper } from "./provider-page-layout-wrapper";
 import { Skeleton } from "@/components/ui/skeleton";
 // import { interpolateSiteName } from "@/lib/utils/site-config";
@@ -24,6 +25,9 @@ export async function generateMetadata({
 	params,
 }: PageProps): Promise<Metadata> {
 	const { category } = await params;
+	const config = await getDynamicSEOConfig();
+	const siteDomain = config.defaultDomain;
+
 	const categoryName = decodeURIComponent(category)
 		.replace(/-/g, " ")
 		.split(" ")
@@ -46,6 +50,7 @@ export async function generateMetadata({
 		path: `/providers/${category}`,
 		pageType: "providers",
 		ogType: "website",
+		ogUrl: `${siteDomain}/providers/${category}`,
 	});
 }
 

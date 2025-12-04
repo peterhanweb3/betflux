@@ -7,11 +7,25 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Post } from "@/modules/blog/types/blogs.types";
 
-export const metadata = {
-	title: "Blog | BetFlux - Strategies, Tips & Platform Updates",
-	description:
-		"Discover expert betting strategies, platform updates, and winning tips from the BetFlux team. Stay ahead of the game with our latest insights.",
-};
+export async function generateMetadata() {
+	const { getDynamicSEOConfig } = await import(
+		"@/lib/utils/seo/seo-config-loader"
+	);
+	const config = await getDynamicSEOConfig();
+	const siteDomain = config.defaultDomain;
+
+	return {
+		title: "Blog | BetFlux - Strategies, Tips & Platform Updates",
+		description:
+			"Discover expert betting strategies, platform updates, and winning tips from the BetFlux team. Stay ahead of the game with our latest insights.",
+		openGraph: {
+			title: "Blog | BetFlux - Strategies, Tips & Platform Updates",
+			description:
+				"Discover expert betting strategies, platform updates, and winning tips from the BetFlux team. Stay ahead of the game with our latest insights.",
+			url: `${siteDomain}/blog`,
+		},
+	};
+}
 
 export default async function BlogPage({
 	searchParams,

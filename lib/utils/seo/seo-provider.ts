@@ -102,7 +102,7 @@ export async function generateSEOMetadata(props: SEOProps): Promise<Metadata> {
 				| "profile",
 			title: props.ogTitle || fullTitle, // Allow manual override of OG title
 			description: props.ogDescription || description, // Allow manual override of OG description
-			url: canonical,
+			url: props.ogUrl,
 			siteName: config.defaults.siteName,
 			locale: ogLocale,
 			images: [
@@ -276,61 +276,80 @@ export async function generatePageSEO(props: SEOProps) {
  * Helper function to generate SEO for common page types
  */
 export const SEOTemplates = {
-	home: async (language?: string, customProps?: Partial<SEOProps>) =>
-		generatePageSEO({
+	home: async (language?: string, customProps?: Partial<SEOProps>) => {
+		const config = await getDynamicSEOConfig();
+		return generatePageSEO({
 			pageType: "home",
 			path: "/",
 			language,
 			nocanonical: false,
+			ogUrl: customProps?.ogUrl || `${config.defaultDomain}/`,
 			...customProps,
-		}),
+		});
+	},
 
-	lobby: async (language?: string, customProps?: Partial<SEOProps>) =>
-		generatePageSEO({
+	lobby: async (language?: string, customProps?: Partial<SEOProps>) => {
+		const config = await getDynamicSEOConfig();
+		return generatePageSEO({
 			pageType: "lobby",
 			path: "/lobby",
 			language,
+			ogUrl: customProps?.ogUrl || `${config.defaultDomain}/lobby`,
 			...customProps,
-		}),
+		});
+	},
 
 	game: async (
 		gameName: string,
 		language?: string,
 		customProps?: Partial<SEOProps>
-	) =>
-		generatePageSEO({
+	) => {
+		const config = await getDynamicSEOConfig();
+		const path = `/play/${gameName.toLowerCase().replace(/\s+/g, "-")}`;
+		return generatePageSEO({
 			pageType: "game",
-			path: `/play/${gameName.toLowerCase().replace(/\s+/g, "-")}`,
+			path,
 			language,
 			variables: { gameName },
+			ogUrl: customProps?.ogUrl || `${config.defaultDomain}${path}`,
 			...customProps,
-		}),
+		});
+	},
 
-	profile: async (language?: string, customProps?: Partial<SEOProps>) =>
-		generatePageSEO({
+	profile: async (language?: string, customProps?: Partial<SEOProps>) => {
+		const config = await getDynamicSEOConfig();
+		return generatePageSEO({
 			pageType: "profile",
 			path: "/profile",
 			language,
 			ogType: "profile",
 			noindex: true, // Private page
+			ogUrl: customProps?.ogUrl || `${config.defaultDomain}/profile`,
 			...customProps,
-		}),
+		});
+	},
 
-	affiliate: async (language?: string, customProps?: Partial<SEOProps>) =>
-		generatePageSEO({
+	affiliate: async (language?: string, customProps?: Partial<SEOProps>) => {
+		const config = await getDynamicSEOConfig();
+		return generatePageSEO({
 			pageType: "affiliate",
 			path: "/affiliate",
 			language,
+			ogUrl: customProps?.ogUrl || `${config.defaultDomain}/affiliate`,
 			...customProps,
-		}),
+		});
+	},
 
-	providers: async (language?: string, customProps?: Partial<SEOProps>) =>
-		generatePageSEO({
+	providers: async (language?: string, customProps?: Partial<SEOProps>) => {
+		const config = await getDynamicSEOConfig();
+		return generatePageSEO({
 			pageType: "providers",
 			path: "/providers",
 			language,
+			ogUrl: customProps?.ogUrl || `${config.defaultDomain}/providers`,
 			...customProps,
-		}),
+		});
+	},
 };
 
 /**

@@ -34,12 +34,13 @@ export async function generateMetadata(): Promise<Metadata> {
 		ogDescription: `Play 5,000+ casino games at ${siteName} — including crypto slots, live dealers, poker, and sports betting. Fast wallet payouts and provably fair gaming on every spin.`,
 		ogType: "website",
 		ogImage: "/assets/seo/GAMES.png",
+		ogUrl: `${siteDomain}/games`,
 		schemas: [
 			generateOrganizationSchema(config),
 			generateWebPageSchema(
 				{
 					title: `All Games on ${siteName} – Slots, Poker & Live Casino`,
-			url: `https://${siteDomain}/games`,
+					url: `https://${siteDomain}/games`,
 					description: `Discover the full ${siteName} game list – slots, poker & live casino from top providers. Play instantly, win securely.`,
 				},
 				config

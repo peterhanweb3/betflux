@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { BlogCard } from "@/modules/blog/components/BlogCard";
 import { Post } from "@/modules/blog/types/blogs.types";
+import { getDynamicSEOConfig } from "@/lib/utils/seo/seo-config-loader";
 
 export async function generateMetadata({
 	params,
@@ -19,6 +20,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
 	try {
 		const { slug } = await params;
+		const config = await getDynamicSEOConfig();
+		const siteDomain = config.defaultDomain;
 		const post = await getPostBySlug(slug);
 		if (!post) return {};
 
@@ -29,6 +32,7 @@ export async function generateMetadata({
 				title: post.seoTitle || post.title,
 				description: post.seoDescription || post.excerpt || undefined,
 				images: post.coverImage ? [post.coverImage] : [],
+				url: `${siteDomain}/blog/${slug}`,
 			},
 		};
 	} catch (error) {
