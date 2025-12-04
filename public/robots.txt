@@ -1,25 +1,16 @@
 # ==========================================================
-# DigiDice Gaming Network — Robots.txt
-# Version: SEO + AI + Compliance Optimized
-# ==========================================================
-# Purpose:
-# - Maximize search visibility for games, providers, and offers
-# - Allow AI indexing (not training)
-# - Protect user-sensitive and backend routes
-# - Ensure full discoverability of legal & trust pages
+# BetFlux Gaming Network — robots.txt
 # ==========================================================
 
 User-agent: *
-Content-signal: search=yes,ai-input=yes,ai-train=no
+# Content-signal: search=yes,ai-input=yes,ai-train=no
 
 # ==========================================================
-# ✅ ALLOWED PUBLIC CONTENT
+# PUBLIC CONTENT (INDEXABLE)
 # ==========================================================
 Allow: /
 Allow: /lobby
-Allow: /games
 Allow: /games/
-Allow: /providers
 Allow: /providers/
 Allow: /bonus
 Allow: /affiliate
@@ -33,7 +24,7 @@ Allow: /terms-and-conditions
 Allow: /responsible-gambling
 
 # ==========================================================
-# 🚫 DISALLOWED SENSITIVE / DYNAMIC PATHS
+# SENSITIVE / PRIVATE PATHS (DISALLOWED)
 # ==========================================================
 Disallow: /admin/
 Disallow: /api/
@@ -47,93 +38,91 @@ Disallow: /transactions/
 Disallow: /settings/
 Disallow: /my-bets/
 Disallow: /favourites/
-Disallow: */casino/games/*/play*
-Disallow: */casino/games/*/demo*
-Disallow: */sports/home/live*
-Disallow: */sports/home/upcoming*
-Disallow: */sports/home/promotion*
-Disallow: *?ref=*
-Disallow: *?utm_*
-Disallow: *?page=*
-Disallow: *modal=*
-Disallow: *transaction=*
-Disallow: *betId=*
-Disallow: *vmcid=*
-Disallow: *nonce=*
-Disallow: *tab=*
-Disallow: *serverSeed=*
-Disallow: *clientSeed=*
-Disallow: *currency=*
-Disallow: *drop=*
-Disallow: *auth*
-Disallow: */blog/category/uncategorized*
+
+# Gameplay endpoints (Google-compatible rules)
+Disallow: /casino/games/*/play
+Disallow: /casino/games/*/demo
+
+# Heavy sports pages
+Disallow: /sports/home/live
+Disallow: /sports/home/upcoming
+Disallow: /sports/home/promotion
+
+# URL Parameters
+Disallow: /*?ref=
+Disallow: /*?utm_
+Disallow: /*?page=
+Disallow: /*modal=
+Disallow: /*transaction=
+Disallow: /*betId=
+Disallow: /*vmcid=
+Disallow: /*nonce=
+Disallow: /*tab=
+Disallow: /*serverSeed=
+Disallow: /*clientSeed=
+Disallow: /*currency=
+Disallow: /*drop=
+Disallow: /*auth
+
+# Low-quality blog category
+Disallow: /blog/category/uncategorized
 
 # ==========================================================
-# 📰 ALLOW BLOG SEO CONTENT
+# ALLOW: High-value blog SEO URLs
 # ==========================================================
-Allow: */blog/*transactions*
-Allow: */blog/*updates*
-Allow: */blog/*news*
+Allow: /blog/*transactions
+Allow: /blog/*updates
+Allow: /blog/*news
 
 # ==========================================================
-# 🤖 SEARCH + AI BOT PERMISSIONS
+# SEARCH BOT PRIORITY
 # ==========================================================
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 2
 
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 2
 
+# ==========================================================
+# AI BOTS (Allowed except private areas)
+# ==========================================================
 User-agent: GPTBot
 Allow: /
-Disallow: /api/
 Disallow: /admin/
+Disallow: /api/
 Disallow: /private/
 
 User-agent: ClaudeBot
 Allow: /
-Disallow: /api/
 Disallow: /admin/
+Disallow: /api/
 Disallow: /private/
 
 User-agent: Claude-Web
 Allow: /
-Disallow: /api/
 Disallow: /admin/
+Disallow: /api/
 Disallow: /private/
 
 User-agent: PerplexityBot
 Allow: /
-Disallow: /api/
 Disallow: /admin/
+Disallow: /api/
 Disallow: /private/
 
 User-agent: ChatGPT-User
 Allow: /
-Disallow: /api/
 Disallow: /admin/
+Disallow: /api/
 Disallow: /private/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /private/
 
-# ==========================================================
-# 🚫 BLOCK LOW-VALUE / COMPETITOR SCRAPERS
-# ==========================================================
-User-agent: AhrefsBot
-User-agent: SemrushBot
-User-agent: botify
-User-agent: ContentKing
-User-agent: Amazonbot
-User-agent: Omgilibot
-User-agent: Diffbot
-User-agent: ImagesiftBot
-User-agent: Omgili
-User-agent: YouBot
-Disallow: /
 
 
-# © BetFlux Gaming Network 2025 — All Rights Reserved.
+# ==========================================================
+# Sitemap
+# ==========================================================
+Sitemap: https://betflux.games/sitemap.xml
