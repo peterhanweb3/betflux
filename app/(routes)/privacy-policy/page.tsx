@@ -9,11 +9,18 @@ import {
 import { Shield, Lock, Database, Mail } from "lucide-react";
 import { useT } from "@/hooks/useI18n";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 export default function PrivacyPage() {
 	const t = useT();
 
-	const siteDomain = window?.location?.hostname || "betflux.io";
+	const [siteDomain, setSiteDomain] = useState("betflux.games");
+
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			setSiteDomain(window.location.hostname);
+		}
+	}, []);
 	return (
 		<div className="container mx-auto space-y-8 consistent-padding-x consistent-padding-y">
 			<PageHeader
