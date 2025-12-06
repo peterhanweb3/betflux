@@ -1,17 +1,17 @@
 {
 	"common": {
 		"loading": "Chargement...",
-		"save": "Sauvegarder",
+		"save": "Enregistrer",
 		"cancel": "Annuler",
 		"confirm": "Confirmer",
-		"viewAll": "Tout voir"
+		"viewAll": "Voir tout"
 	},
 	"app": {
 		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Basculer la barre latérale",
-		"searchPlaceholder": "Rechercher des jeux, des fournisseurs...",
+		"searchPlaceholder": "Rechercher jeux, fournisseurs...",
 		"liveChat": "Chat en direct",
 		"player": "Joueur",
 		"vip": "VIP",
@@ -23,7 +23,7 @@
 		"affiliate": "Bonus de parrainage",
 		"logout": "Déconnexion",
 		"balance": "Solde",
-		"turnoverBonus": "Bonus de Chiffre d'Affaires"
+		"turnoverBonus": "Bonus de volume"
 	},
 	"navigation": {
 		"home": "Accueil",
@@ -33,84 +33,84 @@
 		"settings": "Paramètres",
 		"promotions": "Promotions",
 		"affiliate": "Bonus de parrainage",
-		"bonus": "Bonus de Chiffre d'Affaires",
+		"bonus": "Bonus de volume",
 		"providers": "Fournisseurs",
 		"lobby": "Lobby",
 		"about": "À propos de nous"
 	},
 	"profile": {
 		"language": "Langue",
-		"welcome": "Bienvenue, {name}!",
+		"welcome": "Bienvenue, {name} !",
 		"settingUp": "Configuration",
-		"profileBtn": "Voir le Profil",
-		"currentBalance": "Solde Actuel",
+		"profileBtn": "Voir le profil",
+		"currentBalance": "Solde actuel",
 		"availableFunds": "Fonds disponibles",
-		"totalDeposits": "Total des Dépôts",
-		"totalWithdrawals": "Total des Retraits",
-		"walletAddress": "Adresse du Portefeuille",
-		"copySuccess": "Adresse du portefeuille copiée dans le presse-papiers!",
+		"totalDeposits": "Total des dépôts",
+		"totalWithdrawals": "Total des retraits",
+		"walletAddress": "Adresse du portefeuille",
+		"copySuccess": "Adresse du portefeuille copiée dans le presse-papiers !",
 		"copyFailed": "Échec de la copie de l'adresse du portefeuille",
 		"notConnected": "Non connecté",
-		"myProfile": "Mon Profil",
+		"myProfile": "Mon profil",
 		"history": {
 			"title": "Historique"
 		},
 		"logout": "Déconnexion",
 		"pendingRegistration": "Inscription en attente",
-		"noEmailProvided": "Aucun email fourni",
-		"balanceOverview": "Aperçu du Solde",
-		"gettingStarted": "Démarrer",
-		"verifyEmail": "Vérifiez votre email",
-		"completeEmailVerification": "Terminer la vérification de l'email",
+		"noEmailProvided": "Aucun e-mail fourni",
+		"balanceOverview": "Aperçu du solde",
+		"gettingStarted": "Commencer",
+		"verifyEmail": "Vérifiez votre e-mail",
+		"completeEmailVerification": "Terminer la vérification de l'e-mail",
 		"verifyPhone": "Vérifiez votre numéro de téléphone",
 		"addPhoneVerification": "Ajouter la vérification téléphonique",
-		"firstDeposit": "Premier Dépôt",
+		"firstDeposit": "Premier dépôt",
 		"makeFirstDeposit": "Faites votre premier dépôt",
-		"placeBetOrTrade": "Placer un Pari / Effectuer un Échange",
-		"startFirstGame": "Démarrez votre premier jeu",
-		"recentActivity": "Activité Récente",
-		"transactionHistory": "Historique des Transactions",
-		"activityGameWinDiceRoll": "Gain de Jeu - Lancer de Dés",
-		"activityGameLossBlackjack": "Perte de Jeu - Blackjack",
+		"placeBetOrTrade": "Placez un pari / Faites un échange",
+		"startFirstGame": "Lancez votre premier jeu",
+		"recentActivity": "Activité récente",
+		"transactionHistory": "Historique des transactions",
+		"activityGameWinDiceRoll": "Gain au jeu - Lancer de dés",
+		"activityGameLossBlackjack": "Perte au jeu - Blackjack",
 		"twoHoursAgo": "Il y a 2 heures",
 		"oneDayAgo": "Il y a 1 jour",
 		"twoDaysAgo": "Il y a 2 jours",
 		"deposit": "Dépôt",
-		"loggedOutTitle": "Oups! Vous êtes Déconnecté",
+		"loggedOutTitle": "Oups ! Vous êtes déconnecté",
 		"loggedOutSubtitle": "Veuillez vous connecter pour voir votre profil",
-		"goHome": "Aller à l'Accueil",
+		"goHome": "Aller à l'accueil",
 		"withdrawal": "Retrait",
 		"transactions": {
-			"title": "Historique des Transactions",
+			"title": "Historique des transactions",
 			"trackDepositsWithdrawals": "Suivez vos dépôts et retraits",
 			"filters": "Filtres",
 			"refresh": "Actualiser",
-			"advancedFilters": "Filtres Avancés",
-			"searchTransactionComingSoon": "Rechercher une Transaction (Bientôt disponible)",
+			"advancedFilters": "Filtres avancés",
+			"searchTransactionComingSoon": "Recherche de transaction (Bientôt disponible)",
 			"searchPlaceholderDisabled": "La fonctionnalité de recherche sera implémentée au niveau de l'API...",
-			"dateRange": "Plage de Dates",
-			"selectDateRange": "Sélectionner la plage de dates",
+			"dateRange": "Plage de dates",
+			"selectDateRange": "Sélectionner une plage de dates",
 			"today": "Aujourd'hui",
-			"last7Days": "7 Derniers Jours",
-			"last30Days": "30 Derniers Jours",
-			"last90Days": "90 Derniers Jours",
-			"thisMonth": "Ce Mois-ci",
-			"lastMonth": "Le Mois Dernier",
-			"customRange": "Plage Personnalisée",
-			"fromDate": "De la Date",
-			"toDate": "À la Date",
-			"transactionStatus": "Statut de la Transaction",
-			"allStatuses": "Tous les Statuts",
+			"last7Days": "7 derniers jours",
+			"last30Days": "30 derniers jours",
+			"last90Days": "90 derniers jours",
+			"thisMonth": "Ce mois-ci",
+			"lastMonth": "Le mois dernier",
+			"customRange": "Plage personnalisée",
+			"fromDate": "Du",
+			"toDate": "Au",
+			"transactionStatus": "Statut de la transaction",
+			"allStatuses": "Tous les statuts",
 			"success": "Succès",
 			"pending": "En attente",
 			"rejected": "Rejeté",
 			"clearAll": "Tout effacer",
 			"cancel": "Annuler",
-			"applyFilters": "Appliquer les Filtres",
-			"activeFilters": "Filtres Actifs:",
+			"applyFilters": "Appliquer les filtres",
+			"activeFilters": "Filtres actifs :",
 			"statusLabel": "Statut",
 			"dateLabel": "Date",
-			"statsTotalTransactions": "{total} transactions totales",
+			"statsTotalTransactions": "{total} transactions au total",
 			"pageOf": "Page {current} sur {total}",
 			"live": "En direct",
 			"tabs": {
@@ -120,63 +120,63 @@
 			},
 			"errorLoadingTransactions": "Erreur lors du chargement des transactions",
 			"tryAgain": "Réessayer",
-			"noTransactionsFound": "Aucune Transaction Trouvée",
+			"noTransactionsFound": "Aucune transaction trouvée",
 			"noTransactionsAvailableSelectedPeriod": "Aucune transaction disponible pour la période sélectionnée.",
 			"noDepositsFoundSelectedPeriod": "Aucun dépôt trouvé pour la période sélectionnée.",
 			"noWithdrawalsFoundSelectedPeriod": "Aucun retrait trouvé pour la période sélectionnée.",
 			"show": "Afficher",
-			"ofTransactions": "de {count} transactions",
+			"ofTransactions": "sur {count} transactions",
 			"showingRangeOfTotal": "Affichage de {from}-{to} sur {total}",
 			"pageShort": "Page {current}/{total}"
 		},
 		"betHistory": {
-			"title": "Historique des Paris",
+			"title": "Historique des paris",
 			"trackBetsResults": "Suivez vos paris et résultats de jeu",
 			"filters": "Filtres",
 			"refresh": "Actualiser",
-			"advancedFilters": "Filtres Avancés",
-			"dateRange": "Plage de Dates",
-			"selectDateRange": "Sélectionner la plage de dates",
+			"advancedFilters": "Filtres avancés",
+			"dateRange": "Plage de dates",
+			"selectDateRange": "Sélectionner une plage de dates",
 			"today": "Aujourd'hui",
-			"last7Days": "7 Derniers Jours",
-			"last30Days": "30 Derniers Jours",
-			"last90Days": "90 Derniers Jours",
-			"thisMonth": "Ce Mois-ci",
-			"lastMonth": "Le Mois Dernier",
-			"customRange": "Plage Personnalisée",
-			"fromDate": "De la Date",
-			"toDate": "À la Date",
+			"last7Days": "7 derniers jours",
+			"last30Days": "30 derniers jours",
+			"last90Days": "90 derniers jours",
+			"thisMonth": "Ce mois-ci",
+			"lastMonth": "Le mois dernier",
+			"customRange": "Plage personnalisée",
+			"fromDate": "Du",
+			"toDate": "Au",
 			"provider": "Fournisseur",
-			"allProviders": "Tous les Fournisseurs",
+			"allProviders": "Tous les fournisseurs",
 			"status": "Statut",
-			"allStatuses": "Tous les Statuts",
+			"allStatuses": "Tous les statuts",
 			"outstanding": "En cours",
 			"win": "Gagné",
 			"lose": "Perdu",
-			"draw": "Nul",
+			"draw": "Égalité",
 			"void": "Annulé",
-			"bonusWin": "Gain de Bonus",
+			"bonusWin": "Gain bonus",
 			"clearAll": "Tout effacer",
 			"cancel": "Annuler",
-			"applyFilters": "Appliquer les Filtres",
-			"activeFilters": "Filtres Actifs",
+			"applyFilters": "Appliquer les filtres",
+			"activeFilters": "Filtres actifs",
 			"statusLabel": "Statut",
 			"providerLabel": "Fournisseur",
 			"dateLabel": "Date",
-			"totalBets": "Total des Paris",
-			"totalProfitLoss": "Total des Gains/Pertes",
+			"totalBets": "Total des paris",
+			"totalProfitLoss": "Total Gains/Pertes",
 			"pageOf": "Page {current} sur {total}",
 			"live": "En direct",
-			"errorLoadingBets": "Erreur lors du chargement de l'Historique des Paris",
+			"errorLoadingBets": "Erreur lors du chargement de l'historique des paris",
 			"failedToLoadBetHistory": "Échec du chargement de l'historique des paris. Veuillez réessayer.",
 			"tryAgain": "Réessayer",
-			"noBetsFound": "Aucun Pari Trouvé",
-			"noBetsFoundSelectedPeriod": "Aucun historique de paris trouvé pour la période et les filtres sélectionnés.",
+			"noBetsFound": "Aucun pari trouvé",
+			"noBetsFoundSelectedPeriod": "Aucun historique de pari trouvé pour la période et les filtres sélectionnés.",
 			"show": "Afficher",
-			"ofBets": "de {count} paris",
+			"ofBets": "sur {count} paris",
 			"showingRangeOfTotal": "Affichage de {from}-{to} sur {total}",
-			"totalBet": "Pari Total",
-			"totalWin": "Gain Total",
+			"totalBet": "Mise totale",
+			"totalWin": "Gain total",
 			"net": "Net",
 			"tableHeaders": {
 				"date": "Date",
@@ -184,40 +184,40 @@
 				"provider": "Fournisseur",
 				"type": "Type",
 				"status": "Statut",
-				"betAmount": "Montant du Pari",
-				"winAmount": "Montant du Gain",
-				"hideAmounts": "Masquer les Montants",
-				"showAmounts": "Afficher les Montants",
-				"gameType": "Type de Jeu",
+				"betAmount": "Montant du pari",
+				"winAmount": "Montant gagné",
+				"hideAmounts": "Masquer les montants",
+				"showAmounts": "Afficher les montants",
+				"gameType": "Type de jeu",
 				"vendor": "Vendeur",
-				"lastUpdate": "Dernière Mise à Jour",
-				"netResult": "Résultat Net",
-				"betId": "ID de Pari"
+				"lastUpdate": "Dernière mise à jour",
+				"netResult": "Résultat net",
+				"betId": "ID du pari"
 			},
-			"errorLoading": "Erreur de Chargement",
+			"errorLoading": "Erreur de chargement",
 			"noBetsFoundDescription": "Commencez à jouer pour voir votre historique de paris ici.",
-			"betHistory": "Historique des Paris",
-			"hideAmounts": "Masquer les Montants",
-			"showAmounts": "Afficher les Montants",
+			"betHistory": "Historique des paris",
+			"hideAmounts": "Masquer les montants",
+			"showAmounts": "Afficher les montants",
 			"date": "Date",
 			"game": "Jeu",
-			"betId": "ID de Pari",
+			"betId": "ID du pari",
 			"amount": "Montant",
 			"payout": "Paiement",
 			"player": "Joueur",
-			"gameType": "Type de Jeu",
+			"gameType": "Type de jeu",
 			"vendor": "Vendeur",
-			"lastUpdate": "Dernière Mise à Jour",
-			"netResult": "Résultat Net",
-			"totalWagered": "Total Parié",
-			"totalWon": "Total Gagné",
-			"netProfit": "Bénéfice Net",
-			"winRate": "Taux de Gain",
+			"lastUpdate": "Dernière mise à jour",
+			"netResult": "Résultat net",
+			"totalWagered": "Total misé",
+			"totalWon": "Total gagné",
+			"netProfit": "Bénéfice net",
+			"winRate": "Taux de victoire",
 			"showingResults": "Affichage de {start}-{end} sur {total} résultats",
-			"firstPage": "Première Page",
-			"previousPage": "Page Précédente",
-			"nextPage": "Page Suivante",
-			"lastPage": "Dernière Page"
+			"firstPage": "Première page",
+			"previousPage": "Page précédente",
+			"nextPage": "Page suivante",
+			"lastPage": "Dernière page"
 		}
 	},
 	"chat": {
@@ -228,7 +228,7 @@
 			"replyPlaceholder": "Répondre à {username}..."
 		},
 		"reply": {
-			"replyingTo": "Répond à {username}",
+			"replyingTo": "Réponse à {username}",
 			"types": {
 				"win": "A gagné {amount} {currency}",
 				"gif": "Message GIF",
@@ -238,48 +238,48 @@
 			"preview": {
 				"winIn": "A gagné {amount} {currency} dans {game}",
 				"gifAlt": "Aperçu GIF",
-				"imageAlt": "Aperçu image",
-				"emoji": "Message Emoji",
-				"rain": "Pluie: {amount} {currency}",
-				"system": "Système: {content}"
+				"imageAlt": "Aperçu de l'image",
+				"emoji": "Message emoji",
+				"rain": "Pluie : {amount} {currency}",
+				"system": "Système : {content}"
 			}
 		},
 		"imageDialog": {
-			"title": "Partagez votre Image 🎰",
-			"description": "Prêt à montrer à la salle de chat?",
+			"title": "Partagez votre image 🎰",
+			"description": "Prêt à montrer au salon de discussion ?",
 			"previewLabel": "Aperçu",
-			"statusReady": "Prêt à Partager",
-			"roomLabel": "🎰 Chat Casino",
-			"shareNotice": "Votre image sera partagée avec tous les joueurs du chat",
+			"statusReady": "Prêt à partager",
+			"roomLabel": "🎰 Chat du Casino",
+			"shareNotice": "Votre image sera partagée avec tous les joueurs dans le salon de discussion",
 			"closeAria": "Fermer la boîte de dialogue",
 			"cancelAria": "Annuler le téléchargement de l'image",
 			"sendAria": "Envoyer l'image au chat",
-			"send": "Envoyer au Chat"
+			"send": "Envoyer au chat"
 		},
 		"picker": {
-			"searchEmojis": "Rechercher des emojis...",
+			"searchEmojis": "Rechercher des émojis...",
 			"searchGifs": "Rechercher des GIFs...",
 			"tabs": {
-				"emojis": "Emojis",
+				"emojis": "Émojis",
 				"gifs": "GIFs"
 			},
-			"loadingEmojis": "Chargement des emojis...",
+			"loadingEmojis": "Chargement des émojis...",
 			"loadingGifs": "Chargement des GIFs...",
 			"retry": "Réessayer",
-			"recent": "Récents",
-			"noEmojis": "Aucun emoji trouvé",
+			"recent": "Récent",
+			"noEmojis": "Aucun émoji trouvé",
 			"noGifs": "Aucun GIF trouvé",
-			"tryDifferent": "Essayez un terme de recherche différent",
+			"tryDifferent": "Essayez un autre terme de recherche",
 			"gifCategories": {
-				"trending": "Tendance",
+				"trending": "Tendances",
 				"reactions": "Réactions",
 				"gaming": "Jeux",
 				"casino": "Casino",
 				"celebration": "Célébration",
 				"sports": "Sports"
 			},
-			"searchResults": "Résultats de la Recherche",
-			"availableToTag": "Utilisateurs disponibles à étiqueter 🎯",
+			"searchResults": "Résultats de recherche",
+			"availableToTag": "Utilisateurs disponibles pour taguer 🎯",
 			"clickOrTab": "Cliquez ou Tab pour sélectionner",
 			"noUsers": "Aucun utilisateur trouvé",
 			"noUsersMatching": "Aucun utilisateur correspondant",
@@ -287,35 +287,35 @@
 			"typeAt": "Tapez",
 			"toSeeSuggestions": "pour voir les suggestions 🎰",
 			"errors": {
-				"emojisLoad": "Échec du chargement des emojis",
-				"emojisSearch": "Échec de la recherche d'emojis",
+				"emojisLoad": "Échec du chargement des émojis",
+				"emojisSearch": "Échec de la recherche d'émojis",
 				"gifsLoad": "Échec du chargement des GIFs"
 			}
 		},
 		"messages": {
 			"emptyTitle": "Pas encore de messages...",
-			"emptySubtitle": "Démarrez la conversation et gagnez gros! 🎰",
+			"emptySubtitle": "Lancez la conversation et gagnez gros ! 🎰",
 			"loadingHistory": "Chargement de l'historique du chat...",
 			"loadingHistorySubtitle": "Récupération des messages récents 📜",
 			"historyError": "Échec du chargement de l'historique du chat"
 		},
 		"message": {
 			"you": "Vous",
-			"winTitle": "Gros Gain dans \"{game}\"! 🎰",
+			"winTitle": "Gros gain dans \"{game}\" ! 🎰",
 			"gifAlt": "GIF",
 			"imageAlt": "Image téléchargée",
-			"rainTitle": "Pluie d'Argent! 🌧️💰",
+			"rainTitle": "Pluie d'argent ! 🌧️💰",
 			"recipients": "→ {count} {count, plural, one {destinataire} other {destinataires}}",
-			"eachTo": "{amount} {currency} chacun à: {list}",
+			"eachTo": "{amount} {currency} chacun à : {list}",
 			"replyCount": "{count} {count, plural, one {réponse} other {réponses}}",
 			"loadingHistory": "Chargement de l'historique du chat..."
 		},
 		"system": {
-			"slashDisabled": "Les commandes slash sont temporairement désactivées. Veuillez utiliser des messages réguliers.",
-			"rateLimit": "Limite de débit dépassée. Veuillez attendre {seconds} secondes avant d'envoyer un autre message.",
-			"cannotTagSelf": "Vous ne pouvez pas vous étiqueter dans les messages.",
+			"slashDisabled": "Les commandes slash sont temporairement désactivées. Veuillez utiliser des messages normaux.",
+			"rateLimit": "Limite de taux dépassée. Veuillez attendre {seconds} secondes avant d'envoyer un autre message.",
+			"cannotTagSelf": "Vous ne pouvez pas vous taguer vous-même dans les messages.",
 			"processingImage": "Traitement de l'image...",
-			"failedUploadPrefix": "Échec du téléchargement de l'image: {message}",
+			"failedUploadPrefix": "Échec du téléchargement de l'image : {message}",
 			"unknownError": "Erreur inconnue"
 		}
 	},
@@ -325,25 +325,25 @@
 		"deposit": "DÉPÔT",
 		"withdraw": "RETRAIT",
 		"playOnTelegram": "Jouer sur Telegram",
-		"dailyBonus": "Bonus Quotidien",
+		"dailyBonus": "Bonus quotidien",
 		"navigation": "Navigation",
 		"games": "Jeux",
 		"providers": "Fournisseurs",
-		"trendingNow": "Tendance Actuelle",
-		"allProviders": "Tous les Fournisseurs",
-		"allTopProviders": "Tous les Meilleurs Fournisseurs",
+		"trendingNow": "Tendances actuelles",
+		"allProviders": "Tous les fournisseurs",
+		"allTopProviders": "Tous les meilleurs fournisseurs",
 		"hotBadge": "Chaud"
 	},
 	"search": {
 		"title": "Rechercher des jeux",
-		"subtitle": "Rechercher par nom, fournisseur ou catégorie",
-		"placeholder": "Rechercher des jeux, des fournisseurs, des catégories...",
+		"subtitle": "Trouver par nom, fournisseur ou catégorie",
+		"placeholder": "Rechercher jeux, fournisseurs, catégories...",
 		"clear": "Effacer",
-		"recent": "Récents:",
-		"popular": "Populaires:",
+		"recent": "Récent :",
+		"popular": "Populaire :",
 		"favoritesTry": "Vous pouvez essayer — Vos favoris",
-		"hotPicks": "Sélections populaires",
-		"resultsCount": "{count} {count, plural, one {jeu} other {jeux}} trouvé(s)",
+		"hotPicks": "Choix populaires",
+		"resultsCount": "{count} {count, plural, one {jeu trouvé} other {jeux trouvés}}",
 		"noResults": "Aucun résultat",
 		"filterApplied": "Filtré par {count} {count, plural, one {fournisseur} other {fournisseurs}}",
 		"suggestions": {
@@ -351,8 +351,8 @@
 			"provider": "Fournisseur"
 		},
 		"sections": {
-			"topProviders": "Meilleurs Fournisseurs",
-			"selectedProviders": "Fournisseurs Sélectionnés",
+			"topProviders": "Meilleurs fournisseurs",
+			"selectedProviders": "Fournisseurs sélectionnés",
 			"categories": "Catégories",
 			"games": "Jeux",
 			"providers": "Fournisseurs"
@@ -373,10 +373,10 @@
 			"z-a": "Z-A"
 		},
 		"filters": {
-			"filter": "Filtrer",
-			"optionsTitle": "Options de Filtre",
-			"clearAll": "Effacer Tous les Filtres",
-			"activeLabel": "Actif:"
+			"filter": "Filtre",
+			"optionsTitle": "Options de filtrage",
+			"clearAll": "Effacer tous les filtres",
+			"activeLabel": "Actif :"
 		},
 		"searchPlaceholderGeneric": "Rechercher...",
 		"providersDropdown": {
@@ -384,17 +384,17 @@
 			"selected": "{count} sélectionné(s)",
 			"searchPlaceholder": "Rechercher des fournisseurs...",
 			"empty": "Aucun fournisseur trouvé.",
-			"clear": "Effacer les Filtres de Fournisseur"
+			"clear": "Effacer les filtres de fournisseur"
 		},
 		"category": {
-			"label": "Catégorie:"
+			"label": "Catégorie :"
 		},
 		"view": {
-			"toggleAria": "Basculer le mode de vue",
-			"gridAria": "Vue en grille",
-			"listAria": "Vue en liste"
+			"toggleAria": "Basculer le mode d'affichage",
+			"gridAria": "Vue grille",
+			"listAria": "Vue liste"
 		},
-		"loadMore": "Charger Plus"
+		"loadMore": "Charger plus"
 	},
 	"commonExtra": {
 		"connecting": "Connexion...",
@@ -403,74 +403,74 @@
 		"clear": "Effacer"
 	},
 	"home": {
-		"topProviders": "Meilleurs Fournisseurs de Jeux"
+		"topProviders": "Meilleurs fournisseurs de jeux"
 	},
 	"lobby": {
-		"yourFavorites": "Vos Favoris",
-		"featuredCasinoGames": "Jeux de Casino Sélectionnés",
-		"hotPicks": "Sélections Populaires",
+		"yourFavorites": "Vos favoris",
+		"featuredCasinoGames": "Jeux de casino en vedette",
+		"hotPicks": "Choix populaires",
 		"slots": "Machines à sous",
 		"sports": "Sports",
-		"realTimeScoreboard": "Tableau de Bord en Temps Réel"
+		"realTimeScoreboard": "Tableau de bord en temps réel"
 	},
 	"affiliate": {
-		"title": "Programme de Bonus de Parrainage",
-		"loginPromptTitle": "Programme de Bonus de Parrainage",
+		"title": "Programme de bonus de parrainage",
+		"loginPromptTitle": "Programme de bonus de parrainage",
 		"loginPromptSubtitle": "Connectez-vous pour voir vos statistiques de parrainage, vos bonus et réclamer des récompenses.",
-		"goHome": "Aller à l'Accueil",
+		"goHome": "Aller à l'accueil",
 		"tabs": {
-			"dashboard": "Tableau de Bord",
-			"rates": "Taux de Commission",
+			"dashboard": "Tableau de bord",
+			"rates": "Taux de commission",
 			"calculator": "Calculatrice"
 		},
 		"refresh": "Actualiser",
 		"refreshing": "Actualisation...",
-		"refreshAllSuccess": "Toutes les données ont été actualisées avec succès!",
-		"refreshPartial": "Actualisation partielle: {success}/{total} sections mises à jour",
+		"refreshAllSuccess": "Toutes les données ont été actualisées avec succès !",
+		"refreshPartial": "Partiellement actualisé : {success}/{total} sections mises à jour",
 		"refreshFailed": "Échec de l'actualisation des données. Veuillez réessayer.",
 		"dashboard": {
-			"title": "Tableau de Bord d'Affiliation",
-			"subtitle": "Suivez vos parrainages, vos gains et votre performance de commission",
-			"performanceOverview": "Aperçu des Performances",
-			"referralManagement": "Gestion des Parrainages",
-			"termsAndCommission": "Conditions et Structure de Commission",
+			"title": "Tableau de bord d'affiliation",
+			"subtitle": "Suivez vos parrainages, vos gains et les performances de vos commissions",
+			"performanceOverview": "Aperçu des performances",
+			"referralManagement": "Gestion des parrainages",
+			"termsAndCommission": "Conditions et structure des commissions",
 			"unclaimedEarnings": "Gains non réclamés",
 			"claim": "Réclamer",
-			"claiming": "Réclamation en cours...",
-			"totalIncome": "Revenu Total",
-			"claimButtonTitle": "Réclamer le Bonus",
-			"totalReferrals": "Total des Parrainages",
+			"claiming": "Réclamation...",
+			"totalIncome": "Revenu total",
+			"claimButtonTitle": "Réclamer le bonus",
+			"totalReferrals": "Total des parrainages",
 			"usersUnit": "utilisateurs",
-			"yourReferralLinks": "Vos Liens de Parrainage",
+			"yourReferralLinks": "Vos liens de parrainage",
 			"referralLinksSubtitle": "Partagez ces liens pour parrainer de nouveaux utilisateurs et gagner des commissions",
-			"completeReferralLink": "Lien de Parrainage Complet",
+			"completeReferralLink": "Lien de parrainage complet",
 			"fullReferralPlaceholder": "Le lien de parrainage complet apparaîtra ici",
 			"fullReferralHelp": "Lien direct sur lequel les utilisateurs peuvent cliquer pour s'inscrire avec votre code de parrainage",
-			"referralCodeOnly": "Code de Parrainage Uniquement",
+			"referralCodeOnly": "Code de parrainage uniquement",
 			"yourReferralId": "Votre ID de parrainage",
-			"referralIdHelp": "Partagez ce code pour que les utilisateurs le saisissent manuellement lors de l'inscription",
-			"copyFullSuccess": "Lien de parrainage complet copié dans le presse-papiers!",
-			"copyIdSuccess": "ID de parrainage copiée dans le presse-papiers!"
+			"referralIdHelp": "Partagez ce code pour que les utilisateurs l'entrent manuellement lors de l'inscription",
+			"copyFullSuccess": "Lien de parrainage complet copié dans le presse-papiers !",
+			"copyIdSuccess": "ID de parrainage copié dans le presse-papiers !"
 		},
 		"referrals": {
-			"title": "Mes Parrainages",
+			"title": "Mes parrainages",
 			"subtitle": "Suivez et gérez tous les utilisateurs parrainés via vos liens d'affiliation",
 			"totalReferrals": "total des parrainages",
-			"monitorHelp": "Surveillez l'activité, les dépôts et les habitudes de jeu de vos parrainés",
+			"monitorHelp": "Surveillez l'activité, les dépôts et les habitudes de jeu de vos filleuls",
 			"sort": {
 				"placeholder": "Trier par...",
-				"nicknameAsc": "Surnom (A-Z)",
-				"nicknameDesc": "Surnom (Z-A)",
-				"lastLogin": "Dernière Connexion",
+				"nicknameAsc": "Pseudo (A-Z)",
+				"nicknameDesc": "Pseudo (Z-A)",
+				"lastLogin": "Dernière connexion",
 				"unclaimedAmount": "Montant non réclamé"
 			},
 			"table": {
-				"nickname": "Surnom",
-				"totalWager": "Mise Totale",
-				"lastLogin": "Dernière Connexion",
+				"nickname": "Pseudo",
+				"totalWager": "Mise totale",
+				"lastLogin": "Dernière connexion",
 				"registered": "Inscrit",
-				"lastDeposit": "Dernier Dépôt",
-				"depositDate": "Date de Dépôt",
+				"lastDeposit": "Dernier dépôt",
+				"depositDate": "Date de dépôt",
 				"tier": "Niveau"
 			},
 			"empty": {
@@ -484,30 +484,30 @@
 			}
 		},
 		"rates": {
-			"title": "Structure des Taux de Commission",
-			"subtitle": "Pourcentages de gains par niveau et catégorie de jeu",
+			"title": "Structure des taux de commission",
+			"subtitle": "Pourcentages de gains par niveau de palier et catégorie de jeu",
 			"overview": {
 				"title": "Aperçu",
-				"body": "Le Bonus de Parrainage récompense les affiliés en fonction du chiffre d'affaires des mises des joueurs parrainés sur les Machines à sous, le Casino en direct, les Paris sportifs et la Loterie. Les commissions sont calculées toutes les 24 heures, les gains étant basés sur différents niveaux de chiffre d'affaires."
+				"body": "Le bonus de parrainage récompense les affiliés en fonction du chiffre d'affaires des mises des joueurs parrainés dans les machines à sous, le casino en direct, les paris sportifs et la loterie. Les commissions sont calculées toutes les 24 heures, avec des gains basés sur différents paliers de chiffre d'affaires."
 			},
 			"calculation": {
-				"title": "Comment les Commissions sont Calculées",
-				"desc": "Les commissions sont calculées toutes les 24 heures sur la base des mises totales des joueurs parrainés. \nExemples:",
-				"exampleTitle": "Niveau {tier}:",
+				"title": "Comment les commissions sont calculées",
+				"desc": "Les commissions sont calculées toutes les 24 heures sur la base du total des mises des joueurs parrainés. \nExemples :",
+				"exampleTitle": "Niveau {tier} :",
 				"wagerIn": "Mise de {amount} dans {gameType}"
 			},
 			"table": {
-				"tierLevel": "Niveau",
-				"wagerRange": "Plage de Mises",
+				"tierLevel": "Niveau de palier",
+				"wagerRange": "Plage de mise",
 				"slots": "Machines à sous",
 				"liveCasino": "Casino en direct",
 				"sports": "Sports",
 				"tierPrefix": "NIVEAU",
-				"commissionLevel": "Niveau de Commission",
+				"commissionLevel": "Niveau de commission",
 				"dailyWager": "Volume de mise quotidien"
 			},
 			"claim": {
-				"title": "Réclamation et Retrait",
+				"title": "Réclamation et retrait",
 				"points": {
 					"0": "Les commissions sont disponibles pour le retrait une fois calculées.",
 					"1": "Il n'y a pas d'expiration pour les commissions non réclamées — elles s'accumulent jusqu'à ce qu'elles soient réclamées.",
@@ -515,247 +515,247 @@
 				}
 			},
 			"system": {
-				"title": "Heure du Système et Opérations",
-				"dailyTimeframeLabel": "Plage Horaire Quotidienne:",
-				"dailyTimeframeValue": "00:00 UTC à 23:59 UTC (tous les jours).",
-				"claimDailyLabel": "Réclamer Quotidiennement:",
-				"claimDailyValue": "Disponible tous les jours à 14:00 UTC (Votre heure locale: {local}).",
-				"note": "Note: Bien que nous travaillions avec des fournisseurs de différentes zones horaires, tous les calculs suivent l'UTC pour assurer la cohérence et éviter la confusion."
+				"title": "Heure système et opérations",
+				"dailyTimeframeLabel": "Période quotidienne :",
+				"dailyTimeframeValue": "00:00 UTC à 23:59 UTC (chaque jour).",
+				"claimDailyLabel": "Réclamation quotidienne :",
+				"claimDailyValue": "Disponible quotidiennement à 14:00 UTC (Votre heure locale : {local}).",
+				"note": "Note : Bien que nous travaillions avec des fournisseurs de différents fuseaux horaires, tous les calculs suivent l'UTC pour assurer la cohérence et éviter la confusion."
 			},
 			"amendments": {
-				"title": "Modifications",
-				"body": "Nous pouvons mettre à jour ces conditions à tout moment. Les changements prennent effet immédiatement après leur publication, et la participation continue signifie que vous acceptez les nouvelles conditions."
+				"title": "Amendements",
+				"body": "Nous pouvons mettre à jour ces conditions à tout moment. Les modifications prennent effet immédiatement après leur publication, et la participation continue signifie que vous acceptez les nouvelles conditions."
 			},
 			"footer": {
-				"schedule": "Calendrier des Commissions:",
-				"availableDaily": "Disponible tous les jours à",
-				"localTimeLabel": "(Votre heure locale: {time})"
+				"schedule": "Calendrier des commissions :",
+				"availableDaily": "Disponible quotidiennement à",
+				"localTimeLabel": "(Votre heure locale : {time})"
 			}
 		},
 		"calculator": {
-			"title": "Calculatrice de Gains",
-			"subtitle": "Estimez vos gains de commission en fonction des montants de mise de vos parrainés",
+			"title": "Calculatrice de gains",
+			"subtitle": "Estimez vos gains de commission en fonction des montants de mise de vos filleuls",
 			"interactive": {
-				"title": "Outil Interactif:",
+				"title": "Outil interactif :",
 				"body": "Entrez différents montants de mise pour voir les gains potentiels sur tous les niveaux"
 			},
-			"potentialEarnings": "Gains Potentiels",
+			"potentialEarnings": "Gains potentiels",
 			"basedOnRate": "Basé sur un taux de commission de {percentage}%",
 			"tier": "Niveau {level}",
-			"commissionLevel": "Niveau de Commission {level}",
-			"enterWager": "Entrer le Montant de la Mise (USD)",
-			"wagerPlaceholder": "ex., 1000",
+			"commissionLevel": "Niveau de commission {level}",
+			"enterWager": "Entrez le montant de la mise (USD)",
+			"wagerPlaceholder": "ex: 1000",
 			"calcFor": "Calcul des gains pour une mise de ${amount}",
-			"totalPotential": "Total des Gains Potentiels:",
-			"combinedAtTier": "Gains combinés de tous les types de jeu au Niveau {level}"
+			"totalPotential": "Gains potentiels totaux :",
+			"combinedAtTier": "Gains combinés de tous les types de jeux au niveau {level}"
 		}
 	},
 	"bonus": {
-		"title": "Programme de Bonus de Chiffre d'Affaires",
-		"loginPromptTitle": "Programme de Bonus de Chiffre d'Affaires",
+		"title": "Programme de bonus sur le volume de jeu",
+		"loginPromptTitle": "Programme de bonus sur le volume de jeu",
 		"loginPromptSubtitle": "Connectez-vous pour voir vos statistiques de bonus et réclamer vos récompenses.",
-		"goHome": "Aller à l'Accueil",
+		"goHome": "Aller à l'accueil",
 		"tabs": {
-			"dashboard": "Tableau de Bord",
+			"dashboard": "Tableau de bord",
 			"claims": "Réclamations",
-			"rates": "Taux de Bonus",
+			"rates": "Taux de bonus",
 			"calculator": "Calculatrice"
 		},
 		"refresh": "Actualiser",
 		"refreshing": "Actualisation...",
-		"refreshAllSuccess": "Toutes les données ont été actualisées avec succès!",
-		"refreshPartial": "Actualisation partielle: {success}/{total} sections mises à jour",
+		"refreshAllSuccess": "Toutes les données ont été actualisées avec succès !",
+		"refreshPartial": "Partiellement actualisé : {success}/{total} sections mises à jour",
 		"refreshFailed": "Échec de l'actualisation des données. Veuillez réessayer.",
 		"dashboard": {
-			"title": "Tableau de Bord des Bonus",
-			"subtitle": "Suivez vos mises, vos bonus et vos gains de récompenses",
+			"title": "Tableau de bord des bonus",
+			"subtitle": "Suivez vos mises, bonus et gains de récompenses",
 			"claimButtonTitle": "Réclamer",
-			"performanceOverview": "Aperçu des Bonus",
-			"bonusRatesTitle": "Structure des Taux de Bonus",
-			"totalIncome": "Bonus Total",
+			"performanceOverview": "Aperçu des bonus",
+			"bonusRatesTitle": "Structure des taux de bonus",
+			"totalIncome": "Bonus total",
 			"pendingBonus": "Bonus en attente",
-			"lastClaim": "Dernière Réclamation",
-			"unclaimedEarnings": "Disponible à Réclamer",
+			"lastClaim": "Dernière réclamation",
+			"unclaimedEarnings": "Disponible à réclamer",
 			"claim": {
-				"title": "Réclamation et Retrait",
+				"title": "Réclamation et retrait",
 				"points": {
 					"0": "Les commissions sont disponibles pour le retrait une fois calculées.",
 					"1": "Il n'y a pas d'expiration pour les commissions non réclamées — elles s'accumulent jusqu'à ce qu'elles soient réclamées.",
 					"2": "Les retraits suivent les règles standard de la plateforme, telles que les limites minimales et les délais de traitement."
 				}
 			},
-			"claiming": "Réclamation en cours...",
+			"claiming": "Réclamation...",
 			"section2": {
 				"title": "Éligibilité",
-				"content": "Pour participer:"
+				"content": "Pour participer :"
 			},
 			"section3": {
-				"title": "Niveaux et Taux de Chiffre d'Affaires",
-				"content": "Les bonus sont calculés en fonction de vos montants de mise quotidiens:",
+				"title": "Paliers de volume et taux",
+				"content": "Les bonus sont calculés sur la base de vos montants de mise quotidiens :",
 				"noteTitle": "Note",
-				"noteContent": "Les niveaux sont évalués quotidiennement à 14:00 UTC. Le volume de mise de votre jour précédent détermine votre taux de bonus d'aujourd'hui. Les taux s'appliquent à tous les types de jeu: Machines à sous, Casino en direct et Sports."
+				"noteContent": "Les niveaux sont évalués quotidiennement à 14:00 UTC. Le volume de vos mises de la veille détermine le taux de bonus d'aujourd'hui. Les taux s'appliquent à tous les types de jeux : Machines à sous, Casino en direct et Sports."
 			}
 		},
 		"claims": {
-			"title": "Historique des Réclamations",
-			"subtitle": "Suivez vos réclamations de bonus et votre activité de mise",
+			"title": "Historique des réclamations",
+			"subtitle": "Suivez vos réclamations de bonus et votre activité de pari",
 			"tableHeaders": {
-				"date": "Date du Pari",
+				"date": "Date de pari",
 				"slots": "Machines à sous",
 				"liveCasino": "Casino en direct",
 				"sports": "Sports",
 				"total": "Total",
 				"tier": "Niveau",
-				"unclaimed": "Non Réclamé",
+				"unclaimed": "Non réclamé",
 				"token": "Jeton"
 			},
 			"tierPrefix": "Niveau",
-			"availableToClaim": "Disponible à Réclamer",
-			"totalBonus": "Bonus Total",
+			"availableToClaim": "Disponible à réclamer",
+			"totalBonus": "Bonus total",
 			"claimed": "Réclamé",
 			"progressPercentage": "Progression",
-			"progressTitle": "Votre Progression",
-			"currentTier": "Niveau Actuel",
-			"nextTier": "Niveau Suivant",
-			"wagerProgress": "Progression de la Mise",
-			"totalWagered": "Total Parié Aujourd'hui",
+			"progressTitle": "Votre progression",
+			"currentTier": "Niveau actuel",
+			"nextTier": "Niveau suivant",
+			"wagerProgress": "Progression de la mise",
+			"totalWagered": "Total misé aujourd'hui",
 			"toNextTier": "pour atteindre le niveau suivant",
 			"empty": {
-				"title": "Pas encore de Réclamations de Bonus",
-				"subtitle": "Commencez à jouer pour gagner des bonus!"
+				"title": "Aucune réclamation de bonus pour l'instant",
+				"subtitle": "Commencez à jouer pour gagner des bonus !"
 			}
 		},
 		"rates": {
-			"title": "Niveaux et Taux de Chiffre d'Affaires",
+			"title": "Paliers de volume et taux",
 			"subtitle": "Pourcentages de bonus par niveau de mise et catégorie de jeu",
 			"overview": {
 				"title": "Aperçu",
-				"body": "Le Bonus de Chiffre d'Affaires récompense les utilisateurs en fonction de leurs mises sur les Machines à sous, le Casino en direct, les Paris sportifs et la Loterie. Les bonus sont calculés toutes les 24 heures, et les utilisateurs peuvent les réclamer le jour suivant la mise. Il y a sept niveaux, chacun avec des taux différents selon le montant de la mise."
+				"body": "Le bonus sur le volume de jeu récompense les utilisateurs en fonction de leurs mises dans les machines à sous, le casino en direct, les paris sportifs et la loterie. Les bonus sont calculés toutes les 24 heures et les utilisateurs peuvent les réclamer le lendemain après avoir parié. Il y a sept niveaux, chacun avec des taux différents selon le montant de la mise."
 			},
 			"eligibility": {
 				"title": "Éligibilité",
-				"content": "Pour participer:",
+				"content": "Pour participer :",
 				"points": {
 					"0": "Vous devez avoir un compte actif.",
-					"1": "Placer des mises sur les Machines à sous, le Casino en direct, les Paris sportifs et la Loterie.",
-					"2": "Atteindre les exigences minimales de mise pour chaque niveau."
+					"1": "Placez des mises dans les machines à sous, le casino en direct, les paris sportifs et la loterie.",
+					"2": "Respectez les exigences de mise minimale pour chaque niveau."
 				}
 			},
 			"calculation": {
-				"title": "Comment les Bonus sont Calculés",
-				"desc": "Les bonus sont calculés toutes les 24 heures en fonction de vos mises totales. Exemples:",
-				"exampleTitle": "Niveau {tier}:",
+				"title": "Comment les bonus sont calculés",
+				"desc": "Les bonus sont calculés toutes les 24 heures sur la base de vos mises totales. Exemples :",
+				"exampleTitle": "Niveau {tier} :",
 				"wagerIn": "Mise de {amount} dans {gameType}"
 			},
 			"table": {
-				"tierLevel": "Niveau",
-				"wagerRange": "Plage de Mises",
+				"tierLevel": "Niveau de palier",
+				"wagerRange": "Plage de mise",
 				"slots": "Machines à sous",
 				"liveCasino": "Casino en direct",
 				"sports": "Sports",
 				"tierPrefix": "NIVEAU",
-				"commissionLevel": "Niveau de Bonus",
+				"commissionLevel": "Niveau de bonus",
 				"dailyWager": "Volume de mise quotidien"
 			},
 			"claim": {
-				"title": "Réclamation et Retrait des Bonus",
+				"title": "Réclamation et retrait des bonus",
 				"points": {
 					"0": "Les bonus deviennent éligibles à la réclamation 24 heures après la mise.",
-					"1": "Les bonus non réclamés s'accumuleront et n'expirent pas.",
-					"2": "Le processus de réclamation et de retrait peut varier en fonction des politiques spécifiques à la plateforme."
+					"1": "Les bonus non réclamés s'accumuleront et n'expireront pas.",
+					"2": "Le processus de réclamation et de retrait peut varier en fonction des politiques spécifiques de la plateforme."
 				}
 			},
 			"system": {
-				"title": "Heure du Système et Opérations",
-				"dailyTimeframeLabel": "Plage Horaire Quotidienne:",
-				"dailyTimeframeValue": "00:00 UTC à 23:59 UTC (tous les jours).",
-				"claimDailyLabel": "Réclamer Quotidiennement:",
-				"claimDailyValue": "Disponible tous les jours à 14:00 UTC (Votre heure locale: {local}).",
-				"note": "Note: Bien que nous travaillions avec des fournisseurs de différentes zones horaires, tous les calculs suivent l'UTC pour assurer la cohérence et éviter la confusion."
+				"title": "Heure système et opérations",
+				"dailyTimeframeLabel": "Période quotidienne :",
+				"dailyTimeframeValue": "00:00 UTC à 23:59 UTC (chaque jour).",
+				"claimDailyLabel": "Réclamation quotidienne :",
+				"claimDailyValue": "Disponible quotidiennement à 14:00 UTC (Votre heure locale : {local}).",
+				"note": "Note : bien que nous travaillions avec des fournisseurs de différents fuseaux horaires, tous les calculs suivent l'UTC pour assurer la cohérence et éviter la confusion."
 			},
 			"amendments": {
-				"title": "Modifications et Disqualifications",
-				"body": "Nous pouvons mettre à jour ces conditions à tout moment, et les changements prennent effet dès leur publication. En cas de suspicion d'erreurs système, de calculs erronés ou de tricherie, nous nous réservons le droit d'ajuster ou de disqualifier les bonus et les comptes si nécessaire pour garantir l'équité"
+				"title": "Amendements et disqualifications",
+				"body": "Nous pouvons mettre à jour ces conditions à tout moment, et les modifications prennent effet dès leur publication. Si des erreurs système, des erreurs de calcul ou de la triche sont suspectées, nous nous réservons le droit d'ajuster ou de disqualifier les bonus et les comptes si nécessaire pour garantir l'équité."
 			},
 			"footer": {
-				"schedule": "Calendrier des Bonus:",
-				"availableDaily": "Disponible tous les jours à",
-				"localTimeLabel": "(Votre heure locale: {time})"
+				"schedule": "Calendrier des bonus :",
+				"availableDaily": "Disponible quotidiennement à",
+				"localTimeLabel": "(Votre heure locale : {time})"
 			}
 		},
 		"calculator": {
-			"title": "Calculatrice de Bonus",
+			"title": "Calculatrice de bonus",
 			"subtitle": "Estimez vos gains de bonus en fonction de vos montants de mise",
 			"interactive": {
-				"title": "Outil Interactif:",
+				"title": "Outil interactif :",
 				"body": "Entrez différents montants de mise pour voir les bonus potentiels sur tous les niveaux"
 			},
-			"potentialEarnings": "Bonus Potentiel",
+			"potentialEarnings": "Bonus potentiel",
 			"basedOnRate": "Basé sur un taux de bonus de {percentage}%",
 			"tier": "Niveau {level}",
-			"commissionLevel": "Niveau de Bonus {level}",
-			"enterWager": "Entrer le Montant de la Mise (USD)",
-			"wagerPlaceholder": "ex., 1000",
+			"commissionLevel": "Niveau de bonus {level}",
+			"enterWager": "Entrez le montant de la mise (USD)",
+			"wagerPlaceholder": "ex: 1000",
 			"calcFor": "Calcul du bonus pour une mise de ${amount}",
-			"totalPotential": "Total des Bonus Potentiels:",
-			"combinedAtTier": "Bonus combiné de tous les types de jeu au Niveau {level}"
+			"totalPotential": "Bonus potentiel total :",
+			"combinedAtTier": "Bonus combiné de tous les types de jeux au niveau {level}"
 		},
 		"claimSuccessModal": {
-			"title": "Réclamation Réussie",
+			"title": "Réclamation réussie",
 			"statusCompleted": "Terminé",
-			"statusOnChain": "Sur la Chaîne",
-			"claimAmount": "Montant Réclamé",
+			"statusOnChain": "Sur la chaîne",
+			"claimAmount": "Montant réclamé",
 			"logoAlt": "Logo {siteName}",
-			"backgroundAlt": "Fond de réclamation réussie",
-			"creatingMagic": "Création de Magie...",
-			"downloadShare": "Télécharger & Partager",
-			"spreadTheWin": "PARTAGEZ LE GAIN",
+			"backgroundAlt": "Arrière-plan succès de réclamation",
+			"creatingMagic": "Création de la magie...",
+			"downloadShare": "Télécharger et partager",
+			"spreadTheWin": "PARTAGEZ LA VICTOIRE",
 			"socialX": "X",
 			"socialFacebook": "Facebook",
 			"socialWhatsApp": "WhatsApp",
 			"socialTelegram": "Telegram",
 			"socialReddit": "Reddit",
 			"socialMore": "Plus",
-			"shareText": "Je viens de réclamer {amount} de bonus! Rejoignez-moi: {url}",
-			"referralLinkCopied": "Lien de parrainage copié!",
+			"shareText": "Je viens de réclamer {amount} de bonus ! Rejoignez-moi : {url}",
+			"referralLinkCopied": "Lien de parrainage copié !",
 			"referralLinkCopyFailed": "Échec de la copie du lien de parrainage",
-			"screenshotFailed": "Échec de la capture d'écran. Veuillez réessayer ou utiliser un navigateur différent.",
-			"shareTextCopied": "Texte de partage copié dans le presse-papiers!",
+			"screenshotFailed": "Échec de la capture d'écran. Veuillez réessayer ou utiliser un autre navigateur.",
+			"shareTextCopied": "Texte de partage copié dans le presse-papiers !",
 			"shareFailed": "Échec du partage. Veuillez réessayer."
 		}
 	},
 	"debug": {
-		"title": "Page de Débogage"
+		"title": "Page de débogage"
 	},
 	"getLobby": {
-		"enteringLobby": "Entrée dans le Lobby...",
+		"enteringLobby": "Entrée dans le lobby...",
 		"connectingWait": "Veuillez patienter pendant que nous vous connectons.",
 		"invalidSession": "Votre session est invalide ou le fournisseur est manquant. Veuillez réessayer.",
-		"failedPrefix": "Échec de l'entrée dans le lobby: {message}",
-		"launchFailedTitle": "Échec du Lancement",
-		"returnHome": "Retour à l'Accueil"
+		"failedPrefix": "Échec de l'entrée dans le lobby : {message}",
+		"launchFailedTitle": "Lancement échoué",
+		"returnHome": "Retour à l'accueil"
 	},
 	"play": {
 		"connecting": "Connexion au serveur de jeu...",
 		"invalidSession": "Votre session est invalide ou a expiré. Veuillez vous connecter et réessayer.",
-		"launchFailedTitle": "Échec du Lancement",
-		"returnHome": "Retour à l'Accueil"
+		"launchFailedTitle": "Lancement échoué",
+		"returnHome": "Retour à l'accueil"
 	},
 	"modalsIdle": {
 		"badgeLimitedTime": "OFFRE À DURÉE LIMITÉE",
-		"headline": "Obtenez 200% de Bonus de Bienvenue!",
-		"subheadline": "Connectez votre portefeuille crypto maintenant et recevez jusqu'à {amount} de bonus sur votre premier dépôt!",
-		"featureDepositMatch": "Correspondance de Dépôt de 200%",
-		"featureZeroFees": "Zéro Frais de Transaction",
-		"featureInstantWithdrawals": "Retraits Instantanés",
-		"featureNoKyc": "Aucun KYC Requis",
-		"ctaClaim": "RÉCLAMER LE BONUS MAINTENANT!",
-		"offerExpires": "L'offre expire dans:",
-		"disclaimer": "T&C applicables. Le jeu comporte des risques. Jouez de manière responsable. 18+",
-		"closeAria": "Fermer le modal",
-		"bannerAlt": "Bannière Promotionnelle",
-		"ctaOk": "Connecter le Portefeuille & Commencer à Parier",
-		"enterAmount": "Entrer le Montant",
+		"headline": "Obtenez 200% de bonus de bienvenue !",
+		"subheadline": "Connectez votre portefeuille crypto maintenant et recevez jusqu'à {amount} de bonus sur votre premier dépôt !",
+		"featureDepositMatch": "Correspondance de dépôt de 200%",
+		"featureZeroFees": "Zéro frais de transaction",
+		"featureInstantWithdrawals": "Retraits instantanés",
+		"featureNoKyc": "Aucun KYC requis",
+		"ctaClaim": "RÉCLAMER LE BONUS MAINTENANT !",
+		"offerExpires": "L'offre expire dans :",
+		"disclaimer": "CGU applicables. Le jeu comporte des risques. Jouez de manière responsable. 18+",
+		"closeAria": "Fermer la modale",
+		"bannerAlt": "Bannière promotionnelle",
+		"ctaOk": "Connecter le portefeuille et commencer à parier",
+		"enterAmount": "Entrer le montant",
 		"balance": "Solde",
 		"max": "Max",
 		"deposit": "Dépôt",
@@ -763,7 +763,7 @@
 	},
 	"modalsSmall": {
 		"close": "Fermer",
-		"firstDepositBoost": "Boost de Bonus du 1er Dépôt",
+		"firstDepositBoost": "Boost bonus 1er dépôt",
 		"bonus": "Bonus",
 		"min": "Min",
 		"sec": "Sec",
@@ -771,58 +771,58 @@
 	},
 	"auth": {
 		"email": {
-			"title": "Connexion par Email",
+			"title": "Connexion par e-mail",
 			"description": "Nous vous enverrons un code à 6 chiffres",
-			"emailLabel": "Adresse Email",
+			"emailLabel": "Adresse e-mail",
 			"emailPlaceholder": "nom@email.com",
 			"cancel": "Annuler",
-			"sending": "Envoi en cours",
+			"sending": "Envoi",
 			"continue": "Continuer",
-			"enterCodeTitle": "Entrer le Code",
+			"enterCodeTitle": "Entrer le code",
 			"sentTo": "Envoyé à {email}",
-			"changeEmail": "Changer l'email",
+			"changeEmail": "Changer d'e-mail",
 			"resendCode": "Renvoyer le code",
 			"resendIn": "Renvoyer dans {seconds}s",
-			"verifying": "Vérification en cours",
-			"successTitle": "Vous êtes connecté",
+			"verifying": "Vérification",
+			"successTitle": "Vous y êtes",
 			"successSubtitle": "Configuration en cours…",
-			"modalAria": "Modal de Vérification Email",
+			"modalAria": "Modale de vérification d'e-mail",
 			"errors": {
-				"invalidEmail": "Veuillez entrer une adresse email valide",
+				"invalidEmail": "Veuillez entrer une adresse e-mail valide",
 				"sendFailed": "Échec de l'envoi du code de vérification.",
 				"invalidCode": "Veuillez entrer un code de vérification à 6 chiffres"
 			}
 		},
 		"setNickname": {
-			"title": "Définir votre Surnom",
-			"subtitle": "Ceci est une configuration unique et ne peut pas être changée",
+			"title": "Définissez votre pseudo",
+			"subtitle": "Il s'agit d'une configuration unique et ne peut pas être modifiée",
 			"logoutAria": "Déconnexion",
-			"inputPlaceholder": "Choisissez votre surnom unique",
-			"referrerCheckbox": "J'ai un ID de parrainage",
-			"referrerPlaceholder": "Entrer l'ID de parrainage",
-			"referrerHelp": "Facultatif. Ceci lie votre compte au parrain pour les programmes de bonus.",
+			"inputPlaceholder": "Choisissez votre pseudo unique",
+			"referrerCheckbox": "J'ai un ID de parrain",
+			"referrerPlaceholder": "Entrer l'ID du parrain",
+			"referrerHelp": "Facultatif. Cela lie votre compte au parrain pour les programmes de bonus.",
 			"status": {
 				"checking": "Vérification de la disponibilité...",
-				"available": "Surnom est disponible!",
-				"taken": "Ce surnom est déjà pris."
+				"available": "Le pseudo est disponible !",
+				"taken": "Ce pseudo est déjà pris."
 			},
-			"register": "S'inscrire et Jouer",
-			"termsTitle": "Conditions Générales:",
-			"termsBody": "En signant ce document avec votre Portefeuille et/ou en continuant à utiliser cette Application Web3, vous acceptez les conditions d'utilisation de l'application. La signature de votre consentement aux Conditions d'Utilisation n'est pas une transaction blockchain et n'entraîne aucun coût.",
+			"register": "S'inscrire et jouer",
+			"termsTitle": "Conditions générales :",
+			"termsBody": "En signant ce document avec votre portefeuille et/ou en continuant à utiliser cette application Web3, vous acceptez les conditions d'utilisation de l'application. La signature de votre consentement aux conditions d'utilisation n'est pas une transaction blockchain et n'entraîne aucun coût.",
 			"errors": {
-				"verifyNicknameFailed": "Impossible de vérifier le surnom. Veuillez réessayer.",
-				"registerFailed": "Échec de l'inscription: {message}"
+				"verifyNicknameFailed": "Impossible de vérifier le pseudo. Veuillez réessayer.",
+				"registerFailed": "L'inscription a échoué : {message}"
 			}
 		},
 		"walletConnect": {
-			"loginWithEmail": "Connexion avec Email",
-			"connectWalletBtn": "Connecter le Portefeuille",
-			"loginWithWallet": "Connexion avec Portefeuille",
+			"loginWithEmail": "Connexion par e-mail",
+			"connectWalletBtn": "Connecter le portefeuille",
+			"loginWithWallet": "Connexion par portefeuille",
 			"player": "Joueur",
-			"walletConnected": "Portefeuille Connecté",
-			"emailConnected": "Email Connecté",
+			"walletConnected": "Portefeuille connecté",
+			"emailConnected": "E-mail connecté",
 			"disconnect": "Déconnecter",
-			"walletAddress": "Adresse du Portefeuille",
+			"walletAddress": "Adresse du portefeuille",
 			"balance": "Solde"
 		}
 	},
@@ -835,11 +835,11 @@
 				"withdraw": "Retrait",
 				"swap": "Échanger",
 				"walletInfo": "Portefeuille",
-				"emailWallet": "Portefeuille Email",
+				"emailWallet": "Portefeuille e-mail",
 				"wallet": "Portefeuille"
 			},
 			"mobileDropdown": {
-				"emailWallet": "Portefeuille Email",
+				"emailWallet": "Portefeuille e-mail",
 				"wallet": "Portefeuille",
 				"deposit": "Dépôt",
 				"tip": "Pourboire",
@@ -848,102 +848,102 @@
 			}
 		},
 		"networkSelector": {
-			"placeholder": "Sélectionner le Réseau",
-			"switching": "Changement en cours...",
+			"placeholder": "Sélectionner un réseau",
+			"switching": "Changement...",
 			"walletNotConnected": "Portefeuille non connecté.",
 			"failedToSwitch": "Échec du changement de réseau. Veuillez essayer depuis votre portefeuille.",
 			"altLogo": "Logo du réseau"
 		},
 		"tokenList": {
-			"dialogTitle": "Sélectionner un Jeton",
-			"instantDeposit": "Dépôt Instantané",
-			"yourWalletBalance": "Votre Solde de Portefeuille",
+			"dialogTitle": "Sélectionner un jeton",
+			"instantDeposit": "Dépôt instantané",
+			"yourWalletBalance": "Solde de votre portefeuille",
 			"searchPlaceholder": "Rechercher un nom ou coller une adresse",
 			"emptySearch": "Aucun jeton trouvé correspondant à votre recherche.",
 			"emptyOwned": "Aucun jeton avec solde trouvé.",
-			"searchResults": "Résultats de la Recherche",
-			"yourTokens": "Vos Jetons",
-			"otherResults": "Autres Résultats"
+			"searchResults": "Résultats de recherche",
+			"yourTokens": "Vos jetons",
+			"otherResults": "Autres résultats"
 		},
 		"tabsSidebar": {
 			"walletInfo": "Portefeuille",
-			"emailWallet": "Portefeuille Email",
+			"emailWallet": "Portefeuille e-mail",
 			"deposit": "Dépôt",
 			"withdraw": "Retrait",
 			"swap": "Échanger"
 		},
 		"depositPanel": {
-			"youPay": "Vous Payez",
-			"resetForm": "Réinitialiser le Formulaire",
-			"enterAmount": "Entrer le Montant",
-			"selectToken": "Sélectionner le jeton",
+			"youPay": "Vous payez",
+			"resetForm": "Réinitialiser le formulaire",
+			"enterAmount": "Entrer le montant",
+			"selectToken": "Sélectionner un jeton",
 			"max": "Max",
 			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} est réservé pour couvrir les frais de gaz et éviter l'échec de la transaction",
-			"balance": "Solde:",
-			"calculating": "Calcul en cours...",
+			"balance": "Solde :",
+			"calculating": "Calcul...",
 			"approxUsd": "~ ${amount} USD",
-			"minPrefix": "Min:",
+			"minPrefix": "Min :",
 			"ratesMayVary": "Les taux peuvent varier",
-			"emailWalletAddress": "Adresse du Portefeuille Email",
-			"walletAddress": "Adresse du Portefeuille",
+			"emailWalletAddress": "Adresse du portefeuille e-mail",
+			"walletAddress": "Adresse du portefeuille",
 			"minimumIs": "Le minimum est {min}",
 			"errors": {
 				"selectTokenAndAmount": "Veuillez sélectionner un jeton et entrer un montant",
 				"insufficientBalance": "Solde insuffisant pour cette transaction",
 				"amountTooHighGas": "Le montant est trop élevé en tenant compte des frais de gaz",
 				"checkForm": "Veuillez vérifier le formulaire et réessayer",
-				"pendingDeposit": "Vous avez un dépôt en attente. Veuillez attendre qu'il se termine"
+				"pendingDeposit": "Vous avez un dépôt en attente. Veuillez patienter qu'il se termine"
 			},
 			"status": {
-				"processing": "Traitement en cours...",
-				"awaitingApproval": "En attente d'Approbation",
-				"calculatingRate": "Calcul du Taux...",
-				"insufficientBalance": "Solde Insuffisant"
+				"processing": "Traitement...",
+				"awaitingApproval": "En attente d'approbation",
+				"calculatingRate": "Calcul du taux...",
+				"insufficientBalance": "Solde insuffisant"
 			},
 			"buttons": {
 				"depositUsd": "Déposer ${amount}"
 			}
 		},
 		"tipPanel": {
-			"youTip": "Votre Pourboire",
-			"resetForm": "Réinitialiser le Formulaire",
+			"youTip": "Vous donnez un pourboire",
+			"resetForm": "Réinitialiser le formulaire",
 			"enterAmount": "Entrer le montant",
-			"selectToken": "Sélectionner le jeton",
+			"selectToken": "Sélectionner un jeton",
 			"minPrefix": "Minimum",
-			"balance": "Solde:",
+			"balance": "Solde :",
 			"max": "Max",
 			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} est réservé pour couvrir les frais de gaz et éviter l'échec de la transaction",
 			"approxUsd": "~ ${amount} USD",
 			"tipPanelWarningText": "Les pourboires sont volontaires et non remboursables.",
-			"emailWalletAddress": "Adresse du Portefeuille Email",
+			"emailWalletAddress": "Adresse du portefeuille e-mail",
 			"errors": {
 				"selectTokenAndAmount": "Veuillez sélectionner un jeton et entrer un montant.",
 				"insufficientBalance": "Solde insuffisant.",
 				"belowMinimum": "Le montant doit être d'au moins {min}.",
-				"missingWallet": "Impossible de récupérer le portefeuille pourboire. Veuillez réessayer plus tard.",
+				"missingWallet": "Impossible de récupérer le portefeuille de pourboire. Veuillez réessayer plus tard.",
 				"checkForm": "Veuillez vérifier les détails de votre pourboire."
 			},
 			"status": {
 				"processing": "Envoi du pourboire...",
 				"awaitingApproval": "En attente d'approbation...",
-				"calculatingRate": "Calcul en cours...",
+				"calculatingRate": "Calcul...",
 				"insufficientBalance": "Solde insuffisant",
-				"fetchingWallet": "Préparation du portefeuille pourboire..."
+				"fetchingWallet": "Préparation du portefeuille de pourboire..."
 			},
 			"prompts": {
-				"selectToken": "Sélectionner le jeton",
+				"selectToken": "Sélectionner un jeton",
 				"enterAmount": "Entrer le montant"
 			},
 			"buttons": {
-				"tipUsd": "Pourboire ${amount}",
+				"tipUsd": "Donner ${amount} de pourboire",
 				"tip": "Pourboire"
 			},
-			"minimumIs": "Le pourboire minimum est {min}"
+			"minimumIs": "Le pourboire minimum est de {min}"
 		},
 		"tipPending": {
-			"submittedTitle": "Pourboire en Attente",
+			"submittedTitle": "Pourboire en attente",
 			"submittedDesc": "Votre pourboire est en cours de confirmation sur la chaîne.",
-			"confirmedTitle": "Pourboire Confirmé!",
+			"confirmedTitle": "Pourboire confirmé !",
 			"confirmedDesc": "Votre pourboire a été livré avec succès.",
 			"viewOnExplorer": "Voir sur l'explorateur",
 			"newTipPending": "Envoyer un autre pourboire",
@@ -955,88 +955,88 @@
 			"gettingQuote": "Obtention du devis...",
 			"confirming": "Confirmation...",
 			"approving": "Approbation...",
-			"insufficientBalance": "Solde insuffisant pour l'Échange",
+			"insufficientBalance": "Solde insuffisant pour l'échange",
 			"sameToken": "Impossible d'échanger le même jeton",
-			"approveAndSwap": "Approuver et Échanger",
+			"approveAndSwap": "Approuver et échanger",
 			"swap": "Échanger",
-			"slippageTolerance": "Tolérance de Glissement",
+			"slippageTolerance": "Tolérance de glissement",
 			"custom": "Personnalisé",
 			"set": "Définir",
 			"currentSlippage": "Glissement actuel",
-			"swapSuccessful": "Échange Réussi!",
+			"swapSuccessful": "Échange réussi !",
 			"transactionConfirmed": "Votre transaction a été soumise",
-			"hash": "Hachage",
-			"newSwap": "Nouvel Échange",
+			"hash": "Hash",
+			"newSwap": "Nouvel échange",
 			"youPay": "Vous payez",
 			"max": "Max",
 			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} est réservé pour couvrir les frais de gaz et éviter l'échec de la transaction",
-			"low": "Faible",
+			"low": "Bas",
 			"amountPlaceholder": "0",
-			"selectToken": "Sélectionner le Jeton",
+			"selectToken": "Sélectionner un jeton",
 			"youReceive": "Vous recevez",
 			"gettingBestQuote": "Obtention du meilleur devis...",
 			"gas": "Gaz",
 			"minimumReceived": "Minimum reçu",
 			"slippageToleranceLabel": "Tolérance de glissement",
 			"gasFee": "Frais de gaz",
-			"priceWarning": "Les prix sont mis à jour en temps réel et peuvent changer avant la confirmation de votre transaction",
-			"emailWalletAddress": "Adresse du Portefeuille Email",
-			"walletAddress": "Adresse du Portefeuille",
+			"priceWarning": "Les prix sont mis à jour en temps réel et peuvent changer avant que votre transaction ne soit confirmée",
+			"emailWalletAddress": "Adresse du portefeuille e-mail",
+			"walletAddress": "Adresse du portefeuille",
 			"minimumIs": "Le minimum est {min}",
 			"errors": {
 				"selectTokenAndAmount": "Veuillez sélectionner un jeton et entrer un montant",
 				"insufficientBalance": "Solde insuffisant pour cette transaction",
 				"amountTooHighGas": "Le montant est trop élevé en tenant compte des frais de gaz",
 				"checkForm": "Veuillez vérifier le formulaire et réessayer",
-				"pendingDeposit": "Vous avez un dépôt en attente. Veuillez attendre qu'il se termine"
+				"pendingDeposit": "Vous avez un dépôt en attente. Veuillez patienter qu'il se termine"
 			},
 			"status": {
-				"processing": "Traitement en cours...",
-				"awaitingApproval": "En attente d'Approbation",
-				"calculatingRate": "Calcul du Taux...",
-				"insufficientBalance": "Solde Insuffisant"
+				"processing": "Traitement...",
+				"awaitingApproval": "En attente d'approbation",
+				"calculatingRate": "Calcul du taux...",
+				"insufficientBalance": "Solde insuffisant"
 			},
 			"buttons": {
 				"depositUsd": "Déposer ${amount}"
 			}
 		},
 		"depositPending": {
-			"confirmedTitle": "Dépôt Confirmé!",
-			"submittedTitle": "Transaction Soumise",
-			"failedTitle": "Transaction Échouée",
+			"confirmedTitle": "Dépôt confirmé !",
+			"submittedTitle": "Transaction soumise",
+			"failedTitle": "Transaction échouée",
 			"confirmedDesc": "Votre solde a été mis à jour.",
 			"submittedDesc": "En attente de la confirmation de la blockchain. Cela peut prendre quelques minutes.",
 			"failedDesc": "Votre transaction a échoué. Veuillez réessayer.",
-			"viewOnExplorer": "Voir sur l'Explorateur",
-			"newDepositConfirmed": "Faire un Autre Dépôt",
-			"newDepositPending": "Démarrer un nouveau dépôt",
+			"viewOnExplorer": "Voir sur l'explorateur",
+			"newDepositConfirmed": "Faire un autre dépôt",
+			"newDepositPending": "Commencer un nouveau dépôt",
 			"newDepositFailed": "Réessayer"
 		},
 		"withdrawPanel": {
-			"resetForm": "Réinitialiser le Formulaire",
-			"networkNotSupported": "Les retraits ne sont pris en charge que sur Arbitrum, Polygon, Optimism et BNB",
-			"youWithdraw": "Vous Retirez",
+			"resetForm": "Réinitialiser le formulaire",
+			"networkNotSupported": "Les retraits sont uniquement pris en charge sur Arbitrum, Polygon, Optimism et BNB",
+			"youWithdraw": "Vous retirez",
 			"loading": "Chargement...",
 			"amount": "Montant",
 			"max": "Max",
-			"balance": "Solde:",
-			"available": "Disponible:",
+			"balance": "Solde :",
+			"available": "Disponible :",
 			"insufficientBalance": "Solde insuffisant",
 			"minimumIs": "Le minimum est {min}",
-			"minLabel": "Min:",
-			"calculating": "Calcul en cours",
-			"emailWalletAddress": "Adresse du Portefeuille Email",
-			"walletAddress": "Adresse du Portefeuille",
+			"minLabel": "Min :",
+			"calculating": "Calcul",
+			"emailWalletAddress": "Adresse du portefeuille e-mail",
+			"walletAddress": "Adresse du portefeuille",
 			"errors": {
 				"pendingWithdrawal": "Vous avez déjà un retrait en attente",
-				"invalidAddress": "Adresse Invalide",
-				"enterAmount": "Entrer le Montant",
-				"networkNotSupported": "Réseau Non Pris en Charge"
+				"invalidAddress": "Adresse invalide",
+				"enterAmount": "Entrer le montant",
+				"networkNotSupported": "Réseau non pris en charge"
 			},
 			"status": {
-				"processing": "Traitement en cours...",
-				"insufficientBalance": "Solde Insuffisant",
-				"pendingWithdrawal": "Déjà un Retrait en Attente"
+				"processing": "Traitement...",
+				"insufficientBalance": "Solde insuffisant",
+				"pendingWithdrawal": "Déjà un retrait en attente"
 			},
 			"buttons": {
 				"withdraw": "Retirer {amount} {symbol}",
@@ -1044,36 +1044,36 @@
 			}
 		},
 		"withdrawSuccess": {
-			"title": "Retrait Réussi!",
-			"successMessage": "🎉 Je viens de retirer {withdrawAmount} {tokenSymbol} de {siteName}! 🚀 Rejoignez la série de victoires sur {shareUrl}",
-			"withdrawnAmount": "Montant Retiré",
+			"title": "Retrait réussi !",
+			"successMessage": "🎉 Je viens de retirer {withdrawAmount} {tokenSymbol} de {siteName} ! 🚀 Rejoignez la série de victoires sur {shareUrl}",
+			"withdrawnAmount": "Montant retiré",
 			"shareText": "Partager",
-			"subText": "🚀 REJOIGNEZ LA SÉRIE DE VICTOIRES! 🚀",
-			"generating": "Génération en cours...",
-			"screenshot": "Prendre une Capture d'Écran",
-			"download": "Télécharger l'Image",
+			"subText": "🚀 REJOIGNEZ LA SÉRIE DE VICTOIRES ! 🚀",
+			"generating": "Génération...",
+			"screenshot": "Prendre une capture d'écran",
+			"download": "Télécharger l'image",
 			"close": "Fermer",
 			"copiedToClipboard": "Lien de partage copié avec succès",
 			"userName": "Joueur {siteName}",
 			"status": "Terminé",
-			"entryPrice": "Montant du Retrait",
-			"lastPrice": "Symbole du Jeton",
-			"referralCode": "Code de Parrainage",
-			"screenshotFailed": "Échec de la capture d'écran. Veuillez réessayer ou utiliser un navigateur différent.",
+			"entryPrice": "Montant du retrait",
+			"lastPrice": "Symbole du jeton",
+			"referralCode": "Code de parrainage",
+			"screenshotFailed": "Échec de la capture d'écran. Veuillez réessayer ou utiliser un autre navigateur.",
 			"shareFailed": "Échec du partage. Veuillez réessayer."
 		},
 		"withdrawPending": {
-			"confirmedTitle": "Retrait Confirmé!",
-			"submittedTitle": "Transaction Soumise",
+			"confirmedTitle": "Retrait confirmé !",
+			"submittedTitle": "Transaction soumise",
 			"confirmedDesc": "Vos fonds sont en route.",
 			"submittedDesc": "En attente de la confirmation de la blockchain...",
-			"viewOnExplorer": "Voir sur l'Explorateur",
+			"viewOnExplorer": "Voir sur l'explorateur",
 			"manualApproval": "Ce retrait nécessite une approbation manuelle.",
-			"newWithdrawalConfirmed": "Faire un Autre Retrait",
-			"newWithdrawalPending": "Démarrer un Nouveau Retrait"
+			"newWithdrawalConfirmed": "Faire un autre retrait",
+			"newWithdrawalPending": "Commencer un nouveau retrait"
 		},
 		"withdrawSummary": {
-			"youWillReceive": "Vous Recevrez"
+			"youWillReceive": "Vous recevrez"
 		}
 	},
 	"navUser": {
@@ -1084,11 +1084,11 @@
 		"logout": "Déconnexion"
 	},
 	"games": {
-		"pageTitle": "Tous les Jeux",
-		"playNow": "Jouer Maintenant",
+		"pageTitle": "Tous les jeux",
+		"playNow": "Jouer maintenant",
 		"byProvider": "Par {name}",
 		"count": "{count} Jeux",
-		"noResults": "Aucun jeu trouvé correspondant à vos critères.",
+		"noResults": "Aucun jeu ne correspond à vos critères.",
 		"errorLoading": "Impossible de charger les jeux. Veuillez réessayer plus tard.",
 		"slots": "Machines à sous",
 		"sports": "Sports",
@@ -1098,25 +1098,25 @@
 		"poker": "Poker",
 		"lottery": "Loterie",
 		"futures": "Futures",
-		"vr": "RV",
+		"vr": "VR",
 		"swap": "Échanger",
 		"slotsDescription": "Faites tourner les rouleaux et gagnez des jackpots massifs",
 		"liveCasinoDescription": "Vivez l'action du casino en temps réel avec des croupiers en direct",
 		"sportsDescription": "Pariez sur vos équipes et événements sportifs préférés",
-		"pokerDescription": "Testez vos compétences aux jeux de poker classiques",
-		"lotteryDescription": "Tentez votre chance aux jeux de loterie et de gain instantané",
+		"pokerDescription": "Testez vos compétences dans des jeux de poker classiques",
+		"lotteryDescription": "Tentez votre chance avec la loterie et les jeux à gain instantané",
 		"futuresDescription": "Tradez et prédisez les mouvements du marché",
-		"vrDescription": "Plongez dans les jeux de réalité virtuelle",
-		"swapDescription": "Échangez des jetons et des cryptomonnaies en toute transparence",
+		"vrDescription": "Plongez-vous dans le jeu en réalité virtuelle",
+		"swapDescription": "Échangez des jetons et des cryptomonnaies en toute simplicité",
 		"categories": {
 			"slot": {
-				"title": "Jeux de Machines à sous"
+				"title": "Jeux de machines à sous"
 			},
 			"liveCasino": {
-				"title": "Jeux de Casino en Direct"
+				"title": "Jeux de casino en direct"
 			},
 			"sports": {
-				"title": "Jeux de Paris Sportifs"
+				"title": "Jeux de paris sportifs"
 			},
 			"rng": {
 				"title": "Jeux RNG"
@@ -1127,94 +1127,94 @@
 		}
 	},
 	"providers": {
-		"pageTitle": "Tous les Fournisseurs de Jeux",
+		"pageTitle": "Tous les fournisseurs de jeux",
 		"searchPlaceholder": "Rechercher un fournisseur...",
 		"empty": "Aucun fournisseur trouvé correspondant à votre recherche.",
 		"logoAlt": "Logo {name}",
-		"filteredBy": "Filtré par catégorie:",
+		"filteredBy": "Filtré par catégorie :",
 		"clearFilter": "Effacer le filtre",
 		"categories": {
 			"slot": {
-				"title": "Fournisseurs de Jeux de Machines à sous"
+				"title": "Fournisseurs de machines à sous"
 			},
 			"liveCasino": {
-				"title": "Fournisseurs de Casino en Direct"
+				"title": "Fournisseurs de casino en direct"
 			},
 			"sports": {
-				"title": "Fournisseurs de Paris Sportifs"
+				"title": "Fournisseurs de paris sportifs"
 			},
 			"rng": {
-				"title": "Fournisseurs de Jeux RNG"
+				"title": "Fournisseurs de jeux RNG"
 			},
 			"other": {
-				"title": "Fournisseurs de Jeux {category}"
+				"title": "Fournisseurs de jeux {category}"
 			}
 		}
 	},
 	"hero": {
 		"guest": {
-			"title": "Rejoignez l'Action",
-			"subtitle": "Inscrivez-vous maintenant et obtenez un bonus de bienvenue exclusif!",
-			"cta": "S'inscrire Maintenant"
+			"title": "Rejoignez l'action",
+			"subtitle": "Inscrivez-vous maintenant et obtenez un bonus de bienvenue exclusif !",
+			"cta": "S'inscrire maintenant"
 		},
 		"welcome": {
-			"title1": "Bonus de Bienvenue",
+			"title1": "Bonus de bienvenue",
 			"title2": "Jusqu'à 590%",
-			"subtitle": "+ 225 Tours Gratuits",
-			"cta": "Déposer & Obtenir"
+			"subtitle": "+ 225 tours gratuits",
+			"cta": "Déposer et obtenir"
 		},
 		"jackpot": {
-			"title1": "Mega Jackpot",
+			"title1": "Méga Jackpot",
 			"title2": "1 000 000 $",
-			"subtitle": "Jouez Maintenant & Gagnez Gros",
-			"cta": "Jouer Maintenant"
+			"subtitle": "Jouez maintenant et gagnez gros",
+			"cta": "Jouer maintenant"
 		},
 		"cards": {
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JEUX",
-				"desc": "Profitez des Originaux {siteName} et d'autres jeux de casino des meilleurs fournisseurs.",
-				"link": "Aller au Casino"
+				"desc": "Profitez des originaux {siteName} et d'autres jeux de casino des meilleurs fournisseurs.",
+				"link": "Aller au casino"
 			},
 			"slots": {
 				"title": "Machines à sous",
 				"badge": "5292 JEUX",
 				"desc": "Faites tourner les rouleaux et décrochez des jackpots massifs avec notre collection de machines à sous premium.",
-				"link": "Aller aux Machines à sous"
+				"link": "Aller aux machines à sous"
 			},
 			"sports": {
 				"title": "Sports",
 				"badge": "3 JEUX",
 				"desc": "Pariez sur vos équipes et événements sportifs préférés avec des cotes compétitives.",
-				"link": "Aller aux Sports"
+				"link": "Aller aux sports"
 			},
 			"crypto": {
-				"title": "Crypto & Gagner",
+				"title": "Crypto & Earn",
 				"badge": "60% APR",
 				"desc": "Stakez, tradez et gagnez avec la cryptomonnaie à des taux attractifs.",
-				"link": "Aller à la Crypto"
+				"link": "Aller à la crypto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "Jeu à l'Honneur",
-			"headerSubtitle": "Découvrez des jeux incroyables et explorez de nouvelles aventures dans notre collection sélectionnée",
-			"slider1Title": "Jeux Sélectionnés",
-			"slider1Badge": "Sélections du Personnel",
-			"slider2Title": "Plus à Explorer",
+			"headerTitle": "Jeux à la une",
+			"headerSubtitle": "Découvrez des jeux incroyables et explorez de nouvelles aventures dans notre collection organisée",
+			"slider1Title": "Jeux en vedette",
+			"slider1Badge": "Choix de l'équipe",
+			"slider2Title": "Plus à explorer",
 			"slider2Badge": "Tendance",
-			"featuredGameLabel": "Jeu en Vedette"
+			"featuredGameLabel": "Jeu en vedette"
 		},
-		"ctaExploreGames": "Explorer les Jeux",
-		"ctaJoinAffiliate": "Rejoindre l'Affiliation"
+		"ctaExploreGames": "Explorer les jeux",
+		"ctaJoinAffiliate": "Devenir affilié"
 	},
 	"betting": {
 		"live": {
-			"winRate": "Taux de Gain",
-			"biggestWin": "Plus Gros Gain",
-			"bigWins50": "Gros Gains (50+)",
-			"recentWins": "Gains Récents",
+			"winRate": "Taux de victoire",
+			"biggestWin": "Plus gros gain",
+			"bigWins50": "Gros gains (50+)",
+			"recentWins": "Gains récents",
 			"header": {
-				"title": "Activité de Pari en Direct",
+				"title": "Activité de pari en direct",
 				"subtitle": "Activité de pari en temps réel • {count} jeux chargés"
 			},
 			"status": {
@@ -1231,10 +1231,10 @@
 				"losses": "Pertes"
 			},
 			"table": {
-				"game": "Nom du Jeu",
-				"time": "Heure",
+				"game": "Nom du jeu",
+				"time": "Temps",
 				"provider": "Fournisseur",
-				"nickname": "Surnom",
+				"nickname": "Pseudo",
 				"bet": "Pari",
 				"multiplier": "Multiplicateur",
 				"profit": "Profit"
@@ -1243,38 +1243,38 @@
 		}
 	},
 	"fontChanger": {
-		"changeFont": "Changer la Police",
-		"fontSettings": "Paramètres de Police",
+		"changeFont": "Changer la police",
+		"fontSettings": "Paramètres de police",
 		"current": "Actuel",
-		"browseGoogleFonts": "Parcourir les Polices Google",
-		"uploadCustomFont": "Télécharger une Police Personnalisée",
-		"quickUploadFontFile": "Téléchargement Rapide de Fichier de Police",
-		"resetToDefault": "Réinitialiser au Standard",
+		"browseGoogleFonts": "Parcourir Google Fonts",
+		"uploadCustomFont": "Télécharger une police personnalisée",
+		"quickUploadFontFile": "Téléchargement rapide de fichier de police",
+		"resetToDefault": "Réinitialiser par défaut",
 		"googleFonts": {
-			"title": "Polices Google",
+			"title": "Google Fonts",
 			"searchFonts": "Rechercher des polices...",
 			"preview": "Aperçu",
-			"previewText": "The quick brown fox jumps over the lazy dog",
+			"previewText": "Portez ce vieux whisky au juge blond qui fume",
 			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
-			"applyFont": "Appliquer la Police",
-			"clearPreview": "Effacer l'Aperçu",
+			"applyFont": "Appliquer la police",
+			"clearPreview": "Effacer l'aperçu",
 			"previewWith": "Aperçu du texte avec {font}",
 			"noFontsFound": "Aucune police trouvée correspondant à \"{searchTerm}\""
 		},
 		"customUpload": {
-			"title": "Télécharger une Police Personnalisée",
+			"title": "Télécharger une police personnalisée",
 			"description": "Téléchargez votre propre fichier de police pour personnaliser le site web",
-			"fontFile": "Fichier de Police",
+			"fontFile": "Fichier de police",
 			"dragDropArea": "Glissez et déposez votre fichier de police ici, ou",
 			"clickToUpload": "cliquez pour télécharger",
-			"supportedFormats": "Formats pris en charge: .woff, .woff2, .ttf, .otf",
-			"maxFileSize": "Taille maximale du fichier: 10 Mo",
-			"fontName": "Nom de la Police",
+			"supportedFormats": "Formats supportés : .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Taille maximale du fichier : 10 Mo",
+			"fontName": "Nom de la police",
 			"fontNamePlaceholder": "Entrez un nom pour votre police",
-			"previewYourFont": "Aperçu de Votre Police",
-			"uploadAndApply": "Télécharger & Appliquer la Police",
+			"previewYourFont": "Aperçu de votre police",
+			"uploadAndApply": "Télécharger et appliquer la police",
 			"cancel": "Annuler",
-			"uploading": "Téléchargement en cours...",
+			"uploading": "Téléchargement...",
 			"errors": {
 				"invalidFileType": "Veuillez télécharger un fichier de police valide (.woff, .woff2, .ttf, .otf)",
 				"fileTooLarge": "La taille du fichier dépasse la limite de 10 Mo",
@@ -1284,16 +1284,16 @@
 			}
 		},
 		"messages": {
-			"fontAppliedSuccess": "Police \"{fontName}\" appliquée avec succès!",
-			"fontUploadedSuccess": "Police \"{fontName}\" téléchargée et appliquée avec succès!",
-			"fontResetSuccess": "Police réinitialisée au standard",
+			"fontAppliedSuccess": "Police \"{fontName}\" appliquée avec succès !",
+			"fontUploadedSuccess": "Police \"{fontName}\" téléchargée et appliquée avec succès !",
+			"fontResetSuccess": "Police réinitialisée par défaut",
 			"invalidFileType": "Veuillez télécharger un fichier de police valide (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Échec de la lecture du fichier de police"
 		}
 	},
 	"contact": {
 		"title": "Contactez-nous",
-		"subtitle": "Vous avez des questions ou besoin d'aide ? Notre équipe de support dédiée est là pour vous aider 24 heures sur 24.",
+		"subtitle": "Vous avez des questions ou besoin d'assistance ? Notre équipe de support dédiée est là pour vous aider 24h/24.",
 		"methods": {
 			"liveChat": {
 				"title": "Chat en direct",
@@ -1307,7 +1307,7 @@
 			},
 			"support": {
 				"title": "Centre d'aide",
-				"description": "Consultez notre base de connaissances complète pour des réponses rapides.",
+				"description": "Parcourez notre base de connaissances complète pour des réponses rapides.",
 				"availability": "Libre-service disponible"
 			}
 		},
@@ -1318,11 +1318,11 @@
 			"email": "Adresse e-mail",
 			"emailPlaceholder": "Entrez votre adresse e-mail",
 			"subject": "Sujet",
-			"subjectPlaceholder": "Quel est l'objet de votre demande ?",
+			"subjectPlaceholder": "Sur quoi porte votre demande ?",
 			"message": "Message",
 			"messagePlaceholder": "Veuillez décrire votre demande en détail...",
 			"submit": "Envoyer le message",
-			"sending": "Envoi en cours...",
+			"sending": "Envoi...",
 			"errors": {
 				"nameRequired": "Veuillez entrer votre nom",
 				"emailRequired": "Veuillez entrer votre e-mail",
@@ -1333,7 +1333,7 @@
 			}
 		},
 		"responseTime": {
-			"title": "Délais de réponse prévus",
+			"title": "Temps de réponse attendus",
 			"description": "Nous nous efforçons de répondre à toutes les demandes le plus rapidement possible.",
 			"liveChat": {
 				"title": "Chat en direct",
@@ -1349,313 +1349,312 @@
 			}
 		},
 		"faq": {
-			"title": "Foire aux questions",
+			"title": "Questions fréquemment posées",
 			"items": [
 				{
 					"question": "Comment réinitialiser mon mot de passe ?",
 					"answer": "Vous pouvez réinitialiser votre mot de passe en cliquant sur le lien 'Mot de passe oublié' sur la page de connexion. Entrez votre adresse e-mail enregistrée et suivez les instructions envoyées dans votre boîte de réception."
 				},
 				{
-					"question": "Combien de temps prennent les retraits pour être traités ?",
-					"answer": "La plupart des retraits de cryptomonnaies sont traités instantanément. Dans certains cas, une vérification manuelle peut être nécessaire, ce qui peut prendre jusqu'à 24 heures."
+					"question": "Combien de temps prennent les retraits ?",
+					"answer": "La plupart des retraits de cryptomonnaies sont traités instantanément. Dans certains cas, une vérification manuelle peut être requise, ce qui peut prendre jusqu'à 24 heures."
 				},
 				{
 					"question": "Quelles cryptomonnaies acceptez-vous ?",
-					"answer": "Nous acceptons les principales cryptomonnaies, notamment le Bitcoin (BTC), l'Ethereum (ETH), l'USDT, l'USDC et plusieurs autres jetons populaires sur plusieurs réseaux blockchain."
+					"answer": "Nous acceptons les principales cryptomonnaies, notamment Bitcoin (BTC), Ethereum (ETH), USDT, USDC, et plusieurs autres jetons populaires sur plusieurs réseaux blockchain."
 				},
 				{
 					"question": "Comment puis-je vérifier mon compte ?",
-					"answer": "La vérification du compte peut être effectuée via les paramètres de votre profil. Vous devrez peut-être fournir des documents d'identité en fonction de votre niveau de compte et de vos limites de retrait."
+					"answer": "La vérification du compte peut être effectuée via les paramètres de votre profil. Vous devrez peut-être fournir des documents d'identification en fonction du niveau de votre compte et des limites de retrait."
 				},
 				{
 					"question": "Mes informations personnelles sont-elles sécurisées ?",
-					"answer": "Oui, nous utilisons un cryptage et des mesures de sécurité conformes aux normes de l'industrie pour protéger toutes les informations personnelles et financières. Notre plateforme est soumise à des audits de sécurité réguliers."
+					"answer": "Oui, nous utilisons des mesures de chiffrement et de sécurité conformes aux normes de l'industrie pour protéger toutes les informations personnelles et financières. Notre plateforme fait l'objet d'audits de sécurité réguliers."
 				}
 			]
 		}
 	},
 	"about": {
 		"title": "🎮 À propos de {siteName}",
-		"subtitle": "Chez {siteName}, le jeu n'est pas seulement quelque chose pour passer le temps – c'est une question d'excitation réelle. Ce moment où vous réalisez un gros gain, ou lorsque tout se passe bien, c'est ce qui nous motive.",
+		"subtitle": "Chez {siteName}, le jeu n'est pas juste un passe-temps — c'est une expérience.",
 		"meta": {
-			"title": "À propos de {siteName} | Plateforme de Casino en Ligne Mondiale de Confiance",
-			"description": "Découvrez {siteName}, une plateforme de casino mondiale sécurisée offrant des machines à sous, un casino en direct, des paris sportifs et du poker. Juste, rapide et conçue pour les vrais joueurs."
+			"title": "À propos de {siteName} | Plateforme de casino en ligne mondiale de confiance",
+			"description": "Découvrez {siteName} — une plateforme de casino mondiale sécurisée proposant des machines à sous, du casino en direct, des paris sportifs et du poker. Équitable, rapide et conçu pour les vrais joueurs."
 		},
 		"intro": {
-			"paragraph1": "Nous avons construit {siteName} pour les joueurs qui veulent plus de leur jeu. Plus de vitesse. Plus d'équité. Plus de sensations fortes. Que vous aimiez les jeux de casino en direct, les paris sportifs, le poker ou la chasse aux jackpots sur des machines à sous à enjeux élevés, vous trouverez tout ici, et vous pouvez compter sur nous pour garder les choses légitimes.",
-			"paragraph2": "Depuis le premier jour, nous voulions que {siteName} soit réel. Pas seulement un autre site web, mais un endroit où vous obtenez une expérience de jeu sécurisée et excitante à chaque fois que vous vous connectez."
+			"paragraph1": "Chez {siteName}, le jeu n'est pas juste un passe-temps — c'est une expérience.|Nous avons construit cette plateforme pour les joueurs qui attendent plus que de la chance — des joueurs qui veulent de la vitesse, de l'équité et un environnement de jeu de classe mondiale.",
+			"paragraph2": "Dès le premier jour, notre objectif a été clair : créer un espace de jeu qui semble réel, sécurisé et excitant. Que vous soyez ici pour les jeux de casino en direct, les paris sportifs, le poker ou les machines à sous à haute récompense, {siteName} rassemble tout cela sous un nom de confiance."
 		},
 		"whoWeAre": {
-			"title": "💎 Qui Nous Sommes",
-			"paragraph1": " {siteName} connecte des joueurs du monde entier à des milliers des meilleurs jeux de casino et de paris. Nous travaillons avec les plus grands noms de l'industrie – Pragmatic Play, Red Tiger, Microgaming, KA Gaming – afin que chaque jeu fonctionne sans problème et ait fière allure, que vous jouiez sur votre téléphone ou votre ordinateur portable.",
-			"paragraph2": "Chaque tour, chaque donne, chaque bonus – tout est mis en place pour vous donner cette ruée du jeu réel. Et nous gardons les choses simples. Pas de trucs, pas de règles sournoises. Juste un jeu honnête et clair."
+			"title": "💎 Qui nous sommes",
+			"paragraph1": "{siteName} est une plateforme de jeu en ligne mondiale qui connecte les joueurs à des milliers de jeux de casino et de paris de haute qualité.|Nous travaillons avec les fournisseurs les plus respectés de l'industrie — y compris Pragmatic Play, Red Tiger, Microgaming et KA Gaming — pour offrir une expérience fluide sur chaque appareil.",
+			"paragraph2": "Chaque fonctionnalité, chaque tour et chaque carte distribuée est conçu pour vous rapprocher du frisson du jeu réel — tout en gardant tout transparent et équitable."
 		},
 		"mission": {
-			"title": "🎯 Notre Mission",
-			"paragraph1": "Nous voulons que le jeu en ligne soit simple, sûr et vraiment amusant.",
-			"paragraph2": "Nous gardons les choses personnelles. Dépôts rapides, retraits rapides. Un design épuré qui est agréable à regarder. Un support qui aide réellement lorsque vous en avez besoin.|Chez {siteName}, vous êtes toujours à l'honneur. Votre confiance nous pousse à continuer d'améliorer."
+			"title": "🎯 Notre mission",
+			"paragraph1": "Rendre le jeu en ligne simple, sûr et gratifiant pour tous.|Nous croyons que le jeu doit sembler personnel — pas mécanique — c'est pourquoi nous nous concentrons sur des transactions rapides, un design fluide et un support client fiable disponible 24/7.",
+			"paragraph2": "Chez {siteName}, les joueurs passent toujours en premier. Votre confiance est ce qui nous pousse à continuer à nous améliorer chaque jour."
 		},
 		"whatMakesUsDifferent": {
-			"title": "🏆 Ce qui Rend {siteName} Différent",
+			"title": "🏆 Ce qui rend {siteName} différent",
 			"features": [
-				"Plus de 5 000 jeux – machines à sous, poker, sports, casino en direct",
-				"Dépôts et retraits instantanés et fiables",
-				"Chaque jeu est certifié RNG pour l'équité",
-				"Un design épuré qui fonctionne partout",
-				"Nouveaux bonus et promos tout le temps"
+				"Plus de 5 000 jeux entre machines à sous, poker, sports et casino en direct",
+				"Transactions sécurisées avec dépôts et retraits instantanés",
+				"Jeu équitable vérifié par des jeux certifiés RNG",
+				"Design épuré qui fonctionne parfaitement sur ordinateur et mobile",
+				"Bonus et promotions excitants pour les joueurs actifs"
 			],
-			"closing": "Nous ne sommes pas seulement ici pour offrir des jeux. Nous sommes ici pour construire un endroit où vous vous sentez en sécurité, connecté et prêt à relever votre prochain défi."
+			"closing": "Nous n'hébergeons pas seulement des jeux — nous créons un environnement où chaque joueur se sent en sécurité, connecté et confiant."
 		},
 		"fairGaming": {
-			"title": "🌍 Jeu Juste & Responsable",
-			"paragraph1": "Nous prenons l'équité au sérieux. Cela signifie respecter les normes internationales et garder les choses claires – uniquement les joueurs de 18 ans et plus, sans exception.",
-			"paragraph2": "Nous testons chaque jeu pour l'équité, et notre technologie de cryptage garde vos informations saines et sauves."
+			"title": "🌍 Jeu équitable et responsable",
+			"paragraph1": "Nous croyons que le jeu doit toujours être responsable et transparent.|C'est pourquoi {siteName} suit des normes internationales de jeu strictes et des politiques d'âge.",
+			"ageRestriction": "Seuls les joueurs âgés de 18 ans ou plus peuvent s'inscrire et jouer.",
+			"paragraph2": "Tous les jeux sont testés pour l'équité, et notre technologie de chiffrement garde vos informations personnelles et financières totalement sécurisées."
 		},
 		"promise": {
-			"title": "🤝 Notre Promesse",
-			"paragraph1": "Nous ne sommes pas ici pour nous fondre dans la masse. Nous sommes ici pour placer la barre plus haut pour le jeu en ligne.",
-			"paragraph2": "Lorsque vous jouez chez {siteName}, vous utilisez une plateforme bâtie sur la confiance et les nouvelles idées. Chaque mise à jour, nouvelle fonctionnalité ou partenariat vise à améliorer votre expérience."
+			"title": "🤝 Notre promesse",
+			"paragraph1": "Nous ne sommes pas ici pour être un autre site de casino — nous sommes ici pour établir une nouvelle norme pour le jeu en ligne.|Lorsque vous jouez sur {siteName}, vous jouez sur une plateforme bâtie sur la confiance, l'innovation et la valeur réelle.",
+			"paragraph2": "Chaque mise à jour, chaque fonctionnalité et chaque partenariat que nous ajoutons est concentré sur un objectif : offrir aux joueurs la meilleure expérience de jeu possible."
 		},
 		"joinCommunity": {
-			"title": "🚀 Rejoignez la Communauté {siteName}",
-			"paragraph1": "Le jeu en ligne évolue rapidement, et {siteName} a déjà une longueur d'avance – plus rapide, plus intelligent et plus gratifiant.",
-			"paragraph2": "Inscrivez-vous maintenant. Réclamez votre bonus de bienvenue. Découvrez pourquoi tant de joueurs à travers le monde font de {siteName} leur endroit de prédilection.",
-			"tagline": "🎯 Jouer. Gagner. Expérimenter. {siteName}."
+			"title": "🚀 Rejoignez la communauté {siteName}",
+			"paragraph1": "L'avenir du jeu en ligne est ici — et il est plus rapide, plus intelligent et plus gratifiant que jamais.",
+			"paragraph2": "Rejoignez {siteName} aujourd'hui, réclamez votre bonus de bienvenue et voyez pourquoi les joueurs du monde entier passent à {siteName}.",
+			"tagline": "🎯 Jouez. Gagnez. Expérimentez. {siteName}."
 		}
 	},
 	"footer": {
 		"sections": {
 			"company": {
-				"title": "Société",
+				"title": "Entreprise",
 				"links": {
 					"about": "À propos de nous",
 					"providers": "Fournisseurs",
 					"affiliate": "Bonus de parrainage",
-					"bonus": "Bonus de Chiffre d'Affaires"
+					"bonus": "Bonus de volume",
+					"blog": "Blog",
+					"contact": "Contactez-nous"
 				}
 			},
 			"legal": {
 				"title": "Légal",
 				"links": {
-					"privacy": "Politique de Confidentialité",
-					"terms": "Conditions Générales",
-					"gambling": "Jeu Responsable",
-					"faqs": "Questions Fréquentes"
+					"privacy": "Politique de confidentialité",
+					"terms": "Conditions générales",
+					"gambling": "Jeu responsable",
+					"faqs": "FAQ"
 				}
 			},
 			"games": {
 				"title": "Jeux",
 				"links": {
-					"lobby": "Lobby de Jeu",
+					"lobby": "Lobby des jeux",
 					"slots": "Machines à sous",
 					"live": "Casino en direct",
-					"sports": "Paris Sportifs"
+					"sports": "Paris sportifs"
 				}
 			},
 			"support": {
 				"title": "Support",
 				"links": {
-					"help": "Centre d'Aide",
+					"help": "Centre d'aide",
 					"contact": "Contactez-nous"
 				}
 			}
 		},
 		"seoContent": {
-			"title": "Description",
-			"paragraph1": "Bienvenue chez {siteName}, où la crypto rencontre l'excitation réelle des jeux de casino. Si vous cherchez quelque chose de nouveau dans le monde du jeu en ligne, vous venez de le trouver. {siteName} est conçu pour les personnes qui veulent de la vitesse, de la sécurité et, surtout, des jeux qui divertissent réellement – que vous aimiez faire tourner les machines à sous, les tables en direct, les paris sportifs ou que vous souhaitiez essayer ces jeux uniquement cryptos que vous ne trouvez nulle part ailleurs.",
-			"paragraph2": "Tout fonctionne sur la blockchain, vous pouvez donc faire confiance à chaque résultat. Les résultats sont aléatoires, vérifiés sur place. Pas de trucs. Juste des gains directs et une excitation réelle. Gros parieur? Fan de stratégie? Peut-être voulez-vous simplement vous détendre et jouer un peu. Il y a quelque chose ici pour votre style.",
-			"paragraph3": "Commencer ne pourrait pas être plus facile – déposez instantanément, encaissez rapidement, connectez-vous avec votre portefeuille Dynamic.xyz et récupérez des bonus uniques en cours de route. {siteName} maintient les choses en mouvement. Pas d'attente. Pas de maux de tête. Peu importe où vous êtes – Canada, Europe, Asie – notre configuration multi-chaînes s'intègre parfaitement à vos options crypto locales.",
-			"paragraph4": "Des milliers de personnes le savent déjà: c'est une façon plus intelligente de jouer en ligne. Ici, il ne s'agit pas seulement de chasser les gains – il s'agit de confidentialité, d'équité et de faire partie d'une communauté qui comprend vraiment ce que veulent les joueurs. {siteName} n'est pas juste un autre casino en ligne. C'est le jeu Web3, reconstruit pour les personnes qui en attendent plus.",
-			"tagline": "Alors, êtes-vous prêt à jouer plus intelligemment, à parier plus sûrement et peut-être à gagner gros? Rendez-vous sur {siteName}.",
-			"showMore": "Afficher Plus",
-			"showLess": "Afficher Moins"
+			"title": "{siteName} — Votre destination ultime pour le divertissement de casino crypto",
+			"paragraph1": "Entrez dans l'avenir du jeu en ligne avec {siteName}, le premier casino au monde alimenté par la crypto où l'innovation rencontre l'excitation. Conçue pour les vrais joueurs, notre plateforme offre une expérience rapide, sécurisée et transparente à travers les machines à sous, les tables de casino en direct, les paris sportifs et les jeux crypto.",
+			"paragraph2": "Chaque tour, carte et pari chez {siteName} est construit sur l'équité de la blockchain, vérifié en temps réel pour garantir que chaque résultat est vraiment aléatoire et inviolable. De l'action à gros enjeux au jeu occasionnel, nos jeux s'adressent à tous les types de joueurs — des chercheurs de sensations fortes aux pros de la stratégie.",
+			"paragraph3": "Avec des dépôts instantanés et des retraits ultra-rapides, la connexion par portefeuille Dynamic.xyz et des bonus exclusifs sur le volume de jeu, {siteName} s'assure que votre jeu reste fluide, gratifiant et sécurisé.|Que vous soyez au Canada, en Europe ou en Asie, notre système multi-chaîne prend en charge les joueurs mondiaux tout en optimisant les tendances locales des casinos crypto dans chaque région.",
+			"paragraph4": "Rejoignez des milliers de joueurs découvrant une façon plus intelligente de jouer — où le jeu équitable, la confidentialité et le profit se rejoignent.|{siteName} n'est pas seulement un casino.|C'est la prochaine évolution du jeu Web3 — construit pour les audacieux, propulsé par la crypto et approuvé par les joueurs du monde entier.",
+			"tagline": "🎯 Jouez intelligemment. Pariez en toute sécurité. Gagnez gros — Uniquement sur {siteName}.",
+			"showMore": "Afficher plus",
+			"showLess": "Afficher moins"
 		},
 		"copyright": "© {year} {siteName}. Tous droits réservés.",
-		"followUs": "Suivez-nous:",
+		"followUs": "Suivez-nous :",
 		"disclaimer": {
-			"line1": "18+ Seulement | Jouez de Manière Responsable",
-			"line2": "Le jeu peut être addictif. Veuillez jouer de manière responsable et ne parier que ce que vous pouvez vous permettre de perdre.",
+			"line1": "18+ Uniquement | Jouez de manière responsable",
+			"line2": "Le jeu peut créer une dépendance. Veuillez jouer de manière responsable et ne pariez que ce que vous pouvez vous permettre de perdre.",
 			"line3": "Si vous pensez avoir un problème de jeu, veuillez demander de l'aide."
 		},
-		"description": " {siteName} est votre destination de choix pour les machines à sous crypto, les tables en direct et les paris sportifs. Plongez dans des jeux blockchain auxquels vous pouvez vraiment faire confiance, retirez vos gains directement dans votre portefeuille en quelques secondes et récupérez de nouveaux bonus chaque jour. C'est rapide, sécurisé et totalement décentralisé – {siteName} élève le jeu en ligne d'un cran pour les joueurs du monde entier. Jouez intelligemment. Gagnez gros. Faites confiance à {siteName}."
+		"description": "{siteName} — votre casino crypto de confiance pour les machines à sous, les tables en direct et les paris sportifs.|Jouez à des jeux blockchain prouvés équitables, profitez de paiements instantanés basés sur le portefeuille et débloquez des bonus de casino quotidiens.|Rapide, sécurisé et décentralisé — {siteName} apporte le jeu de niveau supérieur aux joueurs du monde entier.|🎯 Jouez intelligemment. Gagnez gros. Faites confiance à {siteName}."
 	},
 	"privacy": {
-		"title": "🔒 Politique de Confidentialité — {siteName}",
-		"subtitle": "Comment {siteName} protège les adresses de portefeuille et les données crypto avec SSL, AML et une confidentialité conforme au RGPD pour un jeu blockchain sécurisé.",
-		"lastUpdated": "Dernière mise à jour: Janvier 2025",
-		"meta": {
-			"title": "Politique de Confidentialité | {siteName} – Sécurité du Casino Portefeuille Crypto",
-			"description": "Découvrez comment {siteName} protège les adresses de portefeuille et les données crypto avec SSL, AML et une confidentialité conforme au RGPD pour un jeu blockchain sécurisé.",
-			"keywords": "Politique de confidentialité {siteName}, {siteName} crypto casino, {siteName} protection des données, {siteName} sécurité du portefeuille, confidentialité des jeux crypto, crypto casino RGPD, politique de casino blockchain, {siteName} jeux sécurisés, confidentialité des paris crypto",
-			"ogTitle": "Confidentialité & Protection des Données | {siteName} (Crypto Casino)",
-			"ogDescription": "Explorez comment {siteName} protège votre portefeuille crypto et vos données de transaction avec un cryptage avancé et une protection conforme au RGPD."
-		},
+		"title": "Politique de confidentialité",
+		"subtitle": "Comment {siteName} collecte, utilise et protège vos données",
+		"lastUpdated": "Janvier 2025",
 		"intro": {
-			"paragraph1": "Chez {siteName} (\" {siteName} \", \"nous\", \"notre\" ou \"nos\"), nous exploitons la plateforme de crypto-casino {siteName}. Voici ce qui se passe avec vos données personnelles et de transaction lorsque vous utilisez notre site web, nos applications mobiles ou tout service connexe (\"Services\").",
-			"paragraph2": " {siteName} est un casino uniquement avec portefeuille crypto. Cela signifie que tous les dépôts et retraits se font via des portefeuilles de cryptomonnaie. Nous prenons votre vie privée au sérieux et faisons de notre mieux pour la protéger, tout en suivant les règles (comme les exigences AML/KYC) et en maintenant la plateforme sûre et équitable pour tous.",
-			"paragraph3": "Si vous utilisez {siteName}, vous acceptez cette Politique de Confidentialité."
+			"paragraph1": "{siteName} ('{siteName}', 'nous', 'notre' ou 'nos') gère la plateforme de crypto-casino {siteName}. Cette politique de confidentialité explique comment nous collectons, utilisons, stockons et protégeons les données personnelles et de transaction lorsque vous utilisez notre site Web, nos applications mobiles ou nos services connexes (les 'Services').",
+			"paragraph2": "{siteName} fonctionne comme un casino uniquement avec portefeuille crypto : tous les dépôts et retraits sont effectués à l'aide de portefeuilles de cryptomonnaies. Nous nous engageons à protéger votre vie privée tout en respectant les obligations réglementaires (telles que les exigences AML/KYC) et en garantissant un environnement de jeu sûr et équitable.",
+			"paragraph3": "En accédant ou en utilisant {siteName}, vous acceptez les termes de cette politique de confidentialité."
 		},
 		"sections": {
 			"scope": {
-				"title": "Portée & Acceptation",
-				"content": "Cette politique couvre toute personne utilisant {siteName}. Nous la mettons parfois à jour. Lorsque nous le faisons, la nouvelle politique est mise en ligne sur le site, et si vous continuez à utiliser {siteName} après cela, cela signifie que vous êtes d'accord avec les changements."
+				"title": "1. Portée et acceptation",
+				"content": "Cette politique s'applique à tous les utilisateurs de {siteName}. Nous pouvons mettre à jour cette politique ; les mises à jour prennent effet lorsqu'elles sont publiées sur le site. L'utilisation continue après un changement signifie que vous acceptez la nouvelle politique."
 			},
 			"dataCollection": {
-				"title": "Quelles Données Nous Collectons",
-				"intro": "Puisque nous sommes uniquement un portefeuille crypto, les données que nous recueillons reflètent cela. Voici ce que nous collectons:",
+				"title": "2. Quelles données nous collectons",
+				"intro": "Parce que nous opérons uniquement avec des portefeuilles crypto, les types de données que nous collectons reflètent ce modèle. Nous collectons :",
 				"accountData": {
-					"title": "A. Données de Compte & d'Identité (si nécessaire)",
-					"email": "Email (si vous le fournissez), nom d'affichage, ID de compte.",
-					"kyc": "Attention: Les portefeuilles crypto gardent généralement les choses anonymes, mais parfois les réglementations nous obligent à demander votre identité (KYC). Nous ne le demanderons que lorsque c'est absolument nécessaire, et nous le rendrons clair."
+					"title": "A. Données de compte et d'identité (si nécessaire)",
+					"email": "E-mail (si fourni), nom d'affichage, ID de compte.",
+					"kyc": "Important : Bien que les portefeuilles crypto permettent l'anonymat sur la chaîne, certaines transactions ou déclencheurs réglementaires peuvent nécessiter une vérification d'identité. Nous ne demanderons clairement le KYC que lorsque cela sera nécessaire."
 				},
 				"walletData": {
-					"title": "B. Données de Portefeuille & de Transaction",
-					"addresses": "Les adresses de portefeuille crypto que vous connectez ou utilisez ici.",
-					"transactions": "Hachages de transaction et horodatages sur la chaîne (pour les dépôts et les retraits).",
-					"metadata": "Détails de transaction dont nous avons besoin pour rapprocher les paiements et détecter la fraude."
+					"title": "B. Données de portefeuille et de transaction",
+					"addresses": "Adresses de portefeuille de cryptomonnaie que vous connectez ou utilisez avec {siteName}.",
+					"transactions": "Hachages de transactions sur la chaîne et horodatages (dépôts/retraits).",
+					"metadata": "Métadonnées de transaction nécessaires pour rapprocher les paiements et prévenir la fraude."
 				},
 				"technicalData": {
-					"title": "C. Données Techniques & d'Utilisation",
-					"ip": "Adresse IP, localisation approximative basée sur l'IP, type d'appareil, navigateur et système d'exploitation.",
-					"session": "Journaux de session, horodatages, jeux joués, mises, résultats, pages que vous visitez.",
-					"cookies": "Cookies et analyses pour rendre le site meilleur et plus fluide pour vous."
+					"title": "C. Données techniques et d'utilisation",
+					"ip": "Adresse IP, géolocalisation approximative dérivée de l'IP, type d'appareil, navigateur, système d'exploitation.",
+					"session": "Journaux de session, horodatages, pages visitées, activité de jeu, mises et résultats.",
+					"cookies": "Cookies et données d'analyse pour améliorer les performances du site et l'expérience utilisateur."
 				},
 				"securityData": {
-					"title": "D. Données de Sécurité & de Risque",
-					"fraud": "Signaux de fraude, empreintes digitales des appareils, scores de risque des partenaires anti-fraude.",
-					"disputes": "Enregistrements des litiges, rétrofacturations et contrôles de conformité (s'ils surviennent).",
-					"note": "Nous ne collectons pas d'informations sensibles comme votre race, religion ou santé, sauf si la loi l'exige et que vous donnez une autorisation claire."
+					"title": "D. Données de sécurité et de risque",
+					"fraud": "Signaux de fraude, empreintes digitales de l'appareil, scores de risque des fournisseurs anti-fraude.",
+					"disputes": "Dossiers de résolution de litiges, rétrofacturations (le cas échéant) et contrôles de conformité.",
+					"note": "Nous ne collectons pas de catégories sensibles (race, religion, santé, etc.) sauf si la loi l'exige et avec un consentement clair."
 				}
 			},
 			"purposes": {
-				"title": "Pourquoi Nous Collectons des Données",
-				"intro": "Nous n'utilisons vos données que pour des raisons claires et légales:",
-				"items": [
-					{
-						"title": "Pour exploiter le service",
-						"description": "configurer et gérer des comptes, gérer les dépôts/retraits de portefeuille, payer les gains."
+				"title": "3. Pourquoi nous collectons des données – Bases légales et objectifs",
+				"intro": "Nous traitons vos données à des fins légales et spécifiques :",
+				"outro": "Lorsque nous nous appuyons sur le consentement (par ex. marketing), vous pouvez retirer ce consentement à tout moment.",
+				"items": {
+					"0": {
+						"title": "Fourniture de services et exécution du contrat",
+						"description": "pour créer et maintenir des comptes, traiter les dépôts/retraits via des portefeuilles crypto, payer les gains."
 					},
-					{
-						"title": "Pour la sécurité",
-						"description": "détecter et arrêter les abus, la fraude et le blanchiment d'argent."
+					"1": {
+						"title": "Sécurité et prévention de la fraude",
+						"description": "détecter et prévenir les abus et le blanchiment d'argent."
 					},
-					{
-						"title": "Pour maintenir le bon fonctionnement des choses",
-						"description": "analyses, mises à niveau de produits, support client."
+					"2": {
+						"title": "Conformité aux obligations légales",
+						"description": "respecter les exigences AML/KYC si nécessaire."
 					},
-					{
-						"title": "Pour le marketing (si vous dites oui)",
-						"description": "newsletters, offres promotionnelles – vous avez toujours la possibilité de dire non ou de changer d'avis plus tard."
+					"3": {
+						"title": "Opérations de la plateforme et amélioration",
+						"description": "analyses, développement de produits, support client."
 					},
-					{
-						"title": "Pour protéger la plateforme",
-						"description": "et enquêter sur toute utilisation abusive."
+					"4": {
+						"title": "Marketing (avec consentement)",
+						"description": "newsletters, offres promotionnelles — uniquement si vous vous inscrivez."
+					},
+					"5": {
+						"title": "Intérêt légitime",
+						"description": "préserver l'intégrité de la plateforme et enquêter sur les abus."
 					}
-				],
-				"outro": "Si vous nous donnez votre consentement pour quelque chose comme le marketing, vous pouvez le retirer à tout moment."
+				}
 			},
 			"cryptoWallet": {
-				"title": "Portefeuilles Crypto & Données sur la Chaîne",
-				"points": [
-					"Nous ne stockons les adresses de portefeuille et les informations de transaction sur la chaîne que le temps nécessaire pour créditer ou débiter votre compte, auditer les transactions ou satisfaire aux exigences légales.",
-					"Les données sur la chaîne sont publiques par nature. Nous ne pouvons pas masquer l'activité de la blockchain, mais nous la combinons avec nos propres enregistrements pour maintenir votre compte précis.",
-					"Si vous connectez un portefeuille de garde (par exemple via un fournisseur tiers), vous acceptez qu'il partage des données avec nous afin que nous puissions traiter vos transactions."
-				]
+				"title": "4. Spécificités du portefeuille crypto et données sur la chaîne",
+				"points": {
+					"0": "Les adresses de portefeuille et les données de transaction sur la chaîne sont stockées uniquement dans la mesure nécessaire pour créditer/débiter les comptes d'utilisateurs, auditer les transactions et respecter les obligations de conformité.",
+					"1": "Les données sur la chaîne sont publiques par nature — {siteName} ne contrôle pas la visibilité de la blockchain. Nous combinons les données sur la chaîne avec les enregistrements hors chaîne pour rapprocher les comptes.",
+					"2": "Si vous connectez un service de portefeuille de garde (tiers), vous consentez à ce que toutes les données que ces fournisseurs partagent avec nous soient utilisées pour le traitement des transactions."
+				}
 			},
 			"dataSharing": {
-				"title": "Quand Nous Partageons des Données",
-				"intro": "Nous ne partageons vos informations que dans quelques cas:",
-				"items": [
-					"Avec les régulateurs ou les forces de l'ordre si la loi l'exige ou pour arrêter une activité illégale.",
-					"Avec des affiliés ou des tiers en cas de transfert d'entreprise (comme une fusion ou une acquisition) – mais toujours avec les protections appropriées.",
-					"Avec des réseaux de prévention de la fraude pour protéger la plateforme et nos utilisateurs."
-				],
-				"noSelling": "Nous ne vendons jamais vos informations personnelles aux annonceurs."
+				"title": "5. Quand nous partageons des données",
+				"intro": "Nous pouvons partager vos informations :",
+				"items": {
+					"0": "Avec les régulateurs ou les forces de l'ordre lorsque nous y sommes contraints par une procédure légale ou pour empêcher une activité illégale.",
+					"1": "Avec des sociétés affiliées ou des tiers dans le cadre d'un transfert d'entreprise (fusion, acquisition) — toujours avec des garanties appropriées.",
+					"2": "Avec des réseaux de prévention de la fraude pour protéger notre plateforme et nos utilisateurs."
+				},
+				"noSelling": "Nous ne vendons pas vos données personnelles aux annonceurs."
 			},
 			"security": {
-				"title": "Mesures de Sécurité",
-				"intro": "Nous utilisons les mesures de sécurité que vous attendez:",
-				"items": [
-					"Cryptage TLS/SSL pour les données en transit, stockage crypté pour les informations sensibles.",
-					"Contrôles d'accès, journalisation détaillée et autorisations basées sur les rôles.",
-					"Audits de sécurité réguliers et vérifications des vulnérabilités.",
-					"Authentification multi-facteurs (MFA) pour notre personnel – et vous pouvez également l'activer pour votre propre compte."
-				],
-				"warning": "Rappel: gardez vos clés privées de portefeuille et les détails de votre compte en sécurité. Nous ne vous demanderons jamais vos clés privées."
+				"title": "6. Mesures de sécurité",
+				"intro": "Nous utilisons des mesures de sécurité conformes aux normes de l'industrie :",
+				"items": {
+					"0": "Chiffrement TLS/SSL en transit ; stockage chiffré pour les données sensibles.",
+					"1": "Contrôles d'accès, journalisation et privilèges basés sur les rôles.",
+					"2": "Audits de sécurité réguliers et tests de vulnérabilité.",
+					"3": "Authentification multifacteur (MFA) pour le personnel et facultative pour les utilisateurs."
+				},
+				"warning": "Vous devez garder vos clés privées de portefeuille et vos identifiants de compte en sécurité. Nous ne demandons jamais de clés privées."
 			},
 			"cookies": {
-				"title": "Cookies & Suivi",
-				"content": "Nous utilisons des cookies et des outils similaires pour faire fonctionner le site, analyser le trafic et (si vous êtes d'accord) pour le marketing. Vous pouvez contrôler les cookies dans les paramètres de votre navigateur, mais si vous désactivez ceux qui sont essentiels, certaines choses pourraient cesser de fonctionner."
+				"title": "7. Cookies et suivi",
+				"content": "Nous utilisons des cookies et des technologies similaires pour les fonctions nécessaires du site, les analyses et (avec consentement) le marketing. Vous pouvez contrôler les cookies dans votre navigateur, mais la désactivation des cookies essentiels peut perturber la fonctionnalité."
 			},
 			"minAge": {
-				"title": "Enfants & Âge Minimum",
-				"content": "Vous devez avoir 18 ans ou plus (ou l'âge requis par votre loi locale) pour utiliser {siteName}. Nous bloquons activement les utilisateurs mineurs et supprimerons toutes les données si nous découvrons qu'un mineur s'est inscrit."
+				"title": "8. Enfants et âge minimum",
+				"content": "Vous devez avoir 18 ans ou plus (ou plus si la loi locale l'exige) pour utiliser nos Services. Nous empêchons activement l'utilisation par des mineurs et supprimerons les données si l'inscription d'un mineur est identifiée."
 			},
 			"breach": {
-				"title": "Notification de Violation",
-				"content": "S'il y a un jour une violation de données qui met vos droits en péril, nous vous en informerons, ainsi que les autorités compétentes, comme l'exige la loi, et nous travaillerons pour résoudre les problèmes rapidement."
+				"title": "9. Notification de violation",
+				"content": "En cas de violation de données présentant un risque pour vos droits, nous informerons les utilisateurs concernés et les autorités compétentes comme l'exige la loi, et nous prendrons des mesures pour y remédier."
 			},
 			"changes": {
-				"title": "Modifications de cette Politique",
-				"content": "Nous pouvons modifier cette Politique de Confidentialité. S'il y a une mise à jour majeure, nous la publierons sur le site et vous en informerons directement lorsque cela aura du sens."
+				"title": "10. Modifications de cette politique",
+				"content": "Nous pouvons modifier cette politique de confidentialité. Les modifications importantes seront publiées sur le site et, le cas échéant, vous seront notifiées."
 			},
 			"contact": {
-				"title": "Contact",
-				"intro": "Vous avez des questions ou des demandes?",
-				"link": "🌐 https://{siteDomain}"
+				"title": "11. Contact",
+				"intro": "Questions ou demandes :"
 			}
 		}
 	},
 	"terms": {
 		"title": "Conditions Générales",
-		"subtitle": "Accord d'Utilisateur et Règles de la Plateforme",
+		"subtitle": "Accord utilisateur et règles de la plateforme",
 		"lastUpdated": "Janvier 2025",
 		"intro": {
 			"paragraph1": "En vous inscrivant ou en connectant votre portefeuille sur www.{siteDomain}, vous concluez un accord contraignant avec {siteName} N.V.",
-			"paragraph2": "Si vous n'acceptez aucune de ces conditions, n'accédez pas, n'utilisez pas ou ne vous inscrivez pas sur notre Site Web. Lisez attentivement ces Conditions. Si vous n'êtes pas sûr de vos droits ou obligations, consultez un conseiller juridique dans votre juridiction avant d'utiliser le Site Web."
+			"paragraph2": "Si vous n'acceptez pas l'une de ces conditions, n'accédez pas, n'utilisez pas et ne vous inscrivez pas sur notre site Web. Lisez attentivement ces conditions. Si vous avez des doutes sur vos droits ou obligations, consultez un conseiller juridique dans votre juridiction avant d'utiliser le site Web."
 		},
 		"sections": {
 			"ownership": {
 				"title": "1. Propriété de {siteName}",
-				"content1": " {siteName} est détenu et exploité par {siteName} N.V. ('{siteName}', 'Nous', 'Notre', 'Nos').",
-				"content2": " {siteName} est un casino uniquement avec portefeuille crypto. Tous les dépôts, mises et retraits sont traités via les portefeuilles de cryptomonnaie des utilisateurs. Nous prenons en charge la connexion par portefeuille via Dynamic.xyz et les connecteurs de portefeuille compatibles (par exemple, WalletConnect / MetaMask)."
+				"content1": "{siteName} est détenu et exploité par {siteName} N.V. ('{siteName}', 'Nous', 'Notre', 'Nos').",
+				"content2": "{siteName} est un casino uniquement avec portefeuille crypto. Tous les dépôts, mises et retraits sont traités via les portefeuilles de cryptomonnaies des utilisateurs. Nous prenons en charge la connexion par portefeuille via Dynamic.xyz et les connecteurs de portefeuille compatibles (par ex. WalletConnect / MetaMask)."
 			},
 			"notice": {
-				"title": "2. Avis Important",
-				"content1": "2.1 En vous inscrivant ou en connectant votre portefeuille sur www.{siteDomain} (le 'Site Web'), vous concluez un accord contraignant avec {siteName} N.V. et acceptez: (i) ces Conditions Générales; (ii) notre Politique de Confidentialité; (iii) notre Politique de Cookies; (iv) nos Conditions d'Affiliation; et (v) notre Politique de Jeu Responsable.",
-				"content2": "2.2 Si vous n'acceptez aucune de ces conditions, n'accédez pas, n'utilisez pas ou ne vous inscrivez pas sur notre Site Web.",
-				"content3": "2.3 Lisez attentivement ces Conditions. Si vous n'êtes pas sûr de vos droits ou obligations, consultez un conseiller juridique dans votre juridiction avant d'utiliser le Site Web."
+				"title": "2. Avis important",
+				"content1": "2.1 En vous inscrivant ou en connectant votre portefeuille sur www.{siteDomain} (le 'Site Web'), vous concluez un accord contraignant avec {siteName} N.V. et acceptez : (i) ces Conditions Générales ; (ii) notre Politique de Confidentialité ; (iii) notre Politique de Cookies ; (iv) nos Conditions d'Affiliation ; et (v) notre Politique de Jeu Responsable.",
+				"content2": "2.2 Si vous n'acceptez pas l'une de ces conditions, n'accédez pas, n'utilisez pas et ne vous inscrivez pas sur notre site Web.",
+				"content3": "2.3 Lisez attentivement ces conditions. Si vous avez des doutes sur vos droits ou obligations, consultez un conseiller juridique dans votre juridiction avant d'utiliser le site Web."
 			},
 			"general": {
-				"title": "3. Conditions Générales",
+				"title": "3. Conditions générales",
 				"items": [
 					"Lors de l'inscription ou de la connexion du portefeuille, vous ('Utilisateur', 'Joueur', 'Vous' ou 'Votre') acceptez de vous conformer à toutes les règles et politiques de {siteName}.",
-					"Cet Accord est un contrat légalement contraignant entre vous et {siteName}.",
+					"Cet Accord est un contrat juridiquement contraignant entre vous et {siteName}.",
 					"Ces Conditions entrent en vigueur au moment où vous connectez votre portefeuille et commencez à utiliser le site.",
-					" {siteName} se réserve le droit de modifier ou de mettre à jour ces Conditions à tout moment. Les changements seront publiés sur le Site Web; l'utilisation continue constitue une acceptation.",
-					"En cas de conflit, ces Conditions prévalent sur toutes les autres règles, promotions ou matériels externes.",
-					"Seule la version anglaise de ces Conditions est légalement contraignante. Les traductions ne sont fournies qu'à titre de commodité."
+					"{siteName} se réserve le droit de modifier ou de mettre à jour ces Conditions à tout moment. Les modifications seront publiées sur le site Web ; l'utilisation continue constitue une acceptation.",
+					"En cas de conflit, ces Conditions prévalent sur toute autre règle, promotion ou document externe.",
+					"Seule la version anglaise de ces Conditions est juridiquement contraignante. Les traductions sont fournies à titre de commodité uniquement."
 				]
 			},
 			"account": {
-				"title": "4. Compte, Connexion par Portefeuille & Sécurité",
-				"intro": " {siteName} utilise Dynamic.xyz pour l'authentification basée sur le portefeuille et les mesures de sécurité pour protéger votre compte.",
+				"title": "4. Compte, connexion par portefeuille et sécurité",
+				"intro": "{siteName} utilise Dynamic.xyz pour l'authentification basée sur le portefeuille et les mesures de sécurité pour protéger votre compte.",
 				"walletLogin": {
-					"title": "4.1 Connexion par Portefeuille (Dynamic.xyz)",
+					"title": "4.1 Connexion par portefeuille (Dynamic.xyz)",
 					"items": [
-						" {siteName} utilise Dynamic.xyz (ou d'autres connecteurs pris en charge) pour la connexion et l'authentification basées sur le portefeuille. En connectant un portefeuille, vous confirmez que vous êtes le propriétaire légitime de ce portefeuille et autorisez {siteName} à reconnaître ce portefeuille comme votre compte.",
+						"{siteName} utilise Dynamic.xyz (ou d'autres connecteurs pris en charge) pour la connexion et l'authentification basées sur le portefeuille. En connectant un portefeuille, vous confirmez que vous êtes le propriétaire légal de ce portefeuille et autorisez {siteName} à reconnaître ce portefeuille comme votre compte.",
 						"Nous ne demandons jamais vos clés privées. Vous devez garder vos identifiants de portefeuille et votre appareil en sécurité. {siteName} n'est pas responsable des pertes causées par des portefeuilles compromis ou des clés privées divulguées."
 					]
 				},
 				"registration": {
-					"title": "4.2 Détails de l'Inscription",
+					"title": "4.2 Détails d'inscription",
 					"items": [
-						"Il peut vous être demandé de fournir des coordonnées (email, nom d'utilisateur) pour la communication du compte. Vous devez fournir des informations exactes et les maintenir à jour.",
+						"Il peut vous être demandé de fournir des coordonnées (e-mail, nom d'utilisateur) pour la communication relative au compte. Vous devez fournir des informations exactes et les tenir à jour.",
 						"Vous êtes responsable de toutes les actions effectuées à l'aide de votre portefeuille connecté."
 					]
 				},
 				"security": {
-					"title": "4.3 Comptes Multiples & Sécurité",
+					"title": "4.3 Comptes multiples et sécurité",
 					"items": [
 						"Un seul compte par personne est autorisé. Les comptes multiples ou les tentatives de contournement des limites peuvent entraîner la suspension du compte et la confiscation des fonds.",
 						"Activez toutes les fonctionnalités de sécurité de la plateforme proposées (par exemple, 2FA pour les services associés) et sécurisez votre propre portefeuille.",
@@ -1664,145 +1663,145 @@
 				}
 			},
 			"eligibility": {
-				"title": "5. Éligibilité & Garanties de l'Utilisateur",
-				"intro": "5.1 Vous déclarez et garantissez que:",
+				"title": "5. Éligibilité et garanties de l'utilisateur",
+				"intro": "5.1 Vous déclarez et garantissez que :",
 				"items": [
-					"Vous avez au moins 18 ans (ou l'âge légal minimum de jeu dans votre juridiction).",
-					"Vous êtes légalement autorisé à utiliser les services de jeux crypto en ligne là où vous vous trouvez.",
-					"Vous êtes le propriétaire légitime du portefeuille que vous connectez.",
-					"Vous n'utiliserez pas de VPN ou de falsification de localisation pour contourner les restrictions régionales.",
+					"Vous avez au moins 18 ans (ou l'âge légal minimum pour jouer dans votre juridiction).",
+					"Vous êtes légalement autorisé à utiliser des services de jeux d'argent crypto en ligne là où vous vous trouvez.",
+					"Vous êtes le propriétaire légal du portefeuille que vous connectez.",
+					"Vous n'utiliserez pas de VPN ou d'usurpation de localisation pour contourner les restrictions régionales.",
 					"Vous n'utiliserez pas le Service à des fins illégales ou commerciales.",
-					"Vous acceptez que la valeur de la cryptomonnaie puisse fluctuer et vous supportez tous les risques de marché."
+					"Vous acceptez que la valeur de la cryptomonnaie puisse fluctuer et vous assumez tous les risques du marché."
 				],
-				"outro": "5.2 Si vous enfreignez ces garanties, {siteName} peut suspendre ou mettre fin à l'accès et retenir les fonds là où la loi le permet."
+				"outro": "5.2 Si vous enfreignez ces garanties, {siteName} peut suspendre ou résilier l'accès et retenir les fonds lorsque la loi le permet."
 			},
 			"restricted": {
-				"title": "6. Juridictions Restreintes",
-				"content1": "6.1 {siteName} n'accepte pas les joueurs des juridictions où le jeu crypto est interdit ou restreint. Cela inclut, mais sans s'y limiter:",
+				"title": "6. Juridictions restreintes",
+				"content1": "6.1 {siteName} n'accepte pas les joueurs des juridictions où les jeux d'argent crypto sont interdits ou restreints. Cela inclut, sans s'y limiter :",
 				"content2": "États-Unis (et territoires américains), Royaume-Uni, France, Pays-Bas, Espagne, Allemagne, Australie, Autriche, Comores, Iran, Corée du Nord, Soudan, Syrie et toute juridiction figurant sur les listes noires du GAFI.",
 				"content3": "6.2 Tenter d'accéder au Service depuis une juridiction restreinte, y compris via VPN ou proxy, constitue une violation de ces Conditions et peut entraîner la fermeture du compte et la confiscation des fonds."
 			},
 			"crypto": {
-				"title": "7. Dépôts & Retraits Crypto",
+				"title": "7. Dépôts et retraits crypto",
 				"policy": {
-					"title": "7.1 Politique Uniquement Crypto",
+					"title": "7.1 Politique crypto uniquement",
 					"items": [
-						" {siteName} accepte les dépôts et les retraits uniquement dans les cryptomonnaies prises en charge (par exemple, BTC, ETH, USDT, TRX, BNB). Aucun dépôt fiduciaire, par carte ou par virement bancaire n'est accepté.",
+						"{siteName} accepte les dépôts et retraits dans les cryptomonnaies prises en charge uniquement (par ex. BTC, ETH, USDT, TRX, BNB). Aucun dépôt fiduciaire, par carte ou virement bancaire n'est accepté.",
 						"Tous les dépôts doivent provenir de portefeuilles que vous contrôlez. Les dépôts provenant de portefeuilles tiers sont interdits."
 					]
 				},
 				"deposits": {
 					"title": "7.2 Dépôts",
 					"items": [
-						"Les dépôts sont crédités après les confirmations de blockchain requises. Les frais de réseau (gaz) sont à votre charge.",
-						" {siteName} peut refuser ou annuler les dépôts qui semblent provenir d'adresses bloquées ou de sources restreintes."
+						"Les dépôts sont crédités après les confirmations blockchain requises. Les frais de réseau (gaz) sont à votre charge.",
+						"{siteName} peut refuser ou annuler les dépôts qui semblent provenir d'adresses bloquées ou de sources restreintes."
 					]
 				},
 				"withdrawals": {
 					"title": "7.3 Retraits",
 					"items": [
-						"Les retraits sont traités à l'adresse du portefeuille que vous fournissez. {siteName} peut vous demander de confirmer le portefeuille de destination avant le traitement.",
-						"Vous devez disposer d'un solde compensé suffisant pour couvrir un retrait. Les retraits peuvent être retardés pour enquêter sur des abus présumés ou des activités inhabituelles."
+						"Les retraits sont traités vers l'adresse de portefeuille que vous fournissez. {siteName} peut vous demander de confirmer le portefeuille de destination avant le traitement.",
+						"Vous devez avoir un solde disponible suffisant pour couvrir un retrait. Les retraits peuvent être retardés pour enquêter sur des abus présumés ou une activité inhabituelle."
 					]
 				},
 				"chargebacks": {
-					"title": "7.4 Rétrofacturations & Annulations",
+					"title": "7.4 Rétrofacturations et annulations",
 					"items": [
-						"Les transactions crypto sont finales sur la chaîne. Si {siteName} subit des pertes dues à des rétrofacturations ou des annulations de la part de fournisseurs de services tiers (rare avec les transactions sur la chaîne), nous nous réservons le droit de récupérer les montants ou de facturer des frais administratifs."
+						"Les transactions crypto sont définitives sur la chaîne. Si {siteName} subit des pertes en raison de rétrofacturations ou d'annulations de fournisseurs de services tiers (rare avec la crypto), nous nous réservons le droit de recouvrer les montants ou de facturer des frais administratifs."
 					]
 				}
 			},
 			"kyc": {
-				"title": "8. Aucune Vérification d'Identité de Routine (Aucun KYC)",
+				"title": "8. Pas de vérification d'identité de routine (Pas de KYC)",
 				"content1": "8.1 {siteName} n'effectue pas de vérification d'identité de routine (KYC) comme condition de jeu normal. Les utilisateurs peuvent connecter un portefeuille via Dynamic.xyz et commencer à jouer sans fournir de documents d'identité.",
-				"content2": "8.2 Nonobstant ce qui précède, {siteName} se réserve le droit de demander des informations ou de suspendre des transactions si nécessaire pour:",
+				"content2": "8.2 Nonobstant ce qui précède, {siteName} se réserve le droit de demander des informations ou de suspendre des transactions si cela est nécessaire pour :",
 				"items": [
-					"Se conformer à un ordre légal des autorités compétentes:",
+					"Se conformer à une ordonnance légale des autorités compétentes :",
 					"Prévenir, enquêter ou remédier à la fraude, au blanchiment d'argent ou à toute autre activité illégale",
 					"Ou protéger la sécurité et l'intégrité de la plateforme."
 				],
-				"content3": "8.3 Si vous refusez de fournir de telles informations lorsque la loi l'exige, {siteName} peut restreindre ou fermer votre compte et retarder ou retenir les retraits dans la mesure permise par la loi."
+				"content3": "8.3 Si vous refusez de fournir de telles informations lorsqu'elles sont légalement requises, {siteName} peut restreindre ou fermer votre compte et retarder ou retenir les retraits dans la mesure permise par la loi."
 			},
 			"fairPlay": {
-				"title": "9. Jeu Juste, Conduite Interdite & Sécurité",
-				"intro": "Vous ne devez pas:",
+				"title": "9. Jeu équitable, conduite interdite et sécurité",
+				"intro": "Vous ne devez pas :",
 				"items": [
 					"Utiliser des bots, des scripts, des outils de jeu automatisés ou tout logiciel non autorisé.",
-					"Être de connivence avec d'autres joueurs ou manipuler les résultats de jeu.",
+					"S'entendre avec d'autres joueurs ou manipuler les résultats du jeu.",
 					"Créer plusieurs comptes pour exploiter des bonus ou des promotions.",
-					"Tenter d'annuler ou de manipuler des transactions sur la chaîne.",
+					"Tenter d'annuler ou de falsifier des transactions sur la chaîne.",
 					"Exploiter des bugs de jeu ou des vulnérabilités de la plateforme."
 				],
-				"outro1": "Les comptes trouvés en train de tricher, de se concerter ou d'exploiter la plateforme peuvent être suspendus, fermés ou leurs soldes confisqués.",
-				"outro2": " {siteName} met en œuvre une surveillance technique et comportementale pour protéger l'intégrité de la plateforme."
+				"outro1": "Les comptes surpris en train de tricher, de s'entendre ou d'exploiter la plateforme peuvent être suspendus, fermés ou voir leurs soldes confisqués.",
+				"outro2": "{siteName} met en œuvre une surveillance technique et comportementale pour protéger l'intégrité de la plateforme."
 			},
 			"bonuses": {
-				"title": "10. Bonus & Promotions",
+				"title": "10. Bonus et promotions",
 				"items": [
 					"Toutes les offres de bonus et promotions sont soumises à des Conditions de Bonus spécifiques indiquées avec chaque offre.",
 					"L'abus de bonus (y compris les comptes multiples ou le changement rapide de bonus) peut entraîner le refus, l'annulation ou la confiscation des bonus et la fermeture des comptes.",
-					"Les exigences de mise des bonus doivent être remplies avant de retirer des fonds dérivés des bonus, comme spécifié par promotion."
+					"Les exigences de mise des bonus doivent être remplies avant de retirer les fonds dérivés des bonus, comme spécifié par promotion."
 				]
 			},
 			"playingRules": {
-				"title": "11. Règles de Jeu & Règlement des Jeux",
+				"title": "11. Règles de jeu et règlement des jeux",
 				"items": [
-					"Les paris ne sont acceptés qu'une fois que vous avez reçu une confirmation à l'écran. Les paris placés avec un solde insuffisant sont nuls.",
-					"Les journaux internes de {siteName} et les enregistrements de la blockchain font autorité en cas de litige.",
-					"Si un événement est annulé, suspendu ou compromis d'une autre manière, {siteName} réglera ou annulera les paris conformément aux règles de jeu et de marché publiées.",
-					"Pour les jeux prouvablement équitables, des outils de vérification et des seeds de serveur (le cas échéant) sont mis à disposition par jeu; les journaux de serveur sont définitifs."
+					"Les paris ne sont acceptés qu'une fois que vous recevez une confirmation à l'écran. Les paris placés avec un solde insuffisant sont nuls.",
+					"Les journaux internes de {siteName} et les enregistrements blockchain font foi en cas de litige.",
+					"Si un événement est annulé, suspendu ou autrement compromis, {siteName} réglera ou annulera les paris conformément aux règles publiées du jeu et du marché.",
+					"Pour les jeux prouvés équitables, les outils de vérification et les graines de serveur (le cas échéant) sont mis à disposition par jeu ; les journaux de serveur sont définitifs."
 				]
 			},
 			"errors": {
-				"title": "12. Erreurs, Interruptions & Limites",
-				"intro": " {siteName} n'est pas responsable des pertes causées par:",
+				"title": "12. Erreurs, interruptions et limites",
+				"intro": "{siteName} n'est pas responsable des pertes causées par :",
 				"items": [
-					"Pannes d'Internet ou d'appareil",
-					"Retards, forks ou congestion du réseau Blockchain",
-					"Bugs logiciels ou pannes de services tiers"
+					"Pannes d'Internet ou de l'appareil",
+					"Retards de blockchain, forks ou congestion du réseau",
+					"Bugs logiciels ou pannes de service tiers"
 				],
-				"outro1": " {siteName} se réserve le droit d'annuler des paris, d'ajuster des soldes ou d'annuler des transactions lorsque des erreurs ou des exploits sont détectés.",
-				"outro2": "Nous pouvons fixer des limites de mise, des gains maximums et d'autres contrôles pour protéger les utilisateurs et la plateforme."
+				"outro1": "{siteName} se réserve le droit d'annuler les paris, d'ajuster les soldes ou d'annuler les transactions lorsque des erreurs ou des exploits sont détectés.",
+				"outro2": "Nous pouvons définir des limites de mise, des gains maximums et d'autres contrôles pour protéger les utilisateurs et la plateforme."
 			},
 			"suspension": {
-				"title": "13. Suspension, Fermeture & Gestion des Fonds",
-				"intro": " {siteName} peut suspendre ou fermer des comptes lorsque:",
+				"title": "13. Suspension, fermeture et gestion des fonds",
+				"intro": "{siteName} peut suspendre ou fermer des comptes lorsque :",
 				"items": [
-					"Les Conditions sont violées",
-					"Des abus, des fraudes ou des comportements suspects sont détectés",
+					"Les conditions sont violées",
+					"Un abus, une fraude ou un comportement suspect est détecté",
 					"Des obligations légales ou réglementaires l'exigent"
 				],
-				"outro1": "Lors de la fermeture du compte, les mises en attente peuvent être annulées et les fonds restants gérés conformément à la loi applicable et à la politique de la plateforme.",
-				"outro2": " {siteName} peut retenir des fonds lorsque cela est nécessaire pour résoudre des litiges, se conformer à des demandes légales ou remédier à des pertes."
+				"outro1": "Lors de la fermeture du compte, les paris en attente peuvent être annulés et les fonds restants gérés conformément à la loi applicable et à la politique de la plateforme.",
+				"outro2": "{siteName} peut conserver des fonds si nécessaire pour résoudre des litiges, se conformer à des demandes légales ou remédier à des pertes."
 			},
 			"responsibleGaming": {
-				"title": "14. Jeu Responsable",
+				"title": "14. Jeu responsable",
 				"items": [
-					" {siteName} promeut le jeu responsable. Vous pouvez demander: Auto-exclusion, Limites de dépôt ou Suspension temporaire.",
-					"Si vous soupçonnez des dommages liés au jeu, visitez {siteDomain} pour une assistance immédiate.",
+					"{siteName} promeut le jeu responsable. Vous pouvez demander : Auto-exclusion, Limites de dépôt ou Suspension temporaire.",
+					"Si vous soupçonnez un préjudice lié au jeu, visitez {siteDomain} pour une assistance immédiate.",
 					"Le jeu des mineurs (moins de 18 ans ou l'âge légal local) est strictement interdit. Les comptes appartenant à des mineurs seront fermés et les fonds gérés conformément à la politique."
 				]
 			},
 			"ip": {
-				"title": "15. Propriété Intellectuelle",
-				"content1": "Toutes les marques de commerce, logos, contenu du site, logiciels et actifs de jeux sur {siteName} sont détenus ou concédés sous licence par {siteName}. La copie, le scraping ou la redistribution non autorisés sont interdits.",
-				"content2": "Une licence limitée et révocable vous est accordée pour accéder au Service uniquement à des fins de divertissement personnel."
+				"title": "15. Propriété intellectuelle",
+				"content1": "Toutes les marques, logos, contenus du site, logiciels et actifs de jeu sur {siteName} sont détenus ou sous licence par {siteName}. La copie, le scraping ou la redistribution non autorisés sont interdits.",
+				"content2": "Il vous est accordé une licence limitée et révocable pour accéder au Service uniquement pour un divertissement personnel."
 			},
 			"liability": {
-				"title": "16. Limitation de Responsabilité",
+				"title": "16. Limitation de responsabilité",
 				"items": [
-					"Dans toute la mesure permise par la loi, {siteName} ne sera pas responsable des pertes indirectes, spéciales, consécutives ou accessoires, y compris les pertes de profits ou les coûts d'opportunité.",
+					"Dans toute la mesure permise par la loi, {siteName} ne sera pas responsable des pertes indirectes, spéciales, consécutives ou accessoires, y compris la perte de profits ou les coûts d'opportunité.",
 					"Notre responsabilité globale pour toute réclamation liée à ces Conditions ne dépassera pas la valeur de votre dernier dépôt ou un montant spécifié par la loi applicable.",
-					"Rien dans ces Conditions ne limite la responsabilité en cas de décès ou de blessures corporelles causés par négligence lorsque la loi applicable interdit une telle limitation."
+					"Rien dans ces Conditions ne limite la responsabilité en cas de décès ou de préjudice corporel causé par négligence lorsque la loi applicable interdit une telle limitation."
 				]
 			},
 			"disputes": {
-				"title": "17. Résolution des Litiges & Droit Applicable",
-				"content": "En cas de litige, visitez {siteDomain}. Nous visons à résoudre les plaintes rapidement; escaladez à la direction si nécessaire."
+				"title": "17. Résolution des litiges et loi applicable",
+				"content": "En cas de litige, visitez {siteDomain}. Nous visons à résoudre les plaintes rapidement ; escaladez à la direction si nécessaire."
 			},
 			"amendments": {
-				"title": "18. Modifications",
-				"content": " {siteName} peut modifier ces Conditions à tout moment. Les Conditions mises à jour seront publiées sur le Site Web. L'utilisation continue constitue une acceptation."
+				"title": "18. Amendements",
+				"content": "{siteName} peut modifier ces Conditions à tout moment. Les Conditions mises à jour seront publiées sur le Site Web. L'utilisation continue constitue une acceptation."
 			},
 			"miscellaneous": {
 				"title": "19. Divers",
@@ -1814,96 +1813,96 @@
 			},
 			"contact": {
 				"title": "20. Contact",
-				"intro": "Pour le support, les plaintes ou les avis légaux:",
-				"supportEmail": "Support Général: visitez {siteDomain}",
-				"affiliateEmail": "Demandes d'Affiliation: visitez {siteDomain}",
-				"registeredOffice": "Siège social: {siteDomain} N.V., Heelsumstraat 51, Willemstad, Curaçao"
+				"intro": "Pour le support, les plaintes ou les avis juridiques :",
+				"supportEmail": "Support général : visitez {siteDomain}",
+				"affiliateEmail": "Demandes d'affiliation : visitez {siteDomain}",
+				"registeredOffice": "Siège social : {siteName} N.V., Heelsumstraat 51, Willemstad, Curaçao"
 			}
 		}
 	},
 	"responsibleGambling": {
-		"title": "Jeu Responsable chez {siteName}",
-		"subtitle": "Chez {siteName}, nous voulons que le jeu soit sûr, amusant et quelque chose dont vous pouvez vous éloigner à tout moment. Nous cherchons l'équilibre – afin que vous jouiez pour le plaisir, pas pour gagner de l'argent ou réparer vos finances.",
-		"lastUpdated": "Dernière Mise à Jour: Janvier 2025",
+		"title": "Jeu responsable – {siteName}",
+		"subtitle": "En savoir plus sur le jeu responsable chez {siteName}. Gardez le contrôle, jouez de manière responsable et obtenez de l'aide grâce aux organisations d'aide mondiales.",
+		"lastUpdated": "Dernière mise à jour : Janvier 2025",
 		"intro": {
-			"title": "Jeu Responsable chez {siteName}",
-			"paragraph1": "Chez {siteName}, nous voulons que le jeu soit sûr, amusant et quelque chose dont vous pouvez vous éloigner à tout moment. Nous cherchons l'équilibre – afin que vous jouiez pour le plaisir, pas pour gagner de l'argent ou réparer vos finances.",
-			"paragraph2": "Si vous avez moins de 18 ans, ou si vous n'avez pas l'âge légal dans votre région, vous ne pouvez pas utiliser notre plateforme. Nous prenons cela très au sérieux."
+			"title": "🎯 Jeu responsable – {siteName}",
+			"paragraph1": "Chez {siteName}, nous nous engageons à garantir que le jeu reste une forme de divertissement sûre, agréable et responsable.|Nous encourageons notre communauté à jouer intelligemment, à garder le contrôle et à traiter le jeu comme une activité de loisir — et non comme une source de revenus ou de redressement financier.",
+			"paragraph2": "Nous interdisons strictement à toutes les personnes de moins de 18 ans (ou l'âge légal minimum pour jouer dans leur juridiction) d'accéder ou d'utiliser notre plateforme."
 		},
 		"mission": {
-			"title": "Notre Mission",
-			"paragraph1": "Nous croyons au jeu clair, honnête et sécurisé. {siteName} existe pour vous aider à faire des choix intelligents et à empêcher que le jeu ne devienne un problème.",
-			"paragraph2": "Voici ce qui nous importe:",
+			"title": "⚖️ Notre mission",
+			"paragraph1": "{siteName} promeut le jeu responsable en offrant un environnement transparent, sécurisé et axé sur la communauté.|Notre mission est d'aider les joueurs à prendre des décisions éclairées et d'empêcher le jeu de devenir un problème.",
+			"paragraph2": "Nous croyons en :",
 			"beliefs": {
-				"0": "Le jeu est un divertissement. Ce n'est pas un moyen de devenir riche.",
-				"1": "Connaissez-vous, fixez des limites et n'en faites pas trop.",
-				"2": "Nous vous donnons des outils et des ressources pour vous aider à garder le contrôle."
+				"0": "Le jeu comme divertissement, pas comme moyen de gagner de l'argent.",
+				"1": "La promotion de la conscience de soi et de la modération.",
+				"2": "La fourniture d'outils de soutien et de ressources pour prévenir les comportements à risque."
 			}
 		},
 		"understanding": {
-			"title": "Ce que Signifie Vraiment le Jeu Responsable",
-			"paragraph1": "Le jeu en ligne est partout de nos jours. Cela rend plus facile de perdre la notion du temps, de l'argent, ou même pourquoi vous avez commencé à jouer en premier lieu.|Le jeu responsable signifie connaître vos limites, rester vigilant et ne pas laisser les choses échapper à tout contrôle.",
-			"paragraph2": "Quelques points à retenir:",
+			"title": "🧠 Comprendre le jeu responsable",
+			"paragraph1": "Le jeu en ligne est plus accessible que jamais — mais cela signifie aussi qu'il est plus facile de perdre la notion du temps, du solde ou de la motivation.|Le jeu responsable signifie connaître ses limites, rester informé et garder le contrôle sur son jeu.",
+			"paragraph2": "Pour que votre expérience reste amusante et sûre, n'oubliez pas :",
 			"tips": {
 				"0": "Jouez pour le plaisir, pas pour le profit.",
-				"1": "N'essayez pas de regagner des pertes. Faites des pauses si vous en avez besoin.",
-				"2": "Fixez-vous une limite de dépenses et de temps, et respectez-la.",
-				"3": "Ne jouez jamais lorsque vous êtes fatigué, stressé ou contrarié.",
-				"4": "N'utilisez pas d'argent destiné aux factures ou à d'autres besoins.",
-				"5": "Si cela cesse d'être amusant, éloignez-vous."
+				"1": "Ne courez pas après les pertes — faites des pauses si nécessaire.",
+				"2": "Fixez des limites personnelles de dépenses et de temps.",
+				"3": "Ne jouez jamais si vous êtes stressé, fatigué ou contrarié.",
+				"4": "Évitez de jouer avec de l'argent destiné à d'autres dépenses.",
+				"5": "Si le jeu cesse d'être amusant, il est temps de prendre du recul."
 			}
 		},
 		"selfCheck": {
-			"title": "Vérification Rapide: Avez-vous Toujours le Contrôle?",
-			"intro": "Soyez honnête avec vous-même:",
+			"title": "🧩 Auto-vérification : Jouez-vous de manière responsable ?",
+			"intro": "Posez-vous ces questions honnêtement :",
 			"questions": {
-				"0": "Perdez-vous la notion du temps en jouant?",
-				"1": "Est-ce que cela a nui à vos relations ou à votre travail?",
-				"2": "Êtes-vous contrarié lorsque vous ne pouvez pas jouer?",
-				"3": "Jouez-vous pour échapper à l'ennui ou au stress?",
-				"4": "Avez-vous emprunté de l'argent ou des cryptos juste pour continuer à jouer?",
-				"5": "Courez-vous après les pertes, en pariant plus pour essayer de les regagner?"
+				"0": "Jouez-vous parfois plus longtemps que prévu ?",
+				"1": "Le jeu a-t-il affecté vos relations ou votre travail ?",
+				"2": "Vous sentez-vous irrité quand vous ne pouvez pas jouer ?",
+				"3": "Jouez-vous pour échapper au stress ou à l'ennui ?",
+				"4": "Avez-vous déjà emprunté de la crypto ou de l'argent pour continuer à jouer ?",
+				"5": "Essayez-vous souvent de récupérer les pertes précédentes en pariant plus ?"
 			},
-			"warning": "Si vous avez répondu \"oui\" à plusieurs, il est temps de reconsidérer votre façon de jouer et peut-être de demander de l'aide."
+			"warning": "Si vous avez répondu \"oui\" à plusieurs de ces questions, vous devrez peut-être revoir vos habitudes de jeu et demander de l'aide."
 		},
 		"tools": {
-			"title": "Comment {siteName} Vous Aide à Garder le Cap",
-			"intro": "Nous voulons que vous vous amusiez, mais nous voulons aussi que vous restiez en sécurité.|Voici ce que nous proposons:",
+			"title": "🛡️ Ce que {siteName} offre pour vous aider à garder le contrôle",
+			"intro": "Nous voulons que tous les joueurs apprécient le jeu en toute sécurité et de manière responsable.|Notre plateforme comprend plusieurs outils et ressources conçus pour vous aider à gérer votre jeu.",
 			"selfExclusion": {
-				"title": "Auto-exclusion",
-				"description": "Besoin d'une pause? Vous pouvez demander à bloquer votre compte temporairement ou définitivement. Pendant ce temps, vous ne pourrez pas jouer ou recevoir d'emails promotionnels. Contactez-nous simplement chez {siteName} et nous nous en occuperons en privé."
+				"title": "🔹 Auto-exclusion",
+				"description": "Vous pouvez demander une auto-exclusion temporaire ou permanente de votre compte. Pendant cette période, votre accès sera restreint et vous ne recevrez pas de matériel promotionnel.|Pour initier l'auto-exclusion, contactez {siteDomain} — notre équipe vous aidera confidentiellement."
 			},
 			"coolingOff": {
-				"title": "Périodes de Refroidissement",
-				"paragraph1": "Si vous sentez que les choses échappent à tout contrôle, prenez une pause de 24 heures, une semaine ou un mois. Pendant ce temps, vous ne pouvez pas connecter votre portefeuille pour jouer.",
+				"title": "🔹 Périodes de réflexion",
+				"paragraph1": "Vous vous sentez dépassé ou avez juste besoin d'une pause ?|Vous pouvez prendre une période de réflexion de :",
 				"periods": {
 					"0": "24 heures",
 					"1": "1 semaine",
 					"2": "1 mois"
 				},
-				"paragraph2": "Pendant ce temps, vous ne pouvez pas connecter votre portefeuille pour jouer."
+				"paragraph2": "Pendant ce temps, la connexion de votre portefeuille sera désactivée pour le jeu."
 			},
 			"depositAwareness": {
-				"title": "Sensibilisation au Dépôt et à la Perte",
-				"description": "Comme tout fonctionne via des portefeuilles crypto, vous pouvez voir tous vos dépôts et paris directement sur la blockchain. Gardez un œil sur votre activité afin de toujours savoir où vous en êtes."
+				"title": "🔹 Conscience des dépôts et des pertes",
+				"description": "Puisque {siteName} fonctionne exclusivement via des portefeuilles crypto, les joueurs peuvent facilement surveiller tous les dépôts et transactions sur la chaîne.|Nous vous encourageons à examiner régulièrement l'activité de votre portefeuille pour rester conscient de votre volume de jeu total."
 			}
 		},
 		"underagePrevention": {
-			"title": "Protection des Mineurs",
-			"paragraph1": "Pas de jeu pour les moins de 18 ans. C'est sérieux.",
-			"tipsTitle": "Parents et tuteurs, voici quelques conseils:",
+			"title": "👶 Prévention du jeu des mineurs",
+			"paragraph1": "Le jeu par toute personne de moins de 18 ans est strictement interdit.|Nous prenons le jeu des mineurs au sérieux et le décourageons activement.",
+			"tipsTitle": "Conseils pour les parents et tuteurs :",
 			"tips": {
-				"0": "Utilisez des mots de passe ou verrouillez vos appareils.",
-				"1": "Ne sauvegardez pas les informations de portefeuille sur des ordinateurs ou des téléphones partagés.",
-				"2": "Déconnectez-vous toujours si vous vous éloignez.",
-				"3": "Utilisez des outils comme NetNanny ou GamBlock pour bloquer les sites de jeu.",
-				"4": "Vérifiez l'activité en ligne de vos enfants."
+				"0": "Utilisez des mots de passe ou verrouillez l'accès sur les appareils.",
+				"1": "Évitez de stocker les identifiants de portefeuille ou les phrases de récupération sur des appareils partagés.",
+				"2": "Déconnectez-vous de {siteName} lorsque vous laissez votre appareil sans surveillance.",
+				"3": "Utilisez des filtres de contenu comme NetNanny ou GamBlock pour restreindre l'accès.",
+				"4": "Surveillez régulièrement les activités en ligne des enfants."
 			},
-			"warning": "Si nous découvrons qu'un mineur joue, nous fermerons son compte et annulerons tous les gains."
+			"warning": "Si le jeu d'un mineur est détecté, le compte sera immédiatement fermé et tous les gains confisqués."
 		},
 		"helpSupport": {
-			"title": "Besoin de Support? Vous n'êtes Pas Seul",
-			"intro": "Si le jeu commence à nuire à votre humeur, à vos relations ou à vos finances, veuillez nous contacter. Voici quelques organisations qui peuvent vous aider, où que vous soyez:",
+			"title": "❤️ Aide et support",
+			"intro": "Si vous sentez un jour que le jeu affecte votre santé mentale, émotionnelle ou financière, vous n'êtes pas seul.|Ci-dessous se trouvent des organisations mondiales de confiance qui fournissent une aide gratuite et confidentielle :",
 			"organizations": {
 				"0": {
 					"name": "GamCare",
@@ -1918,7 +1917,7 @@
 					"url": "https://www.gamblersanonymous.org"
 				},
 				"3": {
-					"name": "National Council on Problem Gambling",
+					"name": "National Council on Problem Gambling (NCPG)",
 					"url": "https://www.ncpgambling.org"
 				},
 				"4": {
@@ -1926,562 +1925,152 @@
 					"url": "https://www.gamtalk.org"
 				}
 			},
-			"paragraph2": "Ils proposent des auto-tests, un chat en direct et des groupes de soutien locaux."
+			"paragraph2": "Ces ressources offrent des outils d'auto-évaluation, un chat en ligne et des groupes de soutien locaux dans le monde entier."
 		},
 		"principles": {
-			"title": "Comment {siteName} Reste Responsable",
-			"intro": "Nous nous en tenons à ces principes:",
+			"title": "⚙️ Principes de jeu responsable chez {siteName}",
+			"intro": "Chez {siteName}, nous respectons ces principes fondamentaux :",
 			"items": {
 				"0": {
-					"title": "Transparence",
-					"description": "Chaque jeu est prouvablement équitable et vérifié par la blockchain."
+					"title": "Transparence :",
+					"description": "Chaque jeu et résultat est prouvé équitable et vérifié par la blockchain."
 				},
 				"1": {
-					"title": "Sécurité",
-					"description": "Vos sessions sont toujours protégées par la connexion au portefeuille Dynamic.xyz. Pas de mots de passe, pas de KYC."
+					"title": "Sécurité :",
+					"description": "Toutes les sessions sont protégées via la connexion par portefeuille Dynamic.xyz — pas de mots de passe ou de KYC nécessaire."
 				},
 				"2": {
-					"title": "Autonomie",
-					"description": "Vous êtes en charge. Déconnectez-vous à tout moment."
+					"title": "Autonomie :",
+					"description": "Vous contrôlez votre jeu ; vous pouvez vous déconnecter à tout moment."
 				},
 				"3": {
-					"title": "Éducation",
-					"description": "Nous vous aidons à comprendre les risques et vous tenons informé."
+					"title": "Éducation :",
+					"description": "Nous promouvons la sensibilisation et aidons les joueurs à comprendre les risques."
 				},
 				"4": {
-					"title": "Support Communautaire",
-					"description": "Notre équipe est là pour vous, 24/7."
+					"title": "Soutien communautaire :",
+					"description": "Notre équipe de support est disponible 24/7 pour vous guider vers des habitudes de jeu saines."
 				}
 			}
 		},
 		"playSmart": {
-			"title": "Dernières Réflexions",
-			"intro": "Le jeu doit être agréable, social et équilibré. Avant de jouer, fixez une limite de temps. Ne courez pas après les pertes et ne jouez pas lorsque vous êtes contrarié. Considérez tout gain comme un bonus agréable, pas comme un chèque de paie. Jouez intelligemment et n'ayez pas peur de demander de l'aide si vous en avez besoin.",
+			"title": "🎮 N'oubliez pas — Jouez intelligemment",
+			"intro": "Le jeu doit toujours être amusant, social et équilibré.|Gardez ces rappels clés à l'esprit :",
 			"reminders": {
-				"0": "Le jeu doit être agréable, social et équilibré.",
-				"1": "Avant de jouer, fixez une limite de temps.",
-				"2": "Ne courez pas après les pertes et ne jouez pas lorsque vous êtes contrarié.",
-				"3": "Considérez tout gain comme un bonus agréable, pas comme un chèque de paie.",
-				"4": "Jouez intelligemment et n'ayez pas peur de demander de l'aide si vous en avez besoin."
+				"0": "Fixez une limite de temps avant de commencer.",
+				"1": "Ne courez jamais après les pertes ou ne jouez pas sous stress émotionnel.",
+				"2": "Traitez les gains comme un bonus, pas comme un revenu.",
+				"3": "Gardez le jeu séparé de votre travail et de vos relations.",
+				"4": "Arrêtez de jouer quand le plaisir s'arrête."
 			}
 		},
 		"finalMessage": {
-			"paragraph1": "Ne laissez pas le jeu se propager à votre travail ou à vos relations. Si cela cesse d'être amusant, éloignez-vous.|Chez {siteName}, nous nous soucions de votre bien-être. Faites des choix intelligents, jouez en toute sécurité et prenez soin de vous.",
-			"paragraph2": "Ne laissez pas le jeu se propager à votre travail ou à vos relations. Si cela cesse d'être amusant, éloignez-vous.",
-			"contact": "Besoin d'aide, de conseils ou envie de faire une pause? Contactez-nous à tout moment chez {siteName}."
+			"paragraph1": "Chez {siteName}, votre bien-être est notre priorité absolue.|Nous encourageons chaque joueur à faire des choix conscients et éclairés et à profiter d'une expérience de jeu sûre.",
+			"paragraph2": "Si vous avez besoin de conseils, d'assistance ou de soutien pour l'auto-exclusion, contactez-nous à",
+			"contact": "📧 {siteDomain}"
 		}
 	},
 	"faqs": {
-		"title": "Questions Fréquentes (FAQ) – {siteName}",
-		"subtitle": "Trouvez des réponses aux questions courantes sur {siteName}. Découvrez la connexion par portefeuille, les dépôts, les retraits, le jeu juste et la transparence de la blockchain.",
-		"lastUpdated": "Dernière Mise à Jour: Janvier 2025",
-		"introTitle": "FAQ {siteName}",
-		"intro": "Bienvenue au Centre de FAQ de {siteName}, où vous trouverez des réponses rapides aux questions les plus courantes sur notre plateforme de jeu crypto.|Si vous ne trouvez pas votre réponse ici, notre équipe de support 24/7 est toujours prête à vous aider chez {siteName}.",
+		"title": "FAQ – {siteName}",
+		"subtitle": "Trouvez des réponses aux questions courantes sur {siteName}. Apprenez-en plus sur la connexion par portefeuille, les dépôts, les retraits, le jeu équitable et la transparence de la blockchain.",
+		"introTitle": "FAQ – {siteName}",
+		"intro": "Bienvenue dans le centre de FAQ de {siteName}, où vous trouverez des réponses rapides aux questions les plus courantes sur notre plateforme de jeu crypto.|Si vous ne trouvez pas votre réponse ici, notre équipe de support 24/7 est toujours prête à vous aider chez {siteName}.",
+		"lastUpdated": "Dernière mise à jour : Janvier 2025",
+		"blockchainTransparency": {
+			"title": "🧩 Transparence de la blockchain",
+			"paragraph1": "{siteName} est alimenté par des contrats intelligents basés sur Ethereum, garantissant que chaque pari, transaction et récompense est enregistré de manière transparente sur la chaîne.|Toutes les données et la logique de jeu sont immuables et vérifiables, garantissant une véritable équité et auditabilité.",
+			"paragraph2": "Vous pouvez suivre toutes les transactions de la plateforme via des explorateurs publics tels que :",
+			"explorersTitle": "",
+			"guarantee": "Cela garantit qu'aucune manipulation ou biais ne peut se produire — jamais."
+		},
 		"categories": {
 			"accountRegistration": {
-				"title": "🔹 Compte & Inscription",
+				"title": "🔹 Compte et inscription",
 				"items": {
 					"0": {
-						"question": "1. Puis-je m'inscrire sur votre site web?",
-						"answer": "Oui — l'inscription est ouverte à toute personne de 18 ans ou plus (ou l'âge légal de la majorité dans votre juridiction).|Vous devez également vous assurer que le jeu en ligne est légal là où vous résidez.|Chez {siteName}, vous n'avez pas besoin d'inscriptions ou de mots de passe traditionnels.|Connectez simplement votre portefeuille via Dynamic.xyz pour commencer à jouer instantanément.|👉 Pour les détails légaux et de conformité, veuillez consulter nos Conditions Générales.",
-						"reminder": "Rappel: Le jeu peut être addictif. Veuillez jouer de manière responsable et connaître vos limites."
+						"question": "1. Puis-je m'inscrire sur votre site web ?",
+						"answer": "Oui — l'inscription est ouverte à toute personne âgée de 18 ans ou plus (ou l'âge légal de la majorité dans votre juridiction).|Vous devez également vous assurer que le jeu en ligne est légal là où vous résidez.|Chez {siteName}, vous n'avez pas besoin d'inscriptions traditionnelles ou de mots de passe.|Connectez simplement votre portefeuille via Dynamic.xyz pour commencer à jouer instantanément.|👉 Pour les détails juridiques et de conformité, veuillez consulter nos Conditions Générales.",
+						"reminder": "Rappel : Le jeu peut créer une dépendance. Veuillez jouer de manière responsable et connaître vos limites."
 					},
 					"1": {
-						"question": "2. Que se passe-t-il si j'oublie mes identifiants de connexion?",
-						"answer": "Étant donné que {siteName} utilise la connexion par portefeuille via Dynamic.xyz, vous n'utilisez pas de mots de passe traditionnels.|Pour accéder à nouveau à votre compte:|Reconnectez votre portefeuille en utilisant la même adresse que celle que vous avez utilisée à l'origine.|Si vous avez perdu l'accès à votre portefeuille, veuillez le restaurer avec votre phrase secrète ou votre méthode de sauvegarde (nous ne stockons ni ne contrôlons jamais les clés privées pour des raisons de sécurité).| {siteName} ne peut pas réinitialiser ou récupérer les identifiants de votre portefeuille pour des raisons de sécurité."
+						"question": "2. Que faire si j'oublie mes identifiants de connexion ?",
+						"answer": "Puisque {siteName} utilise la connexion basée sur le portefeuille via Dynamic.xyz, vous n'utilisez pas de mots de passe traditionnels.|Pour accéder à nouveau à votre compte :|Reconnectez votre portefeuille en utilisant la même adresse que celle utilisée à l'origine.|Si vous avez perdu l'accès à votre portefeuille, veuillez le restaurer avec votre phrase de récupération ou votre méthode de sauvegarde (nous ne stockons ni ne contrôlons jamais les clés privées).|{siteName} ne peut pas réinitialiser ou récupérer vos identifiants de portefeuille pour des raisons de sécurité."
 					},
 					"2": {
-						"question": "3. Puis-je changer mon nom d'utilisateur ou mon portefeuille lié?",
-						"answer": "Votre compte {siteName} est lié à l'adresse de votre portefeuille.|Pour utiliser un nouveau portefeuille, connectez-en simplement un nouveau – mais notez que votre historique de jeu précédent, votre statut VIP et vos bonus ne seront pas transférés automatiquement."
+						"question": "3. Puis-je changer mon nom d'utilisateur ou mon portefeuille lié ?",
+						"answer": "Votre compte {siteName} est lié à votre adresse de portefeuille.|Pour utiliser un nouveau portefeuille, connectez simplement un nouveau — mais notez que votre historique de jeu précédent, votre statut VIP et vos bonus ne seront pas transférés automatiquement."
 					},
 					"3": {
-						"question": "4. Comment puis-je devenir membre VIP?",
-						"answer": "Notre programme VIP est exclusif et uniquement sur invitation.|Au fur et à mesure que vous jouez et interagissez avec la communauté {siteName}, votre activité de jeu est automatiquement suivie.|Une fois éligible, vous recevrez une invitation officielle via une notification dans la plateforme ou un message direct de l'équipe {siteName}.|Les VIP bénéficient d'un accès à des bonus exclusifs, des retraits plus rapides et des récompenses personnalisées."
+						"question": "4. Comment devenir membre VIP ?",
+						"answer": "Notre programme VIP est exclusif et sur invitation uniquement.|Pendant que vous jouez et interagissez avec la communauté {siteName}, votre activité de jeu est automatiquement suivie.|Une fois éligible, vous recevrez une invitation officielle via une notification sur la plateforme ou un message direct de l'équipe {siteName}.|Les VIP bénéficient d'un accès à des bonus exclusifs, des retraits plus rapides et des récompenses personnalisées."
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "💰 Dépôts & Retraits",
+				"title": "💰 Dépôts et retraits",
 				"items": {
 					"0": {
-						"question": "5. Comment puis-je déposer des cryptos?",
-						"answer": "Déposer sur {siteName} est rapide et simple:|Allez dans \"Mon Portefeuille\" sur le tableau de bord principal.|Choisissez Dépôt et sélectionnez votre cryptomonnaie préférée (ex., BTC, ETH, USDT, BNB).|Copiez votre adresse de portefeuille unique ou scannez le code QR.|Envoyez votre crypto depuis votre portefeuille externe à l'adresse affichée.|Une fois confirmés sur la blockchain, vos fonds apparaîtront automatiquement dans votre solde {siteName}.|⚠️ Assurez-vous d'envoyer uniquement les cryptomonnaies prises en charge à la bonne adresse réseau (ex., ERC20, TRC20, BEP20)."
+						"question": "5. Comment déposer de la crypto ?",
+						"answer": "Déposer sur {siteName} est rapide et simple :|Allez dans \"Mon portefeuille\" sur le tableau de bord principal.|Choisissez Dépôt et sélectionnez votre cryptomonnaie préférée (par ex. BTC, ETH, USDT, BNB).|Copiez votre adresse de portefeuille unique ou scannez le code QR.|Envoyez votre crypto depuis votre portefeuille externe vers l'adresse affichée.|Une fois confirmé sur la blockchain, vos fonds apparaîtront automatiquement dans votre solde {siteName}.|⚠️ Assurez-vous d'envoyer uniquement des cryptomonnaies prises en charge vers le bon réseau d'adresse (par ex. ERC20, TRC20, BEP20)."
 					},
 					"1": {
-						"question": "6. Combien de temps les dépôts prennent-ils?",
-						"answer": "Les dépôts sont généralement confirmés en 5 à 10 minutes, selon la congestion de la blockchain et les frais de transaction.|Vous pouvez suivre la progression de votre transaction via un explorateur de blocs (ex., Etherscan.io ou BscScan.com) en utilisant votre hachage de transaction (TXID).|Un minimum de 3 confirmations est généralement requis pour que votre dépôt apparaisse dans votre solde."
+						"question": "6. Combien de temps prennent les dépôts ?",
+						"answer": "Les dépôts sont généralement confirmés en 5 à 10 minutes, selon la congestion de la blockchain et les frais de transaction.|Vous pouvez suivre la progression de votre transaction via un explorateur de blocs (par ex. Etherscan.io ou BscScan.com) en utilisant votre hachage de transaction (TXID).|Un minimum de 3 confirmations est généralement requis pour que votre dépôt apparaisse dans votre solde."
 					},
 					"2": {
-						"question": "7. Quel est le montant minimum de retrait?",
-						"answer": "Le montant minimum de retrait dépend de la cryptomonnaie que vous utilisez.|Chaque pièce a ses propres frais de réseau et seuil minimum.|Ces valeurs sont affichées dans la section Retrait sous \"Mon Portefeuille\"."
+						"question": "7. Quel est le montant minimum de retrait ?",
+						"answer": "Le montant minimum de retrait dépend de la cryptomonnaie que vous utilisez.|Chaque pièce a ses propres frais de réseau et seuil minimum.|Ces valeurs sont affichées dans la section Retrait sous \"Mon portefeuille\"."
 					},
 					"3": {
-						"question": "8. Comment puis-je retirer mes gains?",
-						"answer": "Pour retirer votre crypto:|Allez dans \"Mon Portefeuille\" → \"Retrait\".|Entrez votre adresse de portefeuille de destination et le montant que vous souhaitez retirer.|Vérifiez deux fois votre adresse et le type de réseau avant de confirmer.|Les retraits sont traités instantanément, mais peuvent prendre quelques minutes selon l'activité du réseau blockchain.|💡 Assurez-vous toujours que votre portefeuille de réception prend en charge le réseau à partir duquel vous retirez."
+						"question": "8. Comment retirer mes gains ?",
+						"answer": "Pour retirer votre crypto :|Allez dans \"Mon portefeuille\" → \"Retrait\".|Entrez votre adresse de portefeuille de destination et le montant que vous souhaitez retirer.|Vérifiez deux fois votre adresse et le type de réseau avant de confirmer.|Les retraits sont traités instantanément, mais peuvent prendre quelques minutes selon l'activité du réseau blockchain.|💡 Assurez-vous toujours que votre portefeuille de réception prend en charge le réseau à partir duquel vous retirez."
 					},
 					"4": {
-						"question": "9. Que se passe-t-il si ma transaction est retardée?",
-						"answer": "Les transactions Blockchain prennent parfois plus de temps en raison de la congestion du réseau ou des faibles frais de gaz.|Si votre dépôt ou retrait n'est pas arrivé:|Vérifiez votre TXID sur l'explorateur de blockchain.|Confirmez que vous avez utilisé le bon réseau et la bonne adresse.|Si plus d'une heure s'est écoulée, contactez {siteName} avec votre TXID et les détails de votre portefeuille."
+						"question": "9. Que faire si ma transaction est retardée ?",
+						"answer": "Les transactions blockchain prennent parfois plus de temps en raison de la congestion du réseau ou de frais de gaz faibles.|Si votre dépôt ou retrait n'est pas arrivé :|Vérifiez votre TXID sur l'explorateur blockchain.|Confirmez que vous avez utilisé le bon réseau et la bonne adresse.|Si plus d'une heure s'est écoulée, contactez {siteDomain} avec votre TXID et les détails du portefeuille."
 					}
 				}
 			},
 			"gamesSecurity": {
-				"title": "🎮 Jeux, Équité & Sécurité",
+				"title": "🎮 Jeux, équité et sécurité",
 				"items": {
 					"0": {
-						"question": "10. Les jeux {siteName} sont-ils équitables?",
-						"answer": "Oui — tous les jeux {siteName} sont construits à l'aide d'une technologie prouvablement équitable et de contrats intelligents vérifiés.|Chaque pari, résultat et paiement peut être vérifié indépendamment sur la blockchain.|Nous opérons sur des systèmes transparents et inviolables qui garantissent une véritable aléatoire, équité et ouverture.|Vous pouvez consulter les résultats des jeux et les preuves de transaction sur la chaîne via Etherscan ou l'explorateur de réseau respectif."
+						"question": "10. Les jeux {siteName} sont-ils équitables ?",
+						"answer": "Oui — tous les jeux {siteName} sont construits à l'aide d'une technologie prouvée équitable et de contrats intelligents vérifiés.|Chaque pari, résultat et paiement peut être vérifié indépendamment sur la blockchain.|Nous opérons sur des systèmes transparents et inviolables qui garantissent le hasard, l'équité et l'ouverture.|Vous pouvez voir les résultats du jeu et les preuves de transaction sur la chaîne via Etherscan ou l'explorateur de réseau respectif."
 					},
 					"1": {
-						"question": "11. Que dois-je faire si un jeu se fige ou plante?",
-						"answer": "Si votre jeu ne répond plus:|Actualisez la page.|Videz le cache de votre navigateur et reconnectez votre portefeuille.|Si le problème persiste, contactez notre équipe de support via le Chat en Direct ou {siteName}.|Notre équipe vous aidera à restaurer votre session de jeu ou votre solde si affecté."
+						"question": "11. Que dois-je faire si un jeu se fige ou plante ?",
+						"answer": "Si votre jeu cesse de répondre :|Actualisez la page.|Videz le cache de votre navigateur et reconnectez votre portefeuille.|Si le problème persiste, contactez notre équipe de support via le chat en direct ou {siteDomain}.|Notre équipe vous aidera à restaurer votre session de jeu ou votre solde si affecté."
 					},
 					"2": {
-						"question": "12. Puis-je utiliser plus d'un portefeuille ou compte?",
-						"answer": "Non.|Chaque joueur est autorisé à utiliser une adresse de portefeuille comme compte principal.|La création de comptes multiples ou l'utilisation de rotations de portefeuille pour réclamer des bonus ou exploiter des promotions est strictement interdite et peut entraîner une restriction de compte ou la confiscation du solde."
+						"question": "12. Puis-je utiliser plus d'un portefeuille ou compte ?",
+						"answer": "Non.|Chaque joueur est autorisé à utiliser une adresse de portefeuille comme compte principal.|Créer plusieurs comptes ou utiliser des rotations de portefeuille pour réclamer des bonus ou exploiter des promotions est strictement interdit et peut entraîner une restriction de compte ou une confiscation de solde."
 					},
 					"3": {
-						"question": "13. Mes données personnelles sont-elles en sécurité?",
-						"answer": "Oui.|Chez {siteName}, nous ne collectons pas de données personnelles — votre identité reste sécurisée.|L'accès est géré via Dynamic.xyz, garantissant une confidentialité totale et la propriété de votre identité numérique.|Aucun mot de passe, email ou document sensible n'est stocké par nous.|Votre portefeuille = votre identité."
+						"question": "13. Mes données personnelles sont-elles en sécurité ?",
+						"answer": "Oui.|Chez {siteName}, nous ne collectons pas de données personnelles — votre identité reste sécurisée.|L'accès est géré via Dynamic.xyz, garantissant une confidentialité totale et la propriété de votre identité numérique.|Aucun mot de passe, e-mail ou document sensible n'est stocké par nous.|Votre portefeuille = votre identité."
 					}
 				}
 			},
 			"responsibleGambling": {
-				"title": "🧠 Jeu Responsable",
+				"title": "🧠 Jeu responsable",
 				"items": {
 					"0": {
-						"question": "14. {siteName} soutient-il le jeu responsable?",
-						"answer": "Absolument.|Nous encourageons chaque joueur à profiter du jeu avec modération.|Vous pouvez demander une période d'auto-exclusion ou prendre une pause de refroidissement à tout moment en contactant {siteName}.|Si vous sentez que le jeu affecte votre vie, visitez notre page Jeu Responsable pour obtenir des ressources et des organisations d'aide."
+						"question": "14. {siteName} soutient-il le jeu responsable ?",
+						"answer": "Absolument.|Nous encourageons chaque joueur à profiter du jeu avec modération.|Vous pouvez demander une période d'auto-exclusion ou prendre une pause de réflexion à tout moment en contactant {siteDomain}.|Si vous sentez que le jeu affecte votre vie, visitez notre page Jeu Responsable pour des ressources et des organisations d'aide."
 					},
 					"1": {
-						"question": "15. Que dois-je faire si je soupçonne un problème de jeu?",
-						"answer": "Si vous sentez que votre jeu échappe à tout contrôle, faites une pause et contactez l'une de ces organisations de confiance pour une aide confidentielle:|GamCare: https://www.gamcare.org.uk|Gambling Therapy: https://www.gamblingtherapy.org|Gamblers Anonymous: https://www.gamblersanonymous.org|Notre équipe de support peut également vous guider sur la façon de limiter l'accès à votre compte en toute sécurité."
+						"question": "15. Que dois-je faire si je soupçonne un problème de jeu ?",
+						"answer": "Si vous sentez que votre jeu devient hors de contrôle, faites une pause et contactez l'une de ces organisations de confiance pour une aide confidentielle :|GamCare : GamCare - Fondateur de la ligne d'assistance nationale sur le jeu|Gambling Therapy : Gambling Therapy - Conseils et soutien pour le jeu problématique|Gamblers Anonymous : GA Gävle - Lundi|Notre équipe de support peut également vous guider pour limiter l'accès à votre compte en toute sécurité."
 					}
 				}
-			},
-			"blockchainTransparency": {
-				"title": "🧩 Transparence de la Blockchain",
-				"paragraph1": " {siteName} est alimenté par des contrats intelligents basés sur Ethereum, garantissant que chaque pari, transaction et récompense est enregistré de manière transparente sur la chaîne.|Toutes les données et la logique du jeu sont immuables et vérifiables, garantissant une véritable équité et auditabilité.|Vous pouvez suivre toutes les transactions de la plateforme via des explorateurs publics tels que:|Etherscan.io|BscScan.com|TronScan.org",
-				"paragraph2": "",
-				"explorersTitle": "",
-				"guarantee": "Cela garantit qu'aucune manipulation ou biais ne peut se produire – jamais."
-			},
-			"needMoreHelp": {
-				"title": "💬 Besoin de Plus d'Aide?",
-				"intro": "Notre équipe de support est disponible 24/7 pour vous aider via:",
-				"contactTitle": "",
-				"liveChat": "💬 Chat en Direct (disponible dans votre tableau de bord connecté au portefeuille)"
 			}
-		}
-	},
-	"termsAndConditions": {
-		"title": "⚖️ Conditions Générales — {siteName}",
-		"subtitle": "Lisez les Conditions Générales de {siteName}. Découvrez la connexion par portefeuille (Dynamic.xyz), les dépôts crypto, les retraits, le jeu juste et les politiques de jeu responsable.",
-		"lastUpdated": "Dernière mise à jour: Janvier 2025",
-		"meta": {
-			"title": "Conditions Générales | {siteName} – Règles du Casino Crypto",
-			"description": "Lisez les Conditions Générales de {siteName}. Découvrez la connexion par portefeuille (Dynamic.xyz), les dépôts crypto, les retraits, le jeu juste et les politiques de jeu responsable.",
-			"keywords": "Conditions Générales {siteName}, {siteName} règles du crypto casino, Dynamic.xyz connexion portefeuille, {siteName} politique de retrait, {siteName} jeu juste",
-			"h1": "Conditions Générales – Casino Portefeuille Crypto {siteName}",
-			"ogTitle": "Conditions Générales | {siteName} (Casino Portefeuille Crypto)",
-			"ogDescription": "Consultez les Conditions Générales de {siteName}. Comprenez la connexion au portefeuille Dynamic.xyz, les dépôts crypto, les retraits et les règles de la plateforme."
 		},
-		"sections": {
-			"ownership": {
-				"number": "1",
-				"title": "PROPRIÉTÉ DE {siteName}",
-				"clauses": [
-					{
-						"number": "1.1",
-						"content": " {siteName} est détenu et exploité par {siteName} N.V. (\" {siteName} \", \"Nous\", \"Notre\", \"Nos\"),"
-					},
-					{
-						"number": "1.2",
-						"content": " {siteName} est un casino uniquement avec portefeuille crypto. Tous les dépôts, mises et retraits sont traités via les portefeuilles de cryptomonnaie des utilisateurs. Nous prenons en charge la connexion par portefeuille via Dynamic.xyz et les connecteurs de portefeuille compatibles (par exemple, WalletConnect / MetaMask)."
-					}
-				]
-			},
-			"importantNotice": {
-				"number": "2",
-				"title": "AVIS IMPORTANT",
-				"clauses": [
-					{
-						"number": "2.1",
-						"content": "En vous inscrivant ou en connectant votre portefeuille sur www.{siteDomain} (le \"Site Web\"), vous concluez un accord contraignant avec {siteName} N.V. et acceptez: (i) ces Conditions Générales; (ii) notre Politique de Confidentialité; (iii) notre Politique de Cookies; (iv) nos Conditions d'Affiliation; et (v) notre Politique de Jeu Responsable."
-					},
-					{
-						"number": "2.2",
-						"content": "Si vous n'acceptez aucune de ces conditions, n'accédez pas, n'utilisez pas ou ne vous inscrivez pas sur notre Site Web."
-					},
-					{
-						"number": "2.3",
-						"content": "Lisez attentivement ces Conditions. Si vous n'êtes pas sûr de vos droits ou obligations, consultez un conseiller juridique dans votre juridiction avant d'utiliser le Site Web."
-					}
-				]
-			},
-			"generalTerms": {
-				"number": "3",
-				"title": "CONDITIONS GÉNÉRALES",
-				"clauses": [
-					{
-						"number": "3.1",
-						"content": "Lors de l'inscription ou de la connexion du portefeuille, vous (\"Utilisateur\", \"Joueur\", \"Vous\" ou \"Votre\") acceptez de vous conformer à toutes les règles et politiques de {siteName}."
-					},
-					{
-						"number": "3.2",
-						"content": "Cet Accord est un contrat légalement contraignant entre vous et {siteName}."
-					},
-					{
-						"number": "3.3",
-						"content": "Ces Conditions entrent en vigueur au moment où vous connectez votre portefeuille et commencez à utiliser le site."
-					},
-					{
-						"number": "3.4",
-						"content": " {siteName} se réserve le droit de modifier ou de mettre à jour ces Conditions à tout moment. Les changements seront publiés sur le Site Web; l'utilisation continue constitue une acceptation."
-					},
-					{
-						"number": "3.5",
-						"content": "En cas de conflit, ces Conditions prévalent sur toutes les autres règles, promotions ou matériels externes."
-					},
-					{
-						"number": "3.6",
-						"content": "Seule la version anglaise de ces Conditions est légalement contraignante. Les traductions ne sont fournies qu'à titre de commodité."
-					}
-				]
-			},
-			"accountSecurity": {
-				"number": "4",
-				"title": "COMPTE, CONNEXION PAR PORTEFEUILLE & SÉCURITÉ",
-				"walletLogin": {
-					"title": "4.1 Connexion par Portefeuille (Dynamic.xyz)",
-					"clauses": [
-						{
-							"number": "4.1.1",
-							"content": " {siteName} utilise Dynamic.xyz (ou d'autres connecteurs pris en charge) pour la connexion et l'authentification basées sur le portefeuille. En connectant un portefeuille, vous confirmez que vous êtes le propriétaire légitime de ce portefeuille et autorisez {siteName} à reconnaître ce portefeuille comme votre compte."
-						},
-						{
-							"number": "4.1.2",
-							"content": "Nous ne demandons jamais vos clés privées. Vous devez garder vos identifiants de portefeuille et votre appareil en sécurité. {siteName} n'est pas responsable des pertes causées par des portefeuilles compromis ou des clés privées divulguées."
-						}
-					]
-				},
-				"registration": {
-					"title": "4.2 Détails de l'Inscription",
-					"clauses": [
-						{
-							"number": "4.2.1",
-							"content": "Il peut vous être demandé de fournir des coordonnées (email, nom d'utilisateur) pour la communication du compte. Vous devez fournir des informations exactes et les maintenir à jour."
-						},
-						{
-							"number": "4.2.2",
-							"content": "Vous êtes responsable de toutes les actions effectuées à l'aide de votre portefeuille connecté."
-						}
-					]
-				},
-				"multipleAccounts": {
-					"title": "4.3 Comptes Multiples & Sécurité",
-					"clauses": [
-						{
-							"number": "4.3.1",
-							"content": "Un seul compte par personne est autorisé. Les comptes multiples ou les tentatives de contournement des limites peuvent entraîner la suspension du compte et la confiscation des fonds."
-						},
-						{
-							"number": "4.3.2",
-							"content": "Activez toutes les fonctionnalités de sécurité de la plateforme proposées (par exemple, 2FA pour les services associés) et sécurisez votre propre portefeuille."
-						},
-						{
-							"number": "4.3.3",
-							"content": "Informez immédiatement le support si vous soupçonnez un accès non autorisé."
-						}
-					]
-				}
-			},
-			"eligibility": {
-				"number": "5",
-				"title": "ÉLIGIBILITÉ & GARANTIES DE L'UTILISATEUR",
-				"clauses": [
-					{
-						"number": "5.1",
-						"content": "Vous déclarez et garantissez que:|• Vous avez au moins 18 ans (ou l'âge légal minimum de jeu dans votre juridiction).|• Vous êtes légalement autorisé à utiliser les services de jeux crypto en ligne là où vous vous trouvez.|• Vous êtes le propriétaire légitime du portefeuille que vous connectez.|• Vous n'utiliserez pas de VPN ou de falsification de localisation pour contourner les restrictions régionales.|• Vous n'utiliserez pas le Service à des fins illégales ou commerciales.|• Vous acceptez que la valeur de la cryptomonnaie puisse fluctuer et vous supportez tous les risques de marché."
-					},
-					{
-						"number": "5.2",
-						"content": "Si vous enfreignez ces garanties, {siteName} peut suspendre ou mettre fin à l'accès et retenir les fonds là où la loi le permet."
-					}
-				]
-			},
-			"restrictedJurisdictions": {
-				"number": "6",
-				"title": "JURIDICTIONS RESTREINTES",
-				"clauses": [
-					{
-						"number": "6.1",
-						"content": " {siteName} n'accepte pas les joueurs des juridictions où le jeu crypto est interdit ou restreint. Cela inclut, mais sans s'y limiter:|États-Unis (et territoires américains), Royaume-Uni, France, Pays-Bas, Espagne, Allemagne, Australie, Autriche, Comores, Iran, Corée du Nord, Soudan, Syrie et toute juridiction figurant sur les listes noires du GAFI."
-					},
-					{
-						"number": "6.2",
-						"content": "Tenter d'accéder au Service depuis une juridiction restreinte, y compris via VPN ou proxy, constitue une violation de ces Conditions et peut entraîner la fermeture du compte et la confiscation des fonds."
-					}
-				]
-			},
-			"cryptoTransactions": {
-				"number": "7",
-				"title": "DÉPÔTS & RETRAITS CRYPTO",
-				"cryptoOnly": {
-					"title": "7.1 Politique Uniquement Crypto",
-					"clauses": [
-						{
-							"number": "7.1.1",
-							"content": " {siteName} accepte les dépôts et les retraits uniquement dans les cryptomonnaies prises en charge (par exemple, BTC, ETH, USDT, TRX, BNB). Aucun dépôt fiduciaire, par carte ou par virement bancaire n'est accepté."
-						},
-						{
-							"number": "7.1.2",
-							"content": "Tous les dépôts doivent provenir de portefeuilles que vous contrôlez. Les dépôts provenant de portefeuilles tiers sont interdits."
-						}
-					]
-				},
-				"deposits": {
-					"title": "7.2 Dépôts",
-					"clauses": [
-						{
-							"number": "7.2.1",
-							"content": "Les dépôts sont crédités après les confirmations de blockchain requises. Les frais de réseau (gaz) sont à votre charge."
-						},
-						{
-							"number": "7.2.2",
-							"content": " {siteName} peut refuser ou annuler les dépôts qui semblent provenir d'adresses bloquées ou de sources restreintes."
-						}
-					]
-				},
-				"withdrawals": {
-					"title": "7.3 Retraits",
-					"clauses": [
-						{
-							"number": "7.3.1",
-							"content": "Les retraits sont traités à l'adresse du portefeuille que vous fournissez. {siteName} peut vous demander de confirmer le portefeuille de destination avant le traitement."
-						},
-						{
-							"number": "7.3.2",
-							"content": "Vous devez disposer d'un solde compensé suffisant pour couvrir un retrait. Les retraits peuvent être retardés pour enquêter sur des abus présumés ou des activités inhabituelles."
-						}
-					]
-				},
-				"chargebacks": {
-					"title": "7.4 Rétrofacturations & Annulations",
-					"clauses": [
-						{
-							"number": "7.4.1",
-							"content": "Les transactions crypto sont finales sur la chaîne. Si {siteName} subit des pertes dues à des rétrofacturations ou des annulations de la part de fournisseurs de services tiers (rare avec les transactions sur la chaîne), nous nous réservons le droit de récupérer les montants ou de facturer des frais administratifs."
-						}
-					]
-				}
-			},
-			"noKyc": {
-				"number": "8",
-				"title": "AUCUNE VÉRIFICATION D'IDENTITÉ DE ROUTINE (AUCUN KYC)",
-				"clauses": [
-					{
-						"number": "8.1",
-						"content": " {siteName} n'effectue pas de vérification d'identité de routine (KYC) comme condition de jeu normal. Les utilisateurs peuvent connecter un portefeuille via Dynamic.xyz et commencer à jouer sans fournir de documents d'identité."
-					},
-					{
-						"number": "8.2",
-						"content": "Nonobstant la clause 8.1, {siteName} se réserve le droit de demander des informations ou de suspendre des transactions si nécessaire pour:|• Se conformer à un ordre légal des autorités compétentes;|• Prévenir, enquêter ou remédier à la fraude, au blanchiment d'argent ou à toute autre activité illégale; ou|• Protéger la sécurité et l'intégrité de la plateforme."
-					},
-					{
-						"number": "8.3",
-						"content": "Si vous refusez de fournir de telles informations lorsque la loi l'exige, {siteName} peut restreindre ou fermer votre compte et retarder ou retenir les retraits dans la mesure permise par la loi."
-					}
-				]
-			},
-			"fairPlay": {
-				"number": "9",
-				"title": "JEU JUSTE, CONDUITE INTERDITE & SÉCURITÉ",
-				"clauses": [
-					{
-						"number": "9.1",
-						"content": "Vous ne devez pas:|• Utiliser des bots, des scripts, des outils de jeu automatisés ou tout logiciel non autorisé.|• Être de connivence avec d'autres joueurs ou manipuler les résultats de jeu.|• Créer plusieurs comptes pour exploiter des bonus ou des promotions.|• Tenter d'annuler ou de manipuler des transactions sur la chaîne.|• Exploiter des bugs de jeu ou des vulnérabilités de la plateforme."
-					},
-					{
-						"number": "9.2",
-						"content": "Les comptes trouvés en train de tricher, de se concerter ou d'exploiter la plateforme peuvent être suspendus, fermés ou leurs soldes confisqués."
-					},
-					{
-						"number": "9.3",
-						"content": " {siteName} met en œuvre une surveillance technique et comportementale pour protéger l'intégrité de la plateforme."
-					}
-				]
-			},
-			"bonuses": {
-				"number": "10",
-				"title": "BONUS & PROMOTIONS",
-				"clauses": [
-					{
-						"number": "10.1",
-						"content": "Toutes les offres de bonus et promotions sont soumises à des Conditions de Bonus spécifiques indiquées avec chaque offre."
-					},
-					{
-						"number": "10.2",
-						"content": "L'abus de bonus (y compris les comptes multiples ou le changement rapide de bonus) peut entraîner le refus, l'annulation ou la confiscation des bonus et la fermeture des comptes."
-					},
-					{
-						"number": "10.3",
-						"content": "Les exigences de mise des bonus doivent être remplies avant de retirer des fonds dérivés des bonus, comme spécifié par promotion."
-					}
-				]
-			},
-			"gameRules": {
-				"number": "11",
-				"title": "RÈGLES DE JEU & RÈGLEMENT DES JEUX",
-				"clauses": [
-					{
-						"number": "11.1",
-						"content": "Les paris ne sont acceptés qu'une fois que vous avez reçu une confirmation à l'écran. Les paris placés avec un solde insuffisant sont nuls."
-					},
-					{
-						"number": "11.2",
-						"content": "Les journaux internes de {siteName} et les enregistrements de la blockchain font autorité en cas de litige."
-					},
-					{
-						"number": "11.3",
-						"content": "Si un événement est annulé, suspendu ou compromis d'une autre manière, {siteName} réglera ou annulera les paris conformément aux règles de jeu et de marché publiées."
-					},
-					{
-						"number": "11.4",
-						"content": "Pour les jeux prouvablement équitables, des outils de vérification et des seeds de serveur (le cas échéant) sont mis à disposition par jeu; les journaux de serveur sont définitifs."
-					}
-				]
-			},
-			"errors": {
-				"number": "12",
-				"title": "ERREURS, INTERRUPTIONS & LIMITES",
-				"clauses": [
-					{
-						"number": "12.1",
-						"content": " {siteName} n'est pas responsable des pertes causées par:|• Pannes d'Internet ou d'appareil;|• Retards, forks ou congestion du réseau Blockchain;|• Bugs logiciels ou pannes de services tiers."
-					},
-					{
-						"number": "12.2",
-						"content": " {siteName} se réserve le droit d'annuler des paris, d'ajuster des soldes ou d'annuler des transactions lorsque des erreurs ou des exploits sont détectés."
-					},
-					{
-						"number": "12.3",
-						"content": "Nous pouvons fixer des limites de mise, des gains maximums et d'autres contrôles pour protéger les utilisateurs et la plateforme."
-					}
-				]
-			},
-			"suspension": {
-				"number": "13",
-				"title": "SUSPENSION, FERMETURE & GESTION DES FONDS",
-				"clauses": [
-					{
-						"number": "13.1",
-						"content": " {siteName} peut suspendre ou fermer des comptes lorsque:|• Les Conditions sont violées;|• Des abus, des fraudes ou des comportements suspects sont détectés;|• Des obligations légales ou réglementaires l'exigent."
-					},
-					{
-						"number": "13.2",
-						"content": "Lors de la fermeture du compte, les mises en attente peuvent être annulées et les fonds restants gérés conformément à la loi applicable et à la politique de la plateforme."
-					},
-					{
-						"number": "13.3",
-						"content": " {siteName} peut retenir des fonds lorsque cela est nécessaire pour résoudre des litiges, se conformer à des demandes légales ou remédier à des pertes."
-					}
-				]
-			},
-			"responsibleGaming": {
-				"number": "14",
-				"title": "JEU RESPONSABLE",
-				"clauses": [
-					{
-						"number": "14.1",
-						"content": " {siteName} promeut le jeu responsable. Vous pouvez demander:|• Auto-exclusion;|• Limites de dépôt;|• Suspension temporaire."
-					},
-					{
-						"number": "14.2",
-						"content": "Si vous soupçonnez des dommages liés au jeu, contactez {siteName} pour une assistance immédiate."
-					},
-					{
-						"number": "14.3",
-						"content": "Le jeu des mineurs (moins de 18 ans ou l'âge légal local) est strictement interdit. Les comptes appartenant à des mineurs seront fermés et les fonds gérés conformément à la politique."
-					}
-				]
-			},
-			"intellectualProperty": {
-				"number": "15",
-				"title": "PROPRIÉTÉ INTELLECTUELLE",
-				"clauses": [
-					{
-						"number": "15.1",
-						"content": "Toutes les marques de commerce, logos, contenu du site, logiciels et actifs de jeux sur {siteName} sont détenus ou concédés sous licence par {siteName}. La copie, le scraping ou la redistribution non autorisés sont interdits."
-					},
-					{
-						"number": "15.2",
-						"content": "Une licence limitée et révocable vous est accordée pour accéder au Service uniquement à des fins de divertissement personnel."
-					}
-				]
-			},
-			"liability": {
-				"number": "16",
-				"title": "LIMITATION DE RESPONSABILITÉ",
-				"clauses": [
-					{
-						"number": "16.1",
-						"content": "Dans toute la mesure permise par la loi, {siteName} ne sera pas responsable des pertes indirectes, spéciales, consécutives ou accessoires, y compris les pertes de profits ou les coûts d'opportunité."
-					},
-					{
-						"number": "16.2",
-						"content": "Notre responsabilité globale pour toute réclamation liée à ces Conditions ne dépassera pas la valeur de votre dernier dépôt ou un montant spécifié par la loi applicable."
-					},
-					{
-						"number": "16.3",
-						"content": "Rien dans ces Conditions ne limite la responsabilité en cas de décès ou de blessures corporelles causés par négligence lorsque la loi applicable interdit une telle limitation."
-					}
-				]
-			},
-			"disputes": {
-				"number": "17",
-				"title": "RÉSOLUTION DES LITIGES & DROIT APPLICABLE",
-				"clauses": [
-					{
-						"number": "17.1",
-						"content": "En cas de litige, contactez {siteName}. Nous visons à résoudre les plaintes rapidement; escaladez à la direction si nécessaire."
-					}
-				]
-			},
-			"amendments": {
-				"number": "18",
-				"title": "MODIFICATIONS",
-				"clauses": [
-					{
-						"number": "18.1",
-						"content": " {siteName} peut modifier ces Conditions à tout moment. Les Conditions mises à jour seront publiées sur le Site Web. L'utilisation continue constitue une acceptation."
-					}
-				]
-			},
-			"miscellaneous": {
-				"number": "19",
-				"title": "DIVERS",
-				"clauses": [
-					{
-						"number": "19.1",
-						"content": "Ces Conditions constituent l'intégralité de l'accord entre vous et {siteName} concernant le Service."
-					},
-					{
-						"number": "19.2",
-						"content": "Si une clause est jugée inapplicable, elle sera modifiée dans la mesure minimale nécessaire et les dispositions restantes resteront en vigueur."
-					},
-					{
-						"number": "19.3",
-						"content": "Vous ne pouvez pas céder vos droits en vertu de ces Conditions. {siteName} peut céder ou sous-traiter des droits et obligations."
-					}
-				]
-			},
-			"contact": {
-				"number": "20",
-				"title": "CONTACT",
-				"content": "Pour le support, les plaintes ou les avis légaux:",
-				"link": "🌐 https://{siteDomain}"
-			}
+		"needMoreHelp": {
+			"title": "💬 Besoin de plus d'aide ?",
+			"intro": "Notre équipe de support est disponible 24/7 pour vous aider via :",
+			"contactTitle": "",
+			"liveChat": "💬 Chat en direct (disponible dans votre tableau de bord connecté au portefeuille)"
 		}
 	}
 }

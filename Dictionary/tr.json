@@ -4,49 +4,49 @@
 		"save": "Kaydet",
 		"cancel": "İptal",
 		"confirm": "Onayla",
-		"viewAll": "Tümünü Görüntüle"
+		"viewAll": "Tümünü Gör"
 	},
 	"app": {
 		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Kenar Çubuğunu Aç/Kapat",
-		"searchPlaceholder": "Oyun, sağlayıcı ara...",
+		"searchPlaceholder": "Oyunları, sağlayıcıları ara...",
 		"liveChat": "Canlı Sohbet",
 		"player": "Oyuncu",
 		"vip": "VIP",
 		"profile": "Profil",
 		"statistics": "İstatistikler",
-		"wallet": "Para Yatırma/Çekme",
-		"cashier": "Kasiyer",
-		"winLoss": "Kazanç/Kayıp",
-		"affiliate": "Yönlendirme Bonusu",
+		"wallet": "Yatır/Çek",
+		"cashier": "Kasa",
+		"winLoss": "Kazan/Kaybet",
+		"affiliate": "Referans Bonusu",
 		"logout": "Çıkış Yap",
 		"balance": "Bakiye",
-		"turnoverBonus": "Çevrim Bonusu"
+		"turnoverBonus": "Ciro Bonusu"
 	},
 	"navigation": {
-		"home": "Anasayfa",
+		"home": "Ana Sayfa",
 		"games": "Oyunlar",
 		"profile": "Profil",
 		"wallet": "Cüzdan",
 		"settings": "Ayarlar",
 		"promotions": "Promosyonlar",
-		"affiliate": "Yönlendirme Bonusu",
-		"bonus": "Çevrim Bonusu",
+		"affiliate": "Referans Bonusu",
+		"bonus": "Ciro Bonusu",
 		"providers": "Sağlayıcılar",
 		"lobby": "Lobi",
 		"about": "Hakkımızda"
 	},
 	"profile": {
 		"language": "Dil",
-		"welcome": "Hoş geldin, {name}!",
+		"welcome": "Hoş geldiniz, {name}!",
 		"settingUp": "Kuruluyor",
 		"profileBtn": "Profili Görüntüle",
 		"currentBalance": "Mevcut Bakiye",
-		"availableFunds": "Kullanılabilir Bakiye",
-		"totalDeposits": "Toplam Para Yatırma",
-		"totalWithdrawals": "Toplam Para Çekme",
+		"availableFunds": "Kullanılabilir fonlar",
+		"totalDeposits": "Toplam Yatırım",
+		"totalWithdrawals": "Toplam Çekim",
 		"walletAddress": "Cüzdan Adresi",
 		"copySuccess": "Cüzdan adresi panoya kopyalandı!",
 		"copyFailed": "Cüzdan adresi kopyalanamadı",
@@ -55,39 +55,39 @@
 		"history": {
 			"title": "Geçmiş"
 		},
-		"logout": "Çıkış Yap",
-		"pendingRegistration": "Bekleyen Kayıt",
-		"noEmailProvided": "E-posta adresi belirtilmedi",
+		"logout": "Çıkış",
+		"pendingRegistration": "Kayıt Bekleniyor",
+		"noEmailProvided": "E-posta sağlanmadı",
 		"balanceOverview": "Bakiye Özeti",
 		"gettingStarted": "Başlarken",
 		"verifyEmail": "E-postanızı doğrulayın",
 		"completeEmailVerification": "E-posta doğrulamasını tamamlayın",
 		"verifyPhone": "Telefon numaranızı doğrulayın",
-		"addPhoneVerification": "Telefon doğrulaması ekleyin",
-		"firstDeposit": "İlk Para Yatırma",
-		"makeFirstDeposit": "İlk para yatırma işleminizi yapın",
+		"addPhoneVerification": "Telefon doğrulaması ekle",
+		"firstDeposit": "İlk Yatırım",
+		"makeFirstDeposit": "İlk yatırımınızı yapın",
 		"placeBetOrTrade": "Bahis Yap / İşlem Yap",
 		"startFirstGame": "İlk oyununuzu başlatın",
-		"recentActivity": "Son Etkinlik",
+		"recentActivity": "Son Aktivite",
 		"transactionHistory": "İşlem Geçmişi",
 		"activityGameWinDiceRoll": "Oyun Kazancı - Zar Atma",
 		"activityGameLossBlackjack": "Oyun Kaybı - Blackjack",
 		"twoHoursAgo": "2 saat önce",
 		"oneDayAgo": "1 gün önce",
 		"twoDaysAgo": "2 gün önce",
-		"deposit": "Para Yatırma",
-		"loggedOutTitle": "Oops! Oturumunuz Kapatıldı",
+		"deposit": "Yatırım",
+		"loggedOutTitle": "Ops! Çıkış Yaptınız",
 		"loggedOutSubtitle": "Profilinizi görüntülemek için lütfen giriş yapın",
-		"goHome": "Anasayfaya Git",
-		"withdrawal": "Para Çekme",
+		"goHome": "Ana Sayfaya Git",
+		"withdrawal": "Çekim",
 		"transactions": {
 			"title": "İşlem Geçmişi",
-			"trackDepositsWithdrawals": "Para yatırma ve çekme işlemlerinizi takip edin",
+			"trackDepositsWithdrawals": "Yatırım ve çekimlerinizi takip edin",
 			"filters": "Filtreler",
 			"refresh": "Yenile",
 			"advancedFilters": "Gelişmiş Filtreler",
 			"searchTransactionComingSoon": "İşlem Arama (Yakında)",
-			"searchPlaceholderDisabled": "Arama işlevi API seviyesinde uygulanacaktır...",
+			"searchPlaceholderDisabled": "Arama işlevi API düzeyinde uygulanacaktır...",
 			"dateRange": "Tarih Aralığı",
 			"selectDateRange": "Tarih aralığı seçin",
 			"today": "Bugün",
@@ -115,17 +115,17 @@
 			"live": "Canlı",
 			"tabs": {
 				"all": "Tümü",
-				"deposits": "Para Yatırma",
-				"withdrawals": "Para Çekme"
+				"deposits": "Yatırımlar",
+				"withdrawals": "Çekimler"
 			},
 			"errorLoadingTransactions": "İşlemler Yüklenirken Hata Oluştu",
 			"tryAgain": "Tekrar Dene",
 			"noTransactionsFound": "İşlem Bulunamadı",
-			"noTransactionsAvailableSelectedPeriod": "Seçilen dönem için işlem bulunmamaktadır.",
-			"noDepositsFoundSelectedPeriod": "Seçilen dönem için para yatırma işlemi bulunamadı.",
-			"noWithdrawalsFoundSelectedPeriod": "Seçilen dönem için para çekme işlemi bulunamadı.",
+			"noTransactionsAvailableSelectedPeriod": "Seçilen dönem için işlem mevcut değil.",
+			"noDepositsFoundSelectedPeriod": "Seçilen dönem için yatırım bulunamadı.",
+			"noWithdrawalsFoundSelectedPeriod": "Seçilen dönem için çekim bulunamadı.",
 			"show": "Göster",
-			"ofTransactions": "{count} işlemden",
+			"ofTransactions": "/ {count} işlem",
 			"showingRangeOfTotal": "{total} işlemin {from}-{to} arası gösteriliyor",
 			"pageShort": "Sayfa {current}/{total}"
 		},
@@ -150,9 +150,9 @@
 			"allProviders": "Tüm Sağlayıcılar",
 			"status": "Durum",
 			"allStatuses": "Tüm Durumlar",
-			"outstanding": "Beklemede",
-			"win": "Kazanç",
-			"lose": "Kayıp",
+			"outstanding": "Bekleyen",
+			"win": "Kazan",
+			"lose": "Kaybet",
 			"draw": "Berabere",
 			"void": "İptal",
 			"bonusWin": "Bonus Kazancı",
@@ -164,16 +164,16 @@
 			"providerLabel": "Sağlayıcı",
 			"dateLabel": "Tarih",
 			"totalBets": "Toplam Bahisler",
-			"totalProfitLoss": "Toplam Kâr/Zarar",
+			"totalProfitLoss": "Toplam Kar/Zarar",
 			"pageOf": "Sayfa {current} / {total}",
 			"live": "Canlı",
 			"errorLoadingBets": "Bahis Geçmişi Yüklenirken Hata Oluştu",
 			"failedToLoadBetHistory": "Bahis geçmişi yüklenemedi. Lütfen tekrar deneyin.",
 			"tryAgain": "Tekrar Dene",
 			"noBetsFound": "Bahis Bulunamadı",
-			"noBetsFoundSelectedPeriod": "Seçilen dönem ve filtrelere uygun bahis geçmişi bulunamadı.",
+			"noBetsFoundSelectedPeriod": "Seçilen dönem ve filtreler için bahis geçmişi bulunamadı.",
 			"show": "Göster",
-			"ofBets": "{count} bahisten",
+			"ofBets": "/ {count} bahis",
 			"showingRangeOfTotal": "{total} bahsin {from}-{to} arası gösteriliyor",
 			"totalBet": "Toplam Bahis",
 			"totalWin": "Toplam Kazanç",
@@ -182,13 +182,13 @@
 				"date": "Tarih",
 				"game": "Oyun",
 				"provider": "Sağlayıcı",
-				"type": "Tür",
+				"type": "Tip",
 				"status": "Durum",
 				"betAmount": "Bahis Tutarı",
 				"winAmount": "Kazanç Tutarı",
 				"hideAmounts": "Tutarları Gizle",
 				"showAmounts": "Tutarları Göster",
-				"gameType": "Oyun Türü",
+				"gameType": "Oyun Tipi",
 				"vendor": "Satıcı",
 				"lastUpdate": "Son Güncelleme",
 				"netResult": "Net Sonuç",
@@ -205,13 +205,13 @@
 			"amount": "Tutar",
 			"payout": "Ödeme",
 			"player": "Oyuncu",
-			"gameType": "Oyun Türü",
+			"gameType": "Oyun Tipi",
 			"vendor": "Satıcı",
 			"lastUpdate": "Son Güncelleme",
 			"netResult": "Net Sonuç",
-			"totalWagered": "Toplam Bahis Yapılan",
+			"totalWagered": "Toplam Oynanan",
 			"totalWon": "Toplam Kazanılan",
-			"netProfit": "Net Kâr",
+			"netProfit": "Net Kar",
 			"winRate": "Kazanma Oranı",
 			"showingResults": "{total} sonuçtan {start}-{end} arası gösteriliyor",
 			"firstPage": "İlk Sayfa",
@@ -237,21 +237,21 @@
 			},
 			"preview": {
 				"winIn": "{game} oyununda {amount} {currency} kazandı",
-				"gifAlt": "GIF önizlemesi",
-				"imageAlt": "Görsel önizlemesi",
+				"gifAlt": "GIF önizleme",
+				"imageAlt": "Görsel önizleme",
 				"emoji": "Emoji mesajı",
 				"rain": "Yağmur: {amount} {currency}",
 				"system": "Sistem: {content}"
 			}
 		},
 		"imageDialog": {
-			"title": "Görselinizi Paylaşın 🎰",
-			"description": "Sohbet odasına göstermeye hazır mısınız?",
+			"title": "Görselini Paylaş 🎰",
+			"description": "Sohbet odasına göstermeye hazır mısın?",
 			"previewLabel": "Önizleme",
 			"statusReady": "Paylaşmaya Hazır",
 			"roomLabel": "🎰 Casino Sohbeti",
 			"shareNotice": "Görseliniz sohbet odasındaki tüm oyuncularla paylaşılacaktır",
-			"closeAria": "Diyalogu kapat",
+			"closeAria": "İletişim kutusunu kapat",
 			"cancelAria": "Görsel yüklemeyi iptal et",
 			"sendAria": "Görseli sohbete gönder",
 			"send": "Sohbete Gönder"
@@ -279,41 +279,41 @@
 				"sports": "Spor"
 			},
 			"searchResults": "Arama Sonuçları",
-			"availableToTag": "Etiketlenebilecek kullanıcılar 🎯",
-			"clickOrTab": "Seçmek için tıklayın veya Tab tuşuna basın",
+			"availableToTag": "Etiketlenebilir kullanıcılar 🎯",
+			"clickOrTab": "Seçmek için Tıkla veya Tab'a bas",
 			"noUsers": "Kullanıcı bulunamadı",
-			"noUsersMatching": "Eşleşen kullanıcı bulunamadı",
+			"noUsersMatching": "Eşleşen kullanıcı yok",
 			"startTyping": "Aramak için yazmaya başlayın",
 			"typeAt": "Yazın",
 			"toSeeSuggestions": "önerileri görmek için 🎰",
 			"errors": {
 				"emojisLoad": "Emojiler yüklenemedi",
-				"emojisSearch": "Emojiler aranamadı",
+				"emojisSearch": "Emoji araması başarısız oldu",
 				"gifsLoad": "GIF'ler yüklenemedi"
 			}
 		},
 		"messages": {
 			"emptyTitle": "Henüz mesaj yok...",
-			"emptySubtitle": "Sohbeti başlatın ve büyük kazanın! 🎰",
+			"emptySubtitle": "Sohbeti başlat ve büyük kazan! 🎰",
 			"loadingHistory": "Sohbet geçmişi yükleniyor...",
-			"loadingHistorySubtitle": "Son mesajlar alınıyor 📜",
+			"loadingHistorySubtitle": "Son mesajlar getiriliyor 📜",
 			"historyError": "Sohbet geçmişi yüklenemedi"
 		},
 		"message": {
-			"you": "Siz",
+			"you": "Sen",
 			"winTitle": "\"{game}\" oyununda Büyük Kazanç! 🎰",
 			"gifAlt": "GIF",
 			"imageAlt": "Yüklenen görsel",
 			"rainTitle": "Para Yağmuru! 🌧️💰",
-			"recipients": "→ {count} alıcı",
+			"recipients": "→ {count} {count, plural, one {alıcı} other {alıcı}}",
 			"eachTo": "Her birine {amount} {currency}: {list}",
-			"replyCount": "{count} yanıt",
+			"replyCount": "{count} {count, plural, one {yanıt} other {yanıt}}",
 			"loadingHistory": "Sohbet geçmişi yükleniyor..."
 		},
 		"system": {
-			"slashDisabled": "Slash komutları geçici olarak devre dışı bırakılmıştır. Lütfen normal mesajları kullanın.",
-			"rateLimit": "İstek limiti aşıldı. Lütfen başka bir mesaj göndermeden önce {seconds} saniye bekleyin.",
-			"cannotTagSelf": "Mesajlarda kendinizi etiketleyemezsiniz.",
+			"slashDisabled": "Eğik çizgi komutları geçici olarak devre dışı bırakıldı. Lütfen normal mesajlar kullanın.",
+			"rateLimit": "Hız sınırı aşıldı. Başka bir mesaj göndermeden önce lütfen {seconds} saniye bekleyin.",
+			"cannotTagSelf": "Kendinizi mesajlarda etiketleyemezsiniz.",
 			"processingImage": "Görsel işleniyor...",
 			"failedUploadPrefix": "Görsel yüklenemedi: {message}",
 			"unknownError": "Bilinmeyen hata"
@@ -321,38 +321,38 @@
 	},
 	"sidebar": {
 		"quest": "GÖREV",
-		"spin": "ÇEVİR",
-		"deposit": "YATIR",
-		"withdraw": "ÇEK",
+		"spin": "ÇARK",
+		"deposit": "YATIRIM",
+		"withdraw": "ÇEKİM",
 		"playOnTelegram": "Telegram'da Oyna",
 		"dailyBonus": "Günlük Bonus",
 		"navigation": "Navigasyon",
 		"games": "Oyunlar",
 		"providers": "Sağlayıcılar",
-		"trendingNow": "Şu An Trend Olanlar",
+		"trendingNow": "Trend Olanlar",
 		"allProviders": "Tüm Sağlayıcılar",
-		"allTopProviders": "Tüm Popüler Sağlayıcılar",
-		"hotBadge": "Popüler"
+		"allTopProviders": "Tüm En İyi Sağlayıcılar",
+		"hotBadge": "Sıcak"
 	},
 	"search": {
 		"title": "Oyun ara",
 		"subtitle": "İsim, sağlayıcı veya kategoriye göre bul",
-		"placeholder": "Oyun, sağlayıcı, kategori ara...",
+		"placeholder": "Oyunları, sağlayıcıları, kategorileri ara...",
 		"clear": "Temizle",
 		"recent": "Son:",
 		"popular": "Popüler:",
-		"favoritesTry": "Deneyebilirsiniz — Favorileriniz",
-		"hotPicks": "Popüler Seçimler",
-		"resultsCount": "{count} oyun bulundu",
-		"noResults": "Sonuç bulunamadı",
-		"filterApplied": "{count} sağlayıcıya göre filtrelendi",
+		"favoritesTry": "Şunları deneyebilirsiniz — Favorileriniz",
+		"hotPicks": "Sıcak seçimler",
+		"resultsCount": "{count} {count, plural, one {oyun} other {oyun}} bulundu",
+		"noResults": "Sonuç yok",
+		"filterApplied": "{count} {count, plural, one {sağlayıcı} other {sağlayıcı}} ile filtrelendi",
 		"suggestions": {
 			"category": "Kategori",
 			"provider": "Sağlayıcı"
 		},
 		"sections": {
-			"topProviders": "Popüler Sağlayıcılar",
-			"selectedProviders": "Seçili Sağlayıcılar",
+			"topProviders": "En İyi Sağlayıcılar",
+			"selectedProviders": "Seçilen Sağlayıcılar",
 			"categories": "Kategoriler",
 			"games": "Oyunlar",
 			"providers": "Sağlayıcılar"
@@ -373,7 +373,7 @@
 			"z-a": "Z-A"
 		},
 		"filters": {
-			"filter": "Filtrele",
+			"filter": "Filtre",
 			"optionsTitle": "Filtre Seçenekleri",
 			"clearAll": "Tüm Filtreleri Temizle",
 			"activeLabel": "Aktif:"
@@ -381,8 +381,8 @@
 		"searchPlaceholderGeneric": "Ara...",
 		"providersDropdown": {
 			"title": "Sağlayıcılar",
-			"selected": "{count} seçili",
-			"searchPlaceholder": "Sağlayıcı ara...",
+			"selected": "{count} seçildi",
+			"searchPlaceholder": "Sağlayıcıları ara...",
 			"empty": "Sağlayıcı bulunamadı.",
 			"clear": "Sağlayıcı Filtrelerini Temizle"
 		},
@@ -390,118 +390,118 @@
 			"label": "Kategori:"
 		},
 		"view": {
-			"toggleAria": "Görünüm modu değiştirici",
+			"toggleAria": "Görünüm modunu değiştir",
 			"gridAria": "Izgara görünümü",
 			"listAria": "Liste görünümü"
 		},
 		"loadMore": "Daha Fazla Yükle"
 	},
 	"commonExtra": {
-		"connecting": "Bağlanılıyor...",
+		"connecting": "Bağlanıyor...",
 		"offline": "Çevrimdışı",
 		"online": "Çevrimiçi",
 		"clear": "Temizle"
 	},
 	"home": {
-		"topProviders": "Popüler Oyun Sağlayıcıları"
+		"topProviders": "En İyi Oyun Sağlayıcıları"
 	},
 	"lobby": {
 		"yourFavorites": "Favorileriniz",
 		"featuredCasinoGames": "Öne Çıkan Casino Oyunları",
-		"hotPicks": "Popüler Seçimler",
+		"hotPicks": "Sıcak Seçimler",
 		"slots": "Slotlar",
-		"sports": "Spor",
+		"sports": "Sporlar",
 		"realTimeScoreboard": "Gerçek Zamanlı Skor Tablosu"
 	},
 	"affiliate": {
-		"title": "Yönlendirme Bonusu Programı",
-		"loginPromptTitle": "Yönlendirme Bonusu Programı",
-		"loginPromptSubtitle": "Yönlendirme istatistiklerinizi, bonuslarınızı görmek ve ödülleri talep etmek için giriş yapın.",
-		"goHome": "Anasayfaya Git",
+		"title": "Referans Bonusu Programı",
+		"loginPromptTitle": "Referans Bonusu Programı",
+		"loginPromptSubtitle": "Referans istatistiklerinizi, bonuslarınızı görüntülemek ve ödülleri talep etmek için giriş yapın.",
+		"goHome": "Ana Sayfaya Git",
 		"tabs": {
 			"dashboard": "Panel",
 			"rates": "Komisyon Oranları",
-			"calculator": "Hesap Makinesi"
+			"calculator": "Hesaplayıcı"
 		},
 		"refresh": "Yenile",
 		"refreshing": "Yenileniyor...",
 		"refreshAllSuccess": "Tüm veriler başarıyla yenilendi!",
-		"refreshPartial": "Kısmen yenilendi: {total} bölümden {success} tanesi güncellendi",
+		"refreshPartial": "Kısmen yenilendi: {success}/{total} bölüm güncellendi",
 		"refreshFailed": "Veriler yenilenemedi. Lütfen tekrar deneyin.",
 		"dashboard": {
-			"title": "Ortaklık Paneli",
-			"subtitle": "Yönlendirmelerinizi, kazançlarınızı ve komisyon performansınızı takip edin",
+			"title": "Affiliate Paneli",
+			"subtitle": "Referanslarınızı, kazançlarınızı ve komisyon performansınızı takip edin",
 			"performanceOverview": "Performans Özeti",
-			"referralManagement": "Yönlendirme Yönetimi",
+			"referralManagement": "Referans Yönetimi",
 			"termsAndCommission": "Şartlar ve Komisyon Yapısı",
 			"unclaimedEarnings": "Talep Edilmemiş Kazançlar",
 			"claim": "Talep Et",
-			"claiming": "Talep ediliyor...",
+			"claiming": "Talep Ediliyor...",
 			"totalIncome": "Toplam Gelir",
-			"claimButtonTitle": "Bonus Talep Et",
-			"totalReferrals": "Toplam Yönlendirme",
+			"claimButtonTitle": "Bonusu Talep Et",
+			"totalReferrals": "Toplam Referanslar",
 			"usersUnit": "kullanıcı",
-			"yourReferralLinks": "Yönlendirme Linkleriniz",
-			"referralLinksSubtitle": "Yeni kullanıcılar yönlendirmek ve komisyon kazanmak için bu linkleri paylaşın",
-			"completeReferralLink": "Tam Yönlendirme Linki",
-			"fullReferralPlaceholder": "Tam yönlendirme linki burada görünecektir",
-			"fullReferralHelp": "Kullanıcıların yönlendirme kodunuzla kaydolmak için tıklayabileceği doğrudan link",
-			"referralCodeOnly": "Sadece Yönlendirme Kodu",
-			"yourReferralId": "Yönlendirme ID'niz",
+			"yourReferralLinks": "Referans Linkleriniz",
+			"referralLinksSubtitle": "Yeni kullanıcıları yönlendirmek ve komisyon kazanmak için bu linkleri paylaşın",
+			"completeReferralLink": "Tam Referans Linki",
+			"fullReferralPlaceholder": "Tam referans linki burada görünecektir",
+			"fullReferralHelp": "Kullanıcıların referans kodunuzla kaydolmak için tıklayabileceği doğrudan link",
+			"referralCodeOnly": "Sadece Referans Kodu",
+			"yourReferralId": "Referans ID'niz",
 			"referralIdHelp": "Kullanıcıların kayıt sırasında manuel olarak girmesi için bu kodu paylaşın",
-			"copyFullSuccess": "Tam yönlendirme linki panoya kopyalandı!",
-			"copyIdSuccess": "Yönlendirme ID'si panoya kopyalandı!"
+			"copyFullSuccess": "Tam referans linki panoya kopyalandı!",
+			"copyIdSuccess": "Referans ID panoya kopyalandı!"
 		},
 		"referrals": {
-			"title": "Yönlendirmelerim",
-			"subtitle": "Ortaklık linkleriniz aracılığıyla yönlendirilen tüm kullanıcıları takip edin ve yönetin",
-			"totalReferrals": "toplam yönlendirme",
-			"monitorHelp": "Yönlendirmelerinizin etkinliğini, para yatırma işlemlerini ve oyun alışkanlıklarını izleyin",
+			"title": "Referanslarım",
+			"subtitle": "Affiliate linkleriniz aracılığıyla yönlendirilen tüm kullanıcıları takip edin ve yönetin",
+			"totalReferrals": "toplam referans",
+			"monitorHelp": "Referanslarınızın aktivitesini, yatırımlarını ve oyun modellerini izleyin",
 			"sort": {
 				"placeholder": "Sırala...",
-				"nicknameAsc": "Kullanıcı Adı (A-Z)",
-				"nicknameDesc": "Kullanıcı Adı (Z-A)",
+				"nicknameAsc": "Takma Ad (A-Z)",
+				"nicknameDesc": "Takma Ad (Z-A)",
 				"lastLogin": "Son Giriş",
 				"unclaimedAmount": "Talep Edilmemiş Tutar"
 			},
 			"table": {
-				"nickname": "Kullanıcı Adı",
+				"nickname": "Takma Ad",
 				"totalWager": "Toplam Bahis",
 				"lastLogin": "Son Giriş",
 				"registered": "Kayıt Tarihi",
-				"lastDeposit": "Son Para Yatırma",
-				"depositDate": "Para Yatırma Tarihi",
+				"lastDeposit": "Son Yatırım",
+				"depositDate": "Yatırım Tarihi",
 				"tier": "Seviye"
 			},
 			"empty": {
-				"title": "Yönlendirme bulunamadı",
-				"subtitle": "Kullanıcıları yönlendirmeye başlayarak burada görmeye başlayın."
+				"title": "Referans bulunamadı",
+				"subtitle": "Kullanıcıları yönlendirmeye başlayarak onları burada görün."
 			},
 			"pagination": {
-				"showing": "{total} sonuçtan {from} ile {to} arası gösteriliyor",
+				"showing": "{total} sonuçtan {from} - {to} arası gösteriliyor",
 				"prev": "Önceki",
 				"next": "Sonraki"
 			}
 		},
 		"rates": {
-			"title": "Komisyon Oran Yapısı",
-			"subtitle": "Seviye ve oyun kategorisine göre kazanç yüzdeleri",
+			"title": "Komisyon Oranı Yapısı",
+			"subtitle": "Seviye düzeyi ve oyun kategorisine göre kazanç yüzdeleri",
 			"overview": {
 				"title": "Genel Bakış",
-				"body": "Yönlendirme Bonusu, ortakları Slotlar, Canlı Casino, Spor Bahisleri ve Piyango'da yönlendirilen oyuncuların bahis cirosuna göre ödüllendirir. Komisyonlar her 24 saatte bir hesaplanır ve kazançlar farklı ciro seviyelerine dayanır."
+				"body": "Referans Bonusu, yönlendirilen oyuncuların Slotlar, Canlı Casino, Spor Bahisleri ve Piyango'daki bahis cirosuna (turnover) dayalı olarak iştirakleri ödüllendirir. Komisyonlar her 24 saatte bir hesaplanır ve kazançlar farklı ciro seviyelerine dayanır."
 			},
 			"calculation": {
 				"title": "Komisyonlar Nasıl Hesaplanır",
 				"desc": "Komisyonlar, yönlendirilen oyuncuların toplam bahislerine göre her 24 saatte bir hesaplanır. \nÖrnekler:",
 				"exampleTitle": "Seviye {tier}:",
-				"wagerIn": "{gameType} oyununda {amount} bahis yap"
+				"wagerIn": "{gameType} içinde {amount} bahis"
 			},
 			"table": {
-				"tierLevel": "Seviye",
+				"tierLevel": "Seviye Düzeyi",
 				"wagerRange": "Bahis Aralığı",
 				"slots": "Slotlar",
 				"liveCasino": "Canlı Casino",
-				"sports": "Spor",
+				"sports": "Sporlar",
 				"tierPrefix": "SEVİYE",
 				"commissionLevel": "Komisyon Seviyesi",
 				"dailyWager": "Günlük bahis hacmi"
@@ -509,69 +509,69 @@
 			"claim": {
 				"title": "Talep Etme ve Çekme",
 				"points": {
-					"0": "Komisyonlar hesaplandıktan sonra çekilebilir.",
-					"1": "Talep edilmemiş komisyonların son kullanma tarihi yoktur—talep edilene kadar birikirler.",
-					"2": "Para çekme işlemleri, minimum limitler ve işlem süreleri gibi platformun standart kurallarına tabidir."
+					"0": "Komisyonlar hesaplandıktan sonra çekilebilir hale gelir.",
+					"1": "Talep edilmemiş komisyonlar için bir son kullanma tarihi yoktur — talep edilene kadar birikirler.",
+					"2": "Çekimler, minimum limitler ve işlem süreleri gibi platformun standart kurallarına tabidir."
 				}
 			},
 			"system": {
-				"title": "Sistem Saati ve İşlemleri",
-				"dailyTimeframeLabel": "Günlük Zaman Dilimi:",
-				"dailyTimeframeValue": "00:00 UTC'den 23:59 UTC'ye (her gün).",
+				"title": "Sistem Saati ve Operasyonlar",
+				"dailyTimeframeLabel": "Günlük Zaman Çerçevesi:",
+				"dailyTimeframeValue": "00:00 UTC - 23:59 UTC (her gün).",
 				"claimDailyLabel": "Günlük Talep:",
-				"claimDailyValue": "Her gün 14:00 UTC'de mevcuttur (Yerel Saatiniz: {local}).",
-				"note": "Not: Farklı zaman dilimlerindeki sağlayıcılarla çalışsak da, tutarlılığı sağlamak ve karışıklığı önlemek için tüm hesaplamalar UTC'yi takip eder."
+				"claimDailyValue": "Her gün 14:00 UTC'de kullanılabilir (Yerel Saatiniz: {local}).",
+				"note": "Not: Farklı saat dilimlerindeki sağlayıcılarla çalışmamıza rağmen, tutarlılığı sağlamak ve karışıklığı önlemek için tüm hesaplamalar UTC'ye göre yapılır."
 			},
 			"amendments": {
 				"title": "Değişiklikler",
-				"body": "Bu şartları istediğimiz zaman güncelleyebiliriz. Değişiklikler yayınlandığı anda yürürlüğe girer ve katılmaya devam etmeniz yeni şartları kabul ettiğiniz anlamına gelir."
+				"body": "Bu şartları herhangi bir zamanda güncelleyebiliriz. Değişiklikler yayınlandığı anda yürürlüğe girer ve katılımın devam etmesi, yeni şartları kabul ettiğiniz anlamına gelir."
 			},
 			"footer": {
-				"schedule": "Komisyon Takvimi:",
-				"availableDaily": "Her gün şu saatte mevcut:",
+				"schedule": "Komisyon Programı:",
+				"availableDaily": "Günlük kullanılabilirlik saati",
 				"localTimeLabel": "(Yerel Saatiniz: {time})"
 			}
 		},
 		"calculator": {
 			"title": "Kazanç Hesaplayıcı",
-			"subtitle": "Yönlendirmelerinizin bahis tutarlarına göre komisyon kazançlarınızı tahmin edin",
+			"subtitle": "Referanslarınızın bahis miktarlarına göre komisyon kazançlarınızı tahmin edin",
 			"interactive": {
-				"title": "Etkileşimli Araç:",
-				"body": "Tüm seviyelerdeki potansiyel kazançları görmek için farklı bahis tutarları girin"
+				"title": "İnteraktif Araç:",
+				"body": "Tüm seviyelerdeki potansiyel kazançları görmek için farklı bahis miktarları girin"
 			},
 			"potentialEarnings": "Potansiyel Kazançlar",
-			"basedOnRate": "%{percentage} komisyon oranına göre",
+			"basedOnRate": "%{percentage} komisyon oranına dayalı",
 			"tier": "Seviye {level}",
 			"commissionLevel": "Komisyon Seviyesi {level}",
 			"enterWager": "Bahis Tutarını Girin (USD)",
-			"wagerPlaceholder": "örn: 1000",
+			"wagerPlaceholder": "örn. 1000",
 			"calcFor": "${amount} bahis için kazanç hesaplanıyor",
 			"totalPotential": "Toplam Potansiyel Kazanç:",
 			"combinedAtTier": "Seviye {level}'deki tüm oyun türlerinden birleşik kazançlar"
 		}
 	},
 	"bonus": {
-		"title": "Çevrim Bonusu Programı",
-		"loginPromptTitle": "Çevrim Bonusu Programı",
+		"title": "Ciro Bonusu Programı",
+		"loginPromptTitle": "Ciro Bonusu Programı",
 		"loginPromptSubtitle": "Bonus istatistiklerinizi görmek ve ödüllerinizi talep etmek için giriş yapın.",
-		"goHome": "Anasayfaya Git",
+		"goHome": "Ana Sayfaya Git",
 		"tabs": {
 			"dashboard": "Panel",
 			"claims": "Talepler",
 			"rates": "Bonus Oranları",
-			"calculator": "Hesap Makinesi"
+			"calculator": "Hesaplayıcı"
 		},
 		"refresh": "Yenile",
 		"refreshing": "Yenileniyor...",
 		"refreshAllSuccess": "Tüm veriler başarıyla yenilendi!",
-		"refreshPartial": "Kısmen yenilendi: {total} bölümden {success} tanesi güncellendi",
+		"refreshPartial": "Kısmen yenilendi: {success}/{total} bölüm güncellendi",
 		"refreshFailed": "Veriler yenilenemedi. Lütfen tekrar deneyin.",
 		"dashboard": {
 			"title": "Bonus Paneli",
 			"subtitle": "Bahislerinizi, bonuslarınızı ve ödül kazançlarınızı takip edin",
 			"claimButtonTitle": "Talep Et",
 			"performanceOverview": "Bonus Özeti",
-			"bonusRatesTitle": "Bonus Oran Yapısı",
+			"bonusRatesTitle": "Bonus Oranı Yapısı",
 			"totalIncome": "Toplam Bonus",
 			"pendingBonus": "Bekleyen Bonus",
 			"lastClaim": "Son Talep",
@@ -579,35 +579,35 @@
 			"claim": {
 				"title": "Talep Etme ve Çekme",
 				"points": {
-					"0": "Komisyonlar hesaplandıktan sonra çekilebilir.",
-					"1": "Talep edilmemiş komisyonların son kullanma tarihi yoktur—talep edilene kadar birikirler.",
-					"2": "Para çekme işlemleri, minimum limitler ve işlem süreleri gibi platformun standart kurallarına tabidir."
+					"0": "Komisyonlar hesaplandıktan sonra çekilebilir hale gelir.",
+					"1": "Talep edilmemiş komisyonlar için bir son kullanma tarihi yoktur — talep edilene kadar birikirler.",
+					"2": "Çekimler, minimum limitler ve işlem süreleri gibi platformun standart kurallarına tabidir."
 				}
 			},
-			"claiming": "Talep ediliyor...",
+			"claiming": "Talep Ediliyor...",
 			"section2": {
 				"title": "Uygunluk",
 				"content": "Katılmak için:"
 			},
 			"section3": {
-				"title": "Çevrim Seviyeleri ve Oranları",
-				"content": "Bonuslar günlük bahis tutarlarınıza göre hesaplanır:",
+				"title": "Ciro Seviyeleri ve Oranları",
+				"content": "Bonuslar günlük bahis miktarlarınıza göre hesaplanır:",
 				"noteTitle": "Not",
-				"noteContent": "Seviyeler her gün 14:00 UTC'de değerlendirilir. Bir önceki günkü bahis hacminiz bugünkü bonus oranınızı belirler. Oranlar tüm oyun türleri için geçerlidir: Slotlar, Canlı Casino ve Spor."
+				"noteContent": "Seviyeler her gün 14:00 UTC'de değerlendirilir. Önceki günkü bahis hacminiz bugünün bonus oranını belirler. Oranlar tüm oyun türleri için geçerlidir: Slotlar, Canlı Casino ve Sporlar."
 			}
 		},
 		"claims": {
 			"title": "Talep Geçmişi",
-			"subtitle": "Bonus taleplerinizi ve bahis etkinliğinizi takip edin",
+			"subtitle": "Bonus taleplerinizi ve bahis aktivitenizi takip edin",
 			"tableHeaders": {
 				"date": "Bahis Tarihi",
 				"slots": "Slotlar",
 				"liveCasino": "Canlı Casino",
-				"sports": "Spor",
+				"sports": "Sporlar",
 				"total": "Toplam",
 				"tier": "Seviye",
 				"unclaimed": "Talep Edilmemiş",
-				"token": "Jeton"
+				"token": "Token"
 			},
 			"tierPrefix": "Seviye",
 			"availableToClaim": "Talep Edilebilir",
@@ -618,7 +618,7 @@
 			"currentTier": "Mevcut Seviye",
 			"nextTier": "Sonraki Seviye",
 			"wagerProgress": "Bahis İlerlemesi",
-			"totalWagered": "Bugün Toplam Bahis Yapılan",
+			"totalWagered": "Bugün Toplam Oynanan",
 			"toNextTier": "sonraki seviyeye ulaşmak için",
 			"empty": {
 				"title": "Henüz Bonus Talebi Yok",
@@ -626,11 +626,11 @@
 			}
 		},
 		"rates": {
-			"title": "Çevrim Seviyeleri ve Oranları",
+			"title": "Ciro Seviyeleri ve Oranları",
 			"subtitle": "Bahis seviyesi ve oyun kategorisine göre bonus yüzdeleri",
 			"overview": {
 				"title": "Genel Bakış",
-				"body": "Çevrim Bonusu, kullanıcıları Slot, Canlı Casino, Spor Bahisleri ve Piyango'daki bahislerine göre ödüllendirir. Bonuslar her 24 saatte bir hesaplanır ve kullanıcılar bahis yaptıktan sonraki gün talep edebilirler. Yedi seviye vardır ve her birinin bahis tutarına bağlı olarak farklı oranları vardır."
+				"body": "Ciro Bonusu, Slot, Canlı Casino, Spor Bahisleri ve Piyango'daki bahislerine dayalı olarak kullanıcıları ödüllendirir. Bonuslar her 24 saatte bir hesaplanır ve kullanıcılar bahis yaptıktan sonraki gün talep edebilirler. Yedi seviye vardır ve her biri bahis miktarına bağlı olarak farklı oranlara sahiptir."
 			},
 			"eligibility": {
 				"title": "Uygunluk",
@@ -645,14 +645,14 @@
 				"title": "Bonuslar Nasıl Hesaplanır",
 				"desc": "Bonuslar, toplam bahislerinize göre her 24 saatte bir hesaplanır. Örnekler:",
 				"exampleTitle": "Seviye {tier}:",
-				"wagerIn": "{gameType} oyununda {amount} bahis yap"
+				"wagerIn": "{gameType} içinde {amount} bahis"
 			},
 			"table": {
-				"tierLevel": "Seviye",
+				"tierLevel": "Seviye Düzeyi",
 				"wagerRange": "Bahis Aralığı",
 				"slots": "Slotlar",
 				"liveCasino": "Canlı Casino",
-				"sports": "Spor",
+				"sports": "Sporlar",
 				"tierPrefix": "SEVİYE",
 				"commissionLevel": "Bonus Seviyesi",
 				"dailyWager": "Günlük bahis hacmi"
@@ -660,42 +660,42 @@
 			"claim": {
 				"title": "Bonusları Talep Etme ve Çekme",
 				"points": {
-					"0": "Bonuslar bahisten 24 saat sonra talep edilebilir hale gelir.",
+					"0": "Bonuslar, bahisten 24 saat sonra talep edilebilir hale gelir.",
 					"1": "Talep edilmemiş bonuslar birikir ve süresi dolmaz.",
-					"2": "Talep etme ve çekme süreci platforma özgü politikalara göre değişebilir."
+					"2": "Talep ve çekim süreci platforma özgü politikalara göre değişebilir."
 				}
 			},
 			"system": {
-				"title": "Sistem Saati ve İşlemleri",
-				"dailyTimeframeLabel": "Günlük Zaman Dilimi:",
-				"dailyTimeframeValue": "00:00 UTC'den 23:59 UTC'ye (her gün).",
+				"title": "Sistem Saati ve Operasyonlar",
+				"dailyTimeframeLabel": "Günlük Zaman Çerçevesi:",
+				"dailyTimeframeValue": "00:00 UTC - 23:59 UTC (her gün).",
 				"claimDailyLabel": "Günlük Talep:",
-				"claimDailyValue": "Her gün 14:00 UTC'de mevcuttur (Yerel Saatiniz: {local}).",
-				"note": "Not: Farklı zaman dilimlerindeki sağlayıcılarla çalışsak da, tutarlılığı sağlamak ve karışıklığı önlemek için tüm hesaplamalar UTC'yi takip eder."
+				"claimDailyValue": "Her gün 14:00 UTC'de kullanılabilir (Yerel Saatiniz: {local}).",
+				"note": "Not: Farklı saat dilimlerindeki sağlayıcılarla çalışmamıza rağmen, tutarlılığı sağlamak ve karışıklığı önlemek için tüm hesaplamalar UTC'ye göre yapılır."
 			},
 			"amendments": {
-				"title": "Değişiklikler ve Diskalifiyeler",
-				"body": "Bu şartları istediğimiz zaman güncelleyebiliriz ve değişiklikler yayınlandığı anda yürürlüğe girer. Sistem hataları, yanlış hesaplamalar veya hile şüphesi durumunda, adaleti sağlamak için bonusları ve hesapları gerektiği gibi ayarlama veya diskalifiye etme hakkını saklı tutarız."
+				"title": "Değişiklikler ve Diskalifikasyonlar",
+				"body": "Bu şartları herhangi bir zamanda güncelleyebiliriz ve değişiklikler yayınlandığı anda yürürlüğe girer. Sistem hataları, yanlış hesaplamalar veya hile şüphesi durumunda, adilliği sağlamak için bonusları ve hesapları gerektiği gibi ayarlama veya diskalifiye etme hakkımızı saklı tutarız"
 			},
 			"footer": {
 				"schedule": "Bonus Takvimi:",
-				"availableDaily": "Her gün şu saatte mevcut:",
+				"availableDaily": "Günlük kullanılabilirlik saati",
 				"localTimeLabel": "(Yerel Saatiniz: {time})"
 			}
 		},
 		"calculator": {
 			"title": "Bonus Hesaplayıcı",
-			"subtitle": "Bahis tutarlarınıza göre bonus kazançlarınızı tahmin edin",
+			"subtitle": "Bahis miktarlarınıza göre bonus kazançlarınızı tahmin edin",
 			"interactive": {
-				"title": "Etkileşimli Araç:",
-				"body": "Tüm seviyelerdeki potansiyel bonusları görmek için farklı bahis tutarları girin"
+				"title": "İnteraktif Araç:",
+				"body": "Tüm seviyelerdeki potansiyel bonusları görmek için farklı bahis miktarları girin"
 			},
 			"potentialEarnings": "Potansiyel Bonus",
-			"basedOnRate": "%{percentage} bonus oranına göre",
+			"basedOnRate": "%{percentage} bonus oranına dayalı",
 			"tier": "Seviye {level}",
 			"commissionLevel": "Bonus Seviyesi {level}",
 			"enterWager": "Bahis Tutarını Girin (USD)",
-			"wagerPlaceholder": "örn: 1000",
+			"wagerPlaceholder": "örn. 1000",
 			"calcFor": "${amount} bahis için bonus hesaplanıyor",
 			"totalPotential": "Toplam Potansiyel Bonus:",
 			"combinedAtTier": "Seviye {level}'deki tüm oyun türlerinden birleşik bonus"
@@ -703,22 +703,22 @@
 		"claimSuccessModal": {
 			"title": "Talep Başarılı",
 			"statusCompleted": "Tamamlandı",
-			"statusOnChain": "Zincir Üzerinde",
+			"statusOnChain": "Zincir Üstü (On-Chain)",
 			"claimAmount": "Talep Tutarı",
 			"logoAlt": "{siteName} Logosu",
-			"backgroundAlt": "Talep başarı arkaplanı",
-			"creatingMagic": "Sihir yaratılıyor...",
+			"backgroundAlt": "Talep başarısı arka planı",
+			"creatingMagic": "Sihir Yaratılıyor...",
 			"downloadShare": "İndir ve Paylaş",
-			"spreadTheWin": "KAZANCI YAY",
+			"spreadTheWin": "KAZANCI PAYLAŞ",
 			"socialX": "X",
 			"socialFacebook": "Facebook",
 			"socialWhatsApp": "WhatsApp",
 			"socialTelegram": "Telegram",
 			"socialReddit": "Reddit",
 			"socialMore": "Daha Fazla",
-			"shareText": "Az önce {amount} bonus talep ettim! Bana katılın: {url}",
-			"referralLinkCopied": "Yönlendirme linki kopyalandı!",
-			"referralLinkCopyFailed": "Yönlendirme linki kopyalanamadı",
+			"shareText": "Az önce {amount} bonus talep ettim! Bana katıl: {url}",
+			"referralLinkCopied": "Referans linki kopyalandı!",
+			"referralLinkCopyFailed": "Referans linki kopyalanamadı",
 			"screenshotFailed": "Ekran görüntüsü alınamadı. Lütfen tekrar deneyin veya farklı bir tarayıcı kullanın.",
 			"shareTextCopied": "Paylaşım metni panoya kopyalandı!",
 			"shareFailed": "Paylaşım başarısız oldu. Lütfen tekrar deneyin."
@@ -733,48 +733,48 @@
 		"invalidSession": "Oturumunuz geçersiz veya sağlayıcı eksik. Lütfen tekrar deneyin.",
 		"failedPrefix": "Lobiye girilemedi: {message}",
 		"launchFailedTitle": "Başlatma Başarısız",
-		"returnHome": "Anasayfaya Dön"
+		"returnHome": "Ana Sayfaya Dön"
 	},
 	"play": {
 		"connecting": "Oyun sunucusuna bağlanılıyor...",
-		"invalidSession": "Oturumunuz geçersiz veya süresi dolmuş. Lütfen giriş yapıp tekrar deneyin.",
+		"invalidSession": "Oturumunuz geçersiz veya süresi dolmuş. Lütfen giriş yapın ve tekrar deneyin.",
 		"launchFailedTitle": "Başlatma Başarısız",
-		"returnHome": "Anasayfaya Dön"
+		"returnHome": "Ana Sayfaya Dön"
 	},
 	"modalsIdle": {
 		"badgeLimitedTime": "SINIRLI SÜRELİ TEKLİF",
-		"headline": "%200 Hoş Geldin Bonusu Kazanın!",
-		"subheadline": "Kripto cüzdanınızı şimdi bağlayın ve ilk para yatırmanızda {amount} bonus kazanın!",
-		"featureDepositMatch": "%200 Para Yatırma Bonusu",
+		"headline": "%200 Hoşgeldin Bonusu Alın!",
+		"subheadline": "Kripto cüzdanınızı şimdi bağlayın ve ilk yatırımınızda {amount} tutarına kadar bonus kazanın!",
+		"featureDepositMatch": "%200 Yatırım Eşleşmesi",
 		"featureZeroFees": "Sıfır İşlem Ücreti",
-		"featureInstantWithdrawals": "Anında Para Çekme",
+		"featureInstantWithdrawals": "Anında Çekimler",
 		"featureNoKyc": "KYC Gerekmez",
-		"ctaClaim": "BONUSU ŞİMDİ AL!",
-		"offerExpires": "Teklifin sona ermesine kalan süre:",
-		"disclaimer": "Şartlar ve Koşullar geçerlidir. Kumar risk içerir. Sorumlu bir şekilde oynayın. 18+",
-		"closeAria": "Modülü kapat",
-		"bannerAlt": "Promosyon Afişi",
+		"ctaClaim": "BONUSU ŞİMDİ TALEP ET!",
+		"offerExpires": "Teklifin sona erme süresi:",
+		"disclaimer": "Şartlar ve Koşullar Geçerlidir. Kumar risk içerir. Sorumlu oynayın. 18+",
+		"closeAria": "Modalı kapat",
+		"bannerAlt": "Promosyon Bannerı",
 		"ctaOk": "Cüzdanı Bağla ve Bahis Yapmaya Başla",
 		"enterAmount": "Tutar Girin",
 		"balance": "Bakiye",
 		"max": "Maks",
-		"deposit": "Para Yatırma",
+		"deposit": "Yatırım",
 		"ethereum": "Ethereum"
 	},
 	"modalsSmall": {
 		"close": "Kapat",
-		"firstDepositBoost": "İlk Para Yatırma Bonusu Takviyesi",
+		"firstDepositBoost": "1. Yatırım Bonusu Artışı",
 		"bonus": "Bonus",
 		"min": "Dk",
 		"sec": "Sn",
-		"deposit": "Para Yatırma"
+		"deposit": "Yatırım"
 	},
 	"auth": {
 		"email": {
-			"title": "E-posta ile Giriş",
+			"title": "E-posta Girişi",
 			"description": "Size 6 haneli bir kod göndereceğiz",
 			"emailLabel": "E-posta Adresi",
-			"emailPlaceholder": "isim@eposta.com",
+			"emailPlaceholder": "isim@email.com",
 			"cancel": "İptal",
 			"sending": "Gönderiliyor",
 			"continue": "Devam Et",
@@ -782,42 +782,42 @@
 			"sentTo": "{email} adresine gönderildi",
 			"changeEmail": "E-postayı değiştir",
 			"resendCode": "Kodu tekrar gönder",
-			"resendIn": "{seconds}s içinde tekrar gönder",
+			"resendIn": "{seconds}sn içinde tekrar gönder",
 			"verifying": "Doğrulanıyor",
-			"successTitle": "Giriş Yaptınız",
-			"successSubtitle": "Ayarlar yapılıyor...",
-			"modalAria": "E-posta Doğrulama Modülü",
+			"successTitle": "Giriş yaptınız",
+			"successSubtitle": "Ayarlanıyor...",
+			"modalAria": "E-posta Doğrulama Modalı",
 			"errors": {
 				"invalidEmail": "Lütfen geçerli bir e-posta adresi girin",
 				"sendFailed": "Doğrulama kodu gönderilemedi.",
-				"invalidCode": "Lütfen 6 haneli bir doğrulama kodu girin"
+				"invalidCode": "Lütfen 6 haneli doğrulama kodunu girin"
 			}
 		},
 		"setNickname": {
-			"title": "Kullanıcı Adınızı Belirleyin",
-			"subtitle": "Bu tek seferlik bir kurulumdur ve değiştirilemez",
+			"title": "Takma Adınızı Belirleyin",
+			"subtitle": "Bu tek seferlik bir ayardır ve değiştirilemez",
 			"logoutAria": "Çıkış Yap",
-			"inputPlaceholder": "Benzersiz kullanıcı adınızı seçin",
-			"referrerCheckbox": "Bir yönlendirme ID'm var",
-			"referrerPlaceholder": "Yönlendirme ID'sini girin",
-			"referrerHelp": "İsteğe bağlı. Bu, hesabınızı bonus programları için yönlendiren kişiye bağlar.",
+			"inputPlaceholder": "Benzersiz takma adınızı seçin",
+			"referrerCheckbox": "Bir referans kimliğim var",
+			"referrerPlaceholder": "Referans kimliğini girin",
+			"referrerHelp": "İsteğe bağlı. Bu, hesabınızı bonus programları için referansa bağlar.",
 			"status": {
-				"checking": "Kullanılabilirlik kontrol ediliyor...",
-				"available": "Kullanıcı adı kullanılabilir!",
-				"taken": "Bu kullanıcı adı zaten alınmış."
+				"checking": "Uygunluk kontrol ediliyor...",
+				"available": "Takma ad uygun!",
+				"taken": "Bu takma ad zaten alınmış."
 			},
-			"register": "Kaydol ve Oyna",
+			"register": "Kayıt Ol ve Oyna",
 			"termsTitle": "Şartlar ve Koşullar:",
-			"termsBody": "Bu belgeyi Cüzdanınızla imzalayarak ve/veya bu Web3 Uygulamasını kullanmaya devam ederek, uygulamanın kullanım koşullarını kabul etmiş olursunuz. Kullanım Koşullarını onaylamanız bir blok zinciri işlemi değildir ve herhangi bir maliyeti yoktur.",
+			"termsBody": "Bu belgeyi Cüzdanınızla imzalayarak ve/veya bu Web3 Uygulamasını kullanmaya devam ederek, uygulamanın kullanım koşullarını kabul etmiş olursunuz. Kullanım Koşullarına rızanızı imzalamak bir blok zinciri işlemi değildir ve hiçbir maliyeti yoktur.",
 			"errors": {
-				"verifyNicknameFailed": "Kullanıcı adı doğrulanamadı. Lütfen tekrar deneyin.",
-				"registerFailed": "Kayıt başarısız oldu: {message}"
+				"verifyNicknameFailed": "Takma ad doğrulanamadı. Lütfen tekrar deneyin.",
+				"registerFailed": "Kayıt başarısız: {message}"
 			}
 		},
 		"walletConnect": {
-			"loginWithEmail": "E-posta ile Giriş Yap",
+			"loginWithEmail": "E-posta İle Giriş",
 			"connectWalletBtn": "Cüzdanı Bağla",
-			"loginWithWallet": "Cüzdan ile Giriş Yap",
+			"loginWithWallet": "Cüzdan İle Giriş",
 			"player": "Oyuncu",
 			"walletConnected": "Cüzdan Bağlandı",
 			"emailConnected": "E-posta Bağlandı",
@@ -830,9 +830,9 @@
 		"transactionModal": {
 			"title": "CÜZDAN",
 			"tabs": {
-				"deposit": "Para Yatırma",
+				"deposit": "Yatırım",
 				"tip": "Bahşiş",
-				"withdraw": "Para Çekme",
+				"withdraw": "Çekim",
 				"swap": "Takas",
 				"walletInfo": "Cüzdan",
 				"emailWallet": "E-posta Cüzdanı",
@@ -841,44 +841,44 @@
 			"mobileDropdown": {
 				"emailWallet": "E-posta Cüzdanı",
 				"wallet": "Cüzdan",
-				"deposit": "Para Yatırma",
+				"deposit": "Yatırım",
 				"tip": "Bahşiş",
-				"withdraw": "Para Çekme",
+				"withdraw": "Çekim",
 				"swap": "Takas"
 			}
 		},
 		"networkSelector": {
-			"placeholder": "Ağ Seçin",
+			"placeholder": "Ağ Seç",
 			"switching": "Değiştiriliyor...",
 			"walletNotConnected": "Cüzdan bağlı değil.",
 			"failedToSwitch": "Ağ değiştirilemedi. Lütfen cüzdanınızdan deneyin.",
 			"altLogo": "Ağ logosu"
 		},
 		"tokenList": {
-			"dialogTitle": "Bir Jeton Seçin",
-			"instantDeposit": "Anında Para Yatırma",
+			"dialogTitle": "Bir Token Seçin",
+			"instantDeposit": "Anında Yatırım",
 			"yourWalletBalance": "Cüzdan Bakiyeniz",
-			"searchPlaceholder": "İsim arayın veya adresi yapıştırın",
-			"emptySearch": "Aramanızla eşleşen jeton bulunamadı.",
-			"emptyOwned": "Bakiyesi olan jeton bulunamadı.",
+			"searchPlaceholder": "İsim ara veya adres yapıştır",
+			"emptySearch": "Aramanızla eşleşen token bulunamadı.",
+			"emptyOwned": "Bakiyesi olan token bulunamadı.",
 			"searchResults": "Arama Sonuçları",
-			"yourTokens": "Jetonlarınız",
+			"yourTokens": "Sizin Tokenlarınız",
 			"otherResults": "Diğer Sonuçlar"
 		},
 		"tabsSidebar": {
 			"walletInfo": "Cüzdan",
 			"emailWallet": "E-posta Cüzdanı",
-			"deposit": "Para Yatırma",
-			"withdraw": "Para Çekme",
+			"deposit": "Yatırım",
+			"withdraw": "Çekim",
 			"swap": "Takas"
 		},
 		"depositPanel": {
 			"youPay": "Siz Ödersiniz",
 			"resetForm": "Formu Sıfırla",
 			"enterAmount": "Tutar Girin",
-			"selectToken": "Jeton seçin",
+			"selectToken": "Token seçin",
 			"max": "Maks",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol}, işlem ücretlerini karşılamak ve işlem başarısızlığını önlemek için ayrılmıştır",
+			"maxButtonToolTipText": "Gas ücretlerini karşılamak ve işlem hatasını önlemek için {gasReservationAmount} {selectedTokenSymbol} ayrılmıştır",
 			"balance": "Bakiye:",
 			"calculating": "Hesaplanıyor...",
 			"approxUsd": "~ ${amount} USD",
@@ -888,11 +888,11 @@
 			"walletAddress": "Cüzdan Adresi",
 			"minimumIs": "Minimum {min}",
 			"errors": {
-				"selectTokenAndAmount": "Lütfen bir jeton seçin ve bir tutar girin",
+				"selectTokenAndAmount": "Lütfen bir token seçin ve bir tutar girin",
 				"insufficientBalance": "Bu işlem için yetersiz bakiye",
-				"amountTooHighGas": "İşlem ücretleri dikkate alındığında tutar çok yüksek",
-				"checkForm": "Lütfen formu kontrol edip tekrar deneyin",
-				"pendingDeposit": "Bekleyen bir para yatırma işleminiz var. Lütfen tamamlanmasını bekleyin"
+				"amountTooHighGas": "Gas ücretleri hesaba katıldığında tutar çok yüksek",
+				"checkForm": "Lütfen formu kontrol edin ve tekrar deneyin",
+				"pendingDeposit": "Bekleyen bir yatırımınız var. Lütfen tamamlanmasını bekleyin"
 			},
 			"status": {
 				"processing": "İşleniyor...",
@@ -908,20 +908,20 @@
 			"youTip": "Siz Bahşiş Verirsiniz",
 			"resetForm": "Formu Sıfırla",
 			"enterAmount": "Tutar girin",
-			"selectToken": "Jeton seçin",
+			"selectToken": "Token seçin",
 			"minPrefix": "Minimum",
 			"balance": "Bakiye:",
 			"max": "Maks",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol}, işlem ücretlerini karşılamak ve işlem başarısızlığını önlemek için ayrılmıştır",
+			"maxButtonToolTipText": "Gas ücretlerini karşılamak ve işlem hatasını önlemek için {gasReservationAmount} {selectedTokenSymbol} ayrılmıştır",
 			"approxUsd": "~ ${amount} USD",
-			"tipPanelWarningText": "Bahşişler isteğe bağlıdır ve iade edilmez.",
+			"tipPanelWarningText": "Bahşişler gönüllüdür ve iade edilemez.",
 			"emailWalletAddress": "E-posta Cüzdan Adresi",
 			"errors": {
-				"selectTokenAndAmount": "Lütfen bir jeton seçin ve bir tutar girin.",
+				"selectTokenAndAmount": "Lütfen bir token seçin ve bir tutar girin.",
 				"insufficientBalance": "Yetersiz bakiye.",
 				"belowMinimum": "Tutar en az {min} olmalıdır.",
 				"missingWallet": "Bahşiş cüzdanı alınamadı. Lütfen daha sonra tekrar deneyin.",
-				"checkForm": "Lütfen bahşiş bilgilerinizi doğrulayın."
+				"checkForm": "Lütfen bahşiş detaylarınızı doğrulayın."
 			},
 			"status": {
 				"processing": "Bahşiş gönderiliyor...",
@@ -931,7 +931,7 @@
 				"fetchingWallet": "Bahşiş cüzdanı hazırlanıyor..."
 			},
 			"prompts": {
-				"selectToken": "Jeton seçin",
+				"selectToken": "Token seçin",
 				"enterAmount": "Tutar girin"
 			},
 			"buttons": {
@@ -942,53 +942,53 @@
 		},
 		"tipPending": {
 			"submittedTitle": "Bahşiş Beklemede",
-			"submittedDesc": "Bahşişiniz zincir üzerinde onaylanıyor.",
+			"submittedDesc": "Bahşişiniz zincir üstünde onaylanıyor.",
 			"confirmedTitle": "Bahşiş Onaylandı!",
 			"confirmedDesc": "Bahşişiniz başarıyla teslim edildi.",
-			"viewOnExplorer": "Gezginde Görüntüle",
+			"viewOnExplorer": "Gezginde görüntüle",
 			"newTipPending": "Başka bir bahşiş gönder",
 			"newTipConfirmed": "Başka bir bahşiş gönder"
 		},
 		"swapPanel": {
-			"selectTokens": "Jetonları seçin",
+			"selectTokens": "Tokenleri seçin",
 			"enterAmount": "Tutar girin",
-			"gettingQuote": "Fiyat alınıyor...",
+			"gettingQuote": "Teklif alınıyor...",
 			"confirming": "Onaylanıyor...",
-			"approving": "Onay veriliyor...",
+			"approving": "Onaylanıyor...",
 			"insufficientBalance": "Takas için yetersiz bakiye",
-			"sameToken": "Aynı jetonu takas edemezsiniz",
+			"sameToken": "Aynı token takas edilemez",
 			"approveAndSwap": "Onayla ve Takas Et",
 			"swap": "Takas",
-			"slippageTolerance": "Kayma Toleransı",
+			"slippageTolerance": "Slippage Toleransı",
 			"custom": "Özel",
 			"set": "Ayarla",
-			"currentSlippage": "Mevcut kayma",
+			"currentSlippage": "Mevcut slippage",
 			"swapSuccessful": "Takas Başarılı!",
 			"transactionConfirmed": "İşleminiz gönderildi",
 			"hash": "Hash",
 			"newSwap": "Yeni Takas",
-			"youPay": "Siz ödersiniz",
+			"youPay": "Siz ödüyorsunuz",
 			"max": "Maks",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol}, işlem ücretlerini karşılamak ve işlem başarısızlığını önlemek için ayrılmıştır",
+			"maxButtonToolTipText": "Gas ücretlerini karşılamak ve işlem hatasını önlemek için {gasReservationAmount} {selectedTokenSymbol} ayrılmıştır",
 			"low": "Düşük",
 			"amountPlaceholder": "0",
-			"selectToken": "Jeton Seçin",
-			"youReceive": "Siz alırsınız",
-			"gettingBestQuote": "En iyi fiyat alınıyor...",
+			"selectToken": "Token Seç",
+			"youReceive": "Siz alıyorsunuz",
+			"gettingBestQuote": "En iyi teklif alınıyor...",
 			"gas": "Gas",
 			"minimumReceived": "Minimum alınan",
-			"slippageToleranceLabel": "Kayma toleransı",
-			"gasFee": "İşlem ücreti",
+			"slippageToleranceLabel": "Slippage toleransı",
+			"gasFee": "Gas ücreti",
 			"priceWarning": "Fiyatlar gerçek zamanlı olarak güncellenir ve işleminiz onaylanmadan önce değişebilir",
 			"emailWalletAddress": "E-posta Cüzdan Adresi",
 			"walletAddress": "Cüzdan Adresi",
 			"minimumIs": "Minimum {min}",
 			"errors": {
-				"selectTokenAndAmount": "Lütfen bir jeton seçin ve bir tutar girin",
+				"selectTokenAndAmount": "Lütfen bir token seçin ve bir tutar girin",
 				"insufficientBalance": "Bu işlem için yetersiz bakiye",
-				"amountTooHighGas": "İşlem ücretleri dikkate alındığında tutar çok yüksek",
-				"checkForm": "Lütfen formu kontrol edip tekrar deneyin",
-				"pendingDeposit": "Bekleyen bir para yatırma işleminiz var. Lütfen tamamlanmasını bekleyin"
+				"amountTooHighGas": "Gas ücretleri hesaba katıldığında tutar çok yüksek",
+				"checkForm": "Lütfen formu kontrol edin ve tekrar deneyin",
+				"pendingDeposit": "Bekleyen bir yatırımınız var. Lütfen tamamlanmasını bekleyin"
 			},
 			"status": {
 				"processing": "İşleniyor...",
@@ -1001,21 +1001,21 @@
 			}
 		},
 		"depositPending": {
-			"confirmedTitle": "Para Yatırma Onaylandı!",
+			"confirmedTitle": "Yatırım Onaylandı!",
 			"submittedTitle": "İşlem Gönderildi",
 			"failedTitle": "İşlem Başarısız",
 			"confirmedDesc": "Bakiyeniz güncellendi.",
-			"submittedDesc": "Blok zinciri onayı bekleniyor. Bu birkaç dakika sürebilir.",
+			"submittedDesc": "Blok zinciri onayı bekleniyor. Bu işlem birkaç dakika sürebilir.",
 			"failedDesc": "İşleminiz başarısız oldu. Lütfen tekrar deneyin.",
 			"viewOnExplorer": "Gezginde Görüntüle",
-			"newDepositConfirmed": "Başka Bir Para Yatırma İşlemi Yap",
-			"newDepositPending": "Yeni bir para yatırma işlemi başlat",
+			"newDepositConfirmed": "Başka Bir Yatırım Yap",
+			"newDepositPending": "Yeni bir yatırım başlat",
 			"newDepositFailed": "Tekrar Dene"
 		},
 		"withdrawPanel": {
 			"resetForm": "Formu Sıfırla",
-			"networkNotSupported": "Para çekme işlemleri yalnızca Arbitrum, Polygon, Optimism ve BNB'de desteklenmektedir",
-			"youWithdraw": "Siz Çekersiniz",
+			"networkNotSupported": "Çekimler yalnızca Arbitrum, Polygon, Optimism ve BNB üzerinde desteklenmektedir",
+			"youWithdraw": "Siz Çekiyorsunuz",
 			"loading": "Yükleniyor...",
 			"amount": "Tutar",
 			"max": "Maks",
@@ -1028,7 +1028,7 @@
 			"emailWalletAddress": "E-posta Cüzdan Adresi",
 			"walletAddress": "Cüzdan Adresi",
 			"errors": {
-				"pendingWithdrawal": "Zaten bekleyen bir para çekme işleminiz var",
+				"pendingWithdrawal": "Zaten bekleyen bir çekim işleminiz var",
 				"invalidAddress": "Geçersiz Adres",
 				"enterAmount": "Tutar Girin",
 				"networkNotSupported": "Ağ Desteklenmiyor"
@@ -1036,7 +1036,7 @@
 			"status": {
 				"processing": "İşleniyor...",
 				"insufficientBalance": "Yetersiz Bakiye",
-				"pendingWithdrawal": "Zaten Bekleyen Para Çekme İşlemi Var"
+				"pendingWithdrawal": "Zaten Bekleyen Çekim Var"
 			},
 			"buttons": {
 				"withdraw": "{amount} {symbol} Çek",
@@ -1044,33 +1044,33 @@
 			}
 		},
 		"withdrawSuccess": {
-			"title": "Para Çekme Başarılı!",
-			"successMessage": "🎉 Az önce {siteName} sitesinden {withdrawAmount} {tokenSymbol} çektim! 🚀 Kazanan serisine katılın: {shareUrl}",
+			"title": "Çekim Başarılı!",
+			"successMessage": "🎉 Az önce {siteName} üzerinden {withdrawAmount} {tokenSymbol} çektiniz! 🚀 Kazananlar arasına {shareUrl} adresinde katılın",
 			"withdrawnAmount": "Çekilen Tutar",
 			"shareText": "Paylaş",
-			"subText": "🚀 KAZANAN SERİSİNE KATILIN! 🚀",
+			"subText": "🚀 KAZANANLAR ARASINA KATILIN! 🚀",
 			"generating": "Oluşturuluyor...",
 			"screenshot": "Ekran Görüntüsü Al",
 			"download": "Görseli İndir",
 			"close": "Kapat",
-			"copiedToClipboard": "Paylaşım linki başarıyla kopyalandı",
+			"copiedToClipboard": "Paylaşım Linki başarıyla Kopyalandı",
 			"userName": "{siteName} Oyuncusu",
 			"status": "Tamamlandı",
 			"entryPrice": "Çekim Tutarı",
-			"lastPrice": "Jeton Sembolü",
-			"referralCode": "Yönlendirme Kodu",
-			"screenshotFailed": "Ekran görüntüsü alınamadı. Lütfen tekrar deneyin veya farklı bir tarayıcı kullanın.",
-			"shareFailed": "Paylaşım başarısız oldu. Lütfen tekrar deneyin."
+			"lastPrice": "Token Sembolü",
+			"referralCode": "Referans Kodu",
+			"screenshotFailed": "Ekran görüntüsü başarısız. Lütfen tekrar deneyin veya farklı bir tarayıcı kullanın.",
+			"shareFailed": "Paylaşım başarısız. Lütfen tekrar deneyin."
 		},
 		"withdrawPending": {
-			"confirmedTitle": "Para Çekme Onaylandı!",
+			"confirmedTitle": "Çekim Onaylandı!",
 			"submittedTitle": "İşlem Gönderildi",
-			"confirmedDesc": "Paranız yolda.",
+			"confirmedDesc": "Fonlarınız yolda.",
 			"submittedDesc": "Blok zinciri onayı bekleniyor...",
 			"viewOnExplorer": "Gezginde Görüntüle",
-			"manualApproval": "Bu para çekme işlemi manuel onay gerektirir.",
-			"newWithdrawalConfirmed": "Başka Bir Para Çekme İşlemi Yap",
-			"newWithdrawalPending": "Yeni Bir Para Çekme İşlemi Başlat"
+			"manualApproval": "Bu çekim manuel onay gerektiriyor.",
+			"newWithdrawalConfirmed": "Başka Bir Çekim Yap",
+			"newWithdrawalPending": "Yeni Bir Çekim Başlat"
 		},
 		"withdrawSummary": {
 			"youWillReceive": "Alacağınız Tutar"
@@ -1086,28 +1086,28 @@
 	"games": {
 		"pageTitle": "Tüm Oyunlar",
 		"playNow": "Şimdi Oyna",
-		"byProvider": "{name} tarafından",
+		"byProvider": "{name} Tarafından",
 		"count": "{count} Oyun",
 		"noResults": "Kriterlerinize uygun oyun bulunamadı.",
 		"errorLoading": "Oyunlar yüklenemedi. Lütfen daha sonra tekrar deneyin.",
 		"slots": "Slotlar",
-		"sports": "Spor",
+		"sports": "Sporlar",
 		"liveCasino": "Canlı Casino",
 		"explore": "Keşfet",
-		"exploreSubtitle": "Harika oyun deneyimleri keşfedin",
+		"exploreSubtitle": "Harika oyun deneyimlerini keşfedin",
 		"poker": "Poker",
 		"lottery": "Piyango",
 		"futures": "Vadeli İşlemler",
 		"vr": "VR",
 		"swap": "Takas",
-		"slotsDescription": "Makaraları çevirin ve devasa jackpotlar kazanın",
-		"liveCasinoDescription": "Canlı krupiyelerle gerçek zamanlı casino heyecanını yaşayın",
-		"sportsDescription": "Favori takımlarınıza ve spor etkinliklerinize bahis yapın",
-		"pokerDescription": "Klasik poker oyunlarında becerilerinizi test edin",
-		"lotteryDescription": "Piyango ve anında kazanç oyunlarıyla şansınızı deneyin",
-		"futuresDescription": "Piyasa hareketlerini tahmin edin ve ticaret yapın",
-		"vrDescription": "Sanal gerçeklik oyunlarına dalın",
-		"swapDescription": "Jetonları ve kripto paraları sorunsuzca takas edin",
+		"slotsDescription": "Makaraları döndürün ve devasa jackpotlar kazanın",
+		"liveCasinoDescription": "Canlı krupiyelerle gerçek zamanlı casino aksiyonunu deneyimleyin",
+		"sportsDescription": "Favori takımlarınıza ve spor etkinliklerine bahis yapın",
+		"pokerDescription": "Klasik poker oyunlarında yeteneklerinizi test edin",
+		"lotteryDescription": "Piyango ve anında kazanma oyunlarıyla şansınızı deneyin",
+		"futuresDescription": "İşlem yapın ve piyasa hareketlerini tahmin edin",
+		"vrDescription": "Kendinizi sanal gerçeklik oyunlarına kaptırın",
+		"swapDescription": "Tokenleri ve kripto paraları sorunsuz bir şekilde değiştirin",
 		"categories": {
 			"slot": {
 				"title": "Slot Oyunları"
@@ -1128,84 +1128,84 @@
 	},
 	"providers": {
 		"pageTitle": "Tüm Oyun Sağlayıcıları",
-		"searchPlaceholder": "Bir sağlayıcı arayın...",
+		"searchPlaceholder": "Bir sağlayıcı ara...",
 		"empty": "Aramanızla eşleşen sağlayıcı bulunamadı.",
 		"logoAlt": "{name} logosu",
 		"filteredBy": "Kategoriye göre filtrelendi:",
 		"clearFilter": "Filtreyi temizle",
 		"categories": {
 			"slot": {
-				"title": "Slot Oyunu Sağlayıcıları"
+				"title": "Slot Oyun Sağlayıcıları"
 			},
 			"liveCasino": {
 				"title": "Canlı Casino Sağlayıcıları"
 			},
 			"sports": {
-				"title": "Spor Bahisleri Sağlayıcıları"
+				"title": "Spor Bahis Sağlayıcıları"
 			},
 			"rng": {
-				"title": "RNG Oyunu Sağlayıcıları"
+				"title": "RNG Oyun Sağlayıcıları"
 			},
 			"other": {
-				"title": "{category} Oyunu Sağlayıcıları"
+				"title": "{category} Oyun Sağlayıcıları"
 			}
 		}
 	},
 	"hero": {
 		"guest": {
 			"title": "Aksiyona Katılın",
-			"subtitle": "Hemen kaydolun ve özel bir hoş geldin bonusu kazanın!",
-			"cta": "Hemen Kaydol"
+			"subtitle": "Şimdi kaydolun ve özel bir hoş geldin bonusu kazanın!",
+			"cta": "Şimdi Kaydol"
 		},
 		"welcome": {
 			"title1": "Hoş Geldin Bonusu",
 			"title2": "%590'a Kadar",
 			"subtitle": "+ 225 Ücretsiz Döndürme",
-			"cta": "Yatır ve Kazan"
+			"cta": "Yatır & Kazan"
 		},
 		"jackpot": {
 			"title1": "Mega Jackpot",
-			"title2": "1.000.000 $",
-			"subtitle": "Şimdi Oyna ve Büyük Kazan",
+			"title2": "$1,000,000",
+			"subtitle": "Şimdi Oyna & Büyük Kazan",
 			"cta": "Şimdi Oyna"
 		},
 		"cards": {
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ OYUN",
-				"desc": "{siteName} Orijinallerinin ve popüler sağlayıcıların diğer casino oyunlarının keyfini çıkarın.",
+				"desc": "{siteName} Originals ve en iyi sağlayıcılardan diğer casino oyunlarının keyfini çıkarın.",
 				"link": "Casino'ya Git"
 			},
 			"slots": {
 				"title": "Slotlar",
 				"badge": "5292 OYUN",
-				"desc": "Premium slot koleksiyonumuzla makaraları çevirin ve devasa jackpotlar kazanın.",
+				"desc": "Makaraları döndürün ve premium slot koleksiyonumuzla devasa jackpotları vurun.",
 				"link": "Slotlara Git"
 			},
 			"sports": {
-				"title": "Spor",
+				"title": "Sporlar",
 				"badge": "3 OYUN",
-				"desc": "Favori takımlarınıza ve spor etkinliklerinize rekabetçi oranlarla bahis yapın.",
-				"link": "Spora Git"
+				"desc": "Rekabetçi oranlarla favori takımlarınıza ve spor etkinliklerine bahis yapın.",
+				"link": "Sporlara Git"
 			},
 			"crypto": {
-				"title": "Kripto ve Kazan",
+				"title": "Kripto & Kazan",
 				"badge": "%60 APR",
 				"desc": "Cazip oranlarla kripto para ile stake yapın, ticaret yapın ve kazanın.",
-				"link": "Kripto'ya Git"
+				"link": "Kriptoya Git"
 			}
 		},
 		"layout3": {
-			"headerTitle": "Öne Çıkan Oyun",
-			"headerSubtitle": "Özenle seçilmiş koleksiyonumuzda harika oyunlar keşfedin ve yeni maceralara atılın",
+			"headerTitle": "Oyun Vitrini",
+			"headerSubtitle": "Muhteşem oyunları keşfedin ve küratörlü koleksiyonumuzda yeni maceraları keşfedin",
 			"slider1Title": "Öne Çıkan Oyunlar",
-			"slider1Badge": "Personel Seçimleri",
-			"slider2Title": "Keşfedilecek Daha Fazlası",
-			"slider2Badge": "Trendler",
+			"slider1Badge": "Personel Seçimi",
+			"slider2Title": "Daha Fazla Keşfet",
+			"slider2Badge": "Trend Olan",
 			"featuredGameLabel": "Öne Çıkan Oyun"
 		},
 		"ctaExploreGames": "Oyunları Keşfet",
-		"ctaJoinAffiliate": "Ortaklığa Katıl"
+		"ctaJoinAffiliate": "Affiliate Ol"
 	},
 	"betting": {
 		"live": {
@@ -1234,10 +1234,10 @@
 				"game": "Oyun Adı",
 				"time": "Zaman",
 				"provider": "Sağlayıcı",
-				"nickname": "Kullanıcı Adı",
+				"nickname": "Takma Ad",
 				"bet": "Bahis",
 				"multiplier": "Çarpan",
-				"profit": "Kâr"
+				"profit": "Kazanç"
 			},
 			"empty": "Bahis kaydı bulunamadı"
 		}
@@ -1246,13 +1246,13 @@
 		"changeFont": "Yazı Tipini Değiştir",
 		"fontSettings": "Yazı Tipi Ayarları",
 		"current": "Mevcut",
-		"browseGoogleFonts": "Google Yazı Tiplerine Göz At",
+		"browseGoogleFonts": "Google Fonts'a Göz At",
 		"uploadCustomFont": "Özel Yazı Tipi Yükle",
 		"quickUploadFontFile": "Hızlı Yazı Tipi Dosyası Yükle",
 		"resetToDefault": "Varsayılana Sıfırla",
 		"googleFonts": {
-			"title": "Google Yazı Tipleri",
-			"searchFonts": "Yazı tipi ara...",
+			"title": "Google Fonts",
+			"searchFonts": "Yazı tiplerini ara...",
 			"preview": "Önizleme",
 			"previewText": "Hızlı kahverengi tilki tembel köpeğin üzerinden atlar",
 			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
@@ -1293,12 +1293,12 @@
 	},
 	"contact": {
 		"title": "Bize Ulaşın",
-		"subtitle": "Sorularınız mı var veya yardıma mı ihtiyacınız var? Özel destek ekibimiz size günün her saati yardımcı olmak için burada.",
+		"subtitle": "Sorularınız mı var veya yardıma mı ihtiyacınız var? Özel destek ekibimiz günün her saati size yardımcı olmak için burada.",
 		"methods": {
 			"liveChat": {
 				"title": "Canlı Sohbet",
-				"description": "Destek ekibimizden canlı sohbet yoluyla anında yardım alın.",
-				"availability": "7/24 Mevcut"
+				"description": "Canlı sohbet yoluyla destek ekibimizden anında yardım alın.",
+				"availability": "7/24 Kullanılabilir"
 			},
 			"email": {
 				"title": "E-posta Desteği",
@@ -1307,20 +1307,20 @@
 			},
 			"support": {
 				"title": "Yardım Merkezi",
-				"description": "Hızlı yanıtlar için kapsamlı bilgi bankamıza göz atın.",
-				"availability": "Self-servis mevcut"
+				"description": "Hızlı cevaplar için kapsamlı bilgi tabanımıza göz atın.",
+				"availability": "Self servis mevcut"
 			}
 		},
 		"form": {
 			"title": "Bize Mesaj Gönderin",
-			"name": "Tam Ad",
-			"namePlaceholder": "Tam adınızı girin",
+			"name": "Ad Soyad",
+			"namePlaceholder": "Adınızı ve soyadınızı girin",
 			"email": "E-posta Adresi",
 			"emailPlaceholder": "E-posta adresinizi girin",
 			"subject": "Konu",
-			"subjectPlaceholder": "Sorunuz ne hakkında?",
+			"subjectPlaceholder": "Sorgunuz ne hakkında?",
 			"message": "Mesaj",
-			"messagePlaceholder": "Lütfen sorunuzu ayrıntılı olarak açıklayın...",
+			"messagePlaceholder": "Lütfen sorgunuzu detaylı bir şekilde açıklayın...",
 			"submit": "Mesaj Gönder",
 			"sending": "Gönderiliyor...",
 			"errors": {
@@ -1334,10 +1334,10 @@
 		},
 		"responseTime": {
 			"title": "Beklenen Yanıt Süreleri",
-			"description": "Tüm sorulara mümkün olan en kısa sürede yanıt vermeye çalışıyoruz.",
+			"description": "Tüm sorgulara mümkün olan en kısa sürede yanıt vermeye çalışıyoruz.",
 			"liveChat": {
 				"title": "Canlı Sohbet",
-				"time": "2 dakikadan az"
+				"time": "2 dakikanın altında"
 			},
 			"email": {
 				"title": "E-posta",
@@ -1356,16 +1356,16 @@
 					"answer": "Giriş sayfasındaki 'Şifremi Unuttum' bağlantısına tıklayarak şifrenizi sıfırlayabilirsiniz. Kayıtlı e-posta adresinizi girin ve gelen kutunuza gönderilen talimatları izleyin."
 				},
 				{
-					"question": "Para çekme işlemlerinin işlenmesi ne kadar sürer?",
-					"answer": "Çoğu kripto para çekme işlemi anında işlenir. Bazı durumlarda, 24 saate kadar sürebilen manuel doğrulama gerekebilir."
+					"question": "Çekimlerin işlenmesi ne kadar sürer?",
+					"answer": "Çoğu kripto para çekimi anında işlenir. Bazı durumlarda, manuel doğrulama gerekebilir ve bu işlem 24 saate kadar sürebilir."
 				},
 				{
 					"question": "Hangi kripto paraları kabul ediyorsunuz?",
-					"answer": "Bitcoin (BTC), Ethereum (ETH), USDT, USDC ve birden fazla blok zinciri ağında diğer popüler tokenler dahil olmak üzere başlıca kripto para birimlerini kabul ediyoruz."
+					"answer": "Bitcoin (BTC), Ethereum (ETH), USDT, USDC ve birden fazla blok zinciri ağındaki diğer popüler tokenler dahil olmak üzere başlıca kripto paraları kabul ediyoruz."
 				},
 				{
 					"question": "Hesabımı nasıl doğrulayabilirim?",
-					"answer": "Hesap doğrulaması profil ayarlarınızdan tamamlanabilir. Hesap seviyenize ve para çekme limitlerinize bağlı olarak kimlik belgeleri sağlamanız gerekebilir."
+					"answer": "Hesap doğrulama işlemi profil ayarlarınızdan tamamlanabilir. Hesap seviyenize ve çekim limitlerinize bağlı olarak kimlik belgeleri sağlamanız gerekebilir."
 				},
 				{
 					"question": "Kişisel bilgilerim güvende mi?",
@@ -1376,51 +1376,51 @@
 	},
 	"about": {
 		"title": "🎮 {siteName} Hakkında",
-		"subtitle": "{siteName}'de oyun oynamak sadece bir eğlence değil, bir deneyimdir.",
+		"subtitle": "{siteName}'da oyun oynamak sadece bir hobi değil — bir deneyimdir.",
 		"meta": {
 			"title": "{siteName} Hakkında | Güvenilir Küresel Online Casino Platformu",
 			"description": "{siteName} hakkında bilgi edinin — slotlar, canlı casino, spor bahisleri ve poker sunan güvenli, küresel bir casino platformu. Adil, hızlı ve gerçek oyuncular için tasarlandı."
 		},
 		"intro": {
-			"paragraph1": "{siteName}'de oyun oynamak sadece bir eğlence değil, bir deneyimdir.|Bu platformu sadece şanstan daha fazlasını bekleyen oyuncular için inşa ettik — hız, adalet ve dünya standartlarında bir oyun ortamı isteyen oyuncular için.",
-			"paragraph2": "İlk günden beri hedefimiz netti: gerçek, güvenli ve heyecan verici hissettiren bir oyun alanı yaratmak. İster canlı casino oyunları, ister spor bahisleri, poker veya yüksek ödüllü slotlar için burada olun, {siteName} hepsini güvenilir bir çatı altında bir araya getiriyor."
+			"paragraph1": "{siteName}'da oyun oynamak sadece bir hobi değil — bir deneyimdir.|Bu platformu, şanstan fazlasını bekleyen oyuncular için — hız, adalet ve dünya standartlarında bir oyun ortamı isteyen oyuncular için — inşa ettik.",
+			"paragraph2": "İlk günden beri hedefimiz netti: gerçek, güvenli ve heyecan verici hissettiren bir oyun alanı yaratmak. İster canlı casino oyunları, spor bahisleri, poker veya yüksek ödüllü slotlar için burada olun, {siteName} hepsini tek bir güvenilir isim altında topluyor."
 		},
 		"whoWeAre": {
 			"title": "💎 Biz Kimiz",
-			"paragraph1": "{siteName}, oyuncuları binlerce yüksek kaliteli casino ve bahis oyununa bağlayan küresel bir online oyun platformudur.|Pragmatic Play, Red Tiger, Microgaming ve KA Gaming gibi sektörün en saygın sağlayıcılarıyla çalışarak her cihazda sorunsuz bir deneyim sunuyoruz.",
-			"paragraph2": "Her özellik, her çevirme ve dağıtılan her kart, sizi gerçek oyun heyecanına daha da yaklaştırmak için tasarlanmıştır — her şeyi şeffaf ve adil tutarken."
+			"paragraph1": "{siteName}, oyuncuları binlerce yüksek kaliteli casino ve bahis oyunuyla buluşturan küresel bir çevrimiçi oyun platformudur.|Her cihazda sorunsuz bir deneyim sunmak için Pragmatic Play, Red Tiger, Microgaming ve KA Gaming dahil olmak üzere sektörün en saygın sağlayıcılarıyla çalışıyoruz.",
+			"paragraph2": "Her özellik, her dönüş ve dağıtılan her kart, her şeyi şeffaf ve adil tutarken sizi gerçek oyun heyecanına yaklaştırmak için tasarlanmıştır."
 		},
 		"mission": {
 			"title": "🎯 Misyonumuz",
-			"paragraph1": "Online oyunu herkes için basit, güvenli ve ödüllendirici hale getirmek.|Oyunun mekanik değil, kişisel hissettirmesi gerektiğine inanıyoruz — bu yüzden hızlı işlemlere, akıcı tasarıma ve 7/24 ulaşılabilen güvenilir müşteri desteğine odaklanıyoruz.",
-			"paragraph2": "{siteName}'de oyuncular her zaman önce gelir. Güveniniz, her gün gelişmeye devam etmemizi sağlayan şeydir."
+			"paragraph1": "Çevrimiçi oyunları herkes için basit, güvenli ve ödüllendirici hale getirmek.|Oyunun mekanik değil kişisel hissettirmesi gerektiğine inanıyoruz — bu yüzden hızlı işlemlere, pürüzsüz tasarıma ve 7/24 erişilebilir güvenilir müşteri desteğine odaklanıyoruz.",
+			"paragraph2": "{siteName}'da oyuncular her zaman önce gelir. Sizin güveniniz, bizi her gün daha iyiye gitmeye iten şeydir."
 		},
 		"whatMakesUsDifferent": {
-			"title": "🏆 {siteName}'i Farklı Kılan Nedir",
+			"title": "🏆 {siteName}'ı Farklı Kılan Nedir",
 			"features": [
-				"Slotlar, poker, spor ve canlı casinoda 5.000'den fazla oyun",
+				"Slotlar, poker, spor ve canlı casino genelinde 5.000+ oyun",
 				"Anında para yatırma ve çekme ile güvenli işlemler",
-				"RNG sertifikalı oyunlar aracılığıyla doğrulanmış adil oyun",
+				"RNG sertifikalı oyunlarla doğrulanmış adil oyun",
 				"Masaüstü ve mobilde mükemmel çalışan temiz tasarım",
 				"Aktif oyuncular için heyecan verici bonuslar ve promosyonlar"
 			],
-			"closing": "Biz sadece oyunlara ev sahipliği yapmıyoruz — her oyuncunun güvende, bağlı ve kendinden emin hissettiği bir ortam yaratıyoruz."
+			"closing": "Biz sadece oyunlara ev sahipliği yapmıyoruz — her oyuncunun kendini güvende, bağlı ve kendinden emin hissettiği bir ortam yaratıyoruz."
 		},
 		"fairGaming": {
-			"title": "🌍 Adil ve Sorumlu Oyun",
-			"paragraph1": "Oyunun her zaman sorumlu ve şeffaf olması gerektiğine inanıyoruz.|Bu yüzden {siteName}, sıkı uluslararası oyun standartlarına ve yaş politikalarına uyar.",
+			"title": "🌍 Adil & Sorumlu Oyun",
+			"paragraph1": "Oyunun her zaman sorumlu ve şeffaf olması gerektiğine inanıyoruz.|Bu yüzden {siteName}, katı uluslararası oyun standartlarına ve yaş politikalarına uyar.",
 			"ageRestriction": "Sadece 18 yaş ve üzeri oyuncular kayıt olabilir ve oynayabilir.",
-			"paragraph2": "Tüm oyunlar adalet açısından test edilmiştir ve şifreleme teknolojimiz kişisel ve finansal bilgilerinizi tamamen güvende tutar."
+			"paragraph2": "Tüm oyunlar adillik açısından test edilir ve şifreleme teknolojimiz kişisel ve finansal bilgilerinizi tamamen güvende tutar."
 		},
 		"promise": {
 			"title": "🤝 Sözümüz",
-			"paragraph1": "Burada başka bir casino sitesi olmak için değiliz — online oyun için yeni bir standart belirlemek için buradayız.|{siteName}'de oynadığınızda, güven, yenilik ve gerçek değer üzerine kurulu bir platformda oynarsınız.",
+			"paragraph1": "Burada sadece başka bir casino sitesi olmak için değiliz — çevrimiçi oyun için yeni bir standart belirlemek için buradayız.|{siteName}'da oynadığınızda, güven, yenilik ve gerçek değer üzerine kurulu bir platformda oynarsınız.",
 			"paragraph2": "Eklediğimiz her güncelleme, her özellik ve her ortaklık tek bir hedefe odaklanmıştır: oyunculara mümkün olan en iyi oyun deneyimini sunmak."
 		},
 		"joinCommunity": {
 			"title": "🚀 {siteName} Topluluğuna Katılın",
-			"paragraph1": "Online oyunun geleceği burada — ve her zamankinden daha hızlı, daha akıllı ve daha ödüllendirici.",
-			"paragraph2": "Bugün {siteName}'e katılın, hoş geldin bonusunuzu alın ve dünya çapındaki oyuncuların neden {siteName}'e geçtiğini görün.",
+			"paragraph1": "Çevrimiçi oyunların geleceği burada — ve her zamankinden daha hızlı, daha akıllı ve daha ödüllendirici.",
+			"paragraph2": "{siteName}'a bugün katılın, hoş geldin bonusunuzu talep edin ve dünyanın dört bir yanındaki oyuncuların neden {siteName}'a geçtiğini görün.",
 			"tagline": "🎯 Oyna. Kazan. Deneyimle. {siteName}."
 		}
 	},
@@ -1431,15 +1431,17 @@
 				"links": {
 					"about": "Hakkımızda",
 					"providers": "Sağlayıcılar",
-					"affiliate": "Yönlendirme Bonusu",
-					"bonus": "Çevrim Bonusu"
+					"affiliate": "Referans Bonusu",
+					"bonus": "Ciro Bonusu",
+					"blog": "Blog",
+					"contact": "Bize Ulaşın"
 				}
 			},
 			"legal": {
 				"title": "Yasal",
 				"links": {
 					"privacy": "Gizlilik Politikası",
-					"terms": "Şartlar ve Koşullar",
+					"terms": "Şartlar & Koşullar",
 					"gambling": "Sorumlu Kumar",
 					"faqs": "SSS"
 				}
@@ -1462,89 +1464,89 @@
 			}
 		},
 		"seoContent": {
-			"title": "{siteName} — Kripto Casino Eğlencesi için Nihai Hedefiniz",
-			"paragraph1": "Yeniliğin heyecanla buluştuğu dünyanın önde gelen kripto destekli casinosu {siteName} ile online oyunun geleceğine adım atın. Gerçek oyuncular için tasarlanan platformumuz, slotlar, canlı casino masaları, spor bahisleri ve kripto oyunlarında hızlı, güvenli ve şeffaf bir deneyim sunar.",
-			"paragraph2": "{siteName}'deki her çevirme, kart ve bahis, her sonucun gerçekten rastgele ve kurcalamaya karşı korumalı olmasını sağlamak için gerçek zamanlı olarak doğrulanan blok zinciri adaletine dayanır. Yüksek riskli aksiyondan gündelik oyuna kadar, oyunlarımız her türden kumarbaza hitap eder — heyecan arayanlardan strateji profesyonellerine kadar.",
-			"paragraph3": "Anında para yatırma ve yıldırım hızında para çekme, Dynamic.xyz cüzdan girişi ve özel çevrim bonusları ile {siteName}, oyun deneyiminizin sorunsuz, ödüllendirici ve güvenli kalmasını sağlar.|İster Kanada, Avrupa veya Asya'da olun, çok zincirli sistemimiz her bölgedeki yerel kripto casino trendlerini optimize ederken küresel oyuncuları destekler.",
-			"paragraph4": "Adil oyun, gizlilik ve kârın bir araya geldiği daha akıllı bir oyun yolunu keşfeden binlerce oyuncuya katılın.|{siteName} sadece bir casino değil.|Cesurlar için inşa edilmiş, kripto ile güçlendirilmiş ve dünya çapındaki oyuncular tarafından güvenilen Web3 kumarının bir sonraki evrimidir.",
-			"tagline": "🎯 Akıllı Oyna. Güvenli Bahis Yap. Büyük Kazan — Sadece {siteName}'de.",
+			"title": "{siteName} — Kripto Casino Eğlencesi İçin Nihai Varış Noktanız",
+			"paragraph1": "İnovasyonun heyecanla buluştuğu dünyanın önde gelen kripto destekli casinosu {siteName} ile çevrimiçi oyunların geleceğine adım atın. Gerçek oyuncular için tasarlanan platformumuz, slotlar, canlı casino masaları, spor bahisleri ve kripto oyunlarında hızlı, güvenli ve şeffaf bir deneyim sunar.",
+			"paragraph2": "{siteName}'daki her dönüş, kart ve bahis, blok zinciri adilliği üzerine inşa edilmiştir ve her sonucun gerçekten rastgele ve kurcalanamaz olduğundan emin olmak için gerçek zamanlı olarak doğrulanır. Yüksek bahisli aksiyondan gündelik oyuna kadar, oyunlarımız her tür kumarbaza hitap eder — heyecan arayanlardan strateji profesyonellerine kadar.",
+			"paragraph3": "Anında para yatırma ve yıldırım hızında çekimler, Dynamic.xyz cüzdan girişi ve özel ciro bonusları ile {siteName}, oyununuzun akıcı, ödüllendirici ve güvenli kalmasını sağlar.|Kanada, Avrupa veya Asya'da olsanız da, çok zincirli sistemimiz küresel oyuncuları desteklerken her bölgedeki yerel kripto casino trendlerini optimize eder.",
+			"paragraph4": "Adil oyun, gizlilik ve kazancın bir araya geldiği daha akıllı bir oyun yolunu keşfeden binlerce oyuncuya katılın.|{siteName} sadece bir casino değildir.|Bu, Web3 kumarının bir sonraki evrimidir — cesurlar için inşa edilmiş, kripto ile güçlendirilmiş ve dünya çapındaki oyuncular tarafından güvenilen.",
+			"tagline": "🎯 Akıllı Oyna. Güvenli Bahis Yap. Büyük Kazan — Sadece {siteName}'da.",
 			"showMore": "Daha fazla göster",
 			"showLess": "Daha az göster"
 		},
 		"copyright": "© {year} {siteName}. Tüm hakları saklıdır.",
 		"followUs": "Bizi takip edin:",
 		"disclaimer": {
-			"line1": "Yalnızca 18+ | Sorumlu Bir Şekilde Kumar Oynayın",
+			"line1": "Sadece 18+ | Sorumlu Kumar Oyna",
 			"line2": "Kumar bağımlılık yapabilir. Lütfen sorumlu bir şekilde oynayın ve sadece kaybetmeyi göze alabileceğiniz kadar bahis yapın.",
 			"line3": "Bir kumar sorununuz olduğunu düşünüyorsanız, lütfen yardım alın."
 		},
-		"description": "{siteName} — slotlar, canlı masalar ve spor bahisleri için güvenilir kripto casinonuz.|Kanıtlanabilir şekilde adil blok zinciri oyunları oynayın, anında cüzdan tabanlı ödemelerin keyfini çıkarın ve günlük casino bonuslarının kilidini açın.|Hızlı, güvenli ve merkezi olmayan — {siteName}, dünya çapındaki oyunculara yeni nesil oyun deneyimi sunar.|🎯 Akıllı Oyna. Büyük Kazan. {siteName}'e Güven."
+		"description": "{siteName} — slotlar, canlı masalar ve spor bahisleri için güvenilir kripto casinonuz.|Kanıtlanabilir adil blok zinciri oyunları oynayın, anında cüzdan tabanlı ödemelerin tadını çıkarın ve günlük casino bonuslarını açın.|Hızlı, güvenli ve merkeziyetsiz — {siteName}, dünya çapındaki oyunculara bir sonraki seviye oyun deneyimini getiriyor.|🎯 Akıllı Oyna. Büyük Kazan. {siteName}'a Güven."
 	},
 	"privacy": {
 		"title": "Gizlilik Politikası",
 		"subtitle": "{siteName} verilerinizi nasıl toplar, kullanır ve korur",
 		"lastUpdated": "Ocak 2025",
 		"intro": {
-			"paragraph1": "{siteName} ('{siteName}', 'biz', 'bize' veya 'bizim') {siteName} kripto-casino platformunu işletir. Bu Gizlilik Politikası, web sitemizi, mobil uygulamalarımızı veya ilgili hizmetlerimizi ('Hizmetler') kullandığınızda kişisel ve işlem verilerini nasıl topladığımızı, kullandığımızı, sakladığımızı ve koruduğumuzu açıklar.",
-			"paragraph2": "{siteName}, yalnızca kripto cüzdanı olan bir casino olarak faaliyet gösterir: tüm para yatırma ve çekme işlemleri kripto para cüzdanları kullanılarak yapılır. Düzenleyici yükümlülüklere (AML/KYC gereklilikleri gibi) uyarken ve güvenli, adil bir oyun ortamı sağlarken gizliliğinizi korumayı taahhüt ediyoruz.",
-			"paragraph3": "{siteName}'e erişerek veya kullanarak bu Gizlilik Politikasının şartlarını kabul etmiş olursunuz."
+			"paragraph1": "{siteName} ('{siteName}', 'biz', 'bize' veya 'bizim'), {siteName} kripto-casino platformunu işletmektedir. Bu Gizlilik Politikası, web sitemizi, mobil uygulamalarımızı veya ilgili hizmetlerimizi ('Hizmetler') kullandığınızda kişisel ve işlem verilerini nasıl topladığımızı, kullandığımızı, sakladığımızı ve koruduğumuzu açıklar.",
+			"paragraph2": "{siteName}, yalnızca kripto cüzdanlı bir casino olarak faaliyet gösterir: tüm para yatırma ve çekme işlemleri kripto para cüzdanları kullanılarak yapılır. Düzenleyici yükümlülükleri (AML/KYC gereksinimleri gibi) yerine getirirken ve güvenli, adil bir oyun ortamı sağlarken gizliliğinizi korumayı taahhüt ediyoruz.",
+			"paragraph3": "{siteName}'a erişerek veya kullanarak bu Gizlilik Politikasının şartlarını kabul etmiş olursunuz."
 		},
 		"sections": {
 			"scope": {
-				"title": "1. Kapsam ve Kabul",
-				"content": "Bu politika, {siteName}'in tüm kullanıcıları için geçerlidir. Bu politikayı güncelleyebiliriz; güncellemeler sitede yayınlandığında yürürlüğe girer. Bir değişiklikten sonra kullanıma devam etmeniz, yeni politikayı kabul ettiğiniz anlamına gelir."
+				"title": "1. Kapsam & Kabul",
+				"content": "Bu politika tüm {siteName} kullanıcıları için geçerlidir. Bu politikayı güncelleyebiliriz; güncellemeler sitede yayınlandığında yürürlüğe girer. Bir değişiklikten sonra kullanıma devam etmek, yeni politikayı kabul ettiğiniz anlamına gelir."
 			},
 			"dataCollection": {
 				"title": "2. Hangi Verileri Topluyoruz",
-				"intro": "Yalnızca kripto cüzdanlarıyla çalıştığımız için, topladığımız veri türleri bu modeli yansıtır. Topladıklarımız:",
+				"intro": "Yalnızca kripto cüzdanlarla çalıştığımız için, topladığımız veri türleri bu modeli yansıtır. Şunları topluyoruz:",
 				"accountData": {
-					"title": "A. Hesap ve Kimlik Verileri (gerektiğinde)",
-					"email": "E-posta (sağlandıysa), görünen ad, hesap ID'si.",
-					"kyc": "Önemli: Kripto cüzdanları zincir üzerinde anonimlik sağlarken, belirli işlemler veya düzenleyici tetikleyiciler kimlik doğrulaması gerektirebilir. KYC'yi yalnızca gerektiğinde açıkça talep edeceğiz."
+					"title": "A. Hesap & Kimlik Verileri (gerektiğinde)",
+					"email": "E-posta (sağlanmışsa), görünen ad, hesap ID'si.",
+					"kyc": "Önemli: Kripto cüzdanlar zincir üstü anonimlik sağlasa da, belirli işlemler veya düzenleyici tetikleyiciler kimlik doğrulaması gerektirebilir. KYC'yi yalnızca gerekli olduğunda açıkça talep edeceğiz."
 				},
 				"walletData": {
-					"title": "B. Cüzdan ve İşlem Verileri",
-					"addresses": "{siteName} ile bağladığınız veya kullandığınız kripto para cüzdanı adresleri.",
-					"transactions": "Zincir üzerindeki işlem karmaları ve zaman damgaları (para yatırma/çekme).",
-					"metadata": "Ödemeleri mutabık kılmak ve dolandırıcılığı önlemek için gerekli olan işlem meta verileri."
+					"title": "B. Cüzdan & İşlem Verileri",
+					"addresses": "{siteName} ile bağladığınız veya kullandığınız kripto para cüzdan adresleri.",
+					"transactions": "Zincir üstü işlem hash'leri ve zaman damgaları (yatırımlar/çekimler).",
+					"metadata": "Ödemeleri mutabık kılmak ve dolandırıcılığı önlemek için gerekli işlem meta verileri."
 				},
 				"technicalData": {
-					"title": "C. Teknik ve Kullanım Verileri",
-					"ip": "IP adresi, IP'den türetilen yaklaşık coğrafi konum, cihaz türü, tarayıcı, işletim sistemi.",
-					"session": "Oturum günlükleri, zaman damgaları, ziyaret edilen sayfalar, oyun etkinliği, bahisler ve sonuçlar.",
+					"title": "C. Teknik & Kullanım Verileri",
+					"ip": "IP adresi, IP'den türetilen yaklaşık coğrafi konum, cihaz türü, tarayıcı, İS.",
+					"session": "Oturum günlükleri, zaman damgaları, ziyaret edilen sayfalar, oyun aktivitesi, bahisler ve sonuçlar.",
 					"cookies": "Site performansını ve kullanıcı deneyimini iyileştirmek için çerezler ve analiz verileri."
 				},
 				"securityData": {
-					"title": "D. Güvenlik ve Risk Verileri",
-					"fraud": "Dolandırıcılık sinyalleri, cihaz parmak izleri, dolandırıcılık önleme satıcılarından gelen risk puanları.",
-					"disputes": "Anlaşmazlık çözümü, ters ibrazlar (varsa) ve uyumluluk kontrolleri kayıtları.",
-					"note": "Yasal olarak gerekli olmadıkça ve açık rıza alınmadıkça hassas kategorileri (ırk, din, sağlık vb.) toplamıyoruz."
+					"title": "D. Güvenlik & Risk Verileri",
+					"fraud": "Dolandırıcılık sinyalleri, cihaz parmak izleri, dolandırıcılık önleme satıcılarından risk puanları.",
+					"disputes": "Uyuşmazlık çözüm kayıtları, ters ibrazlar (varsa) ve uyumluluk kontrolleri.",
+					"note": "Yasal olarak gerekmedikçe ve açık rıza olmadan hassas kategorileri (ırk, din, sağlık vb.) toplamıyoruz."
 				}
 			},
 			"purposes": {
-				"title": "3. Neden Veri Topluyoruz – Yasal Dayanaklar ve Amaçlar",
+				"title": "3. Verileri Neden Topluyoruz – Yasal Temeller & Amaçlar",
 				"intro": "Verilerinizi yasal ve belirli amaçlar için işliyoruz:",
-				"outro": "Onaya dayandığımızda (örneğin, pazarlama), bu onayı istediğiniz zaman geri çekebilirsiniz.",
+				"outro": "Rızaya dayandığımızda (örneğin pazarlama), bu rızayı istediğiniz zaman geri çekebilirsiniz.",
 				"items": {
 					"0": {
-						"title": "Hizmet sunumu ve sözleşme performansı",
-						"description": "hesap oluşturmak ve sürdürmek, kripto cüzdanları aracılığıyla para yatırma/çekme işlemlerini gerçekleştirmek, kazançları ödemek."
+						"title": "Hizmet sağlama & sözleşme ifası",
+						"description": "hesap oluşturmak ve sürdürmek, kripto cüzdanlar aracılığıyla yatırımları/çekimleri işlemek, kazançları ödemek."
 					},
 					"1": {
-						"title": "Güvenlik ve dolandırıcılığın önlenmesi",
+						"title": "Güvenlik & dolandırıcılık önleme",
 						"description": "kötüye kullanımı ve kara para aklamayı tespit etmek ve önlemek."
 					},
 					"2": {
 						"title": "Yasal yükümlülüklere uyum",
-						"description": "gerektiğinde AML/KYC gerekliliklerini karşılamak."
+						"description": "gerektiğinde AML/KYC gereksinimlerini karşılamak."
 					},
 					"3": {
-						"title": "Platform operasyonları ve iyileştirme",
-						"description": "analiz, ürün geliştirme, müşteri desteği."
+						"title": "Platform operasyonları & iyileştirme",
+						"description": "analitik, ürün geliştirme, müşteri desteği."
 					},
 					"4": {
-						"title": "Pazarlama (onay ile)",
-						"description": "haber bültenleri, promosyon teklifleri — yalnızca kabul ederseniz."
+						"title": "Pazarlama (rızayla)",
+						"description": "bültenler, promosyon teklifleri — yalnızca kaydolursanız."
 					},
 					"5": {
 						"title": "Meşru menfaat",
@@ -1553,45 +1555,45 @@
 				}
 			},
 			"cryptoWallet": {
-				"title": "4. Kripto Cüzdanı Özellikleri ve Zincir Üstü Veriler",
+				"title": "4. Kripto Cüzdan Özellikleri & Zincir Üstü Veriler",
 				"points": {
-					"0": "Cüzdan adresleri ve zincir üstü işlem verileri, yalnızca kullanıcı hesaplarına para yatırmak/çekmek, işlemleri denetlemek ve uyumluluk yükümlülüklerini yerine getirmek için gerekli olduğu ölçüde saklanır.",
-					"1": "Zincir üstü veriler doğası gereği halka açıktır — {siteName} blok zinciri görünürlüğünü kontrol etmez. Hesapları mutabık kılmak için zincir üstü verileri zincir dışı kayıtlarla birleştiririz.",
-					"2": "Bir saklama cüzdanı hizmeti (üçüncü taraf) bağlarsanız, bu sağlayıcıların işlem işleme için bizimle paylaştığı her türlü veriye onay vermiş olursunuz."
+					"0": "Cüzdan adresleri ve zincir üstü işlem verileri, yalnızca kullanıcı hesaplarını alacaklandırmak/borçlandırmak, işlemleri denetlemek ve uyumluluk yükümlülüklerini karşılamak için gerekli olduğu ölçüde saklanır.",
+					"1": "Zincir üstü veriler doğası gereği halka açıktır — {siteName} blok zinciri görünürlüğünü kontrol etmez. Hesapları mutabık kılmak için zincir üstü verileri zincir dışı kayıtlarla birleştiriyoruz.",
+					"2": "Bir emanet cüzdan hizmeti (üçüncü taraf) bağlarsanız, bu sağlayıcıların işlem işleme için bizimle paylaştığı tüm verilere rıza göstermiş olursunuz."
 				}
 			},
 			"dataSharing": {
-				"title": "5. Verileri Ne Zaman Paylaşırız",
+				"title": "5. Verileri Ne Zaman Paylaşıyoruz",
 				"intro": "Bilgilerinizi paylaşabiliriz:",
 				"items": {
-					"0": "Yasal süreçle zorunlu kılındığında veya yasa dışı faaliyetleri önlemek için düzenleyicilerle veya kolluk kuvvetleriyle.",
-					"1": "Bir iş devri (birleşme, devralma) durumunda bağlı kuruluşlarla veya üçüncü taraflarla — her zaman uygun güvencelerle.",
+					"0": "Yasal süreç tarafından zorunlu kılındığında veya yasadışı faaliyeti önlemek için düzenleyiciler veya kolluk kuvvetleriyle.",
+					"1": "Bir işletme devrinde (birleşme, satın alma) iştirakler veya üçüncü taraflarla — her zaman uygun güvencelerle.",
 					"2": "Platformumuzu ve kullanıcılarımızı korumak için dolandırıcılık önleme ağlarıyla."
 				},
-				"noSelling": "Kişisel verilerinizi reklamcılara satmıyoruz."
+				"noSelling": "Kişisel verilerinizi reklamverenlere satmıyoruz."
 			},
 			"security": {
 				"title": "6. Güvenlik Önlemleri",
-				"intro": "Sektör standardı güvenlik önlemleri kullanıyoruz:",
+				"intro": "Endüstri standardı güvenlik önlemleri kullanıyoruz:",
 				"items": {
-					"0": "Aktarım sırasında TLS/SSL şifrelemesi; hassas veriler için şifreli depolama.",
+					"0": "Aktarım sırasında TLS/SSL şifreleme; hassas veriler için şifreli depolama.",
 					"1": "Erişim kontrolleri, günlük kaydı ve rol tabanlı ayrıcalıklar.",
-					"2": "Düzenli güvenlik denetimleri ve güvenlik açığı testi.",
+					"2": "Düzenli güvenlik denetimleri ve güvenlik açığı testleri.",
 					"3": "Personel için çok faktörlü kimlik doğrulama (MFA) ve kullanıcılar için isteğe bağlı."
 				},
-				"warning": "Cüzdan özel anahtarlarınızı ve hesap kimlik bilgilerinizi güvende tutmalısınız. Asla özel anahtarları istemeyiz."
+				"warning": "Cüzdan özel anahtarlarınızı ve hesap kimlik bilgilerinizi güvende tutmalısınız. Özel anahtarları asla talep etmiyoruz."
 			},
 			"cookies": {
-				"title": "7. Çerezler ve İzleme",
-				"content": "Gerekli site işlevleri, analizler ve (onay ile) pazarlama için çerezler ve benzeri teknolojiler kullanıyoruz. Tarayıcınızda çerezleri kontrol edebilirsiniz, ancak temel çerezleri devre dışı bırakmak işlevselliği bozabilir."
+				"title": "7. Çerezler & İzleme",
+				"content": "Gerekli site işlevleri, analizler ve (rızayla) pazarlama için çerezler ve benzer teknolojiler kullanıyoruz. Çerezleri tarayıcınızda kontrol edebilirsiniz, ancak gerekli çerezleri devre dışı bırakmak işlevselliği bozabilir."
 			},
 			"minAge": {
-				"title": "8. Çocuklar ve Minimum Yaş",
-				"content": "Hizmetlerimizi kullanmak için 18+ (veya yerel yasanın gerektirdiği yaşta) olmalısınız. Reşit olmayanların kullanımını aktif olarak önleriz ve bir reşit olmayanın kaydının tespit edilmesi durumunda verileri sileriz."
+				"title": "8. Çocuklar & Minimum Yaş",
+				"content": "Hizmetlerimizi kullanmak için 18+ (veya yerel yasalarca gerekiyorsa daha büyük) olmalısınız. Reşit olmayanların kullanımını aktif olarak engelliyoruz ve bir küçüğün kaydı tespit edilirse verileri sileceğiz."
 			},
 			"breach": {
 				"title": "9. İhlal Bildirimi",
-				"content": "Haklarınız için bir risk oluşturan bir veri ihlali durumunda, etkilenen kullanıcıları ve ilgili makamları yasaların gerektirdiği şekilde bilgilendireceğiz ve durumu düzeltmek için adımlar atacağız."
+				"content": "Haklarınız için risk oluşturan bir veri ihlali durumunda, etkilenen kullanıcıları ve ilgili yetkilileri yasanın gerektirdiği şekilde bilgilendireceğiz ve düzeltmek için adımlar atacağız."
 			},
 			"changes": {
 				"title": "10. Bu Politikadaki Değişiklikler",
@@ -1599,280 +1601,280 @@
 			},
 			"contact": {
 				"title": "11. İletişim",
-				"intro": "Sorular veya talepler için:"
+				"intro": "Sorular veya talepler:"
 			}
 		}
 	},
 	"terms": {
-		"title": "Şartlar ve Koşullar",
+		"title": "Şartlar & Koşullar",
 		"subtitle": "Kullanıcı Sözleşmesi ve Platform Kuralları",
 		"lastUpdated": "Ocak 2025",
 		"intro": {
-			"paragraph1": "www.{siteDomain} adresinde kaydolarak veya cüzdanınızı bağlayarak {siteName} N.V. ile bağlayıcı bir sözleşme yapmış olursunuz.",
-			"paragraph2": "Bu şartlardan herhangi birini kabul etmiyorsanız, Web Sitemize erişmeyin, kullanmayın veya kaydolmayın. Bu Şartları dikkatlice okuyun. Haklarınız veya yükümlülükleriniz konusunda emin değilseniz, Web Sitesini kullanmadan önce yargı bölgenizdeki bir hukuk danışmanına danışın."
+			"paragraph1": "www.{siteDomain} adresine kaydolarak veya cüzdanınızı bağlayarak, {siteName} N.V. ile bağlayıcı bir anlaşmaya girmiş olursunuz.",
+			"paragraph2": "Bu şartlardan herhangi birini kabul etmiyorsanız, Web Sitemize erişmeyin, kullanmayın veya kaydolmayın. Bu Şartları dikkatlice okuyun. Haklarınız veya yükümlülükleriniz hakkında emin değilseniz, Web Sitesini kullanmadan önce yargı bölgenizdeki bir hukuk danışmanına danışın."
 		},
 		"sections": {
 			"ownership": {
 				"title": "1. {siteName} Mülkiyeti",
-				"content1": "{siteName}, {siteName} N.V. ('{siteName}', 'Biz', 'Bizim', 'Bize') tarafından sahip olunur ve işletilir.",
-				"content2": "{siteName} yalnızca kripto cüzdanlı bir casinodur. Tüm para yatırma, bahis ve çekme işlemleri kullanıcıların kripto para cüzdanları aracılığıyla gerçekleştirilir. Dynamic.xyz ve uyumlu cüzdan bağlayıcıları (örneğin, WalletConnect / MetaMask) aracılığıyla cüzdan girişini destekliyoruz."
+				"content1": "{siteName}, {siteName} N.V. ('{siteName}', 'Biz', 'Bizim', 'Bize') tarafından sahiplenilmekte ve işletilmektedir.",
+				"content2": "{siteName}, yalnızca kripto cüzdanlı bir casinodur. Tüm yatırımlar, bahisler ve çekimler kullanıcıların kripto para cüzdanları aracılığıyla işlenir. Dynamic.xyz ve uyumlu cüzdan konnektörleri (örn. WalletConnect / MetaMask) aracılığıyla cüzdan girişini destekliyoruz."
 			},
 			"notice": {
-				"title": "2. Önemli Uyarı",
-				"content1": "2.1 www.{siteDomain} ('Web Sitesi') adresinde kaydolarak veya cüzdanınızı bağlayarak {siteName} N.V. ile bağlayıcı bir sözleşme yapmış ve şunları kabul etmiş olursunuz: (i) bu Şartlar ve Koşullar; (ii) Gizlilik Politikamız; (iii) Çerez Politikamız; (iv) Ortaklık Şartlarımız; ve (v) Sorumlu Kumar Politikamız.",
+				"title": "2. Önemli Bildirim",
+				"content1": "2.1 www.{siteDomain} ('Web Sitesi') adresine kaydolarak veya cüzdanınızı bağlayarak, {siteName} N.V. ile bağlayıcı bir anlaşmaya girersiniz ve şunları kabul edersiniz: (i) bu Şartlar ve Koşullar; (ii) Gizlilik Politikamız; (iii) Çerez Politikamız; (iv) Affiliate Şartlarımız; ve (v) Sorumlu Oyun Politikamız.",
 				"content2": "2.2 Bu şartlardan herhangi birini kabul etmiyorsanız, Web Sitemize erişmeyin, kullanmayın veya kaydolmayın.",
-				"content3": "2.3 Bu Şartları dikkatlice okuyun. Haklarınız veya yükümlülükleriniz konusunda emin değilseniz, Web Sitesini kullanmadan önce yargı bölgenizdeki bir hukuk danışmanına danışın."
+				"content3": "2.3 Bu Şartları dikkatlice okuyun. Haklarınız veya yükümlülükleriniz hakkında emin değilseniz, Web Sitesini kullanmadan önce yargı bölgenizdeki bir hukuk danışmanına danışın."
 			},
 			"general": {
 				"title": "3. Genel Şartlar",
 				"items": [
-					"Kayıt veya cüzdan bağlantısı üzerine, siz ('Kullanıcı', 'Oyuncu', 'Siz' veya 'Sizin') tüm {siteName} kurallarına ve politikalarına uymayı kabul edersiniz.",
+					"Kayıt veya cüzdan bağlantısı sırasında, siz ('Kullanıcı', 'Oyuncu', 'Siz' veya 'Sizin') tüm {siteName} kurallarına ve politikalarına uymayı kabul edersiniz.",
 					"Bu Sözleşme, siz ve {siteName} arasında yasal olarak bağlayıcı bir sözleşmedir.",
 					"Bu Şartlar, cüzdanınızı bağladığınız ve siteyi kullanmaya başladığınız anda yürürlüğe girer.",
-					"{siteName}, bu Şartları istediği zaman değiştirme veya güncelleme hakkını saklı tutar. Değişiklikler Web Sitesinde yayınlanacaktır; kullanıma devam etmek kabul anlamına gelir.",
-					"Anlaşmazlık durumunda, bu Şartlar diğer tüm kurallar, promosyonlar veya harici materyaller üzerinde önceliklidir.",
-					"Bu Şartların yalnızca İngilizce versiyonu yasal olarak bağlayıcıdır. Çeviriler yalnızca kolaylık sağlamak içindir."
+					"{siteName}, bu Şartları herhangi bir zamanda değiştirme veya güncelleme hakkını saklı tutar. Değişiklikler Web Sitesinde yayınlanacaktır; kullanıma devam etmek kabul anlamına gelir.",
+					"Çatışma durumunda, bu Şartlar diğer kurallara, promosyonlara veya harici materyallere üstün gelir.",
+					"Bu Şartların yalnızca İngilizce sürümü yasal olarak bağlayıcıdır. Çeviriler sadece kolaylık sağlamak içindir."
 				]
 			},
 			"account": {
-				"title": "4. Hesap, Cüzdan Girişi ve Güvenlik",
-				"intro": "{siteName}, cüzdan tabanlı kimlik doğrulama için Dynamic.xyz'yi ve hesabınızı korumak için güvenlik önlemlerini kullanır.",
+				"title": "4. Hesap, Cüzdan Girişi & Güvenlik",
+				"intro": "{siteName}, hesabınızı korumak için cüzdan tabanlı kimlik doğrulama ve güvenlik önlemleri için Dynamic.xyz kullanır.",
 				"walletLogin": {
 					"title": "4.1 Cüzdan Girişi (Dynamic.xyz)",
 					"items": [
-						"{siteName}, cüzdan tabanlı giriş ve kimlik doğrulama için Dynamic.xyz'yi (veya diğer desteklenen bağlayıcıları) kullanır. Bir cüzdan bağlayarak, o cüzdanın yasal sahibi olduğunuzu onaylar ve {siteName}'in o cüzdanı hesabınız olarak tanımasına izin verirsiniz.",
-						"Özel anahtarlarınızı asla istemeyiz. Cüzdan kimlik bilgilerinizi ve cihazınızı güvende tutmalısınız. {siteName}, tehlikeye atılmış cüzdanlar veya sızdırılmış özel anahtarlardan kaynaklanan kayıplardan sorumlu değildir."
+						"{siteName}, cüzdan tabanlı giriş ve kimlik doğrulama için Dynamic.xyz (veya desteklenen diğer konnektörleri) kullanır. Bir cüzdanı bağlayarak, o cüzdanın yasal sahibi olduğunuzu onaylarsınız ve {siteName}'a o cüzdanı hesabınız olarak tanıması için yetki verirsiniz.",
+						"Asla özel anahtarlarınızı talep etmeyiz. Cüzdan kimlik bilgilerinizi ve cihazınızı güvende tutmalısınız. {siteName}, ele geçirilmiş cüzdanlar veya sızdırılmış özel anahtarlar nedeniyle oluşan kayıplardan sorumlu değildir."
 					]
 				},
 				"registration": {
 					"title": "4.2 Kayıt Detayları",
 					"items": [
-						"Hesap iletişimi için iletişim bilgileri (e-posta, kullanıcı adı) sağlamanız istenebilir. Doğru bilgi sağlamalı ve güncel tutmalısınız.",
-						"Bağlı cüzdanınız kullanılarak yapılan tüm eylemlerden siz sorumlusunuz."
+						"Hesap iletişimi için iletişim bilgileri (e-posta, kullanıcı adı) sağlamanız istenebilir. Doğru bilgileri sağlamalı ve güncel tutmalısınız.",
+						"Bağlı cüzdanınız kullanılarak yapılan tüm işlemlerden siz sorumlusunuz."
 					]
 				},
 				"security": {
-					"title": "4.3 Birden Fazla Hesap ve Güvenlik",
+					"title": "4.3 Çoklu Hesaplar & Güvenlik",
 					"items": [
-						"Kişi başına yalnızca bir hesaba izin verilir. Birden fazla hesap veya limitleri aşma girişimleri, hesabın askıya alınmasına ve fonların kaybedilmesine neden olabilir.",
-						"Sunulan tüm platform güvenlik özelliklerini (örneğin, ilişkili hizmetler için 2FA) etkinleştirin ve kendi cüzdanınızı güvenceye alın.",
+						"Kişi başına yalnızca bir hesaba izin verilir. Çoklu hesaplar veya sınırları aşma girişimleri, hesabın askıya alınmasına ve fonların kaybedilmesine neden olabilir.",
+						"Sunulan platform güvenlik özelliklerini (örneğin, ilişkili hizmetler için 2FA) etkinleştirin ve kendi cüzdanınızı güvenceye alın.",
 						"Yetkisiz erişimden şüphelenirseniz derhal desteğe bildirin."
 					]
 				}
 			},
 			"eligibility": {
-				"title": "5. Uygunluk ve Kullanıcı Garantileri",
-				"intro": "5.1 Şunları beyan ve garanti edersiniz:",
+				"title": "5. Uygunluk & Kullanıcı Garantileri",
+				"intro": "5.1 Şunları beyan ve taahhüt edersiniz:",
 				"items": [
-					"En az 18 yaşında (veya yargı bölgenizdeki yasal kumar oynama yaşının üzerinde) olduğunuzu.",
-					"Bulunduğunuz yerde çevrimiçi kripto kumar hizmetlerini kullanmanıza yasal olarak izin verildiğini.",
-					"Bağladığınız cüzdanın yasal sahibi olduğunuzu.",
-					"Bölgesel kısıtlamaları aşmak için VPN veya konum sahtekarlığı kullanmayacağınızı.",
-					"Hizmeti yasa dışı veya ticari amaçlarla kullanmayacağınızı.",
-					"Kripto para birimi değerinin dalgalanabileceğini ve tüm piyasa riskini taşıdığınızı kabul ettiğinizi."
+					"En az 18 yaşındasınız (vaya yargı bölgenizdeki minimum yasal kumar yaşı).",
+					"Bulunduğunuz yerde çevrimiçi kripto kumar hizmetlerini kullanmak yasal olarak izinlidir.",
+					"Bağladığınız cüzdanın yasal sahibisiniz.",
+					"Bölgesel kısıtlamaları aşmak için VPN veya konum sahteciliği kullanmayacaksınız.",
+					"Hizmeti yasa dışı veya ticari amaçlar için kullanmayacaksınız.",
+					"Kripto para değerinin dalgalanabileceğini kabul ediyorsunuz ve tüm piyasa riskini üstleniyorsunuz."
 				],
 				"outro": "5.2 Bu garantileri ihlal ederseniz, {siteName} erişimi askıya alabilir veya sonlandırabilir ve yasaların izin verdiği durumlarda fonları alıkoyabilir."
 			},
 			"restricted": {
 				"title": "6. Kısıtlı Yargı Bölgeleri",
-				"content1": "6.1 {siteName}, kripto kumarın yasaklandığı veya kısıtlandığı yargı bölgelerinden oyuncu kabul etmemektedir. Bunlar arasında şunlar bulunmaktadır, ancak bunlarla sınırlı değildir:",
-				"content2": "Amerika Birleşik Devletleri (ve ABD toprakları), Birleşik Krallık, Fransa, Hollanda, İspanya, Almanya, Avustralya, Avusturya, Komorlar, İran, Kuzey Kore, Sudan, Suriye ve FATF kara listelerinde yer alan herhangi bir yargı bölgesi.",
-				"content3": "6.2 Kısıtlı bir yargı bölgesinden, VPN veya proxy dahil olmak üzere Hizmete erişmeye çalışmak, bu Şartların ihlalidir ve hesabın kapatılmasına ve fonların kaybedilmesine neden olabilir."
+				"content1": "6.1 {siteName}, kripto kumarının yasak olduğu veya kısıtlandığı yargı bölgelerinden oyuncu kabul etmez. Bu şunları içerir ancak bunlarla sınırlı değildir:",
+				"content2": "Amerika Birleşik Devletleri (ve ABD bölgeleri), Birleşik Krallık, Fransa, Hollanda, İspanya, Almanya, Avustralya, Avusturya, Komorlar, İran, Kuzey Kore, Sudan, Suriye ve FATF kara listelerinde yer alan herhangi bir yargı bölgesi.",
+				"content3": "6.2 VPN veya proxy dahil olmak üzere kısıtlı bir yargı bölgesinden Hizmete erişmeye çalışmak, bu Şartların ihlalidir ve hesabın kapatılmasına ve fonların kaybedilmesine yol açabilir."
 			},
 			"crypto": {
-				"title": "7. Kripto Para Yatırma ve Çekme",
+				"title": "7. Kripto Yatırımları & Çekimleri",
 				"policy": {
-					"title": "7.1 Yalnızca Kripto Politikası",
+					"title": "7.1 Sadece Kripto Politikası",
 					"items": [
-						"{siteName}, yalnızca desteklenen kripto para birimlerinde (örneğin, BTC, ETH, USDT, TRX, BNB) para yatırma ve çekme işlemlerini kabul eder. Fiat, kart veya banka havalesi ile para yatırma kabul edilmez.",
-						"Tüm para yatırma işlemleri kontrol ettiğiniz cüzdanlardan kaynaklanmalıdır. Üçüncü taraf cüzdanlarından para yatırma yasaktır."
+						"{siteName} yalnızca desteklenen kripto para birimlerinde (örn. BTC, ETH, USDT, TRX, BNB) yatırım ve çekim kabul eder. Fiat, kart veya banka havalesi yatırımları kabul edilmez.",
+						"Tüm yatırımlar kontrolünüzdeki cüzdanlardan kaynaklanmalıdır. Üçüncü taraf cüzdanlardan yapılan yatırımlar yasaktır."
 					]
 				},
 				"deposits": {
-					"title": "7.2 Para Yatırma",
+					"title": "7.2 Yatırımlar",
 					"items": [
-						"Para yatırma işlemleri, gerekli blok zinciri onaylarından sonra kredilendirilir. Ağ (gas) ücretleri sizin tarafınızdan ödenir.",
-						"{siteName}, engellenen adreslerden veya kısıtlı kaynaklardan geldiği anlaşılan para yatırma işlemlerini reddedebilir veya geri alabilir."
+						"Yatırımlar, gerekli blok zinciri onaylarından sonra hesaba geçer. Ağ (gas) ücretleri sizin tarafınızdan ödenir.",
+						"{siteName}, engellenmiş adreslerden veya kısıtlı kaynaklardan kaynaklanıyor gibi görünen yatırımları reddedebilir veya geri çevirebilir."
 					]
 				},
 				"withdrawals": {
-					"title": "7.3 Para Çekme",
+					"title": "7.3 Çekimler",
 					"items": [
-						"Para çekme işlemleri sağladığınız cüzdan adresine işlenir. {siteName}, işlem yapmadan önce hedef cüzdanı onaylamanızı isteyebilir.",
-						"Para çekme işlemini karşılamak için yeterli temizlenmiş bakiyeniz olmalıdır. Şüpheli kötüye kullanım veya olağandışı aktiviteyi araştırmak için para çekme işlemleri geciktirilebilir."
+						"Çekimler, sağladığınız cüzdan adresine işlenir. {siteName}, işlemeden önce hedef cüzdanı onaylamanızı isteyebilir.",
+						"Bir çekimi karşılamak için yeterli temiz bakiyeye sahip olmalısınız. Şüpheli kötüye kullanım veya olağandışı aktiviteyi araştırmak için çekimler gecikebilir."
 					]
 				},
 				"chargebacks": {
-					"title": "7.4 Ters İbrazlar ve İadeler",
+					"title": "7.4 Ters İbrazlar & İadeler",
 					"items": [
-						"Kripto işlemleri zincir üzerinde nihaidir. {siteName}, üçüncü taraf hizmet sağlayıcılardan kaynaklanan ters ibrazlar veya iadeler nedeniyle kayıplara uğrarsa (zincir üzerinde nadirdir), tutarları geri alma veya idari ücretler talep etme hakkını saklı tutarız."
+						"Kripto işlemleri zincir üstünde kesindir. {siteName}, üçüncü taraf hizmet sağlayıcılarından kaynaklanan ters ibrazlar veya iadeler nedeniyle zarara uğrarsa (zincir üstünde nadirdir), tutarları geri alma veya idari ücretler talep etme hakkımızı saklı tutarız."
 					]
 				}
 			},
 			"kyc": {
-				"title": "8. Rutin Kimlik Doğrulaması Yok (KYC Yok)",
-				"content1": "8.1 {siteName}, normal oyun koşulu olarak rutin kimlik doğrulaması (KYC) yapmaz. Kullanıcılar Dynamic.xyz aracılığıyla bir cüzdan bağlayabilir ve kimlik belgeleri sağlamadan oynamaya başlayabilirler.",
-				"content2": "8.2 Yukarıdakilere bakılmaksızın, {siteName} şu durumlarda bilgi talep etme veya işlemleri askıya alma hakkını saklı tutar:",
+				"title": "8. Rutin Kimlik Doğrulaması Yok (No KYC)",
+				"content1": "8.1 {siteName}, normal oyun koşulu olarak rutin kimlik doğrulaması (KYC) yapmaz. Kullanıcılar Dynamic.xyz aracılığıyla bir cüzdan bağlayabilir ve kimlik belgeleri sağlamadan oynamaya başlayabilir.",
+				"content2": "8.2 Yukarıdakilere bakılmaksızın, {siteName} aşağıdaki durumlarda bilgi talep etme veya işlemleri askıya alma hakkını saklı tutar:",
 				"items": [
-					"Yetkili makamlardan gelen yasal bir emre uymak için:",
-					"Dolandırıcılık, kara para aklama veya diğer yasa dışı faaliyetleri önlemek, araştırmak veya gidermek için",
-					"Veya platformun güvenliğini ve bütünlüğünü korumak için."
+					"Yetkili makamların yasal emrine uymak:",
+					"Dolandırıcılık, kara para aklama veya diğer yasa dışı faaliyetleri önlemek, araştırmak veya düzeltmek",
+					"Veya platformun güvenliğini ve bütünlüğünü korumak."
 				],
-				"content3": "8.3 Yasal olarak gerekli olduğunda bu tür bilgileri sağlamayı reddederseniz, {siteName} hesabınızı kısıtlayabilir veya kapatabilir ve yasaların izin verdiği ölçüde para çekme işlemlerini geciktirebilir veya alıkoyabilir."
+				"content3": "8.3 Yasal olarak gerektiğinde bu bilgileri vermeyi reddederseniz, {siteName} hesabınızı kısıtlayabilir veya kapatabilir ve yasaların izin verdiği ölçüde çekimleri geciktirebilir veya alıkoyabilir."
 			},
 			"fairPlay": {
-				"title": "9. Adil Oyun, Yasaklanmış Davranışlar ve Güvenlik",
+				"title": "9. Adil Oyun, Yasaklanmış Davranış & Güvenlik",
 				"intro": "Şunları yapmamalısınız:",
 				"items": [
-					"Botlar, komut dosyaları, otomatik oyun araçları veya herhangi bir yetkisiz yazılım kullanmak.",
-					"Diğer oyuncularla işbirliği yapmak veya oyun sonuçlarını manipüle etmek.",
-					"Bonusları veya promosyonları kötüye kullanmak için birden fazla hesap oluşturmak.",
-					"Zincir üzerindeki işlemleri geri almaya veya tahrif etmeye çalışmak.",
-					"Oyun hatalarını veya platform güvenlik açıklarını kötüye kullanmak."
+					"Botlar, scriptler, otomatik oyun araçları veya herhangi bir yetkisiz yazılım kullanmak.",
+					"Diğer oyuncularla gizli anlaşma yapmak veya oyun sonuçlarını manipüle etmek.",
+					"Bonusları veya promosyonları istismar etmek için birden fazla hesap oluşturmak.",
+					"Zincir üstü işlemleri geri çevirmeye veya kurcalamaya çalışmak.",
+					"Oyun hatalarını veya platform açıklarını istismar etmek."
 				],
-				"outro1": "Hile yaptığı, işbirliği yaptığı veya platformu kötüye kullandığı tespit edilen hesaplar askıya alınabilir, kapatılabilir veya bakiyeleri kaybedilebilir.",
+				"outro1": "Hile yapan, gizli anlaşma yapan veya platformu istismar eden hesaplar askıya alınabilir, kapatılabilir veya bakiyelerine el konulabilir.",
 				"outro2": "{siteName}, platform bütünlüğünü korumak için teknik ve davranışsal izleme uygular."
 			},
 			"bonuses": {
-				"title": "10. Bonuslar ve Promosyonlar",
+				"title": "10. Bonuslar & Promosyonlar",
 				"items": [
-					"Tüm bonus teklifleri ve promosyonları, her teklifle belirtilen belirli Bonus Şartlarına tabidir.",
-					"Bonus kötüye kullanımı (birden fazla hesap veya hızlı bonus değiştirme dahil) bonusların reddedilmesine, geri alınmasına veya kaybedilmesine ve hesapların kapatılmasına yol açabilir.",
-					"Promosyon başına belirtildiği gibi, bonustan türetilen fonları çekmeden önce bonus çevrim şartları yerine getirilmelidir."
+					"Tüm bonus teklifleri ve promosyonlar, her teklifle birlikte belirtilen belirli Bonus Şartlarına tabidir.",
+					"Bonus kötüye kullanımı (birden fazla hesap veya hızlı bonus değiştirme dahil), bonusların reddedilmesine, geri alınmasına veya kaybedilmesine ve hesapların kapatılmasına yol açabilir.",
+					"Bonus çevrim şartları, promosyon başına belirtildiği şekilde, bonus kaynaklı fonlar çekilmeden önce karşılanmalıdır."
 				]
 			},
 			"playingRules": {
-				"title": "11. Oyun Kuralları ve Oyun Sonuçlandırma",
+				"title": "11. Oyun Kuralları & Oyun Yerleşimi",
 				"items": [
-					"Bahisler yalnızca ekranda onay aldıktan sonra kabul edilir. Yetersiz bakiye ile yapılan bahisler geçersizdir.",
-					"Anlaşmazlık durumunda {siteName}'in dahili günlükleri ve blok zinciri kayıtları yetkilidir.",
-					"Bir etkinlik iptal edilirse, askıya alınırsa veya başka bir şekilde tehlikeye girerse, {siteName} yayınlanan oyun ve pazar kurallarına göre bahisleri sonuçlandıracak veya geçersiz kılacaktır.",
-					"Kanıtlanabilir şekilde adil oyunlar için, doğrulama araçları ve sunucu tohumları (varsa) oyun başına sunulur; sunucu günlükleri nihaidir."
+					"Bahisler yalnızca ekranda onay aldığınızda kabul edilir. Yetersiz bakiye ile yapılan bahisler geçersizdir.",
+					"{siteName}'ın dahili kayıtları ve blok zinciri kayıtları, anlaşmazlık durumunda yetkilidir.",
+					"Bir etkinlik iptal edilirse, askıya alınırsa veya başka bir şekilde tehlikeye girerse, {siteName} yayınlanan oyun ve piyasa kurallarına göre bahisleri sonuçlandırır veya geçersiz kılar.",
+					"Kanıtlanabilir adil oyunlar için, doğrulama araçları ve sunucu tohumları (uygun olduğunda) oyun başına sunulur; sunucu günlükleri nihaidir."
 				]
 			},
 			"errors": {
-				"title": "12. Hatalar, Kesintiler ve Sınırlar",
+				"title": "12. Hatalar, Kesintiler & Sınırlar",
 				"intro": "{siteName} şunlardan kaynaklanan kayıplardan sorumlu değildir:",
 				"items": [
 					"İnternet veya cihaz arızaları",
-					"Blok zinciri gecikmeleri, çatallanmaları veya ağ tıkanıklığı",
+					"Blok zinciri gecikmeleri, çatallanmalar veya ağ tıkanıklığı",
 					"Yazılım hataları veya üçüncü taraf hizmet kesintileri"
 				],
 				"outro1": "{siteName}, hatalar veya istismarlar tespit edildiğinde bahisleri geçersiz kılma, bakiyeleri ayarlama veya işlemleri iptal etme hakkını saklı tutar.",
-				"outro2": "Kullanıcıları ve platformu korumak için bahis limitleri, maksimum kazançlar ve diğer kontrolleri belirleyebiliriz."
+				"outro2": "Kullanıcıları ve platformu korumak için bahis limitleri, maksimum kazançlar ve diğer kontroller belirleyebiliriz."
 			},
 			"suspension": {
-				"title": "13. Askıya Alma, Kapatma ve Fon Yönetimi",
-				"intro": "{siteName} şu durumlarda hesapları askıya alabilir veya kapatabilir:",
+				"title": "13. Askıya Alma, Kapatma & Fon İşleme",
+				"intro": "{siteName}, aşağıdaki durumlarda hesapları askıya alabilir veya kapatabilir:",
 				"items": [
 					"Şartlar ihlal edildiğinde",
 					"Kötüye kullanım, dolandırıcılık veya şüpheli davranış tespit edildiğinde",
 					"Yasal veya düzenleyici yükümlülükler gerektirdiğinde"
 				],
-				"outro1": "Hesap kapatıldığında, bekleyen bahisler iptal edilebilir ve kalan fonlar geçerli yasa ve platform politikasına göre yönetilir.",
-				"outro2": "{siteName}, anlaşmazlıkları çözmek, yasal taleplere uymak veya kayıpları gidermek için gerektiğinde fonları alıkoyabilir."
+				"outro1": "Hesap kapatıldığında, bekleyen bahisler iptal edilebilir ve kalan fonlar geçerli yasa ve platform politikasına göre işlenir.",
+				"outro2": "{siteName}, anlaşmazlıkları çözmek, yasal taleplere uymak veya kayıpları gidermek için gerekli olduğunda fonları alıkoyabilir."
 			},
 			"responsibleGaming": {
 				"title": "14. Sorumlu Oyun",
 				"items": [
-					"{siteName} sorumlu kumar oynamayı teşvik eder. Şunları talep edebilirsiniz: Kendini men etme, Para yatırma limitleri veya Geçici askıya alma.",
-					"Kumarın zararlarından şüpheleniyorsanız, anında yardım için {siteDomain} adresini ziyaret edin.",
-					"Reşit olmayanların (18 yaş altı veya yerel yasal yaş) kumar oynaması kesinlikle yasaktır. Reşit olmayanlara ait olduğu tespit edilen hesaplar kapatılacak ve fonlar politikaya göre yönetilecektir."
+					"{siteName} sorumlu kumarı teşvik eder. Şunları talep edebilirsiniz: Kendini dışlama, Yatırım limitleri veya Geçici askıya alma.",
+					"Kumar zararı şüphesi varsa, acil yardım için {siteDomain} adresini ziyaret edin.",
+					"Reşit olmayanların (18 yaş altı veya yerel yasal yaş) kumar oynaması kesinlikle yasaktır. Küçüklere ait olduğu tespit edilen hesaplar kapatılacak ve fonlar politikaya göre işlenecektir."
 				]
 			},
 			"ip": {
 				"title": "15. Fikri Mülkiyet",
-				"content1": "{siteName}'deki tüm ticari markalar, logolar, site içeriği, yazılım ve oyun varlıkları {siteName}'e aittir veya lisanslıdır. Yetkisiz kopyalama, veri kazıma veya yeniden dağıtım yasaktır.",
-				"content2": "Size yalnızca kişisel eğlence amaçlı Hizmete erişim için sınırlı, geri alınabilir bir lisans verilir."
+				"content1": "{siteName} üzerindeki tüm ticari markalar, logolar, site içeriği, yazılım ve oyun varlıkları {siteName}'a aittir veya lisanslanmıştır. İzinsiz kopyalama, kazıma veya yeniden dağıtım yasaktır.",
+				"content2": "Hizmete yalnızca kişisel eğlence amacıyla erişmeniz için size sınırlı, iptal edilebilir bir lisans verilir."
 			},
 			"liability": {
 				"title": "16. Sorumluluğun Sınırlandırılması",
 				"items": [
-					"Yasaların izin verdiği en geniş ölçüde, {siteName} dolaylı, özel, sonuç olarak ortaya çıkan veya tesadüfi kayıplardan, kar kaybı veya fırsat maliyetleri dahil olmak üzere sorumlu olmayacaktır.",
-					"Bu Şartlarla ilgili herhangi bir iddia için toplam sorumluluğumuz, son para yatırma işleminizin değerini veya geçerli yasanın belirttiği bir tutarı aşamaz.",
-					"Bu Şartlardaki hiçbir şey, geçerli yasanın bu tür bir sınırlamayı yasakladığı durumlarda ihmalden kaynaklanan ölüm veya kişisel yaralanma sorumluluğunu sınırlamaz."
+					"Yasaların izin verdiği en geniş ölçüde, {siteName} kar kaybı veya fırsat maliyetleri dahil olmak üzere dolaylı, özel, sonuçsal veya arızi kayıplardan sorumlu olmayacaktır.",
+					"Bu Şartlarla ilgili herhangi bir iddia için toplam sorumluluğumuz, son yatırımınızın değerini veya geçerli yasa tarafından belirtilen tutarı aşmayacaktır.",
+					"Bu Şartlardaki hiçbir şey, ihmalden kaynaklanan ölüm veya kişisel yaralanma sorumluluğunu sınırlamaz, geçerli yasa bu tür bir sınırlamayı yasakladığında."
 				]
 			},
 			"disputes": {
-				"title": "17. Anlaşmazlık Çözümü ve Geçerli Hukuk",
-				"content": "Anlaşmazlık durumunda {siteDomain} adresini ziyaret edin. Şikayetleri hızlı bir şekilde çözmeyi hedefliyoruz; gerekirse yönetime bildirin."
+				"title": "17. Anlaşmazlık Çözümü & Geçerli Hukuk",
+				"content": "Anlaşmazlık durumunda {siteDomain} adresini ziyaret edin. Şikayetleri hızlı bir şekilde çözmeyi amaçlıyoruz; gerekirse yönetime iletin."
 			},
 			"amendments": {
 				"title": "18. Değişiklikler",
-				"content": "{siteName} bu Şartları istediği zaman değiştirebilir. Güncellenmiş Şartlar Web Sitesinde yayınlanacaktır. Kullanıma devam etmek kabul anlamına gelir."
+				"content": "{siteName} bu Şartları herhangi bir zamanda değiştirebilir. Güncellenen Şartlar Web Sitesinde yayınlanacaktır. Kullanmaya devam etmek kabul anlamına gelir."
 			},
 			"miscellaneous": {
 				"title": "19. Çeşitli",
 				"items": [
-					"Bu Şartlar, siz ve {siteName} arasındaki Hizmetle ilgili tüm sözleşmeyi oluşturur.",
-					"Herhangi bir madde uygulanamaz bulunursa, gerekli minimum ölçüde değiştirilecek ve geri kalan hükümler yürürlükte kalacaktır.",
-					"Bu Şartlar kapsamındaki haklarınızı devredemezsiniz. {siteName} hak ve yükümlülükleri devredebilir veya alt sözleşme yapabilir."
+					"Bu Şartlar, Hizmetle ilgili olarak siz ve {siteName} arasındaki tüm anlaşmayı oluşturur.",
+					"Herhangi bir madde uygulanamaz bulunursa, gerekli asgari ölçüde değiştirilecek ve geri kalan hükümler yürürlükte kalacaktır.",
+					"Bu Şartlar kapsamındaki haklarınızı devredemezsiniz. {siteName} hak ve yükümlülükleri devredebilir veya alt yükleniciye verebilir."
 				]
 			},
 			"contact": {
 				"title": "20. İletişim",
 				"intro": "Destek, şikayetler veya yasal bildirimler için:",
-				"supportEmail": "Genel Destek: {siteDomain} adresini ziyaret edin",
-				"affiliateEmail": "Ortaklık Soruları: {siteDomain} adresini ziyaret edin",
+				"supportEmail": "Genel Destek: {siteDomain} ziyaret edin",
+				"affiliateEmail": "Affiliate Soruları: {siteDomain} ziyaret edin",
 				"registeredOffice": "Kayıtlı ofis: {siteName} N.V., Heelsumstraat 51, Willemstad, Curaçao"
 			}
 		}
 	},
 	"responsibleGambling": {
 		"title": "Sorumlu Kumar – {siteName}",
-		"subtitle": "{siteName}'de sorumlu kumar hakkında bilgi edinin. Kontrolü elinizde tutun, sorumlu bir şekilde oynayın ve küresel yardım kuruluşları aracılığıyla destek alın.",
+		"subtitle": "{siteName}'da sorumlu kumar hakkında bilgi edinin. Kontrolü elinizde tutun, sorumlu oynayın ve küresel yardım kuruluşları aracılığıyla destek alın.",
 		"lastUpdated": "Son Güncelleme: Ocak 2025",
 		"intro": {
 			"title": "🎯 Sorumlu Kumar – {siteName}",
-			"paragraph1": "{siteName}'de, oyun oynamanın güvenli, keyifli ve sorumlu bir eğlence biçimi olarak kalmasını sağlamayı taahhüt ediyoruz.|Topluluğumuzu akıllı oynamaya, kontrolü elinde tutmaya ve kumarı bir gelir kaynağı veya mali kurtarma aracı olarak değil, bir eğlence aktivitesi olarak görmeye teşvik ediyoruz.",
-			"paragraph2": "18 yaşın altındaki (veya yargı bölgelerindeki yasal kumar oynama yaşının altındaki) tüm bireylerin platformumuza erişmesini veya kullanmasını kesinlikle yasaklıyoruz."
+			"paragraph1": "{siteName}'da, oyunun güvenli, keyifli ve sorumlu bir eğlence biçimi olarak kalmasını sağlamaya kararlıyız.|Topluluğumuzu akıllıca oynamaya, kontrolü elde tutmaya ve kumarı bir gelir veya finansal kurtarma kaynağı olarak değil, bir boş zaman aktivitesi olarak görmeye teşvik ediyoruz.",
+			"paragraph2": "18 yaşın altındaki (veya yargı bölgelerindeki minimum yasal kumar yaşı altındaki) tüm bireylerin platformumuza erişmesini veya kullanmasını kesinlikle yasaklıyoruz."
 		},
 		"mission": {
 			"title": "⚖️ Misyonumuz",
-			"paragraph1": "{siteName}, şeffaf, güvenli ve topluluk odaklı bir ortam sunarak sorumlu kumar oynamayı teşvik eder.|Misyonumuz, oyuncuların bilinçli kararlar almasına yardımcı olmak ve kumarın bir sorun haline gelmesini önlemektir.",
-			"paragraph2": "İnandıklarımız:",
+			"paragraph1": "{siteName}, şeffaf, güvenli ve topluluk odaklı bir ortam sunarak sorumlu oyunu teşvik eder.|Misyonumuz, oyuncuların bilinçli kararlar almasına yardımcı olmak ve kumarın bir sorun haline gelmesini önlemektir.",
+			"paragraph2": "Şunlara inanıyoruz:",
 			"beliefs": {
-				"0": "Kumar bir eğlencedir, para kazanma yolu değildir.",
+				"0": "Kumar eğlencedir, para kazanma yolu değildir.",
 				"1": "Öz farkındalığı ve ölçülülüğü teşvik etmek.",
-				"2": "Riskli davranışları önlemek için destek araçları ve kaynakları sağlamak."
+				"2": "Riskli davranışları önlemek için destek araçları ve kaynaklar sağlamak."
 			}
 		},
 		"understanding": {
 			"title": "🧠 Sorumlu Kumarı Anlamak",
-			"paragraph1": "Çevrimiçi kumar her zamankinden daha erişilebilir — ancak bu aynı zamanda zaman, bakiye veya motivasyon takibini kaybetmenin daha kolay olduğu anlamına da gelir.|Sorumlu kumar oynamak, sınırlarınızı bilmek, bilgili olmak ve oyununuz üzerinde kontrolü sürdürmek demektir.",
-			"paragraph2": "Deneyiminizi eğlenceli ve güvenli tutmak için unutmayın:",
+			"paragraph1": "Çevrimiçi kumar her zamankinden daha erişilebilir — ancak bu aynı zamanda zamanı, bakiyeyi veya motivasyonu kaybetmenin daha kolay olduğu anlamına gelir.|Sorumlu kumar, sınırlarınızı bilmek, bilgili kalmak ve oyununuz üzerinde kontrolü sürdürmek anlamına gelir.",
+			"paragraph2": "Deneyiminizi eğlenceli ve güvenli tutmak için şunları unutmayın:",
 			"tips": {
-				"0": "Eğlence için oynayın, kâr için değil.",
-				"1": "Kayıpları kovalamayın — gerektiğinde mola verin.",
+				"0": "Eğlence için oynayın, kar için değil.",
+				"1": "Kayıpları kovalamayın — gerektiğinde ara verin.",
 				"2": "Harcama ve zaman için kişisel sınırlar belirleyin.",
-				"3": "Stresli, yorgun veya üzgünken asla kumar oynamayın.",
-				"4": "Diğer masraflar için ayrılmış parayla kumar oynamaktan kaçının.",
-				"5": "Kumar oynamak eğlenceli olmaktan çıktığında, geri adım atma zamanı gelmiştir."
+				"3": "Stresli, yorgun veya üzgünseniz asla kumar oynamayın.",
+				"4": "Diğer masraflar için ayrılan parayla kumar oynamaktan kaçının.",
+				"5": "Kumar eğlenceli olmayı bırakırsa, geri adım atma zamanıdır."
 			}
 		},
 		"selfCheck": {
-			"title": "🧩 Kendini Kontrol Et: Sorumlu Kumar Oynuyor musunuz?",
-			"intro": "Bu soruları kendinize dürüstçe sorun:",
+			"title": "🧩 Öz Kontrol: Sorumlu Bir Şekilde Kumar Oynuyor Musunuz?",
+			"intro": "Kendinize bu soruları dürüstçe sorun:",
 			"questions": {
-				"0": "Hiç planladığınızdan daha uzun süre kumar oynadınız mı?",
-				"1": "Kumar, ilişkilerinizi veya işinizi etkiledi mi?",
-				"2": "Oynayamadığınızda sinirleniyor musunuz?",
-				"3": "Stres veya sıkıntıdan kaçmak için mi kumar oynuyorsunuz?",
-				"4": "Kumar oynamaya devam etmek için hiç kripto para veya para borç aldınız mı?",
-				"5": "Daha fazla bahis yaparak önceki kayıplarınızı telafi etmeye sık sık çalışıyor musunuz?"
+				"0": "Hiç amaçladığınızdan daha uzun süre kumar oynadınız mı?",
+				"1": "Kumar ilişkilerinizi veya işinizi etkiledi mi?",
+				"2": "Oynayamadığınızda sinirli hissediyor musunuz?",
+				"3": "Stres veya can sıkıntısından kaçmak için kumar oynuyor musunuz?",
+				"4": "Kumar oynamaya devam etmek için hiç kripto veya para ödünç aldınız mı?",
+				"5": "Sık sık daha fazla bahis yaparak önceki kayıpları telafi etmeye çalışıyor musunuz?"
 			},
-			"warning": "Bunlardan birkaçına \"evet\" yanıtı verdiyseniz, kumar alışkanlıklarınızı gözden geçirmeniz ve yardım aramanız gerekebilir."
+			"warning": "Bunlardan birkaçına \"evet\" cevabı verdiyseniz, kumar alışkanlıklarınızı gözden geçirmeniz ve yardım almanız gerekebilir."
 		},
 		"tools": {
-			"title": "🛡️ {siteName} Kontrolü Elinizde Tutmanıza Yardımcı Olmak İçin Neler Sunuyor",
-			"intro": "Tüm oyuncuların güvenli ve sorumlu bir şekilde kumar oynamasını istiyoruz.|Platformumuz, oyununuzu yönetmenize yardımcı olmak için tasarlanmış çeşitli araçlar ve kaynaklar içerir.",
+			"title": "🛡️ {siteName} Kontrolü Elinizde Tutmanıza Yardımcı Olmak İçin Ne Sunuyor",
+			"intro": "Tüm oyuncuların kumarın tadını güvenli ve sorumlu bir şekilde çıkarmasını istiyoruz.|Platformumuz, oyununuzu yönetmenize yardımcı olmak için tasarlanmış çeşitli araçlar ve kaynaklar içerir.",
 			"selfExclusion": {
-				"title": "🔹 Kendini Men Etme",
-				"description": "Hesabınızdan geçici veya kalıcı olarak kendini men etme talebinde bulunabilirsiniz. Bu süre zarfında erişiminiz kısıtlanacak ve promosyon materyalleri almayacaksınız.|Kendini men etmeyi başlatmak için {siteDomain} ile iletişime geçin — ekibimiz size gizli bir şekilde yardımcı olacaktır."
+				"title": "🔹 Kendini Dışlama",
+				"description": "Hesabınızdan geçici veya kalıcı bir kendini dışlama talep edebilirsiniz. Bu süre zarfında erişiminiz kısıtlanacak ve promosyon materyalleri almayacaksınız.|Kendini dışlamayı başlatmak için {siteDomain} ile iletişime geçin — ekibimiz size gizlilik içinde yardımcı olacaktır."
 			},
 			"coolingOff": {
-				"title": "🔹 Mola Süreleri",
-				"paragraph1": "Bunalmış mı hissediyorsunuz yoksa sadece bir molaya mı ihtiyacınız var?|Bir mola süresi alabilirsiniz:",
+				"title": "🔹 Soğuma Dönemleri",
+				"paragraph1": "Bunalmış mı hissediyorsunuz veya sadece bir molaya mı ihtiyacınız var?|Şu süreler için bir soğuma dönemi alabilirsiniz:",
 				"periods": {
 					"0": "24 saat",
 					"1": "1 hafta",
@@ -1881,26 +1883,26 @@
 				"paragraph2": "Bu süre zarfında, cüzdan bağlantınız oyun oynamak için devre dışı bırakılacaktır."
 			},
 			"depositAwareness": {
-				"title": "🔹 Para Yatırma ve Kayıp Farkındalığı",
-				"description": "{siteName} yalnızca kripto cüzdanları aracılığıyla çalıştığı için, oyuncular tüm para yatırma işlemlerini ve işlemleri zincir üzerinde kolayca izleyebilirler.|Toplam oyun hacminizin farkında olmak için cüzdan etkinliğinizi düzenli olarak gözden geçirmenizi öneririz."
+				"title": "🔹 Yatırım & Kayıp Farkındalığı",
+				"description": "{siteName} yalnızca kripto cüzdanlar üzerinden çalıştığı için, oyuncular tüm yatırımları ve işlemleri zincir üzerinde kolayca izleyebilir.|Toplam oyun hacminizin farkında olmak için cüzdan aktivitenizi düzenli olarak gözden geçirmenizi öneririz."
 			}
 		},
 		"underagePrevention": {
-			"title": "👶 Reşit Olmayanların Kumar Oynamasının Önlenmesi",
-			"paragraph1": "18 yaşın altındakilerin kumar oynaması kesinlikle yasaktır.|Reşit olmayanların kumar oynamasını ciddiye alıyor ve aktif olarak caydırıyoruz.",
-			"tipsTitle": "Ebeveynler ve Veliler için İpuçları:",
+			"title": "👶 Reşit Olmayanların Kumar Oynamasını Önleme",
+			"paragraph1": "18 yaşın altındaki herkesin kumar oynaması kesinlikle yasaktır.|Reşit olmayanların kumar oynamasını ciddiye alıyoruz ve aktif olarak caydırıyoruz.",
+			"tipsTitle": "Ebeveynler ve Veliler İçin İpuçları:",
 			"tips": {
-				"0": "Cihazlarda şifre veya kilit erişimi kullanın.",
-				"1": "Paylaşılan cihazlarda cüzdan kimlik bilgilerini veya kurtarma ifadelerini saklamaktan kaçının.",
-				"2": "Cihazınızı gözetimsiz bırakırken {siteName}'den çıkış yapın.",
+				"0": "Cihazlarda şifreler veya erişim kilidi kullanın.",
+				"1": "Ortak cihazlarda cüzdan kimlik bilgilerini veya kurtarma ifadelerini saklamaktan kaçının.",
+				"2": "Cihazınızı gözetimsiz bıraktığınızda {siteName}'dan çıkış yapın.",
 				"3": "Erişimi kısıtlamak için NetNanny veya GamBlock gibi içerik filtreleri kullanın.",
-				"4": "Çocukların çevrimiçi etkinliklerini düzenli olarak izleyin."
+				"4": "Çocukların çevrimiçi aktivitelerini düzenli olarak izleyin."
 			},
-			"warning": "Reşit olmayanların kumar oynadığı tespit edilirse, hesap derhal kapatılacak ve kazançlar kaybedilecektir."
+			"warning": "Reşit olmayanların kumar oynadığı tespit edilirse, hesap derhal kapatılacak ve kazançlar müsadere edilecektir."
 		},
 		"helpSupport": {
 			"title": "❤️ Yardım ve Destek",
-			"intro": "Kumarın zihinsel, duygusal veya finansal sağlığınızı etkilediğini hissederseniz, yalnız değilsiniz.|Aşağıda ücretsiz ve gizli yardım sağlayan güvenilir küresel kuruluşlar bulunmaktadır:",
+			"intro": "Kumarın zihinsel, duygusal veya finansal sağlığınızı etkilediğini hissediyorsanız, yalnız değilsiniz.|Aşağıda ücretsiz ve gizli yardım sağlayan güvenilir küresel kuruluşlar bulunmaktadır:",
 			"organizations": {
 				"0": {
 					"name": "GamCare",
@@ -1923,22 +1925,22 @@
 					"url": "https://www.gamtalk.org"
 				}
 			},
-			"paragraph2": "Bu kaynaklar, dünya çapında öz değerlendirme araçları, çevrimiçi sohbet ve yerel destek grupları sunar."
+			"paragraph2": "Bu kaynaklar, kendi kendine değerlendirme araçları, çevrimiçi sohbet ve dünya çapında yerel destek grupları sunar."
 		},
 		"principles": {
-			"title": "⚙️ {siteName}'de Sorumlu Oyun İlkeleri",
-			"intro": "{siteName}'de şu temel ilkeleri benimsiyoruz:",
+			"title": "⚙️ {siteName}'da Sorumlu Oyun İlkeleri",
+			"intro": "{siteName}'da bu temel ilkeleri savunuyoruz:",
 			"items": {
 				"0": {
 					"title": "Şeffaflık:",
-					"description": "Her oyun ve sonuç kanıtlanabilir şekilde adildir ve blok zinciri ile doğrulanmıştır."
+					"description": "Her oyun ve sonuç kanıtlanabilir şekilde adildir ve blok zinciri ile doğrulanır."
 				},
 				"1": {
 					"title": "Güvenlik:",
 					"description": "Tüm oturumlar Dynamic.xyz cüzdan girişi ile korunur — şifre veya KYC gerekmez."
 				},
 				"2": {
-					"title": "Özerklik:",
+					"title": "Otonomi:",
 					"description": "Oyununuzu siz kontrol edersiniz; istediğiniz zaman bağlantıyı kesebilirsiniz."
 				},
 				"3": {
@@ -1953,46 +1955,46 @@
 		},
 		"playSmart": {
 			"title": "🎮 Unutmayın — Akıllı Oynayın",
-			"intro": "Kumar her zaman eğlenceli, sosyal ve dengeli olmalıdır.|Bu temel hatırlatıcıları aklınızda bulundurun:",
+			"intro": "Kumar her zaman eğlenceli, sosyal ve dengeli olmalıdır.|Bu önemli hatırlatmaları aklınızda bulundurun:",
 			"reminders": {
 				"0": "Başlamadan önce bir zaman sınırı belirleyin.",
 				"1": "Asla kayıpları kovalamayın veya duygusal stres altındayken oynamayın.",
-				"2": "Kazançları gelir olarak değil, bir bonus olarak görün.",
+				"2": "Kazançları gelir olarak değil, bonus olarak görün.",
 				"3": "Kumarı işinizden ve ilişkilerinizden ayrı tutun.",
 				"4": "Eğlence bittiğinde oynamayı bırakın."
 			}
 		},
 		"finalMessage": {
-			"paragraph1": "{siteName}'de, sağlığınız bizim önceliğimizdir.|Her oyuncuyu bilinçli, bilgili seçimler yapmaya ve güvenli bir oyun deneyiminin tadını çıkarmaya teşvik ediyoruz.",
-			"paragraph2": "Tavsiye, yardım veya kendini men etme desteğine ihtiyacınız olursa, bize şu adresten ulaşın:",
+			"paragraph1": "{siteName}'da, refahınız bizim önceliğimizdir.|Her oyuncuyu bilinçli, bilgili seçimler yapmaya ve güvenli bir oyun deneyiminin tadını çıkarmaya teşvik ediyoruz.",
+			"paragraph2": "Tavsiyeye, yardıma veya kendini dışlama desteğine ihtiyacınız varsa, bizimle şu adresten iletişime geçin:",
 			"contact": "📧 {siteDomain}"
 		}
 	},
 	"faqs": {
 		"title": "SSS – {siteName}",
-		"subtitle": "{siteName} ile ilgili sık sorulan soruların yanıtlarını bulun. Cüzdan girişi, para yatırma, para çekme, adil oyun ve blok zinciri şeffaflığı hakkında bilgi edinin.",
+		"subtitle": "Sık sorulan {siteName} sorularına cevaplar bulun. Cüzdan girişi, yatırımlar, çekimler, adil oyun ve blok zinciri şeffaflığı hakkında bilgi edinin.",
 		"introTitle": "SSS – {siteName}",
-		"intro": "{siteName} SSS Merkezi'ne hoş geldiniz, burada kripto oyun platformumuzla ilgili en yaygın soruların hızlı yanıtlarını bulacaksınız.|Cevabınızı burada bulamazsanız, 7/24 destek ekibimiz {siteName} adresinde her zaman yardıma hazırdır.",
+		"intro": "{siteName} SSS Merkezine hoş geldiniz, burada kripto oyun platformumuzla ilgili en yaygın sorulara hızlı cevaplar bulacaksınız.|Cevabınızı burada bulamazsanız, 7/24 destek ekibimiz {siteName} adresinde her zaman yardıma hazırdır.",
 		"lastUpdated": "Son Güncelleme: Ocak 2025",
 		"blockchainTransparency": {
 			"title": "🧩 Blok Zinciri Şeffaflığı",
-			"paragraph1": "{siteName}, her bahsin, işlemin ve ödülün zincir üzerinde şeffaf bir şekilde kaydedilmesini sağlayan Ethereum tabanlı akıllı sözleşmelerle desteklenmektedir.|Tüm veriler ve oyun mantığı değişmez ve doğrulanabilirdir, bu da gerçek adaleti ve denetlenebilirliği sağlar.",
-			"paragraph2": "Tüm platform işlemlerini şu gibi genel kaşifler aracılığıyla takip edebilirsiniz:",
+			"paragraph1": "{siteName}, her bahsin, işlemin ve ödülün şeffaf bir şekilde zincir üzerinde kaydedilmesini sağlayan Ethereum tabanlı akıllı sözleşmelerle desteklenmektedir.|Tüm veriler ve oyun mantığı değiştirilemez ve doğrulanabilir olup, gerçek adalet ve denetlenebilirlik sağlar.",
+			"paragraph2": "Tüm platform işlemlerini aşağıdaki gibi halka açık gezginler aracılığıyla takip edebilirsiniz:",
 			"explorersTitle": "",
-			"guarantee": "Bu, hiçbir manipülasyon veya önyargının asla meydana gelemeyeceğini garanti eder."
+			"guarantee": "Bu, hiçbir manipülasyonun veya önyargının asla meydana gelemeyeceğini garanti eder."
 		},
 		"categories": {
 			"accountRegistration": {
-				"title": "🔹 Hesap ve Kayıt",
+				"title": "🔹 Hesap & Kayıt",
 				"items": {
 					"0": {
-						"question": "1. Web sitenizde kayıt olabilir miyim?",
-						"answer": "Evet — kayıt, 18 yaşında veya daha büyük (veya yargı bölgenizdeki yasal reşit olma yaşı) olan herkese açıktır.|Ayrıca, çevrimiçi oyun oynamanın yaşadığınız yerde yasal olduğundan emin olmalısınız.|{siteName}'de geleneksel kayıt veya şifrelere ihtiyacınız yoktur.|Anında oynamaya başlamak için cüzdanınızı Dynamic.xyz aracılığıyla bağlamanız yeterlidir.|👉 Yasal ve uyumluluk detayları için lütfen Şartlar ve Koşullarımızı inceleyin.",
+						"question": "1. Web sitenize kaydolabilir miyim?",
+						"answer": "Evet — kayıt, 18 yaş ve üzeri (veya yargı bölgenizdeki reşit olma yaşı) herkese açıktır.|Ayrıca ikamet ettiğiniz yerde çevrimiçi oyun oynamanın yasal olduğundan emin olmalısınız.|{siteName}'da geleneksel kayıtlara veya şifrelere ihtiyacınız yoktur.|Anında oynamaya başlamak için cüzdanınızı Dynamic.xyz üzerinden bağlamanız yeterlidir.|👉 Yasal ve uyumluluk ayrıntıları için lütfen Şartlar ve Koşullarımızı inceleyin.",
 						"reminder": "Hatırlatma: Kumar bağımlılık yapabilir. Lütfen sorumlu bir şekilde oynayın ve sınırlarınızı bilin."
 					},
 					"1": {
 						"question": "2. Giriş bilgilerimi unutursam ne olur?",
-						"answer": "{siteName} Dynamic.xyz aracılığıyla cüzdan tabanlı giriş kullandığından, geleneksel şifreler kullanmazsınız.|Hesabınıza tekrar erişmek için:|Başlangıçta kullandığınız aynı adresi kullanarak cüzdanınızı yeniden bağlayın.|Cüzdanınıza erişimi kaybettiyseniz, lütfen tohum cümleniz veya yedekleme yönteminizle geri yükleyin (özel anahtarları asla saklamayız veya kontrol etmeyiz).|{siteName} güvenlik nedenleriyle cüzdan kimlik bilgilerinizi sıfırlayamaz veya kurtaramaz."
+						"answer": "{siteName}, Dynamic.xyz üzerinden cüzdan tabanlı giriş kullandığından, geleneksel şifreler kullanmazsınız.|Hesabınıza tekrar erişmek için:|Başlangıçta kullandığınız aynı adresi kullanarak cüzdanınızı yeniden bağlayın.|Cüzdanınıza erişimi kaybettiyseniz, lütfen seed ifadeniz veya yedekleme yönteminizle geri yükleyin (özel anahtarları asla saklamayız veya kontrol etmeyiz).|{siteName}, güvenlik nedeniyle cüzdan kimlik bilgilerinizi sıfırlayamaz veya kurtaramaz."
 					},
 					"2": {
 						"question": "3. Kullanıcı adımı veya bağlı cüzdanımı değiştirebilir miyim?",
@@ -2000,53 +2002,53 @@
 					},
 					"3": {
 						"question": "4. Nasıl VIP üye olurum?",
-						"answer": "VIP programımız özeldir ve yalnızca davetiyeyle girilebilir.|Siz oynadıkça ve {siteName} topluluğuyla etkileşime girdikçe, oyun etkinliğiniz otomatik olarak izlenir.|Uygun olduğunuzda, platform içi bildirim veya {siteName} ekibinden doğrudan mesaj yoluyla resmi bir davetiye alacaksınız.|VIP'ler özel bonuslara, daha hızlı para çekme işlemlerine ve kişiselleştirilmiş ödüllere erişimden yararlanır."
+						"answer": "VIP programımız özeldir ve yalnızca davetiyeyle katılım sağlanır.|Oynadıkça ve {siteName} topluluğuyla etkileşime girdikçe, oyun aktiviteniz otomatik olarak izlenir.|Uygun olduğunuzda, platform içi bildirim veya {siteName} ekibinden doğrudan mesaj yoluyla resmi bir davetiye alacaksınız.|VIP'ler özel bonuslara, daha hızlı çekimlere ve kişiselleştirilmiş ödüllere erişimin keyfini çıkarır."
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "💰 Para Yatırma ve Çekme",
+				"title": "💰 Yatırımlar & Çekimler",
 				"items": {
 					"0": {
-						"question": "5. Kripto para nasıl yatırırım?",
-						"answer": "{siteName}'de para yatırmak hızlı ve basittir:|Ana panelde \"Cüzdanım\"a gidin.|Para Yatır'ı seçin ve tercih ettiğiniz kripto para birimini seçin (örneğin, BTC, ETH, USDT, BNB).|Benzersiz cüzdan adresinizi kopyalayın veya QR kodunu tarayın.|Kripto paranızı harici cüzdanınızdan görüntülenen adrese gönderin.|Blok zincirinde onaylandıktan sonra, fonlarınız {siteName} bakiyenizde otomatik olarak görünecektir.|⚠️ Yalnızca desteklenen kripto para birimlerini doğru ağ adresine gönderdiğinizden emin olun (örneğin, ERC20, TRC20, BEP20)."
+						"question": "5. Kripto parayı nasıl yatırırım?",
+						"answer": "{siteName}'a yatırım yapmak hızlı ve basittir:|Ana paneldeki \"Cüzdanım\"a gidin.|Yatırımı seçin ve tercih ettiğiniz kripto para birimini (örn. BTC, ETH, USDT, BNB) seçin.|Benzersiz cüzdan adresinizi kopyalayın veya QR kodunu tarayın.|Kripto paranızı harici cüzdanınızdan görüntülenen adrese gönderin.|Blok zincirinde onaylandıktan sonra, fonlarınız {siteName} bakiyenizde otomatik olarak görünecektir.|⚠️ Yalnızca desteklenen kripto paraları doğru adres ağına (örn. ERC20, TRC20, BEP20) gönderdiğinizden emin olun."
 					},
 					"1": {
-						"question": "6. Para yatırma işlemleri ne kadar sürer?",
-						"answer": "Para yatırma işlemleri genellikle blok zinciri tıkanıklığına ve işlem ücretlerine bağlı olarak 5-10 dakika içinde onaylanır.|İşleminizin ilerlemesini işlem karması (TXID) kullanarak bir blok kaşifi (örneğin, Etherscan.io veya BscScan.com) aracılığıyla takip edebilirsiniz.|Para yatırma işleminizin bakiyenizde görünmesi için genellikle en az 3 onay gereklidir."
+						"question": "6. Yatırımlar ne kadar sürer?",
+						"answer": "Yatırımlar, blok zinciri yoğunluğuna ve işlem ücretlerine bağlı olarak genellikle 5–10 dakika içinde onaylanır.|İşlem hash'inizi (TXID) kullanarak işleminizin ilerlemesini bir blok gezgini (örn. Etherscan.io veya BscScan.com) üzerinden takip edebilirsiniz.|Yatırımınızın bakiyenizde görünmesi için genellikle en az 3 onay gerekir."
 					},
 					"2": {
-						"question": "7. Minimum para çekme tutarı nedir?",
-						"answer": "Minimum para çekme tutarı kullandığınız kripto para birimine bağlıdır.|Her coinin kendi ağ ücreti ve minimum eşiği vardır.|Bu değerler \"Cüzdanım\" altındaki Para Çekme bölümünde görüntülenir."
+						"question": "7. Minimum çekim tutarı nedir?",
+						"answer": "Minimum çekim tutarı kullandığınız kripto paraya bağlıdır.|Her coinin kendi ağ ücreti ve minimum eşiği vardır.|Bu değerler \"Cüzdanım\" altındaki Çekim bölümünde görüntülenir."
 					},
 					"3": {
-						"question": "8. Kazancımı nasıl çekerim?",
-						"answer": "Kripto paranızı çekmek için:|\"Cüzdanım\" → \"Para Çek\"e gidin.|Hedef cüzdan adresinizi ve çekmek istediğiniz tutarı girin.|Onaylamadan önce adresinizi ve ağ türünüzü iki kez kontrol edin.|Para çekme işlemleri anında işlenir, ancak blok zinciri ağ etkinliğine bağlı olarak birkaç dakika sürebilir.|💡 Alıcı cüzdanınızın para çektiğiniz ağı desteklediğinden her zaman emin olun."
+						"question": "8. Kazançlarımı nasıl çekerim?",
+						"answer": "Kripto paranızı çekmek için:|\"Cüzdanım\" → \"Çekim\"e gidin.|Hedef cüzdan adresinizi ve çekmek istediğiniz tutarı girin.|Onaylamadan önce adresinizi ve ağ türünü iki kez kontrol edin.|Çekimler anında işlenir, ancak blok zinciri ağ aktivitesine bağlı olarak birkaç dakika sürebilir.|💡 Alıcı cüzdanınızın çekim yaptığınız ağı desteklediğinden daima emin olun."
 					},
 					"4": {
 						"question": "9. İşlemim gecikirse ne olur?",
-						"answer": "Blok zinciri işlemleri bazen ağ tıkanıklığı veya düşük gas ücretleri nedeniyle daha uzun sürer.|Para yatırma veya çekme işleminiz gelmediyse:|Blok zinciri kaşifinde TXID'nizi kontrol edin.|Doğru ağı ve adresi kullandığınızı onaylayın.|Bir saatten fazla geçtiyse, TXID'niz ve cüzdan bilgilerinizle {siteDomain} ile iletişime geçin."
+						"answer": "Blok zinciri işlemleri bazen ağ tıkanıklığı veya düşük gas ücretleri nedeniyle daha uzun sürebilir.|Yatırımınız veya çekiminiz gelmediyse:|TXID'nizi blok zinciri gezgininde kontrol edin.|Doğru ağı ve adresi kullandığınızı doğrulayın.|Bir saatten fazla sürdüyse, TXID'niz ve cüzdan detaylarınızla {siteDomain} ile iletişime geçin."
 					}
 				}
 			},
 			"gamesSecurity": {
-				"title": "🎮 Oyunlar, Adalet ve Güvenlik",
+				"title": "🎮 Oyunlar, Adalet & Güvenlik",
 				"items": {
 					"0": {
 						"question": "10. {siteName} oyunları adil mi?",
-						"answer": "Evet — tüm {siteName} oyunları kanıtlanabilir şekilde adil teknoloji ve doğrulanmış akıllı sözleşmeler kullanılarak oluşturulmuştur.|Her bahis, sonuç ve ödeme blok zincirinde bağımsız olarak doğrulanabilir.|Rastgeleliği, adaleti ve açıklığı garanti eden şeffaf, kurcalamaya karşı korumalı sistemler üzerinde çalışıyoruz.|Oyun sonuçlarını ve işlem kanıtlarını Etherscan veya ilgili ağ kaşifi aracılığıyla zincir üzerinde görüntüleyebilirsiniz."
+						"answer": "Evet — tüm {siteName} oyunları, kanıtlanabilir adil (provably fair) teknolojisi ve doğrulanmış akıllı sözleşmeler kullanılarak oluşturulmuştur.|Her bahis, sonuç ve ödeme blok zincirinde bağımsız olarak doğrulanabilir.|Rastgeleliği, adaleti ve açıklığı garanti eden şeffaf, kurcalanamaz sistemlerde çalışıyoruz.|Oyun sonuçlarını ve işlem kanıtlarını Etherscan veya ilgili ağ gezgini üzerinden zincir üstünde görebilirsiniz."
 					},
 					"1": {
-						"question": "11. Bir oyun donar veya çökerse ne yapmalıyım?",
-						"answer": "Oyununuz yanıt vermeyi durdurursa:|Sayfayı yenileyin.|Tarayıcınızın önbelleğini temizleyin ve cüzdanınızı yeniden bağlayın.|Sorun devam ederse, Canlı Sohbet veya {siteDomain} aracılığıyla destek ekibimizle iletişime geçin.|Ekibimiz, etkilenmişse oyun oturumunuzu veya bakiyenizi geri yüklemenize yardımcı olacaktır."
+						"question": "11. Oyun donarsa veya çökerse ne yapmalıyım?",
+						"answer": "Oyununuz yanıt vermeyi durdurursa:|Sayfayı yenileyin.|Tarayıcı önbelleğinizi temizleyin ve cüzdanınızı yeniden bağlayın.|Sorun devam ederse, Canlı Sohbet veya {siteDomain} aracılığıyla destek ekibimizle iletişime geçin.|Ekibimiz oyun oturumunuzu veya etkilenen bakiyenizi geri yüklemenize yardımcı olacaktır."
 					},
 					"2": {
 						"question": "12. Birden fazla cüzdan veya hesap kullanabilir miyim?",
-						"answer": "Hayır.|Her oyuncunun birincil hesabı olarak bir cüzdan adresi kullanmasına izin verilir.|Bonus talep etmek veya promosyonları kötüye kullanmak için birden fazla hesap oluşturmak veya cüzdan rotasyonları kullanmak kesinlikle yasaktır ve hesap kısıtlamasına veya bakiye kaybına neden olabilir."
+						"answer": "Hayır.|Her oyuncunun birincil hesabı olarak bir cüzdan adresi kullanmasına izin verilir.|Bonus talep etmek veya promosyonları istismar etmek için birden fazla hesap oluşturmak veya cüzdan rotasyonları kullanmak kesinlikle yasaktır ve hesap kısıtlamasına veya bakiyenin kaybedilmesine neden olabilir."
 					},
 					"3": {
 						"question": "13. Kişisel verilerim güvende mi?",
-						"answer": "Evet.|{siteName}'de kişisel veri toplamıyoruz — kimliğiniz güvende kalır.|Erişim, Dynamic.xyz aracılığıyla yönetilir ve dijital kimliğinizin tam gizliliğini ve sahipliğini sağlar.|Bizim tarafımızdan hiçbir şifre, e-posta veya hassas belge saklanmaz.|Cüzdanınız = kimliğiniz."
+						"answer": "Evet.|{siteName}'da kişisel veri toplamıyoruz — kimliğiniz güvende kalır.|Erişim Dynamic.xyz aracılığıyla yönetilir, bu da dijital kimliğinizin tam gizliliğini ve sahipliğini sağlar.|Hiçbir şifre, e-posta veya hassas belge tarafımızdan saklanmaz.|Cüzdanınız = kimliğiniz."
 					}
 				}
 			},
@@ -2055,20 +2057,20 @@
 				"items": {
 					"0": {
 						"question": "14. {siteName} sorumlu kumarı destekliyor mu?",
-						"answer": "Kesinlikle.|Her oyuncuyu ölçülü bir şekilde oyun oynamaya teşvik ediyoruz.|İstediğiniz zaman {siteDomain} ile iletişime geçerek kendini men etme süresi veya mola talep edebilirsiniz.|Kumarın hayatınızı etkilediğini düşünüyorsanız, kaynaklar ve yardım kuruluşları için Sorumlu Kumar sayfamızı ziyaret edin."
+						"answer": "Kesinlikle.|Her oyuncuyu oyunu ölçülü bir şekilde oynamaya teşvik ediyoruz.|{siteDomain} ile iletişime geçerek istediğiniz zaman bir kendini dışlama süresi talep edebilir veya bir soğuma molası verebilirsiniz.|Kumarın hayatınızı etkilediğini düşünüyorsanız, kaynaklar ve yardım kuruluşları için Sorumlu Kumar sayfamızı ziyaret edin."
 					},
 					"1": {
-						"question": "15. Bir kumar sorunum olduğundan şüphelenirsem ne yapmalıyım?",
-						"answer": "Kumarınızın kontrolden çıktığını düşünüyorsanız, bir mola verin ve gizli yardım için bu güvenilir kuruluşlardan birine ulaşın:|GamCare: GamCare - Ulusal Kumar Yardım Hattı'nın Kurucusu|Gambling Therapy: Gambling Therapy - Kumar sorunu için tavsiye ve destek|Gamblers Anonymous: GA Gävle - Pazartesi|Destek ekibimiz ayrıca hesabınıza erişimi güvenli bir şekilde sınırlama konusunda size rehberlik edebilir."
+						"question": "15. Bir kumar sorunundan şüphelenirsem ne yapmalıyım?",
+						"answer": "Kumarınızın kontrolden çıktığını hissediyorsanız, bir mola verin ve gizli yardım için bu güvenilir kuruluşlardan biriyle iletişime geçin:|GamCare: GamCare - Ulusal Kumar Yardım Hattı'nın Kurucusu|Gambling Therapy: Gambling Therapy - Sorunlu kumar için tavsiye ve destek|Gamblers Anonymous: GA Gävle - Pazartesi|Destek ekibimiz de hesabınıza erişimi güvenli bir şekilde sınırlama konusunda size rehberlik edebilir."
 					}
 				}
 			}
 		},
 		"needMoreHelp": {
 			"title": "💬 Daha Fazla Yardıma mı İhtiyacınız Var?",
-			"intro": "Destek ekibimiz size şu yollarla yardımcı olmak için 7/24 hizmetinizdedir:",
+			"intro": "Destek ekibimiz size yardımcı olmak için 7/24 hizmetinizdedir:",
 			"contactTitle": "",
-			"liveChat": "💬 Canlı Sohbet (cüzdan bağlantılı panelinizin içinde mevcuttur)"
+			"liveChat": "💬 Canlı Sohbet (cüzdan bağlantılı panelinizde mevcuttur)"
 		}
 	}
 }
