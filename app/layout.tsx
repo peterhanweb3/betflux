@@ -52,9 +52,9 @@ export default async function RootLayout({
 
 				<Script
 					src="https://www.googletagmanager.com/gtag/js?id=G-4GHMTR2431"
-					strategy="afterInteractive"
+					strategy="beforeInteractive"
 				/>
-				<Script id="google-analytics" strategy="afterInteractive">
+				<Script id="google-analytics" strategy="beforeInteractive">
 					{`
 						window.dataLayer = window.dataLayer || [];
 						function gtag(){dataLayer.push(arguments);}
