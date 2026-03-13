@@ -54,6 +54,7 @@ export default async function SeoPage({
 		notFound();
 	}
 
+	// @ts-expect-error- we know this is the correct type, but it doesn't work with the current typing of carousels in SeoPage
 	const carousels = page.carousels as unknown as CarouselsState;
 
 	return (

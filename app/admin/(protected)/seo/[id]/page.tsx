@@ -27,6 +27,7 @@ export default async function SeoPageEdit({
 
 	const initialData = {
 		...page,
+		// @ts-expect-error- we know this is the correct type, but it doesn't work with the current typing of carousels in SeoPage
 		carousels: (page.carousels as unknown as CarouselsState) || {
 			liveCasino: {
 				enabled: false,

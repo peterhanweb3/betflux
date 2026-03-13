@@ -41,6 +41,7 @@ export async function createSeoPage(data: {
 	await prisma.seoPage.create({
 		data: {
 			...restData,
+			// @ts-expect-error- we know this is the correct type, but it doesn't work with the current typing of carousels in SeoPage
 			carousels: normalizeCarousels(carousels),
 			published: published ?? false,
 		},

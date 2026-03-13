@@ -1,5 +1,5 @@
 import { Poppins } from "next/font/google";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import Script from "next/script";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { ThemeColorProvider } from "@/components/theme/theme-color-provider";
@@ -33,6 +33,18 @@ export default async function RootLayout({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
+	let gId;
+	try {
+		const headersList = await headers();
+		const host = headersList.get("host") || "hyperholaholah.xyz";
+		const tld = host.split(".").slice(-1)[0];
+		if (tld === "games") gId = "G-4GHMTR2431";
+		else if (tld === "com") gId = "G-4GHMTR2431";
+		else if (tld === "io") gId = "G-4GHMTR2431";
+		else if (tld === "xyz") gId = "G-4GHMTR2431";
+	} catch {
+		gId = "G-4GHMTR2431"; // default}
+	}
 	// Get user's locale from cookies for proper HTML lang attribute (SEO)
 	const cookieStore = await cookies();
 	const locale = (cookieStore.get("NEXT_LOCALE")?.value || "en") as Locale;
@@ -51,18 +63,18 @@ export default async function RootLayout({
 				/> */}
 
 				<Script
-					src="https://www.googletagmanager.com/gtag/js?id=G-4GHMTR2431"
+					src={`https://www.googletagmanager.com/gtag/js?id=${gId}`}
 					strategy="beforeInteractive"
+					defer
 				/>
-				<Script id="google-analytics" strategy="beforeInteractive">
+				<Script id="google-analytics" strategy="beforeInteractive" defer>
 					{`
 						window.dataLayer = window.dataLayer || [];
 						function gtag(){dataLayer.push(arguments);}
 						gtag('js', new Date());
-						gtag('config', 'G-4GHMTR2431');
+						gtag('config', '${gId}');
 					`}
 				</Script>
-
 				{/* Viewport optimization for mobile */}
 				<meta
 					name="viewport"
