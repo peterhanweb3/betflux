@@ -1157,8 +1157,8 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "Sertai Aksi",
-			"subtitle": "Daftar sekarang dan dapatkan bonus alu-aluan eksklusif!",
+			"title": "Main kasino kripto serta-merta",
+			"subtitle": "Sambungkan dompet anda dan mula bermain dalam beberapa saat.\nPengeluaran segera. Terbukti adil.!",
 			"cta": "Daftar Sekarang"
 		},
 		"welcome": {
@@ -1168,7 +1168,7 @@
 			"cta": "Deposit & Dapatkan"
 		},
 		"jackpot": {
-			"title1": "Jackpot Mega",
+			"title1": "Mega Jackpot",
 			"title2": "$1,000,000",
 			"subtitle": "Main Sekarang & Menang Besar",
 			"cta": "Main Sekarang"
@@ -1177,19 +1177,19 @@
 			"casino": {
 				"title": "Kasino",
 				"badge": "590+ PERMAINAN",
-				"desc": "Nikmati {siteName} Originals dan permainan kasino lain daripada penyedia teratas.",
+				"desc": "Nikmati {siteName} Originals dan permainan kasino lain dari penyedia terkemuka.",
 				"link": "Pergi ke Kasino"
 			},
 			"slots": {
 				"title": "Slot",
 				"badge": "5292 PERMAINAN",
-				"desc": "Putar kekili dan dapatkan jackpot besar dengan koleksi slot premium kami.",
+				"desc": "Pusingkan gelendong dan kena jackpot besar dengan koleksi slot premium kami.",
 				"link": "Pergi ke Slot"
 			},
 			"sports": {
 				"title": "Sukan",
 				"badge": "3 PERMAINAN",
-				"desc": "Pertaruh pada pasukan dan acara sukan kegemaran anda dengan kemungkinan kompetitif.",
+				"desc": "Bertaruh pada pasukan dan acara sukan kegemaran anda dengan peluang kompetitif.",
 				"link": "Pergi ke Sukan"
 			},
 			"crypto": {
@@ -1201,15 +1201,15 @@
 		},
 		"layout3": {
 			"headerTitle": "Sorotan Permainan",
-			"headerSubtitle": "Temui permainan yang menakjubkan dan terokai pengembaraan baru dalam koleksi susun atur kami",
+			"headerSubtitle": "Temui permainan menakjubkan dan teroka pengembaraan baru dalam koleksi susun atur kami",
 			"slider1Title": "Permainan Pilihan",
-			"slider1Badge": "Pilihan Staf",
-			"slider2Title": "Lebih Banyak untuk Diterokai",
+			"slider1Badge": "Pilihan Kakitangan",
+			"slider2Title": "Lebih Banyak untuk Diteroka",
 			"slider2Badge": "Trending",
 			"featuredGameLabel": "Permainan Pilihan"
 		},
-		"ctaExploreGames": "Teroka Permainan",
-		"ctaJoinAffiliate": "Sertai Ahli Gabungan"
+		"ctaExploreGames": "Sambung dompet",
+		"ctaJoinAffiliate": "Main sekarang"
 	},
 	"betting": {
 		"live": {

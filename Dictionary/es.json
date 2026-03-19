@@ -1157,8 +1157,8 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "Únete a la Acción",
-			"subtitle": "¡Regístrate ahora y obtén un bono de bienvenida exclusivo!",
+			"title": "Juega al casino cripto al instante",
+			"subtitle": "Conecta tu billetera y comienza a jugar en segundos.\nRetiros instantáneos. Juego justo verificable.",
 			"cta": "Regístrate Ahora"
 		},
 		"welcome": {
@@ -1170,21 +1170,21 @@
 		"jackpot": {
 			"title1": "Mega Jackpot",
 			"title2": "$1,000,000",
-			"subtitle": "Jugar Ahora y Ganar Grande",
+			"subtitle": "Juega Ahora y Gana a lo Grande",
 			"cta": "Jugar Ahora"
 		},
 		"cards": {
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JUEGOS",
-				"desc": "Disfruta de Originales de {siteName} y otros juegos de casino de los mejores proveedores.",
+				"desc": "Disfruta de {siteName} Originals y otros juegos de casino de los mejores proveedores.",
 				"link": "Ir al Casino"
 			},
 			"slots": {
-				"title": "Tragamonedas",
+				"title": "Slots",
 				"badge": "5292 JUEGOS",
-				"desc": "Gira los carretes y gana premios masivos con nuestra colección de tragamonedas premium.",
-				"link": "Ir a Tragamonedas"
+				"desc": "Gira los carretes y consigue premios masivos con nuestra colección premium de slots.",
+				"link": "Ir a Slots"
 			},
 			"sports": {
 				"title": "Deportes",
@@ -1203,13 +1203,13 @@
 			"headerTitle": "Juego Destacado",
 			"headerSubtitle": "Descubre juegos increíbles y explora nuevas aventuras en nuestra colección curada",
 			"slider1Title": "Juegos Destacados",
-			"slider1Badge": "Selección del Staff",
+			"slider1Badge": "Selección del Personal",
 			"slider2Title": "Más para Explorar",
 			"slider2Badge": "Tendencia",
 			"featuredGameLabel": "Juego Destacado"
 		},
-		"ctaExploreGames": "Explorar Juegos",
-		"ctaJoinAffiliate": "Unirse a Afiliados"
+		"ctaExploreGames": "Conectar billetera",
+		"ctaJoinAffiliate": "Jugar ahora"
 	},
 	"betting": {
 		"live": {

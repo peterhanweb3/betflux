@@ -1156,61 +1156,61 @@
     }
   },
   "hero": {
-    "guest": {
-      "title": "Tham gia hành động",
-      "subtitle": "Đăng ký ngay bây giờ và nhận một phần thưởng chào mừng độc quyền!",
-      "cta": "Đăng ký ngay"
-    },
-    "welcome": {
-      "title1": "Thưởng Chào mừng",
-      "title2": "Lên đến 590%",
-      "subtitle": "+ 225 Vòng quay miễn phí",
-      "cta": "Nạp tiền & Nhận"
-    },
-    "jackpot": {
-      "title1": "Jackpot lớn",
-      "title2": "$1,000,000",
-      "subtitle": "Chơi ngay & Thắng lớn",
-      "cta": "Chơi ngay"
-    },
-    "cards": {
-      "casino": {
-        "title": "Sòng bạc",
-        "badge": "590+ TRÒ CHƠI",
-        "desc": "Thưởng thức các trò chơi {siteName} Originals và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
-        "link": "Đến Sòng bạc"
-      },
-      "slots": {
-        "title": "Slots",
-        "badge": "5292 TRÒ CHƠI",
-        "desc": "Quay guồng và giành những giải jackpot khổng lồ với bộ sưu tập slot cao cấp của chúng tôi.",
-        "link": "Đến Slots"
-      },
-      "sports": {
-        "title": "Thể thao",
-        "badge": "3 TRÒ CHƠI",
-        "desc": "Đặt cược vào các đội và sự kiện thể thao yêu thích của bạn với tỷ lệ cược cạnh tranh.",
-        "link": "Đến Thể thao"
-      },
-      "crypto": {
-        "title": "Crypto & Kiếm tiền",
-        "badge": "60% APR",
-        "desc": "Đặt cọc, giao dịch và kiếm tiền với tiền điện tử với tỷ lệ hấp dẫn.",
-        "link": "Đến Crypto"
-      }
-    },
-    "layout3": {
-      "headerTitle": "Tiêu điểm trò chơi",
-      "headerSubtitle": "Khám phá những trò chơi tuyệt vời và khám phá những cuộc phiêu lưu mới trong bộ sưu tập được tuyển chọn của chúng tôi",
-      "slider1Title": "Trò chơi nổi bật",
-      "slider1Badge": "Lựa chọn của nhân viên",
-      "slider2Title": "Khám phá thêm",
-      "slider2Badge": "Thịnh hành",
-      "featuredGameLabel": "Trò chơi nổi bật"
-    },
-    "ctaExploreGames": "Khám phá trò chơi",
-    "ctaJoinAffiliate": "Tham gia liên kết"
-  },
+		"guest": {
+			"title": "Chơi casino crypto ngay lập tức",
+			"subtitle": "Kết nối ví và bắt đầu chơi trong vài giây.\nRút tiền ngay lập tức. Công bằng có thể kiểm chứng!",
+			"cta": "Đăng ký Ngay"
+		},
+		"welcome": {
+			"title1": "Thưởng Chào mừng",
+			"title2": "Lên đến 590%",
+			"subtitle": "+ 225 Vòng quay miễn phí",
+			"cta": "Nạp tiền & Nhận"
+		},
+		"jackpot": {
+			"title1": "Siêu Jackpot",
+			"title2": "$1,000,000",
+			"subtitle": "Chơi Ngay & Thắng Lớn",
+			"cta": "Chơi Ngay"
+		},
+		"cards": {
+			"casino": {
+				"title": "Casino",
+				"badge": "590+ TRÒ CHƠI",
+				"desc": "Thưởng thức {siteName} Originals và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
+				"link": "Đến Casino"
+			},
+			"slots": {
+				"title": "Nổ hũ",
+				"badge": "5292 TRÒ CHƠI",
+				"desc": "Quay các cuộn và trúng giải độc đắc lớn với bộ sưu tập nổ hũ cao cấp của chúng tôi.",
+				"link": "Đến Nổ hũ"
+			},
+			"sports": {
+				"title": "Thể thao",
+				"badge": "3 TRÒ CHƠI",
+				"desc": "Đặt cược vào các đội và sự kiện thể thao yêu thích của bạn với tỷ lệ cược cạnh tranh.",
+				"link": "Đến Thể thao"
+			},
+			"crypto": {
+				"title": "Tiền điện tử & Kiếm tiền",
+				"badge": "60% APR",
+				"desc": "Đặt cược, giao dịch và kiếm tiền với tiền điện tử ở mức giá hấp dẫn.",
+				"link": "Đến Tiền điện tử"
+			}
+		},
+		"layout3": {
+			"headerTitle": "Tiêu điểm Trò chơi",
+			"headerSubtitle": "Khám phá những trò chơi tuyệt vời và khám phá những cuộc phiêu lưu mới trong bộ sưu tập được tuyển chọn của chúng tôi",
+			"slider1Title": "Trò chơi Nổi bật",
+			"slider1Badge": "Lựa chọn của Nhân viên",
+			"slider2Title": "Khám phá thêm",
+			"slider2Badge": "Thịnh hành",
+			"featuredGameLabel": "Trò chơi Nổi bật"
+		},
+		"ctaExploreGames": "Kết nối ví",
+		"ctaJoinAffiliate": "Chơi ngay"
+	},
   "betting": {
     "live": {
       "winRate": "Tỷ lệ thắng",

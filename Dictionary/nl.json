@@ -1157,15 +1157,15 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "Doe Mee met de Actie",
-			"subtitle": "Schrijf je nu in en ontvang een exclusieve welkomstbonus!",
+			"title": "Speel direct in het crypto casino",
+			"subtitle": "Verbind je wallet en begin binnen seconden met spelen.\nDirecte uitbetalingen. Aantoonbaar eerlijk.!",
 			"cta": "Registreer Nu"
 		},
 		"welcome": {
 			"title1": "Welkomstbonus",
 			"title2": "Tot 590%",
 			"subtitle": "+ 225 Gratis Spins",
-			"cta": "Stort & Ontvang"
+			"cta": "Storten & Krijgen"
 		},
 		"jackpot": {
 			"title1": "Mega Jackpot",
@@ -1183,7 +1183,7 @@
 			"slots": {
 				"title": "Slots",
 				"badge": "5292 SPELLEN",
-				"desc": "Draai de rollen en raak enorme jackpots met onze premium slotcollectie.",
+				"desc": "Spin de rollen en raak enorme jackpots met onze premium slotcollectie.",
 				"link": "Ga naar Slots"
 			},
 			"sports": {
@@ -1204,12 +1204,12 @@
 			"headerSubtitle": "Ontdek geweldige spellen en verken nieuwe avonturen in onze samengestelde collectie",
 			"slider1Title": "Uitgelichte Spellen",
 			"slider1Badge": "Staff Picks",
-			"slider2Title": "Meer om te Verkennen",
+			"slider2Title": "Meer te Verkennen",
 			"slider2Badge": "Trending",
 			"featuredGameLabel": "Uitgelicht Spel"
 		},
-		"ctaExploreGames": "Verken Spellen",
-		"ctaJoinAffiliate": "Word Affiliate"
+		"ctaExploreGames": "Wallet verbinden",
+		"ctaJoinAffiliate": "Speel nu"
 	},
 	"betting": {
 		"live": {

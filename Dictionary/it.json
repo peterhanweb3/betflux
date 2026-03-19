@@ -1157,45 +1157,45 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "Unisciti all'Azione",
-			"subtitle": "Registrati ora e ottieni un bonus di benvenuto esclusivo!",
+			"title": "Gioca subito al casinò crypto",
+			"subtitle": "Collega il tuo wallet e inizia a giocare in pochi secondi.\nPrelievi istantanei. Equità verificabile.",
 			"cta": "Registrati Ora"
 		},
 		"welcome": {
 			"title1": "Bonus di Benvenuto",
 			"title2": "Fino al 590%",
 			"subtitle": "+ 225 Giri Gratis",
-			"cta": "Deposita & Ricevi"
+			"cta": "Deposita & Ottieni"
 		},
 		"jackpot": {
 			"title1": "Mega Jackpot",
 			"title2": "$1,000,000",
-			"subtitle": "Gioca Ora & Vinci Alla Grande",
+			"subtitle": "Gioca Ora & Vinci alla Grande",
 			"cta": "Gioca Ora"
 		},
 		"cards": {
 			"casino": {
 				"title": "Casinò",
 				"badge": "590+ GIOCHI",
-				"desc": "Divertiti con gli Originali {siteName} e altri giochi da casinò dei migliori fornitori.",
+				"desc": "Divertiti con gli Originali {siteName} e altri giochi da casinò dai migliori fornitori.",
 				"link": "Vai al Casinò"
 			},
 			"slots": {
 				"title": "Slot",
 				"badge": "5292 GIOCHI",
-				"desc": "Gira i rulli e centra enormi jackpot con la nostra collezione di slot premium.",
+				"desc": "Gira i rulli e centra jackpot massicci con la nostra collezione di slot premium.",
 				"link": "Vai alle Slot"
 			},
 			"sports": {
 				"title": "Sport",
 				"badge": "3 GIOCHI",
-				"desc": "Scommetti sulle tue squadre preferite ed eventi sportivi con quote competitive.",
+				"desc": "Scommetti sulle tue squadre ed eventi sportivi preferiti con quote competitive.",
 				"link": "Vai allo Sport"
 			},
 			"crypto": {
-				"title": "Crypto & Earn",
+				"title": "Crypto & Guadagna",
 				"badge": "60% APR",
-				"desc": "Fai staking, trading e guadagna con criptovalute a tassi interessanti.",
+				"desc": "Fai staking, trading e guadagna con le criptovalute a tassi interessanti.",
 				"link": "Vai a Crypto"
 			}
 		},
@@ -1203,13 +1203,13 @@
 			"headerTitle": "Riflettori sul Gioco",
 			"headerSubtitle": "Scopri giochi incredibili ed esplora nuove avventure nella nostra collezione curata",
 			"slider1Title": "Giochi in Evidenza",
-			"slider1Badge": "Scelti dallo Staff",
+			"slider1Badge": "Scelte dallo Staff",
 			"slider2Title": "Altro da Esplorare",
-			"slider2Badge": "Tendenza",
+			"slider2Badge": "In Tendenza",
 			"featuredGameLabel": "Gioco in Evidenza"
 		},
-		"ctaExploreGames": "Esplora Giochi",
-		"ctaJoinAffiliate": "Diventa Affiliato"
+		"ctaExploreGames": "Collega wallet",
+		"ctaJoinAffiliate": "Gioca ora"
 	},
 	"betting": {
 		"live": {

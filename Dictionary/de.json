@@ -1157,8 +1157,8 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "Nehmen Sie an der Action teil",
-			"subtitle": "Registrieren Sie sich jetzt und erhalten Sie einen exklusiven Willkommensbonus!",
+			"title": "Spiele sofort im Krypto-Casino",
+			"subtitle": "Verbinde deine Wallet und starte in Sekunden mit Live-Spielen.\nSofortige Auszahlungen. Nachweislich fair.",
 			"cta": "Jetzt registrieren"
 		},
 		"welcome": {
@@ -1183,8 +1183,8 @@
 			"slots": {
 				"title": "Slots",
 				"badge": "5292 SPIELE",
-				"desc": "Drehen Sie die Walzen und knacken Sie riesige Jackpots mit unserer Premium-Slot-Kollektion.",
-				"link": "Zu Slots"
+				"desc": "Drehen Sie die Walzen und knacken Sie massive Jackpots mit unserer Premium-Slot-Kollektion.",
+				"link": "Zu den Slots"
 			},
 			"sports": {
 				"title": "Sport",
@@ -1193,23 +1193,23 @@
 				"link": "Zum Sport"
 			},
 			"crypto": {
-				"title": "Krypto & Earn",
+				"title": "Krypto & Verdienen",
 				"badge": "60% APR",
-				"desc": "Staken, handeln und verdienen Sie mit Kryptowährung zu attraktiven Konditionen.",
+				"desc": "Staken, handeln und verdienen Sie mit Kryptowährung zu attraktiven Raten.",
 				"link": "Zu Krypto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "Spiel-Spotlight",
+			"headerTitle": "Spiel im Rampenlicht",
 			"headerSubtitle": "Entdecken Sie erstaunliche Spiele und erkunden Sie neue Abenteuer in unserer kuratierten Sammlung",
 			"slider1Title": "Vorgestellte Spiele",
 			"slider1Badge": "Mitarbeiter-Tipps",
-			"slider2Title": "Mehr zu entdecken",
+			"slider2Title": "Mehr zu erkunden",
 			"slider2Badge": "Trending",
 			"featuredGameLabel": "Vorgestelltes Spiel"
 		},
-		"ctaExploreGames": "Spiele erkunden",
-		"ctaJoinAffiliate": "Partner werden"
+		"ctaExploreGames": "Wallet verbinden",
+		"ctaJoinAffiliate": "Jetzt spielen"
 	},
 	"betting": {
 		"live": {

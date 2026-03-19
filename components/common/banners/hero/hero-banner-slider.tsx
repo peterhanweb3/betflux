@@ -14,9 +14,12 @@ import Autoplay from "embla-carousel-autoplay";
 import { useTranslations } from "@/lib/locale-provider";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
+import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
 
 // --- Enhanced Hero Slider Component ---
 export default function HeroSlider({ slides }: { slides: HeroSlideData[] }) {
+	const { setShowAuthFlow, primaryWallet } = useDynamicContext();
 	const tHero = useTranslations("hero");
 	const tGames = useTranslations("games");
 	const router = useRouter();
@@ -63,21 +66,23 @@ export default function HeroSlider({ slides }: { slides: HeroSlideData[] }) {
 					{slides.map((slide, index) => (
 						<CarouselItem key={index}>
 							<div
-								className="relative w-full h-64 md:h-80 rounded-2xl overflow-hidden 
-                    bg-cover bg-center bg-no-repeat p-8 md:p-12 
-                    flex flex-col justify-center items-start
-                    before:absolute before:inset-0"
-								style={{
-									backgroundColor: "var(--primary)", // Solid red background as fallback
-									backgroundImage: `url("${slide.backgroundImageUrl}")`,
-									backgroundBlendMode: "hard-light",
-								}}
+								className="relative w-full h-64 md:h-80 rounded-2xl overflow-hidden p-8 md:p-12 flex flex-col justify-center items-start"
+								style={{ backgroundColor: "var(--primary)" }}
 							>
+								<Image
+									src={slide.backgroundImageUrl}
+									alt="Background"
+									fill
+									className="absolute inset-0 w-full h-full object-cover object-center "
+									style={{ mixBlendMode: "hard-light" }}
+									priority
+									fetchPriority="high"
+								/>
 								{/* Glass morphism effect */}
 								{/* <div className="absolute inset-0 backdrop-blur-[1px]" /> */}
 
 								<div className="relative z-10 max-w-2xl text-white">
-									<h1
+									<h2
 										className="text-4xl md:text-5xl font-extrabold uppercase tracking-tighter 
                       drop-shadow-2xl text-shadow-lg
                       bg-gradient-to-r from-white via-white to-white/90 bg-clip-text 
@@ -86,14 +91,14 @@ export default function HeroSlider({ slides }: { slides: HeroSlideData[] }) {
 										{/* Localize known slides via i18nKey, else fallback to provided title */}
 										{slide.i18nKey === "guest" && (
 											<>
-												<span className="text-destructive">
+												<span className="text-destructive text-2xl md:text-4xl lg:text-6xl">
 													{tHero("guest.title")}
 												</span>
 											</>
 										)}
 										{slide.i18nKey === "welcome" && (
 											<>
-												<span className="text-destructive">
+												<span className="text-destructive text-2xl md:text-4xl lg:text-6xl">
 													{tHero("welcome.title1")}
 												</span>
 												<br />
@@ -113,38 +118,39 @@ export default function HeroSlider({ slides }: { slides: HeroSlideData[] }) {
 											(typeof slide.title === "string"
 												? slide.title
 												: slide.title)}
-									</h1>
+									</h2>
 									<p
-										className="mt-3 text-lg text-white/90 drop-shadow-lg 
+										className="mt-3 max-w-md text-sm md:text-lg text-white/90 drop-shadow-lg 
                       animate-in slide-in-from-bottom-4 delay-150"
 									>
 										{slide.i18nKey
 											? tHero(`${slide.i18nKey}.subtitle`)
 											: slide.game
-											? tGames("byProvider", {
-													name: slide.game
-														.provider_name,
-											  })
-											: slide.subtitle}
+												? tGames("byProvider", {
+														name: slide.game
+															.provider_name,
+													})
+												: slide.subtitle}
 									</p>
 
 									{/* Two Buttons Container */}
-									<div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center">
-										<Button
-											size="lg"
-											className="shadow-2xl shadow-primary/20 
+									<div className="flex flex-col sm:flex-row gap-1 sm:gap-4 mt-6 justify-center">
+										{!primaryWallet && ( // Show "Connect Wallet" if not connected
+											<Button
+												size="lg"
+												className="shadow-2xl shadow-primary/20 
                           bg-primary/90 hover:bg-primary backdrop-blur-sm
                           border border-primary/20 hover:border-primary/40
                           transition-all duration-200 ease-out
                           hover:scale-105 hover:shadow-2xl hover:shadow-primary/30
                           animate-in slide-in-from-bottom-4"
-											onClick={() =>
-												router.push("/games")
-											}
-										>
-											{tHero("ctaExploreGames")}
-										</Button>
-
+												onClick={() =>
+													setShowAuthFlow(true)
+												}
+											>
+												{tHero("ctaExploreGames")}
+											</Button>
+										)}
 										<Button
 											size="lg"
 											variant="outline"
@@ -155,7 +161,7 @@ export default function HeroSlider({ slides }: { slides: HeroSlideData[] }) {
                           hover:scale-105 hover:shadow-2xl hover:shadow-destructive/30
                           animate-in slide-in-from-bottom-4 "
 											onClick={() =>
-												router.push("/affiliate")
+												router.push("/games")
 											}
 										>
 											{tHero("ctaJoinAffiliate")}
@@ -164,11 +170,11 @@ export default function HeroSlider({ slides }: { slides: HeroSlideData[] }) {
 								</div>
 
 								{/* Subtle animated particles effect */}
-								<div className="absolute inset-0 opacity-20">
+								{/* <div className="absolute inset-0 opacity-20">
 									<div className="absolute top-1/4 left-1/4 w-2 h-2 bg-white/30 rounded-full animate-pulse" />
 									<div className="absolute top-3/4 right-1/4 w-1 h-1 bg-white/40 rounded-full animate-ping" />
 									<div className="absolute bottom-1/4 left-1/3 w-1.5 h-1.5 bg-white/25 rounded-full animate-bounce" />
-								</div>
+								</div> */}
 							</div>
 						</CarouselItem>
 					))}

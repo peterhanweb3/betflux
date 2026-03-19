@@ -1157,59 +1157,59 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "加入行动",
-			"subtitle": "立即注册并获得独家欢迎红利！",
+			"title": "立即体验加密赌场",
+			"subtitle": "连接您的钱包，几秒内开始游戏。\n即时提现，公平可验证。",
 			"cta": "立即注册"
 		},
 		"welcome": {
 			"title1": "欢迎红利",
 			"title2": "高达 590%",
 			"subtitle": "+ 225 次免费旋转",
-			"cta": "存款并获取"
+			"cta": "充值并领取"
 		},
 		"jackpot": {
-			"title1": "巨额大奖",
+			"title1": "超级大奖",
 			"title2": "$1,000,000",
-			"subtitle": "立即玩并赢大奖",
+			"subtitle": "立即玩 & 赢大奖",
 			"cta": "立即玩"
 		},
 		"cards": {
 			"casino": {
-				"title": "赌场",
+				"title": "娱乐场",
 				"badge": "590+ 游戏",
-				"desc": "享受 {siteName} 原创游戏和其他顶级供应商的赌场游戏。",
-				"link": "前往赌场"
+				"desc": "享受 {siteName} 原创和其他顶级提供商的娱乐场游戏。",
+				"link": "前往娱乐场"
 			},
 			"slots": {
 				"title": "老虎机",
 				"badge": "5292 游戏",
-				"desc": "旋转卷轴，通过我们的优质老虎机系列赢取巨额大奖。",
+				"desc": "通过我们的优质老虎机系列旋转卷轴并赢取巨额大奖。",
 				"link": "前往老虎机"
 			},
 			"sports": {
 				"title": "体育",
 				"badge": "3 游戏",
-				"desc": "以有竞争力的赔率投注您最喜爱的球队和体育赛事。",
+				"desc": "以具有竞争力的赔率投注您最喜欢的球队和体育赛事。",
 				"link": "前往体育"
 			},
 			"crypto": {
 				"title": "加密 & 赚币",
 				"badge": "60% APR",
-				"desc": "以诱人的利率质押、交易并赚取加密货币。",
+				"desc": "以诱人的利率质押、交易和赚取加密货币。",
 				"link": "前往加密"
 			}
 		},
 		"layout3": {
-			"headerTitle": "游戏焦点",
-			"headerSubtitle": "发现精彩游戏并在我们的精选系列中探索新冒险",
+			"headerTitle": "游戏聚焦",
+			"headerSubtitle": "在我们精选的合集中发现精彩游戏并探索新冒险",
 			"slider1Title": "精选游戏",
-			"slider1Badge": "员工精选",
+			"slider1Badge": "编辑推荐",
 			"slider2Title": "更多探索",
 			"slider2Badge": "热门",
-			"featuredGameLabel": "精选游戏"
+			"featuredGameLabel": "特色游戏"
 		},
-		"ctaExploreGames": "探索游戏",
-		"ctaJoinAffiliate": "加入推广"
+		"ctaExploreGames": "连接钱包",
+		"ctaJoinAffiliate": "立即游戏"
 	},
 	"betting": {
 		"live": {

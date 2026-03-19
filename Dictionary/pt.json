@@ -1157,20 +1157,20 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "Junte-se à Ação",
-			"subtitle": "Cadastre-se agora e ganhe um bônus de boas-vindas exclusivo!",
+			"title": "Jogue no cassino cripto instantaneamente",
+			"subtitle": "Conecte sua carteira e comece a jogar em segundos.\nSaques instantâneos. Comprovadamente justo!",
 			"cta": "Registrar Agora"
 		},
 		"welcome": {
 			"title1": "Bônus de Boas-vindas",
 			"title2": "Até 590%",
 			"subtitle": "+ 225 Rodadas Grátis",
-			"cta": "Depositar e Receber"
+			"cta": "Depositar & Receber"
 		},
 		"jackpot": {
 			"title1": "Mega Jackpot",
-			"title2": "$1,000,000",
-			"subtitle": "Jogue Agora e Ganhe Muito",
+			"title2": "$1.000.000",
+			"subtitle": "Jogue Agora & Ganhe Muito",
 			"cta": "Jogar Agora"
 		},
 		"cards": {
@@ -1183,33 +1183,33 @@
 			"slots": {
 				"title": "Slots",
 				"badge": "5292 JOGOS",
-				"desc": "Gire os rolos e acerte jackpots massivos com nossa coleção premium de slots.",
+				"desc": "Gire os rolos e acerte jackpots enormes com nossa coleção premium de slots.",
 				"link": "Ir para Slots"
 			},
 			"sports": {
 				"title": "Esportes",
 				"badge": "3 JOGOS",
-				"desc": "Aposte em seus times favoritos e eventos esportivos com odds competitivas.",
+				"desc": "Aposte em seus times e eventos esportivos favoritos com odds competitivas.",
 				"link": "Ir para Esportes"
 			},
 			"crypto": {
-				"title": "Cripto e Ganhar",
+				"title": "Cripto & Ganhar",
 				"badge": "60% APR",
 				"desc": "Faça stake, negocie e ganhe com criptomoedas a taxas atraentes.",
 				"link": "Ir para Cripto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "Destaque do Jogo",
-			"headerSubtitle": "Descubra jogos incríveis e explore novas aventuras em nossa coleção curada",
+			"headerTitle": "Destaque de Jogos",
+			"headerSubtitle": "Descubra jogos incríveis e explore novas aventuras em nossa coleção selecionada",
 			"slider1Title": "Jogos em Destaque",
 			"slider1Badge": "Escolhas da Equipe",
 			"slider2Title": "Mais para Explorar",
-			"slider2Badge": "Tendência",
+			"slider2Badge": "Em Alta",
 			"featuredGameLabel": "Jogo em Destaque"
 		},
-		"ctaExploreGames": "Explorar Jogos",
-		"ctaJoinAffiliate": "Tornar-se Afiliado"
+		"ctaExploreGames": "Conectar carteira",
+		"ctaJoinAffiliate": "Jogar agora"
 	},
 	"betting": {
 		"live": {

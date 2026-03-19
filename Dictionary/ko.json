@@ -1157,33 +1157,33 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "액션에 참여하세요",
-			"subtitle": "지금 가입하고 특별한 웰컴 보너스를 받으세요!",
-			"cta": "지금 등록"
+			"title": "즉시 크립토 카지노 플레이",
+			"subtitle": "지갑을 연결하고 몇 초 안에 라이브 게임을 시작하세요.\n즉시 출금. 공정성 보장.",
+			"cta": "지금 가입하기"
 		},
 		"welcome": {
 			"title1": "웰컴 보너스",
 			"title2": "최대 590%",
-			"subtitle": "+ 225 무료 스핀",
-			"cta": "입금 & 받기"
+			"subtitle": "+ 225 프리 스핀",
+			"cta": "입금하고 받기"
 		},
 		"jackpot": {
 			"title1": "메가 잭팟",
 			"title2": "$1,000,000",
-			"subtitle": "지금 플레이 & 빅 윈",
+			"subtitle": "지금 플레이하고 크게 이기세요",
 			"cta": "지금 플레이"
 		},
 		"cards": {
 			"casino": {
 				"title": "카지노",
 				"badge": "590+ 게임",
-				"desc": "최고 제공사의 {siteName} 오리지널 및 기타 카지노 게임을 즐기세요.",
+				"desc": "{siteName} 오리지널 및 최고 제공업체의 카지노 게임을 즐기세요.",
 				"link": "카지노로 이동"
 			},
 			"slots": {
 				"title": "슬롯",
 				"badge": "5292 게임",
-				"desc": "프리미엄 슬롯 컬렉션에서 릴을 돌리고 거대한 잭팟을 터뜨리세요.",
+				"desc": "프리미엄 슬롯 컬렉션으로 릴을 돌리고 거대한 잭팟을 노리세요.",
 				"link": "슬롯으로 이동"
 			},
 			"sports": {
@@ -1193,10 +1193,10 @@
 				"link": "스포츠로 이동"
 			},
 			"crypto": {
-				"title": "암호화폐 & 적립",
-				"badge": "60% 연이율(APR)",
+				"title": "암호화폐 & 수익",
+				"badge": "연이율 60%",
 				"desc": "매력적인 이율로 암호화폐를 스테이킹, 거래하고 수익을 얻으세요.",
-				"link": "크립토로 이동"
+				"link": "암호화폐로 이동"
 			}
 		},
 		"layout3": {
@@ -1206,10 +1206,10 @@
 			"slider1Badge": "스태프 픽",
 			"slider2Title": "더 보기",
 			"slider2Badge": "트렌딩",
-			"featuredGameLabel": "추천 게임"
+			"featuredGameLabel": "주목할 만한 게임"
 		},
-		"ctaExploreGames": "게임 탐색",
-		"ctaJoinAffiliate": "제휴 프로그램 참여"
+		"ctaExploreGames": "지갑 연결",
+		"ctaJoinAffiliate": "지금 플레이"
 	},
 	"betting": {
 		"live": {

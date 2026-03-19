@@ -1156,61 +1156,61 @@
 		}
 	},
 	"hero": {
-		"guest": {
-			"title": "アクションに参加しよう",
-			"subtitle": "今すぐ登録して限定ウェルカムボーナスをゲット！",
-			"cta": "今すぐ登録"
-		},
-		"welcome": {
-			"title1": "ウェルカムボーナス",
-			"title2": "最大590%",
-			"subtitle": "+ 225 フリースピン",
-			"cta": "入金してゲット"
-		},
-		"jackpot": {
-			"title1": "メガジャックポット",
-			"title2": "$1,000,000",
-			"subtitle": "今すぐプレイして大きく勝とう",
-			"cta": "今すぐプレイ"
-		},
-		"cards": {
-			"casino": {
-				"title": "カジノ",
-				"badge": "590+ ゲーム",
-				"desc": "{siteName}オリジナルやトッププロバイダーのカジノゲームを楽しもう。",
-				"link": "カジノへ"
-			},
-			"slots": {
-				"title": "スロット",
-				"badge": "5292 ゲーム",
-				"desc": "リールを回してプレミアムスロットコレクションで巨大ジャックポットを当てよう。",
-				"link": "スロットへ"
-			},
-			"sports": {
-				"title": "スポーツ",
-				"badge": "3 ゲーム",
-				"desc": "お気に入りのチームやスポーツイベントに競争力のあるオッズでベット。",
-				"link": "スポーツへ"
-			},
-			"crypto": {
-				"title": "仮想通貨 & 収益",
-				"badge": "60% APR",
-				"desc": "魅力的なレートで暗号通貨をステーク、取引、獲得。",
-				"link": "仮想通貨へ"
-			}
-		},
-		"layout3": {
-			"headerTitle": "ゲームスポットライト",
-			"headerSubtitle": "素晴らしいゲームを発見し、厳選されたコレクションで新しい冒険を探索",
-			"slider1Title": "注目のゲーム",
-			"slider1Badge": "スタッフのおすすめ",
-			"slider2Title": "さらに探索",
-			"slider2Badge": "トレンド",
-			"featuredGameLabel": "注目のゲーム"
-		},
-		"ctaExploreGames": "ゲームを探索",
-		"ctaJoinAffiliate": "アフィリエイトに参加"
-	},
+    "guest": {
+      "title": "今すぐ暗号カジノをプレイ",
+      "subtitle": "ウォレットを接続して数秒でライブゲームを開始。\n即時出金。公平性保証。",
+      "cta": "今すぐ登録"
+    },
+    "welcome": {
+      "title1": "ウェルカムボーナス",
+      "title2": "最大 590%",
+      "subtitle": "+ 225 フリースピン",
+      "cta": "入金してゲット"
+    },
+    "jackpot": {
+      "title1": "メガジャックポット",
+      "title2": "$1,000,000",
+      "subtitle": "今すぐプレイして大勝利",
+      "cta": "今すぐプレイ"
+    },
+    "cards": {
+      "casino": {
+        "title": "カジノ",
+        "badge": "590+ ゲーム",
+        "desc": "トッププロバイダーによる{siteName}オリジナルやその他のカジノゲームをお楽しみください。",
+        "link": "カジノへ行く"
+      },
+      "slots": {
+        "title": "スロット",
+        "badge": "5292 ゲーム",
+        "desc": "プレミアムスロットコレクションでリールを回して大量のジャックポットを当てましょう。",
+        "link": "スロットへ行く"
+      },
+      "sports": {
+        "title": "スポーツ",
+        "badge": "3 ゲーム",
+        "desc": "競争力のあるオッズでお気に入りのチームやスポーツイベントにベット。",
+        "link": "スポーツへ行く"
+      },
+      "crypto": {
+        "title": "クリプト＆獲得",
+        "badge": "60% APR",
+        "desc": "魅力的なレートで暗号通貨をステーク、取引、獲得。",
+        "link": "クリプトへ行く"
+      }
+    },
+    "layout3": {
+      "headerTitle": "ゲームスポットライト",
+      "headerSubtitle": "素晴らしいゲームを発見し、厳選されたコレクションで新しい冒険を探索",
+      "slider1Title": "注目のゲーム",
+      "slider1Badge": "スタッフのおすすめ",
+      "slider2Title": "もっと探索",
+      "slider2Badge": "トレンド",
+      "featuredGameLabel": "注目のゲーム"
+    },
+    "ctaExploreGames": "ウォレット接続",
+    "ctaJoinAffiliate": "今すぐプレイ"
+  },
 	"betting": {
 		"live": {
 			"winRate": "勝率",

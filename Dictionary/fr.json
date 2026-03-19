@@ -1157,59 +1157,59 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "Rejoignez l'action",
-			"subtitle": "Inscrivez-vous maintenant et obtenez un bonus de bienvenue exclusif !",
-			"cta": "S'inscrire maintenant"
+			"title": "Jouez au casino crypto instantanément",
+			"subtitle": "Connectez votre portefeuille et commencez à jouer en quelques secondes.\nRetraits instantanés. Équité prouvée.",
+			"cta": "S'inscrire Maintenant"
 		},
 		"welcome": {
-			"title1": "Bonus de bienvenue",
+			"title1": "Bonus de Bienvenue",
 			"title2": "Jusqu'à 590%",
-			"subtitle": "+ 225 tours gratuits",
-			"cta": "Déposer et obtenir"
+			"subtitle": "+ 225 Tours Gratuits",
+			"cta": "Déposer & Obtenir"
 		},
 		"jackpot": {
 			"title1": "Méga Jackpot",
-			"title2": "1 000 000 $",
-			"subtitle": "Jouez maintenant et gagnez gros",
-			"cta": "Jouer maintenant"
+			"title2": "$1,000,000",
+			"subtitle": "Jouez Maintenant & Gagnez Gros",
+			"cta": "Jouer Maintenant"
 		},
 		"cards": {
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JEUX",
-				"desc": "Profitez des originaux {siteName} et d'autres jeux de casino des meilleurs fournisseurs.",
-				"link": "Aller au casino"
+				"desc": "Profitez des Originaux {siteName} et d'autres jeux de casino des meilleurs fournisseurs.",
+				"link": "Aller au Casino"
 			},
 			"slots": {
 				"title": "Machines à sous",
 				"badge": "5292 JEUX",
 				"desc": "Faites tourner les rouleaux et décrochez des jackpots massifs avec notre collection de machines à sous premium.",
-				"link": "Aller aux machines à sous"
+				"link": "Aller aux Machines à sous"
 			},
 			"sports": {
 				"title": "Sports",
 				"badge": "3 JEUX",
 				"desc": "Pariez sur vos équipes et événements sportifs préférés avec des cotes compétitives.",
-				"link": "Aller aux sports"
+				"link": "Aller aux Sports"
 			},
 			"crypto": {
-				"title": "Crypto & Earn",
+				"title": "Crypto & Gagner",
 				"badge": "60% APR",
 				"desc": "Stakez, tradez et gagnez avec la cryptomonnaie à des taux attractifs.",
-				"link": "Aller à la crypto"
+				"link": "Aller à Crypto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "Jeux à la une",
-			"headerSubtitle": "Découvrez des jeux incroyables et explorez de nouvelles aventures dans notre collection organisée",
-			"slider1Title": "Jeux en vedette",
-			"slider1Badge": "Choix de l'équipe",
-			"slider2Title": "Plus à explorer",
+			"headerTitle": "Jeu en Vedette",
+			"headerSubtitle": "Découvrez des jeux incroyables et explorez de nouvelles aventures dans notre collection",
+			"slider1Title": "Jeux en Vedette",
+			"slider1Badge": "Choix de l'Équipe",
+			"slider2Title": "Plus à Explorer",
 			"slider2Badge": "Tendance",
-			"featuredGameLabel": "Jeu en vedette"
+			"featuredGameLabel": "Jeu en Vedette"
 		},
-		"ctaExploreGames": "Explorer les jeux",
-		"ctaJoinAffiliate": "Devenir affilié"
+		"ctaExploreGames": "Connecter le portefeuille",
+		"ctaJoinAffiliate": "Jouer maintenant"
 	},
 	"betting": {
 		"live": {
